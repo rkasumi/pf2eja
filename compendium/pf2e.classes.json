@@ -1,0 +1,97 @@
+{
+	"label": "クラス",
+	"entries": {
+		"Alchemist": {
+			"name": "アルケミスト",
+			"description": "<p><em>ビーカーの中で泡立つ不思議な抽出物ほど美しいものはない。君は独創的な霊薬を思うままに飲み干す。君は科学や自然界の秘密を解明することに魅了され、研究室や外出先で、あらゆる事態を想定した独創的な調合薬を常に試している。リスクに直面しても恐れを知らず、爆発物や毒物を敵に投げつけることもある。君が偉業を成し遂げるための独自の道には、心と体の限界に挑戦する錬金術的な醸造物が並んでいる。</em></p>\n<p>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.Om4e4tsgNWrComie]{Alchemist}</p>"
+		},
+		"Barbarian": {
+			"name": "バーバリアン",
+			"description": "<p><em>戦場で、君は怒りを糧とする。複雑な技術も厳しい訓練も必要とせず、驚異的な耐久力を頼りに強力な武器で敵を切り裂き、大混乱を引き起こすことに君は喜びを感じる。君の激怒は、動物や霊、君自身の一部に関連している凶悪な天性に基づいている。多くのバーバリアンにとって、力はハンマーであり、全ての問題は釘のように見える。一方で、自分の中にある感情の嵐を抑え、最も重要なときにのみ激怒を開放しようとするものもいる。</em></p>\n<p>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.lvuutBI9BSCU6cWe]{Barbarian}</p>"
+		},
+		"Bard": {
+			"name": "バード",
+			"description": "<p><em>君は芸術の達人であり、隠された秘密を知る学者であり、魅力的な説得者でもある。強力な芸を用いて、君は心に影響を与え、魂を英雄の新たな高みへと至らせる。君はその力で魅力的な指導者になることもあれば、心療士、黒幕、学者、悪人、芸術の匠にあることもあるだろう。君は多才であるが故に、君を魅力的な魅力的な器用貧乏だと思うものもいるが、君が一芸に秀でていないと片付けてしまうのはあまりに危険なことだ。</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.Tz0NWVqhZyt8EyUV]{Bard}</em></p>"
+		},
+		"Champion": {
+			"name": "チャンピオン",
+			"description": "<p><em>君はある神格の使者であり、重い任務を受けた献身的な従者であり、周囲の人々とは異なる規範を守っている。チャンピオンはすべての属性に存在するが、善のチャンピオンとして、君は罪のない人々に確信と希望を与える。君には強力な防御力があり、それを味方な罪なき傍観者らに分け与えることができる。また、悪の驚異を排除するための聖なる力も有している。君の献身は、旅を助けてくれる聖霊の注意をひくことさえある。</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.rebppVgBVi8J6TT2]{Champion}</em> (訳注：パラディン)</p>"
+		},
+		"Cleric": {
+			"name": "クレリック",
+			"description": "<p><em>神格らは数多の方法で世界にその意志を及ぼし、君は最も堅固な定命の従者の一人として神格に仕えている。信仰魔法に恵まれた君は宗教の理想に生き、教会の印で自分を飾り、神格の好む武器を扱うために熱心に訓練する。君の呪文は神格の意思に従い、味方を守り癒やすかもしれないし、敵や神敵を罰するかもしれない。君が手にするのは宗教の教えを言葉と振る舞いの両方で広める献身的な生活だ。</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.N4ABcd6CcCbqmw3x]{Cleric}</em></p>"
+		},
+		"Druid": {
+			"name": "ドルイド",
+			"description": "<p><em>自然の力に抗うことはできない。どんなに頑丈な要塞も数分で破壊し、どんなに巨大な建造物も瓦礫にし、灰にし、雪崩の下に沈め、波の下に水没させることができる。自然は尊重するものには限りない恵みと息を呑むような素晴らしさを与え、軽んじるものには苦痛に満ちた死をもたらす。君は自然の呼び声を聞くものの一人だ。君は自然の力の偉大さに畏敬の念をいだき、その奉仕に身を委ねる。</em></p>\n<p>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.8ElntNAGahQka70r]{Druid}</p>"
+		},
+		"Fighter": {
+			"name": "ファイター",
+			"description": "<p><em>名誉、欲、忠誠心、あるいは単に戦いの緊張感のために戦う君は、誰もが認める武器と戦闘技術の達人だ。君は敵が油断して構えを解いたならいつでも先陣を切って移動し、とどめを刺す一発を見舞い、反撃する、といった行為を賢く組み合わせる。君が騎士であれ、傭兵であれ、狙撃手であれ、剣術家であれ、君は武術を芸術の域にまで高め、敵に壊滅的な致命傷を与えることができる。</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.HZbrRRVzW7w17L2W]{ファイター}</em></p>"
+		},
+		"Gunslinger": {
+			"name": "Gunslinger",
+			"description": "<p><em>While some fear projectile weapons, you savor the searing flash, wild kick, and cloying smoke that accompanies a gunshot, or snap of the cable and telltale thunk of your crossbow just before your bolt finds purchase. Ready to draw a bead on an enemy at every turn, you rely on your reflexes, steady hand, and knowledge of your weapons to riddle your foes with holes.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.88K0xjShkhkckbhv]{Gunslinger}</em></p>"
+		},
+		"Inventor": {
+			"name": "Inventor",
+			"description": "<p><em>Any tinkerer can follow a diagram to make a device, but you invent the impossible! Every strange contraption you dream up is a unique experiment pushing the edge of possibility, a mysterious machine that seems to work for only you. You're always on the verge of the next great breakthrough, and every trial and tribulation is another opportunity to test and tune. If you can dream it, you can build it.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.gcRmL4Id1ggKDhvg]{Inventor}</em></p>"
+		},
+		"Investigator": {
+			"name": "Investigator",
+			"description": "<p><em>You seek to uncover the truth, doggedly pursuing leads to reveal the plots of devious villains, discover ancient secrets, or unravel other mysteries. Your analytical mind quickly formulates solutions to complicated problems and your honed senses identify even the most obscure clues. Wielding knowledge as a weapon, you study the creatures and dangers you encounter to exploit their weaknesses.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.omDi7otL3UWLVgct]{Investigator}</em></p>"
+		},
+		"Kineticist": {
+			"name": "Kineticist",
+			"description": "<p><em>The power of the elements flows from within you. Roaring fire pure water, fleeting air, steadfast earth, twisting wood, slicing metal. A kinetic gate inextricably tied to your body channels power directly from the elemental planes, causing elements to leap to your hand, whirl around your body, and blast foes at your whim. As your connection to the planes grows, you attain true mastery over your chosen elements.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.lNWQPwgT4vhYCOT7]{Kineticist}</em></p>"
+		},
+		"Magus": {
+			"name": "Magus",
+			"description": "<p><em>Combining the physicality and technique of a warrior with the ability to cast arcane magic, you seek to perfect the art of fusing spell and strike. While the hefty tome you carry reflects hours conducting arcane research, your enemies need no reminder of your training. They recognize it as you take them down.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.YVoyzV9v4QyP2UIC]{Magus}</em></p>"
+		},
+		"Monk": {
+			"name": "モンク",
+			"description": "<p><em>君の拳は心と精神から流れ出てくるものである。君は十全を求める――君の身体を完璧な器械へと、君の精神を秩序ある知恵の要塞へと磨く。君は武勇の技術と君独自の格闘の動きを与える戦闘の構えで知られる、獰猛な戦闘家である。多くの戦闘スタイルを習得するという挑戦は君を高みへと駆り立てるが、哲学的な疑問に対して瞑想し、平和と悟りを求めるための新しい方法を発見することも楽しむ。</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.hGKd722Kn4ZxIOJs]{Monk}</em></p>"
+		},
+		"Oracle": {
+			"name": "Oracle",
+			"description": "<p><em>Your conduit to divine power eschews the traditional channels of prayer and servitude-you instead glean divine truths that extend beyond any single deity. You understand the great mysteries of the universe embodied in overarching concepts that transcend good and evil or chaos and law, whether because you perceive the common ground across multiple deities or circumvent their power entirely.</em></p>\n<p><em>You explore one of these mysteries and draw upon its power to cast miraculous spells, but that power comes with a terrible price: a curse that grows stronger the more you draw upon it. Your abilities are a double-edged sword, which you might uphold as an instrument of the divine or view as a curse from the gods.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.bqaqOx3naiwTozBX]{Oracle}</em></p>"
+		},
+		"Psychic": {
+			"name": "Psychic",
+			"description": "<p><em>The mind can perceive truths hidden to fine-tuned instruments, house more secrets than any tome, and move objects and hearts more deftly than any lever. By delving into both the conscious and subconscious aspects of your inner self, you have awoken to the might of psychic magic, allowing you to cast spells not through incantations or gestures but by the power of your will alone. While the thin line between your mind and reality means that a single errant thought could have unintended consequences for yourself and your companions, you know that anything is possible, if you can imagine it.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.KVoEUJBAbAFUJTqw]{Psychic}</em></p>"
+		},
+		"Ranger": {
+			"name": "レンジャー",
+			"description": "<p><em>一部のレンジャーは、文明は魂をすり減らすものと考えながらも、文明を野生の生き物から保護しなければならないと考えている。別のレンジャーは自然を貪欲から保護する必要があると主張し、その美しさを飼いならし、自らのものにしたいと望んでいる。君はその目標の片方、あるいは両方を望んでいる。君は斥候、追跡者、逃亡者、あるいは獣の狩人であり、文明の境界に現れたり、荒野を探索しているかもしれない。君は文明圏から離れて生きる方法を知っており、適切な獲物と憎い敵の両方を見つけて鼻をあかすことを得意としている。</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.gdEmPPRYhRai7I1N]{Ranger}</em></p>"
+		},
+		"Rogue": {
+			"name": "ローグ",
+			"description": "<p><em>君は高い技術を持ち、自分の利益に従って動く。鋭い洞察力と素早い反応で相手のミスを活用し、最も痛いところを突く。スリルを求めて技術を試す危険なゲームを遊び、邪魔となる法律をあまり気にしない。すべてのローグの道は危険の満ちた独特のものだが、共有しているのはその技能の幅と深さである。</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.u4qPrDRBagxG9wj8]{Rogue}</em></p>"
+		},
+		"Sorcerer": {
+			"name": "ソーサラー",
+			"description": "<p><em>君は術者になることを選択したのではない。術者として生まれたのだ。君の祖先に神性が接触したのか、始原の生物と交わったのか、あるいは強力な古き儀式が血脈に力を与えたのかはわからない。しかし、君の血には魔力が流れている。君は学習と反復によって、固有の魔法の業を磨き、より強力な能力を開放することができる。しかし、血脈の力にはリスクが伴う。練達の術者として目覚めるか、破滅に陥るかの選択に、君は常に直面している。</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.ixBx2wZpnf4qUoEv]{Sorcerer}</em></p>"
+		},
+		"Summoner": {
+			"name": "Summoner",
+			"description": "<p><em>You can magically beckon a powerful being called an eidolon to your side, serving as the mortal conduit that anchors it to the world. Whether your eidolon is a friend, a servant, or even a personal god, your connection to it marks you as extraordinary, shaping the course of your life dramatically.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.gA4Ud8oSUGkkLwAi]{Summoner}</em></p>"
+		},
+		"Swashbuckler": {
+			"name": "Swashbuckler",
+			"description": "<p><em>Many warriors rely on brute force, weighty armor, or cumbersome weapons. For you, battle is a dance where you move among foes with style and grace. You dart among combatants with flair and land powerful finishing moves with a flick of the wrist and a flash of the blade, all while countering attacks with elegant ripostes that keep enemies off balance. Harassing and thwarting your foes lets you charm fate and cheat death time and again with aplomb and plenty of flair.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.rsDTKu4HUuKft7fk]{Swashbuckler}</em></p>"
+		},
+		"Thaumaturge": {
+			"name": "Thaumaturge",
+			"description": "<p><em>The world is full of the unexplainable: ancient magic, dead gods, and even stranger things. In response, you've scavenged the best parts of every magical tradition and built up a collection of esoterica—a broken holy relic here, a sprig of mistletoe there—that you can use to best any creature by exploiting their weaknesses and vulnerabilities. The mystic implement you carry is both badge and weapon, its symbolic weight helping you bargain with and subdue the supernatural. Every path to power has its restrictions and costs, but you turn them all to your advantage. You're a thaumaturge, and you work wonders.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.qigU4oNH2KDVvhjX]{Thaumaturge}</em></p>"
+		},
+		"Witch": {
+			"name": "ウィッチ",
+			"description": "<p><em>君が強力な魔法を行使するのは、研究や理想への献身ではなく、自分でさえ完全には理解していない謎めいた異世界の守護者のための器や代理人としてである。この存在は、隠れた神格、強力なフェイ、自然エネルギーの顕現、古代の精霊、その他の強力な超自然的存在であるかもしれないが、その性質は他の誰にとっても同様に、君にとっても謎めいた存在である可能性が高い。特別な馴染みのあるものを通じて、守護者は君が思うように使える万能なる呪文や強力な呪術を与えてくれるが、これらの贈り物が最終的に守護者のより大きな計画に役立つかどうかはわからない。</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.fYJruhQfzs4dj0mp]{Witch}</em></p>"
+		},
+		"Wizard": {
+			"name": "ウィザード",
+			"description": "<p><em>君は世界に秘められた魔術の永遠なる学徒であり、魔法の修練を積むことで強力な呪文を発動する。魔法を科学のように扱い、魔法の仕組みを発見・理解するために、最新の魔法の実用的な文献と古代の秘儀を記した魔術書を読み比べる。しかし、魔法理論は広大であり、全てを学ぶ方法はない。そこで、8つの魔法体系のいずれかに特化して微妙な違いを深く掘り下げるか、深みを犠牲にして広範的な魔術を総合するようなアプローチを好むかは術者それぞれに異なる。</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.wDukeO3euLEGn6FA]{Wizard}</em></p>"
+		}
+	}
+}

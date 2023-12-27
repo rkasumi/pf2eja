@@ -1,0 +1,2226 @@
+{
+    "PF2E": {
+        "AttackEffects": {
+            "DropWeapon": "クリーチャーは使っている武器を落とす",
+            "IgnoreConcealed": "この攻撃は@Compendium[pf2e.conditionitems.Concealed]{視認困難}状態を無視する。",
+            "IgnoreCover": "対象は劣った遮蔽から利益を受けず、標準の遮蔽によるACボーナスをこの攻撃に対して2減らす",
+            "IncreasedCriticalChance": "もし、攻撃が命中し、クリーチャーが出目19をロールしていたなら、クリティカル・ヒットになる。出目19で命中しないなら何の効果もない。",
+            "IncreasedReach5": "間合いが5フィート増える",
+            "InterruptAction": "命中時、対象のアクションは妨害される",
+            "KnockProne": "命中時、対象は@Compendium[pf2e.conditionitems.Prone]{伏せ}状態になる"
+        },
+        "BattleForm": {
+            "Attack": {
+                "Antler": "枝角",
+                "Beak": "くちばし",
+                "Beard": "ひげ",
+                "Body": "全身",
+                "BoneShard": "骨の破片",
+                "Boot": "ブーツ",
+                "Branch": "枝",
+                "Claw": "爪",
+                "CubeFace": "立方体の顔",
+                "Fangs": "牙",
+                "FireMote": "火の粒子",
+                "Foot": "足",
+                "Foreleg": "前脚",
+                "Gust": "突風",
+                "HolyMace": "聖なるメイス",
+                "Hoof": "蹄",
+                "Horn": "角",
+                "Jaws": "顎",
+                "LavaFist": "溶岩の拳",
+                "Leaf": "葉",
+                "Leg": "脚",
+                "LightingLash": "雷の鞭",
+                "Mandibles": "大顎",
+                "Moonbeam": "月光",
+                "PiercingHymn": "貫く聖歌",
+                "Pincer": "はさみ",
+                "Pseudopod": "触肢",
+                "Rock": "岩",
+                "Spine": "脊骨",
+                "Spikes": "棘",
+                "Stinger": "針",
+                "Sunbeam": "陽光",
+                "Tail": "尾",
+                "Talon": "鉤爪",
+                "Tendril": "巻づる",
+                "Tentacle": "触手",
+                "TentacleArm": "触腕",
+                "Thorn": "いばら",
+                "Tongue": "舌",
+                "Trunk": "鼻",
+                "Tusk": "大牙",
+                "Vine": "つる",
+                "WaterSpout": "水の噴出",
+                "Wave": "波",
+                "Wing": "翼"
+            },
+            "Note": {
+                "GrabbingTrunk": {
+                    "Title": "鼻によるつかみ",
+                    "Text": "君の鼻による攻撃が命中した、君よりも2サイズ以上小さいクリーチャーは @Compendium[pf2e.conditionitems.Grabbed]{つかまれた状態}になる。君が鼻につかまれたクリーチャーに対する@Compendium[pf2e.actionspf2e.Grapple]{「組みつき」} 判定に成功したなら、君は鼻の間合い内にある別の空間にそのクリーチャーを再配置することが出来る。"
+                }
+            }
+        },
+        "BombNotes": {
+            "AcidFlask": {
+                "Greater": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {3d6}[継続、強酸]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続強酸ダメージ} と [[/r {3}[飛散、強酸]]]{3点の強酸飛散ダメージ}を与える",
+                    "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {2*3d6}[継続、強酸]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続強酸ダメージ} と [[/r {3}[飛散、強酸]]]{3点の強酸飛散ダメージ}を与える"
+                },
+                "Lesser": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {1d6}[継続、強酸]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続強酸ダメージ} と [[/r {1}[飛散、強酸]]]{1点の強酸飛散ダメージ}を与える",
+                    "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {2*1d6}[継続、強酸]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続強酸ダメージ} and [[/r {1}[飛散、強酸]]]{1点の強酸飛散ダメージ}"
+                },
+                "Major": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {4d6}[継続、強酸]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続強酸ダメージ} と [[/r {4}[splash,acid]]]{4点の強酸飛散ダメージ}を与える",
+                    "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {2*4d6}[継続、強酸]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続強酸ダメージ} と [[/r {4}[splash,acid]]]{4点の強酸飛散ダメージ}を与える"
+                },
+                "Moderate": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {2d6}[継続、強酸]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続強酸ダメージ} と [[/r {2}[splash,acid]]]{2点の強酸飛散ダメージ}を与える",
+                    "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {2*2d6}[継続、強酸]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続強酸ダメージ} と [[/r {2}[splash,acid]]]{2点の強酸飛散ダメージ}を与える"
+                }
+            },
+            "AlchemistsFire": {
+                "Greater": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {3}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ} と [[/r {3}[飛散、火炎]]]{3点の火炎飛散ダメージ}を与える",
+                    "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {2*3}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ} と [[/r {3}[飛散、火炎]]]{3点の火炎飛散ダメージ}を与える"
+                },
+                "Lesser": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {1}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ} と [[/r {1}[飛散、火炎]]]{1点の火炎飛散ダメージ}を与える",
+                    "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {2*1}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ} と [[/r {1}[splash,fire]]]{1点の火炎飛散ダメージ}を与える"
+                },
+                "Major": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {4}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ} と [[/r {4}[飛散、火炎]]]{4点の火炎飛散ダメージ}を与える",
+                    "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {2*4}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ} と [[/r {4}[飛散、火炎]]]{4点の火炎飛散ダメージ}を与える"
+                },
+                "Moderate": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {2}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ} と [[/r {2}[飛散、火炎]]]{2点の火炎飛散ダメージ}を与える",
+                    "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {2*2}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ} と [[/r {2}[飛散、火炎]]]{2点の火炎飛散ダメージ}を与える"
+                }
+            },
+            "BioluminescenceBomb": {
+                "success": "<p>Each creature within @Template[type:emanation|distance:10]{10 feet} of where the bomb exploded must succeed at a @Check[type:reflex|dc:17] save or be marked with dye that continues to glow for 24 hours. An affected creature must also attempt a @Check[type:fortitude|dc:17] saving throw against the overwhelming burst of light.</p><p><strong>Success</strong> The creature is unaffected.</p><p><strong>Failure</strong> The creature is @Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Dazzled} for 1 round.</p><p><strong>Critical Failure</strong> The creature is @Compendium[pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Blinded} for 1 round, then dazzled for 1 round.</p>"
+            },
+            "BlightBomb": {
+                "Greater": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {3d4}[継続、毒]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続毒ダメージ} と [[/r {3}[飛散、毒]]]{3点の毒飛散ダメージ}を与える",
+                    "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {2*3d4}[継続、毒]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続毒ダメージ} と [[/r {3}[飛散、毒]]]{3点の毒飛散ダメージ}を与える"
+                },
+                "Lesser": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {1d4}[継続、毒]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続毒ダメージ} と [[/r {1}[splash,poison]]]{1点の毒飛散ダメージ}を与える",
+                    "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {2*1d4}[継続、毒]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続毒ダメージ} と [[/r {1}[splash,poison]]]{1点の毒飛散ダメージ}を与える"
+                },
+                "Major": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {4d4}[継続、毒]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続毒ダメージ} と [[/r {4}[飛散、毒]]]{4点の毒飛散ダメージ}",
+                    "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {2*4d4}[継続、毒]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続毒ダメージ} と [[/r {4}[飛散、毒]]]{4点の毒飛散ダメージ}である。"
+                },
+                "Moderate": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {2d4}[継続、毒]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続毒ダメージ} と [[/r {2}[飛散、毒]]]{2点の毒飛散ダメージ}を与える",
+                    "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {2*2d4}[継続、毒]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続毒ダメージ} と [[/r {2}[飛散、毒]]]{2点の毒飛散ダメージ}である"
+                }
+            },
+            "BottledLightning": {
+                "Greater": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {3}[飛散、電撃]]]{3点の電撃飛散ダメージ}を与え、対象は次の君の手番の開始時まで @Compendium[pf2e.conditionitems.Flat-Footed]{立ちすくみ} になる"
+                },
+                "Lesser": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {1}[飛散、電撃]]]{1点の電撃飛散ダメージ} を与え、対象は次の君の手番の開始時まで @Compendium[pf2e.conditionitems.Flat-Footed]{立ちすくみ} となる"
+                },
+                "Major": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {4}[飛散、電撃]]]{4点の電撃飛散ダメージ} を与え、対象は次の君の手番の開始時まで @Compendium[pf2e.conditionitems.Flat-Footed]{立ちすくみ} となる"
+                },
+                "Moderate": {
+                    "success": "<strong>効果</strong> T爆弾は [[/r {2}[飛散、電撃]]]{2点の電撃飛散ダメージ} を与え、対象は次の君の手番の開始時まで @Compendium[pf2e.conditionitems.Flat-Footed]{立ちすくみ} となる"
+                }
+            },
+            "CrystalShards": {
+                "Greater": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {5}[飛散、刺突]]]{5点の刺突飛散ダメージ}を与え、飛沫は水平な表面で @Compendium[pf2e.equipment-srd.Caltrops]{まきびし}となり、垂直な表面で持ち手となるような水晶を作り出す。これは、「登攀」のための次の〈運動〉判定に+2アイテム・ボーナスを与える。"
+                },
+                "Major": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {6}[飛散、刺突]]]{6点の刺突飛散ダメージ} を与え、飛沫は水平な表面で @Compendium[pf2e.equipment-srd.Caltrops]{まきびし}となり、垂直な表面で持ち手となるような水晶を作り出す。これは、「登攀」のための次の〈運動〉判定に+3アイテム・ボーナスを与える。"
+                },
+                "Moderate": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {4}[飛散、刺突]]]{4点の刺突飛散ダメージ} を与え、飛沫は水平な表面で @Compendium[pf2e.equipment-srd.Caltrops]{まきびし}となり、垂直な表面で持ち手となるような水晶を作り出す。これは、「登攀」のための次の〈運動〉判定に+1アイテム・ボーナスを与える。"
+                }
+            },
+            "DreadAmpoule": {
+                "Greater": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {3}[飛散、精神]]]{3点の精神飛散ダメージ} を与え、対象は @Compendium[pf2e.conditionitems.Frightened]{怯え1}になる (クリティカルで@Compendium[pf2e.conditionitems.Frightened]{怯え2} になる)"
+                },
+                "Lesser": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {1}[飛散、精神]]]{1点の精神飛散ダメージ} を与え、対象は @Compendium[pf2e.conditionitems.Frightened]{怯え1} になる(クリティカルで@Compendium[pf2e.conditionitems.Frightened]{怯え2}になる)"
+                },
+                "Major": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {4}[飛散、精神]]]{4点の精神飛散ダメージ} を与え、対象は @Compendium[pf2e.conditionitems.Frightened]{怯え1}になる(クリティカルで@Compendium[pf2e.conditionitems.Frightened]{怯え2}になる)"
+                },
+                "Moderate": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {2}[飛散、精神]]]{2点の精神飛散ダメージ} を与え、対象は @Compendium[pf2e.conditionitems.Frightened]{怯え1} になる(クリティカルで@Compendium[pf2e.conditionitems.Frightened]{怯え2} になる)"
+                }
+            },
+            "DwarvenDaisy": {
+                "Lesser": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {1}[splash,fire]]]{1点の火炎飛散ダメージ} を与え、対象は @Check[type:fortitude|dc:16|name:Lesser Dwarven Daisy|traits:damaging-effect|showDC:all] 頑健セーヴに成功しなければ、1ラウンド、 @Compendium[pf2e.conditionitems.Dazzled]{目が眩んだ状態} になる"
+                },
+                "Moderate": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {2}[飛散、火炎]]]{2点の火炎飛散ダメージ} を与え、対象は @Check[type:fortitude|dc:18|name:Moderate Dwarven Daisy|traits:damaging-effect|showDC:all] 頑健セーヴに成功しなければ、1ラウンド、 @Compendium[pf2e.conditionitems.Dazzled]{目が眩んだ状態} になる"
+                }
+            },
+            "FrostVial": {
+                "Greater": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {3}[飛散、氷雪]]]{3点の氷雪飛散ダメージ} を与え、対象は次の手番の終了時まで速度に-10フィート・ペナルティを受ける (@Compendium[pf2e.equipment-effects.Effect: Frost Vial (Greater)]{効果: フロスト・ヴァイアル (グレーター)})"
+                },
+                "Lesser": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {1}[飛散、氷雪]]]{1点の氷雪飛散ダメージ} を与え、対象は次の手番の終了時まで速度に-5フィート・ペナルティを受ける(@Compendium[pf2e.equipment-effects.Effect: Frost Vial (Lesser)]{効果: フロスト・ヴァイアル (レッサー)})"
+                },
+                "Major": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {4}[飛散、氷雪]]]{4点の氷雪飛散ダメージ} を与え、対象は次の手番の終了時まで速度に-15フィート・ペナルティを受ける (@Compendium[pf2e.equipment-effects.Effect: Frost Vial (Major)]{効果: フロスト・ヴァイアル (メジャー)})"
+                },
+                "Moderate": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {2}[飛散、氷雪]]]{2点の氷雪飛散ダメージ} を与え、対象は次の手番の終了時まで速度に-10フィート・ペナルティを受ける(@Compendium[pf2e.equipment-effects.Effect: Frost Vial (Moderate)]{効果: フロスト・ヴァイアル (モデレート)})"
+                }
+            },
+            "GhostCharge": {
+                "Greater": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {3}[飛散、正のエネルギー]]]{3点の正のエネルギー飛散ダメージ} を与え、対象は君の次の手番の開始時まで @Compendium[pf2e.conditionitems.Enfeebled]{衰弱2} になる"
+                },
+                "Lesser": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {1}[飛散、正のエネルギー]]]{1点の正のエネルギーダメージ} を与え、対象は君の次の手番の開始時まで @Compendium[pf2e.conditionitems.Enfeebled]{衰弱1} になる"
+                },
+                "Major": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {4}[飛散、正のエネルギー]]]{4点の正のエネルギー飛散ダメージ} を与え、対象は君の次の手番の開始時まで @Compendium[pf2e.conditionitems.Enfeebled]{衰弱 2} になる"
+                },
+                "Moderate": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {2}[飛散、正のエネルギー]]]{2点の正のエネルギー飛散ダメージ} を与え、対象は君の次の手番の開始時まで @Compendium[pf2e.conditionitems.Enfeebled]{衰弱 1} になる"
+                }
+            },
+            "GooGrenade": {
+                "Greater": "Greater",
+                "Lesser": "Lesser",
+                "Major": "Major",
+                "Moderate": "Moderate",
+                "Prompt": "Select a goo grenade quality.",
+                "success": "<strong>Effect</strong> On a hit, the creature takes a penalty to its Speeds from the clinging goo. @UUID[Compendium.pf2e.equipment-effects.5JYchreCttBg7RcD]{Effect: Goo Grenade}"
+            },
+            "JunkBomb": {
+                "Greater": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {3}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ} と [[/r {3}[飛散、斬撃]]]{3点の斬撃飛散ダメージ}を与える",
+                    "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {6}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ} と [[/r {3}[飛散、斬撃]]]{3点の斬撃飛散ダメージ}を与える"
+                },
+                "Lesser": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {1}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ} と [[/r {1}[飛散、斬撃]]]{1点の斬撃飛散ダメージ}を与える",
+                    "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {2}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ} と [[/r {1}[飛散、斬撃]]]{1点の斬撃飛散ダメージ}を与える"
+                },
+                "Major": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {4}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ} と [[/r {4}[飛散、斬撃]]]{4点の斬撃飛散ダメージ}を与える",
+                    "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {8}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ} と [[/r {4}[斬撃、飛散]]]{4点の斬撃飛散ダメージ}を与える"
+                },
+                "Moderate": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {2}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ} と [[/r {2}[斬撃、飛散]]]{2点の斬撃飛散ダメージ}を与える",
+                    "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {4}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ} と [[/r {2}[斬撃、飛散]]]{2点の斬撃飛散ダメージ}を与える"
+                }
+            },
+            "MudBomb": {
+                "Greater": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {3}[飛散、殴打]]]{3点の殴打飛散ダメージ}を与える",
+                    "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {3}[飛散、殴打]]]{3点の殴打飛散ダメージ}を与える。対象は君の次の手番の開始時まで @Compendium[pf2e.conditionitems.Dazzled]{目が眩んだ状態}になる"
+                },
+                "Lesser": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {1}[飛散、殴打]]]{1点の殴打飛散ダメージ}を与える",
+                    "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {1}[飛散、殴打]]]{1点の殴打飛散ダメージ}を与える。対象は君の次の手番の開始時まで @Compendium[pf2e.conditionitems.Dazzled]{目が眩んだ状態} になる"
+                },
+                "Major": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {4}[飛散、殴打]]]{4点の殴打飛散ダメージ}を与える",
+                    "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {4}[飛散、殴打]]]{4点の殴打飛散ダメージ}を与える。 対象は君の次の手番の開始時まで @Compendium[pf2e.conditionitems.Dazzled]{目が眩んだ状態}である"
+                },
+                "Moderate": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {2}[splash,bludgeoning]]]{2点の殴打飛散ダメージ}を与える",
+                    "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {2}[飛散、殴打]]]{2点の殴打飛散ダメージ}を与える。対象は君の次の手番の開始時まで @Compendium[pf2e.conditionitems.Dazzled]{目が眩んだ状態} である"
+                }
+            },
+            "NecroticBomb": {
+                "Greater": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {3}[飛散、負のエネルギー]]]{3点の負のエネルギー飛散ダメージ}を与える",
+                    "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {3}[飛散、負のエネルギー]]]{3点の負のエネルギー飛散ダメージ} を与え、対象は@Compendium[pf2e.conditionitems.Sickened]{不調3}になる"
+                },
+                "Lesser": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {1}[飛散、負のエネルギー]]]{1点の負のエネルギー飛散ダメージ}を与える",
+                    "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {1}[飛散、負のエネルギー]]]{1点の負のエネルギー飛散ダメージ} を与え、対象は@Compendium[pf2e.conditionitems.Sickened]{不調1}になる"
+                },
+                "Major": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {4}[飛散、負のエネルギー]]]{4点の負のエネルギー飛散ダメージ}を与える",
+                    "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {4}[飛散、負のエネルギー]]]{4点の負のエネルギー飛散ダメージ} を与え、対象は@Compendium[pf2e.conditionitems.Sickened]{不調4}になる"
+                },
+                "Moderate": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {2}[飛散、負のエネルギー]]]{2点の負のエネルギー飛散ダメージ}を与える",
+                    "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {2}[飛散、負のエネルギー]]]{2点の負のエネルギー飛散ダメージ} を与え、対象は@Compendium[pf2e.conditionitems.Sickened]{不調2}になる"
+                }
+            },
+            "PerniciousSporeBomb": {
+                "Greater": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {3d4}[継続、刺突]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続刺突ダメージ} と [[/r {3}[飛散、毒]]]{3点の毒飛散ダメージ}を与える。 爆弾の飛散範囲は草で覆われ、1ラウンド、移動困難な地形になる。",
+                    "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {6d4}[継続、刺突]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続刺突ダメージ} と [[/r {3}[飛散、毒]]]{3点の毒飛散ダメージ}を与える。爆弾の飛散範囲は草で覆われ、1ラウンド、移動困難な地形になる。"
+                },
+                "Lesser": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {1d4}[継続、刺突]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続刺突ダメージ} と [[/r {1}[飛散、毒]]]{1点の毒飛散ダメージ}を与える。 爆弾の飛散範囲は草で覆われ、1ラウンド、移動困難な地形になる。",
+                    "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {2d4}[継続、刺突]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続刺突ダメージ} と [[/r {1}[飛散、毒]]]{1点の毒飛散ダメージ}を与える。爆弾の飛散範囲は草で覆われ、1ラウンド、移動困難な地形になる。"
+                },
+                "Major": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {4d4}[継続、刺突]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続刺突ダメージ} と [[/r {4}[飛散、毒]]]{4点の毒飛散ダメージ}を与える。 爆弾の飛散範囲は草で覆われ、1分、移動困難な地形になる。",
+                    "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {8d4}[継続、刺突]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続刺突ダメージ} と [[/r {4}[飛散、毒]]]{4点の毒飛散ダメージ}を与える。爆弾の飛散範囲は草で覆われ、1分、移動困難な地形になる。"
+                },
+                "Moderate": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {2d4}[継続、刺突]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続刺突ダメージ} と [[/r {2}[飛散、毒]]]{2点の毒飛散ダメージ}を与える。 爆弾の飛散範囲は草で覆われ、1ラウンド、移動困難な地形になる。",
+                    "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {4d4}[継続、刺突]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続刺突ダメージ} と [[/r {2}[飛散、毒]]]{2点の毒飛散ダメージ}を与える。爆弾の飛散範囲は草で覆われ、1ラウンド、移動困難な地形になる。"
+                }
+            },
+            "PeshspineGrenade": {
+                "Greater": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {3}[飛散、刺突]]]{3点の刺突飛散ダメージ} を与え、対象は、対象の手番の終了時まで @Compendium[pf2e.conditionitems.Stupefied]{知性低下2} になる"
+                },
+                "Lesser": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {1}[飛散、刺突]]]{1点の刺突飛散ダメージ} を与え、対象は、対象の手番の終了時まで @Compendium[pf2e.conditionitems.Stupefied]{知性低下1} になる"
+                },
+                "Major": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {4}[飛散、刺突]]]{4点の刺突飛散ダメージ} を与え、対象は、対象の手番の終了時まで @Compendium[pf2e.conditionitems.Stupefied]{知性低下3} になる"
+                },
+                "Moderate": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {2}[飛散、刺突]]]{2点の刺突飛散ダメージ} を与え、対象は、対象の手番の終了時まで @Compendium[pf2e.conditionitems.Stupefied]{知性低下1} になる"
+                }
+            },
+            "PressureBomb": {
+                "Greater": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {3}[飛散、殴打]]]{3点の殴打飛散ダメージ}を与え、中型以下の対象は君から5フィート押しのけられる",
+                    "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {3}[飛散、殴打]]]{3点の殴打飛散ダメージ}を与え、中型以下の対象は君から5フィート押しのけられ、 @Compendium[pf2e.conditionitems.Prone]{伏せ状態}になる"
+                },
+                "Lesser": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {1}[飛散、殴打]]]{1点の殴打飛散ダメージ}を与え、中型以下の対象は君から5フィート押しのけられる",
+                    "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {1}[飛散、殴打]]]{1点の殴打飛散ダメージ}を与え、中型以下の対象は君から5フィート押しのけられ、 @Compendium[pf2e.conditionitems.Prone]{伏せ状態}になる"
+                },
+                "Major": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {4}[飛散、殴打]]]{4点の殴打飛散ダメージ}を与える。飛散ダメージを受けた中型以下のクリーチャーは対象から5フィート押しのけられ、対象が大型以下なら、君から5フィート押しのけられる",
+                    "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {4}[飛散、殴打]]]{4点の殴打飛散ダメージ}を与える。飛散ダメージを受けた中型以下のクリーチャーは対象から5フィート押しのけられ、対象が大型以下なら、君から5フィート押しのけられる中型以下の対象は君から5フィート押しのけられ、 @Compendium[pf2e.conditionitems.Prone]{伏せ状態}になる"
+                },
+                "Moderate": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {2}[飛散、殴打]]]{2点の殴打飛散ダメージ}を与え、小型以下の対象は君から5フィート押しのけられる",
+                    "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {2}[飛散、殴打]]]{2点の殴打飛散ダメージ}を与え、小型以下の対象は君から5フィート押しのけられ、 @Compendium[pf2e.conditionitems.Prone]{伏せ状態}になる"
+                }
+            },
+            "RedpitchBomb": {
+                "Greater": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {3d4}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ} と [[/r {3}[飛散、火炎]]]{3点の火炎飛散ダメージ}を与える",
+                    "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {2*3d4}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ} と [[/r {3}[飛散、火炎]]]{3点の火炎飛散ダメージ}を与える。クリティカルした際、対象は君の次の手番の開始時まで @Compendium[pf2e.conditionitems.Clumsy]{もたつき2} になる"
+                },
+                "Lesser": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {1d4}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ} と [[/r {1}[飛散、火炎]]]{1点の火炎飛散ダメージ}を与える",
+                    "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {2*1d4}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ} と [[/r {1}[飛散、火炎]]]{1点の火炎飛散ダメージ}を与える。クリティカルした際、対象は君の次の手番の開始時まで @Compendium[pf2e.conditionitems.Clumsy]{もたつき1} になる"
+                },
+                "Major": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {4d4}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ} と [[/r {4}[飛散、火炎]]]{4点の火炎飛散ダメージ}を与える",
+                    "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {2*4d4}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ} と [[/r {4}[飛散、火炎]]]{4点の火炎飛散ダメージ}を与える。クリティカルした際、対象は君の次の手番の開始時まで @Compendium[pf2e.conditionitems.Clumsy]{もたつき3} になる"
+                },
+                "Moderate": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {2d4}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ} と [[/r {2}[飛散、火炎]]]{2点の火炎飛散ダメージ}を与える",
+                    "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {2*2d4}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ} と [[/r {2}[飛散、火炎]]]{2点の火炎飛散ダメージ}を与える。クリティカルした際、対象は君の次の手番の開始時まで @Compendium[pf2e.conditionitems.Clumsy]{もたつき1} になる"
+                }
+            },
+            "SulfurBomb": {
+                "Greater": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {3}[飛散、強酸]]]{3点の強酸飛散ダメージ} を与え、対象はその次の手番の終了時まで知覚と攻撃ロールに-1ステータス・ペナルティを受ける (@Compendium[pf2e.equipment-effects.Effect: Sulfur Bomb (Failure)]{効果: ソルファー・ボム (失敗)})",
+                    "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {3}[飛散、強酸]]]{3点の強酸飛散ダメージ}を与え、対象は@Compendium[pf2e.conditionitems.Sickened]{不調1}になる"
+                },
+                "Lesser": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {1}[飛散、強酸]]]{1点の強酸飛散ダメージ} を与え、対象はその次の手番の終了時まで知覚と攻撃ロールに-1ステータス・ペナルティを受ける (@Compendium[pf2e.equipment-effects.Effect: Sulfur Bomb (Failure)]{効果: ソルファー・ボム (失敗)})",
+                    "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {1}[飛散、強酸]]]{1点の強酸飛散ダメージ}を与え、対象は@Compendium[pf2e.conditionitems.Sickened]{不調1}になる"
+                },
+                "Major": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {4}[飛散、強酸]]]{4点の強酸飛散ダメージ}を与え、対象はその次の手番の終了時まで知覚と攻撃ロールに-1ステータス・ペナルティを受ける (@Compendium[pf2e.equipment-effects.Effect: Sulfur Bomb (Failure)]{効果: ソルファー・ボム (失敗)})",
+                    "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {4}[飛散、強酸]]]{4点の強酸飛散ダメージ}を与え、対象は@Compendium[pf2e.conditionitems.Sickened]{不調1}になる"
+                },
+                "Moderate": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {2}[飛散、強酸]]]{2点の強酸飛散ダメージ}を与え、対象はその次の手番の終了時まで知覚と攻撃ロールに-1ステータス・ペナルティを受ける (@Compendium[pf2e.equipment-effects.Effect: Sulfur Bomb (Failure)]{効果: ソルファー・ボム (失敗)})",
+                    "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {2}[飛散、強酸]]]{2点の強酸飛散ダメージ}を与え、対象は@Compendium[pf2e.conditionitems.Sickened]{不調1}になる"
+                }
+            },
+            "TallowBomb": {
+                "Greater": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {3d4}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ} と [[/r {3}[飛散、火炎]]]{3点の火炎飛散ダメージ}を与える",
+                    "criticalSuccess": "<strong>効果</strong> 爆弾は[[/r {2*3d4}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ}と[[/r {3}[飛散、火炎]]]{3点の火炎飛散ダメージ}を与え、対象は燃える脂肪による悪臭から @Compendium[pf2e.conditionitems.Sickened]{不調1} になる。クリーチャーは、継続火炎ダメージが持続している限り、不調値を減らすことが出来ない。"
+                },
+                "Lesser": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {1d4}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ} と [[/r {1}[飛散、火炎]]]{1点の火炎飛散ダメージ}を与える",
+                    "criticalSuccess": "<strong>効果</strong> 爆弾は[[/r {2*1d4}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ}と[[/r {1}[飛散、火炎]]]{1点の火炎飛散ダメージ}を与え、対象は燃える脂肪による悪臭から @Compendium[pf2e.conditionitems.Sickened]{不調1} になる。クリーチャーは、継続火炎ダメージが持続している限り、不調値を減らすことが出来ない。"
+                },
+                "Major": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {1d4}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ} と [[/r {4}[飛散、火炎]]]{4点の火炎飛散ダメージ}を与える",
+                    "criticalSuccess": "<strong>効果</strong> 爆弾は[[/r {2*4d4}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ}と[[/r {4}[飛散、火炎]]]{4点の火炎飛散ダメージ}を与え、対象は燃える脂肪による悪臭から @Compendium[pf2e.conditionitems.Sickened]{不調1} になる。クリーチャーは、継続火炎ダメージが持続している限り、不調値を減らすことが出来ない。"
+                },
+                "Moderate": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {2d4}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ} と [[/r {2}[飛散、火炎]]]{2点の火炎飛散ダメージ}を与える",
+                    "criticalSuccess": "<strong>効果</strong> 爆弾は[[/r {2*2d4}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ}と[[/r {2}[飛散、火炎]]]{2点の火炎飛散ダメージ}を与え、対象は燃える脂肪による悪臭から @Compendium[pf2e.conditionitems.Sickened]{不調1} になる。クリーチャーは、継続火炎ダメージが持続している限り、不調値を減らすことが出来ない。"
+                }
+            },
+            "TanglefootBag": {
+                "Greater": {
+                    "success": "<strong>効果</strong> 命中時、1分間、 @Compendium[pf2e.equipment-effects.Effect: Tanglefoot Bag (Greater)]{-15フィートの速度ペナルティ} を受ける。 <hr /><i>タングルフット・バッグはダメージを与えない</i>.",
+                    "criticalSuccess": "<strong>効果</strong> 命中時、 1分間、 @Compendium[pf2e.equipment-effects.Effect: Tanglefoot Bag (Greater)]{-15フィートの速度ペナルティ} を受ける。クリティカル・ヒットした際、 1ラウンド、 @Compendium[pf2e.conditionitems.Immobilized]{動けない状態} になる。 <hr /><i>タングルフット・バッグはダメージを与えない</i>."
+                },
+                "Lesser": {
+                    "success": "<strong>効果</strong> 命中時、1分間、 @Compendium[pf2e.equipment-effects.Effect: Tanglefoot Bag (Lesser)]{-10フィートの速度ペナルティ} を受ける。 <hr /><i>タングルフット・バッグはダメージを与えない</i>.",
+                    "criticalSuccess": "<strong>効果</strong> 命中時、1分間、 @Compendium[pf2e.equipment-effects.Effect: Tanglefoot Bag (Lesser)]{-10フィートの速度ペナルティ} を受ける。クリティカル・ヒットした際、1ラウンド、 @Compendium[pf2e.conditionitems.Immobilized]{動けない状態} になる。 <hr /><i>タングルフット・バッグはダメージを与えない</i>."
+                },
+                "Major": {
+                    "success": "<strong>効果</strong> 命中時、1分間、 @Compendium[pf2e.equipment-effects.Effect: Tanglefoot Bag (Major)]{-20フィートの速度ペナルティ} を受ける。 <hr /><i>タングルフット・バッグはダメージを与えない</i>.",
+                    "criticalSuccess": "<strong>効果</strong> 命中時、1分間、 @Compendium[pf2e.equipment-effects.Effect: Tanglefoot Bag (Major)]{-20フィートの速度ペナルティ} を受ける。クリティカル・ヒットした際、1ラウンド、 @Compendium[pf2e.conditionitems.Immobilized]{動けない状態} になる。 <hr /><i>タングルフット・バッグはダメージを与えない</i>."
+                },
+                "Moderate": {
+                    "success": "<strong>効果</strong> 命中時、1分間、 @Compendium[pf2e.equipment-effects.Effect: Tanglefoot Bag (Moderate)]{-15フィートの速度ペナルティ} を受ける。<hr /><i>タングルフット・バッグはダメージを与えない</i>.",
+                    "criticalSuccess": "<strong>効果</strong> 命中時、1分間、 @Compendium[pf2e.equipment-effects.Effect: Tanglefoot Bag (Moderate)]{-15フィートの速度ペナルティ} を受ける。クリティカル・ヒットした際、1ラウンド、 @Compendium[pf2e.conditionitems.Immobilized]{動けない状態} になる。 <hr /><i>タングルフット・バッグはダメージを与えない</i>."
+                }
+            },
+            "Thunderstone": {
+                "Greater": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {3}[飛散、音波]]]{3点の音波飛散ダメージ} を与え、10フィート以内の全てのクリーチャーは @Check[type:fortitude|dc:28|name:Greater Thunderstone|showDC:all] 頑健セーヴに成功しなければならず、次の手番の終了時まで  @Compendium[pf2e.conditionitems.Deafened]{聴覚喪失} になる。"
+                },
+                "Lesser": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {1}[飛散、音波]]]{1点の音波飛散ダメージ} を与え、10フィート以内の全てのクリーチャーは @Check[type:fortitude|dc:17|name:Lesser Thunderstone|showDC:all] 頑健セーヴに成功しなければ、次の手番の終了時まで @Compendium[pf2e.conditionitems.Deafened]{聴覚喪失} になる。"
+                },
+                "Major": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {4}[飛散、音波]]]{4点の音波飛散ダメージ} を与え、10フィート以内の全てのクリーチャーは @Check[type:fortitude|dc:36|name:Major Thunderstone|showDC:all] 頑健セーヴに成功しなければ、次の手番の終了時まで @Compendium[pf2e.conditionitems.Deafened]{聴覚喪失} になる。"
+                },
+                "Moderate": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {2}[飛散、音波]]]{2点の音波飛散ダメージ} を与え、10フィート以内の全てのクリーチャーは @Check[type:fortitude|dc:20|name:Moderate Thunderstone|showDC:all] 頑健セーヴに成功しなければ、次の手番の終了時まで @Compendium[pf2e.conditionitems.Deafened]{聴覚喪失} になる。"
+                }
+            },
+            "TwigjackSack": {
+                "Greater": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {4}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ} と [[/r {3}[飛散、刺突]]]{3点の刺突飛散ダメージ}を与える。",
+                    "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {8}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ} と [[/r {3}[飛散、刺突]]]{3点の刺突飛散ダメージ}を与える。"
+                },
+                "Lesser": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {4}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ} と [[/r {1}[飛散、刺突]]]{1点の刺突飛散ダメージ}を与える。",
+                    "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {2}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ} と [[/r {1}[飛散、刺突]]]{3点の刺突飛散ダメージ}を与える。"
+                },
+                "Major": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {5}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ} と [[/r {4}[飛散、刺突]]]{4点の刺突飛散ダメージ}を与える。",
+                    "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {10}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ} と [[/r {4}[飛散、刺突]]]{4点の刺突飛散ダメージ}を与える。"
+                },
+                "Moderate": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {3}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ} と [[/r {2}[飛散、刺突]]]{2点の刺突飛散ダメージ}を与える。",
+                    "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {6}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ} と [[/r {2}[飛散、刺突]]]{2点の刺突飛散ダメージ}を与える。"
+                }
+            },
+            "VexingVapor": {
+                "Greater": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {3}[飛散、精神]]]{3点の精神飛散ダメージ} を与え、対象は精神集中の特性を持つアクションを取る前に  @Check[type:flat|dc:5] DC5の平目判定に成功しなければならない。これは、対象の次の手番の終了時まで続く。",
+                    "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {3}[飛散、精神]]]{3点の精神飛散ダメージ} を与え、対象は精神集中の特性を持つアクションを取る前に @Check[type:flat|dc:5] DC5の平目判定に成功しなければならない。これは、1分間、持続する。"
+                },
+                "Lesser": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {1}[飛散、精神]]]{1点の精神飛散ダメージ} を与え、対象は精神集中の特性を持つアクションを取る前に  @Check[type:flat|dc:5] DC5の平目判定に成功しなければならない。これは、対象の次の手番の終了時まで続く。",
+                    "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {1}[飛散、精神]]]{1点の精神飛散ダメージ} を与え、対象は精神集中の特性を持つアクションを取る前に @Check[type:flat|dc:5] DC5の平目判定に成功しなければならない。これは、1分間、持続する。"
+                },
+                "Major": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {4}[飛散、精神]]]{4点の精神飛散ダメージ} を与え、対象は精神集中の特性を持つアクションを取る前に  @Check[type:flat|dc:5] DC5の平目判定に成功しなければならない。これは、対象の次の手番の終了時まで続く。",
+                    "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {4}[飛散、精神]]]{4点の精神飛散ダメージ} を与え、対象は精神集中の特性を持つアクションを取る前に @Check[type:flat|dc:5] DC5の平目判定に成功しなければならない。これは、1分間、持続する。"
+                },
+                "Moderate": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {2}[飛散、精神]]]{2点の精神飛散ダメージ} を与え、対象は精神集中の特性を持つアクションを取る前に  @Check[type:flat|dc:5] DC5の平目判定に成功しなければならない。これは、対象の次の手番の終了時まで続く。",
+                    "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {2}[飛散、精神]]]{2点の精神飛散ダメージ} を与え、対象は精神集中の特性を持つアクションを取る前に @Check[type:flat|dc:5] DC5の平目判定に成功しなければならない。これは、1分間、持続する。"
+                }
+            },
+            "WaterBomb": {
+                "Greater": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {2d4}[飛散、殴打]]]{2d4点の非致傷の殴打飛散ダメージ}を与える。爆弾は、飛散範囲内の魔法のものではない炎を消火する。"
+                },
+                "Lesser": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {1}[飛散、殴打]]]{1点の非致傷の殴打飛散ダメージ}を与える。爆弾は、飛散範囲内の魔法のものではない炎を消火する。"
+                },
+                "Major": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {3d4}[飛散、殴打]]]{3d4点の非致傷の殴打飛散ダメージ}を与える。爆弾は、飛散範囲内の魔法のものではない炎を消火する。"
+                },
+                "Moderate": {
+                    "success": "<strong>効果</strong> 爆弾は [[/r {1d4}[飛散、殴打]]]{1d4点の非致傷の殴打飛散ダメージ}を与える。爆弾は、飛散範囲内の魔法のものではない炎を消火する。"
+                }
+            }
+        },
+        "Mutagens": {
+            "BestialMutagen": {
+                "FeralPrompt": "ダメージ・ダイスの大きさを増やすためにACへのペナルティを増やしますか？"
+            }
+        },
+        "NPCAbility": {
+            "AncientWisp": {
+                "PinpointLight": "Pinpoint Light"
+            },
+            "BarghestFeed": "このバーゲストは何度、食事をしましたか？",
+            "Calikang": {
+                "SixfoldFlurry": "Strikes not taken?",
+                "SuspendedAnimationEnter": "Enter Suspended Animation",
+                "SuspendedAnimationExit": "Exit Suspended Animation"
+            },
+            "Charge": {
+                "AtLeastTen": "少なくとも10フィート移動してください"
+            },
+            "ChyzaeduAlienVestment": "Shattered Alien Vestment",
+            "ClockworkLostPlates": "何枚のプレートがなくなっていますか？",
+            "ClockworkWindUp": "スタンバイ状態",
+            "ConstructArmor": {
+                "BrokenArmor": "破壊された人造の鎧",
+                "CriticalHit": "人造の鎧はクリティカル・ヒットによって破壊されました"
+            },
+            "CustomArmor": {
+                "BrokenArmor": "カスタム装甲の破損",
+                "CriticalHit": "クリティカル・ヒットに破壊されたカスタム装甲"
+            },
+            "DemonInfuseWeapons": "悪ダメージの代わりに混沌ダメージを与える",
+            "Dramofir": {
+                "BittersweetDreamsCriticalFailure": "ファンブル",
+                "BittersweetDreamsSuccessFailure": "成功あるいは失敗"
+            },
+            "DuskwalkerHuntPrey": {
+                "AC": "Designated Prey attacks the Duskwalker",
+                "Checks": "Duskwalker rolls checks against his Designated Prey"
+            },
+            "Falrok": {
+                "LazuriteTerrainSwitch": "ラズライトが注入された地形で"
+            },
+            "GiantAnimatedStatueBrazier": "Brazier is alight",
+            "HellboundAttorney": {
+                "OpeningStatementCriticalSuccess": "Opening Statement (Critical Success)"
+            },
+            "HobgoblinFormationArea": "範囲効果に対する陣形",
+            "KallasDevil": {
+                "DisguisedAsChild": "Disguised as a Child",
+                "LyingAboutLoathsomeStench": "Lying about Loathsome Stench"
+            },
+            "KrampusPunishTheNaughty": "Krampus rolls checks against Naughty Target",
+            "LegionArchon": {
+                "FlameOfJustice": "Flame of Justice - Critical Hit"
+            },
+            "LemureSubservience": {
+                "Defend": "Subservience - Defend",
+                "Fetch": "Subservience - Fetch",
+                "Kill": "Subservience - Kill"
+            },
+            "MarilithFocusedAssault": {
+                "One": "1本のロングソード",
+                "Two": "2本のロングソード",
+                "Three": "3本のロングソード",
+                "Four": "4本のロングソード",
+                "Five": "5本のロングソード",
+                "Six": "6本のロングソード",
+                "Prompt": "マリリスは何本のロングソードを使っていますか?"
+            },
+            "MinotaurHuntedFear": {
+                "Demoralize": "対象が迷宮あるいは進むのが困難な構造物にいる",
+                "Survival": "道に迷うのを避けるための"
+            },
+            "YetiNightmareGuardianRage": "ナイトメア・ガーディアンの激怒",
+            "PaleStranger": {
+                "TargetNeverKilled": "対象は生き物を一度も殺害したことがない",
+                "TargetMurderedPaleStranger": "対象がペール・ストレンジャーを殺害した者である"
+            },
+            "PoltergeistTelekineticStorm": {
+                "MultiAttackLabel": "念動力の嵐―複数の対象",
+                "SingleAttackLabel": "念動力の嵐 - 単体の対象",
+                "SingleAttackEffect": "攻撃は失敗時に [[/r {1d12}]]{1d12点のダメージ}を与える"
+            },            
+            "PunishingStrike": {
+                "Note": "己を顧みない攻撃によって使用者は次の手番の開始時まで@Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{立ちすくみ}である。もし命中したなら、その打撃に@Compendium[pf2e.bestiary-ability-glossary-srd.t6cx9FOODmeZQNYl]{「押しだし」}を追加することが出来る"
+            },
+            "Seugathi": {
+                "MindfogSuppression": "Mindfog Auraを抑制する"
+            },
+            "SkyDragon": {
+                "DivineLightningGood": "神性の雷撃 - 善ダメージ",
+                "DivineLightningPositive": "神性の雷撃 - 正のエネルギーダメージ"
+            },
+            "SovereignDragon": {
+                "InspireEnvoyDragonChoice": "Dragon Granting the Effect",
+                "InspireEnvoyDragonAdult": "Adult Sovereign Dragon",
+                "InspireEnvoyDragonAncient": "Ancient Sovereign Dragon",
+                "InspireEnvoyEffectChoice": "Granted Effect",
+                "InspireEnvoyEffectAttack": "Bonus to Attack",
+                "InspireEnvoyEffectAC": "Bonus to AC",
+                "InspireEnvoyEffectPercWillCha": "Bonus to Will, Perception and Charisma-based skill checks"
+            },
+            "Surgeon": {
+                "MedicalMalpracticeCriticalSuccess": "Medical Malpractice (Critical Success)"
+            },
+            "TreerazerPlantAttack": "植物を攻撃する",
+            "Vampire": {
+                "JiangShi": {
+                    "StanceOfDeath": {
+                        "CloudlessVoid": {
+                            "Label": "澄み切った虚無の構え"
+                        },
+                        "SunderedVeins": {
+                            "Label": "裂かれた蔓の構え",
+                            "Note": "対象は@Compendium[pf2e.conditionitems.Enfeebled]{衰弱1}になる"
+                        }
+        }
+    }
+},
+"IoseffXarwin": {
+    "FulviasRing": {
+        "SavePossess": "Fulvia's Ringを所有している対象に対するセーヴ",
+        "SaveWear": "Fulvia's Ringを着用している対象に対するセーヴ",
+        "TargetPossess": "対象がFulvia's Ringを所有している",
+        "TargetWear": "対象がFulvia's Ringを着用している"
+    }
+},
+"Zetogeki": {
+    "TiltScalesTilted": "Scales Tilted",
+    "TiltScalesChannelEnergy": "Kinetic Energy Channeled"
+}
+},
+        "OracleCurses": {
+            "Ancestor": {
+                "Label": {
+                    "MinorBattle": "争い（下級）",
+                    "ModerateBattle": "争い（中級）",
+                    "MajorBattle": "争い（上級）",
+                    "ExtremeBattle": "争い（最上級）",
+                    "MinorSkillful": "技巧者（下級）",
+                    "ModerateSkillful": "技巧者（中級）",
+                    "MajorSkillful": "技巧者（上級）",
+                    "ExtremeSkillful": "技巧者（最上級）",
+                    "MinorSpellcasting": "術者（下級）",
+                    "ModerateSpellcasting": "術者（中級）",
+                    "MajorSpellcasting": "術者（上級）",
+                    "ExtremeSpellcasting": "術者（最上級）"
+                },
+                "MinorFailure": "君の呪いはこのアクションに干渉したので、君は @Check[type:flat|dc:4|showDC:owner] 判定に成功しなければならない",
+                "ModerateFailure": "君の呪いはこのアクションに干渉したので、君は @Check[type:flat|dc:6|showDC:owner] 判定に成功しなければならない",
+                "MajorFailure": "君の呪いはこのアクションに干渉したので、君は @Check[type:flat|dc:8|showDC:owner] 判定に成功しなければならない"
+            },
+            "Battle": {
+                "MadeAStrike": "君はこのラウンドで打撃を行った",
+                "NonTrivialEncounter": "些細ではない遭遇で"
+            },
+            "Bones": {
+                "ModerateUpgrade": "君が病気、毒、即死効果に対するセーヴィング・スローに成功をロールした際、代わりにクリティカルする",
+                "MajorUpgrade": " 君が病気、毒、即死効果に対するセーヴィング・スローにファンブルをロールした際、代わりに失敗する"
+            },
+            "Label": {
+                "Minor": "下級",
+                "Moderate": "中級",
+                "Major": "上級",
+                "Extreme": "最上級"
+            },
+            "Life": {
+                "ToggleLabel": "ヒールの対象すべてが生きているクリーチャーである"
+            },
+            "Time": {
+                "ACLabel": "移動中にリアクションあるいはフリー・アクションに対して身を守る"
+            }
+        },
+        "PersistentDamage": {
+            "Acid1d4": {
+                "success": "[[/r {1d4}[継続、強酸]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続強酸ダメージ}",
+                "criticalSuccess": "[[/r {2*1d4}[継続、強酸]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続強酸ダメージ}"
+            },
+            "Acid1d6": {
+                "success": "[[/r {1d6}[継続、強酸]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続強酸ダメージ}",
+                "criticalSuccess": "[[/r {2*1d6}[継続、強酸]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続強酸ダメージ}"
+            },
+            "Acid2d6": {
+                "success": "[[/r {2d6}[継続、強酸]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続強酸ダメージ}",
+                "criticalSuccess": "[[/r {2*2d6}[継続、強酸]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続強酸ダメージ}"
+            },
+            "Acid2d6+2": {
+                "success": "[[/r {2d6+2}[継続、強酸]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続強酸ダメージ}",
+                "criticalSuccess": "[[/r {2*2d6+4}[継続、強酸]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続強酸ダメージ}"
+            },
+            "Bleed1": {
+                "success": "[[/r {1}[継続、出血]]] @UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{継続出血ダメージ}",
+                "criticalSuccess": "[[/r {2}[継続、出血]]] @UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{継続出血ダメージ}"
+            },
+            "Bleed2": {
+                "success": "[[/r 2[出血]]]",
+                "criticalSuccess": "[[/r 4[出血]]]"
+            },
+            "Bleed1d4": {
+                "success": "[[/r {1d4}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}",
+                "criticalSuccess": "[[/r {2*1d4}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}"
+            },
+            "Bleed2d4": {
+                "success": "[[/r {2d4}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}",
+                "criticalSuccess": "[[/r {2*2d4}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}"
+            },
+            "Bleed8d4": {
+                "success": "[[/r {8d4}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}",
+                "criticalSuccess": "[[/r {2*8d4}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}"
+            },
+            "Bleed1d6": {
+                "regular": "[[/r {1d6}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}",
+                "critical": "[[/r {2*1d6}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}"
+            },
+            "Bleed2d6": {
+                "success": "[[/r {2d6}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}",
+                "criticalSuccess": "[[/r {2*2d6}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}"
+            },
+            "Bleed3d6": {
+                "success": "[[/r {3d6}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}",
+                "criticalSuccess": "[[/r {2*3d6}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}"
+            },
+            "Bleed4d6": {
+                "success": "[[/r {4d6}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}",
+                "criticalSuccess": "[[/r {2*4d6}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}"
+            },
+            "Bleed6d6": {
+                "success": "[[/r {6d6}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}",
+                "criticalSuccess": "[[/r {2*6d6}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}"
+            },
+            "Bleed1d8": {
+                "success": "[[/r {1d8}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}",
+                "criticalSuccess": "[[/r {2*1d8}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}"
+            },
+            "Bleed2d8": {
+                "success": "[[/r {2d8}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}",
+                "criticalSuccess": "[[/r {2*2d8}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}"
+            },
+            "Bleed3d8": {
+                "success": "[[/r {3d8}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}",
+                "criticalSuccess": "[[/r {2*3d8}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}"
+            },
+            "Bleed4d8": {
+                "success": "[[/r {4d8}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}",
+                "criticalSuccess": "[[/r {2*4d8}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}"
+            },
+            "Bleed1d10": {
+                "success": "[[/r {1d10}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}",
+                "criticalSuccess": "[[/r {2*1d10}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}"
+            },
+            "Bleed2d10": {
+                "success": "[[/r {2d10}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}",
+                "criticalSuccess": "[[/r {2*2d10}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}"
+            },
+            "Bleed3d10": {
+                "success": "[[/r {3d10}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}",
+                "criticalSuccess": "[[/r {2*3d10}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}"
+            },
+            "Bleed6d10": {
+                "success": "[[/r {6d10}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}",
+                "criticalSuccess": "[[/r {2*6d10}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}"
+            },
+            "Bleed1d12": {
+                "success": "[[/r {1d12}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}",
+                "criticalSuccess": "[[/r {2*1d12}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}"
+            },
+            "Bleed2d12": {
+                "success": "[[/r {2d12}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}",
+                "criticalSuccess": "[[/r {2*2d12}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}"
+            },
+            "Cold1d6": {
+                "success": "[[/r {1d6}[継続、氷雪]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続氷雪ダメージ}",
+                "criticalSuccess": "[[/r {2*1d6}[継続、氷雪]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続氷雪ダメージ}"
+            },
+            "Cold2d6": {
+                "success": "[[/r {2d6}[継続、氷雪]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続氷雪ダメージ}",
+                "criticalSuccess": "[[/r {2*2d6}[継続、氷雪]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続氷雪ダメージ}"
+            },
+            "Cold1d8": {
+                "success": "[[/r {1d8}[継続、氷雪]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続氷雪ダメージ}",
+                "criticalSuccess": "[[/r {2*1d8}[継続、氷雪]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続氷雪ダメージ}"
+            },
+            "Cold2d8": {
+                "success": "[[/r {2d8}[継続、氷雪]]] @UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{継続氷雪ダメージ}",
+                "criticalSuccess": "[[/r {2*2d8}[継続、氷雪]]] @UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{継続氷雪ダメージ}"
+            },
+            "Fire1": {
+                "success": "[[/r {1}[継続、火炎]]] @UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{継続火炎ダメージ}",
+                "criticalSuccess": "[[/r {2*1}[継続、火炎]]] @UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{継続火炎ダメージ}"
+            },
+            "Fire1d4": {
+                "success": "[[/r {1d4}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ}",
+                "criticalSuccess": "[[/r {2*1d4}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ}"
+            },
+            "Fire1d6": {
+                "success": "[[/r {1d6}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ}",
+                "criticalSuccess": "[[/r {2*1d6}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ}"
+            },
+            "Fire2d4": {
+                "success": "[[/r {2d4}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ}",
+                "criticalSuccess": "[[/r {2*2d4}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ}"
+            },
+            "Fire2d6": {
+                "success": "[[/r {2d6}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ}",
+                "criticalSuccess": "[[/r {2*2d6}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ}"
+            },
+            "Fire3d6": {
+                "success": "[[/r {3d6}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ}",
+                "criticalSuccess": "[[/r {2*3d6}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ}"
+            },
+            "Fire2d8": {
+                "success": "[[/r {2d8}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ}",
+                "criticalSuccess": "[[/r {2*2d8}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ}"
+            },
+            "Fire3d8": {
+                "success": "[[/r {3d8}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ}",
+                "criticalSuccess": "[[/r {2*3d8}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ}"
+            },
+            "Fire1d10": {
+                "success": "[[/r {1d10}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ}",
+                "criticalSuccess": "[[/r {2*1d10}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ}"
+            },
+            "Fire2d10": {
+                "success": "[[/r {2d10}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ}",
+                "criticalSuccess": "[[/r {2*2d10}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ}"
+            },
+            "Fire3d10": {
+                "success": "[[/r {3d10}[継続、火炎]]] @UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{継続火炎ダメージ}",
+                "criticalSuccess": "[[/r {3*2d10}[継続、火炎]]] @UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{継続火炎ダメージ}"
+            },
+            "Fire4d10": {
+                "success": "[[/r {4d10}[継続、火炎]]] @UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{継続火炎ダメージ}",
+                "criticalSuccess": "[[/r {2*4d10}[継続、火炎]]] @UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{継続火炎ダメージ}"
+            },
+            "Force1d12": {
+                "success": "[[/r {1d12}[継続、力場]]] @UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{継続力場ダメージ}",
+                "criticalSuccess": "[[/r {2*1d12}[継続、力場]]] @UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{継続力場ダメージ}"
+            },
+            "Force2d12": {
+                "success": "[[/r {2d12}[継続、力場]]] @UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{継続力場ダメージ}",
+                "criticalSuccess": "[[/r {2*2d12}[継続、力場]]] @UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{継続力場ダメージ}"
+            },
+            "Mental1d4": {
+                "success": "[[/r {1d4}[継続、精神]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続精神ダメージ}",
+                "criticalSuccess": "[[/r {2*1d4}[継続、精神]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続精神ダメージ}"
+            },
+            "Mental1d6": {
+                "success": "[[/r {1d6}[継続、精神]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続精神ダメージ}",
+                "criticalSuccess": "[[/r {2*1d6}[継続、精神]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続精神ダメージ}"
+            },
+            "Mental2d6": {
+                "success": "[[/r {2d6}[継続、精神]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続精神ダメージ}",
+                "criticalSuccess": "[[/r {2*2d6}[継続、精神]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続精神ダメージ}"
+            },
+            "Mental3d6": {
+                "success": "[[/r {3d6}[継続、精神]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続精神ダメージ}",
+                "criticalSuccess": "[[/r {2*3d6}[継続、精神]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続精神ダメージ}"
+            },
+            "Mental1d8": {
+                "success": "[[/r {1d8}[継続、精神]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続精神ダメージ}",
+                "criticalSuccess": "[[/r {2*1d8}[継続、精神]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続精神ダメージ}"
+            },
+            "Negative1d6": {
+                "success": "[[/r {1d6}[persistent,negative]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Persistent Negative Damage}",
+                "criticalSuccess": "[[/r {2*1d6}[persistent,negative]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Persistent Negative Damage}"
+            },
+            "Negative1d8": {
+                "success": "[[/r {1d8}[継続、負のエネルギー]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{継続負のエネルギーダメージ}",
+                "criticalSuccess": "[[/r {2*1d8}[継続、負のエネルギー]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{継続負のエネルギーダメージ}"
+            },
+            "Negative1d10": {
+                "success": "[[/r {1d10}[継続、負のエネルギー]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{継続負のエネルギーダメージ}",
+                "criticalSuccess": "[[/r {2*1d10}[継続、負のエネルギー]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{継続負のエネルギーダメージ}"
+            },
+            "Negative2d10": {
+                "success": "[[/r {2d10}[継続、負のエネルギー]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{継続負のエネルギーダメージ}",
+                "criticalSuccess": "[[/r {2*2d10}[継続、負のエネルギー]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{継続負のエネルギーダメージ}"
+            },
+            "Piercing2d8+8": {
+                "success": "[[/r {2d8+8}[継続、刺突]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続刺突ダメージ}",
+                "criticalSuccess": "[[/r {2*2d8+16}[継続、刺突]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続刺突ダメージ}"
+            },
+            "Poison1d4": {
+                "success": "[[/r {1d4}[継続、毒]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続毒ダメージ}",
+                "criticalSuccess": "[[/r {2*1d4}[継続、毒]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続毒ダメージ}"
+            },
+            "Poison2d4": {
+                "success": "[[/r {2d4}[継続、毒]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続毒ダメージ}",
+                "criticalSuccess": "[[/r {2*2d4}[継続、毒]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続毒ダメージ}"
+            },
+            "Poison3d4": {
+                "success": "[[/r {3d4}[継続、毒]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続毒ダメージ}",
+                "criticalSuccess": "[[/r {2*3d4}[継続、毒]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続毒ダメージ}"
+            },
+            "Poison1d6": {
+                "success": "[[/r {1d6}[継続、毒]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続毒ダメージ}",
+                "criticalSuccess": "[[/r {2*1d6}[継続、毒]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続毒ダメージ}"
+            },
+            "Poison2d6": {
+                "success": "[[/r {2d6}[継続、毒]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続毒ダメージ}",
+                "criticalSuccess": "[[/r {2*2d6}[継続、毒]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続毒ダメージ}"
+            },
+            "Poison3d6": {
+                "success": "[[/r {3d6}[継続、毒]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続毒ダメージ}",
+                "criticalSuccess": "[[/r {2*3d6}[継続、毒]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続毒ダメージ}"
+            },
+            "Poison4d6": {
+                "success": "[[/r {4d6}[継続、毒]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続毒ダメージ}",
+                "criticalSuccess": "[[/r {2*4d6}[継続、毒]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続毒ダメージ}"
+            },
+            "Poison1d8": {
+                "success": "[[/r {1d8}[継続、毒]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続毒ダメージ}",
+                "criticalSuccess": "[[/r {2*1d8}[継続、毒]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続毒ダメージ}"
+            },
+            "Poison2d8": {
+                "success": "[[/r {2d8}[継続、毒]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続毒ダメージ}",
+                "criticalSuccess": "[[/r {2*2d8}[継続、毒]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続毒ダメージ}"
+            },
+            "Poisond1d12": {
+                "success": "[[/r {1d12}[継続、毒]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続毒ダメージ}",
+                "criticalSuccess": "[[/r {2*1d12}[継続、毒]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続毒ダメージ}"
+            }
+        },
+        "RuleElement": {
+            "ActiveEffectLike": "起動中効果の類",
+            "ActorTraits": "アクターの特性",
+            "AdjustDegreeOfSuccess": "成功度の調整",
+            "AdjustModifier": "修正値の調整",
+            "AdjustStrike": "「打撃」の調整",
+            "Aura": "オーラ",
+            "BaseSpeed": "基本速度",
+            "BattleForm": "戦闘形態",
+            "ChoiceSet": "選択セット",
+            "CraftingEntry": "製作の項目",
+            "CraftingFormula": "製作の処方",
+            "CreatureSize": "サイズ",
+            "CriticalSpecialization": "クリティカル特化効果",
+            "DamageDice": "ダメージ・ダイス",
+            "DexterityModifierCap": "敏捷修正値上限",
+            "FastHealing": "高速治癒／再生",
+            "FixedProficiency": "習熟の固定",
+            "FlatModifier": "平目の修正値",
+            "GrantItem": "アイテムを与える",
+            "Immunity": "耐性",
+            "LoseHitPoints": "ヒット・ポイント減少",
+            "MarkToken": "トークンに目印をつける",
+            "MartialProficiency": "武具への習熟",
+            "MultipleAttackPenalty": "複数回攻撃ペナルティ",
+            "Note": "注釈",
+            "Resistance": "抵抗",
+            "RollOption": "ロール・オプション",
+            "RollTwice": "二度ロールする",
+            "Sense": "感覚",
+            "Strike": "打撃",
+            "Striking": "ストライキング",
+"SubstituteRoll": "代替ロール",
+            "TempHP": "一時的ヒット・ポイント",
+            "TempHPShortLabel": "一時HP",
+            "TokenEffectIcon": "トークン効果アイコン",
+            "TokenImage": "トークン画像",
+            "TokenLight": "トークンの照明",
+            "TokenName": "トークンの名前",
+            "Weakness": "弱点",
+            "WeaponPotency": "武器発現",
+            "Unrecognized": "非公式のルール要素"
+        },
+        "RuleEditor": {
+            "FastHealing": {
+                "DeactivatedBy": "以下によって不活性化"
+            },
+            "FlatModifier": {
+                "HideIfDisabled": "隠す (もし無効化されているなら)"
+            },
+            "General": {
+                "Brackets": "ブラケット",
+                "DamageType": "ダメージ種別",
+                "Label": "ラベル",
+                "Predicate": "プレディケート",
+                "Primitive": "プリミティヴ",
+                "Range": "距離",
+                "Selector": "セレクター",
+                "Value": "数値",
+                "CriticalBehavior": {
+                    "null": "クリティカル時にダメージ2倍",
+                    "false": "クリティカル時にダメージ1倍",
+                    "true": "クリティカルのダメージのみ"
+                }
+            },
+            "GrantItem": {
+                "AllowDuplicate": "複製を許可",
+                "ReplaceSelf": "自身を置き換え",
+                "ReevaluateOnUpdate": "アップデート時に見直し"
+            },
+            "Note": {
+                "Hidden": "隠れた状態",
+                "Outcome": "結果",
+                "Title": "タイトル",
+                "Text": "文章"
+            }
+        },
+        "SkillVariant": {
+            "AboutCaves": "洞窟について",
+            "AcidicEnvironment": "強酸の環境で",
+            "AgainstDemons": "デーモンに対して",
+            "Aid": "「援護」に",
+            "AttemptToFascinateOutdoorsInBrightSun": "明るい太陽の下で「魅惑的な演芸」を使う",
+            "Blacksmithing": "鍛冶に",
+            "BloodOrWater": "血の中で",
+            "BoundHome": "閉ざされた家の中で",
+            "Buried": "埋められている際",
+            "CanClearlyIdentifyTheStars": "星をはっきりと識別できるときに",
+            "Climb": "「登攀」に",
+            "ClimbOrSwim": "「登攀」あるいは「水泳」に",
+            "CommandAnAnimal": "「動物使い」に",
+            "CommandReptile": "爬虫類に「動物使い」をするときに",
+            "CraftBone": "骨を使っている際に",
+            "CraftJewelry": "宝飾品作成に",
+            "CraftTrap": "トラップ作成に",
+            "CraftTrapSnare": "トラップと罠作成に",
+            "CreateForgery": "偽造品作成に",
+            "Dance": "舞踏に",
+            "Darkness": "暗闇で",
+            "DecayingPlantFungus": "腐敗する植物や菌類のなかで",
+            "Demoralize": "「士気をくじく」に",
+            "DemoralizeThreateningLunge": "「脅威的な間合い」で「士気をくじく」のに",
+            "Deserts": "砂漠で",
+            "DimLight": "薄暗い光の中で",
+            "DimLightOrDarkness": "薄暗い光か暗闇の中で",
+            "Disarm": "「武器落とし」に",
+            "DisarmGrapple": "「武器落とし」あるいは「組みつき」に",
+            "DisarmGrappleAvoidDisarm": "「武器落とし」、「組みつき」あるいは「組みつき」の回避に",
+            "DisarmMetal": "金属製アイテムの「武器落とし」に",
+            "DisarmStoneMetal": "石あるいは金属製アイテムの「武器落とし」に",
+            "DiscernAndPredictWeather": "天候のパターンを見抜き、将来の天気の状態を予測するのに",
+            "Escape": "「脱出」に",
+            "Feint": "「フェイント」に",
+            "Forests": "森林で",
+            "ForestsOrSwamps": "森林あるいは沼地で",
+            "GatherInformation": "「情報収集」に",
+            "Grapple": "「組みつき」に",
+            "GrappleShove": "「組みつき」あるいは「押しやり」に",
+            "Hide": "「隠れる」に",
+            "HideSneakInscriptions": "碑文の間に「隠れる」や「忍び歩き」をするのに",
+            "HideSneakTree": "木の中にいる間に「隠れる」や「忍び歩き」をするのに",
+            "HideInDimOrDark": "薄暗い明りや暗闇で「隠れる」のに",
+            "HighJumpOrLongJump": "「高跳び」あるいは「幅跳び」に",
+            "IceAndSnow": "氷か雪の中で",
+            "ImitateStone": "「石の模倣」に",
+            "Impersonate": "「なりすます」に",
+            "ImpersonateCloakSheetRay": "外套、シート、エイに「なりすます」のに",
+            "ImpersonateHumanVersion": "自分達の人間バージョンに「なりすます」のに",
+            "Jungles": "ジャングルで",
+            "JunglesOrFlowerFields": "ジャングルか花畑で",
+            "JunkOrDebris": "ジャンクやがらくたの中で",
+            "Lava": "溶岩の中で",
+            "Lair": "ねぐらで",
+            "LeyLine": "レイラインの近くで",
+            "Lie": "「騙す」に",
+            "LongJump": "「幅跳び」をするのに",
+            "MakeAnImpression": "「懐柔する」に",
+            "ManeuverInFlight": "「飛行機動」に",
+            "Mountains": "山地で",
+            "Navigate": "道案内に",
+            "NearTheOcean": "海の近くで",
+            "NighttimeWithMoonVisible": "月が見える夜に",
+            "OceansForests": "海や森で",
+            "Orate": "朗誦するのに",
+            "Paint": "絵を描くことに",
+            "Raining": "雨の中で",
+            "Rocky": "岩だらけの地形で",
+            "RunningWater": "流れる水の中で",
+            "RustyTerrain": "錆び付いたものばかりの場所で",
+            "Sand": "砂地で",
+            "SenseMotive": "「真意看破」に",
+            "Sewers": "下水道で",
+            "Shove": "「押しやる」に",
+            "Singing": "歌うときに",
+            "Snow": "雪の中で",
+            "Steal": "「盗む」に",
+            "StonyOrIcyAreas": "嵐や雪の範囲で",
+            "StringedInstruments": "弦楽器のために",
+            "Squeeze": "「無理矢理はいりこむ」に",
+            "Subsist": "「自活する」に",
+            "Swamps": "沼地で",
+            "Swim": "「水泳」に",
+            "TarPit": "タールピットの中で",
+            "TellTheTruth": "「真実を話す」に",
+            "ThickVegetation": "密集した草地の中で",
+            "TrackBleedingCreature": "出血しているクリーチャーの「追跡」に",
+            "Track": "「追跡」に",
+            "Traps": "トラップ",
+            "TrashAndRubbish": "ゴミと廃棄物の中で",
+            "Trip": "「足払い」に",
+            "TripTangle": "「足払い」と「からみつき」に",
+            "Underground": "地下",
+            "Undergrowth": "下生えで",
+            "Underwater": "水面下で",
+            "UnderwaterVegetation": "水中の草地で",
+            "Vegetation": "草地で",
+            "VsArthropods": "節足動物に対して",
+            "VsControlled": "支配効果に対して",
+            "VsDarknessLightShadow": "暗闇、光、影効果に対して",
+            "VsDiseases": "病気効果に対して",
+            "VsEmotion": "感情効果に対して",
+            "VsMagic": "魔法効果に対して",
+            "VsMental": "制震効果に対して",
+            "VsPlants": "植物に対して",
+            "VsProne": "伏せ効果に対して",
+            "VsShoveOrTrip": "「押しやり」、「足払い」に対して",
+            "Water": "水中で",
+            "WaterOrMud": "水中か泥の中で",
+            "Weave": "織り上げるのに",
+            "Woodworking": "木工に"
+        },
+        "SpecificRule": {
+            "AdvancedGeneralTraining": {
+                "AllowedDrops": "７レベル以下の一般特技",
+                "Prompt": "７レベル以下の一般特技を選んで下さい"
+            },
+            "AftermathFeats": {
+                "DormantEruptionToggle": "You've Used Thermal Eruption Today",
+                "StoneFistLabel": "石のこぶし"
+            },
+            "Aid": {
+                "Prompt": "「援護」によるボーナスを選んで下さい"
+            },
+            "Alchemist": {
+                "AlchemicalCrossbow": {
+                    "Prompt": "クロスボウに追加する爆弾を選んでください"
+                },
+                "ResearchField": {
+                    "Prompt": "研究分野を選んでください"
+                }
+            },
+            "AllowedDrops": {
+                "DeityOrPantheon": "神格あるいは神群"
+            },
+            "AncestralParagon": {
+                "AllowedDrops": "1レベルの祖先特技",
+                "Prompt": "1レベルの祖先特技を選んで下さい"
+            },
+            "AncientElf": {
+                "AllowedDrops": "マルチクラス専心特技",
+                "Prompt": "マルチクラス専心特技を選んで下さい"
+            },
+            "AnimalSkin": {
+                "BracersOfArmor": "アニマル・スキン＋ブレーサーズ・オヴ・アーマー",
+                "ExplorersClothing": "アニマル・スキン＋探検家の衣類",
+                "MageArmor": "アニマル・スキン＋メイジ・アーマー"
+            },
+            "Automaton": {
+                "ArcaneLomotion": {
+                    "Prompt": "移動種別を選んでください"
+                },
+                "AutomatonArmament": {
+                    "Prompt": "素手打撃を選んでください"
+                },
+                "CoreCannon": {
+                    "AttackNote": "この攻撃ロールには最も高い発現ルーンを手動で適用する必要があります。",
+                    "CriticalHit": "クリティカル・ヒットした際、対象は [[/r {10}[継続、火炎]]] 天の@Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ}を受ける。コア・キャノンにはクリティカル特化効果を加えない。 </p>"
+                },
+                "EnhanceableFeats": {
+                    "ArcaneCamouflage": "Arcane Camouflage",
+                    "ArcaneCommunication": "Arcane Communication",
+                    "ArcaneEye": "Arcane Eye",
+                    "ArcaneLocomotion": "Arcane Locomotion",
+                    "ArcanePropulsion": "Arcane Propulsion",
+                    "ArcaneSafeguards": "Arcane Safeguards",
+                    "ArcaneSlam": "Arcane Slam",
+                    "AstralBlink": "Astral Blink",
+                    "AutomatonArmament": "Automaton Armament",
+                    "AutomatonLore": "Automaton Lore",
+                    "CoreAttunement": "Core Attunement",
+                    "CoreRejuvenation": "Core Rejuvenation",
+                    "EnergyBeam": "Energy Beam",
+                    "EnlargedChassis": "Enlarged Chassis",
+                    "IntegratedArmament": "Integrated Armament",
+                    "LesserAugmentation": "Lesser Augmentation",
+                    "MagicalResistance": "Magical Resistance",
+                    "RainOfBolts": "Rain of Bolts",
+                    "ReinforcedChassis": "Reinforced Chassis"
+                },
+                "Enhancement": {
+                    "ArcaneLocomotionClimbSpeed": "Gain a climb speed",
+                    "ArcaneLocomotionIncreaseSpeed": "Increase speeds",
+                    "ArcaneLocomotionSwimSpeed": "Gain a swim speed",
+                    "AugmentationPrompt": "Select a feat to augment",
+                    "MagicalResistanceAll": "Gain additional Resistances",
+                    "MagicalResistanceIncrease": "Enhance existing resistance",
+                    "EnhancementPrompt": "Choose an enhancement"
+                },
+                "EnergyBeam": {
+                    "CriticalHit": "クリティカル・ヒットした際、対象は武器のダメージダイスの数に等しい継続火炎ダメージを受ける。目のビームにはクリティカル特化効果を加えない"
+                },
+                "HunterAutomaton": {
+                    "ToggleLabel": "Running on all fours"
+                },
+                "MagicalResistance": {
+                    "Prompt": "エネルギー・ダメージの種別を選んでください"
+                }
+            },
+            "Barbarian": {
+                "Animal": {
+                    "Prompt": "動物を選んでください"
+                },
+                "Dragon": {
+                    "Prompt": "ドラゴンを選んでください",
+                    "NormalRageDamage": "通常の激怒ダメージを与える"
+                },
+                "Giant": {
+                    "Prompt": "激怒の抵抗のエネルギー種別を選んでください"
+                },
+                "Instinct": {
+                    "Prompt": "本能を選んでください"
+                }
+            },
+            "Bard": {
+                "Muse": {
+                    "Prompt": "ミューズを選んでください",
+                    "Enigma": "エニグマ",
+                    "Maestro": "マエストロ",
+                    "Polymath": "ポリーマス",
+                    "Warrior": "ウォーリア"
+                }
+            },
+            "Beastkin": {
+                "AnimalSenses": {
+                    "Prompt": "生来の動物が入手可能な感覚を選んでください"
+                },
+                "Senses": {
+                    "EcholocationImprecise": "反響定位 (不明瞭) 30フィート",
+                    "EcholocationPrecise": "反響定位を明瞭な感覚に成長させる",
+                    "TremorsenseImprecise": "振動感知 (不明瞭) 30 feet",
+                    "TremorsensePrecise": "振動感知を明瞭な感覚に成長させる",
+                    "Scent": "嗅覚 (不明瞭) 30フィート"
+                }
+            },
+            "BlessingOfDefiance": {
+                "Prompt": "セーヴィング・スローを一つ、選んでください"
+            },
+            "BonusLabel": {
+                "NegativeOne": "-1",
+                "PlusOne": "+1",
+                "PlusTwo": "+2",
+                "PlusThree": "+3",
+                "PlusFour": "+4"
+            },
+            "BottledOmen": {
+                "Label": "君の凶兆を使う"
+            },
+            "BountyHunterDedication": {
+                "GatherInfoHuntedPrey": "獲物に関連する「情報収集」をするために"
+            },
+            "BrevicNoble": {
+                "Prompt": "ブレヴォイの血統を選んでください",
+                "Garess": "ガレス家",
+                "Lebeda": "レベダ家",
+                "Lodovka": "ロドヴカ家",
+                "Medvyed": "メドヴイェド家",
+                "Orlovsky": "オルロフスキー家",
+                "Surtova": "サートヴァ家"
+            },
+            "CatharticMage": {
+                "EmotionalState": {
+                    "Prompt": "Catharsis Emotionを選んでください"
+                },
+                "Love": {
+                    "Toggle": "You cast a spell to benefit your emotional focus"
+                }
+            },
+            "CelestialResistance": {
+                "Prompt": "血脈に関連したエネルギーの種別を選んでください"
+            },
+            "Champion": {
+                "DivineSmite": {
+                    "Label": "聖なる一撃"
+                },
+                "BladeAllyRune": "刃の味方の属性ルーンを選んでください"
+            },
+            "ChromaticArmor": {
+                "Prompt": "色を選んでください",
+                "Acid": "オレンジ (強酸)",
+                "Electricity": "黄色 (電撃)",
+                "Fire": "赤 (火炎)",
+                "Force": "紫 (力場)",
+                "Mental": "インディゴ (精神)",
+                "Poison": "緑 (毒)",
+                "Sonic": "青 (音波)"
+            },
+            "Chronoskimmer": {
+                "DestabilizeFailureLabel": "時流の不安定化 (失敗)",
+                "DestabilizeSuccessLabel": "時流の不安定化 (Success)",
+                "StabilizeLabel": "時流の安定化"
+            },
+            "ClanWeapon": {
+                "Label": "クラン武器",
+                "Prompt": "クラン武器を選んで下さい。",
+                "ClanPistol": "クラン・ピストル (祖先特技)"
+            },
+            "Cleric": {
+                "Doctrine": {
+                    "Prompt": "教義を選んで下さい"
+                }
+            },
+            "Conrasu": {
+                "CeremonyEvenedHand": {
+                    "Prompt": "素手打撃を選んでください"
+                 },
+                "RiteOfPassage": {
+                    "Note": "森の中で狭い表面や不均等な地面で「バランスを取る」ための〈軽業〉を使い、成功をロールしたなら、クリティカルする"
+                }
+            }, 
+            "Convergent": {
+                "Tactics": "An ally with Convergent Tactics is within reach of the target."
+            },           
+            "Cover": {
+                "Prompt": "遮蔽の段階を選んで下さい。",
+                "Lesser": "劣った遮蔽",
+                "Standard": "標準の遮蔽",
+                "Greater": "優れた遮蔽",
+                "Prone": "伏せ状態"
+            },
+            "CriticalDeck" : {
+                "Effect": {
+                 "Label": "Critical Effect"
+                }
+            },
+            "DancingShield": {
+                "Prompt": "盾のACボーナスを選んでください"
+            },
+            "DedicationCraftingEntry": {
+                "Herbalist": "ハーバリスト",
+                "FireworkTechnician": "花火職人",
+                "Poisoner": "毒使い",
+                "Snarecrafter": "罠職人",
+                "TalismanDabbler": "護符職人"
+            },
+            "Defending": {
+                "FireSpell": "火炎呪文に対して身を守る"
+            },
+            "DeityAndCause": {
+                "AllowedDrops": "1レベルのチャンピオン・クラス特徴",
+                "Prompt": "チャンピオンの原動力を選んで下さい"
+            },
+            "DeviantAbilities": {
+                "AwakenedPower": {
+                    "AwakenedLabel": "Awakened",
+                    "BlastingBeamsLine": "Blasting Beams: 60-Foot Line",
+                    "BlastingBeamsAgile": "Blasting Beams: Agile Strikes",
+                    "BoneSpikesReach": "Bone Spikes: Reach",
+                    "BoneSpikesPoison": "Bone Spikes: Poisoned",
+                    "ConsumeEnergyRange": "Consume Energy: Enhance Range",
+                    "ConsumeEnergyStrikes": "Consume Energy: Enhance Strikes",
+                    "DistantWanderingFly": "Distant Wandering: Flight",
+                    "DistantWanderingQuick": "Distant Wandering: Quickened",
+                    "EerieFlickerTerrify": "Eerie Flicker: Terrifying Form",
+                    "EerieFlickerCompress": "Eerie Flicker: Compress Flicker",
+                    "EnervatingWailSilent": "Enervating Wail: Silent Wail",
+                    "EnervatingWailEnfeebling": "Enervating Wail: Enfeebling Wail",
+                    "GhostlyGraspGrab": "Ghostly Grasp: Grab",
+                    "GhostlyGraspPush": "Ghostly Grasp: Push",
+                    "HighSpeedRegenerationDeath": "High-Speed Regeneration: Emergency Regeneration",
+                    "HighSpeedRegenerationSpeed": "High-Speed Regeneration: Speed Boost",
+                    "Prompt": "Select an awakening for a deviant feat.",
+                    "PropulsiveLeapSpeed": "Propulsive Leap: Speed Increase",
+                    "PropulsiveLeapWeapon": "Propulsive Leap: Makeshift Weapon",
+                    "StormingBreathProne": "Storming Breath: Knock Prone",
+                    "StormingBreathEscape": "Storming Breath: Speedy Escape",
+                    "TectonicStompStone": "Tectonic Stomp: Stone Cover",
+                    "TectonicStompStun": "Tectonic Stomp: Stun Foes",
+                    "TitanSwingProne": "Titan Swing: Knockback",
+                    "TitanSwingBleed": "Titan Swing: Bleed"
+                },
+                "BoneSpikes": {
+                    "ReachLabel": "Extend bone spikes",
+                    "StrikeLabel": "Bone Spike"
+                },
+                "Dragon": {
+                    "EnergyPrompt": "竜の能力に関連するエネルギーを選んでください"
+                },
+                "TitanSwing": {
+                    "NoteFiveFeet": "The target is pushed back 5 feet.",
+                    "NoteTenFeet": "The target is pushed back 10 feet.",
+                    "NoteFifteenFeet": "The target is pushed back 15 feet.",
+                    "NoteProne": "You push the target back double the normal distance and knock it @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{Prone}."
+                }
+            },
+            "Dhampir": {
+                "Adhyabhau": {
+                    "SaveNote": "感情効果に対する意志セーヴに成功をロールした際、クリティカルする"
+                 },
+                "BloodlettingFangs": {
+                    "AttackNote": "君の牙の「打撃」はクリティカル・ヒット時に追加で [[/r {1d4}[継続、出血]]] 点の@Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{継続出血ダメージ}を与える"
+                }
+            },
+            "DivineAlly": {
+                "AllowedDrops": "チャンピオンのクラス特徴",
+                "Prompt": "聖なる味方を選んでください"
+            },
+            "DragonDisciple": {
+                "DragonChoice": {
+                    "Black": "ブラック・ドラゴン",
+                    "Blue": "ブルー・ドラゴン",
+                    "Brass": "ブラス・ドラゴン",
+                    "Brine": "ブライン・ドラゴン",
+                    "Bronze": "ブロンズ・ドラゴン",
+                    "Cloud": "クラウド・ドラゴン",
+                    "Copper": "カッパー・ドラゴン",
+                    "Crystal": "クリスタル・ドラゴン",
+                    "Forest": "フォレスト・ドラゴン",
+                    "Gold": "ゴールド・ドラゴン",
+                    "Green": "グリーン・ドラゴン",
+                    "Magma": "マグマ・ドラゴン",
+                    "Red": "レッド・ドラゴン",
+                    "Sea": "シー・ドラゴン",
+                    "Silver": "シルヴァー・ドラゴン",
+                    "Sky": "スカイ・ドラゴン",
+                    "Sovereign": "ソヴリン・ドラゴン",
+                    "Umbral": "アンブラル・ドラゴン",
+                    "Underworld": "アンダーワールド・ドラゴン",
+                    "White": "ホワイト・ドラゴン"
+                },
+                "ScalesOfTheDragon": {
+                    "BracersOfArmor": "ドラゴンの鱗とブレーサーズ・オヴ・アーマー",
+                    "ExplorersClothing": "ドラゴンの鱗と探検家の衣類",
+                    "MageArmor": "ドラゴンの鱗とメイジ・アーマー"
+                },
+                "Prompt": "ドラゴンを選んでください"
+            },
+            "Druid": {
+                "DruidicOrder": {
+                    "Prompt": "ドルイドの理法を選んでください"
+                }
+            },
+            "Dwarf": {
+                "DeathWardenDwarf": {
+                    "Note": "死霊術の効果に成功をロールした際、クリティカルする"
+                },
+                "ElementalHeart": {
+                    "Prompt": "エレメンタルの心の種別を選んでください"
+                },
+                "ForgeBlessedShot": {
+                    "Note": "対象の劣った遮蔽、標準の遮蔽、優れた遮蔽と @Compendium[pf2e.conditionitems.Concealed]{視認困難}を無視する "
+                },
+                "KneelForNoGod": {
+                    "Note": "信仰効果に対して成功をロールした際、クリティカルする"
+                },
+                "RockRunner": {
+                    "Note": "石か地で出来た、狭い地表やでこぼことした地面で「バランスを取る」ために〈軽業〉を使った際、君は立ちすくみではなく、こういった〈軽業〉判定で成功をロールした際、クリティカルする"
+                },
+                "SparkFist": {
+                    "Note": "こぶしでの「打撃」に成功するごとに、[[/r (1+@weapon.data.data.runes.striking)[火炎]]]点の{火炎ダメージ}を受ける"
+                },
+                "TombWatchersGlare": {
+                    "Note": "アンデッド・クリーチャーにクリティカル・ヒットした際、相手は1ラウンド、@Compendium[pf2e.conditionitems.Enfeebled]{衰弱1}になる"
+                },
+                "VengefulHatred": {
+                    "Prompt": "先祖の敵を選んでください"
+                }
+            },
+            "Elf": {
+                "BrightnessSeeker": {
+                    "Label": "輝きを呼ぶ",
+                    "Prompt": "オーギュリィの結果を選んでください",
+                    "Weal": "Weal",
+                    "WealAndWoe": "Weal and Woe",
+                    "Woe": "Woe"
+                },
+                "DemonbaneWarrior": {
+                    "Note": "もし、君のアクションによってデーモンが原罪の脆弱性のダメージを受けるなら、そのダメージを[[/r 2]]点増やす。"
+                },
+                "UnwaveringMien": {
+                    "Note": "君を眠らせる効果に対するセーヴィング・スローを、1段階、良いものとして扱う"
+                },
+                "Woodcraft": {
+                    "Note": "森林やジャングルの環境にいる際、もし君が「方向感覚」、「自活」、「痕跡隠蔽」のための〈生存〉判定にファンブルをロールしたなら、君は代わりに失敗し、成功をロールしたなら、代わりにクリティカルする。"
+                }
+            },
+            "Equipment": {
+                "BravosBrew": {
+                    "Greater": {
+                        "FearLabel": "グレーター・ブラヴォーズ・ブリュー（恐怖に対して）"
+                    },
+                    "Lesser": {
+                        "FearLabel": "レッサー・ブラヴォーズ・ブリュー（恐怖に対して）"
+                    },
+                    "Moderate": {
+                        "FearLabel": "モデレート・ブラヴォーズ・ブリュー（恐怖に対して）"
+                    }
+                },
+                "EagleEyeElixir": {
+                    "Greater": {
+                        "SecretLabel": "グレーター・イーグル・アイ・エリクサー (秘密の扉や罠を見つけるために)"
+                    },
+                    "Lesser": {
+                        "SecretLabel": "レッサー・イーグル・アイ・エリクサー (秘密の扉や罠を見つけるために)"
+                    },
+                    "Major": {
+                        "SecretLabel": "メジャー・イーグル・アイ・エリクサー(秘密の扉や罠を見つけるために)"
+                    },
+                    "Moderate": {
+                        "SecretLabel": "モデレート・イーグル・アイ・エリクサー (秘密の扉や罠を見つけるために)"
+                    }
+                },
+                "NosoiCharm": {
+                    "RequestLabel": "ノソイの魅了 (要求)",
+                    "PerformanceLabel": "ノソイの魅了 (楽器の演奏、朗誦、歌唱)"
+                },
+                "PhantomShroud": {
+                    "StrikeLabel": "幽霊の手"
+                }
+            },
+            "Fetchling": {
+                "DeepFetchling": {
+                    "Prompt": "抵抗のあるエネルギーの種別を選んでください"
+                }
+            },
+            "Fighter": {
+                "DoubleSlice" : {
+                    "SecondAttackLabel": "二重切りの二回目の攻撃"
+                }
+            },
+            "FighterWeaponMasteryLegend": {
+                "Advanced": {
+                    "axe": "高度 斧",
+                    "bomb": "高度 爆弾",
+                    "bow": "高度 弓",
+                    "brawling": "高度 剛腕",
+                    "club": "高度 棍棒",
+                    "dart": "高度 投げ矢",
+                    "firearm": "高度 火器",
+                    "flail": "高度 フレイル",
+                    "hammer": "高度 槌",
+                    "knife": "高度 短剣",
+                    "pick": "高度 つるはし",
+                    "polearm": "高度 長柄",
+                    "shield": "高度 盾",
+                    "sling": "高度 投石具",
+                    "spear": "高度 槍",
+                    "sword": "高度 剣",
+                    "crossbow": "高度 クロスボウ"
+                },
+                "SimpleMartial": {
+                    "axe": "単純 & 軍用 斧",
+                    "bomb": "単純 & 軍用 爆弾",
+                    "bow": "単純 & 軍用 弓",
+                    "brawling": "単純 & 軍用 剛腕",
+                    "club": "単純 & 軍用 棍棒",
+                    "dart": "単純 & 軍用 投げ矢",
+                    "firearm": "単純 & 軍用 火器",
+                    "flail": "単純 & 軍用 フレイル",
+                    "hammer": "単純 & 軍用 槌",
+                    "knife": "単純 & 軍用 短剣",
+                    "pick": "単純 & 軍用 つるはし",
+                    "polearm": "単純 & 軍用 長柄",
+                    "shield": "単純 & 軍用 盾",
+                    "sling": "単純 & 軍用 投石具",
+                    "spear": "単純 & 軍用 槍",
+                    "sword": "単純 & 軍用 剣",
+                    "crossbow": "単純 & 軍用 クロスボウ"
+                }
+            },
+            "Fleshwarp": {
+                "CoatingOfSlime": {
+                    "CriticalHit": "クリティカル・ヒットした際、対象は [[/r {1d4}[継続、強酸]]]点の @Compendium[pf2e.conditionitems.Persistent Damage]{継続強酸ダメージ}を受ける"
+                },
+                "LivingWeapon": {
+                    "Prompt": "武器としてどの部分を使うか選んでください"
+                },
+                "MutateWeapon": {
+                    "Target": "Select one of your living weapons.",
+                    "Bonus": "ボーナスを選んでください",
+                    "Reach": "間合い10を得る",
+                    "Accuracy": "攻撃に+1ステータス・ボーナスを得る"
+                }
+            },
+            "FollowTheExpert": {
+                "Prompt": "専門家の習熟度を選んでください"
+            },
+            "GameHunterDedication": {
+                "TargetHuntedPrey": "対象が君の獲物である(動物、獣、あるいはドラゴンのみ)"
+            },
+            "GeneralTraining": {
+                "AllowedDrops": "１レベルの一般特技",
+                "Prompt": "1レベルの一般特技を選んで下さい"
+            },
+            "Ganzi": {
+                "Irrepressible": {
+                    "SaveNote": "感情あるいは恐怖効果に対するセーヴに成功をロールした際、クリティカルする"
+                }
+            },
+            "Ghoul": {
+                "FullySatiated": "満腹",
+                "Satiated": "満腹状態",
+                "SickeningBite": {
+                    "criticalSuccess": "顎でクリーチャーにクリティカル・ヒットした際、そのクリーチャーは@Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{不調 1}になる。これは病気効果である。",
+                    "success": "君は満腹状態を終わらせて対象を@Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{不調1}にすることが出来る"
+                }
+            },
+            "Gnome": {
+                "GrimInsight": {
+                    "SaveNote": "もし、君が恐怖効果に対するセーヴィング・スローに成功をロールしたのなら、君は代わりにクリティカルし、恐怖効果の源は君の次の手番の終了時まで君に対して@Compendium[pf2e.conditionitems.Flat-Footed]{立ちすくみ}になる。"
+                }
+            },
+            "Goblin": {
+                "ExtraSquishy": {
+                    "Note": "もし、君が「無理矢理入り込む」に成功をロールしたなら、代わりにクリティカルする"
+                },
+                "RecklessAbandon": {
+                    "Note": "もし、有害な効果に対するセーヴィング・スローに失敗あるいはファンブルをロールしたなら、代わりに成功する。"
+                },
+                "TorchGoblin": {
+                    "Note": "君が継続火炎ダメージに苦しんでいる限り、隣接するクリーチャーに対する君の近接攻撃は、武器ダメージダイスごとに[[/r {1}[火炎]]]{1点の火炎ダメージ}を追加で与える。"
+                }
+            },
+            "Gunslinger": {
+                "Way": {
+                    "Prompt": "ガンスリンガーの道を選んでください"
+                }
+            },
+            "HalfElf": {
+                "EarnedGlory": {
+                    "Note": "君がエルフに対して「懐柔」のための〈芸能〉判定を試みた際、君がファンブルしたなら、代わりに失敗する。"
+                }
+            },
+            "Halfling": {
+                "Innocuous": {
+                    "Note": "「気をそらす」ための〈欺瞞〉判定に失敗した際、人型生物のクリーチャーは君がファンブルしない限り、君が騙そうとしたことに気付かない"
+                },
+                "KeenEyes": {
+                    "Label": "30フィート以内の隠れた状態の、あるいは未探知のクリーチャーを「捜す」"
+                },
+                "SureFeet": {
+                    "BalanceNote": "もし、「バランスを取る」ためのロールに成功をロールしたなら、代わりにクリティカルする。君は「バランスを取る」際に立ちすくみにならない。",
+                    "ClimbNote": "もし、君が「登攀」するための〈運動〉に成功をロールしたなら、代わりにクリティカルする。君は「登攀」しようとるする際に立ちすくみにならない。"
+                }
+            },
+            "HarrowDeck": {
+                "Prompt": "ハロー・デックのスートを選んでください",
+                "HarrowSuits": {
+                    "Books": "本",
+                    "Crowns": "王冠",
+                    "Hammers": "槌",
+                    "Keys": "鍵",
+                    "Shields": "盾",
+                    "Stars": "星"
+                }
+            },
+            "Hobgoblin": {
+                "AgonizingRebuke": {
+                    "Note": "When you successfully Demoralize a foe, that foe takes [[/r {1d4}[mental]]]{1d4 mental damage} at the start of each of its turns as long as it remains Frightened and continues to engage in combat with you. If you have master proficiency in Intimidation, the damage increases to [[/r {2d4}[mental]]]{2d4}, and if you have legendary proficiency, the damage increases to [[/r {3d4}[mental]]]{3d4}."
+                },
+                "CantorianReinforcement": {
+                    "Note": "When you succeed at a saving throw against a disease or poison, you reduce the stage by 2 (or 1 for a virulent disease or poison), and when you critically succeed, you reduce the stage by 3 (or 2 for a virulent disease or poison)."
+                },
+                "WarConditioning": {
+                    "Prompt": "Select a movement type."
+                }
+            },
+            "HouseOfPerfection": {
+                "Label": "House of Perfection",
+                "Prompt": "Select a House of Perfection.",
+                "UnblinkingFlame": "Unblinking Flame",
+                "UnbreakingWaves": "Unbreaking Waves",
+                "UnfoldingWind": "Unfolding Wind",
+                "UntwistingIron": "Untwisting Iron"
+            },
+            "Human": {
+                "SaocAstrology": {
+                    "Prompt": "Select the circumstance penalty or bonus you obtained when using the Saoc Astrology action."
+                },
+                "VikingShieldbearer": {
+                    "Prompt": "Select a weapon to become trained in."
+                },
+                "WitchWarden": {
+                    "SaveNote": " If you roll a success on a saving throw against a curse or a spell cast by a witch or hag, you get a critical success instead."
+                }
+            },
+            "HuntPrey": {
+                "TargetHuntedPrey": "対象は君の獲物である",
+                "SeekHuntedPrey": "獲物を探すために",
+                "TrackHuntedPrey": "獲物を追跡するために",
+                "FirstHitDamage": "獲物への最初の命中に",
+                "FirstHitSwitch": "子のラウンドで最初に獲物に命中させたときに"
+            },
+            "Inventor": {
+                "Innovation": {
+                    "Prompt": "発明を選んでください",
+                    "Armor": {
+                        "AllowedDrops": "レベル0のユニークの防具",
+                        "Prompt": "防具の発明を選んでください"
+                    },
+                    "Construct": {
+                        "Prompt": "人造の発明を選んでください"
+                    },
+                    "Weapon": {
+                        "AllowedDrops": "レベル0か1の単純あるいは軍用武器",
+                        "Prompt": "武器の発明を選んでください"
+                    }
+                },
+                "Modification": {
+                    "Initial": {
+                        "AllowedDrops": "1レベルのインヴェンターのクラス特徴",
+                        "Prompt": "初期改造を選んでください"
+                    }
+                }
+            },
+            "Investigator": {
+                "Methodology": {
+                    "Prompt": "探偵術を選んでください."
+                },
+                "PursueALead": {
+                    "Label": "「手がかり追跡」で指定したものを調査している"
+                }
+            },
+            "Kobold": {
+                "DragonsPresence": {
+                    "Note": "When you roll a success on a saving throw against a fear effect, you get a critical success instead. When you roll a failure against a fear effect, you get a critical failure instead."
+                },
+                "DragonbloodParagon": {
+                    "Dracomancer": "Dracomancer",
+                    "KoboldBreath": "Kobold Breath",
+                    "StrongjawKobold": "Strongjaw Kobold",
+                    "VenomtailKobold": "Venomtail Kobold"
+                }
+            },
+            "Leshy": {
+                "Seedpod": {
+                    "Note": "On a critical hit, a seedpod bursts, issuing forth a tangle of vegetation that imposes a -10-foot circumstance penalty on the target's Speed for 1 round."
+                },
+                "ThornedSeedpod": {
+                    "Note": "When you critically succeed at a seedpod Strike, vines twist and stab your foe, dealing [[/r {1d4}[persistent,piercing]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Piercing Damage}"
+                }
+            },
+            "Lich": {
+                "HandOfTheLich": {
+                    "Note": "対象は君の呪文DCに対しての@Check[type:fortitude|dc:resolve(@actor.attributes.spellDC.value)]に成功しなければ、君の次の手番の終了時まで@Compendium[pf2e.conditionitems.Slowed]{減速化1}になる"
+                }
+            },
+            "LitCandle": "ろうそくをつける",
+            "LitTorch": "松明をつける",
+            "Lizardfolk": {
+                "ParthenogenicHatchling": {
+                    "Note": "Each of your successful saving throws against a disease reduces its stage by 2, or by 1 for a virulent disease. Each critical success against an ongoing disease reduces its stage by 3, or by 2 for a virulent disease."
+                },
+                "GuidedByTheStars": {
+                    "Prompt": "技能かセーヴィング・スローを選んで下さい"
+                }
+            },
+            "MagicalExperiment": {
+                "EnhancedSenses": "感覚強化",
+                "ResistantSkin": "丈夫な皮膚",
+                "TouchTelepathy": "接触テレパシー"
+            },
+            "Magus": {
+                "ArcaneCascade": {
+                    "WeaponDamage": "武器ダメージ"
+                },
+                "HybridStudy": {
+                    "Prompt": "混成研究を選んでください"
+                },
+                "SparklingTarge": {
+                    "DefendingLabel": "魔法に対して身を守っている"
+                }
+            },
+            "MarkForDeath": {
+                "TargetMark": "対象は死の予告を受けている",
+                "SeekMark": "君の予告を「捜す」",
+                "DeceiveMark": "予告を「フェイント」するのに〈欺瞞〉を使う"
+            }, 
+            "MartialProficiency": {
+                "AdvancedAzarketiWeapons": "上級アザールケティ武器",
+                "AdvancedCatfolkWeapons": "上級キャットフォーク武器",
+                "AdvancedConrasuWeapons": "上級コンラス武器",
+                "AdvancedDwarfWeapons": "上級ドワーフ武器",
+                "AdvancedElfWeapons": "上級エルフ武器",
+                "AdvancedFirearmsCrossbows": "上級火器・クロスボウ",
+                "AdvancedGeniekinWeapons": "上級ジーニーキン武器",
+                "AdvancedGhoranWeapons": "上級ゴーラン武器",
+                "AdvancedGnollWeapons": "上級ノール武器",
+                "AdvancedGnomeWeapons": "上級ノーム武器",
+                "AdvancedGoblinWeapons": "上級ゴブリン武器",
+                "AdvancedGrippliWeapons": "上級グリプリー武器",
+                "AdvancedGroup": {
+                    "axe": "上級　斧",
+                    "bomb": "上級　爆弾",
+                    "bow": "上級　弓",
+                    "brawling": "上級　格闘",
+                    "club": "上級　クラブ",
+                    "dart": "上級　ダーツ",
+                    "firearm": "上級　火器",
+                    "flail": "上級　フレイル",
+                    "hammer": "上級　ハンマー",
+                    "knife": "上級　ナイフ",
+                    "pick": "上級　ピック",
+                    "polearm": "上級　ポールアーム",
+                    "shield": "上級　盾",
+                    "sling": "上級　スリング",
+                    "spear": "上級　スピア",
+                    "sword": "上級　剣"
+                },
+                "AdvancedHalflingWeapons": "上級ハーフリング武器",
+                "AdvancedHobgoblinWeapons": "上級ホブゴブリン武器",
+                "AdvancedKoboldWeapons": "上級コボルド武器",
+                "AdvancedOrcWeapons": "上級オーク武器",
+                "AdvancedTenguWeapons": "上級テング武器",
+                "AdvancedVanaraWeapons": "上級ヴァナラ武器",
+                "AdvancedVishkanyaWeapons": "上級ヴィシュカニヤ武器",
+                "MartialAzarketiWeapons": "軍用アザールケティ武器",
+                "MartialBombsFirearms": "軍用爆弾＆火器",
+                "MartialCatfolkWeapons": "軍用キャットフォーク武器",
+                "MartialConrasuWeapons": "軍用コンラス武器",
+                "MartialDwarfWeapons": "軍用ドワーフ武器",
+                "MartialElfWeapons": "軍用エルフ武器",
+                "MartialFirearmsCrossbows": "軍用火器・クロスボウ",
+                "MartialGeniekinWeapons": "軍用ジーニーキン武器",
+                "MartialGhoranWeapons": "軍用ゴーラン武器",
+                "MartialGnollWeapons": "軍用ノール武器",
+                "MartialGnomeWeapons": "軍用ノーム武器",
+                "MartialGoblinWeapons": "軍用ゴブリン武器",
+                "MartialGrippliWeapons": "軍用グリプリー武器",
+                "MartialGroup": {
+                    "axe": "軍用 斧",
+                    "bomb": "軍用 爆弾",
+                    "bow": "軍用 弓",
+                    "brawling": "軍用 格闘",
+                    "club": "軍用 クラブ",
+                    "dart": "軍用 ダーツ",
+                    "firearm": "軍用 火器",
+                    "flail": "軍用 フレイル",
+                    "hammer": "軍用 ハンマー",
+                    "knife": "軍用 ナイフ",
+                    "pick": "軍用 ピック",
+                    "polearm": "軍用 ポールアーム",
+                    "shield": "軍用 盾",
+                    "sling": "軍用 スリング",
+                    "spear": "軍用 スピア",
+                    "sword": "軍用 剣"
+                },
+                "MartialHalflingWeapons": "軍用ハーフリング武器",
+                "MartialHobgoblinWeapons": "軍用ホブゴブリン武器",
+                "MartialKoboldWeapons": "軍用コボルド武器",
+                "MartialOrcWeapons": "軍用オーク武器",
+                "MartialTenguWeapons": "軍用テング武器",
+                "MartialVanaraWeapons": "軍用ヴァナラ武器",
+                "MartialVishkanyaWeapons": "軍用ヴィシュカニヤ武器",
+                "MonasticArchery": "寺院の弓術",
+                "SimpleBombsFirearms": "単純爆弾&火器",
+                "SimpleFirearmsCrossbows": "単純火器・クロスボウ",
+                "SimpleMartialTwoHandedMeleeWeapons": "単純及び軍用 両手近接武器",
+                "SimpleMartialBows": "単純及び軍用 弓"
+            },
+            "MechanicalTorch": {
+                "LitCone": "Mechanical torch is lit (cone)",
+                "LitRadius": "Mechanical torch is lit (radius)"
+            },
+            "Monk": {
+                "OneInchPunch": {
+                    "ThreeActionLabel": "One Inch Punch (Three Actions)",
+                    "TwoActionLabel": "One Inch Punch (Two Actions)"
+                },
+                "SacredKi": {
+                    "Prompt": "あなたの属性のダメージを選んでください"
+                },
+                "StunningFist": {
+                    "Note": "The target must succeed at a @Check[type:fortitude|dc:resolve(@actor.system.proficiencies.classDCs.monk.value)|traits:incapacitation|overrideTraits:true] save against your class DC or be @UUID[Compendium.pf2e.conditionitems.dfCMdR4wnpbYNTix]{Stunned 1} (or @UUID[Compendium.pf2e.conditionitems.dfCMdR4wnpbYNTix]{Stunned 3} on a critical failure)."
+                }
+            },
+            "MountainStance": {
+                "BracersOfArmor": "山の構え＋ブレーサーズ・オヴ・アーマー",
+                "ExplorersClothing": "山の構え＋探検家の衣類",
+                "MageArmor": "山の構え＋メイジ・アーマー"
+            },
+            "Multitalented": {
+                "AllowedDrops": "２レベルのマルチクラス専心特技",
+                "Prompt": "マルチクラス専心特技を選んで下さい"
+            },
+            "Mummy": {
+                "AccursedTouch": {
+                    "Note": {
+                        "Base": "クリーチャーは[[/r {2d6}[継続、負のエネルギー]]]点の@Compendium[pf2e.conditionitems.Persistent Damage]{継続負のエネルギーダメージ}を受ける。クリーチャーはこの継続ダメージを受けている間、@Compendium[pf2e.conditionitems.Stupefied]{知性低下1}でもある",
+                        "FourteenthLevel": "クリーチャーは [[/r {3d6}[継続、負のエネルギー]]]点の@Compendium[pf2e.conditionitems.Persistent Damage]{継続負のエネルギーダメージ}を受ける。クリーチャーはこの継続ダメージを受けている間、@Compendium[pf2e.conditionitems.Stupefied]{知性低下1}でもある",
+                        "TwentiethLevel": "クリーチャーは [[/r {4d6}[継続、負のエネルギー]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続負のエネルギーダメージ}を受ける。クリーチャーはこの継続ダメージを受けている間、@Compendium[pf2e.conditionitems.Stupefied]{知性低下1}でもある"
+                    }
+                },
+                "Terrain": {
+                    "Arctic": "極地",
+                    "Desert": "砂漠",
+                    "Mountain": "山地",
+                    "Prompt": "bound terrainを選んでください",
+                    "Swamp": "沼地"
+                }
+            },
+            "Nagaji": {
+                "VenomSpit": {
+                    "CriticalNote": "対象は武器のダメージ・ダイスの数に等しい [[/r (1+@weapon.system.runes.striking)[継続、毒]]]{継続毒ダメージ} を受ける",
+                    "HoodedNote": "対象はまた、君の次の手番の開始時まで @UUID[Compendium.pf2e.conditionitems.TkIyaNPgTZFBCCuh]{目が眩んだ状態} である。",
+                    "StrikeLabel": "毒のつば"
+                }
+            },
+            "Oracle": {
+                "Mystery": {
+                    "Prompt": "神秘を選んでください"
+                }
+            },
+            "PackAttack": {
+                "Label": "対象は少なくとも2人の味方の距離内にいる"
+            },
+            "PreciseStrike": {
+                "Finisher": "終撃"
+            },
+            "Prompt": {
+                "AdvancedMulticlassFeat": "キャラクターレベルの半分レベルまでのクラス特技１つを選んでください",
+                "CantripOrNonCantrip": "キャントリップかどうかを選んで下さい",
+                "ClassDCAbilityScore": "クラスDCの能力値を選んでください",
+                "ConsciousMind": "意識領域を選んでください",
+                "CreatureSize": "クリーチャーのサイズを選んでください",
+                "DamageType": "ダメージ種別を選んでください",
+                "Deity": "神格を選んでください",
+                "DeitysDomain": "神格の領域を選んでください",
+                "DragonBreathWeapon": "ドラゴンのブレス武器を選んでください",
+                "Element": "元素を選んでください",
+                "EnergyType": "エネルギー種別を選んでください",
+                "EvolutionFeat": "最初の進化特技を選んでください",
+                "Feat": "特技を選んでください",
+                "FirstImplement": "最初の装具を選んでください",
+                "Lesson": "教えを選んで下さい",
+                "LevelOneClassFeat": "１レベルのクラス特技を選んでください",
+                "LevelOneOrTwoClassFeat": "1レベルあるいは2レベルのクラス特技を選んでください",
+                "Material": "素材を選んでください",
+                "PathToPerfection": "完全への道を選んでください",
+                "SecondImplement": "2番目の装具を選んでください",
+                "Shillelagh": "クラブがスタッフを選んでください",
+                "Skill": "技能を選んで下さい",
+                "SkillFeat": "技能特技を選んでください",
+                "SubconsciousMind": "潜在意識を選んでください",
+                "ThirdImplement": "3番目の装具を選んでください",
+                "UnarmedAttack": "素手打撃を選んでください",
+                "Weapon": "武器を選んでください",
+                "WeaponGroup": "武器種を選んでください",
+                "WeaponOrUnarmed": "武器あるいは素手打撃を選んでください",
+                "WildShape": "形態変更効果を選んでください"
+            },
+            "Orc": {
+                "HoldMark": {
+                    "Axe": "Axe (Axe or Pick).",
+                    "Shield": "Shield (Hammer or Shield).",
+                    "Torch": "Torch (Bomb or Knife).",
+                    "Prompt": "Choose the shape of your hold mark."
+                },
+                "OrcWarmask": {
+                    "Gods": "神々",
+                    "Land": "土地",
+                    "Magic": "魔法",
+                    "Prompt": "ウォーマスクの力の源を選んでください",
+                    "Unknown": "未知"
+                }
+            },
+            "OverwhelmingBlow": {
+                "CriticalHit": "Critically hit with Overwhelming Blow"
+            },
+            "Poppet": {
+                "WashOut": {
+                    "Note": "Each time you succeed at a Fortitude save against an ongoing poison, you reduce its stage by 2, or by 1 against a virulent poison. Each critical success you achieve against an ongoing poison reduces its stage by 3, or by 2 against a virulent poison."
+                }
+            },
+            "Psychic": {
+                "UnleashPsyche": {
+                    "DamageLabel": "サイキックの呪文発動から呪文を発動している"
+                }
+            },
+            "Ranger": {
+                "HamstringingStrike": {
+                    "Note": "If you hit your prey, the creature takes a -5-foot status penalty to Speed. If you critically hit your prey, the creature takes a -10-foot status penalty to Speed.\n@UUID[Compendium.pf2e.feat-effects.ESnzqtwSgahLcxg2]{Effect: Hamstringing Strike}",
+                    "Prompt": "Select a hit result."
+                },
+                "HuntersEdge": {
+                    "Prompt": "狩人の刃を選んでください"
+                }
+            },
+            "Ratfolk": {
+                "LabRat": {
+                    "Note": "If you roll a success on your saving throw against an elixir or poison, you get a critical success instead."
+                },
+                "WarrenNavigator": {
+                    "Note": "When you Sense Direction, you get a result one degree of success better than you rolled."
+                }
+            },
+            "Rogue": {
+                "EldritchTrickster": {
+                    "Prompt": "呪文発動するマルチクラス・アーキタイプを選んでください"
+                },
+                "Racket": {
+                    "Prompt": "裏稼業を選んでください"
+                },
+                "TrainSkill": {
+                    "Prompt": "修得になる技能を選んでください"
+                }
+            },
+            "ScionOfDomora": {
+                "GuardiansEmbrace": {
+                    "PhysicalAttackLabel": "Guarding Against a Physical Attack",
+                    "ProtectionLabel": "Gain Resistance to Physical Attack"
+                },
+                "SpiritualFlurryNote": "Targets become @Compendium[pf2e.conditionitems.Flat-Footed]{Flat-Footed} until the end of your current turn."
+            },
+            "Shisk": {
+                "PiercingQuills": {
+                    "Note": "Your quills unarmed attack deals @Localize[PF2E.PersistentDamage.Bleed1d4.success] on a critical hit."
+                }
+            },
+            "Shoony": {
+                "EsteemedVisitor": {
+                    "Note": "While you are in a settlement, when you roll a critical failure on a Diplomacy check to Gather Information or Make an Impression, you get a failure instead."
+                },
+                "FishseekerShoony": {
+                    "Note": "If you roll a success on an attempt to Grab an Edge, you get a critical success instead; if you roll a critical failure, you get a failure instead."
+                }
+            },
+            "SkillMastery": {
+                "AllowedDrops": "Skill Feats",
+                "ExpertPrompt": "Select a skill to become expert in.",
+                "MasterPrompt": "Select a skill to become master in."
+            },
+            "SneakAttack": "急所攻撃",
+            "SnipersAim": {
+                "Note": "Ignore the target's Concealed condition."
+            },
+            "SnipingDuoDedication": {
+                "Label": "Sniping Duo partner hit target with a strike this round"
+            },
+            "Sorcerer": {
+                "Bloodline": {
+                    "Prompt": "血脈を選んでください"
+                }
+            },
+            "SpecialtyCrafting": {
+                "Alchemy": "錬金術",
+                "Artistry": "美術品",
+                "Blacksmithing": "鍛冶",
+                "Bookmaking": "製本",
+                "Glassmaking": "ガラス作り",
+                "Leatherworking": "革なめし",
+                "Pottery": "磁器",
+                "Prompt": "専門分野を選んでください",
+                "Shipbuilding": "造船",
+                "Stonemasonry": "石工",
+                "Tailoring": "仕立屋",
+                "Weaving": "織物",
+                "Woodworking": "木工"
+            },
+            "SpellEffectProtection": {
+                "Prompt": "君が守りを行おうとしている属性の特性を選んでください"
+            },
+            "SpellmastersResilience": {
+                "Prompt": "抵抗を得る魔法体系を選んでください"
+            },
+            "Sprite": {
+                "LuminousSprite": {
+                    "Light": "光を投じる"
+                },
+                "SpritesSpark": {
+                    "Draxie": "Euphoric Spark",
+                    "LuminousSprite": "Luminous Spark",
+                    "Grig": "Dissonant Note",
+                    "Melixie": "Sting Shot",
+                    "Nyktera": "Ultrasonic Pulse",
+                    "Pixie": "Pixie Dust"
+                }
+            },
+            "Stance": {
+                "Attack": {
+                    "WolfJaws": "狼の顎"
+                }
+            },
+            "SterlingDynamo": {
+                "AutomaticPercussive": "自動：Percussive Striker Dynamo",
+                "AutomaticPower": "自動：Power Driver Dynamo",
+                "Label": "Sterling Dynamo",
+                "ManualPercussive": "手動：Percussive Striker Dynamo",
+                "ManualPower": "手動：Power Driver Dynamo"
+            },
+            "Swashbuckler": {
+                "Style": {
+                    "Prompt": "スワッシュバックラーのスタイルを選んでください"
+                }
+            },
+            "SoulWarden": {
+                "SafeguardSoul": {
+                    "Label": "魂の操作に対する守り"
+                },
+                "SpiralSworn": {
+                    "Label": "対象が幽閉している魂を所持しているか、アンデッドを作ったことがある"
+                },
+                "UndeadNearby": "近くにいるアンデッド"
+            },
+            "SubstituteRoll": {
+                "Assurance": "確実性",
+                "EffectType": "{type} ({substitution})"
+            },
+            "Suli": {
+                "Dualborn": {
+                    "FirstElement": "最初の元素を選んでください",
+                    "SecondElement": "2番目の元素を選んでください"
+                },
+                "ElementalAssault": {
+                    "Prompt": "元素を選んでください"
+                }
+            },
+            "Target": {
+                "AgainstDemons": "デーモンに対して",
+                "AgainstDevils": "デヴィルに対して",
+                "AgainstHumanoids": "人型生物に対して",
+                "Necromancer": "対象がネクロマンサーである"
+            },
+            "TerrainExpertise": {
+                "Prompt": "地形を選んでください"
+            },
+            "Thaumaturge": {
+                "Implement": {
+                    "Amulet": "アミュレット",
+                    "Bell": "鈴",
+                    "Chalice": "杯",
+                    "Lantern": "ランタン",
+                    "Mirror": "鏡",
+                    "Regalia": "レガリア",
+                    "Tome": "書物",
+                    "Wand": "ワンド",
+                    "Weapon": "武器"
+                },
+                "TalismanEsoterica": "護符のエソテリカ"
+            },
+            "ToggleProperty": {
+                "Triangulate": "観測者が対象を見ることが出来る",
+                "GourdHead": "ヒョウタン頭: 知覚DCを上昇させる",
+                "TagTeam": "秘密社会の別のメンバーと挟撃している"
+            },
+            "TOTMToggle": {
+                "FirstRangeIncrement": "最初の射程単位内である必要がある能力を有効にする",
+                "FlatFooted": "立ちすくみ状態のターゲットを必要とする能力を有効にする",
+                "Incorporeal": "非実体の対象である必要がある能力を有効化する",
+                "Vampire": "ヴァンパイアの対象である必要がある能力を有効にする",
+                "Undead": "アンデッドの対象である必要がある能力を有効にする"
+            },
+            "TrapFinder": {
+                "DefendingLabel": "Trap Finder (defending against traps)",
+                "SearchLabel": "Trap Finder (searching for traps)"
+            },
+            "TrinityGeodeLabel": "Trinity Geode",
+            "TwoHanded": {
+                "BastardSword": "バスタード・ソードを両手持ちする",
+                "BattleLute": "バトル・リュートを両手持ちする",
+                "Broom": "ブルームを両手持ちする",
+                "Cane": "ケーンを両手持ちする",
+                "Katana": "カタナを両手持ちする",
+                "Khakkhara": "カーッカーラを両手持ちする",
+                "ReinforcedStock": "強化ストックを両手持ちする",
+                "RhokaSword": "ローカ・ソードを両手持ちする",
+                "Staff": "スタッフを両手持ちする"
+            },
+            "UndeadSlayer": {
+                "SlayersBlessing": {
+                    "Note": "対象は1ラウンド、 @Compendium[pf2e.conditionitems.sDPxOjQ9kx2RZE8D]{逃亡状態} である"
+                }
+            },
+            "Vampire": {
+                "ViciousFangs": {
+                    "Note": {
+                        "Base": "君の牙の「打撃」は追加で[[/r {1d6}[継続、出血]]]点の@Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}を与える。",
+                        "FourteenthLevel": "君の牙の「打撃」は追加で [[/r {2d6}[継続、出血]]] 点の@Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}を与える。",
+                        "TwentiethLevel": "君の牙の「打撃」は追加で [[/r {3d6}[継続、出血]]] 点の@Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}を与える。"
+                    }
+                }
+            },
+            "VirtuosicPerformer": {
+                "Acting": "演技",
+                "Comedy": "喜劇",
+                "Dance": "舞踏",
+                "Keyboards": "鍵盤",
+                "Oratory": "朗誦",
+                "Percussion": "打楽器",
+                "Prompt": "芸能の種別を選んで下さい",
+                "Singing": "歌唱",
+                "Strings": "弦楽器",
+                "Winds": "木管楽器"
+            },
+            "Vishkanya": {
+                "VenomResistantVishkanya": {
+                    "PoisonSaveNote": "Each of your successful saving throws against a poison affliction reduces its stage by 2. Each critical success against an ongoing poison reduces its stage by 3.",
+                    "VirulentSaveNote": "Each of your successful saving throws against a virulent poison affliction reduces its stage by 1. Each critical success against an ongoing virulent poison reduces its stage by 2."
+                }
+            },
+            "VitalityManipulationStance": {
+                "StrikeLabel": "Vitality Blast",
+                "Note": "When you use Stunning Fist, instead of saving against being stunned, you can choose to have the target make a @Check[type:fortitude|dc:resolve(@actor.attributes.classDC.value)] save against your class DC with the following results. You must choose to do this before the target rolls its save.</p><hr><p><strong>Critical Success</strong> The target is unaffected.</p><p><strong>Success</strong> The target's muscles become temporarily weaker. For 1 round, the target is @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 2}, and any time it attempts to take an action with the manipulate trait, the action is disrupted unless it succeeds at a flat check with a DC equal to 5 + its enfeebled value.</p><p><strong>Failure</strong> As success, but the duration is 1 minute.</p><p><strong>Critical Failure</strong> As success, but the duration is 1 minute, the flat check is DC 11, and the target takes -10-foot status penalty to all Speeds for the duration.</p>"
+            },
+            "WardenHuman": {
+                "HitPoints": "4点のヒット・ポイント",
+                "Fortitude": "頑健セーヴに熟練",
+                "MediumArmor": "中装鎧に修得"
+            },
+            "WardingRune": {
+                "Prompt": "占術以外の魔法の系統を選んで下さい"
+            },
+            "WellspringMage": {
+                "CriticalSuccess": "You temporarily recover an expended spell slot of any level of your choice. The temporary spell slot lasts for 1 minute, and if you don't use it by then, you experience an immediate @UUID[Compendium.pf2e.rollable-tables.N0pDFNCffTe2Du39]{Wellspring Surge}.",
+                "Failure": "You generate a @UUID[Compendium.pf2e.rollable-tables.N0pDFNCffTe2Du39]{Wellspring Surge}, with a spell level chosen randomly among your top three levels of spell slots (or all your levels if you have fewer than three)",
+                "Initiative": "When you roll initiative for a non-trivial combat encounter, as well as in other high-stress situations of the GM's choice, magic wells up within you. Attempt a @Check[type:flat|dc:6|traits:wellspring-magic] Check check.",
+                "Success": "You temporarily recover an expended spell slot of a spell level chosen randomly among your top three levels of spell slots (or all your levels if you have fewer than three). The temporary spell slot lasts for 1 minute, and if you don't use it by then, you experience an immediate @UUID[Compendium.pf2e.rollable-tables.N0pDFNCffTe2Du39]{Wellspring Surge}."
+            },
+            "WildMorph": {
+                "Prompt": "ワイルド・モーフの変化箇所を選んで下さい",
+                "WildClaws": "野生の爪",
+                "WildJaws": "野生の顎",
+                "LongVines": "長い蔓",
+                "ElementalMatter": "エレメンタル物質",
+                "Wings": "翼"
+            },
+            "Witch": {
+                "Patron": {
+                    "Prompt": "守護霊を選んでください"
+                }
+            },
+            "Wizard": {
+                "ArcaneSchool": {
+                    "Prompt": "秘術系統を選んでください"
+                },
+                "ArcaneThesis": {
+                    "Prompt": "秘術の主題を選んでください"
+                },
+                "Metamagic1": {
+                    "Prompt": "1レベルのウィザードの呪文修正特技を選んでください"
+                }
+            },
+            "Zombie": {
+                "Deteriorated": "劣化"
+            }
+        },
+        "Terrain": {
+            "Aquatic": "水中",
+            "Arctic": "極地",
+            "Desert": "砂漠",
+            "Forest": "森林",
+            "Mountain": "山地",
+            "Plains": "平地",
+            "Sky": "空",
+            "Swamp": "沼地",
+            "Underground": "地下"
+        },
+        "UI": {
+            "RuleElements": {
+                "ChoiceSet": {
+                    "Decline": "拒否",
+                    "DragHomebrewItem": "上記のオプションの代わりに使っているものがあるなら、自家ルール・アイテムをここにドラッグする",
+                    "HomebrewItem": "自家ルール・アイテム",
+                    "NoLabel": "いいえ",
+                    "Prompt": "選択をすること",
+                    "SaveLabel": "セーヴ",
+                    "SkillLabel": "技能",
+                    "YesLabel": "はい"
+                },
+                "EffectTarget": {
+                    "Prompt": "この効果の対象を選んで下さい"
+                },
+                "MarkTarget": {
+                    "TargetToken": "マウスでホバリングしながらTを押すことによってターゲットを取る。ESCを押してキャンセル",
+                    "Timeout": "対象不足jなので効果の生成をキャンセルします"
+                },
+                "Prompt": {
+                    "NoSelectionMade": "選択されていません {item}は起動していません",
+                    "NoValidOptions": "{actor}に有効な{item}の選択肢がありません"
+                },
+                "GrantItem": {
+                    "AlreadyHasItem": "{actor} は既に {item} を持っているので追加されませんでした"
+                }
+            }
+        }
+    }
+}

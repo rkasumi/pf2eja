@@ -1,0 +1,70 @@
+{
+    "id": "pf2eja",
+    "name": "日本語化（Pathfinder2e）",
+    "title": "日本語化（Pathfinder2e）",
+    "description": "PF2eを日本語化するためのMod",
+    "description": "",
+    "version": "2.0.0",
+	  "systems": ["pf2e"],
+    "authors": [
+        {
+            "name": "rkasumi",
+            "email": "rkasumi@example.com",
+            "url": "",
+            "discord": "",
+            "flags": {}
+        }
+    ],
+    "languages": [
+      {
+        "lang": "ja",
+        "system": "pf2e",
+        "name": "日本語",
+        "path": "lang/ja.json",
+        "flags": {}
+      },
+      {
+        "lang": "ja",
+        "system": "pf2e",
+        "name": "日本語",
+        "path": "lang/action-ja.json",
+        "flags": {}
+      },
+      {
+        "lang": "ja",
+        "system": "pf2e",
+        "name": "日本語",
+        "path": "lang/re-ja.json",
+        "flags": {}
+      }
+    ],
+    "scripts": [
+        "register-babele.js"
+    ],
+    "relationships": {
+      "systems": [
+        {
+          "id": "pf2e",
+          "type": "system",
+          "compatibility": {}
+        }
+      ],
+      "requires": [
+        {
+          "id": "babele",
+          "type": "module",
+          "compatibility": {}
+        },
+        {
+          "id": "lib-wrapper",
+          "type": "module",
+          "compatibility": {}
+        }
+      ]
+    },
+    "compatibility": {
+        "minimum": 11,
+        "verified": 11,
+        "maximum": 11
+    }
+}
