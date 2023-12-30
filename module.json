@@ -5,7 +5,7 @@
     "description": "PF2eを日本語化するためのMod",
     "description": "",
     "version": "2.0.0",
-	  "systems": ["pf2e"],
+    "systems": ["pf2e"],
     "authors": [
         {
             "name": "rkasumi",
@@ -62,6 +62,158 @@
         }
       ]
     },
+      "flags": {
+            "pf2eja": {
+                  "pf2e-homebrew": {
+                        "creatureTraits": {
+                              "evil": {
+                                    "label": "PF2E.TraitEvil",
+                                    "description": "PF2E.TraitDescriptionEvil"
+                              },
+                              "good": {
+                                    "label": "PF2E.TraitGood",
+                                    "description": "PF2E.TraitDescriptionGood"
+                              },
+                              "chaotic": {
+                                    "label": "PF2E.TraitChaotic",
+                                    "description": "PF2E.TraitDescriptionChaotic"
+                              },
+                              "lawful": {
+                                    "label": "PF2E.TraitLawful",
+                                    "description": "PF2E.TraitDescriptionLawful"
+                              }
+                        },
+                        "damageTypes": {
+                              "evil": {
+                                    "label": "PF2E.TraitEvil",
+                                    "icon": "fa-face-angry-horns",
+                                    "category": "energy"
+                              },
+                              "good": {
+                                    "label": "PF2E.TraitGood",
+                                    "icon": "fa-face-smile-halo",
+                                    "category": "energy"
+                              },
+                              "chaotic": {
+                                    "label": "PF2E.TraitChaotic",
+                                    "icon": "fa-face-zany",
+                                    "category": "energy"
+                              },
+                              "lawful": {
+                                    "label": "PF2E.TraitLawful",
+                                    "icon": "fa-scale-balanced",
+                                    "category": "energy"
+                              }
+                        },
+                        "equipmentTraits": {
+                              "evil": {
+                                    "label": "PF2E.TraitEvil",
+                                    "description": "PF2E.TraitDescriptionEvil"
+                              },
+                              "good": {
+                                    "label": "PF2E.TraitGood",
+                                    "description": "PF2E.TraitDescriptionGood"
+                              },
+                              "chaotic": {
+                                    "label": "PF2E.TraitChaotic",
+                                    "description": "PF2E.TraitDescriptionChaotic"
+                              },
+                              "lawful": {
+                                    "label": "PF2E.TraitLawful",
+                                    "description": "PF2E.TraitDescriptionLawful"
+                              }
+                        },
+                        "featTraits": {
+                              "open": {
+                                    "label": "PF2E.TraitOpen",
+                                    "description": "PF2E.TraitDescriptionOpen"
+                              },
+                              "evil": {
+                                    "label": "PF2E.TraitEvil",
+                                    "description": "PF2E.TraitDescriptionEvil"
+                              },
+                              "good": {
+                                    "label": "PF2E.TraitGood",
+                                    "description": "PF2E.TraitDescriptionGood"
+                              },
+                              "chaotic": {
+                                    "label": "PF2E.TraitChaotic",
+                                    "description": "PF2E.TraitDescriptionChaotic"
+                              },
+                              "lawful": {
+                                    "label": "PF2E.TraitLawful",
+                                    "description": "PF2E.TraitDescriptionLawful"
+                              }
+                        },
+                        "languages": {
+                        },
+                        "spellTraits": {
+                              "abjuration": {
+                                    "label": "PF2E.TraitAbjuration",
+                                    "description": "PF2E.TraitDescriptionAbjuration"
+                              },
+                              "conjuration": {
+                                    "label": "PF2E.TraitConjuration",
+                                    "description": "PF2E.TraitDescriptionConjuration"
+                              },
+                              "divination": {
+                                    "label": "PF2E.TraitDivination",
+                                    "description": "PF2E.TraitDescriptionDivination"
+                              },
+                              "enchantment": {
+                                    "label": "PF2E.TraitEnchantment",
+                                    "description": "PF2E.TraitDescriptionEnchantment"
+                              },
+                              "evocation": {
+                                    "label": "PF2E.TraitEvocation",
+                                    "description": "PF2E.TraitDescriptionEvocation"
+                              },
+                              "necromancy": {
+                                    "label": "PF2E.TraitNecromancy",
+                                    "description": "PF2E.TraitDescriptioNecromancy"
+                              },
+                              "transmutation": {
+                                    "label": "PF2E.TraitTransmutation",
+                                    "description": "PF2E.TraitDescriptionTransmutation"
+                              },
+                              "evil": {
+                                    "label": "PF2E.TraitEvil",
+                                    "description": "PF2E.TraitDescriptionEvil"
+                              },
+                              "good": {
+                                    "label": "PF2E.TraitGood",
+                                    "description": "PF2E.TraitDescriptionGood"
+                              },
+                              "chaotic": {
+                                    "label": "PF2E.TraitChaotic",
+                                    "description": "PF2E.TraitDescriptionChaotic"
+                              },
+                              "lawful": {
+                                    "label": "PF2E.TraitLawful",
+                                    "description": "PF2E.TraitDescriptionLawful"
+                              }
+                        },
+                        "weaponTraits": {
+                              "evil": {
+                                    "label": "PF2E.TraitEvil",
+                                    "description": "PF2E.TraitDescriptionEvil"
+                              },
+                              "good": {
+                                    "label": "PF2E.TraitGood",
+                                    "description": "PF2E.TraitDescriptionGood"
+                              },
+                              "chaotic": {
+                                    "label": "PF2E.TraitChaotic",
+                                    "description": "PF2E.TraitDescriptionChaotic"
+                              },
+                              "lawful": {
+                                    "label": "PF2E.TraitLawful",
+                                    "description": "PF2E.TraitDescriptionLawful"
+                              }
+                        }
+                  }
+            }
+      },
     "compatibility": {
         "minimum": 11,
         "verified": 11,

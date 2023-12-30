@@ -231,70 +231,75 @@
                 },
                 "CriticalSpecialization": "クリティカル特化効果",
                 "Language": {
-                    "adlet": "アドレット語",
-                    "akitonian": "アキトニア語",
-                    "aklo": "アクロ語",
-                    "alghollthu": "アルゴルス語(アボレス)",
+                    "abyssal": "奈落語",
+                    "adlet": "Adlet",
+                    "akitonian": "Akitonian",
+                    "aklo": "Aklo",
+                    "alghollthu": "アルゴルス語",
                     "amurrun": "キャットフォーク語",
-                    "anadi": "アナディ語",
-                    "ancient-osiriani": "古代オシーリオン語",
-                    "androffan": "アンドロファン語",
-                    "anugobu": "アヌゴブ語",
-                    "arboreal": "アーボリアル語",
-                    "arcadian": "アルカディア語",
-                    "azlanti": "アズラント語",
-                    "boggard": "ボガード語",
-                    "calda": "カルダ語",
-                    "caligni": "カリグニ語",
+                    "anadi": "Anadi",
+                    "ancientOsiriani": "Ancient Osiriani",
+                    "androffan": "Androffan",
+                    "anugobu": "Anugobu",
+                    "arboreal": "Arboreal",
+                    "arcadian": "Arcadian",
+                    "azlanti": "Azlanti",
+                    "boggard": "Boggard",
+                    "calda": "Calda",
+                    "caligni": "Caligni",
                     "chthonian": "奈落語",
+                    "celestial": "天界語",
                     "common": "共通語",
                     "cyclops": "サイクロプス語",
-                    "daemonic": "ダイモン語",
-                    "destrachan": "デストラカン語",
+                    "daemonic": "Daemonic",
+                    "destrachan": "Destrachan",
                     "diabolic": "地獄語",
                     "draconic": "竜語",
                     "drooni": "Drooni",
+                    "druidic": "Druidic",
                     "dwarven": "ドワーフ語",
-                    "dziriak": "ディ・ジーリアク語",
-                    "ekujae": "エクジャエ象形文字",
-                    "elder-thing": "Elder Thing",
+                    "dziriak": "D'ziriak",
+                    "ekujae": "Ekujae shape-script",
+                    "elderThing": "Elder Thing",
                     "elven": "エルフ語",
-                    "empyrean": "天上語",
-                    "erutaki": "エルタキ語",
+                    "empyrean": "天界語",
+                    "erutaki": "Erutaki",
                     "fey": "森語",
-                    "formian": "フォーミアン語",
-                    "garundi": "ガルーンド語",
-                    "girtablilu": "ギルタブルル語",
+                    "formian": "Formian",
+                    "garundi": "Garundi",
+                    "girtablilu": "Girtablilu",
+                    "gnoll": "ノール語",
                     "gnomish": "ノーム語",
-                    "goblin": "ゴブリン語",
-                    "goloma": "ゴロマ語",
-                    "grioth": "グリオス語",
-                    "grippli": "グリプリ語",
+                    "goblin": "ゴブリン",
+                    "goloma": "Goloma",
+                    "grioth": "Grioth",
+                    "grippli": "Grippli",
                     "halfling": "ハーフリング語",
-                    "hallit": "ハリト語",
-                    "hwan": "ホワン語",
-                    "iblydan": "イブリドス語",
-                    "ikeshti": "イケシュティ語",
-                    "immolis": "インモリス語",
+                    "hallit": "Hallit",
+                    "hwan": "Hwan",
+                    "iblydan": "Iblydan",
+                    "ikeshti": "Ikeshti",
+                    "immolis": "Immolis",
+                    "infernal": "地獄語",
                     "iruxi": "リザードフォーク語",
-                    "jistkan": "ジストカ語",
+                    "jistkan": "Jistkan",
                     "jotun": "巨人語",
-                    "jyoti": "ジョティ語",
-                    "kaava": "カアヴァ語",
-                    "kashrishi": "カシュリシ語",
-                    "kelish": "ケリッシュ語",
+                    "jyoti": "Jyoti",
+                    "kaava": "Kaava",
+                    "kashrishi": "Kashrishi",
+                    "kelish": "Kelish",
                     "kholo": "ノール語",
                     "kibwani": "Kibwani",
                     "kitsune": "Kitsune",
-                    "kovintal": "コヴィンタス語",
+                    "kovintal": "Kovintal",
                     "lirgeni": "Lirgeni",
                     "mahwek": "Mahwek",
-                    "migo": "ミ＝ゴ語",
+                    "miGo": "Mi-Go",
                     "minaten": "Minatan",
                     "minkaian": "Minkaian",
+                    "munavri": "Munavri",
                     "muan": "Muan",
-                    "munavri": "ミュナヴリ語",
-                    "mwangi": "ムワンギ語",
+                    "mwangi": "Mwangi",
                     "mzunu": "Mzunu",
                     "nagaji": "Nagaji",
                     "necril": "死霊語",
@@ -302,48 +307,48 @@
                     "okaiyan": "Okaiyan",
                     "orcish": "オーク語",
                     "orvian": "Orvian",
-                    "osiriani": "オシーリオン語",
+                    "osiriani": "Osiriani",
                     "petran": "地界語",
-                    "protean": "プロティアン語",
+                    "protean": "Protean",
                     "pyric": "火界語",
                     "rasu": "Rasu",
                     "ratajin": "Ratajin",
                     "razatlani": "Razatlani",
                     "requian": "サイコポンプ語",
                     "russian": "Russian",
-                    "sakvroth": "Sakvroth",
-                    "samsaran": "サンサーラン語",
-                    "sasquatch": "サスカッチ語",
+                    "sakvroth": "地下共通語",
+                    "samsaran": "Samsaran",
+                    "sasquatch": "Sasquatch",
                     "senzar": "Senzar",
                     "shadowtongue": "影界語",
-                    "shae": "シェイ語",
+                    "shae": "Shae",
                     "shisk": "Shisk",
-                    "shoanti": "ショアンティ語",
+                    "shoanti": "Shoanti",
                     "shobhad": "Shobhad",
                     "shoony": "Shoony",
                     "shory": "Shory",
-                    "skald": "スカルド語",
-                    "sphinx": "スフィンクス語",
+                    "skald": "Skald",
+                    "sphinx": "Sphinx",
                     "strix": "Strix",
                     "sussuran": "風界語",
                     "taldane": "Taldane",
                     "talican": "Talican",
                     "tekritanin": "Tekritanin",
-                    "tengu": "テング語",
+                    "tengu": "Tengu",
                     "thalassic": "水界語",
                     "thassilonian": "Thassilonian",
-                    "tien": "ティエン語",
+                    "tien": "Tien",
+                    "undercommon": "地下共通語",
                     "utopian": "イネヴィタブル語",
-                    "vanara": "ヴァナラ語",
-                    "varisian": "ヴァリシア語",
+                    "vanara": "Vanara",
+                    "varisian": "Varisian",
                     "varki": "Varki",
-                    "vishkanyan": "ヴィシュカニャ語",
-                    "vudrani": "ヴードラ語",
-                    "wildsong": "Wildsong",
+                    "vishkanyan": "Vishkanyan",
+                    "vudrani": "Vudrani",
                     "wyrwood": "Wyrwood",
                     "xanmba": "Xanmba",
-                    "yithian": "イシアン語",
-                    "ysoki": "Ysoki"
+                    "yithian": "Yithian",
+                    "ysoki": "ラットフォーク語"
                 },
                 "Sense": {
                     "Acuity": {
@@ -769,7 +774,7 @@
             "proficiency": "習熟ボーナス",
             "circumstance": "状況ボーナス",
             "item": "アイテムボーナス",
-            "status": "ステータスボーナス",
+            "status": "状態ボーナス",
             "untyped": "無名ボーナス"
         },
         "BonusSPLabel": "ボーナスSP",
@@ -872,22 +877,22 @@
             },
             "Label": "判定",
             "Result": {
+                "AdjustedLabel": "結果: <unadjusted>{unadjusted}</unadjusted> <adjusted>{adjusted}</adjusted> <offset>by {offset}</offset>",
                 "Degree": {
                     "Attack": {
+                        "criticalFailure": "ファンブル",
                         "criticalSuccess": "クリティカル・ヒット",
-                        "success": "命中",
                         "failure": "失敗",
-                        "criticalFailure": "ファンブル"
+                        "success": "成功"
                     },
                     "Check": {
-                        "criticalSuccess": "クリティカル",
-                        "success": "成功",
+                        "criticalFailure": "大失敗",
+                        "criticalSuccess": "大成功",
                         "failure": "失敗",
-                        "criticalFailure": "ファンブル"
+                        "success": "成功"
                     }
                 },
-                "Label": "結果: <degree>{degree}</degree> <offset>by {offset}</offset>",
-                "AdjustedLabel": "結果: <degree>{degree}</degree> <offset>by {offset}</offset> ({adjustment})"
+                "Label": "結果: <unadjusted>{unadjusted}</unadjusted> <offset>by {offset}</offset>"
             },
             "Specific": {
                 "Counteract": "対抗判定",
@@ -964,51 +969,51 @@
             "ImmutableLabel": "不変",
             "ImmutableTitle": "状態値を減少できません."
         },
-        "ConditionsLabel": "状態",
-        "ConditionTypeBlinded": "盲目",
-        "ConditionTypeBroken": "破損",
-        "ConditionTypeClumsy": "よたつき",
-        "ConditionTypeConcealed": "視認困難",
-        "ConditionTypeConfused": "混乱",
-        "ConditionTypeControlled": "支配",
-        "ConditionTypeDazzled": "目が眩んだ",
-        "ConditionTypeDeafened": "聴覚喪失",
-        "ConditionTypeDoomed": "凶兆",
-        "ConditionTypeDrained": "吸精",
-        "ConditionTypeDying": "瀕死",
-        "ConditionTypeEncumbered": "過重",
-        "ConditionTypeEnfeebled": "虚弱",
-        "ConditionTypeFascinated": "恍惚",
-        "ConditionTypeFatigued": "疲労",
-        "ConditionTypeFlatFooted": "立ちすくみ",
-        "ConditionTypeFleeing": "逃亡",
-        "ConditionTypeFriendly": "友好的",
-        "ConditionTypeFrightened": "恐れ",
+        "ConditionsLabel": "状態異常",
+        "ConditionTypeBlinded": "盲目状態",
+        "ConditionTypeBroken": "破損状態",
+        "ConditionTypeClumsy": "よたつき状態",
+        "ConditionTypeConcealed": "視認困難状態",
+        "ConditionTypeConfused": "混乱状態",
+        "ConditionTypeControlled": "支配状態",
+        "ConditionTypeDazzled": "目が眩んだ状態",
+        "ConditionTypeDeafened": "聴覚喪失状態",
+        "ConditionTypeDoomed": "凶兆状態",
+        "ConditionTypeDrained": "吸精状態",
+        "ConditionTypeDying": "瀕死状態",
+        "ConditionTypeEncumbered": "過重状態",
+        "ConditionTypeEnfeebled": "虚弱状態",
+        "ConditionTypeFascinated": "恍惚状態",
+        "ConditionTypeFatigued": "疲労状態",
+        "ConditionTypeFlatFooted": "立ちすくみ状態",
+        "ConditionTypeFleeing": "逃亡状態",
+        "ConditionTypeFriendly": "友好的状態",
+        "ConditionTypeFrightened": "恐れ状態",
         "ConditionTypeGrabbed": "つかまれた状態",
-        "ConditionTypeHelpful": "協力的",
+        "ConditionTypeHelpful": "協力的状態",
         "ConditionTypeHidden": "隠れた状態",
-        "ConditionTypeHostile": "敵対的",
+        "ConditionTypeHostile": "敵対的状態",
         "ConditionTypeImmobilized": "動けない状態",
-        "ConditionTypeIndifferent": "中立的",
-        "ConditionTypeInvisible": "不可視",
-        "ConditionTypeMalevolence": "悪意",
-        "ConditionTypeObserved": "可視",
-        "ConditionTypeParalyzed": "麻痺",
-        "ConditionTypePersistent": "継続ダメージ",
-        "ConditionTypePersistentShort": "継続",
-        "ConditionTypePetrified": "石化",
-        "ConditionTypeProne": "伏せ",
-        "ConditionTypeQuickened": "加速",
-        "ConditionTypeRestrained": "拘束",
-        "ConditionTypeSickened": "不調",
-        "ConditionTypeSlowed": "減速",
-        "ConditionTypeStunned": "朦朧",
-        "ConditionTypeStupefied": "知性低下",
-        "ConditionTypeUnconscious": "気絶",
-        "ConditionTypeUndetected": "未探知",
-        "ConditionTypeUnfriendly": "非友好的",
-        "ConditionTypeUnnoticed": "未察知",
-        "ConditionTypeWounded": "重傷",
+        "ConditionTypeIndifferent": "中立的状態",
+        "ConditionTypeInvisible": "不可視状態",
+        "ConditionTypeMalevolence": "悪意状態",
+        "ConditionTypeObserved": "可視状態",
+        "ConditionTypeParalyzed": "麻痺状態",
+        "ConditionTypePersistent": "持続ダメージ状態",
+        "ConditionTypePersistentShort": "持続",
+        "ConditionTypePetrified": "石化状態",
+        "ConditionTypeProne": "伏せ状態",
+        "ConditionTypeQuickened": "加速状態",
+        "ConditionTypeRestrained": "拘束状態",
+        "ConditionTypeSickened": "不調状態",
+        "ConditionTypeSlowed": "減速状態",
+        "ConditionTypeStunned": "朦朧状態",
+        "ConditionTypeStupefied": "知性低下状態",
+        "ConditionTypeUnconscious": "気絶状態",
+        "ConditionTypeUndetected": "未探知状態",
+        "ConditionTypeUnfriendly": "非友好的状態",
+        "ConditionTypeUnnoticed": "未察知状態",
+        "ConditionTypeWounded": "重傷状態",
         "ConsumableAutoDestroyLabel": "自動破壊",
         "ConsumableAutoUseLabel": "自動使用",
         "ConsumableChargesLabel": "チャージ",
@@ -1153,11 +1158,11 @@
                     "arrow-vulnerability": "矢への脆弱性",
                     "auditory": "聴覚",
                     "axe-vulnerability": "斧への脆弱性",
-                    "blinded": "盲目",
-                    "broken": "破損",
-                    "clumsy": "よたつき",
+                    "blinded": "盲目状態",
+                    "broken": "破損状態",
+                    "clumsy": "よたつき状態",
                     "cold-iron": "冷たい鉄",
-                    "confused": "混乱",
+                    "confused": "混乱状態",
                     "conjuration": "召喚術",
                     "controlled": "支配状態",
                     "critical-hits": "クリティカル・ヒット",
@@ -1165,24 +1170,24 @@
                     "damage-from-spells": "呪文によるダメージ",
                     "darkwood": "ダークウッド",
                     "dawnsilver": "ドーンシルヴァー",
-                    "dazzled": "目がくらんだ状態",
-                    "deafened": "聴覚喪失",
+                    "dazzled": "目が眩んだ状態",
+                    "deafened": "聴覚喪失状態",
                     "death-effects": "即死効果",
                     "disease": "病気",
                     "djezet": "ジェゼット",
-                    "doomed": "凶兆",
-                    "drained": "吸精",
+                    "doomed": "凶兆状態",
+                    "drained": "吸精状態",
                     "duskwood": "ダスクウッド",
                     "emotion": "感情",
                     "enchantment": "心術",
                     "energy": "エネルギー",
-                    "enfeebled": "虚弱",
+                    "enfeebled": "虚弱状態",
                     "evocation": "力術",
-                    "fascinated": "恍惚",
-                    "fatigued": "疲労",
+                    "fascinated": "恍惚状態",
+                    "fatigued": "疲労状態",
                     "fear-effects": "恐怖効果",
-                    "fleeing": "逃亡",
-                    "frightened": "恐れ",
+                    "fleeing": "逃亡状態",
+                    "frightened": "恐れ状態",
                     "ghost-touch": "ゴーストタッチ",
                     "glass": "ガラス",
                     "grabbed": "つかまれた状態",
@@ -1205,12 +1210,12 @@
                     "nonlethal-attacks": "非致傷攻撃",
                     "noqual": "ノクアル",
                     "object-immunities": "物体の耐性",
-                    "off-guard": "防御なし",
+                    "off-guard": "立ちすくみ状態",
                     "olfactory": "嗅覚",
                     "orichalcum": "オリハルコン",
-                    "paralyzed": "麻痺",
-                    "persistent-damage": "持続ダメージ",
-                    "petrified": "石化",
+                    "paralyzed": "麻痺状態",
+                    "persistent-damage": "持続ダメージ状態",
+                    "petrified": "石化状態",
                     "physical": "物理",
                     "plant": "植物",
                     "polymorph": "ポリモーフ",
@@ -1226,19 +1231,19 @@
                     "sickened": "不調",
                     "silver": "銀",
                     "sleep": "睡眠",
-                    "slowed": "減速",
+                    "slowed": "減速状態",
                     "spell-deflection": "呪文反射",
                     "spells": "呪文",
                     "splash-damage": "飛散ダメージ",
-                    "stunned": "朦朧",
-                    "stupefied": "知性低下",
+                    "stunned": "朦朧状態",
+                    "stupefied": "知性低下状態",
                     "swarm-attacks": "スウォーム攻撃",
                     "swarm-mind": "スウォームの精神",
                     "transmutation": "変成術",
                     "spell-deflection": "呪文反射",
                     "trip": "足払い",
                     "unarmed-attacks": "素手打撃",
-                    "unconscious": "気絶",
+                    "unconscious": "気絶状態",
                     "unholy": "不浄",
                     "vampire-weaknesses": "ヴァンパイアの弱点",
                     "visual": "視覚",
@@ -1250,7 +1255,7 @@
                     "weapons": "武器",
                     "weapons-shedding-bright-light": "明るい光を照り返す武器",
                     "wood": "",
-                    "wounded": "負傷"
+                    "wounded": "重傷状態"
                 }
             },
             "Hardness": {
@@ -1301,7 +1306,7 @@
                 "lawful": "秩序",
                 "mental": "精神",
                 "metal": "金属",
-                "persistent": "継続 {damageType}",
+                "persistent": "持続 {damageType}",
                 "piercing": "刺突",
                 "poison": "毒",
                 "precision": "精密",
@@ -1766,8 +1771,8 @@
                     "Error": {
                         "DoesNotExist": "{damageType}の持続ダメージがアクターに存在していません"
                     },
-                    "Name": "継続ダメージ ({formula} {damageType})",
-                    "NameWithDC": "継続ダメージ ({formula} DC{dc})",
+                    "Name": "持続ダメージ ({formula} {damageType})",
+                    "NameWithDC": "持続ダメージ ({formula} DC{dc})",
                     "RollDamage": "ダメージロール"
                 }
             },
@@ -2398,7 +2403,7 @@
                 "CriticalSpecialization": {
                     "axe": "最初の対象に隣接し、かつ、間合い内にいる1体のクリーチャーを選ぶこと。もしそのACがクリティカル・ヒットの攻撃ロール結果よりも低いなら、君はそのクリーチャーに、君がロールした武器ダメージ・ダイスの結果に等しいダメージを与える（幾つだったとしても、その発現ルーンの追加ダイスを含める）。これは売価されず、このダメージにはその他の追加ダイスは適用されない。",
                     "bow": "クリティカル・ヒットの対象が表面に隣接しているのなら、発射物によってその表面に縫い付けられる。対象は@Compendium[pf2e.conditionitems.Immobilized]{動けない状態}かつ、@Check[type:athletics|dc:10|name:発射物を抜いて自由になる|showDC:all]発射物を抜いて自由になるためにDC10の〈運動〉を試みる「使用」アクションを費やさなくてはならない。クリーチャーが非実体、液体（ウォーター・エレメンタルや幾つかの粘体）、努力なく逃げられるような何かならば縫い付けられることはない。",
-                    "brawling": "対象は君のクラスDCに対して頑健セーヴ@Check[type:fortitude|dc:resolve(@actor.attributes.classDC.value)|basic:true|name:Brawling Critical Specialization|showDC:all]に成功しなければ、君の次の手番の終了時まで@Compendium[pf2e.conditionitems.Slowed]{減速1}になる。",
+                    "brawling": "対象は君のクラスDCに対して頑健セーヴ@Check[type:fortitude|dc:resolve(@actor.attributes.classDC.value)|basic:true|name:Brawling Critical Specialization|showDC:all]に成功しなければ、君の次の手番の終了時まで@Compendium[pf2e.conditionitems.Slowed]{減速状態 1}になる。",
                     "club": "君は10フィートまで敵を自分から遠ざける（君が距離を選ぶ）。これは強制移動である。",
                     "dart": "対象は@Localize[PF2E.PersistentDamage.Bleed1d6.success]を受ける。君は武器の攻撃ロールへのアイテム・ボーナスに等しいアイテム・ボーナスを、この出血ダメージに得る。",
                     "firearm": "対象は@Check[type:fortitude|dc:resolve(@actor.attributes.classDC.value)|basic:true|name:Firearm Critical Specialization|showDC:all]セーヴに成功しなければ @Compendium[pf2e.conditionitems.dfCMdR4wnpbYNTix]{朦朧1}になる",
@@ -2576,7 +2581,7 @@
         "LanguageRazatlani": "Razatlani",
         "LanguageRequian": "サイコポンプ語",
         "LanguageRussian": "Russian",
-        "LanguageSakvroth": "Sakvroth",
+        "LanguageSakvroth": "地下共通語",
         "LanguageSamsaran": "Samsaran",
         "LanguageSasquatch": "Sasquatch",
         "LanguageSenzar": "Senzar",
@@ -2715,7 +2720,7 @@
             "circumstance": "状況",
             "item": "アイテム",
             "potency": "発現",
-            "status": "ステータス",
+            "status": "状態",
             "untyped": "無名"
         },
         "ModifierTypeTitle": "[Type]",
@@ -2726,44 +2731,44 @@
             "Abilities": {
                 "Glossary": {
                     "AllAroundVision": "<p>このモンスターは同時に全ての方向を目視することが出来る。このため、挟撃されることがない。</p>",
-                    "AquaticAmbush": "<p><strong>条件</strong> モンスターが水中に隠れており、記載されたフィート以内にそのモンスターを探知していないクリーチャーがいること</p>\n<p><strong>効果</strong> モンスターは条件を満たしたクリーチャーに向かって水中あるいは陸上を、水泳速度＋10フィートまで移動する。クリーチャーが間合い内に入ったなら、モンスターはクリーチャーに対して「打撃」を行う。クリーチャーはこの「打撃」に対して@Compendium[pf2e.conditionitems.Flat-Footed]{立ちすくみ}状態である。</p>",
+                    "AquaticAmbush": "<p><strong>条件</strong> モンスターが水中に隠れており、記載されたフィート以内にそのモンスターを探知していないクリーチャーがいること</p>\n<p><strong>効果</strong> モンスターは条件を満たしたクリーチャーに向かって水中あるいは陸上を、水泳速度＋10フィートまで移動する。クリーチャーが間合い内に入ったなら、モンスターはクリーチャーに対して「打撃」を行う。クリーチャーはこの「打撃」に対して@Compendium[pf2e.conditionitems.Off-Guard]{立ちすくみ状態}である。</p>",
                     "AttackOfOpportunity": "<p><strong>トリガー</strong> モンスターの間合い内にいるクリーチャーが操作アクションか移動アクションを使うか、遠隔攻撃をするか、使っている移動アクション中にマス目を離れる</p>\n<p><strong>効果</strong> モンスターはトリガーとなったクリーチャーに対して近接「打撃」を行う。もしその攻撃がクリティカル・ヒットで、そのトリガーが操作アクションだったなら、モンスターはそのアクションを妨害する。この「打撃」はモンスターの複数回攻撃ペナルティにカウントされず、複数回攻撃ペナルティはこの「打撃」に適用されない。</p>",
                     "AtWillSpells": "<p>モンスターは、無制限呪文を呪文スロットを使うことなしに、何度でも発動することが出来る。</p>",
                     "Aura": "<p>モンスターのオーラは自動的に、そのモンスターの特定の拡散範囲にいる全てに影響を与える。モンスターはオーラにアクションを消費する必要は無く、オーラの効果は、あるクリーチャーが手番をオーラ内で終えた時や、クリーチャーがオーラに入った時のように、特定のタイミングで適用される。</p>\n<p>もし、あるオーラがダメージを与える以外に何もしないなら、その項目には半径、ダメージ、セーヴィング・スローだけが記されている。このようなオーラは、クリーチャーがオーラに入った時と、クリーチャーがオーラ内で手番を開始した際にこのダメージを与える。クリーチャーは1ラウンドに1度だけ、オーラからダメージを受ける。</p>\n<p>GMは、あるモンスターのオーラがその味方には影響を与えないと判断するかもしれない。例えば、長い間、お互いに一緒にいたのなら、あるモンスターの「荘厳なるもの」に対してクリーチャーは完全耐性を持つかもしない。</p>",
                     "Buck": "<hr />\n<p>乗騎として仕えるほとんどのモンスターは望まない、あるいは苛立たしい騎手を跳ね飛ばす試みをすることが出来るが、ほとんどの乗騎は、動揺しているか、虐げられているのでもない限り、信頼しているクリーチャーにこのリアクションを使おうとはしない。</p>\n<p><strong>トリガー</strong>あるクリーチャーがモンスターに@Compendium[pf2e.actionspf2e.Mount]{「騎乗」}するか、モンスターに騎乗中に@Compendium[pf2e.actionspf2e.Command an Animal]{「動物使い」}のアクションを使う</p>\n<p><strong>効果</strong> リガーとなったクリーチャーは記載されたDCに対して反応セーヴに成功しなければ、落下して@Compendium[pf2e.conditionitems.Prone]{伏せ状態}で着地する。もしセーヴがファンブルなら、トリガーとなったクリーチャーは落下の通常のダメージに加えて[[/roll {1d6}[殴打]]]{1d6 点の殴打ダメージ}を受ける。</p>",
                     "CatchRock": "<p><strong>条件</strong> モンスターが一本の自由な手を持っており、リアクションの一部として持っている全てのものを@Compendium[pf2e.actionspf2e.Release]{「手放す」}ことが出来る</p>\n<p><strong>トリガー</strong> モンスターが投擲された岩での「打撃」の対象になるか、モンスターの上に岩が落ちてくる</p>\n<p><strong>効果</strong> モンスターはトリガーとなった攻撃へのACあるいは落石に対するあらゆる防御に対して+4状況ボーナスを得る。もしこの効果が失敗するか、モンスターが落石への防御に成功したなら、モンスターは岩をつかみ、ダメージを受けず、今やその岩を手に持っている。</p>",
-                    "ChangeShape": "<p>モンスターはその姿を時間の制限なく変える。このアクションを再び用いることで、本来の姿に戻ることも、新しい姿になることも出来る。特記ない限り、モンスターは特定の個人に見せかけるために「変身」を使うことは出来ない。「変身」の使用は、〈欺瞞〉を使った@Compendium[pf2e.actionspf2e.Impersonate]{「なりすます」}のための変装とみなされる。モンスターの変身は自動的に、そのクリーチャーがその種族の一員や、変身後のクリーチャー種別の一員であるかどうかを判断するための知覚DCに打ち勝ち、その変装を見抜くことを妨げる〈欺瞞〉DCに+4ステータス・ボーナスを与える。変身の能力は、モンスターがなることの出来る姿を特定する。モンスターは、新しい姿の特殊能力を得ることはなく、肉体的外見のみを得る。たとえば、どの姿であっても、変身は通常の速度と「打撃」を置き換え、その感覚やサイズを変更するかもしれない。あらゆる変化はステータス・ブロックに書かれている。</p>",
+                    "ChangeShape": "<p>モンスターはその姿を時間の制限なく変える。このアクションを再び用いることで、本来の姿に戻ることも、新しい姿になることも出来る。特記ない限り、モンスターは特定の個人に見せかけるために「変身」を使うことは出来ない。「変身」の使用は、〈欺瞞〉を使った@Compendium[pf2e.actionspf2e.Impersonate]{「なりすます」}のための変装とみなされる。モンスターの変身は自動的に、そのクリーチャーがその種族の一員や、変身後のクリーチャー種別の一員であるかどうかを判断するための知覚DCに打ち勝ち、その変装を見抜くことを妨げる〈欺瞞〉DCに+4状態ボーナスを与える。変身の能力は、モンスターがなることの出来る姿を特定する。モンスターは、新しい姿の特殊能力を得ることはなく、肉体的外見のみを得る。たとえば、どの姿であっても、変身は通常の速度と「打撃」を置き換え、その感覚やサイズを変更するかもしれない。あらゆる変化はステータス・ブロックに書かれている。</p>",
                     "ConstantSpells": "<p>常時呪文は、モンスターが発動する必要なしにモンスターに影響を与えている呪文のことで、その持続時間は無制限である。もし、常時呪文が無効化されたなら、その呪文が必要とする通常の呪文発動アクションを消費することによって、モンスターはそれを再起動することが出来る。</p>",
                     "Constrict": "<p>モンスターは、自分が@Compendium[pf2e.conditionitems.Grabbed]{つかまれた状態}か@Compendium[pf2e.conditionitems.Restrained]{拘束状態}にしている、任意の数のクリーチャーに記載された量のダメージを与える。それぞれのクリーチャーは記載されたDCに対して基本頑健セーヴを試みることができる。T</p>",
                     "Coven": "<p>このモンスターは、魔女団の能力を持つ2体以上のクリーチャーと共に魔女団を組織することができる。これには、参加する可能性がある魔女団のメンバー全員による、8時間の儀式が必要である。魔女団が組織された後、メンバー全員がエリートの調整を得て、それにしたがってレベルを調整する。魔女団のメンバーは、ほかのメンバーの場所と状態を、単一アクションを消費することによって感知することができる。このアクションは精神集中の特性を持つ。また、魔女団のメンバーは別の魔女団のメンバーが感知している物事を、精神集中の特性を持つ2アクションの連続行動で感知することができる。</p>\n<p>また、魔女団は呪文と儀式をメンバーに与えるが、これらは互いに30フィート以内にいる3体の魔女団のメンバーが協力して発動しなければならない。魔女団のメンバーは、一つの音声構成要素を持つ、単一アクションの呪文発動連続行動で魔女団の呪文の貢献することができる。もし、2体の魔女団メンバーがこれらのアクションに、直近のラウンド内で貢献をしたなら、3番目のメンバーは、通常の呪文発動アクションを消費することによって、自分の手番に魔女団呪文を発動することができる。魔女団は、魔女団呪文を何度でも発動することができるが、毎ラウンド、1つの魔女団呪文しか発動することができない。すべての魔女団は8レベルの<em>@Compendium[pf2e.spells-srd.Baleful Polymorph]{ベイルフル・ポリモーフ}</em>と、5レベルまでの任意のレベルで魔女団が発動可能な下記の呪文を与える：<em>@Compendium[pf2e.spells-srd.Augury]{オーギュリィ}</em>、 <em>@Compendium[pf2e.spells-srd.Charm]{チャーム}</em>、<em>@Compendium[pf2e.spells-srd.Clairaudience]{クレールオーディエンス}</em>、<em>@Compendium[pf2e.spells-srd.Clairvoyance]{クレールヴォヤンス}</em>、 <em>@Compendium[pf2e.spells-srd.Dream Message]{ドリーム・メッセージ}</em>、 <em>@Compendium[pf2e.spells-srd.Illusory Disguise]{イリュージョリィ・ディスガイズ}</em>、 <em>@Compendium[pf2e.spells-srd.Illusory Scene]{イリュージョリィ・センス}</em>, <em>@Compendium[pf2e.spells-srd.Prying Eye]{プライング・アイ}</em>、そして <em>@Compendium[pf2e.spells-srd.Talking Corpse]{トーキング・コープス}</em>。魔女団の能力を持つ個別のクリーチャーはまた、参加するあらゆる魔女団に追加呪文を与える。また、魔女団は標準のDCではなく、DC23の<em>@Compendium[pf2e.spells-srd.Control Weather]{コントロール・ウェザー}</em>の儀式を発動することができる。</p>\n<p>もし、魔女団のメンバーが魔女団を去るか、死亡することによって魔女団のメンバーが3体未満になったなら、残っているメンバーは24時間、エリートの調整を保持するが、必要なアクションに貢献する十分なメンバーがいなければ、魔女団呪文を発動することはできない。</p>",
                     "Darkvision": "<p>暗視を持つモンスターは、暗闇と薄暗い光の範囲で完璧に視界をとることができるが、このような視覚は白黒のみである。魔法の暗闇の中には、例えば4レベルの<em>@Compendium[pf2e.spells-srd.Darkness]{ダークネス}</em>呪文のように、通常の暗視を遮るものがある。だが、@Compendium[pf2e.bestiary-ability-glossary-srd.Greater Darkvision]{優れた暗視}を持つモンスターは、こういった魔法の暗闇すら見通すことができる。</p>",
                     "Disease": "<p>あるクリーチャーが、あるモンスターの病気にさらされた際、頑を与えているモンスターのレベルである。病気は、苦難のルールに従う。</p>",
-                    "Engulf": "<p>モンスターは速度の2倍まで「歩行」し、その経路にいるあらゆるクリーチャーの接敵面を通り抜けることができる。モンスターが接敵面を通り抜けた、モンスターのサイズ以下のあらゆるクリーチャーは呑み込まれないために記載されたDCに対する反応セーヴを試みることができる。行動することができないクリーチャーは自動的にこのセーヴにファンブルする。もし、クリーチャーがセーヴに成功したなら、脇に押しのけられる（モンスターの経路の外に）か、モンスターの移動の終了地点までモンスターの正面に押されていくかを選ぶことができる。モンスターは、1回の「呑み込み」によって、同じクリーチャーに1度しか「呑み込み」を試みることができない。モンスターは、その接敵面に合致する数のクリーチャーを飲み込むことができる。</p>\n<p>セーヴに失敗したクリーチャーは、モンスターの体内に引き込まれる。クリーチャーは@Compendium[pf2e.conditionitems.Grabbed]{つかまれた状態}かつ、@Compendium[pf2e.conditionitems.Slowed]{減速1}であり、息をこらえなければ窒息し始める。クリーチャーは、最初に呑み込まれた際と、呑み込まれている間の手番の終了時ごとに、記載されたダメージを受ける。呑み込まれたクリーチャーは、記載された脱出DCに対する@Compendium[pf2e.actionspf2e.Escape]{「脱出」}によって自由になることができる。呑み込まれたクリーチャーは自分を呑み込んでいるモンスターに攻撃をすることができるが、軽バルク以下のバルクの武器か素手打撃でしか攻撃ができない。呑み込んでいるクリーチャーは、その攻撃に対して@Compendium[pf2e.conditionitems.Flat-Footed]{立ちすくみ}である。もし、モンスターが、1回の攻撃あるいは呪文によって、記載された破裂値以上の刺突あるいは斬撃ダメージを受けたなら、呑み込まれたクリーチャーはモンスターを切り裂いて自由になる。いずれかの方法によって自由になったクリーチャーは、即座に息をすることができるようになり、吐き出したモンスターの接敵面を出ることになる。</p>\n<p>もし、モンスターが死亡したなら、呑み込まれていたすべてのクリーチャーは、モンスターの姿が凝集性を失うため、自動的に解放される。</p>",
+                    "Engulf": "<p>モンスターは速度の2倍まで「歩行」し、その経路にいるあらゆるクリーチャーの接敵面を通り抜けることができる。モンスターが接敵面を通り抜けた、モンスターのサイズ以下のあらゆるクリーチャーは呑み込まれないために記載されたDCに対する反応セーヴを試みることができる。行動することができないクリーチャーは自動的にこのセーヴにファンブルする。もし、クリーチャーがセーヴに成功したなら、脇に押しのけられる（モンスターの経路の外に）か、モンスターの移動の終了地点までモンスターの正面に押されていくかを選ぶことができる。モンスターは、1回の「呑み込み」によって、同じクリーチャーに1度しか「呑み込み」を試みることができない。モンスターは、その接敵面に合致する数のクリーチャーを飲み込むことができる。</p>\n<p>セーヴに失敗したクリーチャーは、モンスターの体内に引き込まれる。クリーチャーは@Compendium[pf2e.conditionitems.Grabbed]{つかまれた状態}かつ、@Compendium[pf2e.conditionitems.Slowed]{減速状態 1}であり、息をこらえなければ窒息し始める。クリーチャーは、最初に呑み込まれた際と、呑み込まれている間の手番の終了時ごとに、記載されたダメージを受ける。呑み込まれたクリーチャーは、記載された脱出DCに対する@Compendium[pf2e.actionspf2e.Escape]{「脱出」}によって自由になることができる。呑み込まれたクリーチャーは自分を呑み込んでいるモンスターに攻撃をすることができるが、軽バルク以下のバルクの武器か素手打撃でしか攻撃ができない。呑み込んでいるクリーチャーは、その攻撃に対して@Compendium[pf2e.conditionitems.Off-Guard]{立ちすくみ状態}である。もし、モンスターが、1回の攻撃あるいは呪文によって、記載された破裂値以上の刺突あるいは斬撃ダメージを受けたなら、呑み込まれたクリーチャーはモンスターを切り裂いて自由になる。いずれかの方法によって自由になったクリーチャーは、即座に息をすることができるようになり、吐き出したモンスターの接敵面を出ることになる。</p>\n<p>もし、モンスターが死亡したなら、呑み込まれていたすべてのクリーチャーは、モンスターの姿が凝集性を失うため、自動的に解放される。</p>",
                     "FastHealing": "<p>この能力を持つモンスターは、手番の開始時に毎ラウンド、所定のヒットポイントを回復する。</p>",
-                    "Ferocity": "<p><strong>トリガー</strong> モンスターが0ヒットポイントになる</p>\n<p><strong>効果</strong> モンスターはノックアウトされるのを避け、1ヒットポイントで残るが、@Compendium[pf2e.conditionitems.Wounded]{重症}値は1上昇する。重症値が3になったなら、この能力を使うことは出来なくなる。</p>",
+                    "Ferocity": "<p><strong>トリガー</strong> モンスターが0ヒットポイントになる</p>\n<p><strong>効果</strong> モンスターはノックアウトされるのを避け、1ヒットポイントで残るが、@Compendium[pf2e.conditionitems.Wounded]{重傷状態}は1上昇する。重症値が3になったなら、この能力を使うことは出来なくなる。</p>",
                     "FormUp": "<p>トループは現在、占拠しているマス目から1つを選ぶ。すべてのマス目が選んだマス目から15フィート以内にあり、かつ、連続している形になるように、その接敵面を好きに再分配する。トループはその接敵面をほかのクリーチャーと共有することは出来ない。</p>",
-                    "FrightfulPresence": "<hr />\n<p>範囲内に初めて入ったクリーチャーは、意志セーヴを試みなくてはならない。</p>\n<p>セーヴィング・スローの結果によらず、クリーチャーは1分間、このモンスターの「荘厳なるもの」に耐性を持つ。</p>\n<hr />\n<p><strong>クリティカル</strong> クリーチャーはこの存在に影響を受けない</p>\n<p><strong>成功</strong> クリーチャーは@Compendium[pf2e.conditionitems.Frightened]{恐れ1}になる</p>\n<p><strong>失敗</strong> クリーチャーは@Compendium[pf2e.conditionitems.Frightened]{恐れ2}になる</p>\n<p><strong>ファンブル</strong> クリーチャーは@Compendium[pf2e.conditionitems.Frightened]{恐れ4}になる</p>",
+                    "FrightfulPresence": "<hr />\n<p>範囲内に初めて入ったクリーチャーは、意志セーヴを試みなくてはならない。</p>\n<p>セーヴィング・スローの結果によらず、クリーチャーは1分間、このモンスターの「荘厳なるもの」に耐性を持つ。</p>\n<hr />\n<p><strong>クリティカル</strong> クリーチャーはこの存在に影響を受けない</p>\n<p><strong>成功</strong> クリーチャーは@Compendium[pf2e.conditionitems.Frightened]{恐れ状態 1}になる</p>\n<p><strong>失敗</strong> クリーチャーは@Compendium[pf2e.conditionitems.Frightened]{恐れ状態 2}になる</p>\n<p><strong>ファンブル</strong> クリーチャーは@Compendium[pf2e.conditionitems.Frightened]{恐れ状態 4}になる</p>",
                     "Grab": "<p><strong>条件</strong> モンスターの最後のアクションが「つかみ」をダメージ項目に記載している「打撃」の成功であるか、このアクションを使ってクリーチャーをつかまれた状態にしている</p>\n<p><strong>効果</strong> モンスターは次の手番の終了時まで自動的に対象を「つかむ」。クリーチャーは、モンスターが攻撃に使ったのがどの部位であるかにかかわらず、@Compendium[pf2e.conditionitems.Grabbed]{つかまれた状態}となり、その部位はつかみが終わるまでクリーチャーを「打撃」するのに使えなくなる。「つかむ」を使うことによって、そのクリーチャーによってつかまれた状態にされているすべてのクリーチャーについて、次の手番の終了時までそのモンスターの「つかむ」の持続時間を延ばすことができる。つかまれた状態のクリーチャーはつかみから抜け出すために@Compendium[pf2e.actionspf2e.Escape]{「脱出」}アクションを使うことができる。もし、モンスターが移動して離れたなら、つかまれた状態のクリーチャーにとって「つかみ」は終了する。</p>",
-                    "GreaterConstrict": "<p>モンスターは、そのモンスターによって@Compendium[pf2e.conditionitems.Grabbed]{つかまれた状態}になっているか、@Compendium[pf2e.conditionitems.Restrained]{拘束状態}になっている任意の数のクリーチャーに記載された量のダメージを与える。クリーチャーそれぞれが記載されたDCに対して基本頑健セーヴを試みることができる。このセーヴに失敗したクリーチャーは@Compendium[pf2e.conditionitems.Unconscious]{気絶}状態になり、成功したクリーチャーは以後1分間、「上級締め付け」による気絶に一時的耐性を得る。</p>",
+                    "GreaterConstrict": "<p>モンスターは、そのモンスターによって@Compendium[pf2e.conditionitems.Grabbed]{つかまれた状態}になっているか、@Compendium[pf2e.conditionitems.Restrained]{拘束状態}になっている任意の数のクリーチャーに記載された量のダメージを与える。クリーチャーそれぞれが記載されたDCに対して基本頑健セーヴを試みることができる。このセーヴに失敗したクリーチャーは@Compendium[pf2e.conditionitems.Unconscious]{気絶状態}になり、成功したクリーチャーは以後1分間、「上級締め付け」による気絶に一時的耐性を得る。</p>",
                     "GreaterDarkvision": "<p>優れた暗視を持つクリーチャーは、暗闇や薄暗い光の範囲で完全に目視することが出来るが、このような視覚は白黒である。4レベルの<em>@Compendium[pf2e.spells-srd.Darkness]{ダークネス}</em>呪文などの幾つかの魔法の暗闇は通常の@Compendium[pf2e.bestiary-ability-glossary-srd.Darkvision]{暗視}を遮る。しかしながら、優れた暗視を持つクリーチャーはこのような魔法の暗闇すら見通す。</p>",
                     "ImprovedGrab": "<p>モンスターはその初期攻撃を命中させることをトリガーとするフリー・アクションとして@Compendium[pf2e.bestiary-ability-glossary-srd.Grab]{「つかみ」}を使うことが出来る。つかみ強化を持つモンスターでも、既に@Compendium[pf2e.conditionitems.Grabbed]{つかんでいる}クリーチャーの持続時間を延長するためにアクションを消費する必要がある。</p>",
                     "ImprovedKnockdown": "<p>モンスターはその初期攻撃を命中させることをトリガーとするフリー・アクションとして@Compendium[pf2e.bestiary-ability-glossary-srd.Knockdown]{「ノックダウン」}を使うことが出来る。</p>",
                     "ImprovedPush": "<p>モンスターはその初期攻撃を命中させることをトリガーとするフリー・アクションとして@Compendium[pf2e.bestiary-ability-glossary-srd.Push]{「押しだし」}を使うことが出来る。</p>",
-                    "Knockdown": "<p><strong>条件</strong> このモンスターの最後のアクションがダメージ項目に「ノックダウン」が記載されている「打撃」に成功すること</p>\n<p><strong>効果</strong> モンスターは対象を@Compendium[pf2e.conditionitems.Prone]{伏せ}状態にする</p>",
+                    "Knockdown": "<p><strong>条件</strong> このモンスターの最後のアクションがダメージ項目に「ノックダウン」が記載されている「打撃」に成功すること</p>\n<p><strong>効果</strong> モンスターは対象を@Compendium[pf2e.conditionitems.Prone]{伏せ状態}にする</p>",
                     "Lifesense": "<p>生命感知は記載された距離内にいる生きているクリーチャーとアンデッド・クリーチャーの生命の精髄を感知することが出来る。この感覚は視覚によって色を区別するように、生きているクリーチャーを動かす正のエネルギーと、アンデッド・クリーチャーを動かす負のエネルギーを区別することが出来る。</p>",
-                    "LightBlindness": "<p>最初に明るい光にさらされたとき、モンスターは次の手番終了時まで@Compendium[pf2e.conditionitems.Blinded]{盲目} になる。その後、暗闇の中で1時間過ごすまで、再び光で目が眩んだ状態になることはない。しかし、モンスターが明るい光のある場所にいる限り、@Compendium[pf2e.conditionitems.Dazzled]{目が眩んだ状態}になる。</p>",
-                    "LowLightVision": "<p>このモンスターは薄暗い光を、明るい光であるように見通すことが出来るため、薄暗い光による@Compendium[pf2e.conditionitems.Concealed]{視認困難}状態を無視する。</p>",
+                    "LightBlindness": "<p>最初に明るい光にさらされたとき、モンスターは次の手番終了時まで@Compendium[pf2e.conditionitems.Blinded]になる。その後、暗闇の中で1時間過ごすまで、再び光で目が眩んだ状態になることはない。しかし、モンスターが明るい光のある場所にいる限り、@Compendium[pf2e.conditionitems.Dazzled]{目が眩んだ状態}になる。</p>",
+                    "LowLightVision": "<p>このモンスターは薄暗い光を、明るい光であるように見通すことが出来るため、薄暗い光による@Compendium[pf2e.conditionitems.Concealed]{視認困難状態}を無視する。</p>",
                     "NegativeHealing": "<p>負のエネルギーによる治癒を持つクリーチャーは正のエネルギーではなく負のエネルギーによって健康を得る。このクリーチャーは正のエネルギーによってダメージを受け、正のエネルギーの治癒効果によっては治癒を受けない。このクリーチャーは負のエネルギーによってダメージを受けず、アンデッドを癒す負のエネルギーの効果によって治癒される。</p>",
                     "Poison": "<p>クリーチャーがモンスターの毒にさらされた際、頑健セーヴに成功しなければ毒を受ける。毒のレベルは毒を与えたモンスターのレベルに等しい。毒は苦難のルールに従う。</p>",
                     "PowerAttack": "<p><strong>頻度</strong> 1ラウンドに1回</p>\n<p><strong>効果</strong> モンスターは近接「打撃」を行う。これはモンスターの複数買い攻撃ペナルティを計算する際に2回分の攻撃とみなされる。もし、この「打撃」が命中したなら、モンスターは追加で1つの武器ダメージ・ダイスを得る。</p>",
                     "Push": "<p><strong>条件</strong> モンスターの最後のアクションがダメージ項目に「押しだし」と記載されている「打撃」の成功である</p>\n<p><strong>効果</strong> モンスターは自動的に対象をモンスターから遠ざける。能力の描写に記載されていない限り、クリーチャーは5フィート遠ざけられる。もしこの攻撃がクリティカル・ヒットしたなら、この距離は2倍になる</p>",
-                    "Regeneration": "<p>このモンスターは手番開始時に毎ラウンド、記載された数のヒット・ポイントを回復する。再生が有効である限り、このモンスターの@Compendium[pf2e.conditionitems.Dying]{瀕死}状態が瀕死3を超えることはない。もし、再生の項目に記載されているダメージ種別のダメージを受けたなら、その再生はこのモンスターの次の手番の終了時まで無効になる。記載された種別のダメージを適用する前に再生を無効にすること。このダメージは瀕死4にすることでこのモンスターを殺すかもしれない。</p>",
+                    "Regeneration": "<p>このモンスターは手番開始時に毎ラウンド、記載された数のヒット・ポイントを回復する。再生が有効である限り、このモンスターの@Compendium[pf2e.conditionitems.Dying]{瀕死状態}が瀕死3を超えることはない。もし、再生の項目に記載されているダメージ種別のダメージを受けたなら、その再生はこのモンスターの次の手番の終了時まで無効になる。記載された種別のダメージを適用する前に再生を無効にすること。このダメージは瀕死4にすることでこのモンスターを殺すかもしれない。</p>",
                     "Rend": "<p>「引き裂き」の項目には、モンスターが持っている「打撃」が記載されている。</p>\n<p><strong>条件</strong> モンスターが同じ敵を、同じラウンド内に、記載された種別の「打撃」で2回連続して命中させる。</p>\n<p><strong>効果</strong> このモンスターは自動的にその敵に再度、その「打撃」のダメージを与える</p>",
                     "RetributiveStrike": "<p><strong>トリガー</strong> 敵がこのモンスターの味方にダメージを与え、かつ、双方がこのモンスターの15フィート以内にいる</p>\n<p><strong>効果</strong> 味方はトリガーとなったダメージに、全てのダメージに対する、2+このモンスターのレベルに等しい抵抗を得る。もし敵が間合い内にいるなら、このモンスターは敵に対して近接「打撃」を行う</p>",
                     "Scent": "<p>嗅覚は、クリーチャーや物体を匂いによって感知するという感覚で、通常は曖昧な感覚である。距離は脳威力に記載されており、探知されるクリーチャーや物体が匂いを発している場合にのみ機能する（例えば、非実体のクリーチャーは通常、香りを発しない）</p>\n<p>もし、あるクリーチャーが強い香りを発したり、風上にいるのなら、GMはそのクリーチャーを探知するために使われる嗅覚の距離を2倍あるいは3倍にしたり、クリーチャーが風下にいる場合に距離を減らしたりすることがある。</p>",
                     "ShieldBlock": "<p><strong>トリガー</strong> モンスターが盾を掲げており、かつ、物理的な攻撃によるダメージを受ける</p>\n<p><strong>効果</strong> モンスターは所定の位置に盾を掲げ、攻撃を受け流す。盾は、モンスターが受けるダメージをその硬度の分だけ減らす。モンスターと盾はあらゆる残っているダメージを受け、もしかしたら盾は破損や破壊されるかもしれない</p>",
-                    "SneakAttack": "<p>このモンスターが@Compendium[pf2e.conditionitems.Flat-Footed]{立ちすくみ}状態の敵に、機敏あるいは巧技の近接武器や機敏あるいは巧技の素手打撃、遠隔武器攻撃で命中させると、記載された精密性ダメージを与える。投擲武器の遠隔攻撃については、機敏あるいは巧技武器でなければならない。</p>",
-                    "SwallowWhole": "<p>モンスターは記載されたサイズ以下の、自分の顎や口でつかんだ状態のクリーチャーを呑み込もうとする。もし、呑み込まれたクリーチャーが記載された最大サイズであるなら、モンスターは再び「丸呑み」をすることが出来ない。もし、そのクリーチャーが最大サイズより小さいなら、モンスターは通常、更なるクリーチャーを丸呑みすることが出来る；GMがこの最大数を決める。モンスターはつかまれたクリーチャーの反応DCに対して〈運動〉を試みる。成功したなら、クリーチャーを丸呑みすることが出来る。モンスターの口や顎は、もはや丸呑みされているクリーチャーをつかんではいないため、再び「打撃」や「つかみ」をすることが出来るのである。モンスターは丸呑みしたクリーチャーを攻撃することは出来ない。</p>\n<p>丸呑みされたクリーチャーは@Compendium[pf2e.conditionitems.Grabbed]{つかまれた状態}かつ@Compendium[pf2e.conditionitems.Slowed]{減速1}であり、息をこらえなければ窒息し始める。丸呑みされたクリーチャーは最初に丸呑みされた際と丸呑みされている間の手番の終了時ごとに、記載された量のダメージを受ける。もし、犠牲者がこの能力のつかまれた状態を@Compendium[pf2e.actionspf2e.Escape]{「脱出」}したなら、モンスターの口を通じて出てくる。これによって、モンスターの口あるいは顎に掴まれていた他のあらゆるクリーチャーを自由にする。呑み込まれたクリーチャーは呑み込んだモンスターを攻撃することが出来るが、それは素手打撃か軽バルクのバルク以下の武器を使わなければならない。丸呑みしたクリーチャーはこの攻撃に対して@Compendium[pf2e.conditionitems.Flat-Footed]{立ちすくみ}である。もし、モンスターが一回の攻撃あるいは呪文によって、記載されている破裂値以上の刺突あるいは斬撃ダメージを受けたなら、丸呑みされていたクリーチャーは相手を切り裂いて自由になる。「脱出」あるいは切り裂きによって自由になったクリーチャーは即座に呼吸が可能になり、丸呑みされていたクリーチャーの接敵面から出る。</p>\n<p>もしモンスターが死亡したなら、丸呑みされていたクリーチャーは、死体に隣接しているクリーチャーと合計で3アクションを費やして、刺突か斬撃ダメージを与える武器あるいは素手打撃でモンスターを切り開くことによって、自由になることが出来る。</p>",
+                    "SneakAttack": "<p>このモンスターが@Compendium[pf2e.conditionitems.Off-Guard]{立ちすくみ状態}の敵に、機敏あるいは巧技の近接武器や機敏あるいは巧技の素手打撃、遠隔武器攻撃で命中させると、記載された精密性ダメージを与える。投擲武器の遠隔攻撃については、機敏あるいは巧技武器でなければならない。</p>",
+                    "SwallowWhole": "<p>モンスターは記載されたサイズ以下の、自分の顎や口でつかんだ状態のクリーチャーを呑み込もうとする。もし、呑み込まれたクリーチャーが記載された最大サイズであるなら、モンスターは再び「丸呑み」をすることが出来ない。もし、そのクリーチャーが最大サイズより小さいなら、モンスターは通常、更なるクリーチャーを丸呑みすることが出来る；GMがこの最大数を決める。モンスターはつかまれたクリーチャーの反応DCに対して〈運動〉を試みる。成功したなら、クリーチャーを丸呑みすることが出来る。モンスターの口や顎は、もはや丸呑みされているクリーチャーをつかんではいないため、再び「打撃」や「つかみ」をすることが出来るのである。モンスターは丸呑みしたクリーチャーを攻撃することは出来ない。</p>\n<p>丸呑みされたクリーチャーは@Compendium[pf2e.conditionitems.Grabbed]{つかまれた状態}かつ@Compendium[pf2e.conditionitems.Slowed]{減速状態 1}であり、息をこらえなければ窒息し始める。丸呑みされたクリーチャーは最初に丸呑みされた際と丸呑みされている間の手番の終了時ごとに、記載された量のダメージを受ける。もし、犠牲者がこの能力のつかまれた状態を@Compendium[pf2e.actionspf2e.Escape]{「脱出」}したなら、モンスターの口を通じて出てくる。これによって、モンスターの口あるいは顎に掴まれていた他のあらゆるクリーチャーを自由にする。呑み込まれたクリーチャーは呑み込んだモンスターを攻撃することが出来るが、それは素手打撃か軽バルクのバルク以下の武器を使わなければならない。丸呑みしたクリーチャーはこの攻撃に対して@Compendium[pf2e.conditionitems.Off-Guard]{立ちすくみ状態}である。もし、モンスターが一回の攻撃あるいは呪文によって、記載されている破裂値以上の刺突あるいは斬撃ダメージを受けたなら、丸呑みされていたクリーチャーは相手を切り裂いて自由になる。「脱出」あるいは切り裂きによって自由になったクリーチャーは即座に呼吸が可能になり、丸呑みされていたクリーチャーの接敵面から出る。</p>\n<p>もしモンスターが死亡したなら、丸呑みされていたクリーチャーは、死体に隣接しているクリーチャーと合計で3アクションを費やして、刺突か斬撃ダメージを与える武器あるいは素手打撃でモンスターを切り開くことによって、自由になることが出来る。</p>",
                     "SwarmMind": "<p>このモンスターは単一の精神を持たない（一般的には、小さなクリーチャーの集合であることから）ので、特定の数のクリーチャーを対象とする精神効果に耐性を持つ。範囲内の全てのクリーチャーの精神に影響を与える精神効果の対象にはなる。</p>",
                     "Telepathy": "<p>テレパシーのあるモンスターは、記載された半径内にいるあらゆるクリーチャーと、言語を共有している限り、精神的な交流をすることが出来る。これは思考に対する特殊なアクセスを与えることはなく、通常の発話によって得られる以上の交流を可能にすることもない。</p>",
                     "Thoughtsense": "<p>思考感知によってモンスターは記載された距離内の全ての精神があるクリーチャーを感知することが出来る</p>",
@@ -2920,7 +2925,7 @@
             "proficiency": "習熟ペナルティ",
             "circumstance": "状況ペナルティ",
             "item": "アイテムペナルティ",
-            "status": "ステータスペナルティ",
+            "status": "状態ペナルティ",
             "untyped": "無名ペナルティ"
         },
         "PerceptionCheck": "知覚判定",
@@ -3776,8 +3781,8 @@
         "StackGroupWoodenTaws": "タウ",
         "StaminaPointsHeader": "スタミナ・ポイント",
         "StaminaPointsShortLabel": "スタミナ",
-        "StatusBonusShortLabel": "ステータス",
-        "StatusBonusTitle": "ステータス・ボーナス",
+        "StatusBonusShortLabel": "状態",
+        "StatusBonusTitle": "状態ボーナス",
         "StatusEffects": "{name}のステータス効果:",
         "StealthLabel": "隠密",
         "StrikesLabel": "打撃",
@@ -3896,6 +3901,7 @@
         "TraitAgathion": "アガシオン",
         "TraitAgile": "機敏",
         "TraitAir": "風",
+        "TraitAiuvarin": "ハーフエルフ",
         "TraitAlchemical": "錬金術",
         "TraitAlchemist": "アルケミスト",
         "TraitAll": "全て",
@@ -4226,14 +4232,14 @@
         "TraitDescriptionPeachwood": "ピーチウッドの武器は直射日光を浴びた際、僅かに金色に輝く。ピーチウッドはダークウッドに関連する、アンデッド・クリーチャーの抵抗や弱点についてダークウッドとして扱う（たとえば、ピーチウッドの武器はキョンシーの抵抗を抜くことが出来る）。更に、ピーチウッド武器はあらゆるアンデッド・クリーチャーの抵抗をごく一部だけ抜くことが出来る。ピーチウッド武器による「打撃」は、標準クラスならば2点、高級クラスなら4点、物理的なダメージに対するアンデッドの抵抗を低いものとして扱う。",
         "TraitDescriptionPlant": "草本のクリーチャーは植物の特性を持つ。これらは通常の植物とは異なっている。この特性を持つ魔法の効果は、何らかの方法で植物や植物で出来た物質の操作や召喚を行う。植物を操作するものは、植物のない範囲では何の効果もない。",
         "TraitDescriptionPoison": "この特性を持つ効果は毒を運ぶか、毒ダメージを与える。この特性を持つアイテムは有毒であり、苦難を引き起こすかもしれない。",
-        "TraitDescriptionPolymorph": "これらの効果は対象を新たな姿に変身させる。対象は同時に二つ以上のポリモーフ効果の影響を受けることは出来ない。もし、二番目のポリモーフ効果の影響を受けたなら、二番目のポリモーフ効果は最初のものを無効化しようとする。それが成功したなら、二番目の効果が効果を発揮し、失敗したならその呪文は対象に影響を与えない。ポリモーフ効果によって特に可能となる「打撃」は全て魔法のものである。特記ない限り、ポリモーフ呪文は対象に特定のクリーチャーの姿をとらせることはなく、単に一般的な種別あるいは種族の一般的な姿を与える。もし、君がポリモーフ呪文で戦闘形態を取るなら、特殊ステータスは状況ボーナス、スエｔ－タス・ボーナス、ペナルティによってのみ修正を受ける。特記ない限り、戦闘形態で呪文の発動、会話、そして手を必要とするほとんどの操作アクションは使うことが出来ない（あるアクションを使用可能かどうか分からないなら、GMが判断する）。君の装備は君の中に溶け込む；君の装備の常時能力は機能するが、君はアイテムを起動することが出来ない。",
+        "TraitDescriptionPolymorph": "これらの効果は対象を新たな姿に変身させる。対象は同時に二つ以上のポリモーフ効果の影響を受けることは出来ない。もし、二番目のポリモーフ効果の影響を受けたなら、二番目のポリモーフ効果は最初のものを無効化しようとする。それが成功したなら、二番目の効果が効果を発揮し、失敗したならその呪文は対象に影響を与えない。ポリモーフ効果によって特に可能となる「打撃」は全て魔法のものである。特記ない限り、ポリモーフ呪文は対象に特定のクリーチャーの姿をとらせることはなく、単に一般的な種別あるいは種族の一般的な姿を与える。もし、君がポリモーフ呪文で戦闘形態を取るなら、特殊ステータスは状況ボーナス、状態ボーナス、ペナルティによってのみ修正を受ける。特記ない限り、戦闘形態で呪文の発動、会話、そして手を必要とするほとんどの操作アクションは使うことが出来ない（あるアクションを使用可能かどうか分からないなら、GMが判断する）。君の装備は君の中に溶け込む；君の装備の常時能力は機能するが、君はアイテムを起動することが出来ない。",
         "TraitDescriptionPortable": "バッテリング・ラムのような可搬攻城兵器は簡単に持ち歩くことが出来て、戦争や、もっと小さな戦争や探索の双方に役割を持つ",
         "TraitDescriptionPoppet": "この特性を持つクリーチャーはポッペの種族をもつ。",
         "TraitDescriptionPositive": "この特性を持つ効果は生きているクリーチャーを正のエネルギーで癒し、アンデッド・クリーチャーに正のエネルギーダメージを与えるか、正のエネルギーを操作する",
         "TraitDescriptionPossession": "この特性を持つ効果は、クリーチャーが対象に心と精神を投影することが出来るようにする。 精神効果に完全耐性を持つクリーチャーは憑依効果を使うことが出来ない。 対象に憑依しているいる間に、憑依者の本当の身体は、憑依効果によってそのクリーチャーが物理的に対象に入り込むことが出来るのでない限り、気絶している（通常通りに目を覚ますことはない）。 対象がダメージを受けるときはいつでも、憑依者は精神ダメージとしてそのダメージの半分の値のダメージを受ける。 憑依者は、対象の体に影響を与えている起動中の呪文と能力の利益を受けるが、自分の物理的な肉体に影響を与えている、起動中の呪文と能力の利益を失う。 憑依者は純粋に肉体的な対象の能力をどれでも使うことが出来るが、呪文と純粋に精神的な能力以外の自分自身の能力を使うことは出来ない。 ある能力が純粋に肉体的であるか、純粋に精神的であるかはGMが判断する。 憑依者は対象の攻撃修正、AC、頑健セーヴ、反応セーヴ、知覚、肉体的な技能、そして自分自身の意思セーヴ、精神的な技能、呪文攻撃ロール、呪文DCを使う； 運用されているアイテムの利益は、関連するところに適用される（憑依者の運用するアイテムは自分自身の能力値を使う場合に適用され、対象の運用するアイテムは対象の能力値を使う場合に適用される） 憑依者は、自分自身の肉体ではないため、通常は術者のみに影響を与える呪文の発動から利益を得ることはない。 憑依者は、憑依されたクリーチャーを行動させるために自分自身のアクションを使わなくてはならない。 もし、憑依者が本当の肉体へのダメージや憑依から受ける精神ダメージの合算で0ヒットポイントになったなら、通常通りにノック・アウトされ、憑依は即座に終了する。 もし対象が先に0ヒットポイントになったなら、憑依者は肉体とともに気絶して憑依を続けるか、フリー・アクションで効果を終わらせて自分の肉体に戻ることが出来る。 もし目標が死亡したなら、憑依は即座に終了し、憑依者は1分間、朦朧状態になる。",
         "TraitDescriptionPrecious": "特殊な性質を持つ価値ある素材には稀少素材の特性がついている。これらは君がアイテムの製作をする再に基本素材の代替とすることが出来る",
         "TraitDescriptionPrediction": "この特性を持つ効果は、近い未来に起こりそうな出来事を決定する。ほとんどの預言は占術である",
-        "TraitDescriptionPress": "この特性を持つアクションは前の攻撃の後追いをする。継続の特性を持つアクションは、君が現在、複数回攻撃ペナルティの影響を受けている場合にのみ、使うことが出来る。継続の特性を持つアクションには、失敗時に効果をもたらすものもある。失敗時に効果を付け加えられる効果はファンブルには適用されない。もし継続アクションが成功したなら、代わりに失敗効果を適用することを選べる（例えば、君は抵抗のために攻撃がダメージを与えなかった際にそうしたいと思うかもしれない）。継続アクションは複数回攻撃ペナルティを必要とするが、もし「待機」の連続行動を使っていたとしても、君の手番でない時に使うことは出来ない。",
+        "TraitDescriptionPress": "この特性を持つアクションは前の攻撃の後追いをする。持続ダメージの特性を持つアクションは、君が現在、複数回攻撃ペナルティの影響を受けている場合にのみ、使うことが出来る。継続の特性を持つアクションには、失敗時に効果をもたらすものもある。失敗時に効果を付け加えられる効果はファンブルには適用されない。もし継続アクションが成功したなら、代わりに失敗効果を適用することを選べる（例えば、君は抵抗のために攻撃がダメージを与えなかった際にそうしたいと思うかもしれない）。継続アクションは複数回攻撃ペナルティを必要とするが、もし「待機」の連続行動を使っていたとしても、君の手番でない時に使うことは出来ない。",
         "TraitDescriptionPrimal": "この魔法は、自然世界と本能と密接に繋がっている始原体系のものである。この特性を持つものは全て魔法のものである",
         "TraitDescriptionPropulsive": "君は投射遠隔武器に【筋力】修正値の半分（もし正なら）を加えることが出来る。もし君が負の【筋力】修正値を持つのなら、君は代わりに完全な【筋力】修正値を加える。",
         "TraitDescriptionPsyche": "プシケの特性を持つ能力を使うために君はプシケを解き放たなければならず、解き放たれたプシケが落ち着いたなら、自動的に終了する。。",
@@ -4342,6 +4348,7 @@
         "TraitDowntime": "余暇",
         "TraitDragon": "竜",
         "TraitDream": "夢",
+        "TraitDromaar": "ハーフオーク",
         "TraitDrow": "ドラウ",
         "TraitDrug": "薬物",
         "TraitDruid": "ドルイド",
@@ -4430,6 +4437,7 @@
         "TraitHeritage": "出自",
         "TraitHex": "呪術",
         "TraitHobgoblin": "ホブゴブリン",
+        "TraitHoly": "光輝",
         "TraitHryngar": "ヒュンガー",
         "TraitHuman": "人間",
         "TraitHumanoid": "人型生物",
@@ -4502,6 +4510,7 @@
         "TraitMutagen": "変異薬",
         "TraitMutant": "ミュータント",
         "TraitNagaji": "ナガジ",
+        "TraitNephilim": "ネフィリム",
         "TraitNecromancy": "死霊術",
         "TraitNindoru": "ニンドル",
         "TraitNegative": "負のエネルギー",
@@ -4749,6 +4758,7 @@
         "TraitUndead": "アンデッド",
         "TraitUndine": "ウンディーネ",
         "TraitUnique": "ユニーク",
+        "TraitUnholy": "不浄",
         "TraitUnstable": "不安定",
         "TraitUntyped": "無名",
         "TraitUrdefhan": "ウルデファン",
@@ -5233,7 +5243,7 @@
             "bloodthirsty": {
                 "Name": "ブラッドサースティ・ルーン",
                 "Note": {
-                    "criticalSuccess": "<b>ブラッドサースティ・ルーン</b> このルーンの魔法は、君の攻撃にあわせて歌い上げ、君が敵を殺すように仕向ける。君が@Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}を受けている対象にクリティカル・ヒットした際、対象は@Compendium[pf2e.conditionitems.Drained]{吸精1}になる。"
+                    "criticalSuccess": "<b>ブラッドサースティ・ルーン</b> このルーンの魔法は、君の攻撃にあわせて歌い上げ、君が敵を殺すように仕向ける。君が@Compendium[pf2e.conditionitems.Persistent Damage]{持続出血ダメージ}を受けている対象にクリティカル・ヒットした際、対象は@Compendium[pf2e.conditionitems.Drained]{吸精状態 1}になる。"
                 }
             },
             "brilliant": {
@@ -5254,7 +5264,7 @@
             "crushing": {
                 "Name": "クラッシング・ルーン",
                 "Note": {
-                    "criticalSuccess": "<b>クラッシング・ルーン</b> このルーンを持つ武器は君の筋力を強化し、これらの武器での攻撃は君の敵を呆然とさせる。君がこの武器で対象にクリティカル・ヒットした際、君の対象は、君の次の手番の終了時まで@Compendium[pf2e.conditionitems.Clumsy]{よたつき1}かつ@Compendium[pf2e.conditionitems.Enfeebled]{虚弱1}になる。"
+                    "criticalSuccess": "<b>クラッシング・ルーン</b> このルーンを持つ武器は君の筋力を強化し、これらの武器での攻撃は君の敵を呆然とさせる。君がこの武器で対象にクリティカル・ヒットした際、君の対象は、君の次の手番の終了時まで@Compendium[pf2e.conditionitems.Clumsy]{よたつき状態 1}かつ@Compendium[pf2e.conditionitems.Enfeebled]{虚弱状態 1}になる。"
                 }
             },
             "cunning": {
@@ -5266,7 +5276,7 @@
             "disrupting": {
                 "Name": "ディスラプティング・ルーン",
                 "Note": {
-                    "criticalSuccess": "<b>ディスラプティング・ルーン</b> クリティカル・ヒット時に、アンデッドは君の次の手番の終了時まで@Compendium[pf2e.conditionitems.Enfeebled]{虚弱1}になる。"
+                    "criticalSuccess": "<b>ディスラプティング・ルーン</b> クリティカル・ヒット時に、アンデッドは君の次の手番の終了時まで@Compendium[pf2e.conditionitems.Enfeebled]{虚弱状態 1}になる。"
                 }
             },
             "energizing": {
@@ -5281,19 +5291,19 @@
             "fearsome": {
                 "Name": "フィアサム・ルーン",
                 "Note": {
-                    "criticalSuccess": "<b>フィアサム・ルーン</b> この武器でクリティカル・ヒットした際、対象は@Compendium[pf2e.conditionitems.Frightened]{恐れ1}になる"
+                    "criticalSuccess": "<b>フィアサム・ルーン</b> この武器でクリティカル・ヒットした際、対象は@Compendium[pf2e.conditionitems.Frightened]{恐れ状態 1}になる"
                 }
             },
             "flaming": {
                 "Name": "フレイミング・ルーン",
                 "Note": {
-                    "criticalSuccess": "<b>フレイミング・ルーン</b> この武器でクリティカル・ヒットした際、 [[/r {1d10}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ}を与える。"
+                    "criticalSuccess": "<b>フレイミング・ルーン</b> この武器でクリティカル・ヒットした際、 [[/r {1d10}[持続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{持続火炎ダメージ}を与える。"
                 }
             },
             "frost": {
                 "Name": "フロスト・ルーン",
                 "Note": {
-                    "criticalSuccess": "<b>フロスト・ルーン</b> クリティカル・ヒット時、対象は<span data-pf2-check=\"fortitude\" data-pf2-label=\"Frost Rune DC\" data-pf2-dc=\"24\">頑健</span>セーヴに成功しなければ、君の次の手番の終了時まで@Compendium[pf2e.conditionitems.Slowed]{減速1}になる。"
+                    "criticalSuccess": "<b>フロスト・ルーン</b> クリティカル・ヒット時、対象は<span data-pf2-check=\"fortitude\" data-pf2-label=\"Frost Rune DC\" data-pf2-dc=\"24\">頑健</span>セーヴに成功しなければ、君の次の手番の終了時まで@Compendium[pf2e.conditionitems.Slowed]{減速状態 1}になる。"
                 }
             },
             "ghostTouch": {
@@ -5313,7 +5323,7 @@
             "greaterBrilliant": {
                 "Name": "グレーター・ブリリアント・ルーン",
                 "Note": {
-                    "criticalSuccess": "<b>グレーター・ブリリアント・ルーン</b>この武器によるダメージは対象の火炎、善、正のエネルギーへの抵抗を無視する。クリティカル・ヒット時、対象は<span data-pf2-check=\"fortitude\" data-pf2-label=\"Greater Brilliant Rune DC\" data-pf2-dc=\"41\">頑健</span>セーヴに成功しなければ、1ラウンド、@Compendium[pf2e.conditionitems.Blinded]{盲目}になる",
+                    "criticalSuccess": "<b>グレーター・ブリリアント・ルーン</b>この武器によるダメージは対象の火炎、善、正のエネルギーへの抵抗を無視する。クリティカル・ヒット時、対象は<span data-pf2-check=\"fortitude\" data-pf2-label=\"Greater Brilliant Rune DC\" data-pf2-dc=\"41\">頑健</span>セーヴに成功しなければ、1ラウンド、@Compendium[pf2e.conditionitems.Blinded]{盲目状態}になる",
                     "success": "<b>グレーター・ブリリアント・ルーン</b> この武器によるダメージは対象の火炎、善、正のエネルギーへの抵抗を無視する。"
                 }
             },
@@ -5327,13 +5337,13 @@
             "greaterCrushing": {
                 "Name": "グレーター・クラッシング・ルーン",
                 "Note": {
-                    "criticalSuccess": "<b>グレーター・クラッシング・ルーン</b> クリティカル・ヒットによって対象は、君の次の手番の終了時まで、@Compendium[pf2e.conditionitems.Clumsy]{よたつき2}かつ@Compendium[pf2e.conditionitems.Enfeebled]{虚弱2}になる"
+                    "criticalSuccess": "<b>グレーター・クラッシング・ルーン</b> クリティカル・ヒットによって対象は、君の次の手番の終了時まで、@Compendium[pf2e.conditionitems.Clumsy]{よたつき状態 2}かつ@Compendium[pf2e.conditionitems.Enfeebled]{虚弱状態 2}になる"
                 }
             },
             "greaterDisrupting": {
                 "Name": "グレーター・ディスラプティング・ルーン",
                 "Note": {
-                    "criticalSuccess": "<b>グレーター・ディスラプティング・ルーン</b> クリティカル・ヒット時、虚弱1になる代わりにアンデッド・クリーチャーは下記の効果に対してDC34の<span data-pf2-check=\"fortitude\" data-pf2-traits=\"incapacitation\" data-pf2-label=\"Greater Disrupting Rune DC\" data-pf2-dc=\"34\">頑健</span>セーヴを試みなくてはならない。これは無力化効果である<br /><br /><b>クリティカル</b> アンデッドは君の次の手番の終了時まで@Compendium[pf2e.conditionitems.Enfeebled]{虚弱1}になる<br /><b>成功</b> アンデッドは君の次の手番の終了時まで@Compendium[pf2e.conditionitems.Enfeebled]{虚弱2}になる<br /><b>失敗</b> アンデッドは君の次の手番の終了時まで@Compendium[pf2e.conditionitems.Enfeebled]{虚弱3}になる<br /><b>ファンブル</b> アンデッドは破壊される"
+                    "criticalSuccess": "<b>グレーター・ディスラプティング・ルーン</b> クリティカル・ヒット時、虚弱1になる代わりにアンデッド・クリーチャーは下記の効果に対してDC34の<span data-pf2-check=\"fortitude\" data-pf2-traits=\"incapacitation\" data-pf2-label=\"Greater Disrupting Rune DC\" data-pf2-dc=\"34\">頑健</span>セーヴを試みなくてはならない。これは無力化効果である<br /><br /><b>クリティカル</b> アンデッドは君の次の手番の終了時まで@Compendium[pf2e.conditionitems.Enfeebled]{虚弱状態 1}になる<br /><b>成功</b> アンデッドは君の次の手番の終了時まで@Compendium[pf2e.conditionitems.Enfeebled]{虚弱状態 2}になる<br /><b>失敗</b> アンデッドは君の次の手番の終了時まで@Compendium[pf2e.conditionitems.Enfeebled]{虚弱状態 3}になる<br /><b>ファンブル</b> アンデッドは破壊される"
                 }
             },
             "greaterExtending": {
@@ -5345,20 +5355,20 @@
             "greaterFearsome": {
                 "Name": "グレーター・フィアサム・ルーン",
                 "Note": {
-                    "criticalSuccess": "<b>グレーター・フィアサム・ルーン</b> 君がこの武器でクリティカル・ヒットした際、対象は@Compendium[pf2e.conditionitems.Frightened]{恐れ2}になる。"
+                    "criticalSuccess": "<b>グレーター・フィアサム・ルーン</b> 君がこの武器でクリティカル・ヒットした際、対象は@Compendium[pf2e.conditionitems.Frightened]{恐れ状態 2}になる。"
                 }
             },
             "greaterFlaming": {
                 "Name": "グレーター・フレイミング・ルーン",
                 "Note": {
-                    "criticalSuccess": "<b>グレーター・フレイミング・ルーン</b> この武器によって与えられる火炎ダメージ（継続火炎ダメージを含む）は対象の火炎への抵抗を無視する。君がこの武器の「打撃」でクリティカル・ヒットした際、対象は追加で[[/r {2d10}[継続、火炎]]]点の@Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ}を受ける",
+                    "criticalSuccess": "<b>グレーター・フレイミング・ルーン</b> この武器によって与えられる火炎ダメージ（持続火炎ダメージを含む）は対象の火炎への抵抗を無視する。君がこの武器の「打撃」でクリティカル・ヒットした際、対象は追加で[[/r {2d10}[持続、火炎]]]点の@Compendium[pf2e.conditionitems.Persistent Damage]{持続火炎ダメージ}を受ける",
                     "success": "<b>グレーター・フレイミング・ルーン</b> この武器によって与えられる火炎ダメージは対象の火炎への抵抗を無視する。"
                 }
             },
             "greaterFrost": {
                 "Name": "グレーター・フロスト・ルーン",
                 "Note": {
-                    "criticalSuccess": "<b>グレーター・フロスト・ルーン</b> この武器によって与えられる氷雪ダメージは対象の氷雪への抵抗を無視する。クリティカル・ヒット時に、対象は<span data-pf2-check=\"fortitude\" data-pf2-label=\"Greater Frost Rune DC\" data-pf2-dc=\"34\">頑健</span>セーヴに成功しなければ君の次の手番の終了時まで@Compendium[pf2e.conditionitems.Slowed]{減速1}となる",
+                    "criticalSuccess": "<b>グレーター・フロスト・ルーン</b> この武器によって与えられる氷雪ダメージは対象の氷雪への抵抗を無視する。クリティカル・ヒット時に、対象は<span data-pf2-check=\"fortitude\" data-pf2-label=\"Greater Frost Rune DC\" data-pf2-dc=\"34\">頑健</span>セーヴに成功しなければ君の次の手番の終了時まで@Compendium[pf2e.conditionitems.Slowed]{減速状態 1}となる",
                     "success": "<b>グレーター・フロスト・ルーン</b> この武器によって与えられる氷雪ダメージは対象の氷雪への抵抗を無視する。"
                 }
             },
@@ -5381,7 +5391,7 @@
             "greaterThundering": {
                 "Name": "グレーター・サンダリング・ルーン",
                 "Note": {
-                    "criticalSuccess": "<b>グレーター・サンダリング・ルーン</b> この武器によって与えられる音波ダメージは対象の音波への抵抗を無視する。クリティカル・ヒット時、対象はDC34の<span data-pf2-check=\"fortitude\" data-pf2-label=\"Greater Thundering Rune DC\" data-pf2-dc=\"34\">頑健</span>セーヴに成功しなければ、対象は永続的に@Compendium[pf2e.conditionitems.Deafened]{聴覚喪失}状態になる",
+                    "criticalSuccess": "<b>グレーター・サンダリング・ルーン</b> この武器によって与えられる音波ダメージは対象の音波への抵抗を無視する。クリティカル・ヒット時、対象はDC34の<span data-pf2-check=\"fortitude\" data-pf2-label=\"Greater Thundering Rune DC\" data-pf2-dc=\"34\">頑健</span>セーヴに成功しなければ、対象は永続的に@Compendium[pf2e.conditionitems.Deafened]{聴覚喪失状態}になる",
                     "success": "<b>グレーター・サンダリング・ルーン</b> この武器によって与えられる音波ダメージは対象の音波への抵抗を無視する。"
                 }
             },
@@ -5392,14 +5402,14 @@
                     "Bow": "<b>グリーヴァス・ルーン</b> 発射物を引き抜いて自由になるための〈運動〉のDCは20になる。",
                     "Brawling": "<b>グリーヴァス・ルーン</b> 対象はセーヴに-4状況ペナルティを受ける。",
                     "Club": "<b>グリーヴァス・ルーン</b> 君は対象を15フィートまで遠ざけることが出来る。",
-                    "Dart": "<b>グリーヴァス・ルーン</b> 基本@Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}は[[/r {2d6}[継続、出血]]]点に増加する。",
+                    "Dart": "<b>グリーヴァス・ルーン</b> 基本@Compendium[pf2e.conditionitems.Persistent Damage]{持続出血ダメージ}は[[/r {2d6}[持続、出血]]]点に増加する。",
                     "Flail": "<b>グリーヴァス・ルーン</b> 君は対象を5フィート移動させる。君はそれを自分から離れるように動かすことは出来ないが、君の選ぶ別の方向へと移動させることが出来る。",
                     "Hammer": "<b>グリーヴァス・ルーン</b> 君はまた、対象を自分から5フィート遠ざけることが出来る。",
-                    "Knife": "<b>グリーヴァス・ルーン</b> 対象は@Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}を負っている間、速度に-5フィートのステータス・ペナルティを受ける。",
+                    "Knife": "<b>グリーヴァス・ルーン</b> 対象は@Compendium[pf2e.conditionitems.Persistent Damage]{持続出血ダメージ}を負っている間、速度に-5フィートの状態ペナルティを受ける。",
                     "Pick": "<b>グリーヴァス・ルーン</b> クリティカル特化効果による追加ダメージは武器ダメージ・ダイスごとに4点に増加する。",
                     "Polearm": "<b>グリーヴァス・ルーン</b> 君は対象を10フィートまで移動させることが出来る。",
                     "Shield": "<b>グリーヴァス・ルーン</b> 君は対象を10フィートまで遠ざけることが出来る。",
-                    "Sling": "<b>グリーヴァス・ルーン</b> 対象はセーヴに失敗したなら、1ラウンド、速度に-10フィートのステータス・ペナルティを受ける",
+                    "Sling": "<b>グリーヴァス・ルーン</b> 対象はセーヴに失敗したなら、1ラウンド、速度に-10フィートの状態ペナルティを受ける",
                     "Spear": "<b>グリーヴァス・ルーン</b> よたつき状態は2ラウンド継続する。",
                     "Sword": "<b>グリーヴァス・ルーン</b> 対象は君の次の手番の開始時まで立ちすくみ状態になる。"
                 }
@@ -5416,7 +5426,7 @@
             "hopeful": {
                 "Name": "ホープフル・ルーン",
                 "Note": {
-                    "criticalSuccess": "<b>ホープフル・ルーン</b> この武器でクリティカル・ヒットした際、君は戦友の士気を鼓舞し、彼らを激しく戦うように駆り立て、君達が共有する信念を貫くように後押しする。君が少なくとも1つの属性を共有している味方は、君の次の手番の終了時まで攻撃ロールに+1のステータス・ボーナスを得る。"
+                    "criticalSuccess": "<b>ホープフル・ルーン</b> この武器でクリティカル・ヒットした際、君は戦友の士気を鼓舞し、彼らを激しく戦うように駆り立て、君達が共有する信念を貫くように後押しする。君が少なくとも1つの属性を共有している味方は、君の次の手番の終了時まで攻撃ロールに+1の状態ボーナスを得る。"
                 }
             },
             "impactful": {
@@ -5463,13 +5473,13 @@
             "thundering": {
                 "Name": "サンダリング・ルーン",
                 "Note": {
-                    "criticalSuccess": "<b>サンダリング・ルーン</b> クリティカル・ヒット時、対象はDC24の<span data-pf2-check=\"fortitude\" data-pf2-label=\"Thundering Rune DC\" data-pf2-dc=\"24\">頑健</span>セーヴに成功しなければ1分間、対象は@Compendium[pf2e.conditionitems.Deafened]{聴覚喪失}状態になる（あるいはファンブルで1時間）。"
+                    "criticalSuccess": "<b>サンダリング・ルーン</b> クリティカル・ヒット時、対象はDC24の<span data-pf2-check=\"fortitude\" data-pf2-label=\"Thundering Rune DC\" data-pf2-dc=\"24\">頑健</span>セーヴに成功しなければ1分間、対象は@Compendium[pf2e.conditionitems.Deafened]{聴覚喪失状態}になる（あるいはファンブルで1時間）。"
                 }
             },
             "unholy": {
                 "Name": "アンホーリィ・ルーン",
                 "Note": {
-                    "criticalSuccess": "<strong>アンホーリィ・ルーン</strong> (<span class='pf2-icon'>R</span> 合言葉; １日に１回)<br /><br /><strong>トリガー</strong> 君がこの武器で善のクリーチャーに対する攻撃ロールにクリティカルする<br /><br /><strong>効果</strong> 対象はこのルーンが刻まれた武器の武器ダメージ・ダイスごとに1d8点の@Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}を受ける"
+                    "criticalSuccess": "<strong>アンホーリィ・ルーン</strong> (<span class='pf2-icon'>R</span> 合言葉; １日に１回)<br /><br /><strong>トリガー</strong> 君がこの武器で善のクリーチャーに対する攻撃ロールにクリティカルする<br /><br /><strong>効果</strong> 対象はこのルーンが刻まれた武器の武器ダメージ・ダイスごとに1d8点の@Compendium[pf2e.conditionitems.Persistent Damage]{持続出血ダメージ}を受ける"
                 }
             },
             "vorpal": {
@@ -5587,219 +5597,176 @@
                 "death": "死と瀕死"
             },
             "blinded": {
-                "name": "盲目",
-                "rules": "<p>君は見ることが出来ない。全ての通常の地形が君にとっては移動困難な地形である。君は視覚を用いる探知をすることが出来ない。君は視覚を要求する知覚に自動的にファンブルし、もし視覚が君の唯一の明瞭な感覚precise senseであるなら、知覚に－4のペナルティを受ける。君は視覚効果に耐性を持つ。盲目は目の眩んだ状態を上書きする。</p>",
-                "summary": "君は見ることが出来ない"
+                "name": "盲目状態",
+			          "rules": "<p>君は見ることができない。全ての通常の地形は君にとって移動困難地形となる。</p><p>君は視覚によって何も察知できない（訳注：視覚しか感覚がない場合、未察知状態になる）。目が見えることを前提とした知覚判定を君が行うと自動的に大失敗となる。視覚が君の唯一の明瞭な感覚なら、知覚判定に－4の状態ペナルティを受ける。君は視覚効果に対して完全耐性を得る。盲目状態は@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]を上書きする。</p>"
             },
             "broken": {
-                "name": "破損",
-                "rules": "<p>破損は物体に影響する状態である。物体は、ダメージによってそのヒットポイントが破損値を下回った時に破損状態となる。破損状態の物体は通常の機能を果たすことが出来ず、ボーナスを与えることもない――鎧は例外である。鎧はなおもACにアイテム・ボーナスを与えるが、カテゴリによって異なる、ACへのステータス・ペナルティを与える：破損状態の軽装鎧は－1、破損状態の中装鎧は－2、破損状態の重装鎧は－3である。</p>\n<p>破損状態のアイテムはなおも、それを持ち運び、手に持ち、あるいは着用することによって通常、及ぼされるペナルティと制限を与える。例えば、破損した鎧はそれでもなお、【敏捷力】上限、判定ペナルティといったものを与える。</p>\n<p>もし、ある効果が自動的にアイテムを破損させ、そのアイテムが破損値よりもHPを多く持っている場合、その効果は、そのアイテムの現在HPを破損値まで減少させる。</p>",
-                "summary": "このアイテムは修理されるまで、通常の機能を使うことが出来ない。"
+                "name": "破損状態",
+                "rules": "<p>破損状態は物体に適用される状態である。ダメージによってアイテムのHPが破損値（BT）以下になると、その物体は破損状態になる。破損状態の物体を通常と同様に使用することはできず、鎧を除いてボーナスを与えることもできない 。破損状態の鎧はACへのボーナスを与えるが、鎧の区分に応じてACにペナルティを受ける。鎧が破損状態になると、軽装鎧なら－1、中装鎧なら－2、重装鎧なら－3のペナルティを受ける。</p>\n<p>破損したアイテムでも、運搬、保持、着用によって生じるペナルティは依然として課せられる。たとえば、破損状態の鎧であっても、【敏捷力】修正上限や判定ペナルティなどが適用される。</p>\n<p>何らかの効果によってアイテムが即座に破損状態になったような場合、そのアイテムのBTが効果の発生したときのHPよりも多いなら、HPがBTと同じ値まで減少する。</p>"
             },
             "clumsy": {
-                "name": "よたつき",
-                "rules": "<p>君の動きは不器用で不正確になる。よたつきは常に数字を伴う。君は敏捷に基づいた判定、AC、反応セーヴ、遠隔攻撃ロールを含むDC、軽業、隠密、盗賊を使う技能判定に拙劣の値に等しいステータス・ペナルティを受ける。</p>",
-                "summary": "君は通常通りに簡単に、あるいは滑らかに動くことが出来ない。"
+                "name": "よたつき状態",
+                "rules": "<p>君の動きはよたついて不正確になる。よたつき状態には必ず状態値がある。AC、反応セーヴ、遠隔攻撃ロールおよび〈軽業〉、〈隠密〉、〈盗賊〉を使用する技能判定を含む【敏捷力】を基準とした判定およびDCに、よたつき状態の状態値に等しい状態ペナルティを受ける。</p>"
             },
             "concealed": {
-                "name": "視認困難",
-                "rules": "<p>分厚い霧の中にいるなど、君があるクリーチャーから視認困難である間、君はそのクリーチャーからあまりよく見えない。君はそれでも可視状態ではある。しかし、君を対象にするのは難しい。君が視認困難を得ているクリーチャーは、君を攻撃、呪文、その他の効果の対象にするために、DC5の平目判定をしなくてはならない。</p>\n<p>範囲効果はこの平目判定の対象にならない。もしこの判定に失敗したなら、攻撃、呪文、あるいは効果は君に影響を与えない。</p>",
-                "summary": "霧あるいは似たような妨害によって君を見て、対象とすることは困難である。"
+                "name": "視認困難状態",
+                "rules": "<p>濃い霧の中にいるなど、君がクリーチャーから視認困難状態の間、君をクリーチャーが視認するのは難しくなる。君は@UUID[Compendium.pf2e.conditionitems.Item.1wQY3JYyhMYeeV2G]ではあるが、君を対象にするには骨が折れる。君を視認困難状態とするクリーチャーは、君を対象とした攻撃、呪文もしくは他の効果を使用する際、@Check[type:flat|dc:5]に成功する必要がある。範囲効果はこの平目判定の対象とならない。もし平目判定に失敗した場合、その攻撃、呪文、もしくは効果は君に影響を与えない。</p>"
             },
             "confused": {
-                "name": "混乱",
-                "rules": "<p>君は自分を手に負えなくなり、むやみに攻撃をする。君は立ちすくみ状態で、誰のことも味方として扱わない（たとえ彼らが依然として君を味方として扱ったとしても）、そして君は遅延、待機、リアクションの使用が出来ない。<p>\n</p>GMは武器を抜く、間合いに対象を収めるために移動するなどといった攻撃を円滑にするための他のアクションを取らせることが出来るが、君は全てのアクションを打撃か、攻撃的なキャントリップの使用に用いる。他に実行可能な対象がいないのなら、君は自分を対象とする。この攻撃は自動的に命中するが、クリティカルしない。もし、君が攻撃も呪文も使うことが出来ないのなら、君は支離滅裂な呟きをしてアクションを浪費する。<p></p>攻撃や呪文からダメージを受けるごとに、君は混乱から回復して状態を終わらせるためのDC11の平目判定を試みることが出来る。</p>",
-                "summary": "君は無差別に攻撃する。"
+                "name": "混乱状態",
+                "rules": "<p>君は自分に関する理解を失い、乱暴に攻撃する。君は@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]で、誰も仲間として扱わず（しかし相手が君を仲間として扱うことはあるだろう）、“行動遅延”や“待機”を行ったりリアクションを使用したりすることはできない。</p>\n<p>君は“打撃”や攻撃的なキャントリップを発動するためのアクションをすべて行える（訳注：それ以外のアクションは行えない）。しかしGMは武器を抜いたり目標を間合いに収めたりといった、攻撃を容易にするための他のアクションを使用することを認めるかもしれない。君の目標はGMがランダムに決定する。有効な目標がない場合、自分自身を目標にする。この場合、自動的に命中するがクリティカル・ヒットは発生しない。攻撃も呪文の発動もできない場合、君は支離滅裂なことを喋り、アクションを無駄にする。</p>\n<p>攻撃や呪文によるダメージを受けるたびに君は@Check[type:flat|dc:11]を試みることができ、成功すれば混乱から回復してこの状態を終了させることができる。</p>"
             },
             "controlled": {
-                "name": "支配",
-                "rules": "<p>誰かが君のするべき判断を行っている状態。大抵の場合、君は命令下にいるか、魔法で支配されているかしている。支配者は君がどのように行動するかを描写し、攻撃、リアクション、そして【遅延】すら含めた君のあらゆるアクションを使うことが出来る。支配者は大抵の場合、君を支配する時に自らのアクションを消費する必要がない。</p>",
-                "summary": "別のクリーチャーが君のアクションを決定する。"
+                "name": "支配状態",
+                "rules": "<p>自分以外の誰かが君の行動を決定する。通常、君は命令されているか、魔法によって支配されているかである。操る者が君の行動を決定し、攻撃、リアクション、@UUID[Compendium.pf2e.actionspf2e.Item.A72nHGUtNXgY5Ey9]さえ含めて、君のアクションをどう使うかも決めることができる。通常、君を操る際に操る者は自分のアクションを消費する必要はない。</p>"
             },
             "dazzled": {
                 "name": "目が眩んだ状態",
-                "rules": "<p>君の目は刺激を受けている。もし、視覚が君の唯一の精密感覚であるのなら、全てのクリーチャーと物体は君から視認困難を得る。</p>",
-                "summary": "あらゆるものが君にとって視認困難である。"
+                "rules": "<p>君の目が過剰に刺激されている。視覚が君の唯一の明瞭な感覚なら、全てのクリーチャーと物体は君から@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]である。</p>"
             },
             "deafened": {
-                "name": "聴覚喪失",
-                "rules": "<p>君は聞くことが出来ない。君は耳が聞こえている必要がある【知覚】に自動的にファンブルする。君はイニシアチブのための【知覚】と、音に関連するが、その他の感覚にも頼る判定に－2のステータス・ペナルティを受けり。もし君が聴覚の特性を持つアクションをするなら、DC5の平目判定に成功しなければそのアクションは失われる；アクションの消費後、効果を適用する前に判定を試みること。君は聴覚効果に耐性を持つ</p>",
-                "summary": "君は聞くことが出来ない。"
+                "name": "聴覚喪失状態",
+                "rules": "<p>君は耳が聞こえない。君は聴覚を必要とする知覚判定に、自動的に大失敗する。君はイニシアチブに用いる知覚判定と音を伴うが他の感覚にも影響する知覚判定に－2の状態ペナルティを受ける。聴覚特性を持つアクションを行う際、@Check[type:flat|dc:5]に成功しなければそのアクションを失う。判定の試みはアクションを消費した後、効果が適用される前に行うこと。君は聴覚効果に対して完全耐性を持つ。</p>"
             },
             "doomed": {
-                "name": "凶兆",
-                "rules": "<p>強力な力が君の魂をつかみ、君を瀕死にしている。凶兆は常に数字を伴う。君が死亡する時の瀕死値は、危篤値だけ減少する。もし、君の最大瀕死値が0に減ったなら、君は即座に死亡する。君は死亡したなら、もはや凶兆ではない。</p>\n<p>一晩の完全な休息を取るごとに、君の危篤値は1ずつ減少する。</p>",
-                "summary": "君の魂は危険に瀕しており、死に近い。"
+                "name": "凶兆状態",
+                "rules": "<p>強力な力が君の魂を掴み、死に近づけている。凶兆状態は常に状態値を持つ。君が死ぬことになる@UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1]（通常4）は、凶兆状態値だけ減少する。最大の瀕死状態値が0まで減少すると、君は即座に死亡する。死亡すれば凶兆状態ではなくなる。</p>\n<p>一晩休むたびに、凶兆状態値は1ずつ減少する。</p>"
             },
             "drained": {
-                "name": "吸精",
-                "rules": "<p>あるクリーチャーが君の血や生命力を吸うのに成功したなら、君の健康は損なわれる。吸血は常に数字を伴う。君は頑健セーヴのような耐久力に基づいた判定に、吸血の値に等しいステータス・ペナルティを受ける。君はまた、吸血値にレベル（最小値1）を掛けた数に人いいヒットポイントを失い、君の最大ヒットポイントもまた、同じ量だけ失われる。</p>\n<p>例えば、もし君が吸精3を与える効果を受け、君が3レベルのキャラクターなら、君は9ヒットポイントを失い、最大ヒットポイントを9減少させる。これらのヒットポイントを失うことは、ダメージを受けるとは見なされない。一晩の完全な休息を取るごとに、君の吸精値は1ずつ減少する。これは君の最大ヒットポイントを増加させるが、即座に失ったヒットポイントを回復するわけではない。</p>",
-                "summary": "血液の喪失か、似たような何かによって君の体力は奪われている。"
+                "name": "吸精状態",
+                "rules": "<p>クリーチャーが君から血液や生命力を吸うことに成功したなら、君の健康は損なわれる。吸精状態は常に状態値を持つ。君は頑健セーヴのような【耐久力】を基準とした判定に吸精状態値に等しい状態ペナルティを受ける。君は自分のレベル×吸精状態値に等しい値のHPを失い、最大HPも同じ値だけ減少する。</p>\n<p>一晩休息を取るたびに吸精状態値は1だけ減少する。これにより最大HPは増加するが、それによって即座に失われたHPが回復することはない。</p>"
             },
             "dying": {
-                "name": "瀕死",
-                "rules": "<p>君は出血か、その他の理由によって死の淵にいる。君はこの状態の間、意識喪失状態である。瀕死は常に数字を伴う。そして、もし瀕死4に達したなら、君は死亡する。もし君が瀕死なら、悪化するか良くなるかを決めるため、毎ラウンドの手番の開始時に回復判定（459ページ）を試みなくてはならない。君の瀕死状態は、瀕死の間にダメージを受けたなら1ずつ、敵のクリティカルか、セーヴのファンブルによってダメージを受けるごとに2ずつ増えていく。</p>\n<p>もし、君が回復判定に成功することによって瀕死状態を失ったが、まだ0ヒットポイントである時、君は意識喪失状態のままだが、意識喪失状態に記載されているとおり、目を覚ますことが出来る。君は1ヒットポイント以上あるなら、自動的に瀕死状態を失い、目を覚ます。瀕死状態を失う時、君は重症1を得るか、既に重症状態であるなら、重症状態の値を1上昇させる</p>",
-                "summary": "君は徐々に死に近づいている。"
+                "name": "瀕死状態",
+                "rules": "<p>出血多量やその他の理由で死の淵に立たされている。この状態の間、君は@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]である。瀕死状態は常に状態値を持ち、瀕死状態4になると君は死亡する。瀕死状態の間、君は各ラウンドの自分のターンの開始時に回復判定を試み、状況が良くなるか悪くなるかを決定する。瀕死状態の間にダメージを受けると瀕死状態値は1だけ増加し、敵からクリティカル・ヒットによるダメージを受けたり君がセーヴに大失敗したりすると瀕死状態値は2だけ増加する。</p>\n<p>回復判定に成功して瀕死状態が解除されたがHPが0のままの場合、君は気絶状態のままだが、気絶状態の項で説明されているように目覚めることができる。HPが1以上になると自動的に瀕死状態は解除され、目が覚める。瀕死状態が解除されるたびに、君は[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]を得るか、既に重傷状態であればその状態値を1だけ増加させる。</p>"
             },
             "encumbered": {
-                "name": "過重",
-                "rules": "<p>君は自分が持てるよりも重い重量を持っている。君は過重である間、よたつき1で、全ての君の基本移動速度に10フィートのペナルティを受ける。全ての君の基本移動速度へのペナルティと同じように、これは君の基本移動速度を5フィート未満にすることはない。</p>",
-                "summary": "君は運ぶことの出来ない重量を持っている。"
+                "name": "過重状態",
+                "rules": "<p>自分が扱いかねる重量物を運んでいるとき、君は過重状態となる。このとき、君は@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]となり、全ての移動速度に－10フィートの修正を受ける。他の速度へのペナルティ同様、このペナルティによって移動速度が5フィート未満になることはない。</p>"
             },
             "enfeebled": {
-                "name": "虚弱",
-                "rules": "<p>君は肉体的に虚弱している。虚弱は常に数字を伴う。衰弱状態なら、君は、筋力に基づく近接攻撃ロール、筋力に基づくダメージロール、そして運動のような筋力に基づいたロールとDCに、状態値に等しいステータス・ペナルティを受ける。</p>",
-                "summary": "君の筋力は搾り取られている。"
+                "name": "虚弱状態",
+                "rules": "<p>君は肉体的に弱くなっている。虚弱状態は常に状態値を持つ。虚弱状態になると、君は【筋力】を基準としたロールとDCに状態値に等しい状態ペナルティを受ける。これには【筋力】を基準とした近接攻撃ロール、【筋力】を基準としたダメージ・ロール、〈運動〉判定が挙げられる。</p>"
             },
             "fascinated": {
-                "name": "恍惚",
-                "rules": "<p>君は何かに注意を向けることを強いられ、周囲で起こっている物事に不注意になる。君は知覚と技能判定に－2のステータス・ペナルティを受け、君の恍惚の対象か、そのアクションの意図する結果が対象に関連しない場合は精神集中の特性を持つアクションを用いることが出来ない（GMが判断する）。例えば、君はその対象についての「探す」や「知識を思い出す」をすることが出来るかもしれないが、別のクリーチャーを対象とする呪文を使うことは出来ないだろう。この状態は、もしクリーチャーが君か君の味方の誰かに敵対的なアクションを取ったなら、終了する。</p>",
-                "summary": "君は何か他のものに注意を向けるように強いられる。"
+                "name": "恍惚状態",
+                "rules": "<p>君はなにかに集中することを余儀なくされ、周りで起こっている他のどんなことからも注意をそらされてしまう。君は知覚と技能判定に－2の状態ペナルティを受け、そのアクションまたはその結果が恍惚の対象に関連している場合（GMが決定する）を除き、精神集中特性を持つアクションを使用できない。例えば、君は恍惚の対象に関する@UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]や@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]を行えるかもしれないが、異なるクリーチャーを目標とした呪文発動は行えないだろう。あるクリーチャーが君や君の味方に対して敵対的なアクションを使用すると、この状態は終了する。</p>"
             },
             "fatigued": {
-                "name": "疲労",
-                "rules": "<p>君は疲労しており、多くのエネルギーを呼び起こすことが出来ない。君はACとセーヴィング・スローに－1のステータス・ペナルティを受ける。探索中、君は探索行動を選ぶことが出来ない。</p>\n<p>完全な一晩の休息を取ることによって、君は疲労から回復する。</p>",
-                "summary": "君の防御力は低下し、探索中に集中出来ない。"
+                "name": "疲労状態",
+                "rules": "<p>君は疲れていてエネルギーをあまり引き出せない。君はACとセーヴィング・スローに－1の状態ペナルティを受ける。探索モードでは、君は移動中に行う探索連続行動を選択できない。</p>\n<p>一晩休息を取ると、君は疲労状態から回復する。</p>"
             },
             "off-guard": {
-                "name": "防具なし",
-                "rules": "<p>君はそうでなければ防御に全神経を集中させることができない。君はACに-2の状況ペナルティを受ける。",
-                "summary": "君は自分の能力をフルに発揮して自分を守ることができない。"
+                "name": "立ちすくみ状態",
+                "rules": "<p>君は気が散っているか、何らかの理由で防御に全神経を集中させられない。君はACに－2の状況ペナルティを受ける。効果の中には、君に特定のクリーチャーや特定の攻撃に対してのみ立ちすくみ状態にするものもある。特に状態など、あらゆるものに対する普遍的な立ちすくみ状態を与える効果もある。ルールが立ちすくみ状態を特定の条件に対してのみ適用されると言及していない限り、それは全てに適用される。例えば、多くの効果は単に「目標は立ちすくみ状態になる」と記載されている。</p>"
             },
             "flat-Footed": {
-                "name": "立ちすくみ",
-                "rules": "<p>君は不注意になっているか、そうでなければ、防御に全てを集中することが出来ない。君はACに－2の状況ボーナスを受ける。効果の中には、特定のクリーチャーや特定の攻撃に対してのみ、立ちすくみ状態を与えるものがある。また、何事に対しても君を普遍的に立ちすくみにしてしまうもの―特に状態―もある。もし、ルールにその状態が得意邸の状況にのみ適用されると特記されていなければ、全てに対して適用される；例えば、多くの効果には単純に「対象は立ちすくみになる」と書かれている。</p>",
-                "summary": "君は全力を出して身を守ることが出来ない。"
+                "name": "立ちすくみ状態",
+                "rules": "<p>君は気が散っているか、何らかの理由で防御に全神経を集中させられない。君はACに－2の状況ペナルティを受ける。効果の中には、君に特定のクリーチャーや特定の攻撃に対してのみ立ちすくみ状態にするものもある。特に状態など、あらゆるものに対する普遍的な立ちすくみ状態を与える効果もある。ルールが立ちすくみ状態を特定の条件に対してのみ適用されると言及していない限り、それは全てに適用される。例えば、多くの効果は単に「目標は立ちすくみ状態になる」と記載されている。</p>"
             },
             "fleeing": {
-                "name": "逃亡",
-                "rules": "<p>君は恐怖か、その他の強制力のため、逃げることを強いられている。手番に、君は可能な限り効率的に、逃亡状態の原因から逃亡するためにそれぞれのアクションを消費ｈしなくてはならない（移動アクションを使って逃げる、逃亡を阻む扉を開けるなど）。その原因は大抵の場合、君にその状態を与えた効果か術者だが、効果の中には何らかの別のものを原因として定義しているものもあるかもしれない。君は逃亡中に「遅延」や「待機」が出来ない。</p>",
-                "summary": "君は逃げなくてはならない。"
+                "name": "逃亡状態",
+                "rules": "<p>君は恐怖や他の強制力によって逃げざるを得ない。自分のターンにおいて、君は各アクションを費やして、逃亡状態の要因からできるだけ速やかに逃げようとしなければならない（例えば、逃亡のために移動アクションを使用する、逃げる障害となる扉を開ける、など）。通常、その要因は逃亡状態を与えた効果もしくは術者である。しかし、それ以外のものを要因として定義している効果もある。逃亡状態の間、君は@UUID[Compendium.pf2e.actionspf2e.Item.A72nHGUtNXgY5Ey9]あるいは@UUID[Compendium.pf2e.actionspf2e.Item.dLgAMt3TbkmLkUqE]を使用できない。</p>"
             },
             "friendly": {
-                "name": "友好的",
-                "rules": "<p>この状態は、あるクリーチャーの特定のクリーチャーに対しての気持ちを反映しており、プレイヤー・キャラクターではないクリーチャーにも影響する。あるキャラクターに対して友好的であるクリーチャーは、そのキャラクターが好きである。そのキャラクターは友好的なクリーチャーに「要求」をすることが出来て、友好的なクリーチャーはその要求を満たすのに代償がそこまで大きくないような単純で素朴なものなら、合意する可能性が高い。もし、そのキャラクターやその味方の誰かがそのクリーチャーに対して敵対的なアクションを行ったのなら、敵対的なアクションの深刻度によってクリーチャーの態度は悪化する。これはGMが判断をする。</p>",
-                "summary": "この状態のNPCは君に好意的な態度を取る。"
+                "name": "友好的状態",
+                "rules": "<p>この状態はクリーチャーが特定のキャラクターに対して持つ気持ちを反映したもので、呪文のような超自然的な効果だけがプレイヤー・キャラクターにこの状態を与えることができる。あるキャラクターに対して友好的状態であるクリーチャーは、そのキャラクターを好んでいる。クリーチャーは自分に対して友好的状態であるクリーチャーに@UUID[Compendium.pf2e.actionspf2e.Item.DCb62iCBrJXy0Ik6]しようと試みることができ、友好的状態のクリーチャーは単純で安全な、実現にさほどコストのかからない依頼を承諾してくれる可能性が高い。キャラクターあるいはその味方が友好的状態のクリーチャーに対して敵対的なアクションを使用したなら、そのクリーチャーはその敵対的なアクションの重大さに応じて、GMの判断に従ってより悪い態度状態となる。</p>"
             },
             "frightened": {
-                "name": "恐れ",
-                "rules": "<p>君は恐怖に取り憑かれ、神経を制御するのに苦労する。恐れ状態は常に数字を伴う。君は全ての判定とDCにこの値に等しいステータス・ペナルティを受ける。特記ない限り、君の手番の終わりごとに、恐れ状態は1ずつ減少する。</p>",
-                "summary": "恐怖によって君は攻撃と防御をうまく出来ない。"
+                "name": "恐れ状態",
+                "rules": "<p>君は恐怖に囚われ、心の制御に苦労している。恐れ状態は常に状態値を持つ。君はすべての判定とDCに恐れ状態値に等しい状態ペナルティを受ける。特別な記述がない限り、君のターンの終了時のたびに、恐れ状態値は1ずつ減少する。</p>"
             },
             "grabbed": {
                 "name": "つかまれた状態",
-                "rules": "<p>君は別のクリーチャーによって一所に押さえつけられ、立ちすくみかつ動けない状態である。もし君が、つかまれた状態である時に操作アクションを試みるなら、DC5の平目判定に成功しなければそのアクションは失われる；アクションを消費した後、効果を適用する前に判定をロールすること。</p>",
-                "summary": "クリーチャー、物体、あるいは魔法が君を固定している。"
+                "rules": "<p>君は他のクリーチャーによってその場に拘束され、@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]かつ@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]になる。つかまれた状態の間に操作アクションを試みる場合、@Check[type:flat|dc:5]の平目判定を行い、失敗するとアクションを失う。アクションを消費した後、効果が適用される前に平目判定をロールすること。</p>"
             },
             "helpful": {
-                "name": "協力的",
-                "rules": "<p>この状態は、あるクリーチャーの特定のクリーチャーに対しての気持ちを反映しており、プレイヤー・キャラクターではないクリーチャーにも影響する。あるキャラクターに対して協力的であるクリーチャーは、そのキャラクターを積極的に助けたいと思っている。要求が協力的なクリーチャーの目標や生活の質を犠牲にするものでない限り、そのクリーチャーは、そのキャラクターからの合理的な「要求」を受け入れるだろう。もし、そのキャラクターやその味方の誰かがそのクリーチャーに対して敵対的なアクションを行ったのなら、敵対的なアクションの深刻度によってクリーチャーの態度は悪化する。これはGMが判断をする。</p>",
-                "summary": "この状態のNPCは君を助けたいと思っている。"
+                "name": "協力的状態",
+                "rules": "<p>この状態はクリーチャーが特定のキャラクターに対して持つ気持ちを反映したもので、呪文のような超自然的な効果だけがプレイヤー・キャラクターにこの状態を与えることができる。あるクリーチャーに対して協力的状態のクリーチャーは、そのクリーチャーを積極的に助けたいと願っている。目的や生活の質を犠牲にするものでない限り、協力的状態のクリーチャーはそのクリーチャーからの合理的な@UUID[Compendium.pf2e.actionspf2e.Item.DCb62iCBrJXy0Ik6]を受け入れる。キャラクターあるいはその味方が友好的状態のクリーチャーに対して敵対的なアクションを使用したなら、そのクリーチャーはその敵対的なアクションの重大さに応じて、GMの判断に従ってより悪い態度状態となる。</p>"
             },
             "hidden": {
                 "name": "隠れた状態",
-                "rules": "<p>君があるクリーチャーから隠れている間、そのクリーチャーは君が居る場所を知っているが、精確にどこにいるかを知らない。一般的には、君は「隠れる」ための隠密を使うことによって隠れた状態になる。非精密感覚のみを使ってクリーチャーを「捜す」なら、可視状態にはならず、隠れた状態のままである。君が隠れた相手のクリーチャーは君にとって立ちすくみ状態で、君を攻撃、呪文、その他の効果の対象とするにはDC11の平目判定に成功しなくてはならず、失敗すれば効果を及ぼさない。範囲効果はこの平目判定の対象とならない。</p>\n<p>471ページに記載されているように、クリーチャーは君を可視状態にするために「捜す」アクションを使うことが可能かもしれない。",
-                "summary": "君が隠れた状態となっている相手のクリーチャーは、君の位置を知っているが、君を見ることが出来ない。"
+                "rules": "<p>君があるクリーチャーから隠れた状態である間、そのクリーチャーは君がいる空間を知っているが、君が正確にどこにいるかを説明することはできない。通常、君は@UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]を使用して隠れた状態になる。不明瞭な感覚のみを用いてクリーチャーに@UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]を使用した場合、@UUID[Compendium.pf2e.conditionitems.Item.1wQY3JYyhMYeeV2G]にはならずに隠れた状態のままである。君が隠れた状態であるクリーチャーは君に対して@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]であり、君を攻撃や呪文や効果の対象にしたとき、クリーチャーは @Check[type:flat|dc:11] 行わねばならず、失敗すると君に効果を及ぼすことができない。範囲効果はこの平目判定を行わない。</p>\n<p>君を可視状態にするために、クリーチャーは“捜す”アクションを使用できることもある。</p>"
             },
             "hostile": {
-                "name": "敵対的",
-                "rules": "<p>この状態は、あるクリーチャーの特定のクリーチャーに対しての気持ちを反映しており、プレイヤー・キャラクターではないクリーチャーにも影響する。あるキャラクターに対して敵対的であるクリーチャーは、そのキャラクターを積極的に傷つけようとする。必ずしも攻撃する必要はないが、そのキャラクターからの「要求」を受け入れることはない。</p>",
-                "summary": "この状態のNPCは君を傷つけたいと思っている。"
+                "name": "敵対的状態",
+                "rules": "<p>この状態はクリーチャーが特定のキャラクターに対して持つ気持ちを反映したもので、呪文のような超自然的な効果だけがプレイヤー・キャラクターにこの状態を与えることができる。あるクリーチャーに対して敵対的状態のクリーチャーは、そのクリーチャーを害する方法を意識的に探す。必ずしも攻撃するわけではないが、そのキャラクターからの“要請”を受けることはない。</p>"
             },
             "immobilized": {
                 "name": "動けない状態",
-                "rules": "<p>君は移動の特性があるあらゆるアクションを使うことが出来ない。もし、君が所定の位置に君を固定する何かによって動けなくされており、外部の力が君をその場所から押しだそうとするのなら、その力は君をその場所に固定している効果のDCか、君をその場所に固定しているモンスターの関連する防御能力（大抵は頑健DC）に対して判定に成功しなくてはならない。</p>",
-                "summary": "君は動くことが出来ない。"
+                "rules": "<p>君は移動特性を持つアクションを使用できない。君がその場に君を捉える物によって動けない状態となり、外部の力によってその空間から移動させられるような場合、その力は君を拘束する効果のDCか、君をその場にとどめているモンスターの関連する防御力（通常は頑健DC）に対する判定に成功しなければならない。</p>"
             },
             "indifferent": {
-                "name": "中立的",
-                "rules": "<p>この状態は、あるクリーチャーの特定のクリーチャーに対しての気持ちを反映しており、プレイヤー・キャラクターではないクリーチャーにも影響する。あるキャラクターに対して中立であるクリーチャーは、そのキャラクターについてあらゆる意味で気にしていない。あるクリーチャーの所定のキャラクターに対する態度は、特記無い限りは中立である。</p>",
-                "summary": "この状態のNPCは君について強い意見を持っていない。"
+                "name": "中立的状態",
+                "rules": "<p>この状態はクリーチャーが特定のキャラクターに対して持つ気持ちを反映したもので、呪文のような超自然的な効果だけがプレイヤー・キャラクターにこの状態を与えることができる。あるクリーチャーに対して中立的状態であるクリーチャーは、そのクリーチャーをあまり気にしていない。特に指定がない限り、あるクリーチャーに対するクリーチャーの態度は中立的状態であると仮定すること。</p>"
             },
             "invisible": {
-                "name": "不可視",
-                "rules": "<p>不可視の間、君は視覚に捉えられない。君は誰にとっても未探知である。クリーチャーは君を探知するために「捜す」ことが出来る；もしあるクリーチャーが君の隠密DCに対しての知覚に成功したなら、君が再び未探知になるための隠密をするまで、そのクリーチャーに対して隠れた状態になる。もし君が、既に誰かが君を目撃している間に不可視になったのなら、君はその観察者に対して隠密に成功するまで、隠れた状態（未探知ではなく）になる。君は特殊能力や魔法なしで、不可視状態の時に可視状態になることはない。</p>",
-                "summary": "クリーチャーは君を見ることが出来ない。"
+                "name": "不可視状態",
+                "rules": "<p>不可視状態の間、君は視認されることがない。君は誰に対しても@UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]である。クリーチャーは君を探知しようと@UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]を使用できる。クリーチャーが君の〈隠密〉DCに対する知覚判定に成功したなら、君が@UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]を使用して再び@UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]になるまで、そのクリーチャーに対して隠れた状態になる。君が誰かから見られている間に不可視状態になったなら、君は見ているものに対して（未探知状態ではなく）隠れた状態であり、これは“忍び足”に成功するまで続く。不可視状態の間、君は特別な能力や魔法によってしか@UUID[Compendium.pf2e.conditionitems.Item.1wQY3JYyhMYeeV2G]になることはできない。</p>"
             },
             "observed": {
-                "name": "可視",
-                "rules": "<p>明白に見えるものは何でも、君にとって可視状態である。もし、あるクリーチャーがたとば「隠れる」ための隠密のように、探知されない手段を使ったなら、そのクリーチャーは可視状態ではなく、雲隠れか未探知になる。もし君が視覚の代わりに、あるいはそれとは別に明瞭な感覚を持っているのなら、君は代わりにその感覚でクリーチャーや物体を可視状態にすることが出来るかもしれない。君はクリーチャーを、明瞭な感覚でのみ、可視状態にすることが出来る。不明瞭な感覚でのみクリーチャーを「捜す」のなら、可視状態ではなく、隠れた状態のままである。</p>",
-                "summary": "君は明らかに目に見える。"
+                "name": "可視状態",
+                "rules": "<p>i視界に入るものは全て君に対して可視状態である。クリーチャーが@UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]のために〈隠密〉を使用するなど、探知を避ける手段を取った場合、可視状態ではなく@UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]や@UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]になることがある。視覚以外の明瞭な感覚を視覚の代わりに、あるいは視覚とともに有しているなら、君はその感覚を代わりに用いることでクリーチャーあるいは物体に対して可視状態になることができる。君は明瞭な感覚を用いてのみクリーチャーを仮死状態にすることができる。不明瞭な感覚のみを用いてクリーチャーに@UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]を使用した場合、仮死状態にはならず隠れた状態のままとなる。</p>"
             },
             "paralyzed": {
-                "name": "麻痺",
-                "rules": "<p>君の肉体はその場所に止まっている。君は立ちすくみ状態であり、「知識を思い出す」と精神のみを使う必要があるアクション（GMが判断する）以外のアクションを取ることが出来ない。君の感覚はなおも機能しているが、肉体を動かさずに気付くことの出来るエリアにのみなので、君は麻痺の間に「捜す」ことは出来ない。</p>",
-                "summary": "君の肉体はその場所で固まっている。"
+                "name": "麻痺状態",
+                "rules": "<p>君の体はその場で固まっている。君は@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]であり、@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]と精神のみを必要とするアクション（GMが判断する）を除いて行動することはできない。感覚はまだ働いているが、体を動かさずに感知できる範囲に限られる。そのため麻痺状態の間に@UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]ことはできない。</p>"
             },
             "persistent-damage": {
-                "name": "持続ダメージ",
-                "rules": "<p>持続ダメージは強酸、着火している、あるいは他の多くの上記のような効果に由来する。持続ダメージは「X継続（種別）ダメージ」という形で記載される。Xは与えられるダメージ量、（種別）はダメージ種別である。即座に持続ダメージを受けるのではなく、君はその状態を持っている限り、手番の終了時ごとに、新しく全てのダメージダイスをロールしてダメージを受ける。君は持続ダメージを受けた後、回復するかどうかを確認するためにDC15の平目判定を行う。もし成功したなら、状態は終了する。</p>",
-                "summary": "君は毎ラウンド、ダメージを受け続ける。"
+                "name": "持続ダメージ状態",
+                "rules": "<p>持続ダメージは［強酸］や火をつける効果、その他の状況に応じて発生する。「Xの持続［種別］ダメージ」という形式で書かれ、Xが与えられるダメージの総量、［種別］がそのダメージの種別を示す。通常のダメージ同様、攻撃ロールやセーヴィング・スローの結果に基づいて、持続ダメージも2倍になったり半減したりする。持続ダメージを即座に受ける代わりに、君はこの状態を有している限り、自分のターンの終了時にこのダメージを受け、そのたびに新しくダメージ・ダイスをロールする。持続ダメージを受けた後、持続ダメージから回復するかどうかを判断するため、@Check[type:flat|dc:15]をロールすること。成功したなら、持続ダメージ状態は終了する。</p>"
             },
             "petrified": {
-                "name": "石化",
-                "rules": "<p>君は石になっている。君はアクションを取れず、何も感知出来ない。君は、君の通常のバルクの2倍のバルクを持つ（通常は石化した中型クリーチャーは12、石化した小型のクリーチャーは6である）、AC9、硬度8、生きていた時の現在ヒットポイントと同じヒットポイントの物体となる。君は破損値を持たない。君が戻った時、君は像の時に持っていたのと同じヒットポイントを持つ。もし像が破壊されたのなら、君は即座に死亡する。石化している間、君の精神と肉体は停滞しており、老化することも、時間の経過に気が付くこともない。</p>",
-                "summary": "君は石になっている。"
+                "name": "石化状態",
+                "rules": "<p>君は石に変わっている。君は行動できず、一切の感覚を持たない。君は通常の2倍のバルク（通常、石化状態の中型クリーチャーは12、石化状態の小型クリーチャーは6）を持つ物体となり、AC9、硬度8で生きているときの現在HPと同様のHPを持つ。君はBTを持たない。生身に戻った（石化状態が解除された）とき、石像（石化状態）であったときと同じHPを持つ。石像（石像であった君）が破壊されると、君は即座に死亡する。石化状態の間、君の精神と体は休眠状態にあるため、君は年を取らず、時間経過に気付くこともない。</p>"
             },
             "prone": {
-                "name": "伏せ",
-                "rules": "<p>君は地面に横たわっている。君は立ちすくみ状態で、攻撃ロールに－2状況ペナルティを受ける。君が伏せ状態の間に使用出来る唯一の移動アクションは「這い進む」と「立ち上がる」である。立ち上がると、伏せ状態は終了する。君は身を潜めるために伏せ状態になっている間に「遮蔽を取る」ことが出来て、たとえ隠れる物体がなかったとしても、遠隔攻撃に対する遮蔽を得て、遠隔攻撃に対するACに+4状況ボーナスを得る事が出来る（だが、君は立ちすくみのままである）。</p>\n<p>もし、君が「登攀」か「飛行」中に伏せ状態になったなら、君は落下する（落下のルールについては463－464ページ参照）。君は「水泳」中には伏せ状態にはならない。</p>",
-                "summary": "君は地面に伏せており、簡単に攻撃される。"
+                "name": "伏せ状態",
+                "rules": "<p>君は地面に横たわっている。君は@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]であり、攻撃ロールに－2の状況ペナルティを受ける。伏せ状態中に君が行える移動アクションは@UUID[Compendium.pf2e.actionspf2e.Item.Tj055UcNm6UEgtCg]と@UUID[Compendium.pf2e.actionspf2e.Item.OdIUybJ3ddfL7wzj]だけである。“立ち上がる”を使用すると伏せ状態は終了する。君は伏せ状態の間に@UUID[Compendium.pf2e.actionspf2e.Item.ust1jJSCZQUhBZIz]ことで、背後に隠れることのできる物体がない場合でも遠隔攻撃に対して上級遮蔽を得ることができる。これにより、君は遠隔攻撃に対するACに＋4の状況ボーナスを得るが、依然として立ちすくみ状態である。</p><p>@UUID[Compendium.pf2e.actionspf2e.Item.pprgrYQ1QnIDGZiy]あるいは@UUID[Compendium.pf2e.actionspf2e.Item.cS9nfDRGD83bNU1p]を行っている間に倒れて伏せ状態になる場合、君は落下する（落下のルールを参照）。@UUID[Compendium.pf2e.actionspf2e.Item.c8TGiZ48ygoSPofx]中に倒れて伏せ状態になることはない。</p>"
             },
             "quickened": {
-                "name": "加速",
-                "rules": "<p>君は毎ラウンド手番の開始時に1個の追加アクションを得る。君に加速を与える多くの効果には、この追加アクションで使うことの出来るアクション種別が特記されている。もし君が複数の原因から加速を得ているのなら、君は加速している効果によって許されている、全ての1回のアクションのために、与えられた追加アクションを使うことが出来る。加速は君の手番の開始時に効果を現すため、手番の最中に加速したとしても、即座にアクションを得るわけではない。</p>",
-                "summary": "君は手番ごとに追加のアクションを1つ得る。"
+                "name": "加速状態",
+                "rules": "<p>君は毎ラウンド、自分のターンの開始時に追加で1アクションを得る。君を加速状態にする効果の多くは、この追加アクションで使用できるアクションの種類を指定している。</p><p>複数の要因から加速状態となった場合、君は加速状態を与える効果のいずれかで使用できるアクション1つを使用できる。加速状態はターンの開始時に効果を生じるため、ターン中に加速状態になっても、そのターン中すぐにアクションを得られるようにはならない。</p>"
             },
             "restrained": {
-                "name": "拘束",
-                "rules": "<p>君はしばられており、ほとんど動けないか、クリーチャーが君を押さえ込んでいる。君は立ちすくみ状態かつ固着状態である。そして、君は「脱出」と拘束を「こじ開ける」試み以外には、攻撃や操作の特性を持つアクションを取ることが出来ない。拘束はつかみを上書きする。</p>",
-                "summary": "君は縛り上げられて動けないか、組みついているクリーチャーが君を押さえ込んでいる。"
+                "name": "拘束状態",
+                "rules": "<p>君は縛られてほとんど動けないか、クリーチャーに押さえつけられているかのいずれかである。君は@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]かつ@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]であり、@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]もしくは拘束するものに対する@UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx]を試みることを除き、攻撃もしくは操作の特性を持つアクションを使用できない。拘束状態は@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]を上書きする。</p>"
             },
             "sickened": {
-                "name": "不調",
-                "rules": "<p>君は気分が悪い。不調は常に数字を伴う。君は全ての判定とDCに、この値に等しいステータス・ペナルティを受ける。君は不調の間、あらゆるものを自発的に消化することが出来ない――それには、エリクシールやポーションが含まれる。</p>\n<p>君は回復を試みて吐くために1回のアクションを費やすことが出来る。それによって、君は即座に君を不調状態にした効果のDCに対して頑健セーヴを試みることが出来るのである。成功すれば、君は不調の値を1減少させる（あるいはクリティカルなら2）。</p>",
-                "summary": "君の胃が不調である。"
+                "name": "不調状態",
+                "rules": "<p>君は体調が悪い。不調状態は常に状態値を持つ。君は全ての判定とDCに不調状態値に等しい状態ペナルティを受ける。不調状態の間、君は霊薬やポーションを含め、一切のものを自発的に摂取することができない。</p>\n<p>君は回復のために1アクションを消費して嘔吐することができる。そうするなら、君は直ちに不調状態にした効果のDCに対する頑健セーヴを試みることができる。成功したなら、君の不調状態値は1だけ減少する（大成功の場合は2だけ減少する）。</p>"
             },
             "slowed": {
-                "name": "減速",
-                "rules": "<p>君はアクションが少ない。減速は常に数字を伴う。君は手番の開始時にアクションを回復する時、減速の数値だけ回復するアクション数を減少させる。減速は君の手番の開始時に効果を現すため、君は自分の手番の間に減速したなら、即座にアクションを失うことはない。</p>",
-                "summary": "君は手番ごとにアクションを失う。"
+                "name": "減速状態",
+                "rules": "<p>君のアクション数は少なくなる。減速状態は常に状態値を持つ。自分のターンの開始時にアクション数を回復する際、その数を減速状態値に等しい値だけ減少させる。減速状態はターンの開始時に効果を発揮するため、ターン中に減速状態になったとしてもすぐにアクション数を失うことはない。</p>"
             },
             "stunned": {
-                "name": "朦朧",
-                "rules": "<p>君は感覚を失っている。君は朦朧中にアクションを取ることが出来ない。朦朧は大抵の場合、数字を伴い、それは君が失う合計アクションを示しており、朦朧してから複数の手番をまたぐかもしれない。君がアクションを回復するごとに（手番の開始時など）、朦朧値だけ回復する数字を減らし、それから、失ったアクション数だけ朦朧値を減らす。例えば、もし君が朦朧4であるなら、君は手番に3つのアクション全てを失い、朦朧1に減らす；次の手番に、君はもう1つアクションを失うだろうが、通常取りに使えるアクションが2つ残っていることになる。朦朧はまた、「1分間朦朧」のように数字ではなく持続時間を持っていることがある。この場合、君は記載された持続時間の間、全てのアクションを失う。</p>\n<p>朦朧は減速を上書きする。もし、朦朧状態の持続時間が減速の間に終わったなら、君は朦朧状態のために失われたアクションを、減速のために失われたものと見なしてよい。つまり、もし君が手番の開始時に朦朧1かつ減速2だったのなら。君は朦朧のために1アクション、そして減速のために1つだけの追加アクションを失い、まだその手番に使うことが出来る1個のアクションがある。</p>",
-                "summary": "君はアクションを使うことが出来ない。"
+                "name": "朦朧状態",
+                "rules": "<p>君は感覚を失う。朦朧状態の間、君は行動できない。</p><p>通常、朦朧状態は状態値を持つ。朦朧状態値は朦朧状態であることで失われる合計アクション数を示しており、それは複数のターンに渡ることもある。君がアクションを回復するたびに（例えば自分のターンの開始時など）、回復したアクション数を朦朧状態値だけ減らし、更に朦朧状態値を失ったアクション数だけ減少させる。例えば、君が朦朧状態4なら、君は自分のターンに3アクションをすべて失い、朦朧状態値を1に減少させる。次のターンに、君は更に1アクションを失い、それから残った2アクションを通常通り使用できる。「1分の間朦朧状態」のように、朦朧状態は状態値ではなく持続時間を持つこともある。この場合、記載された持続時間の間、君は全てのアクションを失う。</p>\n<p>朦朧状態は@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]を上書きする。減速状態の間に朦朧状態の持続時間が終了すると、朦朧状態によって失われたアクション数は減速状態によって失われたアクションと同様に扱う。つまり、ターン開始時に朦朧状態1かつ減速状態2だった場合、朦朧状態によって1アクションを失い、減速状態によって1アクションを追加で失うだけなので、ターン中に使用できるアクションはまだ1つ残っている。</p>"
             },
             "stupefied": {
-                "name": "知性低下",
-                "rules": "<p>君の思考と本能は曇らされている。自失は常に数字を伴う。君は、意志セーヴィング・スロー、呪文攻撃ロール、呪文DC、そして該当する能力値を使う技能判定といった、知力、判断力、そして魅力に基づいた判定とDCに、この値に等しいステータス・ペナルティを受ける。知性低下中に「呪文の発動」の試みをする時はいつでも、君が5+知性低下の値に等しい平目判定に成功しなければ、呪文は中断する。</p>",
-                "summary": "君は精神的能力を完全に発揮できず、呪文を使うことが難しい。"
+                "name": "知性低下状態",
+                "rules": "<p>君の思考や直感は曇っている。知性低下状態は常に状態値を持つ。君は【知力】、【判断力】、【魅力】に基づく判定とDCに、知性低下状態値に等しい状態ペナルティを受ける。これには意志セーヴィング・スロー、呪文攻撃ロール、呪文DC、これらの能力値を用いる技能判定が含まれる。知性低下状態の間に@UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]を試みる場合、君が5＋知性低下状態値のDCに対する平目判定に成功しなければ、その呪文は妨害される。</p>"
             },
             "unconscious": {
-                "name": "気絶",
-                "rules": "<p>君は眠っているか、ノックダウンされている。君はアクションを取ることが出来ない。君はAC、知覚、反応セーヴに－4のステータス・ペナルティを受け、盲目かつ立ちすくみである。この状態を得た時、特記があるか、そうではない状況にあるとGMが判断しない限り、君は伏せ状態となり、着用しているか持っているアイテムを落とす。</p>\n<p>もし君が瀕死状態のために気絶したのなら、君は0ヒットポイントである間は目を覚まさない。もし君が治癒を通じて1ヒットポイント以上に回復したのなら、君は瀕死状態と気絶状態を失い、次の手番で通常通りにアクションを取ることが出来る。</p>\n<p>もし君が気絶かつ0ヒットポイントだが瀕死ではないのなら、君は自然に1ヒットポイントに戻り、十分な時間が経過すれば目を覚ます。GMはどの程度長く、君が気絶状態でいるかを判断する。それは最低で10分間から数時間である。もし君がこの時間の間に治癒を受けたのなら、君は気絶状態を失い、次の手番で通常通りにアクションを取ることが出来る。</p>\n<p>もし君が気絶かつ2ヒットポイント以上であるなら（一般的には君が眠っているか、効果によって気絶である場合）、君は下記の方法のどれかで目を覚ます。それぞれが君に気絶状態を失わせるのである。</p><ul><li>・ダメージを受けるが、そのダメージによって0ヒットポイントにならなかった。もしそのダメージによって君が0ヒットポイントになったのなら、君は通常通り、気絶状態のままで、瀕死状態を得る。</li><li>・休息による自然治癒以外の治癒を受ける。</li><li>・何者かが「使用」アクションで君を揺さぶって起こす。</li><li>・君の周囲で大きな騒音が起きる――これは自動的ではない。手番の開始時に、君は自動的に騒音（あるいは、もし2つ以上のノイズがあるなら最も低いDC)のDCに対して知覚を試みて、成功すれば目を覚ます。もし、クリーチャーが君の周囲で静かでいようとしているのなら、この知覚にはその「隠密」DCを使う。魔法の効果には、この知覚が出来ないほど、君を深く眠らせるものがある。</li><li>・もし君が単純に眠っているのなら、GMは休息に満ちた夜の眠りを行ったためか、何かが休息を中断させたため、君の目を覚ますことにするだろう。</ul>",
-                "summary": "君は眠っているか、ノックアウトされている。"
+                "name": "気絶状態",
+                "rules": "<p>君は眠っているか、ノックアウトされたかのいずれかだ。君は行動できない。君はAC、知覚、反応セーヴに－4の状態ペナルティを受け、君は@UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]かつ@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]である。この状態を得たとき、君は倒れて@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]なり、効果に記述があるかGMがそうならないと判断しない限り、装備ないし保持していたアイテムを落とす。</p>\n<p>君が@UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1]であることから気絶状態になった場合、君はHPが0である限り目覚めない。君が治癒によってHPが1以上に回復すれば、君は瀕死状態でも気絶状態でもなくなり、君は次の自分のターンに通常通り行動できるようになる。</p>\n<p>君が気絶状態でHPが0だが瀕死状態ではない場合、君は十分な時間が経過した後に自然にHPを1まで回復させて目覚める。GMは気絶状態である期間を決定するが、最低でも10分必要で、数時間に及ぶこともある。この間に治癒を受けたなら、気絶状態は解除され、君は次の自分のターンに通常通り行動できるようになる。</p>\n<p>君が気絶状態だがHPが1以上ある場合（通常、君が眠っているか、効果によって気絶状態になったかである）、君は以下に示す方法のいずれか1つで目覚める。そのいずれもが、君から気絶状態を取り除く。</p>\n<ul>\n<li>君がダメージを受けたが、そのダメージがHPを0まで減少させなかった。ダメージがHPを0まで減少させたなら、君は気絶状態のままであり、通常通り君は瀕死状態を得る。</li>\n<li>君が治癒を受ける。これには急速による自然治癒を含まない。</li>\n<li>誰かが@UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]アクションで君を揺さぶって起こす。</li>\n<li>君の周辺で大きな音がする――しかしこれは自動的に解除されるわけではない。君のターンの開始時に、君は自動的に騒音のDC（複数騒音がある場合、その中で最も低いDC）に対して知覚判定を試み、成功すれば君は目覚める。君の周辺でクリーチャーが音を立てないようにしている場合、知覚判定のDCにそのクリーチャーの〈隠密〉DCを使用する。魔法の効果によっては、君が深く眠っているため、この知覚判定を試みられないものもある。</li>\n<li>単に眠っているだけの場合、安らかな夜の眠りを得ていたか休息を妨害されたかをGMが判断し、目を覚ます。</li>\n</ul>"
             },
             "undetected": {
-                "name": "未探知",
-                "rules": "<p>君があるクリーチャーによって未探知である時、そのクリーチャーは全く君を見ることが出来ず、どのマス目を君が占めているのか分からず、君を対象に取ることが出来ないが、それでも君は範囲を対象とする能力の影響を受ける。君があるクリーチャーにとって未探知である時、そのクリーチャーは君にとって立ちすくみである。</p>\n<p>君を未探知としているクリーチャーはどのマス目に君が居るかを予測して、君を対象とする試みをすることが出来る。クリーチャーはマス目を選んで攻撃を試みなくてはならない。これは、雲隠れのクリーチャーを対象にするのと同じように機能する（446ページに記載されているように、DC11の平目判定を必要とする）が、平目判定と攻撃ロールはGMによって秘密裏にロールされ、攻撃が平目判定によって失敗したのか、攻撃ロールに失敗したのか、間違ったマス目を選んだのかを明かすことはない。</p>\n<p>クリーチャーは471ページに記されている通り、君を見つけるために「捜す」アクションを使うことが出来る。</p>",
-                "summary": "君を未探知のクリーチャーは君がどこにいるかを知らない。"
+                "name": "未探知状態",
+                "rules": "<p>　君があるクリーチャーに対して未探知状態であるとき、そのクリーチャーは君を完全に見ることができず、どの空間を占めているかも分からず、君を目標にすることはできない。しかし、君は範囲を目標とする能力の効果を受ける可能性がある。君があるクリーチャーに対して未探知状態である場合、そのクリーチャーは君に対して@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]である。</p>\n<p>君を未探知状態であるクリーチャーは、君がどのマスにいるかを推測して君を目標にしようと試みることができる。クリーチャーはマスを1つ選択し、攻撃を試みなければならない。これは隠れた状態のクリーチャー目標とする場合と同様に機能する（@Check[type:flat|dc:11]）が、平目判定と攻撃ロールはGMが非公開でロールする。攻撃が外れたのが平目判定に失敗したからか、攻撃ロールに失敗したからか、マスの選択を誤ったのかは明かされない。</p>\n<p>クリーチャーは“捜す”アクションを用いて君を発見しようとすることができる。</p>"
             },
             "unfriendly": {
-                "name": "非友好的",
-                "rules": "<p>この状態は、あるクリーチャーの特定のクリーチャーに対しての気持ちを反映しており、プレイヤー・キャラクターではないクリーチャーにも影響する。あるキャラクターに対して非友好的であるクリーチャーは、そのキャラクターが好きではなく、特にそのキャラクターを信頼していない非友好的なクリーチャーはそのキャラクターからの「要求」を受け入れようとしない。</p>",
-                "summary": "この状態のNPCは君を好きではない。"
+                "name": "非友好的状態",
+                "rules": "<p>この状態はクリーチャーが特定のキャラクターに対して持つ気持ちを反映したもので、呪文のような超自然的な効果だけがプレイヤー・キャラクターにこの状態を与えることができる。あるキャラクターに対して非友好的状態であるクリーチャーはそのキャラクターを嫌い、とりわけ不信感を抱いている。非友好的状態のクリーチャーは、そのキャラクターからの@UUID[Compendium.pf2e.actionspf2e.Item.DCb62iCBrJXy0Ik6]に応じない。</p>"
             },
             "unnoticed": {
-                "name": "未察知",
-                "rules": "<p>もし、君があるクリーチャーから未察知であるなら、そのクリーチャーは君が存在しているということを知らない。君は未察知であるなら、そのクリーチャーから未探知でもある。この状態は、君の存在に全く気付いていない対象に対してのみ使うことの出来る能力に作用する。</p>",
-                "summary": "あるクリーチャーが完全に君の存在に気付いていないこと。"
+                "name": "未察知状態",
+                "rules": "<p>君がクリーチャーによって未察知状態なら、そのクリーチャーは君の存在を全く知らない。君が未察知状態なら、君はそのクリーチャーから@UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]でもある。この状態は、君の存在に全く気づいていない目標に対してのみ使用できる能力にとって重要である。</p>"
             },
             "wounded": {
-                "name": "重症",
-                "rules": "<p>君は深刻なけがをしている。もし君が瀕死状態を失っており、既に重症状態を持っているのでなければ、君は重症1になる。もし君が瀕死状態を失ったときに既に重症状態であるのなら、君の重症状態値は1上昇する。</p>\n<p>もし君が重症状態の時に瀕死状態となったなら、瀕死状態値を重症状態値だけ上昇させる。重症状態は、誰かが「傷の手当」で君のヒットポイントを回復するのに成功するか、最大ヒットポイントまで回復してから10分間の休息を取れば終了する。</p>",
-                "summary": "君は死の淵から呼び戻されたが、まだ完全に回復していはいない。"
+                "name": "重傷状態",
+                "rules": "<p>君は大怪我をしている。君が@UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1]から脱したときに重傷状態でない場合、君は重傷状態1となる。君が瀕死状態から脱したときに既に重傷状態なら、君の重傷状態値は1だけ増加する。</p>\n<p>重傷状態の間に瀕死状態になったなら、瀕死状態値は重傷状態値だけ増加する。</p><p>誰かが@{UID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]で君のHPを回復することに成功するか、君のHPを最大値まで回復して10分休息を取れる化すれば、重傷状態は終了する。</p>"
             }
         },
         "identification": {

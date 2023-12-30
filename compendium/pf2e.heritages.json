@@ -2,8 +2,8 @@
 	"label": "出自",
 	"entries": {
 		"Aasimar": {
-			"name": "Aasimar",
-			"description": "<p>You descend from celestials or were touched by the celestial realms, gaining an air of awe and grace, as well as features distinctive to your celestial forebears. You gain the aasimar trait, in addition to the traits from your ancestry. You also gain @UUID[Compendium.pf2e.ancestryfeatures.Item.DRtaqOHXTRtGRIUT]{Low-Light Vision}, or you gain @UUID[Compendium.pf2e.ancestryfeatures.Item.HHVQDp61ehcpdiU8]{Darkvision} if your ancestry already has low-light vision. You can choose from aasimar feats and feats from your ancestry whenever you gain an ancestry feat.</p>"
+			"name": "アアシマール",
+			"description": "<p>君はセレスチャルから授かったか、セレスチャルに触れられたかによって、畏敬の念と優雅さ、そして天上界の先人に特有の特徴を手に入れた。種族から得た特性に加えて、君はアアシマールの特性を得る。また、君は夜目を得る。種族から既に夜目を得ていた場合、代わりに暗視を得る。種族特技を得るたび、君はアアシマール特技と種族の特技から選択できる。</p>"
 		},
 		"Adaptive Anadi": {
 			"name": "Adaptive Anadi",
@@ -54,8 +54,8 @@
 			"description": "<p>You have a set of small secondary arms adapted for climbing and hanging from trees. You can't hold or retrieve objects with these limbs, but you can Climb or @UUID[Compendium.pf2e.actionspf2e.Item.3yoajuKjwHZ9ApUY]{Grab an Edge} even if one or both of your primary hands are full. You aren't @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} while Climbing.</p>"
 		},
 		"Badlands Orc": {
-			"name": "Badlands Orc",
-			"description": "<p>You come from sun-scorched badlands, where long legs and an ability to withstand the elements helped you thrive. You can @UUID[Compendium.pf2e.actionspf2e.Item.JuqmIAnkL9hVGai8]{Hustle} twice as long while exploring before you have to stop, and you treat environmental heat effects as if they were one step less extreme (incredible heat becomes extreme, extreme heat becomes severe, and so on).</p>"
+			"name": "悪地オーク",
+			"description": "<p>君は太陽に焼け焦げた悪地の出身だ。長い脚と風雨に耐える能力が成長を助けた。君は探索モードで行う“強行軍”を止めるまでに2倍の時間を費やすことができ、周囲の暑熱の影響を一段階緩和されたものとして（極暑を猛暑へ、猛暑をを酷暑へ、など）扱うことができる。</p>"
 		},
 		"Bandaagee Vanara": {
 			"name": "Bandaagee Vanara",
@@ -114,16 +114,16 @@
 			"description": "<p>潜在的な魔法のためか、君の髪や肌の色は変化させることができる。君はゆっくりと色の鮮やかさを変え、パターンやその他の色によるデザインを生み出すこともできる。局所的な小さな変化であれば1アクションで、全身に大きな変化をもたらす場合は最大で1時間かかる。眠っている間に夢に合わせて勝手に色が移り変わり、毎朝異なる色になる。色合いが環境に近い場所にいる場合（森の中における緑色など）、1アクションにより周囲の環境に溶け込むように局所的に色を変化させることができる。これにより、周囲の色やパターンが変わるまでの間、〈隠密〉判定に＋2の状況ボーナスを得る。</p>"
 		},
 		"Changeling": {
-			"name": "Changeling",
-			"description": "<p>Your mother was a hag. Your heterochromatic eyes are the most obvious signifier of this parentage, but you likely also have a slighter build, paler skin, and darker hair than most members of your other parent's ancestry. You gain the changeling trait. You also gain @UUID[Compendium.pf2e.ancestryfeatures.Item.DRtaqOHXTRtGRIUT]{Low-Light Vision}, or you gain @UUID[Compendium.pf2e.ancestryfeatures.Item.HHVQDp61ehcpdiU8]{Darkvision} if your ancestry already has low-light vision. You can select from changeling feats and feats from your other parent's ancestry whenever you gain an ancestry feat.</p>"
+			"name": "チェンジリング",
+			"description": "<p>君の母はハグだった。君の瞳の色が左右で異なることこそ、この親子関係の最も明白な証拠だ。君はもう一方の親の種族のほとんどのものよりも軽く、肌が青白く、髪が黒い可能性が高い。君はチェンジリングの特性を得る。加えて、君は夜目を獲得する。種族が既に夜目を保つ場合、代わりに暗視を得る。君はクラス特技を得るたび、チェンジリング特技ともう一方の親の種族特技の両方から特技を選択できる。</p>"
 		},
 		"Charhide Goblin": {
 			"name": "炭皮ゴブリン",
 			"description": "<p>君の種族は常に火との関係があり、火傷に抵抗するような厚い皮膚を持っている。レベルの半分に等しい［火炎］に対する抵抗を得る（最小1）。また火炎からの回復も簡単である。持続［火炎］ダメージを取り除くための平目判定はDC15ではなくDC10となる。別のクリーチャーが適切なアクションを使用して“援護”する場合、DCは5に減少する。</p>"
 		},
 		"Clawed Catfolk": {
-			"name": "Clawed Catfolk",
-			"description": "<p>Your family has particularly long, sharp claws capable of delivering bleeding wounds with a wicked swipe. You gain a claw unarmed attack that deals @Damage[1d6[slashing]] damage. Your claws are in the brawling group and have the agile, finesse and unarmed traits.</p>"
+			"name": "爪持ちキャットフォーク",
+			"description": "<p>君の家族は特に長く鋭い爪を持ち、それをうまく震えば出血を伴う傷を作り出せる。君は1d6の［斬撃］ダメージを与える、爪による1回の素手攻撃を得る。君の爪は剛腕種に属し、機敏、巧技、素手の特性を持つ。</p>"
 		},
 		"Cliffscale Lizardfolk": {
 			"name": "Cliffscale Lizardfolk",
@@ -154,20 +154,20 @@
 			"description": "<p>Your predecessors dwelled in the Shadow Plane's deepest, most treacherous regions. You might cast a denser shadow, have a slower pulse, or find comfort in the embrace of darkness. You gain cold or negative resistance equal to half your level (minimum 1), chosen when you gain this heritage.</p>"
 		},
 		"Deep Orc": {
-			"name": "Deep Orc",
-			"description": "<p>Your calloused hands and red eyes speak to a life spent in the deep darkness of mountain caverns, where you learned to battle on rocky cliffs and survive with minimal resources. You gain the @UUID[Compendium.pf2e.feats-srd.Item.4tTkRyOQ0VuRBac3]{Terrain Expertise (Underground)} skill feat and the @UUID[Compendium.pf2e.feats-srd.Item.09PurtIanNUPfNRq]{Combat Climber} skill feat.</p>"
+			"name": "深部オーク",
+			"description": "<p>君の傷だらけの手と赤い目は、深い闇に包まれた山の洞窟で過ごした人生を物語っている。君はそこで岩だらけの崖で戦い、最小限の資源で生き延びることを学んだ。君は《地形の専門家：地下》技能特技と《登攀闘法》技能特技を得る。</p>"
 		},
 		"Deep Rat": {
-			"name": "Deep Rat",
-			"description": "<p>Your ancestors lived deeper underground than other ratfolk, granting you the ability to see in the dark. You gain @UUID[Compendium.pf2e.ancestryfeatures.Item.HHVQDp61ehcpdiU8]{Darkvision}.</p>"
+			"name": "深部ネズミ",
+			"description": "<p>君の種族は他のラットフォークよりも地下深くで生活してきた。それによって君は闇を見通す能力を得た。君は暗視を得る。</p>"
 		},
 		"Desert Elf": {
 			"name": "Desert Elf",
 			"description": "<p>You live under the desert's blazing heat, gaining incredible resilience to warm environments. You gain fire resistance equal to half your level (minimum 1), and environmental heat effects are one step less extreme for you (incredible heat becomes extreme, extreme heat becomes severe, and so on).</p>"
 		},
 		"Desert Rat": {
-			"name": "Desert Rat",
-			"description": "<p>You are native to arid plains and likely grew up traveling the roads. You have a leaner build than other ratfolk, with longer limbs and short fur. If you have both hands free, you can increase your Speed to 30 feet as you run on all fours. In addition, environmental heat effects are one step less extreme for you, and you can go 10 times as long as normal before you are affected by starvation or thirst. However, unless you wear protective gear or take shelter, environmental cold effects are one step more extreme for you.</p>"
+			"name": "砂漠ネズミ",
+			"description": "<p>君は乾燥した平原の出身だ。おそらく道路を旅して育ったのだろう。君の体つきは他のラットフォークよりも痩せていて、手足は長く毛は短い。君の両手が空いているならば、四つん這いで走って移動速度を30フィートまで上昇できる。さらに、暑い環境の影響は一段階緩和され、飢餓や喉の渇きの影響を受けるまでに通常の10倍の時間を過ごすことができる。しかし、防護服を着用したり避難所にいたりしない限り、寒い環境の影響は一段階厳しいものになる。</p>"
 		},
 		"Dhampir": {
 			"name": "Dhampir",
@@ -190,8 +190,8 @@
 			"description": "<p>You are kin to faerie dragons, tracing your heritage back to the death of the mightiest faerie dragon in the First World. You gain touch telepathy, allowing you to communicate silently and purely mentally with any creature you're touching, as long as you share a language.</p>"
 		},
 		"Duskwalker": {
-			"name": "Duskwalker",
-			"description": "<p>Thanks to an ancient bargain, your soul has been reborn as a duskwalker, a planar scion with a connection to psychopomps and the Boneyard. You gain the duskwalker trait in addition to the traits from your ancestry. You also gain @UUID[Compendium.pf2e.ancestryfeatures.Item.DRtaqOHXTRtGRIUT]{Low-Light Vision}, or you gain @UUID[Compendium.pf2e.ancestryfeatures.Item.HHVQDp61ehcpdiU8]{Darkvision} if your ancestry already has low-light vision. Neither your body nor your spirit can ever become undead. You can choose from duskwalker feats and feats from your ancestry whenever you gain an ancestry feat.</p>"
+			"name": "ダスクウォーカー",
+			"description": "<p>最初のダスクウォーカーは、2体の強力なサイコポンプ、不滅の守護者と死後の魂の案内者の間の取引の結果として現れた。ある者は、生と死の輪廻を守ることに貢献したが、自らの命を断ち切った特定の魂は生まれ変わりに値すると信じ、別の人は、これはあまりにもその同じ輪廻を大きく侵害すると感じた。最終的には、このような再誕を可能にしたものの頻度を制限していた両者の譲歩から、ダスクウォーカーは台頭したのである。特定の時点で存在するダスクウォーカーは決まった数しかいない。</p>"
 		},
 		"Earthly Wilds Kitsune": {
 			"name": "Earthly Wilds Kitsune",
@@ -306,8 +306,8 @@
 			"description": "<p>丘陵地帯での穏やかな生活に慣れている君の同種は、休息と息抜きが特別な気分転換になると考えている。君が一晩休息してHPを回復したなら、回復したHPに君のレベルを加える。誰かが君に対して“傷の手当て”のために〈医術〉技能を使用したなら、君はおやつを食べ、その治療によって回復したHPに自分のレベルを加えることができる。</p>"
 		},
 		"Hold-Scarred Orc": {
-			"name": "Hold-Scarred Orc",
-			"description": "<p>You are part of an orc community that participates in ritual scarification or tattooing. The marks on your skin show your exceptional hardiness and vitality. You gain 12 Hit Points from your ancestry instead of 10. You also gain the @UUID[Compendium.pf2e.feats-srd.Item.I0BhPWqYf1bbzEYg]{Diehard} feat.</p>"
+			"name": "儀礼痕オーク",
+			"description": "<p>君はオークのコミュニティの一員であり、儀式的な儀礼痕や刺青に参加している。肌に残る痕跡が、君の抜群の硬さと生命力を表している。君が種族からえるヒット・ポイントは10ではなく12になる。君は加えて、《不屈の闘志》特技を得る。</p>"
 		},
 		"Hooded Nagaji": {
 			"name": "Hooded Nagaji",
@@ -318,8 +318,8 @@
 			"description": "<p>You were designed to serve as a scout or assassin and have a body resembling a pack hunter like a large cat or wolf. Though you typically move like a quadruped, you can still stand and fight like a biped, allowing you to use all equipment normally. Your quadruped design allows you to move quickly; if you have both hands free, you can increase your Speed to 30 feet as you run on all fours.</p>"
 		},
 		"Hunting Catfolk": {
-			"name": "Hunting Catfolk",
-			"description": "<p>You come from a long line of skilled hunters and trackers and have a particularly keen sense of smell.</p>\n<p>You gain imprecise scent with a range of 30 feet. This means you can use your sense of smell to determine a creature's location. The GM will usually double the range if you're downwind from the creature or halve the range if you're upwind.</p>\n<p>In addition, you gain a +2 circumstance bonus to @UUID[Compendium.pf2e.actionspf2e.Item.EA5vuSgJfiHH7plD]{Track} a creature or object if you've smelled it before.</p>"
+			"name": "狩猟キャットフォーク",
+			"description": "<p>君は熟達した狩人や追跡者の長きにわたる家系の出身で、特に鋭い嗅覚を持つ。君は距離30フィートの不明瞭な鋭敏嗅覚を得る。これにより、君は嗅覚を用いてクリーチャーの位置を特定できる。通常、GMは君がクリーチャーの風下にいればこの距離を2倍に、風上にいればこの距離を半分にするだろう。</p>\n<p>加えて、君は過去ににおいを嗅いだことのあるクリーチャーあるいは物体を“追跡”する際、＋2の状況ボーナスを得る。</p>\n<p>In addition, you gain a +2 circumstance bonus to @UUID[Compendium.pf2e.actionspf2e.Item.EA5vuSgJfiHH7plD]{Track} a creature or object if you've smelled it before.</p>"
 		},
 		"Ifrit": {
 			"name": "Ifrit",
@@ -346,12 +346,12 @@
 			"description": "<p>You were born with a strange blessing: bereft of the typical halfling luck, you can instead manipulate the fortunes of others. You can never take the @UUID[Compendium.pf2e.feats-srd.Item.ZbRVqf14RTJJIZXG]{Halfling Luck} feat, and you gain the @UUID[Compendium.pf2e.actionspf2e.Item.hFRHPBj6wjAayNtW]{Jinx} action.</p>"
 		},
 		"Jinxed Tengu": {
-			"name": "Jinxed Tengu",
-			"description": "<p>Your lineage has been exposed to curse after curse, and now, they slide off your feathers like rain. If you succeed at a saving throw against a curse or misfortune effect, you get a critical success instead.</p>\n<p>When you would gain the @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed} condition, attempt a @Check[type:flat|dc:17] check. On a success, reduce the value of the doomed condition you would gain by 1.</p>"
+			"name": "不運払いテング",
+			"description": "<p>君の系譜は呪いにさらされ続けた、今ではそれらは雨のように羽から滑り落ちる。</p>\n<p>君が呪いあるいは不幸効果に対するセーヴィング・スローに成功すると、代わりに大成功を得る。君が凶兆状態を得たなら、@Check[type:flat|dc:17]を試みること。成功したら、得られるはずだった凶兆状態値を1だけ減らす。</p>"
 		},
 		"Jungle Catfolk": {
-			"name": "Jungle Catfolk",
-			"description": "<p>You're descended from jungle stalkers and can move swiftly through scrub and underbrush. You ignore difficult terrain from undergrowth, and greater difficult terrain from undergrowth is only difficult terrain for you.</p>"
+			"name": "密林キャットフォーク",
+			"description": "<p>密林で隠れて狩猟するものの血を引く君は、低木や下生え野中を素早く移動できる。君は下生えによる移動困難地形を無視し、下生えによる上級移動困難地形は、君にとっては通常の移動困難地形に過ぎない。</p>"
 		},
 		"Keen-Venom Vishkanya": {
 			"name": "Keen-Venom Vishkanya",
@@ -382,8 +382,8 @@
 			"description": "<p>You come from a line of fetchlings with a closer connection to the Ethereal and Shadow Planes, and you share those realms' affinity with the in-between and unseen. You gain a +1 circumstance bonus to locate @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Undetected} creatures within 60 feet when using the Seek action. Your flat check to target @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} creatures is @Check[type:flat|dc:3] instead of DC 5, and your flat check to target undetected creatures is @Check[type:flat|dc:9] instead of DC 11.</p>"
 		},
 		"Longsnout Rat": {
-			"name": "Longsnout Rat",
-			"description": "<p>The long snouts that run in your family give you a keener sense of smell than most ratfolk. You gain imprecise scent with a range of 30 feet. This means you can use your sense of smell to determine a creature's location. The GM will usually double the range if you're downwind from the creature or halve the range if you're upwind.</p>\n<p>In addition, you gain a +2 circumstance bonus to Perception checks to @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} a creature or object within the range of your scent.</p>"
+			"name": "長鼻ネズミ",
+			"description": "<p>家族に備わる長い鼻は、他のラットフォークよりも鋭い嗅覚を与えてくれる。君は距離30フィートの不明瞭な鋭敏嗅覚を得る。これにより君は嗅覚でクリーチャーの位置を特定できる。通常、GMの判断により、クリーチャーの風下にいる場合は距離が2倍に、風上にいる場合は距離が半分になる。</p>\n<p>加えて、君は鋭敏嗅覚の範囲内に存在するクリーチャーあるいは物体を“捜す”ために行う知覚判定に＋2の状況ボーナスを得る。</p>"
 		},
 		"Lorekeeper Shisk": {
 			"name": "Lorekeeper Shisk",
@@ -414,8 +414,8 @@
 			"description": "<p>Inhuman skeletons are often created for both their deadly physical attacks and their terrifying appearances. Beasts and monstrous humanoids with the strangest skeletons tend to be the centerpiece of the collection of a necromancer skilled enough to raise one. You gain a claw, horn, tail, or wing unarmed attack that deals 1d6 damage. A claw deals slashing damage, a horn deals piercing damage, and a tail or wing deals bludgeoning damage. This unarmed attack is in the brawling group and has the finesse and unarmed traits.</p>"
 		},
 		"Mountainkeeper Tengu": {
-			"name": "Mountainkeeper Tengu",
-			"description": "<p>You come from a line of tengu ascetics, leaving you with a link to the spirits of the world and the Great Beyond. You can cast the <em>@UUID[Compendium.pf2e.spells-srd.Item.kcelf6IHl3L9VXXg]{Disrupt Undead}</em> cantrip as a primal innate spell at will. A cantrip is heightened to a spell level equal to half your level rounded up.</p>\n<p>Each time you cast a spell from a tengu heritage or ancestry feat, you can decide whether it's a divine or primal spell.</p>"
+			"name": "山守りテング",
+			"description": "<p>君はテングの修行者の家系の出身であり、世界の精霊や大いなる彼方とのつながりをその身に残す。君はディスラプト・アンデッドキャントリップを、始原生得呪文として回数無制限で発動できる。キャントリップは、自分のレベルの半分（端数切り上げ）の値に等しい呪文レベルに高レベル化される。テングの出自あるいは種族特技から呪文を発動するたびに、君はそれが信仰呪文か始原呪文かを決定できる。</p>"
 		},
 		"Murkeyed Azarketi": {
 			"name": "Murkeyed Azarketi",
@@ -434,8 +434,8 @@
 			"description": "<p>You are a dedicated nocturnal avian, keeping watch and predating in the most lightless environments. You gain @UUID[Compendium.pf2e.ancestryfeatures.Item.HHVQDp61ehcpdiU8]{Darkvision}.</p>"
 		},
 		"Nine Lives Catfolk": {
-			"name": "Nine Lives Catfolk",
-			"description": "<p>Your family has always seemed to bound back from disaster, not through physical hardiness or specialized skill, but from sheer luck. Other catfolk whisper that you have nine lives.</p>\n<p>If you are reduced to 0 Hit Points by a critical hit on an attack roll, you become @UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1]{Dying 1} instead of dying 2.</p>"
+			"name": "九生キャットフォーク",
+			"description": "<p>君の家族は何度も災害から立ち上がっているようにみえるが、それは肉体の頑強さや専門技術によるものではなく、単なる幸運によるものだ。他のキャットフォークは、君には命が9つあると噂する。</p>\n<p>攻撃ロールのクリティカル・ヒットで君のヒット・ポイントが0にまで減少したなら、瀕死状態2ではなく瀕死状態1になる。</p>"
 		},
 		"Nomadic Halfling": {
 			"name": "放浪ハーフリング",
@@ -502,8 +502,8 @@
 			"description": "<p>Keepers of traditions and tellers of ancient tales, your family traces its lineage to those born directly from Ragdya's whims. When you speak, others are inclined to listen to you, perhaps due to the divine spark of your connection to Ragdya. You gain one cantrip from the divine spell list; this cantrip can't deal damage or otherwise cause direct harm. You can cast this spell as a divine innate spell at will. A cantrip is heightened to a spell level equal to half your level rounded up.</p>"
 		},
 		"Rainfall Orc": {
-			"name": "Rainfall Orc",
-			"description": "<p>You were born in a rain forest with only tangles of trees providing protection from torrential rainstorms and flash floods. You've learned to move adeptly through jungle terrain and resist the various ailments common in humid environs.</p>\n<p>You gain a +2 circumstance bonus to Athletics checks to @UUID[Compendium.pf2e.actionspf2e.Item.pprgrYQ1QnIDGZiy]{Climb} or @UUID[Compendium.pf2e.actionspf2e.Item.c8TGiZ48ygoSPofx]{Swim} and a +1 circumstance bonus to saving throws against diseases.</p>"
+			"name": "雨林オーク",
+			"description": "<p>は、集中豪雨や鉄砲水から守る樹木のもつれに満ちた、熱帯雨林で生まれた。君はその中で、ジャングルの地形を巧みに移動し、湿度の高い環境でよく見られるさまざまな病気に抵抗することを学んだ。</p>\n<p>君は“登攀”あるいは“水泳”のために行う〈運動〉判定に対して＋2の状況ボーナスと、病気に対するセーヴィング・スローに対して＋1の状況ボーナスを得る。</p>"
 		},
 		"Razortooth Goblin": {
 			"name": "鋭牙ゴブリン",
@@ -582,12 +582,12 @@
 			"description": "<p>君はすべての色がより明るく見え、すべての音がより豊かに聞こえ、ときに信じられないほど事細かにすべての匂いを嗅ぎ分ける。君は特別な感覚を得る。これにより、君は距離30フィートの不明瞭な鋭敏嗅覚を得る。これにより君はクリーチャーの正確な位置を識別するために嗅覚を使用できる。クリーチャーが風上にいる場合は距離を2倍にし、風下にいる場合は距離を半分にすること。</p>\n<p>加えて、君は鋭敏嗅覚の範囲内にいる未識別のクリーチャーの場所を確定しようとするために行う知覚判定に＋2の状況ボーナスを得る。</p>"
 		},
 		"Sewer Rat": {
-			"name": "Sewer Rat",
-			"description": "<p>You come from a long line of ysoki from a community based in the sewers beneath a large settlement. You are immune to the disease filth fever. Each of your successful saving throws against a disease or poison reduces its stage by 2, or by 1 for a virulent disease or poison. Each critical success against an ongoing disease or poison reduces its stage by 3, or by 2 for a virulent disease or poison.</p>"
+			"name": "下水道ネズミ",
+			"description": "<p>君は大きな居住地の下にある下水道を拠点とするコミュニティに属す、長いソキの家系の出身だ。君は汚穢熱／filth feverという病気に完全耐性を持つ。君は病気あるいは毒に対するセーヴに成功するたびに2段階だけ改善する（大難の病気あるいは毒の場合は1段階）。進行中の病気あるいは毒に対して大成功するたびに、3段階だけ改善する（大難の病気あるいは毒の場合は2段階）。</p>"
 		},
 		"Shadow Rat": {
-			"name": "Shadow Rat",
-			"description": "<p>Your ancestors lived in dark spaces underground, granting you dark fur and a vaguely unnatural mien that unnerves sapient creatures and frightens animals. You gain the trained proficiency rank in Intimidation and can use Intimidation to @UUID[Compendium.pf2e.actionspf2e.Item.tHCqgwjtQtzNqVvd]{Coerce} animals. When you @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralize} an animal, you don't take a penalty for not sharing a language with it. If you would automatically become trained in Intimidation (from your background or class, for example), you become trained in another skill of your choice.</p>\n<p>Animals' attitudes toward you begin one degree worse than normal, usually starting at unfriendly instead of indifferent for domesticated animals, and hostile instead of unfriendly for wild animals.</p>"
+			"name": "影ネズミ",
+			"description": "<p>君の先祖は地下の暗い空間に住んでいて、君に暗い毛皮と、賢いクリーチャーを不安にさせ、動物を怖がらせる、なんとなく不自然な振る舞いを与えた。君は〈威圧〉に修得の習熟度ランクを得、〈威圧〉を使用して動物に“強制”できる。動物の“士気をくじく”際、君は動物と言語を共有していないことによるペナルティを受けない。君が（君の来歴やクラスなどによって）自動的に〈威圧〉を修得にしたなら、君は選択した別の技能を修得にする。</p>\n<p>最初、君に対する動物の態度は、通常よりも一段階悪い。一般に、家畜化された動物に対しては中立的状態ではなく非友好的状態であり、野生動物に対しては非友好的状態ではなく敵対的状態である。</p>"
 		},
 		"Shapewrought Fleshwarp": {
 			"name": "Shapewrought Fleshwarp",
@@ -614,8 +614,8 @@
 			"description": "<p>君は工夫次第で様々な技能を鍛えられるようになる。君は選択した技能1つを修得済みにする。5レベルの時点で、君はこの選択した技能1つに熟練する。</p>"
 		},
 		"Skyborn Tengu": {
-			"name": "Skyborn Tengu",
-			"description": "<p>Your bones may be especially light, you may be a rare tengu with wings, or your connection to the spirits of wind and sky might be stronger than most, slowing your descent through the air. You take no damage from falling, regardless of the distance you fall.</p>"
+			"name": "空生まれテング",
+			"description": "<p>君の骨は極めて軽いのかもしれないし、君は翼を持つ珍しいテングかもしれないし、風と空の精霊とのつながりがほとんどの者よりも強いのかもしれない。いずれにせよ、君はゆっくりと空中を落下する。君は落下距離にかかわらず、落下によるダメージを受けない。</p>"
 		},
 		"Smokeworker Hobgoblin": {
 			"name": "Smokeworker Hobgoblin",
@@ -670,8 +670,8 @@
 			"description": "<p>Navigating mountains and other rocky terrain is second nature to you. You can ignore non-magical difficult terrain caused by rubble and uneven ground made of stone and earth.</p>"
 		},
 		"Stormtossed Tengu": {
-			"name": "Stormtossed Tengu",
-			"description": "<p>Whether due to a blessing from Hei Feng or hatching from your egg during a squall, you are resistant to storms. You gain electricity resistance equal to half your level (minimum 1).</p>\n<p>You automatically succeed at the flat check to target a @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} creature if that creature is concealed only by rain or fog.</p>"
+			"name": "嵐振テング",
+			"description": "<p>ヘイ・フェンの祝福によるものか、嵐の中で孵化した結果か、君は嵐への抵抗力を持つ。君は自分のレベルの半分（最低1）に等しい［雷撃］への抵抗を得る。君は雨や霧だけによって視認困難状態となったクリーチャーを目標にする際の平目判定に自動的に成功する。</p>"
 		},
 		"Strong Oak": {
 			"name": "Strong Oak",
@@ -722,8 +722,8 @@
 			"description": "<p>You have a powerful tail, likely because you descend from a community of monkey goblins. You gain a +2 circumstance bonus to Athletics checks to @UUID[Compendium.pf2e.actionspf2e.Item.pprgrYQ1QnIDGZiy]{Climb}, you gain @UUID[Compendium.pf2e.feats-srd.Item.09PurtIanNUPfNRq]{Combat Climber} as a bonus feat, and you reduce the number of free hands required to climb or @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trip} by one.</p>"
 		},
 		"Taloned Tengu": {
-			"name": "Taloned Tengu",
-			"description": "<p>Your talons are every bit as sharp and strong as your beak. You gain a talon unarmed attack that deals @Damage[1d4[slashing]] damage. Your talons are in the brawling group, and have the agile, finesse, unarmed and versatile piercing traits.</p>"
+			"name": "鉤爪テング",
+			"description": "<p>君の鉤爪は嘴と同じように鋭く強い。君は1d4の［斬撃］ダメージを与える鉤爪の素手攻撃を得る。君の鉤爪は剛腕種に属し、機敏、巧技、素手、多用途：［刺突］の特性を持つ。</p>"
 		},
 		"Talos": {
 			"name": "Talos",
@@ -747,7 +747,7 @@
 		},
 		"Tiefling": {
 			"name": "ティーフリング",
-			"description": "<p>　フィーンドの血やエネルギーの影響によって、ティーフリングが生まれる。ティーフリングの出自は恩恵でも厄災でもあるが、彼らの指揮する力に対抗できるものはいないため、フィーンドの血に付随する身体的特徴――角、蹄のある足、尾――を見逃す共同体はほとんどない。</p>\n<p></p>\n<p>　本書に掲載したティーフリングの系譜は、デヴィルから生まれたヘルスポーン、デーモンの影響を受けて作られたピットボーン、ダイモンを起源とするグリムスポーンである。</p>\n"
+			"description": "<p>フィーンドの血やエネルギーの影響によって、ティーフリングが生まれる。ティーフリングの出自は恩恵でも厄災でもあるが、彼らの指揮する力に対抗できるものはいないため、フィーンドの血に付随する身体的特徴――角、蹄のある足、尾――を見逃す共同体はほとんどない。</p>\n\n<p>　本書に掲載したティーフリングの系譜は、デヴィルから生まれたヘルスポーン、デーモンの影響を受けて作られたピットボーン、ダイモンを起源とするグリムスポーンである。</p>\n"
 		},
 		"Titan Nagaji": {
 			"name": "Titan Nagaji",
@@ -886,8 +886,8 @@
 			"description": "<p>Tough webbing along your hands and toes can slow any fall. As long as you have one hand free, you take no falling damage, regardless of the distance you fall.</p>"
 		},
 		"Winter Catfolk": {
-			"name": "Winter Catfolk",
-			"description": "<p>You have a thick coat of fur that protects you from the cold. You gain cold resistance equal to half your level (minimum 1). You treat environmental cold effects as if they were one step less extreme (incredible cold becomes extreme, extreme cold becomes severe, and so on).</p>"
+			"name": "冬毛キャットフォーク",
+			"description": "<p>君は寒さから守ってくれる分厚い毛皮を持つ。君はレベルの半分（最低1）に等しい［氷雪］に対する抵抗を得る。君は環境の寒冷効果を1段階穏やかなものとして扱う（極寒は猛寒になり、猛寒は酷寒になる、というように）。</p>"
 		},
 		"Winter Orc": {
 			"name": "Winter Orc",
