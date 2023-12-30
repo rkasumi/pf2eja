@@ -1527,13 +1527,21 @@
             "GameHunterDedication": {
                 "TargetHuntedPrey": "対象が君の獲物である(動物、獣、あるいはドラゴンのみ)"
             },
+            "Genie": {
+                "Faydhaan": "マーリド",
+                "Ifrit": "イフリート",
+                "Jaathoom": "ジン",
+                "Jabali": "シャイタン",
+                "Janni": "ジャーン",
+                "Prompt": "ジンニーを選んでください"
+            },
             "GeneralTraining": {
                 "AllowedDrops": "１レベルの一般特技",
-                "Prompt": "1レベルの一般特技を選んで下さい"
+                "Prompt": "1レベルの一般特技を選んでください"
             },
             "Ganzi": {
                 "Irrepressible": {
-                    "SaveNote": "感情あるいは恐怖効果に対するセーヴに成功をロールした際、クリティカルする"
+                    "SaveNote": "感情あるいは恐怖効果に対するセーヴに成功をロールした際、大成功する"
                 }
             },
             "Ghoul": {
