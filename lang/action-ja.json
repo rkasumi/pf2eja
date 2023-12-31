@@ -7,7 +7,7 @@
                 "IncrementN": "Range Increment {n} ft.",
                 "MaxN": "Range {n} ft."
             },
-            "Use": "Use"
+            "Use": "使用"
         },
         "Actions": {
             "AdministerFirstAid": {
@@ -417,7 +417,7 @@
                 },
                 "Grip": {
                     "Description": "{actor} は {weapon} を両手で持ち直した",
-                    "Title": "握る (2H)"
+                    "Title": "握りを変更 (2H)"
                 },
                 "Modular": {
                     "Description": "{actor} adjusts their {weapon} to deal {damageType} damage.",
@@ -587,7 +587,7 @@
                 },
                 "Grip": {
                     "Description": "{actor} releases a hand from their {weapon}.",
-                    "Title": "Change Grip (1H)"
+                    "Title": "握りを変更 (1H)"
                 },
                 "Title": "手放す"
             },

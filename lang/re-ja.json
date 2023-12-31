@@ -2037,8 +2037,23 @@
             },
             "Swashbuckler": {
                 "Style": {
-                    "Prompt": "スワッシュバックラーのスタイルを選んでください"
-                }
+                    "Prompt": "スワッシュバックラーの流儀を選んでください。"
+                },
+                "Finisher": {
+                    "Basic": "基本",
+                    "Bleeding": "出血",
+                    "Confident": "確信",
+                    "Dual": "双刃",
+                    "Impaling": "貫き",
+                    "Label": "終撃",
+                    "Lethal": "致命",
+                    "Mobile": "機動",
+                    "Perfect": "完璧",
+                    "Stunning": "朦朧",
+                    "Targeting": "部位狙い",
+                    "Unbalancing": "崩し"
+                },
+                "Panache": "君は@UUID[Compendium.pf2e.feat-effects.Item.uBJsxCzNhje8m8jj]{心意気}を得る。"
             },
             "SoulWarden": {
                 "SafeguardSoul": {

@@ -170,8 +170,8 @@
 			"description": "<p>君は乾燥した平原の出身だ。おそらく道路を旅して育ったのだろう。君の体つきは他のラットフォークよりも痩せていて、手足は長く毛は短い。君の両手が空いているならば、四つん這いで走って移動速度を30フィートまで上昇できる。さらに、暑い環境の影響は一段階緩和され、飢餓や喉の渇きの影響を受けるまでに通常の10倍の時間を過ごすことができる。しかし、防護服を着用したり避難所にいたりしない限り、寒い環境の影響は一段階厳しいものになる。</p>"
 		},
 		"Dhampir": {
-			"name": "Dhampir",
-			"description": "<p>You are the scion of a vampire, half living and half undead, gifted with uncanny charm and grace, a bloodless pallor, and elongated incisors. You gain the dhampir trait, in addition to the traits from your ancestry. You have the negative healing ability, which means you are harmed by positive damage and healed by negative effects as if you were undead. You also gain @UUID[Compendium.pf2e.ancestryfeatures.Item.DRtaqOHXTRtGRIUT]{Low-Light Vision}, or you gain @UUID[Compendium.pf2e.ancestryfeatures.Item.HHVQDp61ehcpdiU8]{Darkvision} if your ancestry already has low-light vision. You can choose from dhampir feats and feats from your ancestry whenever you gain an ancestry feat.</p>"
+			"name": "ダンピール",
+			"description": "<p>君はヴァンパイアの子である。半ば生き半ばアンデッドで、不気味な魅力と優雅さを持ち、血の毛のない蒼白の肌と細長い犬歯を持つ。君は種族の特性に加えて、ダンピールの特性も得る。君は負のエネルギーによる回復能力を持ち、［正のエネルギー］ダメージを受けるとダメージを受け、［負のエネルギー］ダメージを受けるとアンデッドであるかのように治癒する。加えて、君は夜目を獲得する。種族からすでに夜目を得ていた場合、代わりに暗視を得る。君が種族特技を得るたび、自分の種族の特技とダンピール特技から特技を選択できる。</p>"
 		},
 		"Discarded Fleshwarp": {
 			"name": "Discarded Fleshwarp",
@@ -222,8 +222,8 @@
 			"description": "<p>Your eyes have adapted to see more in less than favorable conditions. You gain @UUID[Compendium.pf2e.ancestryfeatures.Item.DRtaqOHXTRtGRIUT]{Low-Light Vision}.</p>"
 		},
 		"Fey-Touched Gnome": {
-			"name": "Fey-Touched Gnome",
-			"description": "<p>The blood of the fey is so strong within you that you're truly one of them. You gain the fey trait, in addition to the gnome and humanoid traits. Choose one cantrip from the primal spell list. You can cast this spell as a primal innate spell at will. A cantrip is heightened to a spell level equal to half your level rounded up. You can change this cantrip to a different one from the same list once per day by meditating to realign yourself with the First World; this is a 10-minute activity that has the concentrate trait.</p>"
+			"name": "フェイタッチト・ノーム",
+			"description": "<p>フェイの血は君の中であまりに強く、君は真の意味で彼らの一員である。君はノームと人型生物に加え、フェイの特性を得る。始原呪文リストからキャントリップを1つ選択すること。君はその呪文を回数無制限の生得始原呪文として発動できる。キャントリップは君のレベルの半分（端数切り上げ）に等しい術者レベルに高度化される。君はフェイ・ワールドに自分の身を置くために瞑想することで、1日1回、このキャントリップを同じリストの別のキャントリップ1つに変更できる。これは精神集中の特性を持つ10分の連続行動である。</p>"
 		},
 		"Fishseeker Shoony": {
 			"name": "Fishseeker Shoony",
@@ -238,8 +238,8 @@
 			"description": "<p>Humans, and those who are physically closest to them, are the favored material of necromancers. They are readily available, and their physiology has been studied the most extensively, so these skeletons can be easily mass-produced. Despite their name, fodder skeletons make rather mobile foot soldiers due to how efficiently they transfer necromantic energy within their bodies. You have a base Speed of 30 feet, instead of 25 feet.</p>"
 		},
 		"Forge Dwarf": {
-			"name": "Forge Dwarf",
-			"description": "<p>You have a remarkable adaptation to hot environments from ancestors who inhabited blazing deserts or volcanic chambers beneath the earth. This grants you fire resistance equal to half your level (minimum 1), and you treat environmental heat effects as if they were one step less extreme (incredible heat becomes extreme, extreme heat becomes severe, and so on).</p>"
+			"name": "鍛冶ドワーフ",
+			"description": "<p>君は灼熱の砂漠や地価の火山室に棲んでいた祖先からの暑い環境への驚くほどの適応力を持っている。これによりレベルの半分に等しい［火炎］に対する抵抗を得（最小1）、環境の暑熱効果を極地を1段階低いかのように扱う（極暑が猛暑に、猛暑が酷暑になるなど）。</p>"
 		},
 		"Forge-Blessed Dwarf": {
 			"name": "Forge-Blessed Dwarf",
@@ -747,7 +747,7 @@
 		},
 		"Tiefling": {
 			"name": "ティーフリング",
-			"description": "<p>フィーンドの血やエネルギーの影響によって、ティーフリングが生まれる。ティーフリングの出自は恩恵でも厄災でもあるが、彼らの指揮する力に対抗できるものはいないため、フィーンドの血に付随する身体的特徴――角、蹄のある足、尾――を見逃す共同体はほとんどない。</p>\n\n<p>　本書に掲載したティーフリングの系譜は、デヴィルから生まれたヘルスポーン、デーモンの影響を受けて作られたピットボーン、ダイモンを起源とするグリムスポーンである。</p>\n"
+			"description": "<p>フィーンドの血やエネルギーの影響によって、ティーフリングが生まれる。ティーフリングの出自は恩恵でも厄災でもあるが、彼らの指揮する力に対抗できるものはいないため、フィーンドの血に付随する身体的特徴――角、蹄のある足、尾――を見逃す共同体はほとんどない。</p><p>　本書に掲載したティーフリングの系譜は、デヴィルから生まれたヘルスポーン、デーモンの影響を受けて作られたピットボーン、ダイモンを起源とするグリムスポーンである。</p>\n"
 		},
 		"Titan Nagaji": {
 			"name": "Titan Nagaji",
