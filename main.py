@@ -13,7 +13,28 @@ pathRemaster = "/home/yaginumad/userdata_pf/Data/systems/pf2e/packs/"
 ldb = plyvel.DB(pathLegacy+"spells-legacy", create_if_missing=False)
 for key, line in ldb:
   j = json.loads(line)
+  if j["system"]["components"].get("somatic") and\
+      "manipulate" not in j["system"]["traits"]["value"]:
+      j["system"]["traits"]["value"].append("manipulate")
+  if j["system"]["components"].get("material") and\
+      "manipulate" not in j["system"]["traits"]["value"]:
+      j["system"]["traits"]["value"].append("manipulate")
+  if j["system"]["components"].get("focus") and\
+      "manipulate" not in j["system"]["traits"]["value"]:
+      j["system"]["traits"]["value"].append("manipulate")
+  if j["system"]["components"].get("verbal") and\
+      "concentrate" not in j["system"]["traits"]["value"]:
+      j["system"]["traits"]["value"].append("concentrate")
+
+  if j["system"]["category"]["value"] == "ritual":
+      j["system"]["ritual"] = {"primary": {"check": ""}}
+  if j["system"]["category"]["value"] == "focus" and\
+      "focus" not in j["system"]["traits"]["value"]:
+      j["system"]["traits"]["value"].append("focus")
+
   j["system"]["traits"]["traditions"] = j["system"]["traditions"]["value"]
+
+  #print(json.dumps(j, indent=2))
   ldb.delete(key)
   ldb.put(key, json.dumps(j).encode())
 ldb.close()
