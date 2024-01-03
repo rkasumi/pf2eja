@@ -3,7 +3,7 @@
         "AttackEffects": {
             "DropWeapon": "クリーチャーは使っている武器を落とす",
             "IgnoreConcealed": "この攻撃は@Compendium[pf2e.conditionitems.Concealed]{視認困難}状態を無視する。",
-            "IgnoreCover": "対象は劣った遮蔽から利益を受けず、標準の遮蔽によるACボーナスをこの攻撃に対して2減らす",
+            "IgnoreCover": "対象は下級遮蔽から利益を受けず、標準の遮蔽によるACボーナスをこの攻撃に対して2減らす",
             "IncreasedCriticalChance": "もし、攻撃が命中し、クリーチャーが出目19をロールしていたなら、クリティカル・ヒットになる。出目19で命中しないなら何の効果もない。",
             "IncreasedReach5": "間合いが5フィート増える",
             "InterruptAction": "命中時、対象のアクションは妨害される",
@@ -1262,9 +1262,9 @@
             },           
             "Cover": {
                 "Prompt": "遮蔽の段階を選んで下さい。",
-                "Lesser": "劣った遮蔽",
+                "Lesser": "下級遮蔽",
                 "Standard": "標準の遮蔽",
-                "Greater": "優れた遮蔽",
+                "Greater": "上級遮蔽",
                 "Prone": "伏せ状態"
             },
             "CriticalDeck" : {
@@ -1387,7 +1387,7 @@
                     "Prompt": "エレメンタルの心の種別を選んでください"
                 },
                 "ForgeBlessedShot": {
-                    "Note": "対象の劣った遮蔽、標準の遮蔽、優れた遮蔽と @Compendium[pf2e.conditionitems.Concealed]{視認困難}を無視する "
+                    "Note": "対象の下級遮蔽、標準の遮蔽、上級遮蔽と @Compendium[pf2e.conditionitems.Concealed]{視認困難}を無視する "
                 },
                 "KneelForNoGod": {
                     "Note": "信仰効果に対して成功をロールした際、クリティカルする"
