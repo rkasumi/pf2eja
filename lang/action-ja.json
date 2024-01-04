@@ -857,10 +857,10 @@
             }
         },
         "ActionsCheck": {
-            "acrobatics": "〈軽業〉	判定",
+            "acrobatics": "〈軽業〉判定",
             "arcana": "〈秘術〉判定",
             "athletics": "〈運動〉判定",
-            "crafting": "〈製作〉	判定",
+            "crafting": "〈製作〉判定",
             "deception": "〈ペテン〉判定",
             "diplomacy": "〈交渉〉判定",
             "intimidation": "〈威圧〉判定",

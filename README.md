@@ -20,3 +20,37 @@ https://w.atwiki.jp/p2rdj/
       "pathfinder-core-rulebook", "pathfinder-player-core", "pathfinder-advanced-players-guide","pathfinder-secrets-of-magic"
   * PF2E.BrowserFilterSpellCategories の直後のsource内の selected: [""]
       "pathfinder-core-rulebook", "pathfinder-player-core", "pathfinder-advanced-players-guide"
+
+# 呪文詳細にセーヴ有無を表示
+items/partials/spell-description-prepend.hbs 末尾に追記
+
+{{#if (eq spell.system.defense.save.statistic "reflex")}}
+{{#if spell.system.defense.save.basic}}
+<p><strong>{{localize "PF2E.SavesHeader"}} </strong>
+{{localize "PF2E.Item.Spell.Defense.BasicSave"}} {{localize "PF2E.SavesReflex"}}</p>
+{{/if}}
+{{#unless spell.system.defense.save.basic}}
+<p><strong>{{localize "PF2E.SavesHeader"}} </strong>
+{{localize "PF2E.SavesReflex"}}</p>
+{{/unless}}
+{{/if}}
+{{#if (eq spell.system.defense.save.statistic "will")}}
+{{#if spell.system.defense.save.basic}}
+<p><strong>{{localize "PF2E.SavesHeader"}} </strong>
+{{localize "PF2E.Item.Spell.Defense.BasicSave"}} {{localize "PF2E.SavesWill"}}</p>
+{{/if}}
+{{#unless spell.system.defense.save.basic}}
+<p><strong>{{localize "PF2E.SavesHeader"}} </strong>
+{{localize "PF2E.SavesWill"}}</p>
+{{/unless}}
+{{/if}}
+{{#if (eq spell.system.defense.save.statistic "fortitude")}}
+{{#if spell.system.defense.save.basic}}
+<p><strong>{{localize "PF2E.SavesHeader"}} </strong>
+{{localize "PF2E.Item.Spell.Defense.BasicSave"}} {{localize "PF2E.SavesFortitude"}}</p>
+{{/if}}
+{{#unless spell.system.defense.save.basic}}
+<p><strong>{{localize "PF2E.SavesHeader"}} </strong>
+{{localize "PF2E.SavesFortitude"}}</p>
+{{/unless}}
+{{/if}}

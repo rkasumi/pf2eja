@@ -32,6 +32,13 @@ for key, line in ldb:
       "focus" not in j["system"]["traits"]["value"]:
       j["system"]["traits"]["value"].append("focus")
 
+  if j["system"].get("save"):
+      v = j["system"]["save"]["value"]
+      if j["system"]["save"]["basic"] == "basic":
+          j["system"]["defense"] = {"save": {"statistic": v, "basic": True}}
+      else:
+          j["system"]["defense"] = {"save": {"statistic": v}}
+
   j["system"]["traits"]["traditions"] = j["system"]["traditions"]["value"]
 
   #print(json.dumps(j, indent=2))

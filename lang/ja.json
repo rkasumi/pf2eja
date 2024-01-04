@@ -144,38 +144,38 @@
                 },
                 "AttributeBuilder": {
                     "InputMethod": {
-                        "Description": "Switching method resets your attribute modifier distribution.",
-                        "Manual": "Manual Entry",
-                        "Title": "Input Method"
+                        "Description": "入力方法を切り替えると配分がリセットされる。",
+                        "Manual": "手動入力",
+                        "Title": "入力方法"
                     },
-                    "AncestryMissingHelp": "出自から能力値上昇を選ぶ",
-                    "AlternateBoostsLabel": "Alternate Boosts",
-                    "BackgroundBoostDescription": "Two boosts: one must be {a} or {b}.",
-                    "BackgroundMissingHelp": "来歴から能力値上昇を選ぶ",
-                    "Boost": "Boost",
-                    "Boosts": "Boosts",
-                    "ClassMissingHelp": "クラスから能力値上昇を選ぶ",
+                    "AncestryMissingHelp": "出自から能力値増強を選ぶ",
+                    "AlternateBoostsLabel": "種族によらない増強",
+                    "BackgroundBoostDescription": "2つ選ぶ: そのうち1つは【{a}】または【{b}】である",
+                    "BackgroundMissingHelp": "来歴から能力値増強を選ぶ",
+                    "Boost": "増強",
+                    "Boosts": "増強",
+                    "ClassMissingHelp": "クラスから能力値増強を選ぶ",
                     "Complete": "完了",
-                    "Flaw": "Flaw",
-                    "Flaws": "Flaws",
-                    "Increase": "Increase",
-                    "KeyIcon": "Key",
-                    "LegacyFlaws": "Legacy Flaws",
-                    "Partial": "Partial",
+                    "Flaw": "弱点",
+                    "Flaws": "弱点",
+                    "Increase": "増加",
+                    "KeyIcon": "主要",
+                    "LegacyFlaws": "旧ルールの弱点",
+                    "Partial": "1/2",
                     "NotSelected": "未選択",
-                    "Title": "能力値上昇を選ぶ",
+                    "Title": "能力値増強を選ぶ",
                     "VoluntaryFlaw": {
                         "Description": "君は弱点のあるキャラクターをロールプレイするために、1つ以上の追加ペナルティを受けることができる。",
-                        "LegacyDescription": "This is the Voluntary Flaws feature that existed until the CRB's 4th printing. It is kept in place for older characters and as a continued option for Pathfinder Society play.",
+                        "LegacyDescription": "CRB 4thまでに存在した弱点。古いキャラクター向けのオプションとして残されている。",
                         "Title": "弱点"
                     }
                 },
-                "Active": "Active",
-                "ActiveHeader": "Active Activities",
+                "Active": "実行",
+                "ActiveHeader": "実行中の連続行動",
                 "Biography": {
-                    "ToggleVisibility": "Toggle visibility to other players"
+                    "ToggleVisibility": "他のプレイヤーに公開する"
                 },
-                "Blurb": "Level {level} {ancestry} {class}",
+                "Blurb": "レベル {level} {ancestry} {class}",
                 "ClassDC": {
                     "Label": "クラスDC",
                     "LabelSpecific": "クラスDC ({class})",
@@ -501,32 +501,32 @@
                 }
             },
             "Party": {
-                "BlankSlate": "This party doesn't have any members. Drag a creature from the actor sidebar to get started.",
+                "BlankSlate": "このパーティにはメンバーがいません。",
                 "CheckPrompt": {
-                    "AdjustDifficulty": "Adjust Difficulty",
-                    "ChooseLores": "Choose Lores",
-                    "ChooseSaves": "Choose Saves",
-                    "ChooseSkills": "Choose Skills/Perception",
-                    "LevelDC": "Level-Based DC",
-                    "Post": "Generate Prompt",
+                    "AdjustDifficulty": "難易度調整",
+                    "ChooseLores": "知識を選択",
+                    "ChooseSaves": "セーヴを選択",
+                    "ChooseSkills": "技能/知覚を選択",
+                    "LevelDC": "レベルに基づく難易度",
+                    "Post": "プロンプトを作成",
                 
-                    "SecretCheck": "Secret Check",
-                    "SetDC": "Set DC",
-                    "SimpleDC": "Simple DC",
-                    "SkillsPerception": "Skills/Perception",
-                    "Title": "Generate Check Prompt",
-                    "TitleShort": "Check Prompt"
+                    "SecretCheck": "非公開判定",
+                    "SetDC": "DCを設定",
+                    "SimpleDC": "単純な難易度",
+                    "SkillsPerception": "技能/知覚",
+                    "Title": "判定プロンプトの作成",
+                    "TitleShort": "判定プロンプト"
                 },
                 "Coin": "硬貨",
                 "ClearActivities": {
                     "Label": "クリア",
-                    "Complete": "Party exploration activities have been cleared"
+                    "Complete": "パーティの探索連続行動をクリアしました"
                 },
                 "ClownCar": {
                     "Deposit": "Deposit PC Tokens",
                     "Retrieve": "Retrieve PC Tokens"
                 },
-                "DefaultName": "The Party",
+                "DefaultName": "パーティ",
                 "InvalidCampaign": {
                     "Hint": "The campaign data is invalid",
                     "Title": "Invalid Campaign ({party})",
@@ -538,12 +538,12 @@
                 "Languages": "パーティの言語",
                 "MembersLabel": "メンバー: ",
                 "NoMembers": "メンバーがいません",
-                "NoSpecialSenses": "No Special Senses",
+                "NoSpecialSenses": "特別な感覚なし",
                 "RemoveMember": {
-                    "Title": "Remove Member",
-                    "Content": "Remove member from party?"
+                    "Title": "メンバーを削除",
+                    "Content": "このパーティから削除しますか？"
                 },
-                "Rest": "Rest",
+                "Rest": "休憩",
                 "Sidebar": {
                     "ActivateParty": "Activate Party",
                     "CreateMember": "Create New Member",
@@ -553,7 +553,7 @@
                     "OtherParties": "Other Parties"
                 },
                 "Skills": "パーティの技能",
-                "SlotAvailable": "Slot Available",
+                "SlotAvailable": "空のスロット",
                 "Tabs": {
                     "Overview": "概要",
                     "Exploration": "探索",
@@ -563,10 +563,10 @@
                 "Total": "合計",
                 "TravelHeader": "移動速度",
                 "Visibility": {
-                    "Restricted": "Restricted",
-                    "Unrestricted": "Unrestricted"
+                    "Restricted": "制限あり",
+                    "Unrestricted": "制限なし"
                 },
-                "Wealth": "Wealth"
+                "Wealth": "価値"
             },
             "Plural": "Actors"
         },
@@ -649,10 +649,10 @@
         "ArmorGroupWood": "木種",
         "ArmorMajorResilientRune": "レジリエント（メジャー）",
         "ArmorMajorStrikingRune": "ストライキング（メジャー）",
-        "ArmorPotencyRune1": "防具発現ルーン (+1)",
-        "ArmorPotencyRune2": "防具発現ルーン (+2)",
-        "ArmorPotencyRune3": "防具発現ルーン (+3)",
-        "ArmorPotencyRune4": "防具発現ルーン (+4)",
+        "ArmorPotencyRune1": "アーマー・ポテンシィ (+1)",
+        "ArmorPotencyRune2": "アーマー・ポテンシィ (+2)",
+        "ArmorPotencyRune3": "アーマー・ポテンシィ (+3)",
+        "ArmorPotencyRune4": "アーマー・ポテンシィ (+4)",
         "ArmorPropertyRuneAcidResistant": "アシッド＝レジスタント",
         "ArmorPropertyRuneAntimagic": "アンティマジック",
         "ArmorPropertyRuneBitter": "ビッター",
@@ -691,7 +691,7 @@
         "ArmorPropertyRuneStanching": "スタンチング",
         "ArmorPropertyRuneTrueStanching": "スタンチング（トゥルー）",
         "ArmorPropertyRuneWinged": "ウィングド",
-        "ArmorResilientRune": "レジリエント",
+        "ArmorResilientRune": "リジリアント",
         "ArmorSpeedLabel": "速度ペナルティ",
         "ArmorStrengthLabel": "筋力閾値",
         "ArmorStrengthRequiredLabel": "必要筋力",
@@ -1742,7 +1742,7 @@
                 },
                 "Rune": {
                     "Resilient": {
-                        "Label": "Resilient Rune"
+                        "Label": "リジリアント・ルーン"
                     }
                 },
                 "Specific": {
@@ -2119,7 +2119,7 @@
                         "Description": "君は水と流体を支配する。全ての教義が正統派に語られているわけではない。秘密裏に囁かれ、司祭から信頼のおける待祭に、あるいは散逸した派閥に残された書物に記された教えもある。"
                     },
                     "Wealth": {
-                        "Label": "富",
+                        "Label": "価値",
                         "Description": "君は富、取引、宝物に力を及ぼす"
                     },
                     "Wyrmkin": {
@@ -2442,7 +2442,7 @@
                     "OneMinute": "1分"
                 },
                 "Rune": {
-                    "Potency": "Weapon Potency",
+                    "Potency": "ウェポン・ポテンシィ",
                     "Striking": {
                         "Greater": "グレーター・ストライキング",
                         "Major": "メジャー・ストライキング",
@@ -2460,9 +2460,9 @@
             "WorldItemWarning": "これはワールド・アイテムであり、辞典にセーヴしても機能しません"
         },
         "ItemBonus0": "0",
-        "ItemBonus1": "+1 武器発現",
-        "ItemBonus2": "+2 武器発現",
-        "ItemBonus3": "+3 武器発現",
+        "ItemBonus1": "+1 ウェポン・ポテンシィ",
+        "ItemBonus2": "+2 ウェポン・ポテンシィ",
+        "ItemBonus3": "+3 ウェポン・ポテンシィ",
         "ItemBonusLabel": "アイテム・ボーナス",
         "ItemBonusMinus2": "粗悪品 (-2)",
         "ItemBonusShortLabel": "アイテム",
@@ -2719,7 +2719,7 @@
             "proficiency": "習熟",
             "circumstance": "状況",
             "item": "アイテム",
-            "potency": "発現",
+            "potency": "ポテンシィ",
             "status": "状態",
             "untyped": "無名"
         },
@@ -2903,7 +2903,7 @@
             "CharacterNumber": "Character #",
             "CurrentFaction": "Current Faction",
             "Factions": {
-                "EA": "Envoy's Alliance",
+                "EA": "(特殊) ブーケ",
                 "GA": "Grand Archive",
                 "HH": "Horizon Hunters",
                 "RO": "Radiant Oath",
@@ -2931,7 +2931,7 @@
         "PerceptionCheck": "知覚判定",
         "PerceptionHeader": "知覚",
         "PerceptionLabel": "知覚",
-        "PotencyRuneLabel": "発現ルーン",
+        "PotencyRuneLabel": "ポテンシィ",
         "PreciousMaterialAbysium": "アビシウム",
         "PreciousMaterialAbysiumDescription": "奇妙な緑色の光を放つ、青みがかった緑色の金属であるアビシウムは、生命を害する力を放つ。この素材に不注意に暴露することにより、免疫系に長期的なダメージを負うことがある；このように、アビシウムの採掘は有害であるため、範囲内に大量のこの金属があることは、近隣の全てのクリーチャーに不調を引き起こす。アビシウムの物体を運んでいるクリーチャーは、軽バルクの標準クラスの物体なら不調1に、標準クラスの1バルク以上の物体、あるいは軽バルクの高級クラスの物体なら不調2に、高級クラスの1バルク以上の物体なら不調3になる。この不調と、アビシウムのあらゆる有害な効果は毒効果である。正シャク社は毒を持つアビシウム粉末6服を作るために、1つのアビシウムの原石を使うことが出来る。無節操な鍛冶屋はアビシウムの毒の特性を制御し、猛毒の武器や命を奪う物質を作り出す。アビシウムから作られた全ての物体は、10フィート半径に薄暗い光を放つ。",
         "PreciousMaterialAdamantine": "アダマンティン",
@@ -3648,7 +3648,7 @@
         "SkillThi": "盗賊",
         "SkillThievery": "盗賊",
         "SkillsLabel": "技能",
-        "SkillPotencyHeader": "技能 発現",
+        "SkillPotencyHeader": "スキル・ポテンシィ",
         "SkillFeatLevels": "技能特技を得るレベル",
         "SkillIncreaseLevels": "技能増加を得るレベル",
         "Scene": {
@@ -3870,7 +3870,7 @@
         },
         "TotalTreasure": "宝飾品の合計",
         "TotalCoinage": "硬貨の合計",
-        "TotalWealth": "富の合計",
+        "TotalWealth": "価値の合計",
         "TrainedSkillsLabel": "修得済みの技能",
         "TraitAasimar": "アアシマール",
         "TraitAberration": "異形",
@@ -4890,6 +4890,7 @@
             "NormalTerrain": "通常の地形の速度",
             "DifficultTerrain": "移動困難地形の速度",
             "GreaterDifficultTerrain": "非常に移動困難地形の速度",
+            "HexplorationActivities": "探索連続行動(ヘクス)",
             "Distance": "距離",
             "TerrainSlowdown": "地形の速度",
             "Label": "旅の移動速度",
@@ -5209,10 +5210,10 @@
         "WeaponHands2": "2",
         "WeaponMAPDefaultOption": "デフォルト（機敏特性があれば適用される）",
         "WeaponMAPLabel": "複数回攻撃ペナルティ",
-        "WeaponPotencyRune1": "武器発現 (+1)",
-        "WeaponPotencyRune2": "武器発現 (+2)",
-        "WeaponPotencyRune3": "武器発現(+3)",
-        "WeaponPotencyRune4": "武器発現 (+4)",
+        "WeaponPotencyRune1": "ウェポン・ポテンシィ (+1)",
+        "WeaponPotencyRune2": "ウェポン・ポテンシィ (+2)",
+        "WeaponPotencyRune3": "ウェポン・ポテンシィ (+3)",
+        "WeaponPotencyRune4": "ウェポン・ポテンシィ (+4)",
         "WeaponPropertyCriticalDamageLabel": "クリティカル・ダメージ",
         "WeaponPropertyCriticalEffectLabel": "クリティカル効果",
         "WeaponPropertyRune": {
@@ -5310,7 +5311,7 @@
                 }
             },
             "ghostTouch": {
-                "Name": "ゴースト＝タッチ・ルーン",
+                "Name": "ゴースト・タッチ・ルーン",
                 "Note": "<b>ゴースト＝タッチ・ルーン</b> この武器は物質的な形態を持たないクリーチャーを傷つけることが出来る。ゴースト・タッチ武器は非実体のクリーチャーに特に効果的である。非実体はほとんど常にゴースト・タッチに特に弱点を持つのである。非実体クリーチャーはゴースト・タッチ武器を（ほとんどの物理的な物体と異なり）触れ、持ち、使うことが出来る。"
             },
             "greaterAnchoring": {
@@ -5471,7 +5472,7 @@
                 "Name": "スピード・ルーン"
             },
             "spellStoring": {
-                "Name": "スペル＝ストアリング・ルーン"
+                "Name": "スペル・ストアリング・ルーン"
             },
             "thundering": {
                 "Name": "サンダリング・ルーン",
