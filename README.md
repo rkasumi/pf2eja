@@ -8,6 +8,12 @@ https://w.atwiki.jp/p2rdj/
 * pf2e-legacy-contentをインストールして、main.pyを実行することでpf2e systemへ必要な辞書を上書きする
   * spells-legacyは呪文体系のJSONの持ち方が変わっていたのでmain.pyで合わせて変換する
 
+# babele.js クリーチャーの余計なデータを翻訳しないようにする
+modules/babele/babele.js
+DEFAULT_MAPPINGS
+Actor
+items　をまるっとコメントアウト
+
 # compendium browserをデフォルト絞り込み
 * デフォルトだと全ソースが表示される => 翻訳していないソースが表示されてしまう
 * 対象："pathfinder-core-rulebook", "pathfinder-player-core", "pathfinder-advanced-players-guide"
@@ -15,14 +21,16 @@ https://w.atwiki.jp/p2rdj/
   * PF2E.ActionActionTypeLabel の直後のsource内の selected: [""]
       "pathfinder-core-rulebook", "pathfinder-player-core", "pathfinder-advanced-players-guide"
   * PF2E.BrowserFilterWeaponFilters の直後のsource内の selected: [""]
-    * "pathfinder-core-rulebook", "pathfinder-player-core", "pathfinder-advanced-players-guide", "pathfinder-gm-core"
+    * "pathfinder-core-rulebook", "pathfinder-player-core", "pathfinder-advanced-players-guide",
+      "pathfinder-gm-core"
   * PF2E.BrowserFilterSkills の直後のsource内の selected: [""]
-      "pathfinder-core-rulebook", "pathfinder-player-core", "pathfinder-advanced-players-guide","pathfinder-secrets-of-magic"
+      "pathfinder-core-rulebook", "pathfinder-player-core", "pathfinder-advanced-players-guide",
+      "pathfinder-secrets-of-magic"
   * PF2E.BrowserFilterSpellCategories の直後のsource内の selected: [""]
       "pathfinder-core-rulebook", "pathfinder-player-core", "pathfinder-advanced-players-guide"
 
 # 呪文詳細にセーヴ有無を表示
-items/partials/spell-description-prepend.hbs 末尾に追記
+systems/pf2e/templates/items/partials/spell-description-prepend.hbs 末尾に追記
 
 {{#if (eq spell.system.defense.save.statistic "reflex")}}
 {{#if spell.system.defense.save.basic}}

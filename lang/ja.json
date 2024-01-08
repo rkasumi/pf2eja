@@ -193,6 +193,13 @@
                     "Cost": "コスト"
                 },
                 "HandsOccupied": "Hands Occupied",
+                "Language": {
+                    "OverLimit": "このキャラクターが現在使用できる言語の数を超えています。",
+                    "Unallocated": {
+                        "Label": "未割り当て",
+                        "Tooltip": "キャラクターが使用できる言語を選択します。"
+                    }
+                },
                 "Proficiency": {
                     "Attack": {
                         "Advanced": "高度武器",
@@ -231,6 +238,9 @@
                 },
                 "CriticalSpecialization": "クリティカル特化効果",
                 "Language": {
+                    "CommonLanguage": "共通語",
+                    "DetailsPlaceholder": "",
+                    "Plural": "言語",
                     "abyssal": "奈落語",
                     "adlet": "Adlet",
                     "akitonian": "Akitonian",
@@ -463,6 +473,20 @@
                 "Exceptions": "以下を除く",
                 "Title": "{actor}: {category}",
                 "Type": "種別"
+            },
+            "Speed": {
+                "BaseLabel": "基本 {type} 移動速度",
+                "Plural": "移動速度",
+                "Label": "移動速度",
+                "LabelFeet": "移動速度 (フィート)",
+                "Type": {
+                    "Burrow": "穴掘り",
+                    "Climb": "登攀",
+                    "Fly": "飛行",
+                    "Label": "{type} 移動速度",
+                    "Land": "歩行",
+                    "Swim": "水泳"
+                }
             },
             "NPC": {
                 "Configure": {
@@ -894,6 +918,7 @@
                 },
                 "Label": "結果: <unadjusted>{unadjusted}</unadjusted> <offset>by {offset}</offset>"
             },
+            "SetAsInitiative": "{actor}のイニシアチブに設定",
             "Specific": {
                 "Counteract": "対抗判定",
                 "Perception": {
@@ -1461,12 +1486,10 @@
                 }
             },
             "ExcludingFromInitiative": "Excluding {type} {actor} from initiative.",
-            "HasNoInitiativeScore": "{actor} has no initiative score.",
-            "HideName": "Hide Name",
-            "InitiativeSet": "Initiative of {actor} was set to {initiative}.",
-            "ExcludingFromInitiative": "{type} {actor}をイニシアチブから除外します",
             "HasNoInitiativeScore": "{actor} にイニシアチブ値がありません",
             "HideName": "名前を隠す",
+            "InitiativeSet": "{actor} のイニシアチブを設定しました： {initiative}",
+            "ExcludingFromInitiative": "{type} {actor}をイニシアチブから除外します",
             "Metrics": {
                 "Award": {
                     "Label": "Award: {xp} XP",
@@ -3015,10 +3038,6 @@
         "Usage": "使用法",
         "Reach": "間合い",
         "RecallKnowledge": {
-            "Label": "知識を思い出す",
-            "Help": "クリーチャーについてより多くの情報を得るために君は「知識を思い出す」を繰り返して使うことができる。この判定は下記のチャート通り、難易度が増加していく。しかしながら、もし君が失敗したか、DCが記載されていないなら、君は更なる「知識を思い出す」を試みることが出来ない",
-            "Breakdown": "挑戦",
-            "BreakdownTitle": "クリーチャー識別の挑戦",
             "FirstAttempt": "1回目のDC",
             "SecondAttempt": "2回目のDC",
             "ThirdAttempt": "3回目のDC",
@@ -3026,7 +3045,12 @@
             "FifthAttempt": "5回目のDC",
             "SixthAttempt": "6回目のDC",
             "SpecificLore": "特定の知識",
-            "UnspecificLore": "特定のものでない知識",
+            "Breakdown": "挑戦",
+            "BreakdownTitle": "クリーチャーの知識を思い出す",
+            "Help": "クリーチャーについてより多くの情報を得るために君は「知識の想起」を繰り返して使うことができる。この判定は下記のチャート通り、難易度(DC)が増加していく。しかしながら、もし君が失敗したか、DCが記載されていないなら、君は更なる「知識の想起」を試みることが出来ない",
+            "Label": "知識の想起",
+            "LoreEasy": "該当する知識 (簡単)",
+            "LoreVeryEasy": "該当する知識 (とても簡単)",
             "Skill": "技能"
         },
         "Recovery": {
@@ -3047,18 +3071,18 @@
         "RepairItemTitle": "「アイテムの修理」に挑戦",
         "Repost": "チャットへ投稿",
         "RerollMenu": {
-            "ErrorNoActor": "そのロールに関連するアクターがいません",
             "ErrorCantDelete": "オリジナルのロールを削除することは出来ません",
+            "ErrorNoActor": "そのロールに関連するアクターがいません",
             "HeroPoint": "ヒーロー・ポイントを使って再ロールします",
-            "KeepBest": "再ロールして良い方の結果を残す",
+            "KeepHigher": "再ロールして良い方の結果を残す",
             "KeepNew": "再ロールして新しい結果を残す",
-            "KeepWorst": "再ロールして悪い方の結果を残す",
-            "MessageKeep": {
-                "new": "再ロールして新しい結果を残しました",
-                "best": "再ロールして良い方の結果を残しました",
-                "worst": "再ロールして悪い方の結果を残しました"
-            },
+            "KeepLower": "再ロールして悪い方の結果を残す",
             "MessageHeroPoint": "ヒーロー・ポイントを使って再ロールしました",
+            "MessageKeep": {
+                "higher": "再ロールして新しい結果を残しました",
+                "new": "再ロールして良い方の結果を残しました",
+                "lower": "再ロールして悪い方の結果を残しました"
+            },
             "WarnNoHeroPoint": "{name} のヒーロー・ポイントはゼロです"
         },
         "ResistancesLabel": "抵抗",

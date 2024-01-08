@@ -36,6 +36,13 @@
         "name": "日本語",
         "path": "lang/re-ja.json",
         "flags": {}
+      },
+      {
+        "lang": "ja",
+        "system": "pf2e",
+        "name": "日本語",
+        "path": "lang/pf2e-toolbelt.json",
+        "flags": {}
       }
     ],
     "scripts": [
@@ -47,6 +54,14 @@
          "system": "pf2e",
          "label": "神格 (FR)",
          "path": "./packs/fr-deities.db",
+         "type": "Item",
+         "module": "z_pf2eja"
+       },
+	     {
+         "name": "dragonborn",
+         "system": "pf2e",
+         "label": "ドラゴンボーン",
+         "path": "./packs/dragonborn.db",
          "type": "Item",
          "module": "z_pf2eja"
        }
