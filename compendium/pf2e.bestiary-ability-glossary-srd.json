@@ -1,0 +1,152 @@
+{
+	"label": "Bestiary Ability Glossary",
+	"entries": {
+		"+1 Status to All Saves vs. Magic": {
+			"name": "魔法に対する全てのセーヴに＋1の状態ボーナス"
+		},
+		"All-Around Vision": {
+			"name": "全周囲視覚"
+		},
+		"Aquatic Ambush": {
+			"name": "水棲奇襲"
+		},
+		"At-Will Spells": {
+			"name": "回数無制限呪文"
+		},
+		"Attack of Opportunity": {
+			"name": "機会攻撃"
+		},
+		"Aura": {
+			"name": "オーラ"
+		},
+		"Buck": {
+			"name": "振り落とし"
+		},
+		"Catch Rock": {
+			"name": "岩つかみ"
+		},
+		"Change Shape": {
+			"name": "変身"
+		},
+		"Constant Spells": {
+			"name": "常時呪文"
+		},
+		"Constrict": {
+			"name": "締めつけ"
+		},
+		"Coven": {
+			"name": "魔女団"
+		},
+		"Darkvision": {
+			"name": "暗視"
+		},
+		"Disease": {
+			"name": "病気"
+		},
+		"Engulf": {
+			"name": "包み込み"
+		},
+		"Fast Healing": {
+			"name": "高速治癒"
+		},
+		"Ferocity": {
+			"name": "凶暴性"
+		},
+		"Form Up": {
+			"name": "整列"
+		},
+		"Frightful Presence": {
+			"name": "畏怖すべき存在"
+		},
+		"Grab": {
+			"name": "つかみ"
+		},
+		"Greater Constrict": {
+			"name": "上級締めつけ"
+		},
+		"Greater Darkvision": {
+			"name": "上級暗視"
+		},
+		"Improved Grab": {
+			"name": "つかみ強化"
+		},
+		"Improved Knockdown": {
+			"name": "打ち倒し強化"
+		},
+		"Improved Push": {
+			"name": "押しやり強化"
+		},
+		"Knockdown": {
+			"name": "打ち倒し"
+		},
+		"Lifesense": {
+			"name": "生命感知"
+		},
+		"Light Blindness": {
+			"name": "光による盲目化"
+		},
+		"Low-Light Vision": {
+			"name": "夜目"
+		},
+		"Nimble Dodge": {
+			"name": "素早き回避"
+		},
+		"Poison": {
+			"name": "毒"
+		},
+		"Power Attack": {
+			"name": "強打"
+		},
+		"Push": {
+			"name": "押しやり"
+		},
+		"Regeneration": {
+			"name": "再生"
+		},
+		"Rend": {
+			"name": "かきむしり"
+		},
+		"Retributive Strike": {
+			"name": "応報の打撃"
+		},
+		"Scent": {
+			"name": "鋭敏嗅覚"
+		},
+		"Shield Block": {
+			"name": "盾防御"
+		},
+		"Sneak Attack": {
+			"name": "急所攻撃"
+		},
+		"Swallow Whole": {
+			"name": "飲み込み"
+		},
+		"Swarm Mind": {
+			"name": "集合精神"
+		},
+		"Telepathy": {
+			"name": "テレパシー"
+		},
+		"Thoughtsense": {
+			"name": "思考感知"
+		},
+		"Throw Rock": {
+			"name": "岩投げ"
+		},
+		"Trample": {
+			"name": "蹂躙"
+		},
+		"Tremorsense": {
+			"name": "振動感知"
+		},
+		"Troop Defenses": {
+			"name": "部隊防御"
+		},
+		"Void Healing": {
+			"name": "負のエネルギーによる回復"
+		},
+		"Wavesense": {
+			"name": "波動知覚"
+		}
+	}
+}

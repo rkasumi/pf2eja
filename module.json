@@ -46,6 +46,7 @@
       }
     ],
     "scripts": [
+        "main.js",
         "register-babele.js"
     ],
     "packs": [
@@ -88,7 +89,7 @@
       ]
     },
     "flags": {
-      "_pf2eja": {
+      "z_pf2eja": {
         "pf2e-homebrew": {
           "creatureTraits": {
             "evil": {
@@ -106,7 +107,11 @@
             "lawful": {
               "label": "PF2E.TraitLawful",
               "description": "PF2E.TraitDescriptionLawful"
-            }
+            },
+              "half-elf": {
+                "label": "PF2E.TraitHalfElf",
+                "description": ""
+              }
           },
           "damageTypes": {
             "evil": {
@@ -168,6 +173,22 @@
               "lawful": {
                 "label": "PF2E.TraitLawful",
                 "description": "PF2E.TraitDescriptionLawful"
+              },
+              "half-elf": {
+                "label": "(旧) ハーフエルフ",
+                "description": ""
+              },
+              "half-orc": {
+                "label": "(旧) ハーフオーク",
+                "description": ""
+              },
+              "tiefling": {
+                "label": "ティーフリング",
+                "description": ""
+              },
+              "aasimar": {
+                "label": "アアシマール",
+                "description": ""
               }
           },
           "languages": {

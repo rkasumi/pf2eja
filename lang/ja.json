@@ -280,7 +280,7 @@
                     "girtablilu": "Girtablilu",
                     "gnoll": "ノール語",
                     "gnomish": "ノーム語",
-                    "goblin": "ゴブリン",
+                    "goblin": "ゴブリン語",
                     "goloma": "Goloma",
                     "grioth": "Grioth",
                     "grippli": "Grippli",
@@ -1387,6 +1387,7 @@
         "DeleteSpellcastEntryQuestion": "本当にこの呪文発動の項目を削除しますか？",
         "DeleteSpellcastEntryWarning": "警告: この呪文発動の項目の全ての項目も共に削除されます",
         "DenominationLabel": "デノミネーション",
+        "Details": "詳細",
         "DetailsHeading": "詳細",
         "DragDropFeats": "ドラッグ＆ドロップして特技を追加する",
         "Duration": {
@@ -1590,7 +1591,7 @@
             "Outdated": "メモのための古い焦点化プールの値、クリックして消去できる",
             "Pool": "残りの焦点化ポイント",
             "Previous": "前回",
-            "Spells": "焦点化呪文",
+            "Spells": "焦点化",
             "label": "焦点化",
             "pointLabel": "焦点化ポイント"
         },
@@ -2404,6 +2405,10 @@
                     "PrimaryCheck": "主要判定",
                     "SecondaryChecks": "2番目の判定",
                     "SecondaryCasters": "2番目の術者"
+                },
+                "Sustained": {
+                    "Duration": "維持、{maximum} まで",
+                    "Label": "維持"
                 },
                 "Variants": {
                     "DeleteDialogText": "本当に '{variantName}'を削除しますか？",
@@ -3726,7 +3731,7 @@
         "SpellDamageLabel": "呪文ダメージ",
         "SpellDCBase": "基本呪文DC 10",
         "SpellDurationLabel": "持続時間",
-        "SpellFocusLabel": "焦点化呪文",
+        "SpellFocusLabel": "焦点化",
         "SpellFlexibleLabel": "柔軟",
         "SpellFlexibleAvailable": "柔軟: {value} / {max}",
         "SpellCollectionAdd": "呪文コレクションに追加",
@@ -3756,13 +3761,13 @@
         "SpellScalingInterval": {
             "Header": "スケーリング (インターバル)",
             "Label": "インターバル",
-            "Selection": "増強 (+{interval})",
-            "Add": "増強の追加 (インターバル)"
+            "Selection": "高レベル化 (+{interval})",
+            "Add": "高レベル化の追加 (インターバル)"
         },
-        "SpellScalingLabel": "Scaling",
+        "SpellScalingLabel": "スケーリング",
         "SpellScalingOverlay": {
-            "Add": "Add Heightening (Fixed)",
-            "Selection": "Heightened ({level})"
+            "Add": "高レベル化の追加 (所定)",
+            "Selection": "高レベル化 ({level})"
         },
         "SpellcastingSettings": {
             "Title": "呪文発動設定",
@@ -3775,7 +3780,7 @@
         "SpellTimeLabel": "発動時間",
         "SpellTraditionsLabel": "呪文体系",
         "SpellTypeAttack": "呪文攻撃",
-        "SpellTypeFocus": "焦点化呪文",
+        "SpellTypeFocus": "焦点化",
         "SpellTypeHeal": "治癒",
         "SpellTypeRitual": "儀式",
         "SpellTypeLabel": "呪文種別",
@@ -3784,7 +3789,7 @@
         "SpellCategorySpell": "呪文",
         "SpellUsesLabel": "使用",
         "SpellUnlimitedLabel": "無制限",
-        "SpellCategoryFocus": "焦点化呪文",
+        "SpellCategoryFocus": "焦点化",
         "SpellCategoryRitual": "儀式",
         "SpellCategoryFocusCantrip": "焦点化キャントリップ",
         "SpellCategoryLabel": "呪文カテゴリ",
@@ -4401,7 +4406,7 @@
         "TraitExpandable": "拡張可能",
         "TraitExploration": "探索",
         "TraitExtradimensional": "異次元",
-        "TraitFocus": "焦点化呪文",
+        "TraitFocus": "焦点化",
         "TraitFatalAim": "狙い撃ち",
         "TraitFatalAimD10": "狙い撃ち d10",
         "TraitFatalAimD12": "狙い撃ち d12",

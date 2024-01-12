@@ -289,8 +289,8 @@
             "EncouragingWords": {
                 "BadArgs": "This action must be performed with exactly one character or NPC.",
                 "Cancel": "キャンセル",
-                "ContentLabel1": "Diplomacy DC:",
-                "ContentLabel2": "DC Modifier:",
+                "ContentLabel1": "〈交渉〉DC:",
+                "ContentLabel2": "DC修正値:",
                 "ContentMain": "Select a target DC. Remember that you can't attempt a heal above your proficiency. Attempting to do so will downgrade the DC and amount healed to the highest you're capable of.",
                 "ContentOption1": "Trained DC 15",
                 "ContentOption2": "Expert DC 20, +5 Stamina",
@@ -810,24 +810,24 @@
             "TreatWounds": {
                 "Content": "Select a target DC. Remember that you can't attempt a heal above your proficiency. Attempting to do so will downgrade the DC and amount healed to the highest you're capable of.",
                 "DC": {
-                    "Expert": "Expert DC 20, +10 Healing",
-                    "Legendary": "Legendary DC 40, +50 Healing",
-                    "Master": "Master DC 30, +30 Healing",
-                    "Mod": "DC Modifier",
-                    "Trained": "Trained DC 15"
+                    "Expert": "熟練DC 20, +10 回復",
+                    "Legendary": "伝説DC 40, +50 回復",
+                    "Master": "達人DC 30, +30 回復",
+                    "Mod": "DC修正値",
+                    "Trained": "修得DC 15"
                 },
-                "Error": "{name} does not have the {skill} skill",
+                "Error": "{name} は {skill} 技能を持っていません",
                 "Feats": {
                     "MortalHealing": "Mortal Healing",
-                    "RiskySurgery": "Risky Surgery"
+                    "RiskySurgery": "際どい手術"
                 },
                 "Label": "傷の手当て",
                 "Rolls": {
-                    "RiskySurgery": "Damage Roll: Risky Surgery",
-                    "TreatWounds": "Healing Roll: Treat Wounds",
-                    "TreatWoundsCriticalFailure": "Damage Roll: Treat Wounds"
+                    "RiskySurgery": "ダメージロール: 際どい手術",
+                    "TreatWounds": "回復ロール: 傷の手当て",
+                    "TreatWoundsCriticalFailure": "ダメージロール: 傷の手当て"
                 },
-                "SkillSelect": "Treat Wounds Skill"
+                "SkillSelect": "傷の手当て用の技能"
             },
             "Trip": {
                 "Description": "<p>You try to knock a creature to the ground. Attempt an Athletics check against the target's Reflex DC.</p><p><strong>大成功</strong> The target falls and lands prone and takes 1d6 bludgeoning damage.<br><strong>成功</strong> The target falls and lands prone.<br><strong>大失敗</strong> You lose your balance and fall and land prone.</p>",

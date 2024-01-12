@@ -1,1100 +1,1107 @@
 {
-	"label": "Bestiary 3",
+	"label": "ベスティアリィ3",
+  "mapping": {
+    "publicNotes": "system.details.publicNotes",
+    "items": {
+      "path": "items",
+      "converter": "bestiaryItems"
+    }
+  },
 	"entries": {
 		"Abandoned Zealot": {
-			"name": "Abandoned Zealot"
+			"name": "アバンダンド・ゼロット"
 		},
 		"Abrikandilu": {
-			"name": "Abrikandilu"
+			"name": "アブリカンディル (レッカー・デーモン)"
 		},
 		"Adachros": {
-			"name": "Adachros"
+			"name": "アダクロス"
 		},
 		"Adhukait": {
-			"name": "Adhukait"
+			"name": "アズカイト"
 		},
 		"Adlet": {
-			"name": "Adlet"
+			"name": "アドレット"
 		},
 		"Adult Forest Dragon": {
-			"name": "Adult Forest Dragon"
+			"name": "アダルト・フォレスト・ドラゴン"
 		},
 		"Adult Forest Dragon (Spellcaster)": {
-			"name": "Adult Forest Dragon (Spellcaster)"
+			"name": "アダルト・フォレスト・ドラゴン (術者)"
 		},
 		"Adult Sea Dragon": {
-			"name": "Adult Sea Dragon"
+			"name": "アダルト・シー・ドラゴン"
 		},
 		"Adult Sea Dragon (Spellcaster)": {
-			"name": "Adult Sea Dragon (Spellcaster)"
+			"name": "アダルト・シー・ドラゴン (術者)"
 		},
 		"Adult Sky Dragon": {
-			"name": "Adult Sky Dragon"
+			"name": "アダルト・スカイ・ドラゴン"
 		},
 		"Adult Sky Dragon (Spellcaster)": {
-			"name": "Adult Sky Dragon (Spellcaster)"
+			"name": "アダルト・スカイ・ドラゴン (術者)"
 		},
 		"Adult Sovereign Dragon": {
-			"name": "Adult Sovereign Dragon"
+			"name": "アダルト・ソヴリン・ドラゴン"
 		},
 		"Adult Sovereign Dragon (Spellcaster)": {
-			"name": "Adult Sovereign Dragon (Spellcaster)"
+			"name": "アダルト・ソヴリン・ドラゴン (術者)"
 		},
 		"Adult Underworld Dragon": {
-			"name": "Adult Underworld Dragon"
+			"name": "アダルト・アンダーワールド・ドラゴン"
 		},
 		"Adult Underworld Dragon (Spellcaster)": {
-			"name": "Adult Underworld Dragon (Spellcaster)"
+			"name": "アダルト・アンダーワールド・ドラゴン (術者)"
 		},
 		"Aghash": {
-			"name": "Aghash"
+			"name": "アガシ"
 		},
 		"Air Wisp": {
-			"name": "Air Wisp"
+			"name": "エア・ウィスプ"
 		},
 		"Amalgamite": {
-			"name": "Amalgamite"
+			"name": "アマルガマイト"
 		},
 		"Amphisbaena": {
-			"name": "Amphisbaena"
+			"name": "アンフィスバエナ"
 		},
 		"Ancient Forest Dragon": {
-			"name": "Ancient Forest Dragon"
+			"name": "エインシャント・フォレスト・ドラゴン"
 		},
 		"Ancient Forest Dragon (Spellcaster)": {
-			"name": "Ancient Forest Dragon (Spellcaster)"
+			"name": "エインシャント・フォレスト・ドラゴン (術者)"
 		},
 		"Ancient Sea Dragon": {
-			"name": "Ancient Sea Dragon"
+			"name": "エインシャント・シー・ドラゴン"
 		},
 		"Ancient Sea Dragon (Spellcaster)": {
-			"name": "Ancient Sea Dragon (Spellcaster)"
+			"name": "エインシャント・シー・ドラゴン (術者)"
 		},
 		"Ancient Sky Dragon": {
-			"name": "Ancient Sky Dragon"
+			"name": "エインシャント・スカイ・ドラゴン"
 		},
 		"Ancient Sky Dragon (Spellcaster)": {
-			"name": "Ancient Sky Dragon (Spellcaster)"
+			"name": "エインシャント・スカイ・ドラゴン (術者)"
 		},
 		"Ancient Sovereign Dragon": {
-			"name": "Ancient Sovereign Dragon"
+			"name": "エインシャント・ソヴリン・ドラゴン"
 		},
 		"Ancient Sovereign Dragon (Spellcaster)": {
-			"name": "Ancient Sovereign Dragon (Spellcaster)"
+			"name": "エインシャント・ソヴリン・ドラゴン (術者)"
 		},
 		"Ancient Underworld Dragon": {
-			"name": "Ancient Underworld Dragon"
+			"name": "エインシャント・アンダーワールド・ドラゴン"
 		},
 		"Ancient Underworld Dragon (Spellcaster)": {
-			"name": "Ancient Underworld Dragon (Spellcaster)"
+			"name": "エインシャント・アンダーワールド・ドラゴン (術者)"
 		},
 		"Android Infiltrator": {
-			"name": "Android Infiltrator"
+			"name": "アンドロイドの侵入者"
 		},
 		"Angazhani": {
-			"name": "Angazhani"
+			"name": "アンガザニ"
 		},
 		"Angheuvore Flesh-Gnawer": {
-			"name": "Angheuvore Flesh-Gnawer"
+			"name": "アンゲウヴォラ・フレッシュナウアー"
 		},
 		"Animated Colossus": {
-			"name": "Animated Colossus"
+			"name": "アニメイテッド・コロッサス"
 		},
 		"Animated Furnace": {
-			"name": "Animated Furnace"
+			"name": "アニメイテッド・ファーナス"
 		},
 		"Animated Silverware Swarm": {
-			"name": "Animated Silverware Swarm"
+			"name": "アニメイテッド・シルヴァーウェア・スウォーム"
 		},
 		"Animated Trebuchet": {
-			"name": "Animated Trebuchet"
+			"name": "アニメイテッド・トレビュシェット"
 		},
 		"Aphorite Sharpshooter": {
-			"name": "Aphorite Sharpshooter"
+			"name": "アフォライトの狙撃兵"
 		},
 		"Arboreal Archive": {
-			"name": "Arboreal Archive"
+			"name": "アーボリアル・アーカイブ"
 		},
 		"Arboreal Reaper": {
-			"name": "Arboreal Reaper"
+			"name": "アーボリアル・リーパー"
 		},
 		"Azarketi Explorer": {
-			"name": "Azarketi Explorer"
+			"name": "アザーケティの探索者"
 		},
 		"Azer": {
-			"name": "Azer"
+			"name": "エイザー"
 		},
 		"Bauble Beast": {
-			"name": "Bauble Beast"
+			"name": "ボーブル・ビースト"
 		},
 		"Baykok": {
-			"name": "Baykok"
+			"name": "ベイコク"
 		},
 		"Betobeto-San": {
-			"name": "Betobeto-San"
+			"name": "ベトベトサン"
 		},
 		"Bison": {
-			"name": "Bison"
+			"name": "バイソン"
 		},
 		"Blood Hag": {
-			"name": "Blood Hag"
+			"name": "ブラッド・ハグ"
 		},
 		"Blood Painter": {
-			"name": "Blood Painter"
+			"name": "ブラッド・ペインター"
 		},
 		"Bone Ship": {
-			"name": "Bone Ship"
+			"name": "ボーン・シップ"
 		},
 		"Bore Worm Swarm": {
-			"name": "Bore Worm Swarm"
+			"name": "ボア・ワーム・スウォーム"
 		},
 		"Brainchild": {
-			"name": "Brainchild"
+			"name": "ブレインチャイルド"
 		},
 		"Brimorak": {
-			"name": "Brimorak"
+			"name": "ブリモラク (アーソン・デーモン)"
 		},
 		"Buso Farmer": {
-			"name": "Buso Farmer"
+			"name": "ブソーの農民"
 		},
 		"Cactus Leshy": {
-			"name": "Cactus Leshy"
+			"name": "カクタス・レーシー"
 		},
 		"Caligni Caller": {
-			"name": "Caligni Caller"
+			"name": "カリグニの召喚者"
 		},
 		"Caligni Vanguard": {
-			"name": "Caligni Vanguard"
+			"name": "カリグニの先陣"
 		},
 		"Calikang": {
-			"name": "Calikang"
+			"name": "カリカング"
 		},
 		"Camel": {
-			"name": "Camel"
+			"name": "キャメル"
 		},
 		"Caulborn": {
-			"name": "Caulborn"
+			"name": "コールボーン"
 		},
 		"Cave Giant": {
-			"name": "Cave Giant"
+			"name": "ケイヴ・ジャイアント"
 		},
 		"Cecaelia Trapper": {
-			"name": "Cecaelia Trapper"
+			"name": "セカエリアの罠師"
 		},
 		"Chouchin-Obake": {
-			"name": "Chouchin-Obake"
+			"name": "チョウチンオバケ"
 		},
 		"Chyzaedu": {
-			"name": "Chyzaedu"
+			"name": "チザエドゥ"
 		},
 		"City Guard Squadron": {
-			"name": "City Guard Squadron"
+			"name": "都市衛兵の飛空隊"
 		},
 		"Clacking Sea Skull Swarm": {
-			"name": "Clacking Sea Skull Swarm"
+			"name": "クラックリング・シー・スカル・スウォーム"
 		},
 		"Clacking Skull Swarm": {
-			"name": "Clacking Skull Swarm"
+			"name": "クラックリング・スカル・スウォーム"
 		},
 		"Clockwork Dragon": {
-			"name": "Clockwork Dragon"
+			"name": "クロックワーク・ドラゴン"
 		},
 		"Clockwork Mage": {
-			"name": "Clockwork Mage"
+			"name": "クロックワーク・メイジ"
 		},
 		"Clockwork Soldier": {
-			"name": "Clockwork Soldier"
+			"name": "クロックワーク・ソルジャー"
 		},
 		"Clockwork Spy": {
-			"name": "Clockwork Spy"
+			"name": "クロックワーク・スパイ"
 		},
 		"Cobbleswarm": {
-			"name": "Cobbleswarm"
+			"name": "コブルスウォーム"
 		},
 		"Common Eurypterid": {
-			"name": "Common Eurypterid"
+			"name": "コモン・ユーリプテリス"
 		},
 		"Consonite Choir": {
-			"name": "Consonite Choir"
+			"name": "コンソナイト・クワイア"
 		},
 		"Coral Capuchin": {
-			"name": "Coral Capuchin"
+			"name": "コーラル・キャプチン"
 		},
 		"Corrupted Relic": {
-			"name": "Corrupted Relic"
+			"name": "コラプテッド・レリック"
 		},
 		"Crossroads Guardian": {
-			"name": "Crossroads Guardian"
+			"name": "クロスローズ・ガーディアン"
 		},
 		"Cunning Fox": {
-			"name": "Cunning Fox"
+			"name": "カニング・フォックス"
 		},
 		"Danava Titan": {
-			"name": "Danava Titan"
+			"name": "ダーナヴァ・ティタン"
 		},
 		"Deimavigga": {
-			"name": "Deimavigga"
+			"name": "デイマヴィア (アポステート・デヴィル)"
 		},
 		"Desert Giant": {
-			"name": "Desert Giant"
+			"name": "デザート・ジャイアント"
 		},
 		"Divine Warden Of Nethys": {
-			"name": "Divine Warden Of Nethys"
+			"name": "ディヴァイン・ウォーデン・オヴ・ネシス"
 		},
 		"Domovoi": {
-			"name": "Domovoi"
+			"name": "ドモヴォイ"
 		},
 		"Doru": {
-			"name": "Doru"
+			"name": "ドル"
 		},
 		"Draconal (Black)": {
-			"name": "Draconal (Black)"
+			"name": "ドラコナル (黒)"
 		},
 		"Draconal (Green)": {
-			"name": "Draconal (Green)"
+			"name": "ドラコナル (緑)"
 		},
 		"Draconal (Red)": {
-			"name": "Draconal (Red)"
+			"name": "ドラコナル (黒)"
 		},
 		"Draconal (White)": {
-			"name": "Draconal (White)"
+			"name": "ドラコナル (白)"
 		},
 		"Draconal (Yellow)": {
-			"name": "Draconal (Yellow)"
+			"name": "ドラコナル (黄)"
 		},
 		"Dramofir": {
-			"name": "Dramofir"
+			"name": "ドラモフィル"
 		},
 		"Draxie": {
-			"name": "Draxie"
+			"name": "ドラクシー"
 		},
 		"Dretch": {
-			"name": "Dretch"
+			"name": "ドレッチ"
 		},
 		"Duende": {
-			"name": "Duende"
+			"name": "ドゥエンデ"
 		},
 		"Dvorovoi": {
-			"name": "Dvorovoi"
+			"name": "ドヴォロヴォイ"
 		},
 		"Dybbuk": {
-			"name": "Dybbuk"
+			"name": "ディビューク"
 		},
 		"Earth Wisp": {
-			"name": "Earth Wisp"
+			"name": "アース・ウィスプ"
 		},
 		"Einherji": {
-			"name": "Einherji"
+			"name": "エインヘリヤル"
 		},
 		"Elder Sphinx": {
-			"name": "Elder Sphinx"
+			"name": "エルダー・スフィンクス"
 		},
 		"Elder Wyrmwraith": {
-			"name": "Elder Wyrmwraith"
+			"name": "エルダー・ワームレイス"
 		},
 		"Elysian Titan": {
-			"name": "Elysian Titan"
+			"name": "エリシアン・ティタン"
 		},
 		"Empress Bore Worm": {
-			"name": "Empress Bore Worm"
+			"name": "エンプレス・ボア・ウォーム"
 		},
 		"Empress Ice Worm": {
-			"name": "Empress Ice Worm"
+			"name": "エンプレス・アイス・ウォーム"
 		},
 		"Empress Lava Worm": {
-			"name": "Empress Lava Worm"
+			"name": "エンプレス・ラヴァ・ウォーム"
 		},
 		"Empress Mage-Eater Worm": {
-			"name": "Empress Mage-Eater Worm"
+			"name": "エンプレス・メイジ-イーター・ウォーム"
 		},
 		"Empress Necral Worm": {
-			"name": "Empress Necral Worm"
+			"name": "エンプレス・ネクラル・ウォーム"
 		},
 		"Esipil": {
-			"name": "Esipil"
+			"name": "エシビル"
 		},
 		"Etioling Blightmage": {
-			"name": "Etioling Blightmage"
+			"name": "エティオリング・ブライトメイジ"
 		},
 		"Eunemvro": {
-			"name": "Eunemvro"
+			"name": "ユーネンヴロ"
 		},
 		"Fading Fox": {
-			"name": "Fading Fox"
+			"name": "フェイディング・フォックス"
 		},
 		"Feathered Bear": {
-			"name": "Feathered Bear"
+			"name": "フェザード・ベア"
 		},
 		"Feral Sea Skull Swarm": {
-			"name": "Feral Sea Skull Swarm"
+			"name": "フェラル・シー・スカル・スウォーム"
 		},
 		"Feral Skull Swarm": {
-			"name": "Feral Skull Swarm"
+			"name": "フェラル・スカル・スウォーム"
 		},
 		"Festrog": {
-			"name": "Festrog"
+			"name": "フェストラーゴ"
 		},
 		"Fire Wisp": {
-			"name": "Fire Wisp"
+			"name": "ファイアー・ウィスプ"
 		},
 		"Flaming Skull": {
-			"name": "Flaming Skull"
+			"name": "フレイミング・スカル"
 		},
 		"Flumph": {
-			"name": "Flumph"
+			"name": "フランフ"
 		},
 		"Fortune Eater": {
-			"name": "Fortune Eater"
+			"name": "フォーチュン・イーター"
 		},
 		"Fossil Golem": {
-			"name": "Fossil Golem"
+			"name": "ファシル・ゴーレム"
 		},
 		"Fuath": {
-			"name": "Fuath"
+			"name": "フーア"
 		},
 		"Galvo": {
-			"name": "Galvo"
+			"name": "ギャルヴォ"
 		},
 		"Ganzi Martial Artist": {
-			"name": "Ganzi Martial Artist"
+			"name": "ガンジの武闘家"
 		},
 		"Garuda": {
-			"name": "Garuda"
+			"name": "ガルーダ"
 		},
 		"Gathlain Wanderer": {
-			"name": "Gathlain Wanderer"
+			"name": "ガスレインの放浪者"
 		},
 		"Ghoran Manipulator": {
-			"name": "Ghoran Manipulator"
+			"name": "ゴーランの操り師"
 		},
 		"Giant Flying Squirrel": {
-			"name": "Giant Flying Squirrel"
+			"name": "ジャイアント・フライング・スクワール"
 		},
 		"Giant Hermit Crab": {
-			"name": "Giant Hermit Crab"
+			"name": "ジャイアント・ハーミット・クラブ"
 		},
 		"Giant Opossum": {
-			"name": "Giant Opossum"
+			"name": "ジャイアント・オポッサム"
 		},
 		"Giant Pangolin": {
-			"name": "Giant Pangolin"
+			"name": "ジャイアント・パンゴリン"
 		},
 		"Giant Porcupine": {
-			"name": "Giant Porcupine"
+			"name": "ジャイアント・ポーキュパイン"
 		},
 		"Giant Seahorse": {
-			"name": "Giant Seahorse"
+			"name": "ジャイアント・シーホース"
 		},
 		"Giant Skunk": {
-			"name": "Giant Skunk"
+			"name": "ジャイアント・スカンク"
 		},
 		"Giant Vulture": {
-			"name": "Giant Vulture"
+			"name": "ジャイアント・ヴァルチャー （ハゲワシ)"
 		},
 		"Girtablilu Seer": {
-			"name": "Girtablilu Seer"
+			"name": "ギルタブルルの先見"
 		},
 		"Girtablilu Sentry": {
-			"name": "Girtablilu Sentry"
+			"name": "ギルタブルルの歩哨"
 		},
 		"Gliminal": {
-			"name": "Gliminal"
+			"name": "グリミナル"
 		},
 		"Globster": {
-			"name": "Globster"
+			"name": "グロブスター"
 		},
 		"Green Man": {
-			"name": "Green Man"
+			"name": "グリーン・マン"
 		},
 		"Grimple": {
-			"name": "Grimple"
+			"name": "グリンブル"
 		},
 		"Grioth Cultist": {
-			"name": "Grioth Cultist"
+			"name": "グリオスの狂信者"
 		},
 		"Grioth Scout": {
-			"name": "Grioth Scout"
+			"name": "グリオスの斥候"
 		},
 		"Guecubu": {
-			"name": "Guecubu"
+			"name": "グエキューブ"
 		},
 		"Gurgist Mauler": {
-			"name": "Gurgist Mauler"
+			"name": "ガーギスト・マウラー"
 		},
 		"Hadrinnex": {
-			"name": "Hadrinnex"
+			"name": "ハドリネクス"
 		},
 		"Haniver": {
-			"name": "Haniver"
+			"name": "ハニヴァー"
 		},
 		"Harmona": {
-			"name": "Harmona"
+			"name": "ハルモナ"
 		},
 		"Harpy Skeleton": {
-			"name": "Harpy Skeleton"
+			"name": "ハーピィ・スケルトン"
 		},
 		"Hatred Siktempora": {
-			"name": "Hatred Siktempora"
+			"name": "ヘイトレッド・シクテンポーラ"
 		},
 		"Hekatonkheires Titan": {
-			"name": "Hekatonkheires Titan"
+			"name": "ヘカトンケイル・ティタン"
 		},
 		"Hellbound Attorney": {
-			"name": "Hellbound Attorney"
+			"name": "ヘルバウンド・アトーニー"
 		},
 		"Hellknight Cavalry Brigade": {
-			"name": "Hellknight Cavalry Brigade"
+			"name": "ヘルナイト騎兵旅団"
 		},
 		"Hellwasp Swarm": {
-			"name": "Hellwasp Swarm"
+			"name": "ヘルワスプ・スウォーム"
 		},
 		"Herexen": {
-			"name": "Herexen"
+			"name": "ハレクセン"
 		},
 		"Hermit Crab Swarm": {
-			"name": "Hermit Crab Swarm"
+			"name": "ハーミット・クラブ・スウォーム"
 		},
 		"Hesperid": {
-			"name": "Hesperid"
+			"name": "ヘスペリッド"
 		},
 		"Hesperid Queen": {
-			"name": "Hesperid Queen"
+			"name": "ヘスペリッド・クイーン"
 		},
 		"Hieracosphinx": {
-			"name": "Hieracosphinx"
+			"name": "ヒエラコスフィンクス"
 		},
 		"House Drake": {
-			"name": "House Drake"
+			"name": "ハウス・ドレイク"
 		},
 		"Huldra": {
-			"name": "Huldra"
+			"name": "フルドラ"
 		},
 		"Hyakume": {
-			"name": "Hyakume"
+			"name": "ヒャクメ"
 		},
 		"Ice Worm Swarm": {
-			"name": "Ice Worm Swarm"
+			"name": "アイス・ワーム・スウォーム"
 		},
 		"Incutilis": {
-			"name": "Incutilis"
+			"name": "インカティリス"
 		},
 		"Ioton": {
-			"name": "Ioton"
+			"name": "イロトン"
 		},
 		"Ittan-Momen": {
-			"name": "Ittan-Momen"
+			"name": "イッタンモメン"
 		},
 		"Japalisura": {
-			"name": "Japalisura"
+			"name": "ジャパリスラ"
 		},
 		"Jorogumo": {
-			"name": "Jorogumo"
+			"name": "ジョロウグモ"
 		},
 		"Kangaroo": {
-			"name": "Kangaroo"
+			"name": "カンガルー"
 		},
 		"Kappa": {
-			"name": "Kappa"
+			"name": "カッパ"
 		},
 		"Kasa-Obake": {
-			"name": "Kasa-Obake"
+			"name": "カサオバケ"
 		},
 		"Khravgodon": {
-			"name": "Khravgodon"
+			"name": "クラヴゴードン"
 		},
 		"Kimenhul": {
-			"name": "Kimenhul"
+			"name": "キメンフル"
 		},
 		"Kirin": {
-			"name": "Kirin"
+			"name": "キリン"
 		},
 		"Kishi": {
-			"name": "Kishi"
+			"name": "キシ"
 		},
 		"Kitsune Trickster": {
-			"name": "Kitsune Trickster"
+			"name": "キツネのいかさま師"
 		},
 		"Kodama": {
-			"name": "Kodama"
+			"name": "コダマ"
 		},
 		"Kokogiak": {
-			"name": "Kokogiak"
+			"name": "ココギアク"
 		},
 		"Kongamato": {
-			"name": "Kongamato"
+			"name": "コンガマトー"
 		},
 		"Kovintus Geomancer": {
-			"name": "Kovintus Geomancer"
+			"name": "コヴィンタスの風水師"
 		},
 		"Krampus": {
-			"name": "Krampus"
+			"name": "クランプス"
 		},
 		"Kuchisake-Onna": {
-			"name": "Kuchisake-Onna"
+			"name": "クチサケオンナ"
 		},
 		"Kurobozu": {
-			"name": "Kurobozu"
+			"name": "クロボウズ"
 		},
 		"Kushtaka": {
-			"name": "Kushtaka"
+			"name": "クシュタカ"
 		},
 		"Lampad": {
-			"name": "Lampad"
+			"name": "ランパデス"
 		},
 		"Lampad Queen": {
-			"name": "Lampad Queen"
+			"name": "ランパデス・クイーン"
 		},
 		"Lava Worm Swarm": {
-			"name": "Lava Worm Swarm"
+			"name": "ラヴァ・ワーム・スウォーム"
 		},
 		"Ledalusca": {
-			"name": "Ledalusca"
+			"name": "レダラスカ"
 		},
 		"Leng Ghoul": {
-			"name": "Leng Ghoul"
+			"name": "レン・グール"
 		},
 		"Levaloch": {
-			"name": "Levaloch"
+			"name": "レヴァローク (ウォーモンガー・デヴィル)"
 		},
 		"Lifeleecher Brawler": {
-			"name": "Lifeleecher Brawler"
+			"name": "ライフリーチャー・ブロウラー"
 		},
 		"Living Graffiti (Blood)": {
-			"name": "Living Graffiti (Blood)"
+			"name": "リヴィング・グラフィティ (血)"
 		},
 		"Living Graffiti (Chalk)": {
-			"name": "Living Graffiti (Chalk)"
+			"name": "リヴィング・グラフィティ (チョーク)"
 		},
 		"Living Graffiti (Ink)": {
-			"name": "Living Graffiti (Ink)"
+			"name": "リヴィング・グラフィティ (インク)"
 		},
 		"Living Graffiti (Oil)": {
-			"name": "Living Graffiti (Oil)"
+			"name": "リヴィング・グラフィティ (オイル)"
 		},
 		"Living Rune (Arcane)": {
-			"name": "Living Rune (Arcane)"
+			"name": "リヴィング・ルーン (秘術)"
 		},
 		"Living Rune (Divine)": {
-			"name": "Living Rune (Divine)"
+			"name": "リヴィング・ルーン (信仰)"
 		},
 		"Living Rune (Occult)": {
-			"name": "Living Rune (Occult)"
+			"name": "リヴィング・ルーン (伝承)"
 		},
 		"Living Rune (Primal)": {
-			"name": "Living Rune (Primal)"
+			"name": "リヴィング・ルーン (始原)"
 		},
 		"Locathah Hunter": {
-			"name": "Locathah Hunter"
+			"name": "ロキャーサの狩人"
 		},
 		"Love Siktempora": {
-			"name": "Love Siktempora"
+			"name": "ラヴ・シクテンポーラ"
 		},
 		"Lovelorn": {
-			"name": "Lovelorn"
+			"name": "ラヴローン"
 		},
 		"Maftet Guardian": {
-			"name": "Maftet Guardian"
+			"name": "マフデトの護衛"
 		},
 		"Mage-Eater Worm Swarm": {
-			"name": "Mage-Eater Worm Swarm"
+			"name": "メイジ-イーター・ワーム・スウォーム"
 		},
 		"Maharaja": {
-			"name": "Maharaja"
+			"name": "マハラジャ"
 		},
 		"Manticore Paaridar": {
-			"name": "Manticore Paaridar"
+			"name": "マンティコア・パアライダー"
 		},
 		"Megalictis": {
-			"name": "Megalictis"
+			"name": "メガリクティス"
 		},
 		"Megatherium": {
-			"name": "Megatherium"
+			"name": "メガテリウム"
 		},
 		"Melixie": {
-			"name": "Melixie"
+			"name": "メリクシー"
 		},
 		"Mezlan": {
-			"name": "Mezlan"
+			"name": "メズラン"
 		},
 		"Mi-Go": {
-			"name": "Mi-Go"
+			"name": "ミ＝ゴ"
 		},
 		"Millindemalion": {
-			"name": "Millindemalion"
+			"name": "ミリンデマリオン"
 		},
 		"Misery Siktempora": {
-			"name": "Misery Siktempora"
+			"name": "ミザリィ・シクテンポーラ"
 		},
 		"Mithral Golem": {
-			"name": "Mithral Golem"
+			"name": "ミスラル・ゴーレム"
 		},
 		"Mix Couatl": {
-			"name": "Mix Couatl"
+			"name": "ミックス・コアトル"
 		},
 		"Mobogo": {
-			"name": "Mobogo"
+			"name": "モボゴ"
 		},
 		"Mokele-Mbembe": {
-			"name": "Mokele-Mbembe"
+			"name": "モケーレムベンベ"
 		},
 		"Monkey": {
-			"name": "Monkey"
+			"name": "モンキー"
 		},
 		"Monkey Swarm": {
-			"name": "Monkey Swarm"
+			"name": "モンキー・スウォーム"
 		},
 		"Moon Hag": {
-			"name": "Moon Hag"
+			"name": "ムーン・ハグ"
 		},
 		"Moose": {
-			"name": "Moose"
+			"name": "ムース"
 		},
 		"Mothman": {
-			"name": "Mothman"
+			"name": "モスマン"
 		},
 		"Munagola": {
-			"name": "Munagola"
+			"name": "ムナゴラ (エグセキューショナー・デヴィル)"
 		},
 		"Munavri Spellblade": {
-			"name": "Munavri Spellblade"
+			"name": "ミュナヴリの呪文剣士"
 		},
 		"Myceloid": {
-			"name": "Myceloid"
+			"name": "マイシロイド"
 		},
 		"Nagaji Soldier": {
-			"name": "Nagaji Soldier"
+			"name": "ナガジの兵士"
 		},
 		"Namorrodor": {
-			"name": "Namorrodor"
+			"name": "ナモロドール"
 		},
 		"Narwhal": {
-			"name": "Narwhal"
+			"name": "ノーウォール"
 		},
 		"Necral Worm Swarm": {
-			"name": "Necral Worm Swarm"
+			"name": "ネクラル・ワーム・スウォーム"
 		},
 		"Nemhaith": {
-			"name": "Nemhaith"
+			"name": "ネムハイス"
 		},
 		"Nightgaunt": {
-			"name": "Nightgaunt"
+			"name": "ナイトゴーント"
 		},
 		"Nightmarchers": {
-			"name": "Nightmarchers"
+			"name": "ナイトマーチャス"
 		},
 		"Nikaramsa": {
-			"name": "Nikaramsa"
+			"name": "ニカラムサ"
 		},
 		"Nosferatu Malefactor": {
-			"name": "Nosferatu Malefactor"
+			"name": "ノスフェラトゥの罪人"
 		},
 		"Nosferatu Overlord": {
-			"name": "Nosferatu Overlord"
+			"name": "ノスフェラトゥ・ヴァンパイア"
 		},
 		"Nosferatu Thrall": {
-			"name": "Nosferatu Thrall"
+			"name": "ノスフェラトゥの奴隷"
 		},
 		"Nucol": {
-			"name": "Nucol"
+			"name": "ナコル"
 		},
 		"Nyktera": {
-			"name": "Nyktera"
+			"name": "ニクテラ"
 		},
 		"Omox": {
-			"name": "Omox"
+			"name": "オーモクス (スライム・デーモン)"
 		},
 		"Ostovite": {
-			"name": "Ostovite"
+			"name": "オストヴァイト"
 		},
 		"Ouroboros": {
-			"name": "Ouroboros"
+			"name": "ウロボロス"
 		},
 		"Ovinnik": {
-			"name": "Ovinnik"
+			"name": "オヴィンニク"
 		},
 		"Owb": {
-			"name": "Owb"
+			"name": "オゥブ"
 		},
 		"Owb Prophet": {
-			"name": "Owb Prophet"
+			"name": "オゥブの預言者"
 		},
 		"Pairaka": {
-			"name": "Pairaka"
+			"name": "パイラカ"
 		},
 		"Pakalchi": {
-			"name": "Pakalchi"
+			"name": "パカルキ"
 		},
 		"Palace Skelm": {
-			"name": "Palace Skelm"
+			"name": "パレス・スケルム"
 		},
 		"Penanggalan": {
-			"name": "Penanggalan"
+			"name": "ペナングラン"
 		},
 		"Peri": {
-			"name": "Peri"
+			"name": "ペリ"
 		},
 		"Phantom Beast": {
-			"name": "Phantom Beast"
+			"name": "ファントム・ビースト"
 		},
 		"Phantom Knight": {
-			"name": "Phantom Knight"
+			"name": "ファントム・ナイト"
 		},
 		"Piranha Swarm": {
-			"name": "Piranha Swarm"
+			"name": "ピラニア・スウォーム"
 		},
 		"Plague Giant": {
-			"name": "Plague Giant"
+			"name": "プレイグ・ジャイアント"
 		},
 		"Platecarpus": {
-			"name": "Platecarpus"
+			"name": "プレートカルパス"
 		},
 		"Popobawa": {
-			"name": "Popobawa"
+			"name": "ポポバワ"
 		},
 		"Procyal": {
-			"name": "Procyal"
+			"name": "プロキャル"
 		},
 		"Pufferfish": {
-			"name": "Pufferfish"
+			"name": "パファーフィッシュ"
 		},
 		"Pukwudgie": {
-			"name": "Pukwudgie"
+			"name": "パクアジ"
 		},
 		"Quintessivore": {
-			"name": "Quintessivore"
+			"name": "クインテッシヴォア"
 		},
 		"Raktavarna": {
-			"name": "Raktavarna"
+			"name": "ラクタヴァーナ"
 		},
 		"Rancorous Priesthood": {
-			"name": "Rancorous Priesthood"
+			"name": "憎悪の司祭"
 		},
 		"Rat Snake Swarm": {
-			"name": "Rat Snake Swarm"
+			"name": "ラット・スネーク・スウォーム"
 		},
 		"Red Fox": {
-			"name": "Red Fox"
+			"name": "レッド・フォックス"
 		},
 		"Rhu-Chalik": {
-			"name": "Rhu-Chalik"
+			"name": "リューチャリク"
 		},
 		"Ringhorn Ram": {
-			"name": "Ringhorn Ram"
+			"name": "リングホーン・ラム"
 		},
 		"Roiling Incant (Evocation)": {
-			"name": "Roiling Incant (Evocation)"
+			"name": "ロイリング・インキャント (力術)"
 		},
 		"Rokurokubi": {
-			"name": "Rokurokubi"
+			"name": "ロクロクビ"
 		},
 		"Rosethorn Ram": {
-			"name": "Rosethorn Ram"
+			"name": "ローズソーン"
 		},
 		"Sabosan": {
-			"name": "Sabosan"
+			"name": "サボサン"
 		},
 		"Samsaran Anchorite": {
-			"name": "Samsaran Anchorite"
+			"name": "サンサーランの隠者"
 		},
 		"Sasquatch": {
-			"name": "Sasquatch"
+			"name": "サスカッチ"
 		},
 		"Scalescribe": {
-			"name": "Scalescribe"
+			"name": "スケールスクライブ"
 		},
 		"Seaweed Leshy": {
-			"name": "Seaweed Leshy"
+			"name": "シーウィード・レーシー"
 		},
 		"Seething Spirit": {
-			"name": "Seething Spirit"
+			"name": "シーシング・スピリット"
 		},
 		"Sepid": {
-			"name": "Sepid"
+			"name": "セピド"
 		},
 		"Severed Head": {
-			"name": "Severed Head"
+			"name": "セヴァード・ヘッド"
 		},
 		"Shabti Redeemer": {
-			"name": "Shabti Redeemer"
+			"name": "シャブティの救い手"
 		},
 		"Shae": {
-			"name": "Shae"
+			"name": "シェイ"
 		},
 		"Shambler Troop": {
-			"name": "Shambler Troop"
+			"name": "シャンブラー・トループ"
 		},
 		"Shantak": {
-			"name": "Shantak"
+			"name": "シャンタク"
 		},
 		"Shaukeen": {
-			"name": "Shaukeen"
+			"name": "シャウキーン"
 		},
 		"Shikigami": {
-			"name": "Shikigami"
+			"name": "シキガミ"
 		},
 		"Shrine Skelm": {
-			"name": "Shrine Skelm"
+			"name": "シュライン・スケルム"
 		},
 		"Shulsaga": {
-			"name": "Shulsaga"
+			"name": "シュルサガ"
 		},
 		"Silvanshee": {
-			"name": "Silvanshee"
+			"name": "シルヴァンシー"
 		},
 		"Skeleton Infantry": {
-			"name": "Skeleton Infantry"
+			"name": "スケルトンの歩兵隊"
 		},
 		"Skinstitch": {
-			"name": "Skinstitch"
+			"name": "スキンスティッチ"
 		},
 		"Skull Peeler": {
-			"name": "Skull Peeler"
+			"name": "スカル・ピーラー"
 		},
 		"Skunk": {
-			"name": "Skunk"
+			"name": "スカンク"
 		},
 		"Slithering Pit": {
-			"name": "Slithering Pit"
+			"name": "スリザリング・ピット"
 		},
 		"Sorcerous Sea Skull Swarm": {
-			"name": "Sorcerous Sea Skull Swarm"
+			"name": "ソーサラス・シー・スカル・スウォーム"
 		},
 		"Sorcerous Skull Swarm": {
-			"name": "Sorcerous Skull Swarm"
+			"name": "ソーサラス・スカル・スウォーム"
 		},
 		"Soul Skelm": {
-			"name": "Soul Skelm"
+			"name": "ソウル・スケルム"
 		},
 		"Spiny Eurypterid": {
-			"name": "Spiny Eurypterid"
+			"name": "スパイニー・ユーリプテリス"
 		},
 		"Squirming Swill": {
-			"name": "Squirming Swill"
+			"name": "スクィーミング・スウィル"
 		},
 		"Squirrel Swarm": {
-			"name": "Squirrel Swarm"
+			"name": "スクワール・スウォーム (リス)"
 		},
 		"Stheno Harpist": {
-			"name": "Stheno Harpist"
+			"name": "セノのハープ演者"
 		},
 		"Stone Lion": {
-			"name": "Stone Lion"
+			"name": "ストーン・ライオン"
 		},
 		"Stone Lion Cub": {
-			"name": "Stone Lion Cub"
+			"name": "ストーン・ライオン・カブ"
 		},
 		"Storm Hag": {
-			"name": "Storm Hag"
+			"name": "ストーム・ハグ"
 		},
 		"Street Skelm": {
-			"name": "Street Skelm"
+			"name": "ストリート・スケルム"
 		},
 		"Strix Kinmate": {
-			"name": "Strix Kinmate"
+			"name": "ストリックスのつがい"
 		},
 		"Sturzstromer": {
-			"name": "Sturzstromer"
+			"name": "ストゥルツストローマー"
 		},
 		"Sulfur Zombie": {
-			"name": "Sulfur Zombie"
+			"name": "サルファ・ゾンビ"
 		},
 		"Sumbreiva": {
-			"name": "Sumbreiva"
+			"name": "サンブレイヴァ"
 		},
 		"Swordkeeper": {
-			"name": "Swordkeeper"
+			"name": "ソードキーパー"
 		},
 		"Tattoo Guardian": {
-			"name": "Tattoo Guardian"
+			"name": "タトゥー・ガーディアン"
 		},
 		"Terra-Cotta Garrison": {
-			"name": "Terra-Cotta Garrison"
+			"name": "テラコッタの守備隊"
 		},
 		"Terra-Cotta Soldier": {
-			"name": "Terra-Cotta Soldier"
+			"name": "テラコッタ・ソルジャー"
 		},
 		"Terror Bird": {
-			"name": "Terror Bird"
+			"name": "テラー・バード"
 		},
 		"Terror Shrike": {
-			"name": "Terror Shrike"
+			"name": "テラー・シュライク"
 		},
 		"Thanatotic Titan": {
-			"name": "Thanatotic Titan"
+			"name": "タナトティック・ティタン"
 		},
 		"Three-Toed Sloth": {
-			"name": "Three-Toed Sloth"
+			"name": "スリートゥド・スロース"
 		},
 		"Tiddalik": {
-			"name": "Tiddalik"
+			"name": "ティダリク"
 		},
 		"Tidehawk": {
-			"name": "Tidehawk"
+			"name": "タイドホーク"
 		},
 		"Tikbalang": {
-			"name": "Tikbalang"
+			"name": "ティクバラン"
 		},
 		"Tolokand": {
-			"name": "Tolokand"
+			"name": "トロカンド"
 		},
 		"Tomb Giant": {
-			"name": "Tomb Giant"
+			"name": "トゥーム・ジャイアント"
 		},
 		"Tooth Fairy": {
-			"name": "Tooth Fairy"
+			"name": "トゥース・フェアリー"
 		},
 		"Tooth Fairy Swarm": {
-			"name": "Tooth Fairy Swarm"
+			"name": "トゥース・フェアリー・スウォーム"
 		},
 		"Toshigami": {
-			"name": "Toshigami"
+			"name": "トシガミ"
 		},
 		"Trailgaunt": {
-			"name": "Trailgaunt"
+			"name": "トレイルゴーント"
 		},
 		"Trilobite": {
-			"name": "Trilobite"
+			"name": "トライロバイト"
 		},
 		"Trilobite Swarm": {
-			"name": "Trilobite Swarm"
+			"name": "トライロバイト・スウォーム"
 		},
 		"Triumph Siktempora": {
-			"name": "Triumph Siktempora"
+			"name": "トライアンフ・シクテンポーラ"
 		},
 		"Tupilaq": {
-			"name": "Tupilaq"
+			"name": "トゥピラク"
 		},
 		"Tylosaurus": {
-			"name": "Tylosaurus"
+			"name": "ティロサウロス"
 		},
 		"Tyrannosaurus Skeleton": {
-			"name": "Tyrannosaurus Skeleton"
+			"name": "ティラノサウルス・スケルトン"
 		},
 		"Tzitzimitl": {
-			"name": "Tzitzimitl"
+			"name": "チチミトル"
 		},
 		"Umasi": {
-			"name": "Umasi"
+			"name": "ウマシ"
 		},
 		"Valkyrie": {
-			"name": "Valkyrie"
+			"name": "ヴァルキリー"
 		},
 		"Vanara Disciple": {
-			"name": "Vanara Disciple"
+			"name": "ヴァナラの門弟"
 		},
 		"Vilderavn": {
-			"name": "Vilderavn"
+			"name": "ヴィルデラヴン"
 		},
 		"Vine Leshy": {
-			"name": "Vine Leshy"
+			"name": "ヴァイン・レーシー"
 		},
 		"Viper Swarm": {
-			"name": "Viper Swarm"
+			"name": "ヴァイパー・スウォーム"
 		},
 		"Vishkanya Infiltrator": {
-			"name": "Vishkanya Infiltrator"
+			"name": "ヴィシュカニャの侵入者"
 		},
 		"Vulpinal": {
-			"name": "Vulpinal"
+			"name": "ヴォルピナル"
 		},
 		"Water Wisp": {
-			"name": "Water Wisp"
+			"name": "ウォーター・ウィスプ"
 		},
 		"Wayang Whisperblade": {
-			"name": "Wayang Whisperblade"
+			"name": "ワヤンの囁き刃"
 		},
 		"Weasel": {
-			"name": "Weasel"
+			"name": "ウィーゼル"
 		},
 		"Werebat": {
-			"name": "Werebat"
+			"name": "ワーバット"
 		},
 		"Werecrocodile": {
-			"name": "Werecrocodile"
+			"name": "ワークロコダイル"
 		},
 		"Wihsaak": {
-			"name": "Wihsaak"
+			"name": "ウィーサーク"
 		},
 		"Winter Hag": {
-			"name": "Winter Hag"
+			"name": "ウィンター・ハグ"
 		},
 		"Wizard Sponge": {
-			"name": "Wizard Sponge"
+			"name": "ウィザード・スポンジ"
 		},
 		"Wizard Sponge (Crypt)": {
-			"name": "Wizard Sponge (Crypt)"
+			"name": "ウィザード・スポンジ (墓)"
 		},
 		"Wizard Sponge (Fey Domain)": {
-			"name": "Wizard Sponge (Fey Domain)"
+			"name": "ウィザード・スポンジ (妖精界)"
 		},
 		"Wizard Sponge (Fiendish Temple)": {
-			"name": "Wizard Sponge (Fiendish Temple)"
+			"name": "ウィザード・スポンジ (フィーンドの寺院)"
 		},
 		"Wizard Sponge (Toxic Lair)": {
-			"name": "Wizard Sponge (Toxic Lair)"
+			"name": "ウィザード・スポンジ (Toxic Lair)"
 		},
 		"Wizard Sponge (Underwater)": {
-			"name": "Wizard Sponge (Underwater)"
+			"name": "ウィザード・スポンジ (深海)"
 		},
 		"Wolliped": {
-			"name": "Wolliped"
+			"name": "ウォリペド"
 		},
 		"Wyrmwraith": {
-			"name": "Wyrmwraith"
+			"name": "ワームレイス"
 		},
 		"Wyrwood Sneak": {
-			"name": "Wyrwood Sneak"
+			"name": "ウィルウッドの忍び"
 		},
 		"Ximtal": {
-			"name": "Ximtal"
+			"name": "ジムタル"
 		},
 		"Xiuh Couatl": {
-			"name": "Xiuh Couatl"
+			"name": "ジウー・コアトル"
 		},
 		"Yithian": {
-			"name": "Yithian"
+			"name": "イシアン"
 		},
 		"Young Forest Dragon": {
-			"name": "Young Forest Dragon"
+			"name": "ヤング・フォレスト・ドラゴン"
 		},
 		"Young Forest Dragon (Spellcaster)": {
-			"name": "Young Forest Dragon (Spellcaster)"
+			"name": "ヤング・フォレスト・ドラゴン (術者)"
 		},
 		"Young Sea Dragon": {
-			"name": "Young Sea Dragon"
+			"name": "ヤング・シー・ドラゴン"
 		},
 		"Young Sea Dragon (Spellcaster)": {
-			"name": "Young Sea Dragon (Spellcaster)"
+			"name": "ヤング・シー・ドラゴン (術者)"
 		},
 		"Young Sky Dragon": {
-			"name": "Young Sky Dragon"
+			"name": "ヤング・スカイ・ドラゴン"
 		},
 		"Young Sky Dragon (Spellcaster)": {
-			"name": "Young Sky Dragon (Spellcaster)"
+			"name": "ヤング・スカイ・ドラゴン (術者)"
 		},
 		"Young Sovereign Dragon": {
-			"name": "Young Sovereign Dragon"
+			"name": "ヤング・ソヴリン・ドラゴン"
 		},
 		"Young Sovereign Dragon (Spellcaster)": {
-			"name": "Young Sovereign Dragon (Spellcaster)"
+			"name": "ヤング・ソヴリン・ドラゴン (術者)"
 		},
 		"Young Underworld Dragon": {
-			"name": "Young Underworld Dragon"
+			"name": "ヤング・アンダーワールド・ドラゴン"
 		},
 		"Young Underworld Dragon (Spellcaster)": {
-			"name": "Young Underworld Dragon (Spellcaster)"
+			"name": "ヤング・アンダーワールド・ドラゴン (術者)"
 		},
 		"Yzobu": {
-			"name": "Yzobu"
+			"name": "イゾーブ"
 		},
 		"Zetogeki": {
-			"name": "Zetogeki"
+			"name": "ゼトゲキ"
 		},
 		"Zombie Dragon": {
-			"name": "Zombie Dragon"
+			"name": "ゾンビ・ドラゴン"
 		},
 		"Zuishin": {
-			"name": "Zuishin"
+			"name": "ズイシン"
 		}
 	}
 }
