@@ -134,3 +134,14 @@ if not os.path.isfile(spell_desc_path + ".bk"):
     shutil.copy2(spell_desc_path, spell_desc_path + ".bk")
     with open(spell_desc_path, mode="a") as f:
         print(save_umu, file=f)
+
+
+character_tabs_path = path + "templates/actors/character/tabs/character.hbs"
+if not os.path.isfile(character_tabs_path + ".bk"):
+    shutil.copy2(character_tabs_path, character_tabs_path + ".bk")
+    rep = ""
+    with open(character_tabs_path, 'r') as f:
+        r = f.read()
+        rep = r.replace('pf2e.deities', 'z_pf2eja.fr-deities')
+    with open(character_tabs_path, 'w') as f:
+        print(rep, file=f)

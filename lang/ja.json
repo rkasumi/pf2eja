@@ -1493,7 +1493,7 @@
             "ExcludingFromInitiative": "{type} {actor}をイニシアチブから除外します",
             "Metrics": {
                 "Award": {
-                    "Label": "Award: {xp} XP",
+                    "Label": "報酬: {xp} XP",
                     "Tooltip": {
                         "Four": "4 Party Members",
                         "Plural": "{xpPerFour} × 4 / {recipients} Party Members",
@@ -1501,7 +1501,7 @@
                     }
                 },
                 "Budget": "Budget: {spent}/{max} XP (Party Level {partyLevel})",
-                "Threat": "Threat: <threat>{threat}</threat>"
+                "Threat": "脅威: <threat>{threat}</threat>"
             },
             "NoActiveEncounter": "アクティヴな遭遇がありません",
             "NoTokenInScene": "{actor}はこのシーンにトークンを持っていません",
