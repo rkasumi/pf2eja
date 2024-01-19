@@ -80,8 +80,8 @@ targets = {
   "backgrounds": "backgrounds-legacy",
   "classfeatures": "class-features-legacy",
   "classes": "classes-legacy",
-  #"equipment-effects": "equipment-effects-legacy",
-  #"equipment": "equipment-legacy", # 装備品はCompendium Browserでうまく表示されないため省略
+  "equipment-effects": "equipment-effects-legacy",
+  "equipment": "equipment-legacy",
   "feat-effects": "feat-effects-legacy",
   "feats": "feats-legacy",
   "heritages": "heritages-legacy",
