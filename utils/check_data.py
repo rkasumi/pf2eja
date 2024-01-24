@@ -8,8 +8,8 @@ path = "/home/yaginumad/userdata_pf/Data/systems/pf2e/"
 pathLegacy = "/home/yaginumad/userdata_pf/Data/modules/pf2e-legacy-content/packs/"
 pathRemaster = "/home/yaginumad/userdata_pf/Data/systems/pf2e/packs/"
 
-#ldb = plyvel.DB(pathLegacy+"equipment-legacy", create_if_missing=False)
-ldb = plyvel.DB(pathRemaster+"equipment", create_if_missing=False)
+ldb = plyvel.DB(pathLegacy+"class-features-legacy", create_if_missing=False)
+#ldb = plyvel.DB(pathRemaster+"equipment", create_if_missing=False)
 for key, line in ldb:
   j = json.loads(line)
 

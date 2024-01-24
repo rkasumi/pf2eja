@@ -511,11 +511,11 @@
                 "Identification": {
                     "Skills": {
                         "Label": "{skills}: DC {dc} ({adjustment})",
-                        "Tooltip": "\"The skill used to identify a creature usually depends on that creature's trait, as shown on Table 10–7, but you have leeway on which skills apply.\" – CRB pg. 506"
+                        "Tooltip": "クリーチャーの識別のために使用する技能は、表10-7の通りそのクリーチャーの特性に依存するが、君はどの技能を適用するかの決定権を持つ。(CRB pg. 506)"
                     },
                     "Lore": {
                         "Label": "知識判定: DC {dc1} ({adjustment1}) / DC {dc2} ({adjustment2})",
-                        "Tooltip": "\"Using the applicable Lore usually has an easy or very easy DC (before adjusting for rarity).\" – CRB pg. 506"
+                        "Tooltip": "該当する知識技能を利用する場合、(レアリティ調整前の) DCは通常、簡単またはとても簡単になる。(CRB pg. 506)"
                     }
                 },
                 "SimpleSheet": "Simple NPC Sheet",
@@ -1449,7 +1449,7 @@
                     "DeactivatedBy": "{types}によって抑制"
                 },
                 "TempHP": {
-                    "PluralNew": "{actor} の一時HPが{newQuantity} 点になった：前は{wasAt}：{item}の効果",
+                    "PluralNew": "{actor} の一時HPが {newQuantity} 点になった：前は{wasAt}：{item}の効果",
                     "SingleNew": "{actor} の一時HPが {newQuantity} 点になった：前は{wasAt}：{item}の効果",
                     "WasAt": " (前は{oldQuantity}点だった)"
                 }
@@ -2830,7 +2830,7 @@
                 "WeakLabel": "ウィーク",
                 "WeakNameFormat": "ウィーク・{name}"
             },
-            "ArmorExtraInfoLabelPlaceholder": "AC details...",
+            "ArmorExtraInfoLabelPlaceholder": "AC 詳細 ...",
             "AttackType": {
                 "Melee": "NPC Melee Attack",
                 "Ranged": "NPC Ranged Attack",
@@ -2849,7 +2849,7 @@
             "EditTraits": "Edit Traits",
             "EditWeaknesses": "Edit Weaknesses",
             "EffectsTab": "効果",
-            "HPExtraInfoLabelPlaceholder": "HP details...",
+            "HPExtraInfoLabelPlaceholder": "HP 詳細 ...",
             "Inventory": {
                 "Header": {
                     "NameLabel": "Name",
@@ -2864,11 +2864,11 @@
             "PrivateNotes": "プライベートメモ",
             "PublicNotes": "説明",
             "Remove": "削除",
-            "SavesExtraInfoLabelPlaceholder": "Bonus to all saves...",
+            "SavesExtraInfoLabelPlaceholder": "全セーヴボーナス ...",
             "SendToChat": "Send to chat",
             "SensesLabel": "感覚",
             "SkillRollFlavor": "{skillName} 技能判定 ({rank})",
-            "SpeedExtraInfoLabelPlaceholder": "Speed details...",
+            "SpeedExtraInfoLabelPlaceholder": "移動速度 詳細 ...",
             "SpeedLabel": "移動速度",
             "Spells": {
                 "AttackLabel": "攻撃",
@@ -3055,7 +3055,7 @@
             "SixthAttempt": "6回目のDC",
             "SpecificLore": "特定の知識",
             "Breakdown": "挑戦",
-            "BreakdownTitle": "クリーチャーの知識を思い出す",
+            "BreakdownTitle": "クリーチャーの識別",
             "Help": "クリーチャーについてより多くの情報を得るために君は「知識の想起」を繰り返して使うことができる。この判定は下記のチャート通り、難易度(DC)が増加していく。しかしながら、もし君が失敗したか、DCが記載されていないなら、君は更なる「知識の想起」を試みることが出来ない",
             "Label": "知識の想起",
             "LoreEasy": "該当する知識 (簡単)",
@@ -4745,7 +4745,7 @@
         "TraitStructure": "構造物",
         "TraitSuli": "スリ",
         "TraitSummon": "招来",
-        "TraitSummoned": "招来された",
+        "TraitSummoned": "招来",
         "TraitSummoner": "サモナー",
         "TraitSwashbuckler": "スワッシュバックラー",
         "TraitSwarm": "スウォーム",

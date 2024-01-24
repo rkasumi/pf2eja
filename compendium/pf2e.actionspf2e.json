@@ -1042,8 +1042,8 @@
       "description": "<p><strong>トリガー</strong> Your eidolon takes damage that would bring you to 0 Hit Points and comes from an effect other than a death effect</p>\n<hr />\n<p><strong>Effect</strong> You quickly shut the buffer in your link with your eidolon, causing your bonded ally to wink out of existence before you can be laid low. Your eidolon unmanifests, and you can't Manifest your Eidolon for 1 minute. In exchange, you don't take the triggering damage, though your eidolon still suffers any other adverse effects that accompanied the damage.</p>"
     },
     "Shadow Step": {
-      "name": "Shadow Step",
-      "description": "<p><strong>必要条件</strong> The familiar is in dim light or darkness.</p>\n<hr />\n<p><strong>Effect</strong> The familiar teleports itself up to 30 feet. The destination must be in dim light or darkness and must be within your familiar's line of sight and line of effect.</p>\n<p>This action has the trait matching your tradition of magic, or occult if you aren't a spellcaster.</p>"
+      "name": "影歩き",
+      "description": "<p><strong>必要条件</strong> 使い魔が薄暗い光あるいは暗闇の中にいる。</p>\n<hr />\n<p><strong>効果</strong> 使い魔は自身を30フィートまで瞬間移動させる。到着地点は薄暗い光あるいは暗闇の中でなければならず、使い魔から視線と効果線が通っていなければならない。このアクションは君の魔法体系に対応する特性を持つ。君が術者でない場合、伝承を持つ。</p>"
     },
     "Shake It Off": {
       "name": "Shake It Off",

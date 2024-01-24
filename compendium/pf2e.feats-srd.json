@@ -146,8 +146,8 @@
       "description": "<p>You gain one kineticist feat. For the purpose of meeting its prerequisites, your kineticist level is equal to half your level. Your options include impulse feats for your kinetic element, as normal for a kineticist.</p>\n<hr />\n<p><strong>Special</strong> You can select this feat more than once. Each time you select it, you gain another kineticist feat.</p>"
     },
     "Advanced Elemental Spell": {
-      "name": "Advanced Elemental Spell",
-      "description": "<p>Your connection to one of the great elemental aspects of nature deepens, allowing you further control over its powers.</p>\n<p>You gain the advanced order spell associated with your order:</p>\n<ul>\n<li>if you're a member of the flame order, you gain <em>@UUID[Compendium.pf2e.spells-srd.Item.Combustion]</em>;</li>\n<li>if you're a member of the stone order, you gain <em>@UUID[Compendium.pf2e.spells-srd.Item.Stone Lance]</em>;</li>\n<li>if you're a member of the storm order, you gain <em>@UUID[Compendium.pf2e.spells-srd.Item.Powerful Inhalation]</em>;</li>\n<li>if you're a member of the wave order, you gain <em>@UUID[Compendium.pf2e.spells-srd.Item.Pulverizing Cascade]</em>.</li>\n</ul>\n<p>Increase the number of Focus Points in your focus pool by 1.</p><p>@UUID[Compendium.pf2e.spells-srd.Item.Z3kJty995FkrsZRb]</p><p>@UUID[Compendium.pf2e.spells-srd.Item.ECApRjIIxD0JogOa]</p><p>@UUID[Compendium.pf2e.spells-srd.Item.v4QHuVOhFD1JMAqu]</p><p>@UUID[Compendium.pf2e.spells-srd.Item.E80SrXuBdZViPGiH]</p>"
+      "name": "高度元素呪文",
+      "description": "<p>君は自然の大いなる元素の側面の1つとのつながりが深まり、その力を操作できるようになる。</p>\n<p>君の円環に応じた呪文を得る。:</p>\n<ul>\n<li>炎の円環 <em>@UUID[Compendium.pf2e.spells-srd.Item.Z3kJty995FkrsZRb]</em>;</li>\n<li>石の円環 <em>@UUID[Compendium.pf2e.spells-srd.Item.ECApRjIIxD0JogOa]</em>;</li>\n<li>嵐の円環 @UUID[Compendium.pf2e.spells-srd.Item.v4QHuVOhFD1JMAqu]</li>\n<li>波の円環 <em>@UUID[Compendium.pf2e.spells-srd.Item.E80SrXuBdZViPGiH]</em>;</li></ul><p>(私家訳)</p>"
     },
     "Advanced General Training": {
       "name": "高度一般訓練",
@@ -218,8 +218,8 @@
       "description": "<p>　君は高度武器を扱う技術を身に着けた。</p><p>　武器種を1つ選択する。君はその武器種の高度武器全てがその武器種の軍用武器であるかのように、それらの習熟を得る。</p>\n"
     },
     "Advanced Weaponry": {
-      "name": "Advanced Weaponry",
-      "description": "<p>Your eidolon's attack evolves.</p>\n<p>Choose one of your eidolon's starting melee unarmed attacks. It gains one of the following traits, chosen when you gain the feat: disarm, grapple, nonlethal, shove, trip, or versatile bludgeoning, piercing, or slashing.</p>"
+      "name": "高度兵器",
+      "description": "<p>君の幻獣の攻撃が進化する。</p>\n<p>君の幻獣の開始時の近接素手攻撃を1つ選ぶ。その攻撃は君が特技取得時に選択した、以下の武器特性のうち1つを得る。武器落とし、組みつき、非致傷、突き飛ばし、足払い、多用途(殴打、斬撃または刺突)</p>"
     },
     "Advanced Witchcraft": {
       "name": "高度魔女学",
@@ -234,8 +234,8 @@
       "description": "<p><strong>Requirements</strong> You are wielding a shield.</p>\n<hr />\n<p>Inspired by the tale of Arnisant, you transform your shield into a magic ward. Until the beginning of your next turn, you gain the @UUID[Compendium.pf2e.actionspf2e.Item.Absorb into the Aegis] reaction.</p><p>@UUID[Compendium.pf2e.actionspf2e.Item.S9PZFOVe7zhORkUc]</p>"
     },
     "Aeon Resonance": {
-      "name": "Aeon Resonance",
-      "description": "<p>You gain the resonant power of one embedded <em>aeon stone</em> as if it were placed in a wayfinder. While you can embed multiple <em>aeon stones</em> in your flesh, you can gain the resonance power from only one embedded stone at a time, selected each day when you make your daily preparations.</p>\n<hr />\n<p><strong>Special</strong> At 8th level, you can take this feat again. If you do, you gain the resonance powers of up to four invested <em>aeon stones</em> instead of only one.</p>"
+      "name": "アイオーンの共鳴",
+      "description": "<p><b>アーキタイプ</b> ルーンロード</p><p>君は、あたかもウェイファインダーの中に<em>アイオーン・ストーン</em>を埋め込んだかのように、埋め込まれた<em>アイオーン・ストーン</em>1個の共鳴パワーを得る。君は複数のアイオーン・ストーンを肉体に埋め込むことができるが、一度に埋め込むことができるのは1つのアイオーン・ストーンのみである。</p>\n<hr />\n<p><strong>特殊</strong> 8レベルにおいて、君はこの特技を再び取得することができる。その場合、君は最大4つのアイオーン・ストーンの共鳴を得る。</p><p>(私家訳)</p>"
     },
     "Aerial Boomerang": {
       "name": "Aerial Boomerang",
@@ -359,7 +359,7 @@
     },
     "Align Armament": {
       "name": "武具属性化",
-      "description": "<p><strong>前提条件</strong> 悪、混沌、善、秩序のいずれかの神格</p><p><strong>使用回数</strong> 1ラウンド1回</p>\n<p>　君は武器1つを神格の信念に形而上学的に一致させる。この特技を選択した際、悪、混沌、善、秩序から1つを選択する。君は神格の属性要素の1つと一致した属性を選択しなければならない。このアクションは選択した属性要素に対応する特性を持つ。</p>\n<p>　このアクションを使用する際、武器1つに接触する。1ラウンドの間、この武器は対立属性のクリーチャーに1d6の選択した種別のダメージを与える。例えば、君が善を選択したなら、この武器は悪クリーチャーに追加で1d6の［善］ダメージを与えるだろう。君が再度この特技を使用したなら、以前に属性化された武具は追加ダメージを失う。</p>\n<p>　特殊 君はこの特技を2回選択できる。2回目は神格の別の属性要素を選択すること。</p>\n<p>　この特技を使用する際、君は属性要素をいずれか1つから選択できる。</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.XC3dRbwfu35vuvmM]</p><p>@UUID[Compendium.pf2e.feat-effects.Item.eA14bUF7xhNCzw2v]</p><p>@UUID[Compendium.pf2e.feat-effects.Item.bl4HXm1e4NQ0iJs5]</p><p>@UUID[Compendium.pf2e.feat-effects.Item.KkbFlNfcQQUfSVXd]</p>"
+      "description": "<p><strong>前提条件</strong> 悪、混沌、善、秩序のいずれかの神格</p><p><strong>使用回数</strong> 1ラウンド1回</p>\n<p>　君は武器1つを神格の信念に形而上学的に一致させる。この特技を選択した際、悪、混沌、善、秩序から1つを選択する。君は神格の属性要素の1つと一致した属性を選択しなければならない。このアクションは選択した属性要素に対応する特性を持つ。</p>\n<p>　このアクションを使用する際、武器1つに接触する。1ラウンドの間、この武器は対立属性のクリーチャーに1d6の選択した種別のダメージを与える。例えば、君が善を選択したなら、この武器は悪クリーチャーに追加で1d6の［善］ダメージを与えるだろう。君が再度この特技を使用したなら、以前に属性化された武具は追加ダメージを失う。</p>\n<p><b>特殊</b> 君はこの特技を2回選択できる。2回目は神格の別の属性要素を選択すること。</p>\n<p>　この特技を使用する際、君は属性要素をいずれか1つから選択できる。</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.XC3dRbwfu35vuvmM]</p><p>@UUID[Compendium.pf2e.feat-effects.Item.eA14bUF7xhNCzw2v]</p><p>@UUID[Compendium.pf2e.feat-effects.Item.bl4HXm1e4NQ0iJs5]</p><p>@UUID[Compendium.pf2e.feat-effects.Item.KkbFlNfcQQUfSVXd]</p>"
     },
     "Align Ki": {
       "name": "整気術",
@@ -914,12 +914,12 @@
       "description": "<p><strong>トリガー</strong> 君の間合い内にいるクリーチャーが操作ないし移動アクションを使用したか、遠隔攻撃を行ったか、移動アクションを使用する間にマスから離れた。</p>\n<p>　君は隙を見せた敵に怒りをぶつける。トリガーとなったクリーチャーに1回の近接“打撃”を行う。君の攻撃がクリティカル・ヒットしてトリガーとなったのが操作アクションだったなら、君はそのアクションを妨害する。この“打撃”は君の複数回攻撃ペナルティを計算する際に計上せず、複数回攻撃ペナルティはこの“打撃”に適用されない。</p>\n"
     },
     "Attuned Stride": {
-      "name": "Attuned Stride",
-      "description": "<p>You can move freely through terrain you're attuned to. When you gain a terrain attunement benefit, you ignore difficult terrain in the corresponding type of terrain until the end of your next turn.</p>"
+      "name": "同調歩行",
+      "description": "<p><b>アーキタイプ</b> ジオマンサー</p><p><b>前提条件</b> 〈自然〉の熟練</p><p>君は同調した地形を自由に移動する。君が地形同調の利益を得ると、次の君のターンの終了時まで、君は地形同調に対応する場所の移動困難地形の影響を受けない。</p>"
     },
     "Attunement Shift": {
-      "name": "Attunement Shift",
-      "description": "<p><strong>Frequency</strong> once per 10 minutes</p>\n<p><strong>Requirements</strong> Your previous action was to cast a spell with the air, cold, earth, fire, plant, or water trait.</p>\n<hr />\n<p>The magic of your spell floods into you, overriding your connection to the land around you. You alter your terrain attunement to a terrain that matches a trait of the spell you just cast. You thereby gain your terrain attunement benefit when you cast further spells with the same descriptor, instead of using the terrain you're actually in. For instance, if you cast <em>@UUID[Compendium.pf2e.spells-srd.Item.Tangle Vine]</em>, your terrain attunement switches to your choice of forest or swamp, and your terrain attunement applies when you cast another plant spell.</p>\n<p>Your terrain attunement reverts to that of the terrain you're in 1 minute after you use Attunement Shift.</p><p>@UUID[Compendium.pf2e.spells-srd.Item.uZK2BYzPnxUBnDjr]</p>"
+      "name": "同調遷移",
+      "description": "<p><b>アーキタイプ</b> ジオマンサー</p><p><strong>頻度</strong> 10分に1回</p>\n<p><strong>必要条件</strong> 君の直前のアクションが風、氷雪、地、火炎、植物、水のいずれかの特性を持つ呪文の発動のために使用された。</p>\n<hr />\n<p>君の呪文の魔法は自分に流れ込み、周囲の土地とのつながりを上書きする。君は地形同調の効果を今君が発動した呪文の特性に合うように変更する。その後、君が発動した呪文が同じ特性を持つ地形同調の利益を得る。例えば、君がタングルフットを発動した場合、君の地形同調は森林もしくは沼地のいずれかから君が選択したものに切り替わり、君が他の植物呪文を発動した際に地形同調が適用される。</p><p>君の地形同調は1分が経過するかもう一度《同調遷移》を使用した後まで持続する。</p><p>@UUID[Compendium.pf2e.spells-srd.Item.uZK2BYzPnxUBnDjr]</p>"
     },
     "Attunement to Stone": {
       "name": "Attunement to Stone",
@@ -1154,8 +1154,8 @@
       "description": "<p>Your innate ability to fascinate others develops into full-fledged spellcasting. This spellcasting comes naturally and instinctively to you, rather than as a product of training. Choose a 1st-level occult spell from either the enchantment or illusion school. You can Cast this Spell as an occult innate spell. At 6th level, you gain a 2nd-level spell, and at 8th level, you gain a 3rd-level spell. Each of these spells must be from either the enchantment or illusion school.</p>"
     },
     "Basic Cathartic Spellcasting": {
-      "name": "Basic Cathartic Spellcasting",
-      "description": "<p>You gain the basic spellcasting benefits. Each time you gain a spell slot of a new level from this archetype, add a spell of that spell level from your chosen tradition to your repertoire-either a common spell or another spell you've learned or discovered.</p>"
+      "name": "カサーティックの基本呪文発動",
+      "description": "<p>　君は基本呪文発動の利益を得る。このアーキタイプから新しいレベルの呪文スロットを得るたびに、その呪文レベルの選んだ系統の呪文1つを君のレパートリーに加える。</p>"
     },
     "Basic Cleric Spellcasting": {
       "name": "クレリックの基本呪文発動",
@@ -1258,8 +1258,8 @@
       "description": "<p><strong>前提条件</strong> 《ソーサラーへの専念》</p>\n<p>　君は基本呪文発動の利益を得る。君がソーサラー・アーキタイプから新しいレベルの呪文スロットを得るたびに、適切な呪文レベルの呪文1つを君のレパートリーに加える。この呪文は血脈の体系に属するコモン呪文1つか、血脈の特典呪文1つか、君が学んだもしくは発見した別の呪文1つのいずれかでなければならない。</p>\n"
     },
     "Basic Spellcasting": {
-      "name": "Basic Spellcasting",
-      "description": "<p>You increase your ability to cast spells. You gain the basic spellcasting benefits granted by spellcasting archetypes, gaining a spell repertoire. Each time you gain a spell slot of a new level from the basic, expert, and master spellcasting benefits from pervasive magic feats, add a spell of the appropriate spell level to your repertoire: a common spell of the magical tradition matching your trait, or another spell of that tradition that you have learned or discovered.</p>"
+      "name": "基本呪文発動",
+      "description": "<p>君は呪文を発動する能力を高める。君は呪文発動アーキタイプによって与えられる基本呪文発動の利益を得て、呪文のレパートリーを得る。君が広範囲魔法の偉業から基本呪文発動の利益、熟練呪文発動の利益、達人呪文発動の利益から新しいレベルの呪文スロットを得るたびに、君の特性に対応する魔法体系にあるコモンの呪文、あるいは君が身につけるか発見するかしたその体系の別の呪文から、適切な呪文レベルの呪文を君のレパートリーに追加する。</p>"
     },
     "Basic Summoner Spellcasting": {
       "name": "サモナーの基本呪文発動",
@@ -1502,8 +1502,8 @@
       "description": "<p><strong>Frequency</strong> once per day.</p>\n<p><strong>Trigger</strong> Your turn begins.</p>\n<hr />\n<p>You explode in flame. Enemies in a @Template[type:emanation|distance:20] take @Damage[7d6[fire]] damage (@Check[type:reflex|dc:resolve(@actor.attributes.classOrSpellDC.value)|basic:true] using your class DC or spell DC, whichever is higher). Allies in the area are @UUID[Compendium.pf2e.conditionitems.Item.Quickened] for 1 round and can use the additional action to Strike or Stride.</p><p>@UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]</p>"
     },
     "Blazing Streak": {
-      "name": "Blazing Streak",
-      "description": "<p><strong>Requirements</strong> You're in Stoked Flame Stance.</p>\n<hr />\n<p>Stride twice, making Strikes against up to four different creatures within reach at any point during your movement. Flashing sparks Strikes made during Blazing Streak deal fire damage instead of slashing.</p>"
+      "name": "灼走",
+      "description": "<p><b>前提条件</b> 《焚炎の構え》</p><p><strong>必要条件</strong> 君が《焚炎の構え》 を取っている。</p>\n<hr />\n<p>2回“歩行”し、この移動中の任意の地点で、間合い内の異なるクリーチャー4体に対して“打撃”を1回ずつ行う。《灼走》の間に行われる燐明拳による“打撃”は、［斬撃］ダメージではなく［火炎］ダメージを与える。</p>"
     },
     "Blazing Talon Surge": {
       "name": "Blazing Talon Surge",
@@ -1823,7 +1823,7 @@
     },
     "Brutal Bully": {
       "name": "粗暴な暴漢",
-      "description": "<p><strong>前提条件</strong> 〈運動〉の達人</p>\n<p>　君は周囲の敵を押しのけて傷を残す。激怒中、君が“武器落とし”、“組みつき”、“突き飛ばし”、“足払い”を敵1体に成功させたなら、君はその敵に君の【筋力】修正値に等しい［殴打］ダメージを与える。このダメージは、“足払い”における大成功によるダメージに追加される。</p>\n"
+      "description": "<p><strong>前提条件</strong> 〈運動〉の達人</p>\n<p>　君は周囲の敵を押しのけて傷を残す。激怒中、君が“武器落とし”、“組みつき”、“突き飛ばし”、“足払い”を敵1体に成功させたなら、君はその敵に君の【筋力】修正値に等しい［殴打］ダメージを与える。このダメージは、“足払い”における大成功によるダメージに追加される。</p>\n<p>[[/r @actor.abilties.str.mod[bludgeoning]]]</p>"
     },
     "Brutal Critical": {
       "name": "粗暴なるクリティカル",
@@ -1882,8 +1882,8 @@
       "description": "<p>A condensed burst of flame shoots behind you, propelling you forward with its sheer force. Stride up to 40 feet in a straight line. Movement from this impulse ignores difficult terrain and doesn't trigger reactions.</p>\n<hr />\n<p><strong>Level (6th)</strong> The maximum distance of the Stride is 60 feet. You can choose to @UUID[Compendium.pf2e.actionspf2e.Item.Leap] up to 40 feet in any direction instead of Striding. If you're in the air at the end of this Leap, you fall normally.</p>\n<p><strong>Level (10th)</strong> As 6th level, but you hover briefly after leaping into the air. If you Leap, you don't fall until the end of your next turn. If you use Burning Jet again on a subsequent turn, you remain airborne.</p><p>@UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]</p>"
     },
     "Burning Spell": {
-      "name": "Burning Spell",
-      "description": "<p>You enhance your spell with elemental fire, causing it to set the target on fire. If the next action you use is to Cast a non-cantrip Spell that deals damage at a single target, the spell deals additional @UUID[Compendium.pf2e.conditionitems.Item.Persistent Damage]{Persistent Fire Damage} equal to the spell rank, in addition to its other effects. This has no effect if the spell already deals persistent fire damage. The spell gains the fire trait.</p><p>@UUID[Compendium.pf2e.conditionitems.Item.lDVqvLKA6eF3Df60]</p>"
+      "name": "呪文燃焼化",
+      "description": "<p>君は火の元素で呪文を強化し、目標に着火する。君の行う次のアクションが目標1体にダメージを与える呪文の“呪文発動”のために使用されたなら、この呪文は他の効果に加えて呪文レベルに等しい持続［火炎］ダメージを与える。呪文が元々持続［火炎］ダメージを与える場合、何の効果ももたらさない。この呪文は火炎の特性を得る。</p><p>@UUID[Compendium.pf2e.conditionitems.Item.lDVqvLKA6eF3Df60]</p>"
     },
     "Burrow Elocutionist": {
       "name": "穴掘り弁士",
@@ -2030,20 +2030,20 @@
       "description": "<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> A living creature within 60 feet would die.</p>\n<hr />\n<p>The energy that flows in your blood can save a life in the direst of times. The triggering creature receives the effects of <em>@UUID[Compendium.pf2e.spells-srd.Item.Breath of Life]</em>, except they recover a number of Hit Points equal to [[/r (6d8+@actor.abilities.con.mod)[healing]]]{6d8 plus your Constitution modifier}.</p><p>@UUID[Compendium.pf2e.spells-srd.Item.Hnc7eGi7vyZenAIm]</p>"
     },
     "Cantrip Casting": {
-      "name": "Cantrip Casting",
-      "description": "<p>You increase your ability to cast simple spells. You gain two additional cantrips from the tradition matching your trait.</p>"
+      "name": "キャントリップ発動",
+      "description": "<p>君は単純な呪文を発動する能力を増加させる。君は自分の特性に対応する体系からキャントリップを追加で2つ得る。</p>"
     },
     "Cantrip Expansion (Magus)": {
-      "name": "Cantrip Expansion (Magus)",
-      "description": "<p>Dedicated study allows you to prepare a wider range of simple spells.</p>\n<p>You can prepare two additional cantrips each day.</p>"
+      "name": "キャントリップ追加 (メイガス)",
+      "description": "<p>熱心な学習を通して、君は簡単な呪文をより幅広く準備できる。毎日、君はキャントリップを追加で2つ準備できる。</p>\n"
     },
     "Cantrip Expansion (Prepared Caster)": {
       "name": "キャントリップ追加 (準備型術者)",
-      "description": "<p>　熱心な学習を通して、君は簡単な呪文をより幅広く準備できる。毎日、君はキャントリップを追加で2つ準備できる。</p>\n"
+      "description": "<p>熱心な学習を通して、君は簡単な呪文をより幅広く準備できる。毎日、君はキャントリップを追加で2つ準備できる。</p>\n"
     },
     "Cantrip Expansion (Spontaneous Caster)": {
       "name": "キャントリップ追加 (任意発動型術者)",
-      "description": "<p>　君は自分の血脈が持つ基本的な力をよりよく理解する。呪文リストから追加でキャントリップを2つ、呪文のレパートリーに追加する。</p>\n"
+      "description": "<p>君は自分の血脈が持つ基本的な力をよりよく理解する。呪文リストから追加でキャントリップを2つ、呪文のレパートリーに追加する。</p>\n"
     },
     "Cantrip Expansion": {
       "name": "Cantrip Expansion",
@@ -2146,12 +2146,12 @@
       "description": "<p>君は敵で効率よく敵を引き裂く方法を知っている。君がキャットフォーク武器もしくは《キャットフォーク武器精通》に記載されている武器のいずれかを用いてクリティカル・ヒットをしたなら、君は武器のクリティカル効果を適用する。</p><p>@UUID[Compendium.pf2e.feats-srd.Item.bEh5qUgX5eFaQwzU]</p>"
     },
     "Cathartic Focus Spell": {
-      "name": "Cathartic Focus Spell",
-      "description": "<p>You learn the focus spell listed under your emotion's entry. You can cast it only while in emotional fervor. If you don't already have one, you gain a focus pool of 1 Focus Point, which you can Refocus while you use @UUID[Compendium.pf2e.actionspf2e.Item.Settle Emotions].</p><p>@UUID[Compendium.pf2e.actionspf2e.Item.EhLvRWFKhZ3HtrZO]</p>"
+      "name": "カサーティックの焦点化呪文",
+      "description": "<p>(未訳)</p><p>You learn the focus spell listed under your emotion's entry. You can cast it only while in emotional fervor. If you don't already have one, you gain a focus pool of 1 Focus Point, which you can Refocus while you use @UUID[Compendium.pf2e.actionspf2e.Item.Settle Emotions].</p><p>@UUID[Compendium.pf2e.actionspf2e.Item.EhLvRWFKhZ3HtrZO]</p>"
     },
     "Cathartic Mage Dedication": {
-      "name": "Cathartic Mage Dedication",
-      "description": "<p>You've learned to harness a particular emotion and mix it into your magic. Choose an emotion to be your catharsis emotion.</p>\n<p>If you don't already cast spells from spell slots, you learn to cast spontaneous spells and gain the Cast a Spell activity. You gain a spell repertoire with one cantrip of your choice, from a spell list of your choice. You choose this cantrip from the common spells on your chosen spell list or from other spells to which you have access on that list. You're trained in spell attack rolls and spell DCs for that tradition. Your key spellcasting ability for these spells is Charisma.</p>\n<p>If you can already cast spells from spell slots, you learn one additional cantrip from your spellcasting tradition. If you're a prepared caster, you can prepare this spell in addition to your usual cantrips per day; if you're a spontaneous caster, you add this cantrip to your spell repertoire.</p>\n<p>You gain the @UUID[Compendium.pf2e.actionspf2e.Item.Catharsis] reaction and the @UUID[Compendium.pf2e.actionspf2e.Item.Settle Emotions] activity.</p>\n<p><strong>Emotional States:</strong></p>\n<p>@UUID[Compendium.pf2e.classfeatures.Item.Catharsis Emotion (Anger)]</p>\n<p>@UUID[Compendium.pf2e.classfeatures.Item.Catharsis Emotion (Awe)]</p>\n<p>@UUID[Compendium.pf2e.classfeatures.Item.Catharsis Emotion (Dedication)]</p>\n<p>@UUID[Compendium.pf2e.classfeatures.Item.Catharsis Emotion (Fear)]</p>\n<p>@UUID[Compendium.pf2e.classfeatures.Item.Catharsis Emotion (Hatred)]</p>\n<p>@UUID[Compendium.pf2e.classfeatures.Item.Catharsis Emotion (Joy)]</p>\n<p>@UUID[Compendium.pf2e.classfeatures.Item.Catharsis Emotion (Love)]</p>\n<p>@UUID[Compendium.pf2e.classfeatures.Item.Catharsis Emotion (Misery)]</p>\n<p>@UUID[Compendium.pf2e.classfeatures.Item.Catharsis Emotion (Pride)]</p>\n<p>@UUID[Compendium.pf2e.classfeatures.Item.Catharsis Emotion (Remorse)]</p>\n<hr />\n<p><strong>Special</strong> You can't select another dedication feat until you've gained two other feats from the @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.EWiUv3UiR3RHSGlA]{Cathartic Mage} archetype.</p><p>@UUID[Compendium.pf2e.actionspf2e.Item.2424g94rpoiN1IPh]</p><p>@UUID[Compendium.pf2e.actionspf2e.Item.EhLvRWFKhZ3HtrZO]</p><p>@UUID[Compendium.pf2e.classfeatures.Item.MizJPiKnopfpGmvw]</p><p>@UUID[Compendium.pf2e.classfeatures.Item.rgLaxC3I2L7HSPNn]</p><p>@UUID[Compendium.pf2e.classfeatures.Item.eNFYMQMS2BszErCX]</p><p>@UUID[Compendium.pf2e.classfeatures.Item.7PutMrgKIaAeKBuU]</p><p>@UUID[Compendium.pf2e.classfeatures.Item.S4uY5ap2yhDRqhd0]</p><p>@UUID[Compendium.pf2e.classfeatures.Item.zFY2PlJTObXpcQW4]</p><p>@UUID[Compendium.pf2e.classfeatures.Item.lDjKVZ48zbqQf3CU]</p><p>@UUID[Compendium.pf2e.classfeatures.Item.jklanV9AbZDnZHaD]</p><p>@UUID[Compendium.pf2e.classfeatures.Item.ccrTv2j7eplr2JU8]</p><p>@UUID[Compendium.pf2e.classfeatures.Item.T9gUmwghw16itUAO]</p>"
+      "name": "カサーティック・メイジへの専念",
+      "description": "<p>(未訳)</p><p>You've learned to harness a particular emotion and mix it into your magic. Choose an emotion to be your catharsis emotion.</p>\n<p>If you don't already cast spells from spell slots, you learn to cast spontaneous spells and gain the Cast a Spell activity. You gain a spell repertoire with one cantrip of your choice, from a spell list of your choice. You choose this cantrip from the common spells on your chosen spell list or from other spells to which you have access on that list. You're trained in spell attack rolls and spell DCs for that tradition. Your key spellcasting ability for these spells is Charisma.</p>\n<p>If you can already cast spells from spell slots, you learn one additional cantrip from your spellcasting tradition. If you're a prepared caster, you can prepare this spell in addition to your usual cantrips per day; if you're a spontaneous caster, you add this cantrip to your spell repertoire.</p>\n<p>You gain the @UUID[Compendium.pf2e.actionspf2e.Item.Catharsis] reaction and the @UUID[Compendium.pf2e.actionspf2e.Item.Settle Emotions] activity.</p>\n<p><strong>Emotional States:</strong></p>\n<p>@UUID[Compendium.pf2e.classfeatures.Item.Catharsis Emotion (Anger)]</p>\n<p>@UUID[Compendium.pf2e.classfeatures.Item.Catharsis Emotion (Awe)]</p>\n<p>@UUID[Compendium.pf2e.classfeatures.Item.Catharsis Emotion (Dedication)]</p>\n<p>@UUID[Compendium.pf2e.classfeatures.Item.Catharsis Emotion (Fear)]</p>\n<p>@UUID[Compendium.pf2e.classfeatures.Item.Catharsis Emotion (Hatred)]</p>\n<p>@UUID[Compendium.pf2e.classfeatures.Item.Catharsis Emotion (Joy)]</p>\n<p>@UUID[Compendium.pf2e.classfeatures.Item.Catharsis Emotion (Love)]</p>\n<p>@UUID[Compendium.pf2e.classfeatures.Item.Catharsis Emotion (Misery)]</p>\n<p>@UUID[Compendium.pf2e.classfeatures.Item.Catharsis Emotion (Pride)]</p>\n<p>@UUID[Compendium.pf2e.classfeatures.Item.Catharsis Emotion (Remorse)]</p>\n<hr />\n<p><strong>Special</strong> You can't select another dedication feat until you've gained two other feats from the @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.EWiUv3UiR3RHSGlA]{Cathartic Mage} archetype.</p><p>@UUID[Compendium.pf2e.actionspf2e.Item.2424g94rpoiN1IPh]</p><p>@UUID[Compendium.pf2e.actionspf2e.Item.EhLvRWFKhZ3HtrZO]</p><p>@UUID[Compendium.pf2e.classfeatures.Item.MizJPiKnopfpGmvw]</p><p>@UUID[Compendium.pf2e.classfeatures.Item.rgLaxC3I2L7HSPNn]</p><p>@UUID[Compendium.pf2e.classfeatures.Item.eNFYMQMS2BszErCX]</p><p>@UUID[Compendium.pf2e.classfeatures.Item.7PutMrgKIaAeKBuU]</p><p>@UUID[Compendium.pf2e.classfeatures.Item.S4uY5ap2yhDRqhd0]</p><p>@UUID[Compendium.pf2e.classfeatures.Item.zFY2PlJTObXpcQW4]</p><p>@UUID[Compendium.pf2e.classfeatures.Item.lDjKVZ48zbqQf3CU]</p><p>@UUID[Compendium.pf2e.classfeatures.Item.jklanV9AbZDnZHaD]</p><p>@UUID[Compendium.pf2e.classfeatures.Item.ccrTv2j7eplr2JU8]</p><p>@UUID[Compendium.pf2e.classfeatures.Item.T9gUmwghw16itUAO]</p>"
     },
     "Catrina's Presence": {
       "name": "Catrina's Presence",
@@ -2763,7 +2763,7 @@
     },
     "Constricting Hold": {
       "name": "締め付け保持",
-      "description": "<p><strong>必要条件</strong> 君の幻獣がクリーチャーをつかまれた状態あるいは拘束状態にしている。</p>\n<p>　君の幻獣はこのクリーチャーを締め付け、君の呪文DCに対する基本頑健セーヴを持つ、幻獣のレベル＋幻獣の【筋力】修正値に等しいダメージを与える。</p>\n<p>@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]</p><p>@UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]</p>"
+      "description": "<p><strong>必要条件</strong> 君の幻獣がクリーチャーをつかまれた状態あるいは拘束状態にしている。</p>\n<p>　君の幻獣はこのクリーチャーを締め付け、君の呪文DCに対する基本頑健セーヴを持つ、幻獣のレベル＋幻獣の【筋力】修正値に等しいダメージを与える。</p>\n<p>@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]</p><p>@UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]</p><p>[[/r (@actor.level+@actor.abilities.str.mod)[bludgeoning]]]</p>"
     },
     "Construct Shell": {
       "name": "Construct Shell",
@@ -3091,7 +3091,7 @@
     },
     "Crushing Grab": {
       "name": "圧潰するつかみ",
-      "description": "<p>　強力な締め付けを持つ蛇のように、君は強硬な握力で目標を潰す。君がクリーチャーに組みつきを行うのに成功したなら、君は自身の【筋力】修正値に等しい［殴打］ダメージを与えることができる。君はペナルティを受けることなく、この攻撃に非致傷の特性を持たせてもよい。</p>\n<p>@UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]</p>"
+      "description": "<p>　強力な締め付けを持つ蛇のように、君は強硬な握力で目標を潰す。君がクリーチャーに組みつきを行うのに成功したなら、君は自身の【筋力】修正値に等しい［殴打］ダメージを与えることができる。君はペナルティを受けることなく、この攻撃に非致傷の特性を持たせてもよい。</p>\n<p>@UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]</p><p>[[/r @actor.abilities.str.mod[bludgeoning]]]</p>"
     },
     "Crushing Step": {
       "name": "Crushing Step",
@@ -3698,8 +3698,8 @@
       "description": "<p><strong>Requirements</strong> You have successfully identified the target with Recall Knowledge during this combat.</p>\n<hr />\n<p>Identifying a creature is the first step in finding its weaknesses. Attempt a Strike against the target; if successful, you deal an additional 1d6 precision damage. If you have succeeded on a Recall Knowledge check against the target during this combat and their creature type was previously recorded using @UUID[Compendium.pf2e.feats-srd.Item.Thorough Reports], you also deal @Damage[1[bleed]] damage. The creature is then temporarily immune to Discerning Strike for 1 day.</p><p>@UUID[Compendium.pf2e.feats-srd.Item.0Dy8RlFqrzCVOTl4]</p>"
     },
     "Disciple of Shade": {
-      "name": "Disciple of Shade",
-      "description": "<p>You've delved deeper into the mysteries of shadow and become blessed with magical power that increases your skills in the arts of deception and persuasion. You gain the <em>@UUID[Compendium.pf2e.spells-srd.Item.Inscrutable Mask]</em> domain spell. Increase the number of Focus Points in your focus pool by 1.</p><p>@UUID[Compendium.pf2e.spells-srd.Item.YQWq1DZuLRk32M3h]</p>"
+      "name": "陰の徒弟",
+      "description": "<p>君は影の謎をより深く掘り下げ、ペテンや説得の技術を高める魔法の力に祝福された。君はインスクルタブル・マスク領域呪文を身につける。君の焦点化プールの焦点化ポイントを1だけ増加させる。</p><p>@UUID[Compendium.pf2e.spells-srd.Item.YQWq1DZuLRk32M3h]</p>"
     },
     "Disciple's Breath": {
       "name": "ドラゴン・ディサイプルの吐息",
@@ -3978,8 +3978,8 @@
       "description": "<p><strong>前提条件</strong> 〈ペテン〉の達人</p>\n<p>　君は口にしたことに、別の意味をもたせるのが得意だ。他の言葉や文言の裏に自分の本当の意味を隠し、味方だけが理解できる意味を伝えるために、微妙な強調と共有された経験を頼りとしている。少なくとも丸1週間、君と一緒に旅をしたことのある味方は、自動的に君の意味を見分ける。他に君の言葉を見たものは、君が秘密のメッセージを渡していることに気づくために、君の〈ペテン〉DCに対する知覚判定に成功しなければならず、メッセージ自体を理解するには大成功しなければならない。</p>\n"
     },
     "Dousing Spell": {
-      "name": "Dousing Spell",
-      "description": "<p>You enhance your spell with elemental water, soaking the target. If the next action you use is to Cast a Spell targeting a single creature, you soak the target of the spell with water. If the target has @UUID[Compendium.pf2e.conditionitems.Item.Persistent Damage]{Persistent Acid or Fire Damage  }, the DC to end those conditions is reduced to 10, and the creature can attempt a flat check to end those types of persistent damage immediately. The spell gains the water trait (causing it to deal extra damage to creatures with weakness to water).</p><p>@UUID[Compendium.pf2e.conditionitems.Item.lDVqvLKA6eF3Df60]</p>"
+      "name": "呪文水没化",
+      "description": "<p>君は水の元素で呪文を強化し、目標を浸す。もし君の次のアクションがクリーチャー1体を目標とする“呪文発動”のために使用されたなら、使用者は目標を水に浸すことができる。目標が持続［強酸］ダメージないし持続［火炎］ダメージを受けているなら、これらの状態を終了させるためのDCは10に減少し、そのクリーチャーはこれらの種別の持続ダメージを終了させるための平目判定を即座に試みることができる。この呪文は水の特性を得る（これにより、水に対する弱点を持つクリーチャーに追加のダメージを与えることになる）。</p><p>@UUID[Compendium.pf2e.conditionitems.Item.lDVqvLKA6eF3Df60]</p>"
     },
     "Dracomancer": {
       "name": "竜術師",
@@ -4086,8 +4086,8 @@
       "description": "<p><strong>Frequency</strong> once per minute</p>\n<p><strong>Requirements</strong> You're wielding your bonded beast gun.</p>\n<hr />\n<p>You draw out the bestial magic energy within your bonded beast gun to fortify yourself, purge ongoing harm, and bolster your life force with a sheath of swirling life essence. You gain temporary Hit Points equal to your level and attempt a flat check against any ongoing persistent damage, using the DC appropriate for particularly effective assistance. Using this ability depletes the magic within your bonded beast gun, preventing you from using any of its activated abilities until the end of your next turn.</p>"
     },
     "Draw From the Land": {
-      "name": "Draw From the Land",
-      "description": "<p><strong>Requirements</strong> You gained a terrain attunement benefit this turn, and it matched the terrain you're in.</p>\n<hr />\n<p>You pull strength from the surrounding terrain. You gain temporary Hit Points equal to your level. They last for 1 round. If you previously gained the plains terrain attunement effect this turn, combine the temporary Hit Points together.</p>"
+      "name": "土地からの取得",
+      "description": "<p><b>アーキタイプ</b> ジオマンサー</p><p><b>前提条件</b> 《ジオマンサーへの専念》；〈自然〉の熟練</p><p><strong>必要条件</strong> 君がこのターンに地形同調の利益を得た。君がいる地形は同調した地形と一致している。</p>\n<hr />\n<p>君は周囲の地形から力を引き出す。君は自分のレベルに等しい一時的ヒット・ポイントを得る。この一時的ヒット・ポイントは1ラウンド持続する。君が既に平野の地形同調効果でこのターンに一時的ヒット・ポイントを得ていたなら、これらの一時的ヒット・ポイントを合算する。</p>"
     },
     "Dread Marshal Stance": {
       "name": "恐るべきマーシャルの構え",
@@ -4522,8 +4522,8 @@
       "description": "<p>A small creature made of elemental matter springs forth from your kinetic gate. This elemental familiar appears to be made of one of your kinetic elements, though it might have unusual or distinguishing aspects. Like other familiars, your elemental familiar can assist you in various tasks and on adventures. You gain an elemental familiar with the trait of one of your kinetic elements. If you have more than one kinetic element, you can change the element you've selected for your familiar to a different one of your kinetic elements each time you make your daily preparations. The familiar uses your Constitution modifier to determine its Perception, Acrobatics, and Stealth modifiers.</p>"
     },
     "Elemental Familiar": {
-      "name": "Elemental Familiar",
-      "description": "<p>Your familiar becomes an elemental spirit capable of taking on aspects of the elements. Other than taking the form of an elemental instead of an animal, this familiar continues to use all the same rules as other familiars.</p>\n<p>Your familiar gains one additional familiar ability each day, which must be one of the following elemental familiar abilities. While your familiar has an elemental familiar ability, your familiar is composed of the associated elemental matter and gains the matching elemental trait. You can't select more than one elemental familiar ability at a time.</p>\n<ul>\n<li><strong>Air</strong> If your familiar stays completely still for 1 round, it becomes @UUID[Compendium.pf2e.conditionitems.Item.Invisible] until it next takes an action. Any motion, even being moved or carried by another creature, ends this effect.</li>\n<li><strong>Earth</strong> Your familiar gains resistance to physical damage (except adamantine) equal to half your level.</li>\n<li><strong>Fire</strong> Your familiar sheds bright light in a 20-foot radius (and dim light for the next 20 feet) and emits warmth. Creatures that remain within a @Template[type:emanation|distance:15] don't take damage from severe environmental cold.</li>\n<li><strong>Metal</strong> Your familiar gains resistance to physical damage from metal weapons equal to half your level.</li>\n<li><strong>Water</strong> Your familiar can move through a gap at least 2 inches wide without @UUID[Compendium.pf2e.actionspf2e.Item.Squeeze]{Squeezing} and can Squeeze through a gap at least 1 inch wide.</li>\n<li><strong>Wood</strong> If your familiar remains in bright light for 1 round, it gains fast healing equal to half your level. Once it is out of bright light, this effect ends.</li>\n</ul><p>@UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]</p><p>@UUID[Compendium.pf2e.actionspf2e.Item.kMcV8e5EZUxa6evt]</p>"
+      "name": "エレメンタルの使い魔",
+      "description": "<p>君の使い魔はは、地水火風の四大元素のいずれかの側面を持つ元素霊になる。動物ではなくエレメンタルの姿をとることを除くと、この使い魔は他の使い魔と同じルールに従う。</p>\n<p>使い魔は毎日追加の使い魔能力を1つ得る。これは以下のエレメンタルの使い魔能力のいずれかでなければならない。君の使い魔はエレメンタルの使い魔能力を持つだけでなく、対応する元素の性質に晒され、対応する元素の特性を得る。君は一度にエレメンタルの使い魔を1体だけ持つことができる。</p>\n<ul>\n<li><strong>風</strong> 君の使い魔が1ラウンドの間全く動かなければ、使い魔は次にアクションを取るまで不可視状態になる。他のクリーチャーに動かされたり運ばれたりすることを含む、いかなる動きをもこの効果を終了させる</li>\n<li><strong>地</strong> 君の使い魔は君のレベルの半分に等しい［物理］ダメージ（アダマンティンを除く）に対する抵抗を得る。</li>\n<li><strong>火</strong> 君の使い魔は半径20フィートに明るい光（その先20フィートに薄明かりを）と暖気放つ。15フィートの放射内にいるクリーチャーは酷寒の環境からダメージを受けない。</li>\n<li><strong>金</strong> 君の使い魔は金属製の武器から受ける物理ダメージに対し、君のレベルの半分の抵抗を得る。</li>\n<li><strong>水</strong> 君の使いは間幅2インチ以上の隙間があれば“無理矢理入り込む”ことなく移動でき、幅1インチ以上の隙間に対して“無理矢理入り込む”を行える。</li>\n<li><strong>木</strong> 君の使い魔が1ラウンドの間明るい光の中にいるなら、君のレベルの半分に等しい高速治癒を得る。</li>\n</ul><p>@UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]</p><p>@UUID[Compendium.pf2e.actionspf2e.Item.kMcV8e5EZUxa6evt]</p><p>@Template[type:emanation|distance:15]</p>"
     },
     "Elemental Fist": {
       "name": "元素の拳",
@@ -4558,8 +4558,8 @@
       "description": "<p>You are so attuned to the land that you can call forth a bolt of energy from your surroundings. When you gain this feat, select acid, cold, electricity, or fire. You can call to the land to cast the <em>@UUID[Compendium.pf2e.spells-srd.Item.Acid Splash]</em> cantrip as an innate primal spell at will, except the spell has only verbal components and deals the type of damage you chose instead of acid damage; the spell gains the trait appropriate to its damage instead of the acid trait. A cantrip is heightened to a spell level equal to half your level rounded up.</p><p>@UUID[Compendium.pf2e.spells-srd.Item.gISYsBFby1TiXfBt]</p>"
     },
     "Elementalist Dedication": {
-      "name": "Elementalist Dedication",
-      "description": "<p>Each day when you make your daily preparations, you can attune yourself to one element of your choice from your elemental philosophy.</p>\n<p>You gain resistance equal to half your level (minimum 1 resistance) against damage dealt by effects with your attuned elemental trait.</p>\n<p>This attunement lasts until you next make your daily preparations.</p>\n<hr />\n<p><strong>Special</strong> You can't select another dedication feat until you've gained two other feats from the @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.oMIA3aFKvpuV9f2H]{Elementalist} archetype.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.Effect: Elementalist Dedication]</p><p>@UUID[Compendium.pf2e.feat-effects.Item.O8qithYQCv3e7DUQ]</p>"
+      "name": "エレメンタリストへの専念",
+      "description": "<p>日毎の準備をするたびに、君は地、水、火、風から元素を1つ選択して自身を同調させることができる。自分の元素特性に合わせた効果が与えるダメージに対して、君は自分のレベルの半分（最低1）に等しい抵抗を得る。この同調は、次に日毎の準備をするまで持続する。</p><p><b>特殊</b> エレメンタリスト・アーキタイプから他に特技を2つ得るまで、君は別の専念特技を選択できない。</p><p>@UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.oMIA3aFKvpuV9f2H]</p><p>@UUID[Compendium.pf2e.feat-effects.Item.O8qithYQCv3e7DUQ]</p>"
     },
     "Elf Atavism": {
       "name": "エルフへの先祖返り",
@@ -4622,8 +4622,8 @@
       "description": "<p>Your mask grants you the abilities of Whistling Kite, the Vigilant Seer, who emancipated thousands. When you are attempting a check to free someone else from an effect that immobilizes, paralyzes, or controls them, roll twice and take the higher result; this is a fortune effect. The GM might decide that this fortune effect applies when attempting checks to remove other conditions or effects to free another. Immediately after you Cast a non-cantrip Spell that targets only one creature, you can choose to permit the target to make an attempt to @UUID[Compendium.pf2e.actionspf2e.Item.Escape].</p><p>@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]</p>"
     },
     "Embed Aeon Stone": {
-      "name": "Embed Aeon Stone",
-      "description": "<p>You discover the secrets to embedding <em>aeon stones</em> into your flesh. You spend 1 day attuning to an <em>aeon stone</em> and physically embedding it in your skin. While the stone is embedded this way, you gain the benefits of the aeon stone as if it were orbiting above your head, but it protects the stone from being noticed or stolen as easily. <em>Aeon stones</em> in your flesh must be invested to function, as usual.</p>\n<p>You can also use this activity to safely remove an embedded <em>aeon stone</em> in 1 day. Someone without this feat can attempt to surgically remove it safely by spending 1 day and succeeding at a @Check[type:medicine|dc:30|name:Surgically Remove Aeon Stone] check, or hastily by simply ripping it from a corpse.</p>"
+      "name": "アイオーン・ストーンの埋め込み",
+      "description": "<p>(未訳)</p><p>You discover the secrets to embedding <em>aeon stones</em> into your flesh. You spend 1 day attuning to an <em>aeon stone</em> and physically embedding it in your skin. While the stone is embedded this way, you gain the benefits of the aeon stone as if it were orbiting above your head, but it protects the stone from being noticed or stolen as easily. <em>Aeon stones</em> in your flesh must be invested to function, as usual.</p>\n<p>You can also use this activity to safely remove an embedded <em>aeon stone</em> in 1 day. Someone without this feat can attempt to surgically remove it safely by spending 1 day and succeeding at a @Check[type:medicine|dc:30|name:Surgically Remove Aeon Stone] check, or hastily by simply ripping it from a corpse.</p>"
     },
     "Emberkin": {
       "name": "Emberkin",
@@ -5122,8 +5122,8 @@
       "description": "<p>You learn more powerful spells to enchant and deceive. You learn a 4th-level occult spell. At 12th level, you learn a 5th-level spell, and at 14th level, you learn a 6th-level spell. Each of these spells must come from either the enchantment or illusion school. You Cast these Spells as occult innate spells. You become an expert with spell attack rolls and spell DCs for occult spells.</p>"
     },
     "Expert Cathartic Spellcasting": {
-      "name": "Expert Cathartic Spellcasting",
-      "description": "<p>You gain the expert spellcasting benefits.</p>"
+      "name": "カサーティックの熟練呪文発動",
+      "description": "<p>　君は熟練呪文発動の利益を得る。</p>\n"
     },
     "Expert Cleric Spellcasting": {
       "name": "クレリックの熟練呪文発動",
@@ -5199,7 +5199,7 @@
     },
     "Expert Spellcasting": {
       "name": "熟練呪文発動",
-      "description": "<p>君は熟練呪文発動の利益を得る。</p>"
+      "description": "<p>君は熟練呪文発動アーキタイプの利益を得る。</p>"
     },
     "Expert Summoner Spellcasting": {
       "name": "サモナーの熟練呪文発動",
@@ -5642,8 +5642,8 @@
       "description": "<p><strong>前提条件</strong> 善の信条</p>\n<p>　君はフィーンドの腐敗を彼らの本拠地である闇の次元界へと追放することを誓った。君は「十分に成功する可能性があるならば、君は遭遇したフィーンドを追放または殺害しなければならない。万が一、善のフィーンドを見つけた場合には、追放したり殺害する必要はない」という信条を、他の信条の後に行動規範に加える。</p><p>　君の“応報の一打”はフィーンドに対して＋4の状況ボーナスを得る。君が使用している武器に対する達人の習熟を有するなら、この状況ボーナスは＋6となる。君の“救済の幻視”がフィーンドによるダメージに対する抵抗は7＋君のレベルに等しい。フィーンドが“解放のステップ”のトリガーとなった場合、仲間は“解放のステップ”から得る判定に＋4の状況ボーナスを得、仲間はその後2回“ステップ”できる。</p><p>　例えフィーンドが支配している国であっても、君はフィーンドを正当な権力者とは扱わない。</p>\n<p>@UUID[Compendium.pf2e.actionspf2e.Item.tuZnRWHixLArvaIf]</p>"
     },
     "Fiery Retort": {
-      "name": "Fiery Retort",
-      "description": "<p><strong>Trigger</strong> An opponent adjacent to you hits you with a melee weapon or a melee unarmed attack.</p>\n<p><strong>Frequency</strong> once per minute</p>\n<hr />\n<p>Ignoring your pain, you sear your attacker with a wave of flame. The triggering opponent takes [[/r @actor.level[fire]]]{fire damage} equal to your level.</p>"
+      "name": "火炎の反論",
+      "description": "<p><b>前提条件</b> 炎の円環</p><p><strong>トリガー</strong> 君に隣接する相手が近接武器攻撃か近接素手攻撃を行った。</p>\n<p><strong>頻度</strong> 1分に1回</p>\n<hr />\n<p>君は痛みを無視し、炎の波動で相手を焼き尽くす。発動した相手は君のレベルに等しい[火炎]ダメージを受ける。[[/r @actor.level[fire]]]{fire damage} equal to your level.</p><p>(私家訳)</p>"
     },
     "Fighter Dedication": {
       "name": "ファイターへの専念",
@@ -5690,12 +5690,12 @@
       "description": "<p>The ridges and flaps of your skin steer you through the water. You gain a swim Speed of 15 feet.</p>"
     },
     "Fire Lung": {
-      "name": "Fire Lung",
-      "description": "<p>A lifetime of proximity to flames has inured your lungs and eyes to smoke. You can breathe normally in areas of ash and smoke without risk of suffocation, and you ignore the @UUID[Compendium.pf2e.conditionitems.Item.Concealed] condition from smoke.</p>\n<p>You need only a successful DC 10 flat check to recover from persistent fire damage, rather than DC 15 (and the DC when receiving particularly effective assistance is @Check[type:flat|dc:5] instead of 10).</p><p>@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]</p>"
+      "name": "火炎の肺",
+      "description": "<p>炎の近くで人生を過ごしたことで、君の肺と目は煙に慣れている。君は灰や煙の中で窒息の危険なく呼吸できる。加えて、君は煙による視認困難状態の影響を受けない。君は持続［火炎］ダメージから回復する際、DC15ではなくDC10の平目判定に成功すれば良い（適切な援助が得られる場合、DC10ではなくDC5に成功すれば良い）。</p><p>@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]</p><p>@Check[type:flat|dc:5]</p>"
     },
     "Fire Resistance": {
-      "name": "Fire Resistance",
-      "description": "<p>Your connection to heat and flame means that fire is reluctant to bring its full force to bear against you. You gain fire resistance equal to half your level, and you gain a +1 circumstance bonus to saving throws against fire effects.</p>"
+      "name": "火炎の抵抗力",
+      "description": "<p><b>前提条件</b> 炎の円環</b></p><p>君は熱と炎と結びついているため、火は君に対してその全力を発揮するのを嫌う。君は自分のレベルの半分の火炎抵抗を得て、火炎効果に対するセーヴィング・スローに状況ボーナス＋1を得る。</p><p>(私家訳)</p>"
     },
     "Fire Savvy": {
       "name": "Fire Savvy",
@@ -5806,8 +5806,8 @@
       "description": "<p><b>アーキタイプ</b> リチュアリスト</p><p><b>前提条件</b> 《リチュアリストへの専念》</p>\n<p>　君は儀式の2つの側面を自分で執行できる。君が儀式を発動する際、副次術者の数を1人減少させることができる。そうする場合、君は副次術者の必要条件をすべて満たさなければならず、君はその副次術者が通常通り執行する場合のように副次判定を試みる。君はこの呪文の目標となる副次術者（{アトーン]儀式など）を置き換えることはできない。</p><p>@UUID[Compendium.pf2e.spells-srd.Item.7Fd4lxozd11MQ55N]</p>"
     },
     "Flexible Spellcaster Dedication": {
-      "name": "Flexible Spellcaster Dedication",
-      "description": "<p>You now have four cantrips per day instead of three. At 4th level, you have five cantrips per day instead of four.</p>"
+      "name": "フレキシブル・スペルキャスターへの専念",
+      "description": "<p>今や、君はキャントリップを1日3つではなく4つ持つ。4レベルの時点で、君はキャントリップを1日4つではなく5つ持つ。</p>"
     },
     "Flexible Studies": {
       "name": "柔軟な勉強",
@@ -6158,8 +6158,8 @@
       "description": "<p><strong>前提条件</strong> 構え2つ以上</p>\n<p>　君は2つの構えを組み合わせ、独自の1つの構えにした。この特技を得たとき、君は修得済みの構え2つを選択し、それらを組み合わせて融合した1つの構えとする。この新しい融合した構えに固有の名前を付けること。融合した構えに入ると、君は必要条件や制限などを含む両方の構えの全ての効果を得る。</p>\n<p>　根本的に相容れない必要条件と制限と持つ構えを融合することはできない。例えば、《鉄血の構え》と《鶴の構え》は、1種類の“打撃”しか行えないため、融合できない。</p>\n<p>@UUID[Compendium.pf2e.feats-srd.Item.ZL5UU9quCTvcWzfY]</p><p>@UUID[Compendium.pf2e.feats-srd.Item.bf7NCeKqDClaqhTR]</p>"
     },
     "Fused Polearm": {
-      "name": "Fused Polearm",
-      "description": "<p><strong>Requirements</strong> Your arcane bonded item is a polearm.</p>\n<hr />\n<p>During your daily preparations, you can magically fuse your arcane bonded weapon and a magical staff together into one item, with the staff making up the haft of the weapon. You prepare the staff at the same time you do this, and you can do this only with a staff you're able to prepare. This fusion lasts until the next time you make your daily preparations.</p>\n<p>While the two are fused, the weapon's haft takes on aesthetic aspects of the staff.</p>"
+      "name": "融合した長柄",
+      "description": "<p>(未訳)</p><p><strong>Requirements</strong> Your arcane bonded item is a polearm.</p>\n<hr />\n<p>During your daily preparations, you can magically fuse your arcane bonded weapon and a magical staff together into one item, with the staff making up the haft of the weapon. You prepare the staff at the same time you do this, and you can do this only with a staff you're able to prepare. This fusion lasts until the next time you make your daily preparations.</p>\n<p>While the two are fused, the weapon's haft takes on aesthetic aspects of the staff.</p>"
     },
     "Fused Staff": {
       "name": "スタッフ融合",
@@ -6254,8 +6254,8 @@
       "description": "<p>You tune to the earth and stone around you, extending your senses through it in rippling waves. You gain tremorsense (imprecise) in your kinetic aura. Once per round, you can @UUID[Compendium.pf2e.actionspf2e.Item.Point Out] a creature you can sense with tremorsense as a free action.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.Stance: Geologic Attunement]</p>\n<hr />\n<p><strong>Level (13th)</strong> The tremorsense becomes precise.</p><p>@UUID[Compendium.pf2e.actionspf2e.Item.sn2hIy1iIJX9Vpgj]</p><p>@UUID[Compendium.pf2e.feat-effects.Item.ebCWQB5nfK19GpY5]</p>"
     },
     "Geomancer Dedication": {
-      "name": "Geomancer Dedication",
-      "description": "<p>You feel a deep connection to the world no matter where you are, a phenomenon known as \"terrain attunement.\" When you expend a spell slot to cast a spell with a trait that corresponds to the type of terrain you are currently in (as listed below), you gain the terrain attunement effect for that type of terrain. The GM might determine an attunement applies as long as it's prevalent enough around you. For instance, you might be in aquatic terrain on a riverbank or on a boat. Similarly, one place might count as multiple types of terrain, such as a mountain in the far north being both arctic and mountain. In this case, you choose only one terrain attunement effect, even if the spell has traits that would apply to each terrain type.</p>\n<p>Certain terrain attunements affect your enemies instead of you. If they do, when you cast the spell you apply the listed effect to all enemies who are either adjacent to you, in the area of the spell, or targeted by the spell. These enemies receive the listed saving throw against your spell DC to attempt to avoid the effect.</p>\n<ul>\n<li><strong>Aquatic</strong> (water) You ride the currents of water. If you're in the water, you gain a swim Speed equal to your land Speed. If you're on a surface, temporary waves of water follow your movements, allowing you to use your swim Speed-if you have one-as your land Speed.</li>\n<li><strong>Arctic</strong> (cold) Arctic rime covers your foes' bodies. Enemies must attempt a Fortitude save. They take a -5-foot status penalty to their Speeds for 2 rounds (-10-foot on a critical failure).</li>\n<li><strong>Desert</strong> (fire) The scorching heat of the desert dehydrates your foes. Enemies must attempt a Fortitude save. On a failure, they're @UUID[Compendium.pf2e.conditionitems.Item.Fatigued] until they drink water or another potable liquid.</li>\n<li><strong>Forest</strong> (plant) Branches and vines reach out to get in your foes' way. Enemies must attempt a Reflex save. On a failure, they become @UUID[Compendium.pf2e.conditionitems.Item.Clumsy]{Clumsy 1} for 1 round (@UUID[Compendium.pf2e.conditionitems.Item.Clumsy]{Clumsy 2} on a critical failure).</li>\n<li><strong>Mountain</strong> (earth) The rugged endurance of the mountain protects you from harm. You gain resistance to physical damage (except adamantine) equal to the spell level for 1 round.</li>\n<li><strong>Plains</strong> (plant) The growing fields and pulsing vitality of the plains provide you vigor. You gain temporary Hit Points equal to the spell level for 1 round.</li>\n<li><strong>Sky</strong> (air) A gust of wind carries you aloft. You can Fly up to 10 feet. If you're in the air at the end of the turn and don't have a fly Speed, you fall.</li>\n<li><strong>Swamp</strong> (plant) Your magic draws in noxious swamp gas to fumigate your foes. Affected foes take @UUID[Compendium.pf2e.conditionitems.Item.Persistent Damage]{Persistent Poison Damage} equal to half the spell's level (minimum 1 damage) with a basic Fortitude save.</li>\n<li><strong>Underground</strong> (earth) The endless darkness of the cavern depths opens up its secrets to your senses. For 1 round, you gain darkvision as well as imprecise tremorsense out to 15 feet.</li>\n</ul>\n<p><strong>Special</strong> You can't select another dedication feat until you've gained two other feats from the @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.I6FbkKYncDuu7eWq]{Geomancer} archetype.</p><p>@UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]</p><p>@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]</p><p>@UUID[Compendium.pf2e.conditionitems.Item.lDVqvLKA6eF3Df60]</p>"
+      "name": "ジオマンサーへの専念",
+      "description": "<p><b>アーキタイプ</b> ジオマンサー</p><p><b>前提条件</b> 〈自然〉の修得；呪文スロットから呪文を発動する能力；風、氷雪、地、火炎、植物、水のいずれかの特性を持つ呪文1つ以上</p><p>「地形同調」と呼ばれる現象により、君はどこにいても、世界との深いつながりを感じる。君が現在いる地形の種別に対応した特性（以下に示す）を持つ呪文を発動するために呪文スロットを消費する際、君はその地形の種別に応じた地形同調効果を得る。君の周辺にその地形がどれだけ蔓延しているかに従って、GMが同調が適用されるかを決定する。例えば、君が河岸やボートの上にいる場合、水界地形にいると言えるだろう。同様に、極北の山は極地であり同時に山岳であるといったように、複数の地形種別だと扱われる場所もある。このような場合、君は呪文がそれぞれの地形種別の特性を持つ場合でも、地形同調の効果から1つだけを選ぶ。</p>地形同調の中には君ではなく敵に作用するものもある。その場合、君が適用する呪文を発動した際に君に隣接しているクリーチャー全てか、呪文の効果範囲内にいるかクリーチャー全てか、呪文の目標全てかのいずれかに効果を及ぼす。これらの敵は効果を避けるため、君の呪文DCに対する記載されたセーヴィング・スローを行う。</p><ul><li>水界 (水) 君は水の流れに乗る。君は地上移動速度に等しい水泳速度を得る。君が水面にいるなら、君の移動を一時的な波が助け、君は地上移動速度として（君が持っているなら）水泳速度を使用できる。</li><li>極地 (氷雪) 極地の霧氷が敵の体を覆う。敵は頑健セーヴを試みなければならない。失敗すると敵は移動速度に−5フィート（大失敗の場合は−10フィート）の状態ペナルティを受ける。</li><li>砂漠 (火炎) 砂漠の焼けつく熱が敵の水分を奪う。敵は頑健セーヴを試みなければならない。失敗すると、敵は水や他の持ち運びできる液体を飲むまで疲労状態になる。</li><li>森林 (植物) 枝と蔦が敵の経路を阻もうと伸びる。敵は反応セーヴを試みなければならない。失敗すると、敵は1ラウンドの間よたつき状態1になる（大失敗の場合はよたつき状態2）。</li><li>山岳 (地) 山の粗野な持久力が君を傷から守る。君は1ラウンドの間、呪文レベルに等しい［物理］ダメージ（アダマンティンを除く）に対する抵抗を得る。</li><li>平原 (植物) 成長する芝と平原の脈々とした生命力が君に活力を与える。君は1ラウンドの間、呪文レベルに等しい一時的ヒット・ポイントを得る。</li><li>空 (風) 突風が君を君を虚空へ運ぶ。君は10フィートまで“飛行”する。君がターンの終了時に空中にいて飛行速度を持たない場合、君は落下する。</li><li>沼地 (植物) 君の魔法は敵を苦しませる沼の有毒ガスを引き出す。効果を受けた敵は基本頑健セーヴを伴う、呪文のレベルの半分（最低1）に等しい持続［毒］ダメージを受ける。</li><li>地下 (地) 洞窟の深部にある終わりない闇が君の感覚の秘密を開く。1ラウンドの間、君は暗視と不明瞭な振動感知15フィートを得る。</li><ul><p><b>特殊</b> ジオマンサー・アーキタイプから他に特技を2つ得るまで、君は別の専念特技を選択できない。</p><p>@UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]</p><p>@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]</p><p>@UUID[Compendium.pf2e.conditionitems.Item.lDVqvLKA6eF3Df60]</p><p>@UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.I6FbkKYncDuu7eWq]</p>"
     },
     "Ghoran Lore": {
       "name": "Ghoran Lore",
@@ -7002,8 +7002,8 @@
       "description": "<p>You're accustomed to seeing through shifting darkness and bewildering magic. You gain a +1 circumstance bonus on Perception checks against illusions as well as to Will saves against illusions and shadow effects.</p>"
     },
     "Harden Flesh": {
-      "name": "Harden Flesh",
-      "description": "<p><strong>Requirements</strong> You're standing on earthen or stone ground.</p>\n<hr />\n<p>You fortify your skin with minerals drawn from earth and stone. You gain resistance 3 to physical damage, except adamantine, until the beginning of your next turn. At 12th level, and every 4 levels thereafter, the resistance increases by 1, to a maximum of resistance 6 at 20th level.</p>"
+      "name": "硬き肉質",
+      "description": "<p><b>前提条件</b> 石の円環</p><p><strong>必要条件</strong> 君が土や石の地面に立っている。</p>\n<hr />\n<p>君は土や石から採取した鉱物で皮膚を強化する。君は次のターンの始めまで、アダマンティンを除く物理ダメージに対する抵抗3を得る。12レベル、その後4レベルごとに抵抗は1ずつ増加し、20レベルでは最大抵抗6となる。</p><p>(私家訳)</p>"
     },
     "Hardwood Armor": {
       "name": "Hardwood Armor",
@@ -7770,8 +7770,8 @@
       "description": "<p>You imbue yourself with the resilience of the cave worm. When you gain the @UUID[Compendium.pf2e.conditionitems.Item.Paralyzed], @UUID[Compendium.pf2e.conditionitems.Item.Slowed], or @UUID[Compendium.pf2e.conditionitems.Item.Stunned] condition, roll a @Check[type:flat|dc:15]. On a success you ignore the condition.</p>\n<p>When using Worm Form you are immune to penalties to your Speed and the @UUID[Compendium.pf2e.conditionitems.Item.Immobilized] condition, you gain a +2 circumstance bonus to your Fortitude or Reflex DC against attempts to @UUID[Compendium.pf2e.actionspf2e.Item.Shove] or @UUID[Compendium.pf2e.actionspf2e.Item.Trip] you, and you ignore difficult terrain and greater difficult terrain.</p><p>@UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]</p><p>@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]</p><p>@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]</p><p>@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]</p><p>@UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]</p><p>@UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]</p>"
     },
     "Infectious Emotions": {
-      "name": "Infectious Emotions",
-      "description": "<p>When you use @UUID[Compendium.pf2e.actionspf2e.Item.Catharsis], one ally within 30 feet gains the catharsis activation benefits in addition to you. If these benefits require an emotional focus, they use your emotional focus as they're experiencing an empathic imprint of your emotions. Depending on the activation benefit, it might be impossible to grant it to an ally; for instance, pride could only have an effect for an ally if both you and the ally critically failed the same saving throw against the same effect.</p><p>@UUID[Compendium.pf2e.actionspf2e.Item.2424g94rpoiN1IPh]</p>"
+      "name": "感染性の情動",
+      "description": "<p>(未訳)</p><p>When you use @UUID[Compendium.pf2e.actionspf2e.Item.Catharsis], one ally within 30 feet gains the catharsis activation benefits in addition to you. If these benefits require an emotional focus, they use your emotional focus as they're experiencing an empathic imprint of your emotions. Depending on the activation benefit, it might be impossible to grant it to an ally; for instance, pride could only have an effect for an ally if both you and the ally critically failed the same saving throw against the same effect.</p><p>@UUID[Compendium.pf2e.actionspf2e.Item.2424g94rpoiN1IPh]</p>"
     },
     "Infiltrate Dream": {
       "name": "Infiltrate Dream",
@@ -7806,8 +7806,8 @@
       "description": "<p>You can call the fire inside you into the palm of your hand. You can cast the <em>@UUID[Compendium.pf2e.spells-srd.Item.Produce Flame]</em> cantrip as an innate primal or arcane spell at will. A cantrip is heightened to a spell level equal to half your level rounded up.</p><p>@UUID[Compendium.pf2e.spells-srd.Item.O9w7r4BKgPogYDDe]</p>"
     },
     "Inner Fire (Monk)": {
-      "name": "Inner Fire (Monk)",
-      "description": "<p>While you're in Stoked Flame Stance, you have cold and fire resistance equal to half your level, and any creature that hits you with an unarmed attack, tries to Grab or Grapple you, or otherwise touches you takes [[/r @actor.abilities.wis.mod[fire]]]{fire damage} equal to your Wisdom modifier (minimum 1). A creature can take this damage no more than once per turn.</p>"
+      "name": "内なる炎 (モンク)",
+      "description": "<p>《焚炎の構え》に入っている間、君は自分のレベルの半分に等しい［火炎］および［氷雪］に対する抵抗を得る。加えて、君が素手攻撃を命中させたか、君に“つかみ”あるいは“組みつき”を試みたか、そのほか君に接触したクリーチャーは、君の【判断力】修正値（最低1）に等しい［火炎］ダメージを受ける。クリーチャーは1ターンに一度だけこのダメージを受ける。</p><p>[[/r @actor.abilities.wis.mod[fire]]]</p>"
     },
     "Inner Strength": {
       "name": "内なる力",
@@ -7942,8 +7942,8 @@
       "description": "<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> You're afflicted by a disease or poison, or are taking persistent damage.</p>\n<hr />\n<p>Your ordered physiology rejects unwelcome elements. Choose one.</p>\n<ul>\n<li><strong>Disease or Poison</strong> Attempt a saving throw against the affliction at its current stage. On a failure, the affliction's stage doesn't increase, but you suffer the effects of the stage you were already on. On a critical failure, the stage only increases by 1.</li>\n<li><strong>Persistent Damage</strong> Attempt a @Check[type:flat|dc:10] to recover from the persistent damage.</li>\n</ul>"
     },
     "Interfering Surge": {
-      "name": "Interfering Surge",
-      "description": "<p><strong>Trigger</strong> A creature you can see Casts a Spell.</p>\n<p><strong>Requirements</strong> You have an unexpended spell slot and can see the triggering spell's manifestations.</p>\n<hr />\n<p>You overcharge the triggering spell with magic. You expend a spell slot and attempt to counteract the triggering spell using the energy of the expended slot. If the triggering spell is in your repertoire and the spell slot you expended was a high enough level to cast it, you take no penalty. Otherwise, you take a -2 penalty to the counteract check if the triggering spell was cast using the same magical tradition you cast, or a -5 penalty if it was cast using a different tradition.</p>\n<p>If the triggering spell is successfully counteracted, it creates a wellspring surge from its caster in addition to the normal effects of being counteracted. If it isn't counteracted, your expended spell slot creates a wellspring surge from you.</p>\n<p><strong>Special</strong> This feat has the trait corresponding to the tradition of spells you cast (arcane, divine, primal, or occult).</p>"
+      "name": "活性妨害",
+      "description": "<p>(未訳)</p><p><b>アーキタイプ</b> ウェルスプリング・メイジ</p><p><strong>Trigger</strong> A creature you can see Casts a Spell.</p>\n<p><strong>Requirements</strong> You have an unexpended spell slot and can see the triggering spell's manifestations.</p>\n<hr />\n<p>You overcharge the triggering spell with magic. You expend a spell slot and attempt to counteract the triggering spell using the energy of the expended slot. If the triggering spell is in your repertoire and the spell slot you expended was a high enough level to cast it, you take no penalty. Otherwise, you take a -2 penalty to the counteract check if the triggering spell was cast using the same magical tradition you cast, or a -5 penalty if it was cast using a different tradition.</p>\n<p>If the triggering spell is successfully counteracted, it creates a wellspring surge from its caster in addition to the normal effects of being counteracted. If it isn't counteracted, your expended spell slot creates a wellspring surge from you.</p>\n<p><strong>Special</strong> This feat has the trait corresponding to the tradition of spells you cast (arcane, divine, primal, or occult).</p>"
     },
     "Internal Cohesion": {
       "name": "Internal Cohesion",
@@ -8387,7 +8387,7 @@
     },
     "Kobold Breath": {
       "name": "コボルドの吐息",
-      "description": "<p>　君は竜の模範の力を30フィート直線状あるいは15フィート円錐形に現れるエネルギーとして放ち、1d4のダメージを与える。範囲内の各クリーチャーは君のクラスDCもしくは呪文DCのいずれか高い方に対する基本セーヴィング・スローを試みなければならない。君は1d4ラウンドの間、この能力を再使用できない。</p>\n<p>　3レベルの時点と以降2レベルごとに、個のダメージは1d4ずつ増加する。ブレスの形状、ダメージ種別、対応するセーヴィング・スローは君の竜の模範と合致したものになる（表1-1を参照）。この能力は与えるダメージの種別に対応する特性を持つ。</p>\n<p>@UUID[Compendium.pf2e.ancestryfeatures.Item.egpiSWBrNBb1Fmig]</p><p>@Check[type:fortitude|dc:resolve(@actor.attributes.classOrSpellDC.value)|basic:true]</p><p>@Template[type:line|distance:30]</p>"
+      "description": "<p>　君は竜の模範の力を30フィート直線状あるいは15フィート円錐形に現れるエネルギーとして放ち、1d4のダメージを与える。範囲内の各クリーチャーは君のクラスDCもしくは呪文DCのいずれか高い方に対する基本セーヴィング・スローを試みなければならない。君は1d4ラウンドの間、この能力を再使用できない。</p>\n<p>　3レベルの時点と以降2レベルごとに、個のダメージは1d4ずつ増加する。ブレスの形状、ダメージ種別、対応するセーヴィング・スローは君の竜の模範と合致したものになる（表1-1を参照）。この能力は与えるダメージの種別に対応する特性を持つ。</p>\n<p>@UUID[Compendium.pf2e.ancestryfeatures.Item.egpiSWBrNBb1Fmig]</p><p>@Check[type:fortitude|dc:resolve(@actor.attributes.classOrSpellDC.value)|basic:true]</p><p>@Template[type:line|distance:30]</p><p>[[/r ceil(@actor.level/2)d4[acid]]]</p><p>[[/r ceil(@actor.level/2)d4[cold]]]</p><p>[[/r ceil(@actor.level/2)d4[electricity]]]</p><p>[[/r ceil(@actor.level/2)d4[fire]]]</p><p>[[/r ceil(@actor.level/2)d4[poison]]]</p>"
     },
     "Kobold Lore": {
       "name": "コボルドの知識",
@@ -9158,8 +9158,8 @@
       "description": "<p>You master the most powerful spells that enchant and deceive. You learn a 7th-level occult spell. At 18th level, you learn an 8th-level spell, and at 20th level, you learn a 9th-level spell. Each of these spells must come from either the enchantment or illusion school. You cast these spells as occult innate spells. You become a master with spell attack rolls and spell DCs for occult spells.</p>"
     },
     "Master Cathartic Spellcasting": {
-      "name": "Master Cathartic Spellcasting",
-      "description": "<p>You gain the master spellcasting benefits.</p>"
+      "name": "カサーティックの達人呪文発動",
+      "description": "<p>君は達人呪文発動の利益を得る。</p>\n"
     },
     "Master Cleric Spellcasting": {
       "name": "クレリックの達人呪文発動",
@@ -9222,8 +9222,8 @@
       "description": "<p><strong>前提条件</strong> 《ソーサラーの熟練呪文発動》、血脈に対応する技能（〈自然〉、〈宗教〉、〈伝承学〉、〈秘術〉のいずれか）の伝説</p>\n<p>　君は達人呪文発動の利益を得る。</p>\n"
     },
     "Master Spellcasting": {
-      "name": "Master Spellcasting",
-      "description": "<p>You gain the master spellcasting archetype benefits.</p>"
+      "name": "達人呪文発動",
+      "description": "<p>君は達人呪文発動アーキタイプの利益を得る。</p>"
     },
     "Master Spotter (Investigator)": {
       "name": "監視の達人 (インヴェスティゲーター)",
@@ -9374,8 +9374,8 @@
       "description": "<p><b>アーキタイプ</b> セレブリティ</p><p><b>前提条件</b> 《セレブリティへの専念》</p>\n<p>　君が誰かと目を合わせると、その人は君から目を離すことができなくなる。目標となるクリーチャーを1体選択する。目標は意志セーヴを行わねばならず、失敗すると次の君のターンの終了時まで恍惚状態になる。このセーヴのDCは君のクラスDCか呪文DCのいずれか高い方を用いる。クリーチャーがセーヴに成功したか恍惚状態が敵対的なアクションによって終了するかすると、目標は1日の間《魅惑の凝視》に一次的耐性を得る。</p>\n<p>　君がこの特技を選択した時、秘術か伝承のいずれかの特性を選択すること。一度選択すると以後変更できない。</p><p>@UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]</p>"
     },
     "Metabolize Element": {
-      "name": "Metabolize Element",
-      "description": "<p><strong>Trigger</strong> You take damage from a foe's spell or magical ability with a trait of one of the elements in your elemental philosophy.</p>\n<hr />\n<p>You rapidly metabolize the elemental particles in your opponent's spell to gain a boost of energy. You gain the @UUID[Compendium.pf2e.conditionitems.Item.Quickened] condition until the end of your next turn. You can use the extra action only to Step or Stride.</p><p>@UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]</p>"
+      "name": "元素代謝",
+      "description": "<p><strong>トリガー</strong> 敵が用いた地、水、火炎、風のいずれかの特性を持つ呪文あるいは魔法効果から君がダメージを受けた。</p>\n<hr />\n<p>君は相手の呪文の元素粒子を素早く代謝させ、エネルギーを増幅させる。君は次の自分のターンの終了時まで加速状態を得る。君はこの追加アクションで“ステップ”あるいは“歩行”のみを行える。</p><p>@UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]</p>"
     },
     "Metal Carapace": {
       "name": "Metal Carapace",
@@ -9822,8 +9822,8 @@
       "description": "<p>　君には独創性があり、それによって広範囲の技術を学ぶことができる。君は自分で選択した技能2つにおいて、修得の習熟ランクを得る。</p>\n"
     },
     "Natural Swimmer": {
-      "name": "Natural Swimmer",
-      "description": "<p>Water flows around you, letting you cut through the waves as if born to it. You gain a swim Speed of 15 feet. If you already have a permanent swim Speed, swimming up or down isn't difficult terrain.</p>"
+      "name": "天然の泳者",
+      "description": "<p>君の周囲には水が流れており、生まれながらにして波を切り開くことができる。君は水泳移動速度15フィートを得る。君がすでに永続的な水泳速度を持っているならば、上へ泳ぐのも下へ泳ぐのも困難地形ではない。</p>"
     },
     "Necromancer's Visage": {
       "name": "Necromancer's Visage",
@@ -10211,7 +10211,7 @@
     },
     "Ostentatious Arrival": {
       "name": "派手な来訪",
-      "description": "<p>　君が行う次のアクションが3アクションの連続行動による“幻獣の顕現”あるいは3アクションの招来呪文の“呪文発動”のために使用されたなら、クリーチャーは爆発と共に現れる。君が招来したあるいは顕現させたクリーチャーの周囲10フィート放射内にいる全てのクリーチャーは、招来呪文の場合は呪文レベル毎に1d4、“幻獣の顕現”の場合は君のレベル2毎に1d4の［火炎］ダメージを与える。もし招来ないし顕現させたクリーチャーが強酸、氷雪、雷撃、火炎、音波、水の特性を持つならダメージはその種別に変化する（水の場合は［氷雪］）。クリーチャーがこれらのうち複数の特性を持つなら、君が与えるダメージ種別を1つ指定する。</p>\n<p>@Template[type:emanation|distance:10]</p>"
+      "description": "<p>　君が行う次のアクションが3アクションの連続行動による“幻獣の顕現”あるいは3アクションの招来呪文の“呪文発動”のために使用されたなら、クリーチャーは爆発と共に現れる。君が招来したあるいは顕現させたクリーチャーの周囲10フィート放射内にいる全てのクリーチャーは、招来呪文の場合は呪文レベル毎に1d4、“幻獣の顕現”の場合は君のレベル2毎に1d4の［火炎］ダメージを与える。もし招来ないし顕現させたクリーチャーが強酸、氷雪、雷撃、火炎、音波、水の特性を持つならダメージはその種別に変化する（水の場合は［氷雪］）。クリーチャーがこれらのうち複数の特性を持つなら、君が与えるダメージ種別を1つ指定する。</p>\n<p>@Template[type:emanation|distance:10]</p><p>[[/r ((floor(@actor.level/2))d4)[fire]]]</p>"
     },
     "Ostentatious Reload": {
       "name": "Ostentatious Reload",
@@ -10247,7 +10247,7 @@
     },
     "Overpowering Charge": {
       "name": "圧倒突撃",
-      "description": "<p><strong>前提条件</strong> 《暴乱突撃》</p>\n<p>　君は敵を通過して突撃しながら蹂躙する。君が《暴乱突撃》を使用してクリーチャーの接敵面を通過することに成功したなら、そのクリーチャーは君の【筋力】修正値に等しい［殴打］ダメージを受ける。大成功したなら、クリーチャーは2倍のダメージを受け、次の君のターンの終了時まで立ちすくみ状態になる。</p>\n<p>@UUID[Compendium.pf2e.feats-srd.Item.to6s7QanfhHukW5r]</p><p>@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]</p>"
+      "description": "<p><strong>前提条件</strong> 《暴乱突撃》</p>\n<p>　君は敵を通過して突撃しながら蹂躙する。君が《暴乱突撃》を使用してクリーチャーの接敵面を通過することに成功したなら、そのクリーチャーは君の【筋力】修正値に等しい［殴打］ダメージを受ける。大成功したなら、クリーチャーは2倍のダメージを受け、次の君のターンの終了時まで立ちすくみ状態になる。</p>\n<p>@UUID[Compendium.pf2e.feats-srd.Item.to6s7QanfhHukW5r]</p><p>@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]</p><p>[[/r @actor.abilties.str.mod[bludgeoning]]]</p><p>[[/r 2*@actor.abilties.str.mod[bludgeoning]]]</p>"
     },
     "Oversized Throw": {
       "name": "巨物投擲",
@@ -10766,8 +10766,8 @@
       "description": "<p><b>アーキタイプ</b> ポイズナー</p><p><b>前提条件</b> 《ポイズナーへの専念》；〈医術〉の修得</p><p><b>必要条件</b> 君の直前のアクションが毒に侵された目標に対してダメージを与える成功した近接“打撃”であり、君は目標を侵す毒を知っている。</p>\n<p>　毒は体の特定の部位を攻撃する――ある毒は肺を、別の毒は循環器系を、また別のものは神経を狙う。君はそのような弱点を利用する方法を知っている。君は目標に必要条件を満たす“打撃”のダメージ種別の1d6のダメージと、1d6の［毒］ダメージを与える。君が18レベル以上なら、君は2d6の各種別のダメージを与える。</p><p>@Damage[1d6[poison]]</p><p>[[/r {1d6}]]{1d6 damage} damage of the required Strike's damage type and @Damage[1d6[poison]]</p>"
     },
     "Polearm Tricks": {
-      "name": "Polearm Tricks",
-      "description": "<p>Your connection to rune magic has revealed tricks to make polearms deadlier in your hands. You gain the critical specialization effects of polearms.</p>"
+      "name": "長柄の策略",
+      "description": "<p>(未訳)</p><p>Your connection to rune magic has revealed tricks to make polearms deadlier in your hands. You gain the critical specialization effects of polearms.</p>"
     },
     "Portentous Spell": {
       "name": "呪文壮麗化",
@@ -11098,8 +11098,8 @@
       "description": "<p><strong>Requirements</strong> Your most recent action was to cast a non-cantrip spell with the healing trait.</p>\n<hr />\n<p>You transfer the divine essence of your magic to the air around you, cleansing it of toxins. Attempt a counteract check against each airborne disease or poison effect in a @Template[type:emanation|distance:15]{15-foot radius} around you. Regardless of your success or failure, until the beginning of your next turn, all creatures in the purified area gain a +1 status bonus to Fortitude saving throws.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.Effect: Purifying Breeze]</p><p>@UUID[Compendium.pf2e.feat-effects.Item.7MQLLkQACZt8cspt]</p>"
     },
     "Purifying Spell": {
-      "name": "Purifying Spell",
-      "description": "<p>You purify the water within a creature's body to cleanse them of illness. If the next action you use is to cast <em>@UUID[Compendium.pf2e.spells-srd.Item.Heal]</em> targeting a single living creature, you can attempt to counteract a disease or poison affecting the target, in addition to the other benefits of <em>heal</em>. If you do, <em>heal</em> gains the water trait.</p><p>@UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]</p>"
+      "name": "浄化呪文",
+      "description": "<p>君はクリーチャーの体内の水を浄化し、病気を浄化する。君が次に使用するアクションが生きているクリーチャー1体を対象としたヒールである場合、ヒールの他の効果に加えて、君はその対象に影響を及ぼしている病気や毒を打ち消そうと試みることができる。君がそうした場合、ヒールは水の特性を得る。</p><p>@UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]</p>"
     },
     "Push Back the Dead!": {
       "name": "Push Back the Dead!",
@@ -11254,8 +11254,8 @@
       "description": "<p><strong>Frequency</strong> once per turn</p>\n<hr />\n<p>You've replaced your heart with one made of animated quicksilver and living adamantine. You reduce your @UUID[Compendium.pf2e.conditionitems.Item.Slowed] condition by 1. Alternatively, if you are not slowed, you are @UUID[Compendium.pf2e.conditionitems.Item.Quickened]{Quickened 1} during your next turn, and can use your extra action to Stride or Strike.</p><p>@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]</p><p>@UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]</p>"
     },
     "Quickened Attunement": {
-      "name": "Quickened Attunement",
-      "description": "<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> Your previous action was Attunement Shift.</p>\n<hr />\n<p>If your next action is to cast a spell that would grant your terrain attunement bonus, reduce the number of actions to cast it by 1 (to a minimum of 1 action).</p>\n<hr />\n<p><strong>Special</strong> You can't use Quickened Attunement and @UUID[Compendium.pf2e.feats-srd.Item.Quickened Casting] in the same round.</p><p>@UUID[Compendium.pf2e.feats-srd.Item.z2ptq23nNBOeEI7H]</p>"
+      "name": "同調による高速化",
+      "description": "<p><b>アーキタイプ</b> ジオマンサー</p><p><b>前提条件</b> 《ジオマンサーへの専念》；〈自然〉の伝説</p><p><strong>頻度</strong> 1日1回</p>\n<p><strong>必要条件</strong> 君の直前のアクションが《同調遷移》だった。</p>\n<hr />\n<p>次の君のアクションが地形同調ボーナスを与える呪文の“呪文発動”なら、そのを発動に必要なアクション数を1だけ減少させる（最低1アクション）。</p>\n<hr />\n<p><strong>特殊</strong> 君は《同調による高速化》と@UUID[Compendium.pf2e.feats-srd.Item.z2ptq23nNBOeEI7H]を同じラウンドに使用できない。</p>"
     },
     "Quickened Casting": {
       "name": "呪文発動高速化",
@@ -11402,8 +11402,8 @@
       "description": "<p><strong>前提条件</strong> 〈製作〉の達人</p>\n<p>　君は“魔除けの貼付”に1分しか必要としない。君が〈製作〉の伝説なら、君は3アクションの連続行動で“魔除けの貼付”を行える。</p>\n<p>@UUID[Compendium.pf2e.actionspf2e.Item.UAaQk93a30nx0nYY]</p>"
     },
     "Rapid Manifestation": {
-      "name": "Rapid Manifestation",
-      "description": "<p><strong>Trigger</strong> You roll initiative or a hazard attacks you.</p>\n<hr />\n<p>Your unwavering soul brings up your defenses as soon as you're in danger. You Manifest your Soulforged Armament.</p>"
+      "name": "迅速顕在化",
+      "description": "<p>(未訳)</p><p><strong>Trigger</strong> You roll initiative or a hazard attacks you.</p>\n<hr />\n<p>Your unwavering soul brings up your defenses as soon as you're in danger. You Manifest your Soulforged Armament.</p>"
     },
     "Rapid Mantel": {
       "name": "よじ登り",
@@ -11534,8 +11534,8 @@
       "description": "<p><b>アーキタイプ</b> リングィスト</p><p><b>前提条件</b> 《リングィストへの専念》；〈社会〉の達人</p>\n<p>　全ての意思疎通には目に見える示唆や信号が満ちている。君が10分以上誰かと意思疎通したなら、その方言や発音の変化、音によらない手がかりによってその人物の社会環境（故郷や所属していた組織など）に関する些細な事実を知ることができる。この能力の目標がその社会環境を偽ろうとしている場合（貴族が一般人のふりをしているなど）、目標は君の〈社会〉DCに対して〈ペテン〉、〈社会〉、適切な〈知識〉のいずれかによる判定を試みなければならず、成功すれば君に振る舞おうとしている人格としての偽りの事実を与える。</p>\n<p>　君が個人の些細な事実を一つ以上見抜いたなら、君はその癖を会話に混ぜ込み親しみやすさを感じさせることができる。これにより、君はこのような人物に対する〈交渉〉および〈ペテン〉の判定に＋1の状況ボーナスを得る。</p><p>@UUID[Compendium.pf2e.feat-effects.Item.ivGiUp0EC5nWT9Hb]</p>"
     },
     "Read the Land": {
-      "name": "Read the Land",
-      "description": "<p>You've learned how to commune with the land to learn information. You learn the <em>@UUID[Compendium.pf2e.spells-srd.Item.Commune with Nature]</em> ritual if you didn't know it already. You can perform this ritual with a casting time of 1 hour instead of 1 day and without a secondary caster.</p><p>@UUID[Compendium.pf2e.spells-srd.Item.l4LFwY7iuzX6sDXr]</p>"
+      "name": "土地読み",
+      "description": "<p><b>アーキタイプ</b> ジオマンサー</p><p><b>前提条件</b> 《ジオマンサーへの専念》；〈自然〉の達人</p><p>君は情報を得るために土地との意思疎通方法を身につけた。君がまだ得ていない場合、君はコミューン・ウィズ・ネイチャーの儀式を身につける。この儀式は、1日ではなく1時間の発動時間で、副次術者なしで執行できる。</p><p>@UUID[Compendium.pf2e.spells-srd.Item.l4LFwY7iuzX6sDXr]</p>"
     },
     "Read The Roots": {
       "name": "Read The Roots",
@@ -11642,8 +11642,8 @@
       "description": "<p>Through your strong connection with your progenitor, you're able to redirect those attempting to spy on you. Whenever you would be directly targeted with a scrying effect, the effect must attempt a counteract check against the higher of your spell DC or class DC. If the check fails, the effect targets your progenitor instead of you.</p>"
     },
     "Redirect Elements": {
-      "name": "Redirect Elements",
-      "description": "<p><strong>Trigger</strong> The spell attack roll for a foe's spell with an elemental trait targeting you fails or critically fails, and the elemental trait is in your elemental philosophy.</p>\n<hr />\n<p>You seize the elemental essence of an incoming spell and redirect the spell to a creature of your choice within the spell's area. The attacker rerolls the spell's attack roll against the new target.</p>"
+      "name": "元素反射",
+      "description": "<p><strong>トリガー</strong> 君を目標とする元素特性1つを持つ敵の呪文の攻撃ロールが失敗あるいは大失敗する。</p>\n<hr />\n<p>君は向かってくる呪文の元素の精髄をつかみ、その呪文の距離内にいる君の望むクリーチャー1体に呪文を向け直す。攻撃したものは新しい目標に対してこの呪文の攻撃ロールを再ロールする。</p>"
     },
     "Redirecting Shot": {
       "name": "Redirecting Shot",
@@ -11670,8 +11670,8 @@
       "description": "<p>You've formed a connection with a small hand mirror, allowing you to use it as an extradimensional storage space. You can store one item of light Bulk in your mirror at a time. Storing or retrieving an item requires an Interact action and any creature can do so. While an item is stored within the mirror, the mirror reflects the item's image. You gain a +2 circumstance bonus to Stealth checks to @UUID[Compendium.pf2e.actionspf2e.Item.Conceal an Object]{Conceal the Object} unless someone checks the mirror's reflection.</p><p>@UUID[Compendium.pf2e.actionspf2e.Item.qVNVSmsgpKFGk9hV]</p>"
     },
     "Reflective Ripple Stance": {
-      "name": "Reflective Ripple Stance",
-      "description": "<p><strong>Requirements</strong> You're unarmored.</p>\n<hr />\n<p>You enter a stance of fluid grace as small amounts of water flow with your movements and attacks. You can make flowing wave attacks that deal 1d6 bludgeoning damage. They are in the brawling group and have the agile, disarm, finesse, nonlethal, trip, unarmed, and water traits.</p>\n<p>While in Reflective Ripple Stance, you gain a +1 circumstance bonus to Athletics checks to @UUID[Compendium.pf2e.actionspf2e.Item.Disarm], @UUID[Compendium.pf2e.actionspf2e.Item.Swim], or @UUID[Compendium.pf2e.actionspf2e.Item.Trip], and you gain a +2 circumstance bonus to your Reflex DC to avoid being Disarmed and Tripped.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.Stance: Reflective Ripple Stance]</p>\n<hr />\n<p><strong>Special</strong> This feat gains your choice of either the divine or occult trait, matching your ki spell tradition if possible.</p><p>@UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]</p><p>@UUID[Compendium.pf2e.actionspf2e.Item.c8TGiZ48ygoSPofx]</p><p>@UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]</p><p>@UUID[Compendium.pf2e.feat-effects.Item.QDQwHxNowRwzUx9R]</p>"
+      "name": "応波の構え",
+      "description": "<p><strong>必要条件</strong> 君は鎧を着用していない。</p>\n<hr />\n<p>君は動きや攻撃で少量の水が流れるような、流麗な構えに入る。君は1d6の［殴打］ダメージを与える波浪掌／flowing waveによる攻撃を行える。これは剛腕種に属し、機敏、武器落とし、巧技、非致傷、足払い、水の特性を持つ。</p>\n<p>《応波の構え》に入っている間、君は“武器落とし”、“水泳”、“足払い”のために行う〈運動〉判定に＋1の状況ボーナスと、君が“武器落とし”あるいは“足払い”を受ける際の反応DCに＋2の状況ボーナスを得る。</p><p><b>特殊</b> この特技は君が選択した信仰あるいは伝承のいずれかの特性を得る。君が練気呪文を発動できるなら、それに対応したいずれかの特性を得ること。</p><p>@UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]</p><p>@UUID[Compendium.pf2e.actionspf2e.Item.c8TGiZ48ygoSPofx]</p><p>@UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]</p><p>@UUID[Compendium.pf2e.feat-effects.Item.QDQwHxNowRwzUx9R]</p>"
     },
     "Reflexive Catch": {
       "name": "Reflexive Catch",
@@ -11934,7 +11934,7 @@
       "description": "<p>You reveal that you played a minor but recurring role in another humanoid's life-or at least convince them that's the case. Attempt a @Check[type:deception|defense:will] check against the target's Will DC. On a success, the revelation makes them frightened 2, and on a critical success they are frightened 3. In addition, you gain information about the subject as though you had attempted to Recall Knowledge about them using an appropriate skill and received the same result on your roll. You can't use this ability against the same humanoid again until 1 day has passed and you've also successfully disguised yourself as a different person.</p>"
     },
     "Reveal True Name": {
-      "name": "Reveal True Name",
+      "name": "真名の公開",
       "description": "<p>You attempt to get a creature to do as you wish by threatening them with your knowledge of their true name. You must know and speak the creature's true name and say what you want the creature to do. Attempt an @Check[type:intimidation|defense:will] check against the target's Will DC.</p>\n<hr />\n<p><strong>Critical Success</strong> The target does as you say out of a sense of self-preservation, and will not harm itself in any way. It becomes unfriendly (if it wasn't already unfriendly or hostile) but continues to comply for up to 1 day. The target is too scared of you to retaliate or flee, certain you would find them wherever they might go.</p>\n<p><strong>Success</strong> As critical success, but once the target becomes unfriendly, they avoid you and might act against you in an indirect manner, such as alerting your enemies to your location.</p>\n<p><strong>Failure</strong> The target refuses to comply and typically flees your presence to avoid your further use of their true name. If they were not already unfriendly or hostile, they become unfriendly. They avoid you in the future and are likely to take indirect action against you.</p>\n<p><strong>Critical Failure</strong> The target refuses to comply and becomes hostile, if it wasn't already. If they perceive you as weak, they might attack you; otherwise, they likely flee to avoid your further use of their true name.</p>"
     },
     "Revealing Stab": {
@@ -12030,8 +12030,8 @@
       "description": "<p><strong>Requirements</strong> The ally hasn't acted in the current combat.</p>\n<p><strong>Trigger</strong> An ally's turn begins.</p>\n<hr />\n<p>You announce the triggering ally with a litany of their legendary achievements, spurring them to action. The target is @UUID[Compendium.pf2e.conditionitems.Item.Quickened] this turn and can spend the extra action to Stride, Strike, Demoralize, Feint, or Perform.</p><p>@UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]</p>"
     },
     "Rippling Spin": {
-      "name": "Rippling Spin",
-      "description": "<p><strong>Trigger</strong> You are hit by a physical melee attack by an attacker you can see that's in reach.</p>\n<p><strong>Requirements</strong> You're in Reflective Ripple Stance.</p>\n<hr />\n<p>After the triggering attack is done, Step. You must end this Step within the attacker's reach. Then, you can attempt an Athletics check to @UUID[Compendium.pf2e.actionspf2e.Item.Disarm] or @UUID[Compendium.pf2e.actionspf2e.Item.Trip] the attacker.</p><p>@UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]</p><p>@UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]</p>"
+      "name": "波打つ旋回",
+      "description": "<p><b>前提条件</b> 《応波の構え》</p><p><strong>トリガー</strong> 間合内にいて君が見ることのできる相手が、君に［物理］ダメージを与える近接攻撃を命中させた。</p>\n<p><strong>必要条件</strong> 君は《応波の構え》に入っている。</p>\n<hr />\n<p>トリガーとなった攻撃が終わった後、君は“ステップ”する。君はこの“ステップ”を、攻撃した者の間合い内で終えなければならない。その後、君は攻撃したものを“武器落とし”あるいは“足払い”するために〈運動〉を試みる。</p><p>@UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]</p><p>@UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]</p>"
     },
     "Riptide": {
       "name": "Riptide",
@@ -12090,8 +12090,8 @@
       "description": "<p>　君の石辺との生来のつながりは、でこぼこした表面を移動することに長けさせる。君は石や土でできた瓦礫やでこぼこの地面による移動困難地形を無視する。</p>\n<p>　加えて、石や土でできた狭い表面やでこぼこした地面で“平衡感覚”のために〈軽業〉技能を使用するとき、君は立ちすくみ状態とならず、〈軽業〉判定で成功をロールすると、代わりに大成功を得る。</p>\n<p>@UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]</p><p>@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]</p>"
     },
     "Rockslide Spell": {
-      "name": "Rockslide Spell",
-      "description": "<p>You enhance your spell with elemental earth, causing chunks of stone to litter the ground. If the next action you use is to Cast a non-cantrip Spell that affects an area, a number of 5-foot squares in the area equal to the spell rank become difficult terrain for 1 round. These squares must be on the ground, and the entire area of difficult terrain must be contiguous. The spell gains the earth trait.</p>"
+      "name": "呪文礫砂化",
+      "description": "<p>君は呪文を地の元素で強化し、石の塊を地面に散らばらせる。次の君のアクションが範囲に効果を及ぼす、キャントリップでない呪文の“呪文発動”のために使用されたなら、呪文レベルに等しい数の5フィート・マスを1ラウンドの間移動困難地形にする。これらのマスは地面でなければならず、これらの移動困難地形は連続していなければならない。この呪文は地特性を得る。</p>"
     },
     "Rocky Flesh": {
       "name": "Rocky Flesh",
@@ -12142,8 +12142,8 @@
       "description": "<p>　君は伝統的なゴブリンの乗騎に騎乗することが得意である。前提条件を満たしていなくとも、君は《騎乗術》特技を得る。</p>\n<p>　ゴブリン・ドッグやウルフの乗騎に“動物に命令する”を使用する際、君は〈自然〉判定に＋1の状況ボーナスを得る。チャンピオンの乗騎など乗騎の特殊能力を持つ動物の相棒を選択する場合であっても、君は動物の相棒として常にウルフを選択できる。</p>\n<p>@UUID[Compendium.pf2e.feats-srd.Item.Rq5wkA8DtsmbzoGV]</p><p>@UUID[Compendium.pf2e.actionspf2e.Item.q9nbyIF0PEBqMtYe]</p>"
     },
     "Rough Terrain Stance": {
-      "name": "Rough Terrain Stance",
-      "description": "<p><strong>Requirements</strong> You gained a terrain attunement benefit this turn.</p>\n<hr />\n<p>You enter a stance that makes it difficult to move around you. Each square adjacent to you becomes difficult terrain that matches the terrain attunement you gained (rime forms in an arctic terrain, momentary undergrowth shoots up in a forest terrain, and so on). You ignore this difficult terrain.</p>\n<p>This stance ends if you move into a different type of terrain.</p>"
+      "name": "不整地の構え",
+      "description": "<p><b>アーキタイプ</b> ジオマンサー</p><p><strong>必要条件</strong> このターン、君が地形同調の利益を得た。</p>\n<hr />\n<p>君は自分の周囲で移動しにくくなる構えを取る。君が得ている地形同調に合致する、君に隣接するマスは移動困難地形になる（極地であれば霧氷が舞い、森林地形では一時的に下草が伸びるなど）。君はこの移動困難地形の影響を受けない。</p>\n<p>君が異なる地形種別に移動するとこの構えは終了する。</p>"
     },
     "Round Ears": {
       "name": "Round Ears",
@@ -12174,8 +12174,8 @@
       "description": "<p><strong>Requirements</strong> You have @UUID[Compendium.pf2e.actionspf2e.Item.Spin Tale]{Spun a Tale}.</p>\n<p><strong>Trigger</strong> The villain of the tale you've spun makes an attack roll with a given weapon or unarmed attack, uses a particular special ability (such as a Breath Weapon), or Casts a Spell against the hero, and they used that same attack, special ability, or spell against the hero on the previous turn.</p>\n<hr />\n<p>Heroes learn from their previous failures, often succeeding on the third attempt. You narrate a tale of the hero's success, granting them a +2 circumstance bonus to their AC or saving throw against the triggering effect. If the villain has used the same effect against the hero on both of their last two turns, and you used Rule of Three on that effect last turn as well, the bonus increases to +4.</p><p>@UUID[Compendium.pf2e.actionspf2e.Item.hPZQ5vA9QHEPtjFW]</p>"
     },
     "Runelord Dedication": {
-      "name": "Runelord Dedication",
-      "description": "<p>Your rune magic increases, and you practice with your school's associated weapon. You gain an additional cantrip of your chosen arcane school, and each time you gain a level (including this level), you add an additional spell from your chosen arcane school to your spellbook, with the same restrictions as the two spells you normally add.</p>\n<hr />\n<p><strong>Special</strong> You can't select another dedication feat until you have gained two other feats from the @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.09VwtSsYldMkVzU1]{Runelord} archetype.</p>"
+      "name": "ルーンロードへの専念",
+      "description": "<p>(未訳)</p><p>Your rune magic increases, and you practice with your school's associated weapon. You gain an additional cantrip of your chosen arcane school, and each time you gain a level (including this level), you add an additional spell from your chosen arcane school to your spellbook, with the same restrictions as the two spells you normally add.</p>\n<hr />\n<p><strong>Special</strong> You can't select another dedication feat until you have gained two other feats from the @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.09VwtSsYldMkVzU1]{Runelord} archetype.</p>"
     },
     "Runescarred Dedication": {
       "name": "Runescarred Dedication",
@@ -12362,12 +12362,12 @@
       "description": "<p><b>アーキタイプ</b> アーキラジスト</p><p><b>前提条件</b> 《アーキラジストへの専念》；〈社会〉の達人</p>\n<p>　君は古代の文書や文化的遺物を理解するために必要な知識を持っている。君はどのような文章を調査する場合でも、〈社会〉を使って“解読”を行える。また、文化的に重要な魔法にアイテムや場所を調べる際、君は〈社会〉を使用して“魔法の識別”を行える。</p><p>@UUID[Compendium.pf2e.actionspf2e.Item.d9gbpiQjChYDYA2L]</p><p>@UUID[Compendium.pf2e.actionspf2e.Item.eReSHVEPCsdkSL4G]</p>"
     },
     "School Counterspell": {
-      "name": "School Counterspell",
-      "description": "<p>Your intricate knowledge of your school lets you easily negate spells from that school. Instead of being able to counter a foe's spell with Counterspell only if you have the same spell prepared, if the foe casts a spell from the school matching your specialization, you can Counterspell it with any other spell of the same school.</p>"
+      "name": "系統呪文相殺",
+      "description": "<p>(未訳)</p><p>Your intricate knowledge of your school lets you easily negate spells from that school. Instead of being able to counter a foe's spell with Counterspell only if you have the same spell prepared, if the foe casts a spell from the school matching your specialization, you can Counterspell it with any other spell of the same school.</p>"
     },
     "School Spell Redirection": {
-      "name": "School Spell Redirection",
-      "description": "<p>When you Counterspell a spell with a school matching your specialization, if you critically succeed at your counteract check, or if you succeed while using a spell of a higher level than the spell you countered, you can redirect the spell you countered. You choose the target, area, and other aspects of the spell and use your own spell DC, spell attack roll, or other statistics as appropriate to determine the effects.</p>"
+      "name": "系統呪文再命令",
+      "description": "<p>(未訳)</p><p>When you Counterspell a spell with a school matching your specialization, if you critically succeed at your counteract check, or if you succeed while using a spell of a higher level than the spell you countered, you can redirect the spell you countered. You choose the target, area, and other aspects of the spell and use your own spell DC, spell attack roll, or other statistics as appropriate to determine the effects.</p>"
     },
     "Schooled In Secrets": {
       "name": "秘印教育",
@@ -12510,8 +12510,8 @@
       "description": "<p>Choose a secret society (such as the Lacunafex or the Bellflower Network). You've learned that society's secret cant or jargon, enabling you to share hidden messages when signing or speaking with others who've also learned it. If an observer succeeds at a Perception check against your Deception DC when you do this, they realize you are passing a message but fail to discern its content, unless they subsequently succeed at a Society check against your Deception DC. On a critical success, they learn not only the message, but also who you're passing the message to.</p>\n<p><strong>Special</strong> You can take this feat multiple times. You learn the secret speech of a different society each time.</p>"
     },
     "Secrets of Shadow": {
-      "name": "Secrets of Shadow",
-      "description": "<p>Your shadow's voice grows ever clearer; it whispers secrets of true power to you and shields your flesh from harm. Your shadow reservoir gains an additional spell 1 level below the highest level spell you can cast, in addition to the spells it already contains for all the levels below that.</p>\n<p>In addition, the tattoos generated by casting shadow spells protect your body against harmful energies. You gain negative resistance equal to the highest level of spell you can cast from spell slots; if you have negative healing (or are otherwise harmed by positive damage and not negative damage), you instead gain positive resistance in the same amount.</p>"
+      "name": "影の秘密",
+      "description": "<p><b>前提条件</b> 《影の貯留》</p><p>君の影の声はますます澄んでいく。それは君に真の力の奥義をささやき、君の肉体を害から守る。君の影の貯留は、君が発動できる最高レベルの呪文より1レベル以上低い全レベルの呪文に追加の呪文を与える。これは既に有している影の貯留に追加される。</p><p>加えて、影呪文の発動によりで生まれる刺青は、君の体を有害なエネルギーから守る。君は呪文スロットから発動された呪文の最高レベルに等しい［負のエネルギー］に対する抵抗を得る。君が負のエネルギーによる回復を持つ場合（または別の理由で［負のエネルギー］ダメージではなく［正のエネルギー］ダメージで傷つけられる場合）、代わりに同じ値の［正のエネルギー］に対する抵抗を得る。</p>"
     },
     "See the Unseen": {
       "name": "See the Unseen",
@@ -12651,11 +12651,11 @@
     },
     "Shadow Illusion": {
       "name": "影幻術",
-      "description": "<p><b>アーキタイプ</b> シャドウキャスター*、シャドウダンサー</p><p><b>前提条件</b> 《影魔法》</p><p>* このアーキタイプは《影幻術》をここで記載されているものとは異なるレベルで提供する。</p>\n<p>　芸術的な目で、君は影を幻の姿へと変える。君はシャドウ・イリュージョン焦点化呪文を得る。焦点化プールの焦点化ポイントを1ポイント増加する。君の伝承呪文攻撃ロールと伝承呪文DCは熟練になる。</p><p>@UUID[Compendium.pf2e.spells-srd.Item.EOWh6VVcSjB3WPjX]</p>"
+      "description": "<p><b>前提条件</b> 《影魔法》</p><p>　芸術的な目で、君は影を幻の姿へと変える。君はシャドウ・イリュージョン焦点化呪文を得る。焦点化プールの焦点化ポイントを1ポイント増加する。君の伝承呪文攻撃ロールと伝承呪文DCは熟練になる。</p><p>@UUID[Compendium.pf2e.spells-srd.Item.EOWh6VVcSjB3WPjX]</p>"
     },
     "Shadow Magic": {
       "name": "影魔法",
-      "description": "<p><b>アーキタイプ</b> シャドウキャスター*、シャドウダンサー</p><p><b>前提条件</b> 《シャドウダンサーへの専念》</p><p>* このアーキタイプは《影魔法》をここで記載されているものとは異なるレベルで提供する。</p>\n<p>　君はシャドウダンサー固有の焦点化呪文使用することで影に溶け込み影と共に遊ぶことができる。君はダンス・オヴ・ダークネスかシャドウ・ジャンプのいずれか1つをシャドウダンサー焦点化呪文として身につける。君が既に有していない場合、君は1焦点化ポイントを持つ焦点化プールを得る。君は薄暗い光あるいは暗闇の範囲内で瞑想することで“再焦点化”を行える。焦点化呪文のルールはここに掲載されている。</p>\n<p>　シャドウダンサー焦点化呪文は伝承呪文である。君は伝承呪文攻撃ロールと伝承呪文DCの修得になる。この呪文の呪文発動能力は【魅力】である。</p><p>@UUID[Compendium.pf2e.spells-srd.Item.9BGEf9Sv5rgNBCk0]</p><p>@UUID[Compendium.pf2e.spells-srd.Item.5ttAVJbWg2GVKmrN]</p><p>@UUID[Compendium.pf2e.actionspf2e.Item.OSefkMgojBLqmRDh]</p>"
+      "description": "<p>　君はシャドウダンサー固有の焦点化呪文使用することで影に溶け込み影と共に遊ぶことができる。君はダンス・オヴ・ダークネスかシャドウ・ジャンプのいずれか1つをシャドウダンサー焦点化呪文として身につける。君が既に有していない場合、君は1焦点化ポイントを持つ焦点化プールを得る。君は薄暗い光あるいは暗闇の範囲内で瞑想することで“再焦点化”を行える。焦点化呪文のルールはここに掲載されている。</p>\n<p>　シャドウダンサー焦点化呪文は伝承呪文である。君は伝承呪文攻撃ロールと伝承呪文DCの修得になる。この呪文の呪文発動能力は【魅力】である。</p><p>@UUID[Compendium.pf2e.spells-srd.Item.9BGEf9Sv5rgNBCk0]</p><p>@UUID[Compendium.pf2e.spells-srd.Item.5ttAVJbWg2GVKmrN]</p><p>@UUID[Compendium.pf2e.actionspf2e.Item.OSefkMgojBLqmRDh]</p>"
     },
     "Shadow Mark": {
       "name": "影からの尾行",
@@ -12675,11 +12675,11 @@
     },
     "Shadow Power": {
       "name": "影の力",
-      "description": "<p><b>アーキタイプ</b> シャドウキャスター*、シャドウダンサー</p><p><b>前提条件</b> 《影魔法》</p><p>* このアーキタイプは《影の力》をここで記載されているものとは異なるレベルで提供する。</p>\n<p>　君は影を強力な爆発へと収束させることができる。君は1日1回、生得伝承呪文としてシャドウ・ブラストを発動できる。この呪文のレベルは常にシャドウダンサー焦点化呪文のレベルよりも1レベル低い。君の伝承呪文攻撃ロールと伝承呪文DCは熟練になる。</p><p>@UUID[Compendium.pf2e.spells-srd.Item.IqJ9URobmJ9L9UBG]</p>"
+      "description": "<p><b>前提条件</b> 《影魔法》</p><p>　君は影を強力な爆発へと収束させることができる。君は1日1回、生得伝承呪文としてシャドウ・ブラストを発動できる。この呪文のレベルは常にシャドウダンサー焦点化呪文のレベルよりも1レベル低い。君の伝承呪文攻撃ロールと伝承呪文DCは熟練になる。</p><p>@UUID[Compendium.pf2e.spells-srd.Item.IqJ9URobmJ9L9UBG]</p>"
     },
     "Shadow Reservoir": {
-      "name": "Shadow Reservoir",
-      "description": "<p>Your own shadow speaks to you, providing knowledge of spells and a reservoir of magical power. Your shadow reservoir contains a single spell of each spell level at least 2 levels lower than the highest-level spell you can cast from your spell slots. This spell must come from your spell list, you must have access to it, and it must require a spell attack roll or a saving throw. These spells don't need to be prepared and aren't in your repertoire.</p>\n<p>Regardless of the way in which you cast spells, you can spontaneously cast a spell from your shadow reservoir by using one of your spell slots of the same level. If you're a prepared spellcaster, you lose the spell you prepared in that slot.</p>\n<p>Spells cast from your shadow reservoir gain the shadow trait, and affected creatures might be able to disbelieve them. If the spell requires an attack roll, use the higher of the target's AC or their Will DC. If the spell requires a saving throw, the target uses their Will saving throw or the spell's normal saving throw, whichever is higher. Each time a creature fails its saving throw against a spell cast from your reservoir, you gain a small tattoo inked on your flesh out of pure shadowstuff.</p>\n<p>If you have more than one source of spells you can cast with spell slots, such as if you're a spellcaster with a multiclass archetype, choose one source of spells for your shadow reservoir.</p>"
+      "name": "影の貯留",
+      "description": "<p>君自身の影が君に語りかけ、呪文の知識と魔力の貯蔵庫を提供する。影の貯留には、君の呪文スロットから発動できる最高レベルの呪文より2レベル以上低い呪文レベルの呪文が1つ含まれている。この呪文は君の呪文リストに掲載されており、君が使用権を持ち、呪文攻撃ロールまたはセーヴィング・スローを必要とするものでなければならない。これらの呪文は準備する必要はなく、レパートリーにも存在しない。</p><p>君の呪文発動の方式に関わらず、同じレベルの呪文スロットの1つを使用することで、影の貯留からこの呪文を任意発動できる。君が準備型のスペルキャスターなら、そのスロットで準備した呪文を失う。</p><p>君の影の貯留から発動された呪文は影の特性を得、影響を受けたクリーチャーはそれらを看破できる可能性がある。攻撃ロールが必要な呪文の場合、目標のACまたは意志DCの高い方を用いる。呪文がセーヴィング・スローを必要とする場合、目標は意志セーヴィング・スローまたは呪文の通常のセーヴィング・スローのいずれか高い方を用いる。クリーチャーが君の影の貯留から発動された呪文に対してセーヴィング・スローに失敗するたび、君は純粋な影そのものから君の体に刻印された小さな刺青を得る。</p><p>マルチクラス・アーキタイプを持つ術者の場合など、呪文スロットから発動できる呪文の要因が複数ある場合、君はそこから影の貯留用の呪文の要因を1つ選択する。</p>"
     },
     "Shadow Self": {
       "name": "影隠れ",
@@ -12694,16 +12694,16 @@
       "description": "<p><b>アーキタイプ</b> シャドウダンサー</p><p><b>前提条件</b> 《シャドウダンサーへの専念》</p>\n<p>　君は急所攻撃クラス特徴を得る。ただし君は自分のレベルに関わらず、この能力により1d6の［精密］ダメージを与える。複数の要因からの急所攻撃は累積しない。君が複数の要因から急所攻撃を得ているなら、そのダイス数を合算するのではなく、もっとも多いダイス数の急所攻撃のみを用いる。</p><p>@UUID[Compendium.pf2e.classfeatures.Item.j1JE61quDxdge4mg]</p>"
     },
     "Shadow Spell": {
-      "name": "Shadow Spell",
-      "description": "<p>You attach a piece of your shadow to a spell to cloud the senses and cause mischief. If the next action you take is to Cast a Spell that has the shadow trait, choose one creature affected by the spell. This creature either gains a +2 status bonus to Stealth or takes a -2 status penalty to Perception (your choice). This lasts for 1 round. This choice and the effect occur after resolving any checks for the spell's initial effects. If the chosen creature is your enemy, it's affected only if your spell attack roll succeeded or if it failed its saving throw.</p>\n<p>The effects of <em>Shadow Spell</em> end if you use <em>Shadow Spell</em> again.</p>"
+      "name": "呪文影化",
+      "description": "<p>君は自分の影の一部を呪文に付与し、感覚を曇らせて被害を与える。次の君のアクションが影特性を持つ呪文の“呪文発動”のために使用されたなら、この呪文が効果を及ぼすクリーチャー1体を選ぶ。このクリーチャーは〈隠密〉に＋2の状態ボーナスを得るか、もしくは知覚に－2の状態ペナルティを受ける（君がいずれか1つを選択する）。この効果は1ラウンド持続する。この選択と効果の適用は、呪文の最初の効果が解決された後に適用される。選択したクリーチャーが君の敵ならば、この効果は呪文攻撃ロールが成功したかセーヴィング・スローに失敗した時にのみ適用される。</p><p>君が《呪文影化》を再度使用すると、前の《呪文影化》の効果は終了する。</p>"
     },
     "Shadow Spells": {
-      "name": "Shadow Spells",
-      "description": "<p>Hidden darkness whispers to you, teaching you secrets of shadow beyond other spellcasters of your tradition. Add <em>@UUID[Compendium.pf2e.spells-srd.Item.Shadow Blast]</em>, <em>@UUID[Compendium.pf2e.spells-srd.Item.Shadow Siphon]</em>, and <em>@UUID[Compendium.pf2e.spells-srd.Item.Shadow Walk]</em>, <em>@UUID[Compendium.pf2e.spells-srd.Item.Replicate]</em>, <em>@UUID[Compendium.pf2e.spells-srd.Item.Shadow Army]</em>, <em>@UUID[Compendium.pf2e.spells-srd.Item.Shadow Projectile]</em>, and <em>@UUID[Compendium.pf2e.spells-srd.Item.Shadow Raid]</em> to your spell list. You can thus potentially learn these spells even if they aren't normally on your tradition's spell list.</p><p>@UUID[Compendium.pf2e.spells-srd.Item.IqJ9URobmJ9L9UBG]</p><p>@UUID[Compendium.pf2e.spells-srd.Item.tcwT97RWKxsJiefG]</p><p>@UUID[Compendium.pf2e.spells-srd.Item.rxvS7EMJ7qmexAyA]</p><p>@UUID[Compendium.pf2e.spells-srd.Item.srEKUvym9kDVbEhD]</p><p>@UUID[Compendium.pf2e.spells-srd.Item.hvKtmoHwekDZ5iOH]</p><p>@UUID[Compendium.pf2e.spells-srd.Item.8cuqRFB3mWBOgy61]</p><p>@UUID[Compendium.pf2e.spells-srd.Item.VTb0yI6P1bLkzuRr]</p>"
+      "name": "影の呪文",
+      "description": "<p>隠された闇が君に囁き、君の体系を用いる他の術者を超えた影の秘密を教えてくれる。君はシャドウ・アーミィ、シャドウ・ウォーク、シャドウ・サイフォン、シャドウ・ブラスト、シャドウ・プロジェクティル、シャドウ・レイド、レプリケイトを君の呪文リストに加える。この結果、通常君の体系にこれらの呪文が含まれていない場合でも、君はこれらの呪文を身につけられるようになる。</p><p>@UUID[Compendium.pf2e.spells-srd.Item.IqJ9URobmJ9L9UBG]</p><p>@UUID[Compendium.pf2e.spells-srd.Item.tcwT97RWKxsJiefG]</p><p>@UUID[Compendium.pf2e.spells-srd.Item.rxvS7EMJ7qmexAyA]</p><p>@UUID[Compendium.pf2e.spells-srd.Item.srEKUvym9kDVbEhD]</p><p>@UUID[Compendium.pf2e.spells-srd.Item.hvKtmoHwekDZ5iOH]</p><p>@UUID[Compendium.pf2e.spells-srd.Item.8cuqRFB3mWBOgy61]</p><p>@UUID[Compendium.pf2e.spells-srd.Item.VTb0yI6P1bLkzuRr]</p>"
     },
     "Shadowcaster Dedication": {
-      "name": "Shadowcaster Dedication",
-      "description": "<p>You've sacrificed a piece of your spirit, allowing the powers of shadow into your being and changing the nature of your magic. You can no longer cast spells that have the light trait; if an ability, such as a class feature or ancestry feat, would automatically grant you a light spell, such as the @UUID[Compendium.pf2e.feats-srd.Item.Domain Initiate] feat granting you the <em>@UUID[Compendium.pf2e.spells-srd.Item.Dazzling Flash]</em> spell, you don't gain that spell.</p>\n<p>You gain the <em>@UUID[Compendium.pf2e.spells-srd.Item.Cloak of Shadow]</em> domain spell. It costs 1 Focus Point to cast a focus spell. This feat grants a focus pool of 1 Focus Point that you can recover using the @UUID[Compendium.pf2e.actionspf2e.Item.Refocus] activity. You can Refocus by meditating to siphon power from the Shadow Plane and refill your focus pool. Your domain spells from the shadowcaster archetype are of the same tradition as the spells you used to meet the shadowcaster archetype's prerequisites.</p>\n<hr />\n<p><strong>Special</strong> You can't select another dedication feat until you've gained two other feats from the @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.wHs6IGCMaXsgFNop]{Shadowcaster} archetype.</p><p>@UUID[Compendium.pf2e.feats-srd.Item.hT4INKGtly4QY8KN]</p><p>@UUID[Compendium.pf2e.spells-srd.Item.zul5cBTfr7NXHBZf]</p><p>@UUID[Compendium.pf2e.spells-srd.Item.SE0fbgBj7atuukdv]</p><p>@UUID[Compendium.pf2e.actionspf2e.Item.OSefkMgojBLqmRDh]</p>"
+      "name": "シャドウキャスターへの専念",
+      "description": "<p>君は精神の一部を犠牲にして、影の力を自分の存在に許し、その魔法の性質を変えた。君は光特性を持つ呪文を発動できなくなる。クラス特徴や種族特技のような能力が自動的に光呪文を与える場合（《領域への入門》によりダズリング・フラッシュ呪文を得るように）、君はその呪文を得ない。</p><p>君はクローク・オヴ・シャドウ領域呪文を得る。これは1焦点化ポイントを必要とする焦点化呪文である。この特技は“再焦点化”連続行動により回復できる1焦点化ポイントを持つ焦点化プールを君に与える。君は影界から力を吸い上げ焦点化プールを満たすために瞑想することで“再焦点化”を行う。シャドウキャスター・アーキタイプから得る領域呪文は、君がシャドウキャスター・アーキタイプの前提条件を満たすために使用した呪文の体系と同じである。</p><p>特殊</b>シャドウキャスター・アーキタイプから他に特技を2つ得るまで、君は他の専念特技を選択できない。</p><p>@UUID[Compendium.pf2e.feats-srd.Item.hT4INKGtly4QY8KN]</p><p>@UUID[Compendium.pf2e.spells-srd.Item.zul5cBTfr7NXHBZf]</p><p>@UUID[Compendium.pf2e.spells-srd.Item.SE0fbgBj7atuukdv]</p><p>@UUID[Compendium.pf2e.actionspf2e.Item.OSefkMgojBLqmRDh]</p><p>@UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.wHs6IGCMaXsgFNop]</p>"
     },
     "Shadowdancer Dedication": {
       "name": "シャドウダンサーへの専念",
@@ -12790,8 +12790,8 @@
       "description": "<p><strong>前提条件</strong> 《勇敢なる奇襲》</p>\n<p>　戦いの勝利において、君は他の味方と栄光を分け合うことができる。《勇敢なる奇襲》で選択した味方がこのアクションで与えられた“打撃”で大成功したなら、君のインスパイアー・カレッジ奏演呪文の効果を受けている別の味方1体は近接“打撃”を1回行うために即座にリアクションを使用できる。2番目の味方は《勇敢なる奇襲》で選択した味方ではないため、例え2番目の味方が“打撃”で大成功しても、この効果は3番目の味方へと継続することはない。</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.IAjvwqgiDr3qGYxY]</p>"
     },
     "Shared Attunement": {
-      "name": "Shared Attunement",
-      "description": "<p>When you would gain a benefit from your terrain attunement, you can grant it to one ally within 30 feet instead of yourself. This has no effect if the terrain attunement affects your foes instead of granting you a benefit.</p>"
+      "name": "同調の共有",
+      "description": "<p><b>アーキタイプ</b> ジオマンサー</p><p>君が地形同調から利益を得る際、君は自分ではなく30フィート以内にいる味方1体にその利益を与えても良い。君に利益を与えず敵に効果を及ぼす地形同調には、何の効果ももたらさない。</p>"
     },
     "Shared Avoidance": {
       "name": "忌避の共有",
@@ -12878,8 +12878,8 @@
       "description": "<p><strong>Requirements</strong> You have a fully grown tail.</p>\n<p><strong>Trigger</strong> You become grabbed.</p>\n<hr />\n<p>You can shed your tail to escape. You cease being grabbed, then Stride without triggering any reactions from the creature that grabbed you. It takes 1 week for your tail to fully grow back. Until it does, you can't use your tail unarmed attack, and you take a -2 circumstance penalty on checks to Balance.</p>"
     },
     "Sheltering Cave": {
-      "name": "Sheltering Cave",
-      "description": "<p><strong>Requirements</strong> You're standing on ground composed of earth, stone, or a similar material.</p>\n<hr />\n<p>You spend 10 minutes communing with spirits of earth and stone, requesting shelter. At the end of this time, the earth rises and opens, forming a small cave or earthen mound 20 feet in diameter and 10 feet high. This cave has the structure trait and the same restrictions as structures created by magic items. The cave has a single entrance and provides shelter from the elements.</p>\n<p>The cave remains for 12 hours or until you spend 10 minutes coaxing the earth to close.</p>"
+      "name": "遮蔽洞",
+      "description": "<p><b>前提条件</b> 石の円環</p><p><strong>必要条件</strong> 君は土、石、または類似の素材で構成された地面に立っている。</p>\n<hr />\n<p>君は10分間、土や石の精霊と交信し、庇護を要請する。この時間が終わると、大地が盛り上がって開き、直径20フィート、高さ10フィートの小さな洞窟か土塁が形成される。この洞窟は構造物の特性を持ち、マジック・アイテムによって作られた構造物と同じ制限を受ける。洞窟には入り口が1つあり、風雨から身を守ることができる。洞窟は12時間か、君が10分かけて大地をなだめすかして閉じるまで残る。</p><p>(私家訳)</p>"
     },
     "Sheltering Slab": {
       "name": "石壁回避術",
@@ -12942,8 +12942,8 @@
       "description": "<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p>You wear many faces, even those that don't belong to you. When you Change Shape into your tailless form, you gain the effects of 3rd-level <em>@UUID[Compendium.pf2e.spells-srd.Item.Illusory Disguise]</em> for 1 hour or until you shift back, except it's a transmutation effect rather than an illusion.</p><p>@UUID[Compendium.pf2e.spells-srd.Item.i35dpZFI7jZcRoBo]</p>"
     },
     "Shifting Terrain": {
-      "name": "Shifting Terrain",
-      "description": "<p><strong>Requirements</strong> Your terrain attunement matches the terrain you're in and you're in Rough Terrain Stance.</p>\n<hr />\n<p>You slam your fist into the ground or twirl your arms about to cause the terrain around you to shift and ripple, potentially throwing others off balance. Each creature within your area of difficult terrain from Rough Terrain Stance must attempt a Reflex saving throw against your spell DC with the following effects.</p>\n<p>After you use this action, you can't use it again for [[/r 1d4 #rounds]]{1d4 rounds}.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.Clumsy]{Clumsy 1} for 1 round.</p>\n<p><strong>Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.Clumsy]{Clumsy 2} for 1 round.</p>\n<p><strong>Critical Failure</strong> The creature is clumsy 2 for 1 round and falls @UUID[Compendium.pf2e.conditionitems.Item.Prone].</p><p>@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]</p><p>@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]</p>"
+      "name": "地形鳴動",
+      "description": "<p><b>アーキタイプ</b> ジオマンサー</p><p><b>前提条件</b> 《不整地の構え》；〈自然〉の達人</p><p><strong>必要条件</strong> 君の地形同調が現在いる地形と一致しており、君が《不整地の構え》をとっている。</p>\n<hr />\n<p>君は拳を地面に叩きつけたり腕を回したりして周りの地形を動かし波打たせ、他の人の平衡感覚を崩してしまう。《不整地の構え》による移動困難地形の範囲内にいるの各クリーチャーは、君の呪文DCに対して反応セーヴィング・スローを試みなければならず、その結果に応じて以下の効果を受ける。このアクションを使用すると、君は[[/r 1d4 #rounds]]の間、このアクションを再使用できない。</p>\n<hr />\n<p><strong>大成功</strong> クリーチャーはなんの効果も受けない。</p>\n<p><strong>成功</strong> クリーチャーは1ラウンドの間よたつき状態1になる。</p><p><strong>失敗</strong> クリーチャーは1ラウンドの間よたつき状態2になる。</p><p><strong>大失敗</strong> クリーチャーは1ラウンドの間よたつき状態2になるとともに、倒れて伏せ状態になる。</p><p>@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]</p><p>@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]</p>"
     },
     "Shining Arms": {
       "name": "Shining Arms",
@@ -12990,8 +12990,8 @@
       "description": "<p><strong>前提条件</strong> 《修道士の武器》</p>\n<p>　君は稲妻のような速度でシュリケンを投擲できる構えに入る。この構えに入っている間、君は通常なら素手攻撃が必要なモンク特技やモンクの能力でシュリケンを代わりに使用できる。</p>\n"
     },
     "Shore Step": {
-      "name": "Shore Step",
-      "description": "<p>The shallows and tide pools have always called to you and let you pass unhindered. You ignore difficult terrain resulting from shallow water.</p>\n<p>In addition, if you roll a success on an Acrobatics check to @UUID[Compendium.pf2e.actionspf2e.Item.Balance] on a slippery or wet surface, or on an Athletics check to @UUID[Compendium.pf2e.actionspf2e.Item.Swim], you get a critical success instead.</p><p>@UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]</p><p>@UUID[Compendium.pf2e.actionspf2e.Item.c8TGiZ48ygoSPofx]</p>"
+      "name": "沢の歩み",
+      "description": "<p>浅瀬や潮溜まりはいつも君を呼び、それらは君を邪魔されずに通過させてくれる。君は浅い水による移動困難地形の影響を受けない。加えて、君が滑りやすい面や濡れた面の上で“平衡感覚”を行うための〈軽業〉判定と“水泳”のための〈運動〉判定で成功をロールしたなら、代わりに大成功を得る。</p><p>@UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]</p><p>@UUID[Compendium.pf2e.actionspf2e.Item.c8TGiZ48ygoSPofx]</p>"
     },
     "Shorthanded": {
       "name": "Shorthanded",
@@ -13110,8 +13110,8 @@
       "description": "<p>As long as you meditate before a gemstone worth at least 10 gp as part of your daily preparations, you are capable of seeing magic as flowing runes that reveal information about magic objects, and you can scribe a personal rune that represents you. You gain the read aura and sigil cantrips. You cast these cantrips as arcane innate spells at will. A cantrip is heightened to a spell level equal to half your level rounded up.</p>"
     },
     "Sin Reservoir": {
-      "name": "Sin Reservoir",
-      "description": "<p>During daily preparations, you can indulge in your associated sin. When you do, you gain one additional spell slot of any spell level up to two levels below the highest-level wizard spell you can cast. You can prepare only a spell of your specialized school in this slot. As with any other act, indulging in your sin might change your alignment if your behavior harms someone else.</p>"
+      "name": "罪の貯蓄",
+      "description": "<p>(未訳)</p><p>During daily preparations, you can indulge in your associated sin. When you do, you gain one additional spell slot of any spell level up to two levels below the highest-level wizard spell you can cast. You can prepare only a spell of your specialized school in this slot. As with any other act, indulging in your sin might change your alignment if your behavior harms someone else.</p>"
     },
     "Sing to the Steel": {
       "name": "Sing to the Steel",
@@ -13518,20 +13518,20 @@
       "description": "<p><strong>前提条件</strong> 【魅力】14</p>\n<p>　血脈を1つ選択すること。君は血脈の技能2つを修得済みにする。君がこれらの技能を既に修得済みとしているなら、修得済みの技能1つ毎に、君は代わりに選択した技能1つを修得済みにする。</p>\n<p>　君はソーサラーのように呪文を発動する。君は“呪文発動”連続行動を使用できるようになる。君は血脈に関連する体系、もしくは血脈が与える呪文で、本書に掲載された呪文リストもしくは君が学んだり発見したりした別のキャントリップから、コモンのキャントリップ2つを呪文のレパートリーに加える。君は血脈に関連する呪文の呪文攻撃ロールと呪文DCを修得済みにする。</p>\n<p>　ソーサラー・アーキタイプ呪文の重要呪文発動能力は【魅力】であり、それらは血脈の体系に属するソーサラー呪文である。君は選択した血脈から他の能力を獲得しない。</p>\n<p>　特殊 君はソーサラー・アーキタイプから別に特技を2つ得るまで、別の専念特技を選択できない。</p>\n<p>@UUID[Compendium.pf2e.classfeatures.Item.2goYo6VNbwC6aKF1]</p><p>@UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.DJiYP5tFBrBMD0We]</p>"
     },
     "Soul Arsenal": {
-      "name": "Soul Arsenal",
-      "description": "<p>Choose an additional soulforged armament of a different type than the type you already chose, and choose one essence power for it. Upgrade and change armaments individually.</p>\n<p>When you Manifest Soulforged Armament, you can summon any number of your armaments (you must meet the Requirements for each), and when you Dismiss the effect, you can choose to Dismiss some and not others. You can choose to manifest the essence form of any number of your armaments when you take the action. Each armament can manifest its essence form only once per day.</p>\n<p>When you gain soulforged corruption, choose one armament's corruption flaw to affect you for stage 1. At stage 2, you take the flaws of all your soulforged armaments. While you have the curse, each armament gets a separate flat check to manifest its essence form, and failing prevents you from manifesting only that armament's essence form.</p>\n<hr />\n<p><strong>Special</strong> You can select this feat a second time at 12th level or higher, choosing the final item type.</p>"
+      "name": "魂兵器",
+      "description": "<p>(未訳)</p><p>Choose an additional soulforged armament of a different type than the type you already chose, and choose one essence power for it. Upgrade and change armaments individually.</p>\n<p>When you Manifest Soulforged Armament, you can summon any number of your armaments (you must meet the Requirements for each), and when you Dismiss the effect, you can choose to Dismiss some and not others. You can choose to manifest the essence form of any number of your armaments when you take the action. Each armament can manifest its essence form only once per day.</p>\n<p>When you gain soulforged corruption, choose one armament's corruption flaw to affect you for stage 1. At stage 2, you take the flaws of all your soulforged armaments. While you have the curse, each armament gets a separate flat check to manifest its essence form, and failing prevents you from manifesting only that armament's essence form.</p>\n<hr />\n<p><strong>Special</strong> You can select this feat a second time at 12th level or higher, choosing the final item type.</p>"
     },
     "Soul Flare": {
-      "name": "Soul Flare",
-      "description": "<p><strong>Trigger</strong> An attack you made with a soulforged weapon or shield misses a creature, or a creature hits you with an attack while you're either wearing manifested soulforged armor or have your soulforged shield raised.</p>\n<p><strong>Requirements</strong> Your soulforged armament is manifested.</p>\n<hr />\n<p>You strive to change the outcome with sheer zeal. You gain a +1 status bonus to your attack roll if making an attack or to your AC if you were hit. This can change the outcome of the roll. If this bonus turns your missed attack into a hit or the hit against you into a miss, attempt a @Check[type:flat|dc:5]. If you fail, your soulforged armament is Dismissed-your weapon if you attacked or your armor or shield if you were defending.</p>"
+      "name": "魂の炎",
+      "description": "<p>(未訳)</p><p><strong>Trigger</strong> An attack you made with a soulforged weapon or shield misses a creature, or a creature hits you with an attack while you're either wearing manifested soulforged armor or have your soulforged shield raised.</p>\n<p><strong>Requirements</strong> Your soulforged armament is manifested.</p>\n<hr />\n<p>You strive to change the outcome with sheer zeal. You gain a +1 status bonus to your attack roll if making an attack or to your AC if you were hit. This can change the outcome of the roll. If this bonus turns your missed attack into a hit or the hit against you into a miss, attempt a @Check[type:flat|dc:5]. If you fail, your soulforged armament is Dismissed-your weapon if you attacked or your armor or shield if you were defending.</p>"
     },
     "Soul Warden Dedication": {
       "name": "Soul Warden Dedication",
       "description": "<p>You can take 10 minutes to emblazon @UUID[Compendium.pf2e.deities.Item.Pharasma]{Pharasma's} holy sigil-a spiraling comet that represents the winding path a soul takes through its existence-upon a shield, tabard, banner, or other prominent object that your wear or wield. The symbol doesn't fade until 1 year has passed, but if you emblazon the symbol again, any symbol you previously emblazoned and any symbol already emblazoned on that item instantly disappears. The item becomes a religious symbol of Pharasma and can be used as a divine focus while emblazoned.</p>\n<p>Whenever an undead creature or captive soul is within 100 feet of this object, the spiral glows, shedding dim blue light in a 10-foot radius. If the creature is hiding or the soul is hidden, it must succeed at a @Check[type:stealth|dc:resolve(10+@actor.attributes.perception.value)] check against your Perception DC to fool the sigil and prevent the spiral from glowing.</p>\n<p>In addition, you can cast <em>@UUID[Compendium.pf2e.spells-srd.Item.Disrupt Undead]</em> as a divine innate cantrip at will. As normal, a cantrip is automatically heightened to half your level rounded up. You gain access to the Cast a Spell activity if you didn't have it already. You're trained in divine spell attack rolls and spell DCs. Your key spellcasting ability for these spells is Wisdom.</p>\n<p>When you have at least two other feats from this archetype, the spiral glows with bright light in a 10-foot radius (and dim light for the next 10 feet). Feats that require a creature or object to be in the light of your spiral function whether it's in the bright or dim light.</p>\n<p><strong>Special</strong> You can't select another dedication feat until you have gained two other feats from the @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.9g14DjBZNj27goTt]{Soul Warden} archetype.</p><p>@UUID[Compendium.pf2e.deities.Item.QZD0u1jxwz0kj8uI]</p><p>@UUID[Compendium.pf2e.spells-srd.Item.kcelf6IHl3L9VXXg]</p>"
     },
     "Soulforger Dedication": {
-      "name": "Soulforger Dedication",
-      "description": "<p>You can manifest the power of your spirit in combat to realize your motivations. You manifest an armor, shield, or weapon as a soulforged armament. Choose one essence power for the armament. Changing an essence power requires 1 week of retraining, and you can't retrain it while you have <em>soulforged corruption</em>.</p>\n<p>You can @UUID[Compendium.pf2e.actionspf2e.Item.Manifest Soulforged Armament] to summon your armaments in combat.</p>\n<hr />\n<p><strong>Special</strong> You can't select another dedication feat before gaining two other feats from @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.LWgcWM8B85HHVCtZ]{Soulforger} archetype.</p>\n<hr />\n<h3>ESSENCE POWERS</h3>\n<p>Your soulforged armament has an essence power you choose when you first bind it. It gains the power temporarily when you manifest its essence form. Each power has a corruption flaw that affects you if you have <em>soulforged corruption</em>. Essence powers that only apply to some types of armament indicate which.</p>\n<p><strong>Adaptable Persona</strong> (transmutation) Armor only. When you manifest the essence form, gain your choice of a climb Speed or swim Speed equal to your land Speed. If you're 8th level or higher, you can choose a fly Speed instead. <em>Corruption Flaw</em> You take a -10-foot penalty to all your Speeds.</p>\n<p><strong>Bounding Spirit</strong> Melee weapon only. The weapon gains the thrown 30 feet trait and has the returning rune (even if it already has its maximum number of property runes). <em>Corruption Flaw</em> When you make a Strike with a thrown or ranged weapon and miss, reroll the Strike, targeting your ally nearest to the target. This Strike uses the same multiple attack penalty as the missed Strike and doesn't count toward your multiple attack penalty.</p>\n<p><strong>Deep-Seeded Fear</strong> You gain a +2 status bonus to your Intimidation checks and don't take any penalties for not sharing a language when Demoralizing foes who can perceive your armament's essence form. When you manifest the essence form, you can attempt to Demoralize an enemy who can perceive the manifestation. <em>Corruption Flaw</em> If you attempt to Demoralize an enemy, your Demoralize also targets the ally closest to you.</p>\n<p><strong>Determined Toughness</strong> Any status penalties you take from the following conditions are 1 less than their condition's value: @UUID[Compendium.pf2e.conditionitems.Item.Clumsy], @UUID[Compendium.pf2e.conditionitems.Item.Drained], @UUID[Compendium.pf2e.conditionitems.Item.Enfeebled], @UUID[Compendium.pf2e.conditionitems.Item.Frightened], @UUID[Compendium.pf2e.conditionitems.Item.Sickened], @UUID[Compendium.pf2e.conditionitems.Item.Stupefied]. This doesn't change the actual condition value, or any other effects of the condition (such as stupefied's disruption and its DC). <em>Corruption Flaw</em> Whenever you take a status penalty from the listed conditions, you also take a -1 penalty to the same statistics.</p>\n<p><strong>Harmful Malice</strong> (necromancy, negative) Your Strikes deal an additional 1d4 negative damage. Once while the armament is manifested, you can cast harm as an innate spell, with a level equal to half your level rounded up. <em>Corruption Flaw</em> Reduce any damage you would deal by half your level.</p>\n<p><strong>Heroic Heart</strong> (enchantment, mental) You gain a +1 status bonus to attack rolls, Perception checks, skill checks, and saves. <em>Corruption Flaw</em> You take a -1 penalty to attack rolls.</p>\n<p><strong>Healing Grace</strong> (healing, necromancy, positive) You gain fast healing equal to half your level. You can cast <em>@UUID[Compendium.pf2e.spells-srd.Item.Heal]</em> once as an innate spell with a level equal to half your level rounded up. <em>Corruption Flaw</em> Reduce all healing you would receive or grant with a spell by half your level.</p>\n<p><strong>Magical Resilience</strong> (abjuration) Armor or shield only. You gain a +2 status bonus to saving throws and AC against spells. If you're 5th level or higher, you can cast <em>@UUID[Compendium.pf2e.spells-srd.Item.Dispel Magic]</em> once as an innate spell. The spell level is equal to 1 lower than half your level rounded up (2nd level if you're 5th or 6th level, and so on). <em>Corruption Flaw</em> You take a -1 penalty to saving throws and AC against spells.</p>\n<p><strong>Planar Bond</strong> (abjuration) Armor or shield only. When you manifest the essence form, choose one damage type: acid, chaotic, cold, electricity, evil, fire, good, lawful, negative, positive, or sonic. You gain resistance equal to your level + 2 to damage of the selected type. <em>Corruption Flaw</em> You gain weakness 1 to all damage.</p>\n<p><strong>Planar Pain</strong> (evocation) Weapon only. When you manifest the essence form, choose one damage type: acid, chaotic, cold, electricity, evil, fire, good, lawful, negative, positive, or sonic. Attacks with the weapon deal this type of damage instead of their physical damage with a +2 status bonus to the damage. <em>Corruption Flaw</em> When you deal damage with a weapon or unarmed attack, you take 2 damage of the last type you chose for planar pain, even if the damage type normally wouldn't harm you, such as good damage if you aren't evil.</p>\n<p><strong>Pull of Stasis</strong> (transmutation) Weapon only. Any time you hit with the soulforged weapon, the target takes a -10-foot penalty to its Speeds for 1 round. On a critical hit, the creature is @UUID[Compendium.pf2e.conditionitems.Item.Immobilized] for 1 round instead. <em>Corruption Flaw</em> You take a -10-foot penalty to all your Speeds.</p>\n<p><strong>Reflecting Spirit</strong> Armor or shield only. You gain a +2 status bonus to AC against physical ranged attacks. If an enemy's physical ranged attack misses you, you can use your reaction to immediately attempt a ranged Strike against the attacker using the projectile that missed. <em>Corruption Flaw</em> You have weakness 5 to physical ranged attacks.</p>\n<p><strong>Resolute Defiance</strong> Shield only. The shield gains a +2 status bonus to its Hardness and gains temporary Hit Points equal to your level + 2 that last until the essence effect ends. If you don't have the @UUID[Compendium.pf2e.feats-srd.Item.Shield Block] reaction, you gain it while your shield is manifested. <em>Corruption Flaw</em> When you take damage while Raising a Shield or use Shield Block, attempt a @Check[type:flat|dc:5]. If you fail, the shield is Dismissed if it's your soulforged armament or Dropped if it's a different shield.</p><p>@UUID[Compendium.pf2e.actionspf2e.Item.KMKuJ0onVS72t9Fv]</p><p>@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]</p><p>@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]</p><p>@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]</p><p>@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]</p><p>@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]</p><p>@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]</p><p>@UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]</p><p>@UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]</p><p>@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]</p><p>@UUID[Compendium.pf2e.feats-srd.Item.jM72TjJ965jocBV8]</p>"
+      "name": "ソウルフォージャーへの専念",
+      "description": "<p>(未訳)</p><p>You can manifest the power of your spirit in combat to realize your motivations. You manifest an armor, shield, or weapon as a soulforged armament. Choose one essence power for the armament. Changing an essence power requires 1 week of retraining, and you can't retrain it while you have <em>soulforged corruption</em>.</p>\n<p>You can @UUID[Compendium.pf2e.actionspf2e.Item.Manifest Soulforged Armament] to summon your armaments in combat.</p>\n<hr />\n<p><strong>Special</strong> You can't select another dedication feat before gaining two other feats from @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.LWgcWM8B85HHVCtZ]{Soulforger} archetype.</p>\n<hr />\n<h3>ESSENCE POWERS</h3>\n<p>Your soulforged armament has an essence power you choose when you first bind it. It gains the power temporarily when you manifest its essence form. Each power has a corruption flaw that affects you if you have <em>soulforged corruption</em>. Essence powers that only apply to some types of armament indicate which.</p>\n<p><strong>Adaptable Persona</strong> (transmutation) Armor only. When you manifest the essence form, gain your choice of a climb Speed or swim Speed equal to your land Speed. If you're 8th level or higher, you can choose a fly Speed instead. <em>Corruption Flaw</em> You take a -10-foot penalty to all your Speeds.</p>\n<p><strong>Bounding Spirit</strong> Melee weapon only. The weapon gains the thrown 30 feet trait and has the returning rune (even if it already has its maximum number of property runes). <em>Corruption Flaw</em> When you make a Strike with a thrown or ranged weapon and miss, reroll the Strike, targeting your ally nearest to the target. This Strike uses the same multiple attack penalty as the missed Strike and doesn't count toward your multiple attack penalty.</p>\n<p><strong>Deep-Seeded Fear</strong> You gain a +2 status bonus to your Intimidation checks and don't take any penalties for not sharing a language when Demoralizing foes who can perceive your armament's essence form. When you manifest the essence form, you can attempt to Demoralize an enemy who can perceive the manifestation. <em>Corruption Flaw</em> If you attempt to Demoralize an enemy, your Demoralize also targets the ally closest to you.</p>\n<p><strong>Determined Toughness</strong> Any status penalties you take from the following conditions are 1 less than their condition's value: @UUID[Compendium.pf2e.conditionitems.Item.Clumsy], @UUID[Compendium.pf2e.conditionitems.Item.Drained], @UUID[Compendium.pf2e.conditionitems.Item.Enfeebled], @UUID[Compendium.pf2e.conditionitems.Item.Frightened], @UUID[Compendium.pf2e.conditionitems.Item.Sickened], @UUID[Compendium.pf2e.conditionitems.Item.Stupefied]. This doesn't change the actual condition value, or any other effects of the condition (such as stupefied's disruption and its DC). <em>Corruption Flaw</em> Whenever you take a status penalty from the listed conditions, you also take a -1 penalty to the same statistics.</p>\n<p><strong>Harmful Malice</strong> (necromancy, negative) Your Strikes deal an additional 1d4 negative damage. Once while the armament is manifested, you can cast harm as an innate spell, with a level equal to half your level rounded up. <em>Corruption Flaw</em> Reduce any damage you would deal by half your level.</p>\n<p><strong>Heroic Heart</strong> (enchantment, mental) You gain a +1 status bonus to attack rolls, Perception checks, skill checks, and saves. <em>Corruption Flaw</em> You take a -1 penalty to attack rolls.</p>\n<p><strong>Healing Grace</strong> (healing, necromancy, positive) You gain fast healing equal to half your level. You can cast <em>@UUID[Compendium.pf2e.spells-srd.Item.Heal]</em> once as an innate spell with a level equal to half your level rounded up. <em>Corruption Flaw</em> Reduce all healing you would receive or grant with a spell by half your level.</p>\n<p><strong>Magical Resilience</strong> (abjuration) Armor or shield only. You gain a +2 status bonus to saving throws and AC against spells. If you're 5th level or higher, you can cast <em>@UUID[Compendium.pf2e.spells-srd.Item.Dispel Magic]</em> once as an innate spell. The spell level is equal to 1 lower than half your level rounded up (2nd level if you're 5th or 6th level, and so on). <em>Corruption Flaw</em> You take a -1 penalty to saving throws and AC against spells.</p>\n<p><strong>Planar Bond</strong> (abjuration) Armor or shield only. When you manifest the essence form, choose one damage type: acid, chaotic, cold, electricity, evil, fire, good, lawful, negative, positive, or sonic. You gain resistance equal to your level + 2 to damage of the selected type. <em>Corruption Flaw</em> You gain weakness 1 to all damage.</p>\n<p><strong>Planar Pain</strong> (evocation) Weapon only. When you manifest the essence form, choose one damage type: acid, chaotic, cold, electricity, evil, fire, good, lawful, negative, positive, or sonic. Attacks with the weapon deal this type of damage instead of their physical damage with a +2 status bonus to the damage. <em>Corruption Flaw</em> When you deal damage with a weapon or unarmed attack, you take 2 damage of the last type you chose for planar pain, even if the damage type normally wouldn't harm you, such as good damage if you aren't evil.</p>\n<p><strong>Pull of Stasis</strong> (transmutation) Weapon only. Any time you hit with the soulforged weapon, the target takes a -10-foot penalty to its Speeds for 1 round. On a critical hit, the creature is @UUID[Compendium.pf2e.conditionitems.Item.Immobilized] for 1 round instead. <em>Corruption Flaw</em> You take a -10-foot penalty to all your Speeds.</p>\n<p><strong>Reflecting Spirit</strong> Armor or shield only. You gain a +2 status bonus to AC against physical ranged attacks. If an enemy's physical ranged attack misses you, you can use your reaction to immediately attempt a ranged Strike against the attacker using the projectile that missed. <em>Corruption Flaw</em> You have weakness 5 to physical ranged attacks.</p>\n<p><strong>Resolute Defiance</strong> Shield only. The shield gains a +2 status bonus to its Hardness and gains temporary Hit Points equal to your level + 2 that last until the essence effect ends. If you don't have the @UUID[Compendium.pf2e.feats-srd.Item.Shield Block] reaction, you gain it while your shield is manifested. <em>Corruption Flaw</em> When you take damage while Raising a Shield or use Shield Block, attempt a @Check[type:flat|dc:5]. If you fail, the shield is Dismissed if it's your soulforged armament or Dropped if it's a different shield.</p><p>@UUID[Compendium.pf2e.actionspf2e.Item.KMKuJ0onVS72t9Fv]</p><p>@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]</p><p>@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]</p><p>@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]</p><p>@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]</p><p>@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]</p><p>@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]</p><p>@UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]</p><p>@UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]</p><p>@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]</p><p>@UUID[Compendium.pf2e.feats-srd.Item.jM72TjJ965jocBV8]</p>"
     },
     "Soulsight (Bard)": {
       "name": "霊魂視覚 (バード)",
@@ -13759,7 +13759,7 @@
     },
     "Spirit's Wrath": {
       "name": "霊の怒り",
-      "description": "<p><strong>前提条件</strong> 霊の天性</p>\n<p>　君は祖先の霊や自然精霊といった儚い霊を呼び下ろし、人魂の形を取らせる。この霊魂は君から120フィート以内にいる敵1体に対して、霊追の近接素手攻撃を1回行う。霊魂の攻撃修正値は君の軍用武器に対する習熟ボーナス＋君の【筋力】修正値＋2のアイテム・ボーナスに等しく。君が受けている状況ボーナス、状況ペナルティ、状態ボーナス、状態ペナルティを同じ値だけ適用する。命中すると、霊魂は4d8＋君の【耐久力】修正値に等しいダメージを与える。このダメージは君が選択した［正のエネルギー］もしくは［負のエネルギー］ダメージである。“激怒”ダメージや武器開眼によるダメージは適用されないが、君が受けている状況ボーナス、状況ペナルティ、状態ボーナス、状態ペナルティは霊魂のダメージにも適用される。霊魂の“打撃”がクリティカル・ヒット舌なら、目標は恐れ状態1となる。この攻撃は君が攻撃を1回行ったかのように、君の複数回攻撃ペナルティにおいて攻撃として数えられる。</p>\n<p>@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]</p>"
+      "description": "<p><strong>前提条件</strong> 霊の天性</p>\n<p>　君は祖先の霊や自然精霊といった儚い霊を呼び下ろし、人魂の形を取らせる。この霊魂は君から120フィート以内にいる敵1体に対して、霊追の近接素手攻撃を1回行う。霊魂の攻撃修正値は君の軍用武器に対する習熟ボーナス＋君の【筋力】修正値＋2のアイテム・ボーナスに等しく。君が受けている状況ボーナス、状況ペナルティ、状態ボーナス、状態ペナルティを同じ値だけ適用する。命中すると、霊魂は4d8＋君の【耐久力】修正値に等しいダメージを与える。このダメージは君が選択した［正のエネルギー］もしくは［負のエネルギー］ダメージである。“激怒”ダメージや武器開眼によるダメージは適用されないが、君が受けている状況ボーナス、状況ペナルティ、状態ボーナス、状態ペナルティは霊魂のダメージにも適用される。霊魂の“打撃”がクリティカル・ヒット舌なら、目標は恐れ状態1となる。この攻撃は君が攻撃を1回行ったかのように、君の複数回攻撃ペナルティにおいて攻撃として数えられる。</p>\n<p>@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]</p><p>[[/r (4d8+@actor.abilities.con.mod)[void]]]</p><p>[[/r (4d8+@actor.abilities.con.mod)[vitality]]]</p>"
     },
     "Spiritual Aid": {
       "name": "Spiritual Aid",
@@ -13986,8 +13986,8 @@
       "description": "<p>　君は自分の技術に自信があるため、“呪文発動”時に精神集中を簡単に失うことはない。リアクションによって君の呪文発動アクションが妨害される時、君はDC 15の平目判定を試みる。この判定に成功すると、君のアクションは妨害されない。</p>\n<p>@Check[type:flat|dc:15]</p>"
     },
     "Steadying Stone": {
-      "name": "Steadying Stone",
-      "description": "<p>The earth has taught you how to remain unyielding and firm. If you roll a success on an Acrobatics check made to @UUID[Compendium.pf2e.actionspf2e.Item.Balance] on uneven ground composed of earth or rock, you get a critical success instead.</p>\n<p>As long as you remain on the ground, you gain a +2 circumstance bonus to your Fortitude or Reflex DC against attempts to Shove or Trip you. This bonus also applies to saving throws against spells or effects that would attempt to knock you prone. If you're a rock dwarf, this bonus increases to +3.</p><p>@UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]</p>"
+      "name": "平衡の石",
+      "description": "<p>大地は君に、不屈で揺らぐことなく立つ方法を教えた。君が地面や岩で構成されたでこぼこの地面で“平衡感覚”を行うための〈軽業〉判定で成功をロールしたなら、代わりに大成功を得る。君が地面の上にいる限り、君に対する“突き飛ばし”あるいは“足払い”に対する頑健セーヴと反応セーヴに＋2の状況ボーナスを得る。このボーナス君を伏せ状態にしようとする呪文や効果に対するセーヴィング・スローにも適用される。君が岩ドワーフなら、このボーナスは＋3に増加する。</p><p>@UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]</p>"
     },
     "Steal Essence": {
       "name": "Steal Essence",
@@ -14066,8 +14066,8 @@
       "description": "<p>You can use @UUID[Compendium.pf2e.actionspf2e.Item.Treat Wounds] to restore Hit Points to undead creatures, not just living ones. The techniques you use to do so vary, but all require sutures, bandages, and other tools included in healer's tools. Some conditions that might raise the DC of treating undead's wounds differ from that of living creatures. For instance, the GM might increase the DC if the undead being treated is in a church of Pharasma or the wounds were caused by powerful positive energy.</p><p>@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]</p>"
     },
     "Stoked Flame Stance": {
-      "name": "Stoked Flame Stance",
-      "description": "<p><strong>Requirements</strong> You're unarmored.</p>\n<hr />\n<p>You enter a stance of fast, fiery movements. You can make flashing spark attacks that deal 1d8 slashing damage. They are in the brawling group and have the forceful, nonlethal, sweep, and unarmed traits. If you have access to the flashing sparks' critical specialization effect, you can take an alternate effect instead: if your critical Strike dealt damage, the target takes 1d6 persistent fire damage.</p>\n<p>While in Stoked Flame Stance, you gain a +5-foot status bonus to your Speed. If you have incredible movement, increase the benefit from incredible movement to a +15-foot status bonus plus 5 feet for every 4 levels beyond 3rd.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.Stance: Stoked Flame Stance]</p>\n<hr />\n<p><strong>Special</strong> This feat gains your choice of either the divine or occult trait, matching your ki spell tradition if possible.</p><p>@UUID[Compendium.pf2e.feat-effects.Item.rp1YauUSULuqW8rs]</p>"
+      "name": "焚炎の構え",
+      "description": "<p><strong>必要条件</strong> 君は鎧を着用していない。</p>\n<hr />\n<p>君は速く激しい動きの構えに入る。君は1d8の［斬撃］ダメージを与える燐明拳／flashing sparkによる攻撃を行える。燐明拳は剛腕種に属し、加圧、非致傷、薙ぎ、素手の特性を持つ。君が燐明拳のクリティカル開眼効果を使用できるから、君は代わりに代替効果として「君のクリティカル・ヒットした“打撃”がダメージを与えたなら、目標は1d6の持続［火炎］ダメージを受ける」を得ても良い。</p>\n<p>《焚炎の構え》に入っている間、君は移動速度に＋5フィートの状態ボーナスを得る。君が驚異的な移動を有しているなら、驚異的な移動による利益は「＋15フィートの状態ボーナス（3レベルを超える4レベル毎にこの状態ボーナスは5フィートずつ増加する）」に向上する。</p>\n<p><b>特殊</b> この特技は君が選択した信仰あるいは伝承のいずれかの特性を得る。君が練気呪文を発動できるなら、それに対応したいずれかの特性を得ること。</p><p>@UUID[Compendium.pf2e.feat-effects.Item.rp1YauUSULuqW8rs]</p>"
     },
     "Stone Blood (Stonebound)": {
       "name": "Stone Blood (Stonebound)",
@@ -14750,8 +14750,8 @@
       "description": "<p>You retain not only your vampiric parent's taste for blood but their ability to gain vitality from it. You drink fresh blood from a living humanoid creature, gaining temporary Hit Points equal to the target's level that last for 10 minutes. The target must succeed at a @Check[type:fortitude|dc:resolve(@actor.attributes.classOrSpellDC.value)] save against the higher of your class or spell DC or become @UUID[Compendium.pf2e.conditionitems.Item.Drained]{Drained 1}. Regardless of the outcome of this save, the target is temporarily immune to your Taste Blood for 1 day; further uses of this ability against the target don't increase the drained condition or grant you more temporary Hit Points.</p>\n<p>To drink a creature's blood, either your last action must have been a fangs Strike that damaged the target, or the target must be @UUID[Compendium.pf2e.conditionitems.Item.Restrained] or @UUID[Compendium.pf2e.conditionitems.Item.Unconscious] and your last action must have been a Strike that dealt piercing or slashing damage to them. If the target is willing, they don't need to be restrained or unconscious for the latter.</p>\n<p>Draining the life force from an unwilling humanoid creature is a greater violation than just drinking their blood. Taste Blood has the evil trait unless the target is willing or is an active foe in combat.</p><p>@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]</p><p>@UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]</p><p>@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]</p>"
     },
     "Tattoo Artist": {
-      "name": "Tattoo Artist",
-      "description": "<p>You can craft tattoos, including magical tattoos. When you select this feat, you gain the formulas for four common magical tattoos of 2nd level or lower.</p>\n<p>You gain a +1 circumstance bonus to Crafting checks to Craft tattoos. If you're a master in Crafting, this bonus increases to +2 and you gain the formulas for four common magical tattoos of 7th level or lower.</p>"
+      "name": "タトゥー・アーティスト",
+      "description": "<p>(未訳)</p><p>You can craft tattoos, including magical tattoos. When you select this feat, you gain the formulas for four common magical tattoos of 2nd level or lower.</p>\n<p>You gain a +1 circumstance bonus to Crafting checks to Craft tattoos. If you're a master in Crafting, this bonus increases to +2 and you gain the formulas for four common magical tattoos of 7th level or lower.</p>"
     },
     "Tectonic Stomp": {
       "name": "Tectonic Stomp",
@@ -14842,8 +14842,8 @@
       "description": "<p><b>アーキタイプ</b> スカウト</p><p><b>前提条件</b> 《スカウトへの専念》</p>\n<p>　君は《地形での隠れ身》を2回得る。それぞれ異なる地形を選択する子と。君が探索モードで“隠行”し、味方が君に従うために“専門家にならう”を使用するなら、君はその味方の内1人に君の持つ《地形での隠れ身》1つの利益を得ることを選択できる。</p><p>@UUID[Compendium.pf2e.feats-srd.Item.beyw5bdA5hkQbmaG]</p><p>@UUID[Compendium.pf2e.actionspf2e.Item.IE2nThCmoyhQA0Jn]</p><p>@UUID[Compendium.pf2e.actionspf2e.Item.tfa4Sh7wcxCEqL29]</p>"
     },
     "Terrain Shield": {
-      "name": "Terrain Shield",
-      "description": "<p><strong>Frequency</strong> once per 10 minutes</p>\n<p><strong>Trigger</strong> A Strike would damage you.</p>\n<p><strong>Requirements</strong> You gained a terrain attunement benefit since the start of your most recent turn and that attunement matches the terrain you're in.</p>\n<hr />\n<p>You're so attuned to the land that it rises up to protect you from a potentially fatal blow in a seeming coincidence. For instance, a branch suddenly falls from a nearby tree to take the brunt of a sword swing or a surprising change of current disrupts an enemy's attack. You gain resistance to physical damage equal to double your level against the triggering Strike.</p>"
+      "name": "地形の盾",
+      "description": "<p><b>アーキタイプ</b> ジオマンサー</p><p><b>前提条件</b> 《ジオマンサーへの専念》；〈自然〉の達人</p><p><strong>頻度</strong> 10分に1回</p>\n<p><strong>トリガー</strong> “打撃”が君にダメージを与えようとしている。</p>\n<p><strong>必要条件</strong> 君は最も最近のターンの開始時から地形同調の利益を得ており、その地形同調は現在君がいる地形と一致している。</p>\n<hr />\n<p>君は土地に非常に深く同調しており、偶然にも致命的な打撃から君を守るために地形が対処する。例えば、近くの木から突然枝が落ちてきて刀がそれたり、驚くべき流れの変化が敵の攻撃を混乱させたりする。発動した“打撃”に対して、君は自分のレベルの2倍に等しい、［物理］ダメージに対する抵抗を得る。</p>"
     },
     "Terrain Stalker": {
       "name": "地形での隠れ身",
@@ -15646,8 +15646,8 @@
       "description": "<p>When you cast sleep, you can modify the spell to add the following to its standard effects: Subjects of your spell experience troubled dreams. When a target that failed or critically failed its saving throw wakes up, it is @UUID[Compendium.pf2e.conditionitems.Item.Frightened]{Frightened 1}.</p><p>@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]</p>"
     },
     "Unending Emptiness": {
-      "name": "Unending Emptiness",
-      "description": "<p>You pool the power of shadow within your eyes, gaining the ability to gather darkness into a turbulent orb of crushing emptiness within your line of sight. You gain the <em>@UUID[Compendium.pf2e.spells-srd.Item.Darklight]</em> domain spell. Increase the number of Focus Points in your focus pool by 1.</p><p>@UUID[Compendium.pf2e.spells-srd.Item.sFwoKj0TsacsmoWj]</p>"
+      "name": "終わることなき空虚",
+      "description": "<p>君は目の中に影の力を溜め込み、暗闇を集めて視界の中の虚無を押しつぶす荒れ狂う球体にする能力を得る。君はダークライト領域呪文を得る。君の焦点化プールの焦点化ポイントを1だけ増加させる。</p><p>@UUID[Compendium.pf2e.spells-srd.Item.sFwoKj0TsacsmoWj]</p>"
     },
     "Unerring Shot": {
       "name": "Unerring Shot",
@@ -15798,8 +15798,8 @@
       "description": "<p><strong>Trigger</strong> You are damaged by a melee Strike.</p>\n<p><strong>Requirements</strong> You are in Tenacious Stance.</p>\n<hr />\n<p>You lean into your foe's attack, using the weight of your body and armor to send them reeling. Attempt an @Check[type:athletics|defense:reflex] check against the creature's Reflex DC. On a success, the target becomes @UUID[Compendium.pf2e.conditionitems.Item.Clumsy]{Clumsy 1} until the end of its next turn (@UUID[Compendium.pf2e.conditionitems.Item.Clumsy]{Clumsy 2} on a critical success). If you are anchored, you gain a +2 circumstance bonus to this check.</p><p>@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]</p>"
     },
     "Urgent Upwelling": {
-      "name": "Urgent Upwelling",
-      "description": "<p><strong>Frequency</strong> once per 10 minutes</p>\n<p><strong>Trigger</strong> An enemy reduces you to 0 HP, an enemy critically hits you, or you critically fail a saving throw against an enemy's effect.</p>\n<hr />\n<p>Defeat lets you to tap into your wellspring. Attempt the flat check for wellspring magic. If you critically succeed, you can choose to forgo gaining a temporary spell slot to instead have the triggering enemy undergo a wellspring surge. This surge functions just as it would for you, the only difference being that it emits from the enemy.</p>"
+      "name": "緊急湧昇",
+      "description": "<p>(未訳)</p><p><strong>Frequency</strong> once per 10 minutes</p>\n<p><strong>Trigger</strong> An enemy reduces you to 0 HP, an enemy critically hits you, or you critically fail a saving throw against an enemy's effect.</p>\n<hr />\n<p>Defeat lets you to tap into your wellspring. Attempt the flat check for wellspring magic. If you critically succeed, you can choose to forgo gaining a temporary spell slot to instead have the triggering enemy undergo a wellspring surge. This surge functions just as it would for you, the only difference being that it emits from the enemy.</p>"
     },
     "Ursine Avenger Form": {
       "name": "Ursine Avenger Form",
@@ -16334,8 +16334,8 @@
       "description": "<p>Water cradles your every step, allowing you to walk on its surface. Stride up to your Speed. During your movement, you can move across liquids that don't support your weight. If you end your movement on a surface that can't support you, you fall into the liquid at the end of your movement. You can increase the number of actions to 3 to Stride up to three times your Speed.</p>"
     },
     "Wave Spiral": {
-      "name": "Wave Spiral",
-      "description": "<p><strong>Frequency</strong> once per minute</p>\n<p><strong>Requirements</strong> You're in Reflective Ripple Stance.</p>\n<hr />\n<p>You dip and spin, unleashing a wide whirlpool of water. Make an Athletics check to @UUID[Compendium.pf2e.actionspf2e.Item.Trip] each creature standing on the ground in a @Template[type:emanation|distance:10].</p>\n<p>These attacks all count toward your multiple attack penalty, but the penalty doesn't increase until after you make all the attacks.</p><p>@UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]</p>"
+      "name": "螺旋波",
+      "description": "<p><b>前提条件</b> 《応波の構え》</p><p><strong>頻度</strong> 1分に1回</p>\n<p><strong>必要条件</strong> 君は《応波の構え》に入っている。</p>\n<hr />\n<p>君は水に浸って回転し、広い水の渦を巻き起こす。10フィート放射内にいて地面に立っている各クリーチャーに“足払い”のために〈運動〉を試みる。これらの攻撃はそれぞれ君の複数回攻撃ペナルティにおいて攻撃として数えるが、このペナルティは全ての攻撃が完了するまで増加しない。</p><p>@UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]</p><p>@Template[type:emanation|distance:10]</p>"
     },
     "Wave the Flag": {
       "name": "Wave the Flag",
@@ -16430,12 +16430,12 @@
       "description": "<p>　君は自分以外の芸の影響に耐性を持つ。君は聴覚、幻術、言語、音波、視覚のいずれかの特性を持つ効果に対するセーヴィング・スローに＋1の状況ボーナスを得る。</p>\n"
     },
     "Wellspring Control": {
-      "name": "Wellspring Control",
-      "description": "<p>When you generate a wellspring surge, roll twice on the Wellspring Surges table and take the result of your choice. This doesn't apply when you cause another creature to generate a wellspring surge.</p>"
+      "name": "源泉呪文操作",
+      "description": "<p>(未訳)</p><p>When you generate a wellspring surge, roll twice on the Wellspring Surges table and take the result of your choice. This doesn't apply when you cause another creature to generate a wellspring surge.</p>"
     },
     "Wellspring Mage Dedication": {
-      "name": "Wellspring Mage Dedication",
-      "description": "<p>There's no longer a limit on how many temporary spell slots you can gain per day from wellspring magic.</p>\n<p><strong>Special</strong> You can't select another dedication feat until you gain two other feats from the @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.zj9z2BwVX6TLHdx3]{Wellspring Mage} archetype.</p>"
+      "name": "ウェルスプリング・メイジへの専念",
+      "description": "<p>(未訳)</p><p>There's no longer a limit on how many temporary spell slots you can gain per day from wellspring magic.</p>\n<p><strong>特殊</strong> ウェルスプリング・メイジ・アーキタイプから他に2つ以上特技を得るまで、君は他の専念特技を選択できない。@UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.zj9z2BwVX6TLHdx3]</p>"
     },
     "We're on the List": {
       "name": "We're on the List",
@@ -16586,8 +16586,8 @@
       "description": "<p>You are at home in tempestuous weather and accustomed to even the harshest winds. You gain a +1 circumstance bonus to saves against air and electricity effects. If you roll a success on a save against an air effect, you get a critical success instead.</p>"
     },
     "Wind-Tossed Spell": {
-      "name": "Wind-Tossed Spell",
-      "description": "<p>You enhance your spell with elemental air, using the wind to find your target and carry your magic around cover. If the next action you use is to Cast a Spell that requires a spell attack roll, you ignore the target's @UUID[Compendium.pf2e.conditionitems.Item.Concealed] condition and any cover they have from you. The spell gains the air trait.</p><p>@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]</p>"
+      "name": "呪文風震化",
+      "description": "<p>君は呪文を風の元素で強化し、風で目標発見し、遮蔽を迂回して魔法を運ぶ。次の君のアクションが呪文攻撃ロールを必要とする呪文の“呪文発動”のために使用されたなら、君は目標の視認困難状態と君に対して目標が持つすべての遮蔽を無視する。この呪文は風の特性を得る。</p><p>@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]</p>"
     },
     "Winding Flow": {
       "name": "螺旋流",
@@ -16714,8 +16714,8 @@
       "description": "<p>You have unlocked abstruse methods to tangle with reality itself, altering the fate of a single individual. Once per day as an occult innate spell, you can cast <em>@UUID[Compendium.pf2e.spells-srd.Item.Daydreamer's Curse]</em>, <em>@UUID[Compendium.pf2e.spells-srd.Item.Outcast's Curse]</em>, or <em>@UUID[Compendium.pf2e.spells-srd.Item.Savant's Curse]</em>. At the GM's discretion, you can substitute or add additional occult curse spells of 4th level or lower to this list. You can choose a different spell from the list each time you use this ability. If you couldn't already cast occult spells, these spells use Intelligence as your spellcasting ability, and you become trained in spell attack rolls and spell DCs for occult spells; if you could already cast occult spells, your proficiency in spell attack rolls and spell DCs for occult spells increases to expert.</p><p>@UUID[Compendium.pf2e.spells-srd.Item.dARE6VfJ3Uoq5M53]</p><p>@UUID[Compendium.pf2e.spells-srd.Item.KSAEhNfZyXMO7Z7V]</p><p>@UUID[Compendium.pf2e.spells-srd.Item.APDrC83QljsyHenB]</p>"
     },
     "Work Yourself Up": {
-      "name": "Work Yourself Up",
-      "description": "<p><strong>Requirements</strong> You have a reaction available and aren't prevented from using @UUID[Compendium.pf2e.actionspf2e.Item.Catharsis].</p>\n<hr />\n<p>You concentrate on your mental state, tapping into that raw emotional energy. Take your Catharsis reaction, causing the catharsis activation and entering your emotional fervor as normal. The fervor lasts only until the end of your turn. At the end of your emotional fervor, you experience the effects of your emotional fallout, as normal.</p><p>@UUID[Compendium.pf2e.actionspf2e.Item.2424g94rpoiN1IPh]</p>"
+      "name": "自己鍛錬",
+      "description": "<p>(未訳)</p><p><strong>Requirements</strong> You have a reaction available and aren't prevented from using @UUID[Compendium.pf2e.actionspf2e.Item.Catharsis].</p>\n<hr />\n<p>You concentrate on your mental state, tapping into that raw emotional energy. Take your Catharsis reaction, causing the catharsis activation and entering your emotional fervor as normal. The fervor lasts only until the end of your turn. At the end of your emotional fervor, you experience the effects of your emotional fallout, as normal.</p><p>@UUID[Compendium.pf2e.actionspf2e.Item.2424g94rpoiN1IPh]</p>"
     },
     "World-Wise Vigilance": {
       "name": "World-Wise Vigilance",
@@ -16935,7 +16935,7 @@
     },
     "Additional Shadow Magic": {
       "name": "影魔法追加",
-      "description": "<p><b>アーキタイプ</b> シャドウキャスター*、シャドウダンサー</p><p><b>前提条件</b> 《影魔法》</p><p>* このアーキタイプは《影魔法追加》をここで記載されているものとは異なるレベルで提供する。</p>\n<p>　《影魔法》で選択済みでないシャドウダンサー焦点化呪文を追加で選択する。焦点化プールの焦点化ポイントの値を1だけ増加する。</p>"
+      "description": "<p><b>前提条件</b> 《影魔法》</p><p>　《影魔法》で選択済みでないシャドウダンサー焦点化呪文を追加で選択する。焦点化プールの焦点化ポイントの値を1だけ増加する。</p>"
     },
     "Sense the Unseen": {
       "name": "見えざる者への感知",
