@@ -18,11 +18,16 @@ target_list = [
       "legacyName": "spells-legacy",
       "compendiumName": "pf2e.spells-srd.json",
   },
-  { # 装備品
-      "path": "/home/yaginumad/userdata_pf/Data/systems/pf2e/packs/",
-      "legacyName": "equipment",
-      "compendiumName": "pf2e.equipment-srd.json",
+  { # アクション
+      "path": "/home/yaginumad/userdata_pf/Data/modules/pf2e-legacy-content/packs/",
+      "legacyName": "actions-legacy",
+      "compendiumName": "pf2e.actionspf2e.json",
   },
+  #{ # 装備品
+  #    "path": "/home/yaginumad/userdata_pf/Data/systems/pf2e/packs/",
+  #    "legacyName": "equipment",
+  #    "compendiumName": "pf2e.equipment-srd.json",
+  #},
 ]
 
 pathCompendium = "../compendium/"
