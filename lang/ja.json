@@ -192,6 +192,7 @@
                 "Crafting": {
                     "Cost": "コスト"
                 },
+                "CreateFeat": "特技を作成",
                 "HandsOccupied": "Hands Occupied",
                 "Language": {
                     "OverLimit": "このキャラクターが現在使用できる言語の数を超えています。",
@@ -4458,7 +4459,7 @@
         "TraitGremlin": "グレムリン",
         "TraitGrimoire": "グリモワール",
         "TraitGrioth": "グライオス",
-        "TraitGrippli": "グリプリー",
+        "TraitGrippli": "グリプリ",
         "TraitGunslinger": "ガンスリンガー",
         "TraitHag": "ハグ",
         "TraitHalcyon": "ハルシオン",
