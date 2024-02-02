@@ -23,11 +23,11 @@ target_list = [
       "legacyName": "actions-legacy",
       "compendiumName": "pf2e.actionspf2e.json",
   },
-  #{ # 装備品
-  #    "path": "/home/yaginumad/userdata_pf/Data/systems/pf2e/packs/",
-  #    "legacyName": "equipment",
-  #    "compendiumName": "pf2e.equipment-srd.json",
-  #},
+  { # 装備品
+      "path": "/home/yaginumad/userdata_pf/Data/systems/pf2e/packs/",
+      "legacyName": "equipment",
+      "compendiumName": "pf2e.equipment-srd.json",
+  },
 ]
 
 pathCompendium = "../compendium/"

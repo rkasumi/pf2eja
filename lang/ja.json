@@ -856,8 +856,8 @@
         "CarryType": {
             "held1": "1本の手",
             "held2": "2本の手",
-            "worn": "着用",
-            "worn-in-slot": "着用 (スロット)",
+            "worn": "所持",
+            "worn-in-slot": "所持 (スロット)",
             "stowed": "保管",
             "dropped": "落とした"
         },
