@@ -2394,8 +2394,9 @@
                     "success": "Counteract the target if its counteract rank is {rank} or less."
                 },
                 "Defense": {
+                    "BasicDefense": "基本{save}",
                     "BasicSave": "基本",
-                    "Label": "防御"
+                    "Label": "セーヴィング・スロー"
                 },
                 "LevelN": "呪文 {level}",
                 "MeasuredTemplate": {

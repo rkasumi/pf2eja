@@ -95,47 +95,6 @@ for key in targets:
     shutil.copytree(pathLegacy + targets[key], pathRemaster + key)
 
 
-# セーヴ有無を呪文説明文に表示
-save_umu = '''
-{{#if (eq spell.system.defense.save.statistic "reflex")}}
-{{#if spell.system.defense.save.basic}}
-<p><strong>{{localize "PF2E.SavesHeader"}} </strong>
-{{localize "PF2E.Item.Spell.Defense.BasicSave"}} {{localize "PF2E.SavesReflex"}}</p>
-{{/if}}
-{{#unless spell.system.defense.save.basic}}
-<p><strong>{{localize "PF2E.SavesHeader"}} </strong>
-{{localize "PF2E.SavesReflex"}}</p>
-{{/unless}}
-{{/if}}
-{{#if (eq spell.system.defense.save.statistic "will")}}
-{{#if spell.system.defense.save.basic}}
-<p><strong>{{localize "PF2E.SavesHeader"}} </strong>
-{{localize "PF2E.Item.Spell.Defense.BasicSave"}} {{localize "PF2E.SavesWill"}}</p>
-{{/if}}
-{{#unless spell.system.defense.save.basic}}
-<p><strong>{{localize "PF2E.SavesHeader"}} </strong>
-{{localize "PF2E.SavesWill"}}</p>
-{{/unless}}
-{{/if}}
-{{#if (eq spell.system.defense.save.statistic "fortitude")}}
-{{#if spell.system.defense.save.basic}}
-<p><strong>{{localize "PF2E.SavesHeader"}} </strong>
-{{localize "PF2E.Item.Spell.Defense.BasicSave"}} {{localize "PF2E.SavesFortitude"}}</p>
-{{/if}}
-{{#unless spell.system.defense.save.basic}}
-<p><strong>{{localize "PF2E.SavesHeader"}} </strong>
-{{localize "PF2E.SavesFortitude"}}</p>
-{{/unless}}
-{{/if}}
-'''
-
-spell_desc_path = path + "templates/items/partials/spell-description-prepend.hbs"
-if not os.path.isfile(spell_desc_path + ".bk"):
-    shutil.copy2(spell_desc_path, spell_desc_path + ".bk")
-    with open(spell_desc_path, mode="a") as f:
-        print(save_umu, file=f)
-
-
 character_tabs_path = path + "templates/actors/character/tabs/character.hbs"
 if not os.path.isfile(character_tabs_path + ".bk"):
     shutil.copy2(character_tabs_path, character_tabs_path + ".bk")
