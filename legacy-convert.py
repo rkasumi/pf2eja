@@ -30,6 +30,14 @@ for key, line in ldb:
 
   if j["system"]["category"]["value"] == "ritual":
       j["system"]["ritual"] = {"primary": {"check": ""}}
+      if "primarycheck" in j["system"]:
+          j["system"]["ritual"]["primary"] = {"check": j["system"]["primarycheck"]["value"]}
+      if "secondarycheck" in j["system"]:
+          j["system"]["ritual"]["secondary"] = {
+              "checks": j["system"]["secondarycheck"]["value"],
+              "casters": j["system"]["secondarycasters"]["value"]
+          }
+
   if j["system"]["category"]["value"] == "focus" and\
       "focus" not in j["system"]["traits"]["value"]:
       j["system"]["traits"]["value"].append("focus")
