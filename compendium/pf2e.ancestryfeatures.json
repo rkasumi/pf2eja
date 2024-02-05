@@ -91,7 +91,7 @@
     },
     "Greater Darkvision": {
       "name": "上級暗視",
-      "description": "<p>暗視を持つモンスターは、暗闇や薄暗い光の範囲でも完全に物を見ることができるが、その視界は白黒に限られる。4レベルのダークネス呪文などの魔法の暗闇は、通常の暗視を妨げる。しかし、上級暗視／Greater Darkvisionを持つモンスターは、このような魔法の暗闇をも見通すことができる。</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.4GE2ZdODgIQtg51c]</p><p>@UUID[Compendium.pf2e.ancestryfeatures.Item.HHVQDp61ehcpdiU8]</p>"
+      "description": "<p>暗視を持つモンスターは、暗闇や薄暗い光の範囲でも完全に物を見ることができるが、その視界は白黒に限られる。4レベルの@UUID[Compendium.pf2e.spells-srd.Item.4GE2ZdODgIQtg51c]{ダークネス}呪文などの魔法の暗闇は、通常の@UUID[Compendium.pf2e.ancestryfeatures.Item.HHVQDp61ehcpdiU8]{暗視}を妨げる。しかし、上級暗視を持つモンスターは、このような魔法の暗闇をも見通すことができる。</p>"
     },
     "Hydration": {
       "name": "Hydration",
@@ -103,15 +103,15 @@
     },
     "Keen Eyes": {
       "name": "鋭敏視覚",
-      "description": "<p>君の視覚は鋭く、他人が見逃してしまうような、隠れていたり見えなかったりするクリーチャーのちょっとした細部を見分けることができる。30フィート以内にいる隠れた状態や未探知状態のクリーチャーを発見するために“捜す”アクションを使用する際、君は＋2の状況ボーナスを得る。君に対して視認困難状態あるいは隠れた状態の敵を目標にする際、視認困難状態の場合は3、隠れた状態の場合は9だけ平目判定のDCを減少させる。</p><p>@UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]</p><p>@UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]</p><p>@UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]</p><p>@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]</p>"
+      "description": "<p>君の視覚は鋭く、他人が見逃してしまうような、隠れていたり見えなかったりするクリーチャーのちょっとした細部を見分けることができる。30フィート以内にいる@UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{隠れた状態}や@UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{未探知状態}のクリーチャーを発見するために“@UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{捜す}”アクションを使用する際、君は＋2の状況ボーナスを得る。君に対して@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{視認困難状態}あるいは隠れた状態の敵を目標にする際、視認困難状態の場合は3、隠れた状態の場合は9だけ平目判定のDCを減少させる。</p>"
     },
     "Land on Your Feet": {
       "name": "足からの着地",
-      "description": "<p>君が落下する際、通常の半分しかダメージを受けず、地上で伏せ状態にならない。</p><p>@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]</p>"
+      "description": "<p>君が落下する際、通常の半分しかダメージを受けず、地上で@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]にならない。</p>"
     },
     "Low-Light Vision": {
       "name": "夜目",
-      "description": "<p>薄暗い光でも明るい光にいるかのように見えることができ、薄暗い光による視認困難を無視する。</p><p>@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]</p>"
+      "description": "<p>薄暗い光でも明るい光にいるかのように見えることができ、薄暗い光による@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]を無視する。</p>"
     },
     "Magical Strikes": {
       "name": "Magical Strikes",
@@ -135,7 +135,7 @@
     },
     "Sharp Beak": {
       "name": "鋭き嘴",
-      "description": "<p>君は鋭い嘴を持つため、武器がない事態に陥ることはない。君は1d6の［刺突］ダメージを与える、嘴の素手攻撃を持つ。君の嘴は剛腕武器種に属し、巧技と素手の特性を持つ。</p><p>@Damage[1d6[piercing]]</p>"
+      "description": "<p>君は鋭い嘴を持つため、武器がない事態に陥ることはない。君は@Damage[1d6[piercing]]ダメージを与える、嘴の素手攻撃を持つ。君の嘴は剛腕武器種に属し、巧技と素手の特性を持つ。</p>"
     },
     "Sunlight": {
       "name": "Sunlight",
