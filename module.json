@@ -108,10 +108,11 @@
               "label": "PF2E.TraitLawful",
               "description": "PF2E.TraitDescriptionLawful"
             },
-              "half-elf": {
+            "half-elf": {
                 "label": "PF2E.TraitHalfElf",
                 "description": ""
-              }
+            },
+            "draconic-scion": "ドラゴンボーン"
           },
           "damageTypes": {
             "evil": {
@@ -189,7 +190,9 @@
               "aasimar": {
                 "label": "アアシマール",
                 "description": ""
-              }
+              },
+              "dragon": "ドラゴン",
+              "draconic-scion": "ドラゴンボーン"
           },
           "languages": {
           },

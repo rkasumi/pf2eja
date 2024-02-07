@@ -1869,7 +1869,7 @@
                 },
                 "DivineAttribute": {
                     "Hint": "If choosing the Raised by Belief background, its attribute boost options come from a deity.",
-                    "Label": "信仰能力"
+                    "Label": "Divine Attribute"
                 },
                 "DivineFont": {
                     "Harm": "ハーム",
@@ -1878,295 +1878,159 @@
                 },
                 "DivineSkill": "信仰技能",
                 "Domain": {
-                    "Abomination": {
-                        "Label": "異形",
-                        "Description": "君は、周りの人に嫌悪感や恐怖感を与えようとする。"
+                    "Trickery": {
+                        "Label": "欺き",
+                        "Description": "君は人を騙したりいたずらしたりする。"
                     },
-                    "Air": {
-                        "Label": "風",
-                        "Description": "君は風と天候を制御することができる。"
-                    },
-                    "AirApocryphal": {
-                        "Label": "風 (外典)",
-                        "Description": "君は風と天候を制御することができる。全ての教義が正統派に語られているわけではない。秘密裏に囁かれ、司祭から信頼のおける待祭に、あるいは散逸した派閥に残された書物に記された教えもある。"
-                    },
-                    "Ambition": {
-                        "Label": "野心",
-                        "Description": "君は他人に追いつき、追い越すために努力をする。"
-                    },
-                    "AmbitionApocryphal": {
-                        "Label": "野心 (外典)",
-                        "Description": "君は他人に追いつき、追い越すために努力をする。 全ての教義が正統派に語られているわけではない。秘密裏に囁かれ、司祭から信頼のおける待祭に、あるいは散逸した派閥に残された書物に記された教えもある。"
-                    },
-                    "Change": {
-                        "Label": "変化",
-                        "Description": "君は肉体的なものや形而上的なものを再構築することが出来る。"
-                    },
-                    "Cities": {
-                        "Label": "都市",
-                        "Description": "君は環境と住人に力を及ぼす。"
-                    },
-                    "Cold": {
-                        "Label": "氷雪",
-                        "Description": "君は氷、雪、凍るような気温を制御する"
-                    },
-                    "Confidence": {
-                        "Label": "自信",
-                        "Description": "君は恐怖を克服し、誇りをみなぎらせる。"
-                    },
-                    "ConfidenceApocryphal": {
-                        "Label": "自信 (外典)",
-                        "Description": "君は恐怖を克服し、誇りをみなぎらせる。全ての教義が正統派に語られているわけではない。秘密裏に囁かれ、司祭から信頼のおける待祭に、あるいは散逸した派閥に残された書物に記された教えもある。 "
-                    },
-                    "Creation": {
-                        "Label": "創造",
-                        "Description": "君は製作と芸術に関連する神聖な能力を持っている。"
-                    },
-                    "Darkness": {
-                        "Label": "暗闇",
-                        "Description": "君は闇の中で活動し、光を奪う。"
-                    },
-                    "DarknessApocryphal": {
-                        "Label": "暗闇 (外典)",
-                        "Description": "君は闇の中で活動し、光を奪う。全ての教義が正統派に語られているわけではない。秘密裏に囁かれ、司祭から信頼のおける待祭に、あるいは散逸した派閥に残された書物に記された教えもある。"
-                    },
-                    "Death": {
-                        "Label": "死",
-                        "Description": "君は命を終わらせ、アンデッドを破壊する力を持っている。"
-                    },
-                    "DeathApocryphal": {
-                        "Label": "死 (外典)",
-                        "Description": "君は命を終わらせ、アンデッドを破壊する力を持っている。全ての教義が正統派に語られているわけではない。秘密裏に囁かれ、司祭から信頼のおける待祭に、あるいは散逸した派閥に残された書物に記された教えもある。"
-                    },
-                    "Decay": {
-                        "Label": "衰退",
-                        "Description": "君には、物質を使い物にならなくしたり、劣化させたりする力がある。"
-                    },
-                    "Delirium": {
-                        "Label": "狂乱",
-                        "Description": "君は、幻覚や落ち着きのなさをもたらすことができる。"
-                    },
-                    "Destruction": {
-                        "Label": "破壊",
-                        "Description": "君は信仰の破壊の導管である。"
-                    },
-                    "Dreams": {
-                        "Label": "夢",
-                        "Description": "君は夢に入り、操作する力を持つ。"
-                    },
-                    "Dust": {
-                        "Label": "崩壊",
-                        "Description": "君は自分に敵対する者を乾燥させ、風化させる力を持つ。"
-                    },
-                    "Duty": {
-                        "Label": "義務",
-                        "Description": "君は誓いを守り、献身的に神の使命を遂行する。"
-                    },
-                    "Earth": {
-                        "Label": "地",
-                        "Description": "君は土と石を制御する。00"
-                    },
-                    "Family": {
-                        "Label": "家族",
-                        "Description": "君は、家族や共同体をより効果的に助け、守ることができる。"
+                    "Nightmares": {
+                        "Label": "悪夢",
+                        "Description": "君は恐怖と怯えで心を満たす。"
                     },
                     "Fate": {
                         "Label": "運命",
                         "Description": "君は隠れた必然性を見抜き、理解する。"
                     },
-                    "FateApocryphal": {
-                        "Label": "運命 (外典)",
-                        "Description": "君は隠れた必然性を見抜き、理解する。全ての教義が正統派に語られているわけではない。秘密裏に囁かれ、司祭から信頼のおける待祭に、あるいは散逸した派閥に残された書物に記された教えもある。"
+                    "Air": {
+                        "Label": "風",
+                        "Description": "君は風と天候を操ることができる。"
                     },
-                    "Fire": {
-                        "Label": "炎",
-                        "Description": "君は炎を制御する。"
+                    "Family": {
+                        "Label": "家族",
+                        "Description": "君は家族や共同体をより効率よく助け、守る。"
                     },
-                    "FireApocryphal": {
-                        "Label": "炎 (外典)",
-                        "Description": "君は炎を制御する。全ての教義が正統派に語られているわけではない。秘密裏に囁かれ、司祭から信頼のおける待祭に、あるいは散逸した派閥に残された書物に記された教えもある。"
-                    },
-                    "Freedom": {
-                        "Label": "自由",
-                        "Description": "君は自分自身と他人を束縛や束縛から解放する。"
-                    },
-                    "Glyph": {
-                        "Label": "グリフ",
-                        "Description": "君は、書かれた言葉やシンボルに力を発揮する。"
-                    },
-                    "Healing": {
-                        "Label": "治癒",
-                        "Description": "君の治癒魔法は特に効果的である。"
-                    },
-                    "Indulgence": {
-                        "Label": "耽溺",
-                        "Description": "君は盛大にごちそうを食べ、食べ過ぎの影響を振り払うことが出来る。"
-                    },
-                    "IndulgenceApocryphal": {
-                        "Label": "耽溺 (外典)",
-                        "Description": "君は盛大にごちそうを食べ、食べ過ぎの影響を振り払うことが出来る。全ての教義が正統派に語られているわけではない。秘密裏に囁かれ、司祭から信頼のおける待祭に、あるいは散逸した派閥に残された書物に記された教えもある。"
-                    },
-                    "Knowledge": {
-                        "Label": "知識",
-                        "Description": "君は信仰の洞察を得る。"
-                    },
-                    "KnowledgeApocryphal": {
-                        "Label": "知識 (外典)",
-                        "Description": "君は信仰の洞察を得る。全ての教義が正統派に語られているわけではない。秘密裏に囁かれ、司祭から信頼のおける待祭に、あるいは散逸した派閥に残された書物に記された教えもある。"
-                    },
-                    "Lightning": {
-                        "Label": "雷光",
-                        "Description": "君は、電気や雷、嵐などを制御する。"
-                    },
-                    "Luck": {
-                        "Label": "幸運",
-                        "Description": "君は不自然なほどに幸運で、危険な目に遭わない。"
-                    },
-                    "Magic": {
-                        "Label": "魔法",
-                        "Description": "君は、想定外で不可解なことを実行する。"
-                    },
-                    "Might": {
-                        "Label": "力",
-                        "Description": "君の肉体的な力は信仰の強さで強化される。"
-                    },
-                    "MightApocryphal": {
-                        "Label": "力 (外典)",
-                        "Description": "君の肉体的な力は信仰の強さで強化される。全ての教義が正統派に語られているわけではない。秘密裏に囁かれ、司祭から信頼のおける待祭に、あるいは散逸した派閥に残された書物に記された教えもある。"
-                    },
-                    "Moon": {
-                        "Label": "月",
-                        "Description": "君は月に関連する力に指示をする。"
-                    },
-                    "Naga": {
-                        "Label": "ナーガ",
-                        "Description": "蛇のナーガのように、君はラヴィスラがかつて制御していた宇宙と波長が合う。"
-                    },
-                    "Nature": {
-                        "Label": "自然",
-                        "Description": "君は動物と植物に力を及ぼす。"
-                    },
-                    "Nightmares": {
-                        "Label": "悪夢",
-                        "Description": "君は精神を恐怖と畏怖で満たす。"
+                    "Perfection": {
+                        "Label": "完成",
+                        "Description": "君は自分の心、身体、魂を完璧なものにするために努力する。"
                     },
                     "Pain": {
                         "Label": "苦痛",
-                        "Description": "君は自分を不快にしたものを、鋭い痛みで罰する。"
+                        "Description": "君は機嫌を損ねたものを鋭い痛みで罰する。"
                     },
-                    "Passion": {
-                        "Label": "情熱",
-                        "Description": "君は愛にせよ情欲にせよ、情熱を喚起する。"
+                    "Luck": {
+                        "Label": "幸運",
+                        "Description": "君は不自然なほどに幸運で、危険な目に合わない。"
                     },
-                    "Perfection": {
-                        "Label": "完全",
-                        "Description": "君は精神、肉体、霊魂を完成させようと努力している。"
+                    "Death": {
+                        "Label": "死",
+                        "Description": "君は命を終わらせ、アンデッドを破壊する力を持つ。"
                     },
-                    "Plague": {
-                        "Label": "疫病",
-                        "Description": "君は病気と疫病を武器のように使う。"
+                    "Confidence": {
+                        "Label": "自信",
+                        "Description": "君は恐怖心を克服し、誇りを持つ。"
+                    },
+                    "Nature": {
+                        "Label": "自然",
+                        "Description": "君は動物や植物を圧倒する力を持つ。"
                     },
                     "Protection": {
                         "Label": "守護",
-                        "Description": "君は自分自身と他人を守る。"
+                        "Description": "君は自分と他人を守る。"
                     },
-                    "Repose": {
-                        "Label": "休息",
-                        "Description": "君は精神の苦痛を楽にする。"
+                    "Freedom": {
+                        "Label": "自由",
+                        "Description": "君は自分と他人を枷や束縛から開放する。"
                     },
-                    "Secrecy": {
-                        "Label": "秘密",
-                        "Description": "君は秘密を守り、それを隠されたままにする。"
-                    },
-                    "SecrecyApocryphal": {
-                        "Label": "秘密 (外典)",
-                        "Description": "君は秘密を守り、それを隠されたままにする。全ての教義が正統派に語られているわけではない。秘密裏に囁かれ、司祭から信頼のおける待祭に、あるいは散逸した派閥に残された書物に記された教えもある。"
-                    },
-                    "Sorrow": {
-                        "Label": "嘆き",
-                        "Description": "君は憂鬱と寂しさへの痛みの多い繋がりを持つ。"
-                    },
-                    "Soul": {
-                        "Label": "魂",
-                        "Description": "君は霊魂に力を及ぼす。"
-                    },
-                    "Star": {
-                        "Label": "星",
-                        "Description": "君は星々の力に命令をする。"
-                    },
-                    "Sun": {
-                        "Label": "太陽",
-                        "Description": "君は太陽やその他の光源の力を制御し、アンデッドを罰する。"
-                    },
-                    "Swarm": {
-                        "Label": "スウォーム",
-                        "Description": "君は大量のクリーチャーを支配する。"
-                    },
-                    "Time": {
-                        "Label": "時間",
-                        "Description": "君は時間の流れに君臨する。"
-                    },
-                    "Toil": {
-                        "Label": "苦境",
-                        "Description": "君は常に働いており、何者にも目の前に立ち塞がらせない"
-                    },
-                    "Travel": {
-                        "Label": "旅",
-                        "Description": "君は移動と旅に対する力を持つ"
-                    },
-                    "TravelApocryphal": {
-                        "Label": "旅 (外典)",
-                        "Description": "君は移動と旅に対する力を持つ。全ての教義が正統派に語られているわけではない。秘密裏に囁かれ、司祭から信頼のおける待祭に、あるいは散逸した派閥に残された書物に記された教えもある。"
-                    },
-                    "Trickery": {
-                        "Label": "欺き",
-                        "Description": "君は他者を欺き、いたずらを引き起こす"
+                    "Passion": {
+                        "Label": "情熱",
+                        "Description": "君は愛や欲望といった情熱を呼び起こす。"
                     },
                     "Truth": {
                         "Label": "真実",
-                        "Description": "君は嘘を見通し、真実を見つける"
+                        "Description": "君は嘘を破り真実を見極める。"
                     },
-                    "Tyranny": {
-                        "Label": "暴君",
-                        "Description": "君は支配し、他者を奴隷にするための力を持つ"
+                    "Creation": {
+                        "Label": "創造",
+                        "Description": "君は製作と芸術に関する神の能力を持つ。"
+                    },
+                    "Sun": {
+                        "Label": "太陽",
+                        "Description": "君は太陽や他の光源の力を利用し、アンデッドを罰する。"
+                    },
+                    "Travel": {
+                        "Label": "旅",
+                        "Description": "君は移動や旅に関する力を備える。"
+                    },
+                    "Earth": {
+                        "Label": "地",
+                        "Description": "君は土や石を操る。"
+                    },
+                    "Might": {
+                        "Label": "力",
+                        "Description": "君の物理的な力は、神の力で強化されている。"
+                    },
+                    "Knowledge": {
+                        "Label": "知識",
+                        "Description": "君は神の洞察力を授かる。"
+                    },
+                    "Healing": {
+                        "Label": "治癒",
+                        "Description": "君の治癒魔法は特に強力だ。"
+                    },
+                    "Moon": {
+                        "Label": "月",
+                        "Description": "君は月に関連する力を持つ。"
+                    },
+                    "Zeal": {
+                        "Label": "闘魂",
+                        "Description": "君の内なる炎は、自身の戦闘力を高める。"
+                    },
+                    "Cities": {
+                        "Label": "都市",
+                        "Description": "君は都市の環境や住人に対する力を持つ。"
+                    },
+                    "Wealth": {
+                        "Label": "富",
+                        "Description": "君は富、貿易、財宝などの力を持つ。"
+                    },
+                    "Destruction": {
+                        "Label": "破壊",
+                        "Description": "君は神の荒廃のための導管だ。"
+                    },
+                    "Fire": {
+                        "Label": "火",
+                        "Description": "君は炎を操る。"
+                    },
+                    "Secrecy": {
+                        "Label": "秘密",
+                        "Description": "君は秘密を守り、隠れたままにしておく。"
                     },
                     "Undeath": {
                         "Label": "不死",
-                        "Description": "君の魔法はアンデッドと密接な繋がりをもたらす"
+                        "Description": "君の魔法はアンデッドと密接な関係がある。"
                     },
-                    "Vigil": {
-                        "Label": "ヴィジル",
-                        "Description": "君は亡くなった人々を見守り、その秘密を守っている"
+                    "Indulgence": {
+                        "Label": "飽食",
+                        "Description": "君は盛大なごちそうを食べ、食べ過ぎた影響を振り払うことができる。"
                     },
-                    "Void": {
-                        "Label": "虚無",
-                        "Description": "君は空虚から力を引き出す"
+                    "Tyranny": {
+                        "Label": "暴君",
+                        "Description": "君は他人を支配して奴隷にするために権力を行使する。"
+                    },
+                    "Magic": {
+                        "Label": "魔法",
+                        "Description": "君は想定外で不可解なことを実行する。"
                     },
                     "Water": {
                         "Label": "水",
-                        "Description": "君は水と流体を支配する"
+                        "Description": "君は水と水域を操る。"
                     },
-                    "WaterApocryphal": {
-                        "Label": "水 (外典)",
-                        "Description": "君は水と流体を支配する。全ての教義が正統派に語られているわけではない。秘密裏に囁かれ、司祭から信頼のおける待祭に、あるいは散逸した派閥に残された書物に記された教えもある。"
+                    "Ambition": {
+                        "Label": "野心",
+                        "Description": "君は競争相手に追いつき、追い越すために努力する。"
                     },
-                    "Wealth": {
-                        "Label": "価値",
-                        "Description": "君は富、取引、宝物に力を及ぼす"
+                    "Darkness": {
+                        "Label": "闇",
+                        "Description": "君は闇の中で活動し光を奪う。"
                     },
-                    "Wyrmkin": {
-                        "Label": "ワームキン",
-                        "Description": "君はドラゴン、リノーム、その他の強力なは虫類の生き物から力を引き出す"
-                    },
-                    "Zeal": {
-                        "Label": "熱狂",
-                        "Description": "君の内なる炎は戦闘の武威を向上させる"
+                    "Dreams": {
+                        "Label": "夢",
+                        "Description": "君は夢に入り操作する力を持つ。"
                     }
                 },
                 "Domains": {
                     "Alternate": {
                         "Label": "代替領域",
-                        "Hint": "クレリックは大体領域の入手手段を得るために、《領域の入門者拡張化》を取ることが出来る"
+                        "Hint": "クレリックは代替領域の入手手段を得るために、《Expanded Domain Initiate》を取ることが出来る"
                     },
                     "Primary": "主要領域"
                 },
@@ -2176,16 +2040,16 @@
                 },
                 "Sanctification": {
                     "Can": {
-                        "Holy": "選べる：光輝",
-                        "HolyUnholy": "選べる：光輝/不浄",
-                        "Unholy": "選べる：不浄"
+                        "Holy": "can choose holy",
+                        "HolyUnholy": "can choose holy or unholy",
+                        "Unholy": "can choose unholy"
                     },
-                    "Label": "聖化",
+                    "Label": "Divine Sanctification",
                     "Must": {
-                        "Holy": "必須：光輝",
-                        "Unholy": "必須：不浄"
+                        "Holy": "must choose holy",
+                        "Unholy": "must choose unholy"
                     },
-                    "None": "なし"
+                    "None": "none"
                 },
                 "Spellcasting": "呪文発動"
             },
@@ -5645,7 +5509,7 @@
             },
             "blinded": {
                 "name": "盲目状態",
-			          "rules": "<p>君は見ることができない。全ての通常の地形は君にとって移動困難地形となる。</p><p>君は視覚によって何も察知できない（訳注：視覚しか感覚がない場合、未察知状態になる）。目が見えることを前提とした知覚判定を君が行うと自動的に大失敗となる。視覚が君の唯一の明瞭な感覚なら、知覚判定に－4の状態ペナルティを受ける。君は視覚効果に対して完全耐性を得る。盲目状態は@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]を上書きする。</p>"
+                "rules": "<p>君は見ることができない。全ての通常の地形は君にとって移動困難地形となる。</p><p>君は視覚によって何も察知できない（訳注：視覚しか感覚がない場合、未察知状態になる）。目が見えることを前提とした知覚判定を君が行うと自動的に大失敗となる。視覚が君の唯一の明瞭な感覚なら、知覚判定に－4の状態ペナルティを受ける。君は視覚効果に対して完全耐性を得る。盲目状態は@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]を上書きする。</p>"
             },
             "broken": {
                 "name": "破損状態",
