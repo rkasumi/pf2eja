@@ -25,5 +25,6 @@ Hooks.once("ready", () => {
         "pathfinder-core-rulebook",
         "pathfinder-player-core",
         "pathfinder-advanced-players-guide",
+        "pathfinder-secrets-of-magic",
     ];
 })

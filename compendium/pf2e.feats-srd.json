@@ -1615,8 +1615,8 @@
       ]
     },
     "Bark and Tendril": {
-      "name": "Bark and Tendril",
-      "description": "<p>You wield primal magic. You can cast <em>@UUID[Compendium.pf2e.spells-srd.Item.Oaken Resilience]</em> and <em>@UUID[Compendium.pf2e.spells-srd.Item.Entangling Flora]</em> as 2nd-level primal innate spells once per day each.</p>"
+      "name": "樹皮と触手",
+      "description": "<p>君は始原魔法を扱う。君は2レベルの始原生得呪文として、<em>@UUID[Compendium.pf2e.spells-srd.Item.J6vNvrUT3b1hx2iA]</em>と<em>@UUID[Compendium.pf2e.spells-srd.Item.YWrfKetOqDwVFut7]</em>を1日1回ずつ発動できる。</p>"
     },
     "Barreling Charge": {
       "name": "暴乱突撃",
@@ -2409,7 +2409,7 @@
     },
     "Bloodline Focus": {
       "name": "血脈の焦点",
-      "description": "<p>君の焦点化プールは通常より速く回復する。前回“再焦点化”してから少なくとも2焦点化ポイントを費やしているなら、君が“再焦点化”すると焦点化ポイントを1ポイントではなく2ポイントだけ回復する。</p>\n",
+      "description": "<p>君の焦点化プールは通常より速く回復する。前回“@UUID[Compendium.pf2e.actionspf2e.Item.OSefkMgojBLqmRDh]”してから少なくとも2焦点化ポイントを費やしているなら、君が“再焦点化”すると焦点化ポイントを1ポイントではなく2ポイントだけ回復する。</p><hr><p><b>Remastered:</b> “再焦点化”時、常に焦点化ポイントを全回復する。</p>\n",
       "prerequisites": [
         {
           "value": "血脈呪文"
@@ -2518,7 +2518,7 @@
     },
     "Bonded Focus": {
       "name": "絆の焦点",
-      "description": "<p>君と絆のアイテムとのつながりにより、焦点化プールが増加する。</p>\n<p>君が直前に“再焦点化”してから2焦点化ポイント以上消費しており、君の絆のアイテムを所持しているなら、君は“再焦点化”時に焦点化ポイントを1ポイントではなく2ポイント回復する。</p>\n",
+      "description": "<p>君と絆のアイテムとのつながりにより、焦点化プールが増加する。</p>\n<p>君が直前に“@UUID[Compendium.pf2e.actionspf2e.Item.OSefkMgojBLqmRDh]”してから2焦点化ポイント以上消費しており、君の絆のアイテムを所持しているなら、君は“再焦点化”時に焦点化ポイントを1ポイントではなく2ポイント回復する。</p><hr><p><b>Remastered:</b> “再焦点化” 時、焦点化ポイントを全回復する。</p>\n",
       "prerequisites": [
         {
           "value": "秘術の絆"
@@ -3922,7 +3922,7 @@
     },
     "Conflux Focus": {
       "name": "較差の焦点",
-      "description": "<p>君は来たる戦いで魔法と戦闘を織り交ぜ、集中力を高めることを思い浮かべる。君が直前に“再焦点化”してから2焦点化ポイント以上消費しており、君の絆のアイテムを所持しているなら、君は“再焦点化”時に焦点化ポイントを1ポイントではなく2ポイント回復する。</p>\n<p>@UUID[Compendium.pf2e.actionspf2e.Item.OSefkMgojBLqmRDh]</p>",
+      "description": "<p>君は来たる戦いで魔法と戦闘を織り交ぜ、集中力を高めることを思い浮かべる。君が直前に“@UUID[Compendium.pf2e.actionspf2e.Item.OSefkMgojBLqmRDh]”してから2焦点化ポイント以上消費しており、君の絆のアイテムを所持しているなら、君は“再焦点化”時に焦点化ポイントを1ポイントではなく2ポイント回復する。</p><hr><p><b>Remastered:</b> “ 再焦点化”  時、常に焦点化ポイントを全回復する。</p>",
       "prerequisites": [
         {
           "value": "交錯呪文"
@@ -5110,7 +5110,7 @@
     },
     "Devoted Focus": {
       "name": "献身の焦点",
-      "description": "<p>君の献身は君の集中力を信じられないほどの高みにまで高めるほどの強さがある。君が直前に“再焦点化”してから2焦点化ポイント以上消費しているなら、君は“再焦点化”時に焦点化ポイントを1ポイントではなく2ポイント回復する。</p>\n",
+      "description": "<p>君の献身は君の集中力を信じられないほどの高みにまで高めるほどの強さがある。君が直前に“@UUID[Compendium.pf2e.actionspf2e.Item.OSefkMgojBLqmRDh]”してから2焦点化ポイント以上消費しているなら、君は“再焦点化”時に焦点化ポイントを1ポイントではなく2ポイント回復する。</p><hr><p><b>Remastered:</b> “ 再焦点化”  時、常に焦点化ポイントを全回復する。</p>\n",
       "prerequisites": [
         {
           "value": "祈祷呪文"
@@ -5654,7 +5654,7 @@
     },
     "Domain Focus": {
       "name": "領域の焦点",
-      "description": "<p>神格の領域への君の献身はますます大きくなり、君に与えられる力もまた大きくなる。君が直前に“再焦点化”してから2焦点化ポイント以上消費しているなら、君は“再焦点化”時に焦点化ポイントを1ポイントではなく2ポイント回復する。</p>\n",
+      "description": "<p>神格の領域への君の献身はますます大きくなり、君に与えられる力もまた大きくなる。君が直前に“@UUID[Compendium.pf2e.actionspf2e.Item.OSefkMgojBLqmRDh]”してから2焦点化ポイント以上消費しているなら、君は“再焦点化”時に焦点化ポイントを1ポイントではなく2ポイント回復する。</p><hr><p><b>Remastered:</b> “ 再焦点化”  時、常に焦点化ポイントを全回復する。</p>\n",
       "prerequisites": [
         {
           "value": "領域呪文1つ以上"
@@ -9460,8 +9460,8 @@
       "prerequisites": []
     },
     "Grasping Reach": {
-      "name": "Grasping Reach",
-      "description": "<p>You can extend a tangle of vines or tendrils to support your arms and extend your reach. When you wield a melee weapon that requires two hands, doesn't have reach, and deals at least 1d6 damage, you can change between a typical two-handed grip and an extended two-handed grasp using an Interact action. Weapons wielded in your extended grasp gain reach of 10 feet. This grasp is less stable and powerful than a typical grip, reducing the weapon's damage die by 1 step.</p>"
+      "name": "長き間合いの握り",
+      "description": "<p>君はつるや巻きひげのもつれを伸ばして腕を支え、手の届く範囲を広げることができる。君が両手を必要とし、間合いを持たず、1d6以上のダメージを与える近接武器を装備している場合、君は“扱う”アクションにより、通常の両手の握りと両手を伸ばした握りを切り替えることができる。君の伸ばした握りで装備された武器は、間合い：10フィートを得る。この握りは通常の握りよりも安定性と威力が低いため、武器のダメージ・ダイスを1段階低下させる。</p>"
     },
     "Grave Mummification": {
       "name": "Grave Mummification",
@@ -10091,8 +10091,8 @@
       "description": "<p>You look like nothing more than an ordinary toy, doll, or statuette, and you can fool others with your innocuous appearance. You gain the trained proficiency rank in Deception (or another skill if you're already trained in Deception), and you can Impersonate an inanimate toy or a mindless poppet. You can @UUID[Compendium.pf2e.actionspf2e.Item.Hide] without any cover or concealment from creatures that don't realize you're alive, so long as you're in a location where a toy of your shape wouldn't be out of place, like a carnival booth, city street, or toy shop (at the GM's discretion). If you succeed, onlookers still see you, but they mistake you for an inanimate toy. After being fooled once, they realize you're alive, and you can't Hide from them in that way again.</p>\n<hr />\n<p><em>Note: If you are already trained in the skill provided by this feat, you need to manually select an alternative skill.</em></p>"
     },
     "Harmlessly Cute": {
-      "name": "Harmlessly Cute",
-      "description": "<p>Your size and demeanor make it easy for you to convince others that you mean no harm. You gain the @UUID[Compendium.pf2e.feats-srd.Item.Shameless Request] skill feat as a bonus feat. Additionally, you gain a +1 circumstance bonus to initiative checks when you roll Deception for initiative.</p>"
+      "name": "無害な可愛さ",
+      "description": "<p>君の小さなサイズと態度は、他人に悪気がないことを簡単に納得させる。君はボーナス特技として@UUID[Compendium.pf2e.feats-srd.Item.KIK2Eza9TK47MEb2]技能特技を得る。加えて、イニシアチブの目的で〈ペテン〉をロールするしたならば、君はそのイニシアチブ判定に＋1の状況ボーナスを得る。</p>"
     },
     "Harmonize": {
       "name": "調和の調べ",
@@ -10346,7 +10346,7 @@
     },
     "Hex Focus": {
       "name": "呪術の焦点",
-      "description": "<p>守護者の教育は君により深い焦点を与える。君が直前に“再焦点化”を行ってから2焦点化ポイント以上消費しているなら、君は“再焦点化”時に焦点化ポイントを1ポイントではなく2ポイント回復する。</p>\n<p>@UUID[Compendium.pf2e.actionspf2e.Item.OSefkMgojBLqmRDh]</p>",
+      "description": "<p>守護者の教育は君により深い焦点を与える。君が直前に“再焦点化”を行ってから2焦点化ポイント以上消費しているなら、君は“@UUID[Compendium.pf2e.actionspf2e.Item.OSefkMgojBLqmRDh]”時に焦点化ポイントを1ポイントではなく2ポイント回復する。</p><hr><p><b>Remastered:</b> “ 再焦点化”  時、常に焦点化ポイントを全回復する。</p>",
       "prerequisites": []
     },
     "Hex Master": {
@@ -11305,7 +11305,7 @@
     },
     "Inspirational Focus": {
       "name": "鼓舞する焦点",
-      "description": "<p>君の詩神とのつながりは異常なほどの焦点化を与える。</p><p>前回“再焦点化”してから少なくとも2焦点化ポイントを費やしているなら、君が“再焦点化”すると焦点化ポイントを1ポイントではなく2ポイントだけ回復する。</p>\n",
+      "description": "<p>君の詩神とのつながりは異常なほどの焦点化を与える。</p><p>前回“@UUID[Compendium.pf2e.actionspf2e.Item.OSefkMgojBLqmRDh]”してから少なくとも2焦点化ポイントを費やしているなら、君が“再焦点化”すると焦点化ポイントを1ポイントではなく2ポイントだけ回復する。</p><hr><p><b>Remastered:</b> “再焦点化”時、常に焦点化ポイントを全回復する。</p>",
       "prerequisites": []
     },
     "Inspirational Performance": {
@@ -12372,16 +12372,21 @@
       ]
     },
     "Leshy Glide": {
-      "name": "Leshy Glide",
-      "description": "<p>Using your own leaves, you can control your descent. You glide slowly toward the ground, 5 feet down and up to 25 feet forward through the air. As long as you spend at least 1 action gliding each round and have not yet reached the ground, you remain in the air at the end of your turn.</p>"
+      "name": "レーシーの滑空",
+      "description": "<p>君は自分の葉を使って、降下を制御できる。君は地面に向かってゆっくりと滑空し、下に5フィート降りる間に空中で前方に25フィートまで移動できる。君が各ラウンドで1アクション以上を滑空に費やし、君がまだ地面に到達していないならば、君は自分のターンの終わりでも空中にとどまり続ける。</p>",
+      "prerequisites": [
+        {
+          "value": "リーフ・レーシー、あるいは《猫の如き着地》"
+        }
+      ]
     },
     "Leshy Lore": {
-      "name": "Leshy Lore",
-      "description": "<p>You deeply understand your people's cultural traditions and innate strengths. You gain the trained proficiency rank in Nature and Stealth. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice. You also become trained in Leshy Lore.</p>"
+      "name": "レーシーの知識",
+      "description": "<p>君は自分の種族が持つ文化的伝統と生来の強みを深く理解している。君は〈自然〉と〈隠密〉に修得の習熟度ランクを得る。これらの技能のいずれか1つが（例えば、来歴やクラスのために）で自動的に修得になる場合、代わりに君が選択した技能1つを修得にする。加えて、君は〈知識：レーシー〉を修得にする。</p>"
     },
     "Leshy Superstition": {
-      "name": "Leshy Superstition",
-      "description": "<p><strong>Trigger</strong> You attempt a saving throw against a spell or magical effect, but haven't rolled yet.</p>\n<hr />\n<p>You notice spirits that inhabit objects, learning which bring good fortune and which are unlucky. You focus on the power of a lucky object, granting you a +1 circumstance bonus to your saving throw against the triggering effect.</p>"
+      "name": "レーシーの験担ぎ",
+      "description": "<p><strong>トリガー</strong> 君が呪文あるいは魔法効果に対してセーヴィング・スローを試みるが、まだロールしていない。</p>\n<hr />\n<p>君は物に宿る霊に気づき、幸運をもたらすものと不運なものを理解する。君は運をもたらす物体の力に焦点を当てることで、トリガーとなった効果に対する君のセーヴィング・スローに＋1の状況ボーナスを得る。</p>"
     },
     "Lesser Augmentation": {
       "name": "Lesser Augmentation",
@@ -12558,7 +12563,7 @@
     },
     "Link Focus": {
       "name": "接合の焦点",
-      "description": "<p>君の焦点化はより早く回復する。前回“再焦点化”してから少なくとも2焦点化ポイントを費やしているなら、君が“再焦点化”すると焦点化ポイントを1ポイントではなく2ポイントだけ回復する。</p>\n<p>@UUID[Compendium.pf2e.actionspf2e.Item.OSefkMgojBLqmRDh]</p>",
+      "description": "<p>君の焦点化はより早く回復する。前回“@UUID[Compendium.pf2e.actionspf2e.Item.OSefkMgojBLqmRDh]”してから少なくとも2焦点化ポイントを費やしているなら、君が“再焦点化”すると焦点化ポイントを1ポイントではなく2ポイントだけ回復する。</p><hr><p><b>Remastered:</b> “再焦点化”時、常に焦点化ポイントを全回復する。</p>",
       "prerequisites": [
         {
           "value": "接合呪文"
@@ -12576,7 +12581,7 @@
     },
     "Linked Focus": {
       "name": "連結した焦点具",
-      "description": "<p><strong>使用回数</strong> 1日1回</p>\n<p>君は絆のアイテムを、系統呪文に力を与えるエネルギーの井戸と結びつけた。君が秘術系統の呪文を発動するために“絆のアイテムからの消費”を使用するとき、同時に1焦点化ポイントを回復する。</p>\n<p>@UUID[Compendium.pf2e.actionspf2e.Item.v82XtjAVN4ffgVVR]</p>",
+      "description": "<p><strong>使用回数</strong> 1日1回</p>\n<p>君は絆のアイテムを、系統呪文に力を与えるエネルギーの井戸と結びつけた。君が秘術系統の呪文を発動するために“@UUID[Compendium.pf2e.actionspf2e.Item.v82XtjAVN4ffgVVR]”を使用するとき、同時に1焦点化ポイントを回復する。</p>",
       "prerequisites": [
         {
           "value": "秘術の絆"
@@ -12800,8 +12805,13 @@
       "description": "<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> A creature targets you with an attack, even if you aren't aware of it.</p>\n<hr />\n<p>Your enemy lies in wait, lines up the perfect shot, and pulls the trigger... then at just the right moment you duck down to notice something scrawled on the cobblestone in chalk, a shiny coin, or some other coincidental distraction, creating an opportunity for the attack to miss. The attacker must roll the attack twice and use the worse result.</p>"
     },
     "Lucky Keepsake": {
-      "name": "Lucky Keepsake",
-      "description": "<p>You have a @UUID[Compendium.pf2e.equipment-srd.Item.Lucky Keepsake]{Keepsake} that grants you luck. You gain a +1 circumstance bonus to saves against spells and magical effects at all times, not just when you use @UUID[Compendium.pf2e.feats-srd.Item.@UUID[Compendium.pf2e.feats-srd.Item.fYVFBnv9aVHv1UNg]{Leshy Superstition}]. If you lose the keepsake, you lose the bonus until you designate a new keepsake, typically over the course of a week.</p><p>@UUID[Compendium.pf2e.equipment-srd.Item.nza9skYTNtJe2Wd3]</p>"
+      "name": "幸運を授ける記念品",
+      "description": "<p>君には幸運を与える@UUID[Compendium.pf2e.equipment-srd.Item.nza9skYTNtJe2Wd3]{記念品}がある。君は@UUID[Compendium.pf2e.feats-srd.Item.fYVFBnv9aVHv1UNg]を使用している間だけでなく、常に呪文や魔法効果に対して＋1の状況ボーナスを得る。記念品を紛失した場合、新しい記念品を指定するまで（通常は1週間かかる）、このボーナスは失われる。</p>",
+      "prerequisites": [
+        {
+          "value": "《レーシーの験担ぎ》"
+        }
+      ]
     },
     "Lunge": {
       "name": "踏み込み",
@@ -13561,7 +13571,7 @@
     },
     "Meditative Focus": {
       "name": "瞑想焦点化",
-      "description": "<p>君の瞑想は非常に効率的なもので、より深い焦点化を達成できる。前回“再焦点化”してから少なくとも2焦点化ポイントを費やしているなら、君が“再焦点化”すると焦点化ポイントを1ポイントではなく2ポイントだけ回復する。</p>\n",
+      "description": "<p>君の瞑想は非常に効率的なもので、より深い焦点化を達成できる。前回“@UUID[Compendium.pf2e.actionspf2e.Item.OSefkMgojBLqmRDh]”してから少なくとも2焦点化ポイントを費やしているなら、君が“再焦点化”すると焦点化ポイントを1ポイントではなく2ポイントだけ回復する。</p><hr><p><b>Remastered:</b> “再焦点化”時、常に焦点化ポイントを全回復する。</p>",
       "prerequisites": [
         {
           "value": "練気呪文"
@@ -15938,7 +15948,7 @@
     },
     "Primal Focus": {
       "name": "始原の焦点",
-      "description": "<p>君の自然とのつながりは特に強く、自然の精霊は君の周りに集まり、君の焦点化を満たす助けをしてくれる。君が直前に“再焦点化”してから2焦点化ポイント以上消費しており、君の絆のアイテムを所持しているなら、君は“再焦点化”時に焦点化ポイントを1ポイントではなく2ポイント回復する。</p>\n",
+      "description": "<p>君の自然とのつながりは特に強く、自然の精霊は君の周りに集まり、君の焦点化を満たす助けをしてくれる。君が直前に“@UUID[Compendium.pf2e.actionspf2e.Item.OSefkMgojBLqmRDh]”してから2焦点化ポイント以上消費しており、君の絆のアイテムを所持しているなら、君は“再焦点化”時に焦点化ポイントを1ポイントではなく2ポイント回復する。</p><hr><p><b>Remastered:</b> “ 再焦点化”  時、常に焦点化ポイントを全回復する。</p>\n",
       "prerequisites": []
     },
     "Primal Rampage": {
@@ -17470,8 +17480,8 @@
       ]
     },
     "Ritual Reversion": {
-      "name": "Ritual Reversion",
-      "description": "<p>You can temporarily revert to a less conspicuous form without diminishing your senses. You take the form of an ordinary specimen of the type of plant or fungus that most closely resembles you, reverting to your body's appearance just before your spirit joined with it. This otherwise has the effects of <em>@UUID[Compendium.pf2e.spells-srd.Item.One with Plants]</em>, except that your size remains Small.</p>"
+      "name": "復元の儀式",
+      "description": "<p>君は感覚を失うことなく、一時的に目立たない姿に自分を戻すことができる。君は自分に最もよく似た種類の植物あるいは菌類のありふれた個体の姿となり、魂がそれと結合する直前の君の体の姿に戻る。それ以外の点ではこの効果は<em>@UUID[Compendium.pf2e.spells-srd.Item.dileJ0Yxqg76LMvu]</em>と同様に機能するが、君のサイズは小型のままだ。</p>"
     },
     "Ritualist Dedication": {
       "name": "リチュアリストへの専念",
@@ -18104,8 +18114,8 @@
       "description": "<p>You notice things that others can't see at all. While you're adjacent to an @UUID[Compendium.pf2e.conditionitems.Item.Undetected] creature of your level or lower, it is instead only @UUID[Compendium.pf2e.conditionitems.Item.Hidden] from you. You only need a successful @Check[type:flat|dc:5] to target a hidden creature.</p>"
     },
     "Seedpod": {
-      "name": "Seedpod",
-      "description": "<p>Your body produces a nearly endless supply of hard seedpods. You gain a seedpod ranged unarmed attack with a range increment of 10 feet that deals 1d4 bludgeoning damage; these Strikes have the manipulate trait. On a critical hit, a seedpod bursts, issuing forth a tangle of vegetation that imposes a -10-foot circumstance penalty on the target's Speed for 1 round. Seedpods do not add critical specialization effects.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.Effect: Seedpod]</p><p>@UUID[Compendium.pf2e.feat-effects.Item.wQDHpOKY3GZqvS2v]</p>"
+      "name": "種子さや",
+      "description": "<p>君の体はほぼ無限といえる数の硬い種子さやを生み出す。君は、射程単位10フィートで1d4の［殴打］ダメージを与える、種子さやによる遠隔素手攻撃を得る。この“打撃”は操作特性を持つ。クリティカル・ヒットすると種子さやが破裂してもつれ合った植物が発生し、1ラウンドの間、目標の移動速度に－10フィートの状況ペナルティを与える。種子さやは、クリティカル開眼効果を与えない。</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.wQDHpOKY3GZqvS2v]</p>"
     },
     "Seek Injustice": {
       "name": "Seek Injustice",
@@ -18309,8 +18319,8 @@
       ]
     },
     "Shadow of the Wilds": {
-      "name": "Shadow of the Wilds",
-      "description": "<p>It's difficult to notice your passage through wild areas. As long as you're not in an urban environment, you're always considered to be @UUID[Compendium.pf2e.actionspf2e.Item.Cover Tracks]{Covering Tracks  }, even if you chose a different activity in exploration mode.</p><p>@UUID[Compendium.pf2e.actionspf2e.Item.SB7cMECVtE06kByk]</p>"
+      "name": "自然の影",
+      "description": "<p>君は自然の地域を通過したことに気づかれにくい。都市環境にいない限り、たとえ探索モードで異なる連続行動を行っていたとしても、君は常に@UUID[Compendium.pf2e.actionspf2e.Item.SB7cMECVtE06kByk]を行っているものとして扱われる。</p>"
     },
     "Shadow Pact": {
       "name": "Shadow Pact",
@@ -19528,8 +19538,8 @@
       "description": "<p>The warmth and light of the sun gives you life. If you rest outdoors for 10 minutes during the day, you regain Hit Points equal to your [[/r (floor(@actor.level/2)*@actor.con.mod)[Healing]]]{Constitution modifier ? half your level}. You gain this benefit in addition to any healing from @UUID[Compendium.pf2e.actionspf2e.Item.Treat Wounds].</p>"
     },
     "Solar Rejuvenation": {
-      "name": "Solar Rejuvenation",
-      "description": "<p>If you rest outdoors for 10 minutes during the day, you regain Hit Points equal to your [[/r (@actor.level/2)*(max(@actor.abilities.con.mod,1))]]{Constitution modifier ? half your level} . You gain this benefit in addition to any healing from @UUID[Compendium.pf2e.actionspf2e.Item.Treat Wounds].</p>\n<p>Leshies whose plant nourishment does not rely on photosynthesis require a similarly suitable environment. For example, fungus leshies need dark, damp environments and a pile of decaying plant matter.</p>"
+      "name": "陽光による再生",
+      "description": "<p>君が日中に屋外で10分間休憩すると、君は[[/r (@actor.level/2)*(max(@actor.abilities.con.mod,1))]]{【耐久力】修飾値×君のレベルの半分}に等しいヒット・ポイントを回復する。君は@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]による回復に加えて、この利益を得ることができる。</p>\n<p>植物の栄養源が光合成と関係しないレーシーも、同様に適した環境を必要とする。例えば、ファンガス・レーシーは暗く湿った環境と腐敗した植物物質の山を必要とする。</p>"
     },
     "Solid Lead": {
       "name": "確かな手がかり",
@@ -19660,8 +19670,8 @@
       "description": "<p>At your very heartwood, you're a flower animated by elder magic, and with a little effort, you can speak to your kindred. You can ask questions of, receive answers from, and use the Diplomacy skill with flowering plants of all types.</p>"
     },
     "Speak with Kindred": {
-      "name": "Speak with Kindred",
-      "description": "<p>You have a connection with creatures that share your physiology. You can ask questions of, receive answers from, and use the Diplomacy skill with plants or fungi that match your leshy heritage. Generally, fungus leshies can speak to mushrooms and fungi; gourd leshies can speak to gourds, melons, and similar fruiting plants; leaf leshies can speak with deciduous trees; and vine leshies can speak with vines and climbing plants. The GM determines which plants or fungi count for this ability.</p>"
+      "name": "同種との会話",
+      "description": "<p>君は生理機能を共有するクリーチャーとのつながりを持つ。君は、君のレーシーの出自に一致する植物や菌類に対して質問し、回答を受け取り、〈交渉〉技能を使用できる。一般的に、ファンガス・レーシーはキノコや菌類と話すことができる。ゴーウド・レーシーは、ヒョウタン、メロン、および同様の結実植物と話すことができる。リーフ・レーシーは落葉樹と話すことができる。ヴァイン・レーシーはつる植物や茨と話すことができる。GMは、どの植物または菌類がこの能力に該当するかを決定する。</p>"
     },
     "Speaking Sky": {
       "name": "Speaking Sky",
@@ -22438,8 +22448,8 @@
       "prerequisites": []
     },
     "Undaunted": {
-      "name": "Undaunted",
-      "description": "<p>Your spirit has endured many challenges over its long existence, and you are certain you can overcome whatever hardships life throws your way. You gain a +1 circumstance bonus to saves against emotion effects. If you roll a success on a saving throw against an emotion effect, you get a critical success instead.</p>"
+      "name": "臆さぬもの",
+      "description": "<p>君の霊魂は長い間、多くの困難に耐えてきた。君は人生が自分の道に投げかけるどんな困難も乗り越えられると確信している。君は感情効果に対するセーヴに＋1の状況ボーナスを得る。君が感情効果に対するセーヴィング・スローで成功をロールすると、代わりに大成功を得る。</p>"
     },
     "Undead Companion": {
       "name": "Undead Companion",
@@ -23274,7 +23284,7 @@
     },
     "Warden's Focus": {
       "name": "守人の焦点",
-      "description": "<p>君の周囲とのつながりは君が焦点とするほどに深化する。君が直前に“再焦点化”してから2焦点化ポイント以上消費しており、君の絆のアイテムを所持しているなら、君は“再焦点化”時に焦点化ポイントを1ポイントではなく2ポイント回復する。</p>\n<p>@UUID[Compendium.pf2e.actionspf2e.Item.OSefkMgojBLqmRDh]</p>",
+      "description": "<p>君の周囲とのつながりは君が焦点とするほどに深化する。君が直前に“@UUID[Compendium.pf2e.actionspf2e.Item.OSefkMgojBLqmRDh]”してから2焦点化ポイント以上消費しており、君の絆のアイテムを所持しているなら、君は“再焦点化”時に焦点化ポイントを1ポイントではなく2ポイント回復する。</p><hr><p><b>Remastered:</b> “ 再焦点化”  時、常に焦点化ポイントを全回復する。</p>",
       "prerequisites": [
         {
           "value": "守人呪文"

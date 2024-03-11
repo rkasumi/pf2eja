@@ -262,8 +262,8 @@
       "description": "<p>Your body continually produces small fruits imbued with primal magic. At dawn each day, a new fruit ripens. You or an ally can remove this fruit as an Interact action. If a living creature that can derive sustenance from fruit consumes it as an Interact action within the next hour, they regain 1d8 Hit Points, plus an additional 1d8 Hit Points for every 2 of your levels beyond 1st. This effect has the healing, necromancy, positive, and primal traits.</p>\n<p>[[/r ceil(@actor.level/2)d8[healing]]]{Leveled Healing}</p>"
     },
     "Fungus Leshy": {
-      "name": "Fungus Leshy",
-      "description": "<p>Your body was made from fungi that grows in the shade of caves and trees, and you are at home in dark caverns and warrens. You gain @UUID[Compendium.pf2e.ancestryfeatures.Item.HHVQDp61ehcpdiU8]{Darkvision}. You lose the plant trait and gain the fungus trait.</p>"
+      "name": "ファンガス・レーシー",
+      "description": "<p>君の体は洞窟や木陰に生えている菌類でできていて、君は暗い洞窟や巣穴を家にしている。君は@UUID[Compendium.pf2e.ancestryfeatures.Item.HHVQDp61ehcpdiU8]を得る。君は植物の特性を失い、菌類の特性を得る。</p>"
     },
     "Ganzi": {
       "name": "Ganzi",
@@ -274,8 +274,8 @@
       "description": "<p>You awakened when a bit of another person's life force and a fragment of their soul-possibly, but not always, at the moment of their death-found its way into your constructed body. You don't remember anything more than vague flashes of your \"before life,\" but that life essence still protects you. You gain resistance to negative damage equal to half your level (minimum 1).</p>"
     },
     "Gourd Leshy": {
-      "name": "Gourd Leshy",
-      "description": "<p>You have a large gourd for a skull. Your knowledge comes from within your spirit, rather than a physical brain, and you have found a handier use for the space inside your head. You can store a collection of up to 1 Bulk of objects within your head. The DC of checks to @UUID[Compendium.pf2e.actionspf2e.Item.RDXXE7wMrSPCLv5k]{Steal} objects from inside your head increases by 4. Additionally, if you store only one object within your head, you can draw it effortlessly into your hand as part of another action to use the object. Drawing the item grants this other action the manipulate trait.</p>"
+      "name": "ゴーウド・レーシー",
+      "description": "<p>君は頭に大きなひょうたんをつけている。君の知識は物理的な脳ではなく、霊魂の中から来ているため、頭の中の空間をより便利に使用できる。君は頭の中にに最大1バルクまでの物体を複数保存できる。君の頭の中の物体に対する“@UUID[Compendium.pf2e.actionspf2e.Item.RDXXE7wMrSPCLv5k]”の判定におけるDCは4増加する。加えて、頭の中に物体を1つだけ保存している場合、君はその物体を使用する別のアクションの一部として、簡単にそのオブジェクトを手に取り出すことができる。アイテムを取り出す場合、このアクションには操作特性がつく。</p>"
     },
     "Grave Orc": {
       "name": "Grave Orc",
@@ -366,8 +366,8 @@
       "description": "<p>Your vanara ancestors might have been born in Ragdya's image, but they found survival only in service to his enemy: the red-faced Lahkgya. You have sharp teeth meant for gnashing and ripping into flesh. You can subsist on raw meat alone. You have a jaws unarmed attack that deals 1d6 piercing damage. Your jaws are in the brawling group and have the finesse and unarmed traits.</p>"
     },
     "Leaf Leshy": {
-      "name": "Leaf Leshy",
-      "description": "<p>Your body is made mostly from natural foliage, and like a leaf tumbling from a tree, you land from falls with particular grace. You take no damage from falling, regardless of the distance you fall.</p>"
+      "name": "リーフ・レーシー",
+      "description": "<p>君の体はほとんどが自然の葉でできており、君は木から落ちる葉のように、特に優雅に高みから着地する。落下距離に関係なく、君は落下によるダメージを受けない。</p>"
     },
     "Lethoci": {
       "name": "Lethoci",
@@ -822,8 +822,8 @@
       "description": "<p>You've learned to be aware of not just obvious physical dangers, but also noticeable magical threats. You can cast the <em>@UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl]{Detect Magic}</em> cantrip as an arcane innate spell at will. A cantrip is heightened to a spell level equal to half your level rounded up. In addition, your awareness allows you to notice magical traps easier than others. Your proficiency rank in Perception is considered one step better when attempting to detect magical traps. (Trained is considered expert, expert is considered master, and master is considered legendary).</p>"
     },
     "Vine Leshy": {
-      "name": "Vine Leshy",
-      "description": "<p>The prehensile vines woven into your body grant you unmatched skill at climbing. You do not need to have any hands free to @UUID[Compendium.pf2e.actionspf2e.Item.pprgrYQ1QnIDGZiy]{Climb}. Additionally, if you roll a success on an Athletics check to climb, you get a critical success instead.</p>"
+      "name": "ヴァイン・レーシー",
+      "description": "<p>君の体に織り込まれた耐寒性のある蔦は、君に比類のない登山技術を与えてくれる。君は“@UUID[Compendium.pf2e.actionspf2e.Item.pprgrYQ1QnIDGZiy]”の際、両手を空ける必要がない。加えて、“登攀”のための〈運動〉判定で成功すると、代わりに大成功となる。"
     },
     "Vivacious Gnome": {
       "name": "Vivacious Gnome",

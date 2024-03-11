@@ -90,8 +90,8 @@
 			"description": "<p><em>コボルドの誰もが、自分たちの脆弱な体躯が強大なトゥルー・ドラゴンの力を裏切っていることを知っている。彼らは巧妙な職人であり、献身的に尽くす仲間であるが、彼らの領域に侵入した者は、特に彼らが竜術師やトゥルー・ドラゴンの大君主の後ろ盾を得ている場合、彼らが手慣れた奇襲者であることに気づく。しかし、この爬虫類の日和見主義者たちは、自分たちの利益になるときは喜んで他の人型生物と協力し、警戒と狡猾さを組み合わせて広い世界で富を築くことを証明している。 　コボルドは機知に富見、高い生存能力を持つ。彼らは輪縄に守られた住処や日和見主義的な清掃活動によって、他のほとんどの人型生物にとっては悪役として扱われ、その龍に対する厳格な畏敬の念のため、単なる手先や厄介者としての評判を得ている。しかし、地上居住地の相対的な安全性、冒険生活の実入りの良い展望、または彼ら自身の信者からの畏怖の正当性を求めて、隔離された戦場から外へ出たコボルドもいる。 　桁外れの自信と恐るべき狡猾さ、そして竜の太古の力を持つキャラクターが欲しいなら、コボルドをプレイすべきだ。</em></p>\n<p><em><a href=\"https://w.atwiki.jp/p2rdj/pages/810.html\">詳細</a></em></p><hr /><p>@UUID[Compendium.pf2e.heritages.Item.35k2aujXYvqUCSS1]{洞窟コボルド}</p><p>@UUID[Compendium.pf2e.heritages.Item.P8BP1un5BTrwXoBy]{竜鱗コボルド}</p><p>@UUID[Compendium.pf2e.heritages.Item.VRyX00OuPGsJSurM]{呪文鱗コボルド}</p><p>@UUID[Compendium.pf2e.heritages.Item.WaCn0mcivFv1omNK]{強顎コボルド}</p><p>@UUID[Compendium.pf2e.heritages.Item.m9rrlchS10xHFA2G]{毒尾コボルド}</p>"
 		},
 		"Leshy": {
-			"name": "Leshy",
-			"description": "<p><em>Guardians and emissaries of the environment, leshies are immortal spirits of nature temporarily granted a physical form.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.45SK8rdbbxvEHfMn.JournalEntryPage.SWkwNivrfzWZqas9]{Leshy}</em></p>"
+			"name": "レーシー",
+			"description": "<p><em>環境の守護者と使者であるレーシーは、一時的に物理的な形を与えられた、死すべき定めを持たない自然の精霊である。</em></p>\n<p><em><a href=\"https://w.atwiki.jp/p2rdj/pages/1807.html\">詳細</a></em></p><hr /><p>@UUID[Compendium.pf2e.heritages.Item.evXJISqyhl3fHE9u]{ヴァイン・レーシー}</p><p>@UUID[Compendium.pf2e.heritages.Item.wNnsjird4OQe0s6p]{ゴーウド・レーシー}</p><p>@UUID[Compendium.pf2e.heritages.Item.87h0jepQuzIbN7jN]{ファンガス・レーシー}</p><p>@UUID[Compendium.pf2e.heritages.Item.dQqurQys37aJYb26]{リーフ・レーシー}</p>"
 		},
 		"Lizardfolk": {
 			"name": "Lizardfolk",

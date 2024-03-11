@@ -80,6 +80,26 @@ for key, line in ldb:
   ldb.put(key, json.dumps(j).encode())
 ldb.close()
 
+# 装備品をコンバートする
+# 旧DBを新PGで使用するため、旧→新にデータコンバートする。
+ldb = plyvel.DB(pathLegacy+"equipment-legacy", create_if_missing=False)
+for key, line in ldb:
+  j = json.loads(line)
+
+  if j["system"].get("category") and j["system"].get("category") == "shield":
+      j["type"] = "shield"
+
+  if j["system"].get("specific"):
+      if j["system"]["specific"].get("runes"):
+          j["system"]["runes"] = j["system"]["specific"]["runes"]
+  else:
+      j["system"]["runes"] = {}
+
+  #print(json.dumps(j, indent=2))
+  ldb.delete(key)
+  ldb.put(key, json.dumps(j).encode())
+ldb.close()
+
 # legacyコンテンツをsystems/pf2e/packsに上書き
 targets = {
   "actions": "actions-legacy",
@@ -88,8 +108,8 @@ targets = {
   "backgrounds": "backgrounds-legacy",
   "classfeatures": "class-features-legacy",
   "classes": "classes-legacy",
-  #"equipment-effects": "equipment-effects-legacy",
-  #"equipment": "equipment-legacy",
+  "equipment-effects": "equipment-effects-legacy",
+  "equipment": "equipment-legacy",
   "feat-effects": "feat-effects-legacy",
   "feats": "feats-legacy",
   "heritages": "heritages-legacy",

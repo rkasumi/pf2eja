@@ -471,7 +471,7 @@
     },
     "Divine Font": {
       "name": "神泉",
-      "description": "<p>　神格の祝福により、君は正のエネルギーと呼ばれる生命の力、もしくはその対極にある負のエネルギーを放出する追加の呪文を得る。日毎の呪文を準備する際、君は神格に従って、追加で@UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{ヒール}もしくは@UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{ハーム}呪文を準備できる。神格が与えた神泉による呪文は、その神格の神泉項に記載されている。両方とも記載されている場合、君は@UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{ヒール}と@UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{ハーム}から1つを選択できる。一度選択したなら、論理的な変化や神の介入がない限り、その選択を変えることはできない。</p><p>　治癒の泉／Healing Font：君はクレリック呪文スロットの最も高いレベルに追加の呪文スロットを得る。君はそれらの呪文スロットに@UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{ヒール}のみを準備できる。その数は1＋君の【魅力】修正値に等しい。</p><p>　危害の泉／Harmful Font：君はクレリック呪文スロットの最も高いレベルに追加の呪文スロットを得る。君はそれらの呪文スロットに@UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{ハーム}のみを準備できる。その数は1＋君の【魅力】修正値に等しい。</p>\n"
+      "description": "<p>　神格の祝福により、君は正のエネルギーと呼ばれる生命の力、もしくはその対極にある負のエネルギーを放出する追加の呪文を得る。日毎の呪文を準備する際、君は神格に従って、追加で@UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{ヒール}もしくは@UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{ハーム}呪文を準備できる。神格が与えた神泉による呪文は、その神格の神泉項に記載されている。両方とも記載されている場合、君は@UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{ヒール}と@UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{ハーム}から1つを選択できる。一度選択したなら、論理的な変化や神の介入がない限り、その選択を変えることはできない。</p><p><b>治癒の泉</b>：君はクレリック呪文スロットの最も高いレベルに追加の呪文スロットを得る。君はそれらの呪文スロットに@UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{ヒール}のみを準備できる。その数は1＋君の【魅力】修正値に等しい。</p><p><b>危害の泉</b>：君はクレリック呪文スロットの最も高いレベルに追加の呪文スロットを得る。君はそれらの呪文スロットに@UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{ハーム}のみを準備できる。その数は1＋君の【魅力】修正値に等しい。</p><hr><p><b>Remastered:</b> 呪文スロット数は【魅力】に関わらず4となる。これはレベル5で5、レベル16で6に増加する。</p>"
     },
     "Divine Smite": {
       "name": "信仰の一撃",
@@ -739,7 +739,7 @@
     },
     "Final Doctrine (Warpriest)": {
       "name": "最終教義 (戦神官)",
-      "description": "<p>君の信仰呪文攻撃ロールと呪文DCにおける習熟ランクは伝説へと向上する。</p>"
+      "description": "<p>君の信仰呪文攻撃ロールと呪文DCにおける習熟ランクは達人へと向上する。</p>"
     },
     "Final Gate": {
       "name": "Final Gate",
@@ -807,7 +807,7 @@
     },
     "Fourth Doctrine (Warpriest)": {
       "name": "4つ目の教義 (戦神官)",
-      "description": "<p>君の信仰呪文攻撃ロールと呪文DCにおける習熟ランクは達人へと向上する。</p>"
+      "description": "<p>君の信仰呪文攻撃ロールと呪文DCにおける習熟ランクは熟練へと向上する。</p>"
     },
     "Fourth Gate's Threshold": {
       "name": "Fourth Gate's Threshold",

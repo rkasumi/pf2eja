@@ -49,6 +49,9 @@
         "main.js",
         "register-babele.js"
     ],
+    "styles": [
+        "css/pf2eja.css"
+    ],
     "packs": [
 	     {
          "name": "fr-deities",

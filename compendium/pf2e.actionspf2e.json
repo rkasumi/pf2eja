@@ -226,8 +226,8 @@
       "description": "<p><strong>効果</strong> You hold aloft a free hand and call the firearm or crossbow you chose during your daily preparations into your hand. As long as the weapon you chose is on the same plane, it appears in your hand.</p>"
     },
     "Call on Ancient Blood": {
-      "name": "Call on Ancient Blood",
-      "description": "<p><strong>トリガー</strong> You attempt a saving throw against a magical effect, but you haven't rolled yet</p>\n<hr />\n<p>Your ancestors' innate resistance to magic surges, before slowly ebbing down. You gain a +1 circumstance bonus to the triggering saving throw and until the end of this turn.</p>"
+      "name": "古代の呼び声",
+      "description": "<p><strong>トリガー</strong> 魔法の効果に対してセーヴィング・スローを試みるが、まだロールしていない。</p>\n<hr />\n<p>種族代々の魔法に対する抵抗力が急上昇し、ゆっくりと衰退していく。トリガーのセーヴィング・スローとこのターン終了時までに行うセーヴィング・スローに、君は＋1の状況ボーナスを得る。</p>"
     },
     "Call to Axis": {
       "name": "Call to Axis",
@@ -935,7 +935,7 @@
     },
     "Refocus": {
       "name": "再焦点化",
-      "description": "<p><strong>前提条件</strong> 焦点化プールを持っており、最後に焦点化ポイントを回復してから、少なくとも1点の焦点化ポイントを消費している。</p>\n<hr />\n<p>10分かけて、魔法のつながりを回復するための儀式を行なう。これにより、焦点化プールに1焦点化ポイントを回復する。行なう必要のある儀式は、君に焦点化呪文を与えるクラスや能力の中で規定されている。これらの儀式は、通常、焦点化呪文の源に関連する、他の行為と重複することができる。例えば、善の神格から焦点化呪文を授かったクレリックは、味方の“傷の手当て”をしている間に“再焦点化”できるし、幻術系統のウィザードは、幻術系統の“@UUID[Compendium.pf2e.actionspf2e.Item.eReSHVEPCsdkSL4G]{魔法の識別}”をしている間に“再焦点化”できるだろう。</p>"
+      "description": "<p><strong>前提条件</strong> 焦点化プールを持っており、最後に焦点化ポイントを回復してから、少なくとも1点の焦点化ポイントを消費している。</p>\n<hr />\n<p>10分かけて、魔法のつながりを回復するための儀式を行なう。これにより、焦点化プールに1焦点化ポイントを回復する。行なう必要のある儀式は、君に焦点化呪文を与えるクラスや能力の中で規定されている。これらの儀式は、通常、焦点化呪文の源に関連する、他の行為と重複することができる。例えば、善の神格から焦点化呪文を授かったクレリックは、味方の“傷の手当て”をしている間に“再焦点化”できるし、幻術系統のウィザードは、幻術系統の“@UUID[Compendium.pf2e.actionspf2e.Item.eReSHVEPCsdkSL4G]{魔法の識別}”をしている間に“再焦点化”できるだろう。</p><hr><p><b>Remastered:</b> 前提条件を削除する。(焦点化ポイント消費にかかわらず1ポイント回復する)</p>"
     },
     "Release": {
       "name": "手放す",
