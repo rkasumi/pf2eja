@@ -401,19 +401,19 @@
     "Caligni Dancer": {
         "name": "カリグニの舞手"
     },
-    "Chimera (Black Dragon)": {
+    "Chimera (Black)": {
         "name": "キメラ (ブラック・ドラゴン)"
     },
-    "Chimera (Blue Dragon)": {
+    "Chimera (Blue)": {
         "name": "キメラ (ブルー・ドラゴン)"
     },
-    "Chimera (Green Dragon)": {
+    "Chimera (Green)": {
         "name": "キメラ (グリーン・ドラゴン)"
     },
-    "Chimera (Red Dragon)": {
+    "Chimera (Red)": {
         "name": "キメラ (レッド・ドラゴン)"
     },
-    "Chimera (White Dragon)": {
+    "Chimera (White)": {
         "name": "キメラ (ホワイト・ドラゴン)"
     },
     "Cat": {
@@ -491,97 +491,94 @@
     "Deinosuchus": {
         "name": "ディノスクス"
     },
-    "Chromatic Dragon": {
-        "name": "クロマティック・ドラゴン"
-    },
-    "Adult Green Dragon": {
+    "Green Dragon (Adult)": {
         "name": "アダルト・グリーン・ドラゴン"
     },
-    "Adult Green Dragon (Spellcaster)": {
+    "Green Dragon (Adult, Spellcaster)": {
         "name": "アダルト・グリーン・ドラゴン (術者)"
     },
-    "Ancient Green Dragon": {
+    "Green Dragon (Ancient)": {
         "name": "エインシャント・グリーン・ドラゴン"
     },
-    "Ancient Green Dragon (Spellcaster)": {
+    "Green Dragon (Ancient, Spellcaster)": {
         "name": "エインシャント・グリーン・ドラゴン (術者)"
     },
-    "Young Green Dragon": {
+    "Green Dragon (Young)": {
         "name": "ヤング・グリーン・ドラゴン"
     },
-    "Young Green Dragon (Spellcaster)": {
+    "Green Dragon (Young, Spellcaster)": {
         "name": "ヤング・グリーン・ドラゴン (術者)"
     },
-    "Adult Black Dragon": {
+    "Black Dragon (Adult)": {
         "name": "アダルト・ブラック・ドラゴン"
     },
-    "Adult Black Dragon (Spellcaster)": {
+    "Black Dragon (Adult, Spellcaster)": {
         "name": "アダルト・ブラック・ドラゴン (術者)"
     },
-    "Ancient Black Dragon": {
+    "Black Dragon (Ancient)": {
         "name": "エインシャント・ブラック・ドラゴン"
     },
-    "Ancient Black Dragon (Spellcaster)": {
+    "Black Dragon (Ancient, Spellcaster)": {
         "name": "エインシャント・ブラック・ドラゴン (術者)"
     },
-    "Young Black Dragon": {
+    "Black Dragon (Young)": {
         "name": "ヤング・ブラック・ドラゴン"
     },
-    "Young Black Dragon (Spellcaster)": {
+    "Black Dragon (Young, Spellcaster)": {
         "name": "ヤング・ブラック・ドラゴン (術者)"
     },
-    "Adult Blue Dragon": {
+    "Blue Dragon (Adult)": {
         "name": "アダルト・ブルー・ドラゴン"
     },
-    "Adult Blue Dragon (Spellcaster)": {
+    "Blue Dragon (Adult, Spellcaster)": {
         "name": "アダルト・ブルー・ドラゴン (術者)"
     },
-    "Ancient Blue Dragon": {
+    "Blue Dragon (Ancient)": {
         "name": "エインシャント・ブルー・ドラゴン"
     },
-    "Ancient Blue Dragon (Spellcaster)": {
+    "Blue Dragon (Ancient, Spellcaster)": {
         "name": "エインシャント・ブルー・ドラゴン (術者)"
     },
-    "Young Blue Dragon": {
+    "Blue Dragon (Young)": {
         "name": "ヤング・ブルー・ドラゴン"
     },
-    "Young Blue Dragon (Spellcaster)": {
+    "Blue Dragon (Young, Spellcaster)": {
         "name": "ヤング・ブルー・ドラゴン (術者)"
     },
-    "Adult White Dragon": {
+    "White Dragon (Adult)": {
         "name": "アダルト・ホワイト・ドラゴン"
     },
-    "Adult White Dragon (Spellcaster)": {
+    "White Dragon (Adult, Spellcaster)": {
         "name": "アダルト・ホワイト・ドラゴン (術者)"
     },
-    "Ancient White Dragon": {
+    "White Dragon (Ancient)": {
         "name": "エインシャント・ホワイト・ドラゴン"
     },
-    "Ancient White Dragon (Spellcaster)": {
+    "White Dragon (Ancient, Spellcaster)": {
         "name": "エインシャント・ホワイト・ドラゴン (術者)"
     },
-    "Young White Dragon": {
+    "White Dragon (Young)": {
         "name": "ヤング・ホワイト・ドラゴン"
     },
-    "Young White Dragon (Spellcaster)": {
+    "White Dragon (Young, Spellcaster)": {
         "name": "ヤング・ホワイト・ドラゴン (術者)"
     },
-    "Adult Red Dragon": {
+    "Red Dragon (Adult)": {
         "name": "アダルト・レッド・ドラゴン"
     },
-    "Adult Red Dragon (Spellcaster)": {
+    "Red Dragon (Adult, Spellcaster)": {
         "name": "アダルト・レッド・ドラゴン (術者)"
     },
-    "Ancient Red Dragon": {
+    "Red Dragon (Ancient)": {
         "name": "エインシャント・レッド・ドラゴン"
     },
-    "Ancient Red Dragon (Spellcaster)": {
+    "Red Dragon (Ancient, Spellcaster)": {
         "name": "エインシャント・レッド・ドラゴン (術者)"
     },
-    "Young Red Dragon": {
+    "Red Dragon (Young)": {
         "name": "ヤング・レッド・ドラゴン"
     },
-    "Young Red Dragon (Spellcaster)": {
+    "Red Dragon (Young, Spellcaster)": {
         "name": "ヤング・レッド・ドラゴン (術者)"
     },
     "Cave Worm": {
@@ -668,19 +665,19 @@
     "Kobold Scout": {
         "name": "コボルドの斥候"
     },
-    "Black Kobold Dragon Mage": {
+    "Kobold Dragon Mage (Black)": {
         "name": "コボルドの竜術師"
     },
-    "Blue Kobold Dragon Mage": {
+    "Kobold Dragon Mage (Blue)": {
         "name": "コボルドの竜術師"
     },
-    "Green Kobold Dragon Mage": {
+    "Kobold Dragon Mage (Green)": {
         "name": "コボルドの竜術師"
     },
-    "Red Kobold Dragon Mage": {
+    "Kobold Dragon Mage (Red)": {
         "name": "コボルドの竜術師"
     },
-    "White Kobold Dragon Mage": {
+    "Kobold Dragon Mage (White)": {
         "name": "コボルドの竜術師"
     },
     "Cyclops": {
@@ -1490,100 +1487,94 @@
     "Mu Spore": {
         "name": "ミュー・スポア"
     },
-    "Metalic Dragon": {
-        "name": "メタリック・ドラゴン"
-    },
-    "Copper Dragon": {
-        "name": "カッパー・ドラゴン"
-    },
-    "Adult Copper Dragon": {
+    "Copper Dragon (Adult)": {
         "name": "アダルト・カッパー・ドラゴン"
     },
-    "Adult Copper Dragon (Spellcaster)": {
+    "Copper Dragon (Adult, Spellcaster)": {
         "name": "アダルト・カッパー・ドラゴン (術者)"
     },
-    "Ancient Copper Dragon": {
+    "Copper Dragon (Ancient)": {
         "name": "エインシャント・カッパー・ドラゴン"
     },
-    "Ancient Copper Dragon (Spellcaster)": {
+    "Copper Dragon (Ancient, Spellcaster)": {
         "name": "エインシャント・カッパー・ドラゴン (術者)"
     },
-    "Young Copper Dragon": {
+    "Copper Dragon (Young)": {
         "name": "ヤング・カッパー・ドラゴン"
     },
-    "Young Copper Dragon (Spellcaster)": {
+    "Copper Dragon (Young, Spellcaster)": {
         "name": "ヤング・カッパー・ドラゴン (術者)"
     },
-    "Adult Gold Dragon": {
+    "Gold Dragon (Adult)": {
         "name": "アダルト・ゴールド・ドラゴン"
     },
-    "Adult Gold Dragon (Spellcaster)": {
+    "Gold Dragon (Adult, Spellcaster)": {
         "name": "アダルト・ゴールド・ドラゴン (術者)"
     },
-    "Ancient Gold Dragon": {
+    "Gold Dragon (Ancient)": {
         "name": "エインシャント・ゴールド・ドラゴン"
     },
-    "Ancient Gold Dragon (Spellcaster)": {
+    "Gold Dragon (Ancient, Spellcaster)": {
         "name": "エインシャント・ゴールド・ドラゴン (術者)"
     },
-    "Young Gold Dragon": {
+    "Gold Dragon (Young)": {
         "name": "ヤング・ゴールド・ドラゴン"
     },
-    "Young Gold Dragon (Spellcaster)": {
+    "Gold Dragon (Young, Spellcaster)": {
         "name": "ヤング・ゴールド・ドラゴン (術者)"
     },
-    "Adult Silver Dragon": {
+    "Silver Dragon (Adult)": {
         "name": "アダルト・シルヴァー・ドラゴン"
     },
-    "Adult Silver Dragon (Spellcaster)": {
+    "Silver Dragon (Adult, Spellcaster)": {
         "name": "アダルト・シルヴァー・ドラゴン (術者)"
     },
-    "Ancient Silver Dragon": {
+    "Silver Dragon (Ancient)": {
         "name": "エインシャント・シルヴァー・ドラゴン"
     },
-    "Ancient Silver Dragon (Spellcaster)": {
+    "Silver Dragon (Ancient, Spellcaster)": {
         "name": "エインシャント・シルヴァー・ドラゴン (術者)"
     },
-    "Young Silver Dragon": {
+    "Silver Dragon (Young)": {
         "name": "ヤング・シルヴァー・ドラゴン"
     },
-    "Young Silver Dragon (Spellcaster)": {
+    "Silver Dragon (Young, Spellcaster)": {
         "name": "ヤング・シルヴァー・ドラゴン (術者)"
     },
-    "Adult Brass Dragon": {
+    "Brass Dragon (Adult)": {
         "name": "アダルト・ブラス・ドラゴン"
     },
-    "Adult Brass Dragon (Spellcaster)": {
+    "Brass Dragon (Adult, Spellcaster)": {
         "name": "アダルト・ブラス・ドラゴン (術者)"
     },
-    "Ancient Brass Dragon": {
+    "Brass Dragon (Ancient)": {
         "name": "エインシャント・ブラス・ドラゴン"
     },
-    "Ancient Brass Dragon (Spellcaster)": {
+    "Brass Dragon (Ancient, Spellcaster)": {
         "name": "エインシャント・ブラス・ドラゴン (術者)"
     },
-    "Young Brass Dragon": {
+    "Brass Dragon (Young)": {
         "name": "ヤング・ブラス・ドラゴン"
     },
-    "Young Brass Dragon (Spellcaster)": {
+    "Brass Dragon (Young, Spellcaster)": {
         "name": "ヤング・ブラス・ドラゴン (術者)"
     },
-    "Adult Bronze Dragon": {
+    "Bronze Dragon (Adult)": {
         "name": "アダルト・ブロンズ・ドラゴン"
     },
-    "Adult Bronze Dragon (Spellcaster)": {
+    "Bronze Dragon (Adult, Spellcaster)": {
         "name": "アダルト・ブロンズ・ドラゴン (術者)"
     },
-    "Ancient Bronze Dragon": {
+    "Bronze Dragon (Ancient)": {
         "name": "エインシャント・ブロンズ・ドラゴン"
     },
-    "Ancient Bronze Dragon (Spellcaster)": {
+    "Bronze Dragon (Ancient, Spellcaster)": {
         "name": "エインシャント・ブロンズ・ドラゴン (術者)"
     },
-    "Young Bronze Dragon": {
+    "Bronze Dragon (Young)": {
         "name": "ヤング・ブロンズ・ドラゴン"
     },
-    "Young Bronze Dragon (Spellcaster)": {
+    "Bronze Dragon (Young, Spellcaster)": {
         "name": "ヤング・ブロンズ・ドラゴン (術者)"
     },
     "Medusa": {

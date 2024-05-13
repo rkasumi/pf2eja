@@ -13,7 +13,7 @@
     "Nudge Fate": {
       "range": "30 ﾌｨｰﾄ",
       "target": "クリーチャー1体",
-      "description": "<p><b>守護者の主題</b> fate</p>\n<p>術者は未来をかすかに読み解き、望む結果を得るために運命をちょっとだけ押しやる。持続時間の間に1回だけ、目標が攻撃ロール、技能判定、セーヴィング・スローのいずれかに失敗し、＋1の状態ボーナスによって大失敗が失敗に、あるいは失敗が成功になるとき、術者は目標の判定に＋1の状態ボーナスを遡及的に適用し、結果を適切に変更する。その後呪文は終了し、目標は1分間一時的耐性を得る。</p>\n<p>以前に発動したこの呪術が効果を発揮している間にナッジ・フェイトを発動すると、以前の効果は終了する。</p>",
+      "description": "<p><b>守護者の主題</b> fate</p>\n<p>術者は未来をかすかに読み解き、望む結果を得るために運命をちょっとだけ押しやる。持続時間の間に1回だけ、目標が攻撃ロール、技能判定、セーヴィング・スローのいずれかに失敗し、＋1のステータスボーナスによって大失敗が失敗に、あるいは失敗が成功になるとき、術者は目標の判定に＋1のステータスボーナスを遡及的に適用し、結果を適切に変更する。その後呪文は終了し、目標は1分間一時的耐性を得る。</p>\n<p>以前に発動したこの呪術が効果を発揮している間にナッジ・フェイトを発動すると、以前の効果は終了する。</p>",
       "duration": "1分",
       "name": "ナッジ・フェイト",
       "time": "1"
@@ -85,12 +85,12 @@
       "name": "ウェブ",
       "range": "30 ﾌｨｰﾄ",
       "duration": "1分",
-      "description": "<p>術者は効果範囲に粘着性のある蜘蛛の糸を張り、クリーチャーがそれを通って移動しようとするたびに移動を妨害する。蜘蛛の糸で埋め尽くされたマスは移動困難地形となる。5以上の［斬撃］ダメージか1以上の［火炎］ダメージを与える1回の攻撃か効果によって、マス1つの蜘蛛の糸を取り除くことができる。マスのACは5であり、自動的にセーヴィング・スローに失敗する。</p>\n<p>蜘蛛の糸の中にいるクリーチャーが移動アクションを開始するか移動アクションで蜘蛛の糸のの中に入るかするたびに、クリーチャーは移動速度に状況ペナルティを受けたり、@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{動けない状態}になるかどうかを判断するために、呪文DCに対して〈運動〉判定あるいは反応セーヴを試みなければならない。蜘蛛の糸から出てきたクリーチャーは、その蜘蛛の糸による移動速度への状態ペナルティを受けなくなる。</p>\n<p><b>大成功</b> クリーチャーは影響を受けず、そのターンの間、蜘蛛の糸に対してさらに〈運動〉判定あるいはセーヴィング・スローを試みる必要はない。〈運動〉判定を行った場合、そのマスから離れた後、通過したマスから蜘蛛の糸を取り除く。</p>\n<p><b>成功</b> クリーチャーはそのアクションの間効果を受けない。。〈運動〉判定を行った場合、そのマスから離れた後、通過したマスから蜘蛛の糸を取り除く。</p>\n<p><b>失敗</b> クリーチャーは次のターンの開始時まで、移動速度に－10フィートの状況ペナルティを受ける。</p>\n<p><b>大失敗</b> クリーチャーは次のターンの開始時まで@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{動けない状態}になる。その後1ラウンドの間、クリーチャーは移動速度に－10フィートの状態ペナルティを受ける。@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{動けない状態}から逃れるために“脱出”を試みることができる。</p><hr><p><b>高レベル化（4レベル）</b> 呪文の範囲は20フィートの爆発に増加し、射程は60フィートに伸びる。</p>\n",
+      "description": "<p>術者は効果範囲に粘着性のある蜘蛛の糸を張り、クリーチャーがそれを通って移動しようとするたびに移動を妨害する。蜘蛛の糸で埋め尽くされたマスは移動困難地形となる。5以上の［斬撃］ダメージか1以上の［火炎］ダメージを与える1回の攻撃か効果によって、マス1つの蜘蛛の糸を取り除くことができる。マスのACは5であり、自動的にセーヴィング・スローに失敗する。</p>\n<p>蜘蛛の糸の中にいるクリーチャーが移動アクションを開始するか移動アクションで蜘蛛の糸のの中に入るかするたびに、クリーチャーは移動速度に状況ペナルティを受けたり、@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{動けない状態}になるかどうかを判断するために、呪文DCに対して〈運動〉判定あるいは反応セーヴを試みなければならない。蜘蛛の糸から出てきたクリーチャーは、その蜘蛛の糸による移動速度へのステータスペナルティを受けなくなる。</p>\n<p><b>大成功</b> クリーチャーは影響を受けず、そのターンの間、蜘蛛の糸に対してさらに〈運動〉判定あるいはセーヴィング・スローを試みる必要はない。〈運動〉判定を行った場合、そのマスから離れた後、通過したマスから蜘蛛の糸を取り除く。</p>\n<p><b>成功</b> クリーチャーはそのアクションの間効果を受けない。。〈運動〉判定を行った場合、そのマスから離れた後、通過したマスから蜘蛛の糸を取り除く。</p>\n<p><b>失敗</b> クリーチャーは次のターンの開始時まで、移動速度に－10フィートの状況ペナルティを受ける。</p>\n<p><b>大失敗</b> クリーチャーは次のターンの開始時まで@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{動けない状態}になる。その後1ラウンドの間、クリーチャーは移動速度に－10フィートのステータスペナルティを受ける。@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{動けない状態}から逃れるために“脱出”を試みることができる。</p><hr><p><b>高レベル化（4レベル）</b> 呪文の範囲は20フィートの爆発に増加し、射程は60フィートに伸びる。</p>\n",
       "time": "3"
     },
     "Foresight": {
       "name": "フォアサイト",
-      "description": "<p>術者は呪文の目標に降りかかる可能性のある危険を警告する第六感を得る。自分以外のクリーチャーを目標に選んだ場合、念動力のリンクを作り、術者はそれを用いて目標の危険を知らせることができる。このリンクは精神効果である。この呪文が必要とする情報量のために、術者は一度に複数の@UUID[Compendium.pf2e.actionspf2e.Item.VOEWhPQfN3lvHivK]{フォアサイト}呪文を有効にしておくことはできない。@UUID[Compendium.pf2e.actionspf2e.Item.VOEWhPQfN3lvHivK]{フォアサイト}を2回発動すると、直前の@UUID[Compendium.pf2e.actionspf2e.Item.VOEWhPQfN3lvHivK]{フォアサイト}は終了する。@UUID[Compendium.pf2e.actionspf2e.Item.VOEWhPQfN3lvHivK]{フォアサイト}が効果を発している間、目標はイニシアチブ・ロールに＋2の状態ボーナスを得るとともに、@UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{未探知状態}のクリーチャーに対しても挟撃を受けていても@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{立ちすくみ状態}にはならなくなる。加えて、術者は以下のリアクションを得る。</p><p>@UUID[Compendium.pf2e.spell-effects.Item.X9Na6IK8FSPcTuoc]</p>",
+      "description": "<p>術者は呪文の目標に降りかかる可能性のある危険を警告する第六感を得る。自分以外のクリーチャーを目標に選んだ場合、念動力のリンクを作り、術者はそれを用いて目標の危険を知らせることができる。このリンクは精神効果である。この呪文が必要とする情報量のために、術者は一度に複数の@UUID[Compendium.pf2e.actionspf2e.Item.VOEWhPQfN3lvHivK]{フォアサイト}呪文を有効にしておくことはできない。@UUID[Compendium.pf2e.actionspf2e.Item.VOEWhPQfN3lvHivK]{フォアサイト}を2回発動すると、直前の@UUID[Compendium.pf2e.actionspf2e.Item.VOEWhPQfN3lvHivK]{フォアサイト}は終了する。@UUID[Compendium.pf2e.actionspf2e.Item.VOEWhPQfN3lvHivK]{フォアサイト}が効果を発している間、目標はイニシアチブ・ロールに＋2のステータスボーナスを得るとともに、@UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{未探知状態}のクリーチャーに対しても挟撃を受けていても@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{立ちすくみ状態}にはならなくなる。加えて、術者は以下のリアクションを得る。</p><p>@UUID[Compendium.pf2e.spell-effects.Item.X9Na6IK8FSPcTuoc]</p>",
       "duration": "1時間",
       "range": "接触",
       "target": "クリーチャー1体",
@@ -108,7 +108,7 @@
       "name": "ブラッド・ウォード",
       "target": "クリーチャー1体",
       "range": "30 ﾌｨｰﾄ",
-      "description": "<p><b>訓戒</b> 守護の訓戒</p><p><b>持続時間</b> 維持、1分まで</p>\n<p>術者は特定の種類の敵による攻撃からクリーチャーを守るために、身振りで防護エネルギーを強化する。異形、動物、魔獣、セレスチャル、人造、竜、エレメンタル、フェイ、フィーンド、菌類、監視者、粘体、植物、アンデッドのクリーチャー種別から1つを指定する。目標はその特性を持つクリーチャーに対するセーヴィング・スローとACに＋1の状態ボーナスを得る。目標は10分の間一時的耐性を得る。</p><hr><p><b>高レベル化（5レベル）</b> 状態ボーナスは＋2に増加する。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.aDOL3OAEWf3ka9oT]</p>",
+      "description": "<p><b>訓戒</b> 守護の訓戒</p><p><b>持続時間</b> 維持、1分まで</p>\n<p>術者は特定の種類の敵による攻撃からクリーチャーを守るために、身振りで防護エネルギーを強化する。異形、動物、魔獣、セレスチャル、人造、竜、エレメンタル、フェイ、フィーンド、菌類、監視者、粘体、植物、アンデッドのクリーチャー種別から1つを指定する。目標はその特性を持つクリーチャーに対するセーヴィング・スローとACに＋1のステータスボーナスを得る。目標は10分の間一時的耐性を得る。</p><hr><p><b>高レベル化（5レベル）</b> ステータスボーナスは＋2に増加する。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.aDOL3OAEWf3ka9oT]</p>",
       "duration": "1分",
       "time": "1"
     },
@@ -367,13 +367,13 @@
     },
     "Shifting Form": {
       "name": "シフティング・フォーム",
-      "description": "\n<p>術者は以下に示す能力のいずれか1つを得る。術者はこの呪文を解除できる。</p>\n<li>術者は移動速度に20フィートの状態ボーナスを得る。</li>\n<li>術者は移動速度の半分に等しい水泳移動速度を得る。</li>\n<li>術者は暗視を得る。</li>\n<li>術者は一対の爪を得る。これらは1d8の［斬撃］ダメージを与え、機敏特性と巧技特性を持つ素手攻撃である。</li>\n<li>術者は鋭敏嗅覚60フィート（不明瞭）を得る。</li>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.j6po934p4jcUVC6l]</p><p>@UUID[Compendium.pf2e.spell-effects.Item.nbW4udOUTrCGL3Gf]</p><p>@UUID[Compendium.pf2e.spell-effects.Item.Um25D1qLtZWOSBny]</p><p>@UUID[Compendium.pf2e.spell-effects.Item.A48jNUOAmCljx8Ru]</p><p>@UUID[Compendium.pf2e.spell-effects.Item.14AFzcwkN019dzcl]</p><p>@UUID[Compendium.pf2e.spell-effects.Item.byXkHIKFwuKrZ55M]</p>",
+      "description": "\n<p>術者は以下に示す能力のいずれか1つを得る。術者はこの呪文を解除できる。</p>\n<li>術者は移動速度に20フィートのステータスボーナスを得る。</li>\n<li>術者は移動速度の半分に等しい水泳移動速度を得る。</li>\n<li>術者は暗視を得る。</li>\n<li>術者は一対の爪を得る。これらは1d8の［斬撃］ダメージを与え、機敏特性と巧技特性を持つ素手攻撃である。</li>\n<li>術者は鋭敏嗅覚60フィート（不明瞭）を得る。</li>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.j6po934p4jcUVC6l]</p><p>@UUID[Compendium.pf2e.spell-effects.Item.nbW4udOUTrCGL3Gf]</p><p>@UUID[Compendium.pf2e.spell-effects.Item.Um25D1qLtZWOSBny]</p><p>@UUID[Compendium.pf2e.spell-effects.Item.A48jNUOAmCljx8Ru]</p><p>@UUID[Compendium.pf2e.spell-effects.Item.14AFzcwkN019dzcl]</p><p>@UUID[Compendium.pf2e.spell-effects.Item.byXkHIKFwuKrZ55M]</p>",
       "duration": "1分",
       "time": "1"
     },
     "Sleep": {
       "name": "スリープ",
-      "description": "<p>その範囲にいる各クリーチャーは眠気を催し、眠ってしまう可能性がある。この呪文によって@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{気絶状態}になったクリーチャーは、@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{伏せ状態}になることも、保持しているものを放すこともない。この呪文は知覚判定に成功したクリーチャーが目を覚ますのを防ぐことはできないため、戦闘における効果は限定的だ。</p>\n<p><b>大成功</b> クリーチャーはなんの効果も受けない。</p>\n<p><b>成功</b> クリーチャーは1ラウンドの間、知覚判定に－1の状態ペナルティを受ける。</p>\n<p><b>失敗</b> クリーチャーは@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{気絶状態}になる。1分後に@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{気絶状態}のままなら、クリーチャーは自動的に目覚める。</p>\n<p><b>大失敗</b> クリーチャーは@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{気絶状態}になる。1時間後に@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{気絶状態}のままなら、クリーチャーは自動的に目覚める。</p><hr><p><b>高レベル化（4レベル）</b> クリーチャーは失敗した場合には1ラウンド、大失敗した場合には1時間@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{気絶状態}になる。このクリーチャーは倒れて@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{伏せ状態}になり、保持しているものを落とし、目覚めるために知覚判定を試みることはできない。持続時間が終了すると、クリーチャーは自動的に目覚める代わりに通常の睡眠となる。</p>\n",
+      "description": "<p>その範囲にいる各クリーチャーは眠気を催し、眠ってしまう可能性がある。この呪文によって@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{気絶状態}になったクリーチャーは、@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{伏せ状態}になることも、保持しているものを放すこともない。この呪文は知覚判定に成功したクリーチャーが目を覚ますのを防ぐことはできないため、戦闘における効果は限定的だ。</p>\n<p><b>大成功</b> クリーチャーはなんの効果も受けない。</p>\n<p><b>成功</b> クリーチャーは1ラウンドの間、知覚判定に－1のステータスペナルティを受ける。</p>\n<p><b>失敗</b> クリーチャーは@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{気絶状態}になる。1分後に@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{気絶状態}のままなら、クリーチャーは自動的に目覚める。</p>\n<p><b>大失敗</b> クリーチャーは@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{気絶状態}になる。1時間後に@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{気絶状態}のままなら、クリーチャーは自動的に目覚める。</p><hr><p><b>高レベル化（4レベル）</b> クリーチャーは失敗した場合には1ラウンド、大失敗した場合には1時間@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{気絶状態}になる。このクリーチャーは倒れて@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{伏せ状態}になり、保持しているものを落とし、目覚めるために知覚判定を試みることはできない。持続時間が終了すると、クリーチャーは自動的に目覚める代わりに通常の睡眠となる。</p>\n",
       "range": "30 ﾌｨｰﾄ",
       "time": "2"
     },
@@ -394,7 +394,7 @@
       "name": "リザレクト",
       "range": "10 ﾌｨｰﾄ",
       "target": "10レベル以下の死亡したクリーチャー1体",
-      "description": "<p>協会メモ すべてのクリーチャーはリザレクトを使用できる</p><p>目標の霊を呼び出し、その肉体に戻そうとする。そのためには目標の肉体が存在し、比較的無傷でなければならない。また、目標は過去1年以内に死亡していなければならない。ファラズマが目標の寿命が来たと判断した場合や、目標が蘇生を望まない場合、この儀式は自動的に失敗するが、〈宗教〉判定に成功した後にその事に気づき、コストを支払うこと無く儀式を終了させることができる。</p><p><b>大成功</b> 目標を蘇生させる。目標はヒット・ポイント全てと、死亡時と同じ呪文の準備とプールのポイントを持って蘇生するが、古い体の長期的な衰弱に苦しんでいる。目標は復活の際に神格の代理人に出会い、鼓舞される。それにより、一週間の間、攻撃ロール、知覚、セーヴィング・スロー、技能判定に＋1の状態ボーナスを得る。また、目標は死後の世界で過ごした時間のために、何らかの恒久的な変化を受ける。それは例えば、性格が少し変わったり、髪に白い筋が入ったり、奇妙で新しいあざができたりといったものだ。</p>\n<p><b>成功</b> 大成功と同様だが、目標はヒット・ポイント1で、準備していた呪文もプールのポイントもない状態で蘇生し、古い体の長期的な衰弱に苦しんでいる。このキャラクターはボーンヤードでの生活によって、奮起する代わりに一時的に衰弱している。目標は一週間の間、@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{よたつき状態1}、@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{吸精状態1}、@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{虚弱状態}1になる。これらの状態は、一週間がすぎるまでいかなる手段でも取り除いたり軽減したりすることはできない。</p>\n<p><b>失敗</b> 試みは失敗する。</p>\n<p><b>大失敗</b> 何らかの恐ろしい自体が発生する――悪霊が目標の身体にとりついたり、身体が特殊なアンデッドに変化したり、あるいはもっと悪い運命が目標に降りかかるなど。</p>\n<hr><p><b>高レベル化（6レベル）</b> 12レベルまでの目標を蘇生できる。基本コストは125gp。</p>\n<p><b>高レベル化（7レベル）</b> 身体の小さな一部だけでも蘇生できる。儀式は成功ないし大成功により新しい肉体を作り出す。目標は過去10年以内に死亡していなければならない。この儀式には副次術者が4人必要で、各術者は目標のレベルの半分以上のレベルでなければならない。14レベルまでの目標を蘇生できる。基本コストは200gp。</p>\n<p><b>高レベル化（8レベル）</b> 7レベルと同様だが、16レベルまでの目標を蘇生できる。基本コストは300gp。</p>\n<p><b>高レベル化（9レベル）</b> 主要術者が目標の名前を知っており、どこかの時点でその体の一部に触れたことがあれば、身体がなくても蘇生できる。目標は過去100年以内に死亡していなければならない。成功しても不利益を与える状態を受けることはない。この儀式には副次術者が8人必要で、各術者は目標のレベルの半分以上のレベルでなければならない。18レベルまでの目標を蘇生できる。基本コストは600gp。</p>\n<p><b>高レベル化（10レベル）</b> 9レベルと同様だが、死亡した時期に制限はない。この儀式には副次術者が16人必要で、各術者は目標のレベルの半分以上のレベルでなければならない。20レベルまでの目標を蘇生できる。基本コストは1,000gp。</p>\n<p>@UUID[Compendium.pf2e.deities.Item.QZD0u1jxwz0kj8uI]</p>",
+      "description": "<p>協会メモ すべてのクリーチャーはリザレクトを使用できる</p><p>目標の霊を呼び出し、その肉体に戻そうとする。そのためには目標の肉体が存在し、比較的無傷でなければならない。また、目標は過去1年以内に死亡していなければならない。ファラズマが目標の寿命が来たと判断した場合や、目標が蘇生を望まない場合、この儀式は自動的に失敗するが、〈宗教〉判定に成功した後にその事に気づき、コストを支払うこと無く儀式を終了させることができる。</p><p><b>大成功</b> 目標を蘇生させる。目標はヒット・ポイント全てと、死亡時と同じ呪文の準備とプールのポイントを持って蘇生するが、古い体の長期的な衰弱に苦しんでいる。目標は復活の際に神格の代理人に出会い、鼓舞される。それにより、一週間の間、攻撃ロール、知覚、セーヴィング・スロー、技能判定に＋1のステータスボーナスを得る。また、目標は死後の世界で過ごした時間のために、何らかの恒久的な変化を受ける。それは例えば、性格が少し変わったり、髪に白い筋が入ったり、奇妙で新しいあざができたりといったものだ。</p>\n<p><b>成功</b> 大成功と同様だが、目標はヒット・ポイント1で、準備していた呪文もプールのポイントもない状態で蘇生し、古い体の長期的な衰弱に苦しんでいる。このキャラクターはボーンヤードでの生活によって、奮起する代わりに一時的に衰弱している。目標は一週間の間、@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{よたつき状態1}、@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{吸精状態1}、@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{虚弱状態}1になる。これらの状態は、一週間がすぎるまでいかなる手段でも取り除いたり軽減したりすることはできない。</p>\n<p><b>失敗</b> 試みは失敗する。</p>\n<p><b>大失敗</b> 何らかの恐ろしい自体が発生する――悪霊が目標の身体にとりついたり、身体が特殊なアンデッドに変化したり、あるいはもっと悪い運命が目標に降りかかるなど。</p>\n<hr><p><b>高レベル化（6レベル）</b> 12レベルまでの目標を蘇生できる。基本コストは125gp。</p>\n<p><b>高レベル化（7レベル）</b> 身体の小さな一部だけでも蘇生できる。儀式は成功ないし大成功により新しい肉体を作り出す。目標は過去10年以内に死亡していなければならない。この儀式には副次術者が4人必要で、各術者は目標のレベルの半分以上のレベルでなければならない。14レベルまでの目標を蘇生できる。基本コストは200gp。</p>\n<p><b>高レベル化（8レベル）</b> 7レベルと同様だが、16レベルまでの目標を蘇生できる。基本コストは300gp。</p>\n<p><b>高レベル化（9レベル）</b> 主要術者が目標の名前を知っており、どこかの時点でその体の一部に触れたことがあれば、身体がなくても蘇生できる。目標は過去100年以内に死亡していなければならない。成功しても不利益を与える状態を受けることはない。この儀式には副次術者が8人必要で、各術者は目標のレベルの半分以上のレベルでなければならない。18レベルまでの目標を蘇生できる。基本コストは600gp。</p>\n<p><b>高レベル化（10レベル）</b> 9レベルと同様だが、死亡した時期に制限はない。この儀式には副次術者が16人必要で、各術者は目標のレベルの半分以上のレベルでなければならない。20レベルまでの目標を蘇生できる。基本コストは1,000gp。</p>\n<p>@UUID[Compendium.pf2e.deities.Item.QZD0u1jxwz0kj8uI]</p>",
       "time": "1日",
       "cost": "合計で75gp×目標のレベルに等しい価値を持つダイヤモンド",
       "ritual_primary": "〈宗教〉（熟練）",
@@ -404,7 +404,7 @@
       "name": "テンプト・フェイト",
       "range": "120 ﾌｨｰﾄ",
       "target": "トリガーとなったクリーチャー",
-      "description": "<p><b>領域</b> 運命</p><p><b>トリガー</b> 術者もしくは距離内にいる味方1人がセーヴィング・スローを試みる。</p>\n<p>術者は運命の力を捻じ曲げて、中間ではなく悲惨な瞬間あるいは何事もなかった瞬間を生み出す。目標はトリガーとなったセーヴィング・スローに＋1の状態ボーナスを得る。セーヴィング・スローの結果が成功の場合、大成功となる。失敗の場合は大失敗となる。このセーヴにおける大失敗は身かわし強化など、通常なら大失敗を軽減できる能力によって軽減できない。</p>\n<p>トリガーとなった能力が大成功と大失敗の両方の条件を持たない場合、テンプト・フェイトは失敗する。このとき、この呪文を“呪文発動”するための焦点化ポイントは消費されない。</p>\n<hr><p><b>高レベル化（8レベル）</b> セーヴィング・スローへのボーナスは＋2となる。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.AJkRUIdYLnt4QOOg]</p>",
+      "description": "<p><b>領域</b> 運命</p><p><b>トリガー</b> 術者もしくは距離内にいる味方1人がセーヴィング・スローを試みる。</p>\n<p>術者は運命の力を捻じ曲げて、中間ではなく悲惨な瞬間あるいは何事もなかった瞬間を生み出す。目標はトリガーとなったセーヴィング・スローに＋1のステータスボーナスを得る。セーヴィング・スローの結果が成功の場合、大成功となる。失敗の場合は大失敗となる。このセーヴにおける大失敗は身かわし強化など、通常なら大失敗を軽減できる能力によって軽減できない。</p>\n<p>トリガーとなった能力が大成功と大失敗の両方の条件を持たない場合、テンプト・フェイトは失敗する。このとき、この呪文を“呪文発動”するための焦点化ポイントは消費されない。</p>\n<hr><p><b>高レベル化（8レベル）</b> セーヴィング・スローへのボーナスは＋2となる。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.AJkRUIdYLnt4QOOg]</p>",
       "time": "reaction"
     },
     "Ki Rush": {
@@ -414,7 +414,7 @@
     },
     "Wish-Twisted Form": {
       "name": "ウィッシュツイステッド・フォーム",
-      "description": "<p><b>血脈</b> ジンニー</p>\n<p>術者は敵に魔法を集中させ、防御の失敗を願ってその力を弱点へと変える。目標は以下の効果全てに対して石セーヴィング・スローを1回試みなければならない。</p>\n<li> 目標は術者の選択したエネルギー種別1つに対する弱点5を得る。</li>\n<li> 目標の抵抗全ては5だけ減少する。</li>\n<li> 目標はすべての移動速度に対して－10フィートの状態ペナルティを受ける。</li>\n<li> 目標はセーヴィング・スローに－1の状態ペナルティを受ける。</li>\n<p><b>大成功</b> 目標はなんの効果も受けない。</p><p><b>成功</b> 目標は1ラウンドの間これらのペナルティを受ける。</p><p><b>失敗</b> 目標は1分の間これらのペナルティを受ける。</p><p><b>大失敗</b> 失敗と同様。加えて、目標は持続時間の間、ACに－1の状態ペナルティを受ける。</p><hr><p><b>高レベル化（＋1）</b> 弱点の値および抵抗の減少量は1ずつ増加する。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.qzZmVjtc9feqoQwA]</p><p>@UUID[Compendium.pf2e.spell-effects.Item.bBD7HFzBPlSxYrtW]</p>",
+      "description": "<p><b>血脈</b> ジンニー</p>\n<p>術者は敵に魔法を集中させ、防御の失敗を願ってその力を弱点へと変える。目標は以下の効果全てに対して石セーヴィング・スローを1回試みなければならない。</p>\n<li> 目標は術者の選択したエネルギー種別1つに対する弱点5を得る。</li>\n<li> 目標の抵抗全ては5だけ減少する。</li>\n<li> 目標はすべての移動速度に対して－10フィートのステータスペナルティを受ける。</li>\n<li> 目標はセーヴィング・スローに－1のステータスペナルティを受ける。</li>\n<p><b>大成功</b> 目標はなんの効果も受けない。</p><p><b>成功</b> 目標は1ラウンドの間これらのペナルティを受ける。</p><p><b>失敗</b> 目標は1分の間これらのペナルティを受ける。</p><p><b>大失敗</b> 失敗と同様。加えて、目標は持続時間の間、ACに－1のステータスペナルティを受ける。</p><hr><p><b>高レベル化（＋1）</b> 弱点の値および抵抗の減少量は1ずつ増加する。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.qzZmVjtc9feqoQwA]</p><p>@UUID[Compendium.pf2e.spell-effects.Item.bBD7HFzBPlSxYrtW]</p>",
       "duration": "さまざま",
       "target": "クリーチャー1体",
       "range": "60 ﾌｨｰﾄ",
@@ -439,7 +439,7 @@
       "range": "接触",
       "target": "生きているクリーチャー1体",
       "duration": "目標の次のターンの終了まで",
-      "description": "\n<p>術者は目標の体格を一時的に向上させる。目標は次に行う〈軽業〉判定、〈運動〉判定、頑健セーヴ、反応セーヴのいずれか1つに対して＋2の状態ボーナスを得る。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.XT3AyRfx4xeXfAjP]</p>",
+      "description": "\n<p>術者は目標の体格を一時的に向上させる。目標は次に行う〈軽業〉判定、〈運動〉判定、頑健セーヴ、反応セーヴのいずれか1つに対して＋2のステータスボーナスを得る。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.XT3AyRfx4xeXfAjP]</p>",
       "name": "フィジカル・ブースト",
       "time": "1"
     },
@@ -469,7 +469,7 @@
     },
     "Mind Blank": {
       "name": "マインド・ブランク",
-      "description": "<p>強力な結界が占術魔法からクリーチャーを覆い隠す。目標は精神効果に対するセーヴに＋4の状態ボーナスを得る。</p>\n<p>マインド・ブランクはそのレベルが実際のレベルより1レベル高いものとして、全ての探知、暴露、念視効果の無効化を試みる。成功すると、その占術効果は通常通り機能するが、目標とその所有物は感知されない。例えば、ディテクト・マジックは範囲内の他の魔法を感知するが、目標にかけられた魔法は感知しない。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.DBaMtFHRPEg1JeLs]</p>",
+      "description": "<p>強力な結界が占術魔法からクリーチャーを覆い隠す。目標は精神効果に対するセーヴに＋4のステータスボーナスを得る。</p>\n<p>マインド・ブランクはそのレベルが実際のレベルより1レベル高いものとして、全ての探知、暴露、念視効果の無効化を試みる。成功すると、その占術効果は通常通り機能するが、目標とその所有物は感知されない。例えば、ディテクト・マジックは範囲内の他の魔法を感知するが、目標にかけられた魔法は感知しない。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.DBaMtFHRPEg1JeLs]</p>",
       "duration": "次に日毎の準備を行うまで",
       "range": "30 ﾌｨｰﾄ",
       "target": "クリーチャー1体",
@@ -489,7 +489,7 @@
     },
     "Dragon Form": {
       "duration": "1分",
-      "description": "<p>術者は強力な変身魔法により、大型の竜の戦闘形態を獲得する。術者には拡大できる空間がなければならず、さもなければこの呪文は失われる。この呪文を発動するとき、クロマティック・ドラゴンかメタリック・ドラゴンから1種類を選ぶ。この形態にいる間、術者は竜の特性を得る。従者はこの戦闘形態で手を持っており、操作アクションを行える。術者はこの呪文を“解除”できる。</p>\n<p>術者は選んだ形態に関わらず、以下の能力値と能力を得る</p>\n<ul>\n<li>AC＝18＋術者のレベル、鎧の判定ペナルティと移動速度低下を無視する。</li>\n<li>一時的ヒット・ポイント10。</li>\n<li>移動速度40フィート、飛行移動速度100フィート。</li>\n<li>自身のブレス攻撃のダメージ種別（後述）に対する抵抗10。</li>\n<li>暗視と不明瞭な鋭敏嗅覚60フィート。</li>\n<li>戦闘形態によって決まる一つ以上の肉体攻撃。術者はこれらのみを“打撃”に使用できる。術者はこの攻撃を修得済みである。術者の攻撃ボーナスは＋22、ダメージ・ボーナスは＋6。@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]などにおいて、これらの攻撃は【筋力】基準である。術者自身の素手攻撃ボーナスの方が高い場合、そちらを使用する。それぞれの攻撃の詳細は以降に詳細が示されている。</li>\n<li>術者自身の修正値の方が高くない限り、〈運動〉修正値は＋23。</li>\n<li><strong>ブレス攻撃</strong> <span class=\"action-glyph\">2</span> (秘術、力術) ブレス攻撃の形状、ダメージ、ダメージ種別は特定の竜の形態（下記参照）に依存している。範囲内のクリーチャーは術者の呪文DCに対して基本セーヴを試みる。これは術者の特定の竜の形態の特殊能力の説明に特別な記載がない限り、反応セーヴとなる。一度起動したブレス攻撃は[[/r 1d4 #rounds]]の間、再び使用できない。術者のブレス攻撃は、与えるダメージ種別に対応する特性を持つ。</li>\n</ul>\n<p>加えて、術者は選択した竜の種別に応じて以下の能力を得る。</p>\n<ul>\n<li><strong>@UUID[Compendium.pf2e.spell-effects.Item.rHXOZAFBdRXIlxt5]{ブラック}</strong>\n<ul>\n<li>水泳移動速度60フィート</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span> 顎、 <strong>ダメージ</strong> 2d12［刺突］に加えて2d6［強酸］</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span> 爪（機敏）、 <strong>ダメージ</strong> 3d10［斬撃］</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span> 尾（間合い10フィート）、<strong>ダメージ</strong> 3d10［殴打］</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span> 角（間合い10フィート）、<strong>ダメージ</strong> 3d8［刺突］</li>\n<li>ブレス攻撃 60フィート直線状、@Damage[11d6[acid]]</li>\n</ul>\n</li>\n<li><strong>@UUID[Compendium.pf2e.spell-effects.Item.ETgzIIv3M2zvclAR]{ブルー}</strong>\n<ul>\n<li>穴掘り移動速度20フィート</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span>顎、<strong>ダメージ</strong> 2d10［刺突］に加えて1d12［雷撃］</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span>爪（機敏）、<strong>ダメージ</strong> 3d10［斬撃］</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span>尾（間合い10フィート）、 <strong>ダメージ</strong> 3d10［殴打］</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span>角（間合い10フィート）、<strong>ダメージ</strong> 3d8［刺突］</li>\n<li>ブレス攻撃 80フィート直線状、@Damage[6d12[electricity]]</li>\n</ul>\n</li>\n<li><strong>@UUID[Compendium.pf2e.spell-effects.Item.OeCn76SB92GPOZwr]{ブラス}</strong>\n<ul>\n<li>穴掘り移動速度20フィート</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span>顎、<strong>ダメージ</strong> 3d8［刺突］に加えて2d4［火炎］</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span>爪（機敏）、3d10［斬撃］</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span>尾（間合い10フィート）、 <strong>ダメージ</strong> 3d10［殴打］</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span> 棘（間合い10フィート）、<strong>ダメージ</strong> 3d8［刺突］</li>\n<li>ブレス攻撃 60フィート直線状、@Damage[15d4[fire]]</li>\n</ul>\n</li>\n<li><strong>@UUID[Compendium.pf2e.spell-effects.Item.jtW3VfI5Kktuy3GH]{ブロンズ}</strong>\n<ul>\n<li>水泳移動速度40フィート</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span>顎、<strong>ダメージ</strong> 2d10［刺突］に加えて1d12［雷撃］</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span>爪（機敏）、<strong>ダメージ</strong> 3d10［斬撃］</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span>尾（間合い10フィート）、 <strong>ダメージ</strong> 3d10［殴打］</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span>翼（間合い10フィート）、<strong>ダメージ</strong> 3d8［斬撃］</li>\n<li>ブレス攻撃 80フィート直線状、@Damage[6d12[electricity]]</li>\n</ul>\n</li>\n<li><strong>@UUID[Compendium.pf2e.spell-effects.Item.DrNpuMj14wVj4bWF]{カッパー}</strong>\n<ul>\n<li>石の上でのみ使用できる登攀移動速度25フィート</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span>顎、<strong>ダメージ</strong> 2d12［刺突］に加えて2d6［強酸］</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span>爪（機敏）、<strong>ダメージ</strong> 3d10［斬撃］</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span>尾（間合い10フィート）、 <strong>ダメージ</strong> 3d10［殴打］</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span>翼（間合い10フィート）、<strong>ダメージ</strong> 3d8［殴打］</li>\n<li>ブレス攻撃 60フィート直線状、@Damage[10d6[acid]]</li>\n</ul>\n</li>\n<li><strong>@UUID[Compendium.pf2e.spell-effects.Item.8aNZhlkzRTRKlKag]{ゴールド}</strong>\n<ul>\n<li>水泳移動速度40フィート</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span>顎、<strong>ダメージ</strong> 2d12［刺突］に加えて2d6［火炎］</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span>爪（機敏）、<strong>ダメージ</strong> 4d6［斬撃］</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span>尾（間合い10フィート）、 <strong>ダメージ</strong> 3d10［殴打］</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span>角（間合い10フィート）、<strong>ダメージ</strong> 3d8［刺突］</li>\n<li>ブレス攻撃 30フィート円錐形、@Damage[6d10[fire]]</li>\n</ul>\n</li>\n<li><strong>@UUID[Compendium.pf2e.spell-effects.Item.nWEx5kpkE8YlBZvy]{グリーン}</strong>\n<ul>\n<li>水泳移動速度40フィート、非魔法の植生による移動困難地形を無視する</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span>顎、<strong>ダメージ</strong> 2d12［刺突］に加えて2d6［毒］</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span>爪（機敏）、<strong>ダメージ</strong> 3d10［斬撃］</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span>尾（間合い10フィート）、 <strong>ダメージ</strong> 3d10［殴打］</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span>角（間合い10フィート）、<strong>ダメージ</strong> 3d8［刺突］</li>\n<li>ブレス攻撃 30フィート円錐形、@Damage[10d6[poison]] (反応ではなく頑健セーヴ).</li>\n</ul>\n</li>\n<li><strong>@UUID[Compendium.pf2e.spell-effects.Item.V4a9pZHNUlddAwTA]{レッド}</strong>\n<ul>\n<li>煙による@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]を無視する</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span>顎、<strong>ダメージ</strong> 2d12［刺突］に加えて2d6［火炎］</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span>爪（機敏）、<strong>ダメージ</strong> 4d6［斬撃］</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span>尾（間合い10フィート）、 <strong>ダメージ</strong> 3d10［殴打］</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span>翼（間合い10フィート）、<strong>ダメージ</strong> 3d8［殴打］</li>\n<li>ブレス攻撃 30フィート円錐形、@Damage[10d6[fire]]</li>\n</ul>\n</li>\n<li><strong>@UUID[Compendium.pf2e.spell-effects.Item.TUyEeLyqdJL6PwbH]{シルヴァー}</strong>\n<ul>\n<li>雲上歩行</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span>顎、<strong>ダメージ</strong> 2d12［刺突］に加えて2d6［氷雪］</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span>爪（機敏）、<strong>ダメージ</strong> 3d10［斬撃］</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span> tail (reach 10), <strong>ダメージ</strong> 3d10［殴打］</li>\n<li>ブレス攻撃 30フィート円錐形、@Damage[8d8[cold]]</li>\n</ul>\n</li>\n<li><strong>@UUID[Compendium.pf2e.spell-effects.Item.H6ndYYYlADWwqVQb]{ホワイト}</strong>\n<ul>\n<li>氷上でのみ使用できる登攀移動速度25フィート</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span>顎、<strong>ダメージ</strong> 3d6［刺突］に加えて2d6［氷雪］</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span>爪（機敏）、<strong>ダメージ</strong> 3d10［斬撃］</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span>尾（間合い10フィート）、 <strong>ダメージ</strong> 3d10 bludgeoning;</li>\n<li>ブレス攻撃 30フィート円錐形、@Damage[10d6[cold]]</li>\n</ul>\n</li>\n</ul>\n<hr />\n<p><strong>高レベル化（8レベル）</strong> 術者の戦闘形態は超大型サイズとなる。術者は飛行移動速度に＋20フィートの状態ボーナスを得て、術者の攻撃は10フィートの間合いを持つ（もともと10フィートの間合いを持つ場合15フィート）。術者は代わりにAC＝21＋術者のレベル、一時的ヒット・ポイント15、攻撃修正値＋28、ダメージ・ボーナス＋12、〈運動〉＋28、ブレス攻撃のダメージに＋14の状態ボーナスを得る。</p>",
+      "description": "<p>術者は強力な変身魔法により、大型の竜の戦闘形態を獲得する。術者には拡大できる空間がなければならず、さもなければこの呪文は失われる。この呪文を発動するとき、クロマティック・ドラゴンかメタリック・ドラゴンから1種類を選ぶ。この形態にいる間、術者は竜の特性を得る。従者はこの戦闘形態で手を持っており、操作アクションを行える。術者はこの呪文を“解除”できる。</p>\n<p>術者は選んだ形態に関わらず、以下の能力値と能力を得る</p>\n<ul>\n<li>AC＝18＋術者のレベル、鎧の判定ペナルティと移動速度低下を無視する。</li>\n<li>一時的ヒット・ポイント10。</li>\n<li>移動速度40フィート、飛行移動速度100フィート。</li>\n<li>自身のブレス攻撃のダメージ種別（後述）に対する抵抗10。</li>\n<li>暗視と不明瞭な鋭敏嗅覚60フィート。</li>\n<li>戦闘形態によって決まる一つ以上の肉体攻撃。術者はこれらのみを“打撃”に使用できる。術者はこの攻撃を修得済みである。術者の攻撃ボーナスは＋22、ダメージ・ボーナスは＋6。@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]などにおいて、これらの攻撃は【筋力】基準である。術者自身の素手攻撃ボーナスの方が高い場合、そちらを使用する。それぞれの攻撃の詳細は以降に詳細が示されている。</li>\n<li>術者自身の修正値の方が高くない限り、〈運動〉修正値は＋23。</li>\n<li><strong>ブレス攻撃</strong> <span class=\"action-glyph\">2</span> (秘術、力術) ブレス攻撃の形状、ダメージ、ダメージ種別は特定の竜の形態（下記参照）に依存している。範囲内のクリーチャーは術者の呪文DCに対して基本セーヴを試みる。これは術者の特定の竜の形態の特殊能力の説明に特別な記載がない限り、反応セーヴとなる。一度起動したブレス攻撃は[[/r 1d4 #rounds]]の間、再び使用できない。術者のブレス攻撃は、与えるダメージ種別に対応する特性を持つ。</li>\n</ul>\n<p>加えて、術者は選択した竜の種別に応じて以下の能力を得る。</p>\n<ul>\n<li><strong>@UUID[Compendium.pf2e.spell-effects.Item.rHXOZAFBdRXIlxt5]{ブラック}</strong>\n<ul>\n<li>水泳移動速度60フィート</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span> 顎、 <strong>ダメージ</strong> 2d12［刺突］に加えて2d6［強酸］</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span> 爪（機敏）、 <strong>ダメージ</strong> 3d10［斬撃］</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span> 尾（間合い10フィート）、<strong>ダメージ</strong> 3d10［殴打］</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span> 角（間合い10フィート）、<strong>ダメージ</strong> 3d8［刺突］</li>\n<li>ブレス攻撃 60フィート直線状、@Damage[11d6[acid]]</li>\n</ul>\n</li>\n<li><strong>@UUID[Compendium.pf2e.spell-effects.Item.ETgzIIv3M2zvclAR]{ブルー}</strong>\n<ul>\n<li>穴掘り移動速度20フィート</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span>顎、<strong>ダメージ</strong> 2d10［刺突］に加えて1d12［雷撃］</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span>爪（機敏）、<strong>ダメージ</strong> 3d10［斬撃］</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span>尾（間合い10フィート）、 <strong>ダメージ</strong> 3d10［殴打］</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span>角（間合い10フィート）、<strong>ダメージ</strong> 3d8［刺突］</li>\n<li>ブレス攻撃 80フィート直線状、@Damage[6d12[electricity]]</li>\n</ul>\n</li>\n<li><strong>@UUID[Compendium.pf2e.spell-effects.Item.OeCn76SB92GPOZwr]{ブラス}</strong>\n<ul>\n<li>穴掘り移動速度20フィート</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span>顎、<strong>ダメージ</strong> 3d8［刺突］に加えて2d4［火炎］</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span>爪（機敏）、3d10［斬撃］</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span>尾（間合い10フィート）、 <strong>ダメージ</strong> 3d10［殴打］</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span> 棘（間合い10フィート）、<strong>ダメージ</strong> 3d8［刺突］</li>\n<li>ブレス攻撃 60フィート直線状、@Damage[15d4[fire]]</li>\n</ul>\n</li>\n<li><strong>@UUID[Compendium.pf2e.spell-effects.Item.jtW3VfI5Kktuy3GH]{ブロンズ}</strong>\n<ul>\n<li>水泳移動速度40フィート</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span>顎、<strong>ダメージ</strong> 2d10［刺突］に加えて1d12［雷撃］</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span>爪（機敏）、<strong>ダメージ</strong> 3d10［斬撃］</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span>尾（間合い10フィート）、 <strong>ダメージ</strong> 3d10［殴打］</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span>翼（間合い10フィート）、<strong>ダメージ</strong> 3d8［斬撃］</li>\n<li>ブレス攻撃 80フィート直線状、@Damage[6d12[electricity]]</li>\n</ul>\n</li>\n<li><strong>@UUID[Compendium.pf2e.spell-effects.Item.DrNpuMj14wVj4bWF]{カッパー}</strong>\n<ul>\n<li>石の上でのみ使用できる登攀移動速度25フィート</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span>顎、<strong>ダメージ</strong> 2d12［刺突］に加えて2d6［強酸］</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span>爪（機敏）、<strong>ダメージ</strong> 3d10［斬撃］</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span>尾（間合い10フィート）、 <strong>ダメージ</strong> 3d10［殴打］</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span>翼（間合い10フィート）、<strong>ダメージ</strong> 3d8［殴打］</li>\n<li>ブレス攻撃 60フィート直線状、@Damage[10d6[acid]]</li>\n</ul>\n</li>\n<li><strong>@UUID[Compendium.pf2e.spell-effects.Item.8aNZhlkzRTRKlKag]{ゴールド}</strong>\n<ul>\n<li>水泳移動速度40フィート</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span>顎、<strong>ダメージ</strong> 2d12［刺突］に加えて2d6［火炎］</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span>爪（機敏）、<strong>ダメージ</strong> 4d6［斬撃］</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span>尾（間合い10フィート）、 <strong>ダメージ</strong> 3d10［殴打］</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span>角（間合い10フィート）、<strong>ダメージ</strong> 3d8［刺突］</li>\n<li>ブレス攻撃 30フィート円錐形、@Damage[6d10[fire]]</li>\n</ul>\n</li>\n<li><strong>@UUID[Compendium.pf2e.spell-effects.Item.nWEx5kpkE8YlBZvy]{グリーン}</strong>\n<ul>\n<li>水泳移動速度40フィート、非魔法の植生による移動困難地形を無視する</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span>顎、<strong>ダメージ</strong> 2d12［刺突］に加えて2d6［毒］</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span>爪（機敏）、<strong>ダメージ</strong> 3d10［斬撃］</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span>尾（間合い10フィート）、 <strong>ダメージ</strong> 3d10［殴打］</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span>角（間合い10フィート）、<strong>ダメージ</strong> 3d8［刺突］</li>\n<li>ブレス攻撃 30フィート円錐形、@Damage[10d6[poison]] (反応ではなく頑健セーヴ).</li>\n</ul>\n</li>\n<li><strong>@UUID[Compendium.pf2e.spell-effects.Item.V4a9pZHNUlddAwTA]{レッド}</strong>\n<ul>\n<li>煙による@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]を無視する</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span>顎、<strong>ダメージ</strong> 2d12［刺突］に加えて2d6［火炎］</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span>爪（機敏）、<strong>ダメージ</strong> 4d6［斬撃］</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span>尾（間合い10フィート）、 <strong>ダメージ</strong> 3d10［殴打］</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span>翼（間合い10フィート）、<strong>ダメージ</strong> 3d8［殴打］</li>\n<li>ブレス攻撃 30フィート円錐形、@Damage[10d6[fire]]</li>\n</ul>\n</li>\n<li><strong>@UUID[Compendium.pf2e.spell-effects.Item.TUyEeLyqdJL6PwbH]{シルヴァー}</strong>\n<ul>\n<li>雲上歩行</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span>顎、<strong>ダメージ</strong> 2d12［刺突］に加えて2d6［氷雪］</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span>爪（機敏）、<strong>ダメージ</strong> 3d10［斬撃］</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span> tail (reach 10), <strong>ダメージ</strong> 3d10［殴打］</li>\n<li>ブレス攻撃 30フィート円錐形、@Damage[8d8[cold]]</li>\n</ul>\n</li>\n<li><strong>@UUID[Compendium.pf2e.spell-effects.Item.H6ndYYYlADWwqVQb]{ホワイト}</strong>\n<ul>\n<li>氷上でのみ使用できる登攀移動速度25フィート</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span>顎、<strong>ダメージ</strong> 3d6［刺突］に加えて2d6［氷雪］</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span>爪（機敏）、<strong>ダメージ</strong> 3d10［斬撃］</li>\n<li><strong>近接</strong> <span class=\"action-glyph\">1</span>尾（間合い10フィート）、 <strong>ダメージ</strong> 3d10 bludgeoning;</li>\n<li>ブレス攻撃 30フィート円錐形、@Damage[10d6[cold]]</li>\n</ul>\n</li>\n</ul>\n<hr />\n<p><strong>高レベル化（8レベル）</strong> 術者の戦闘形態は超大型サイズとなる。術者は飛行移動速度に＋20フィートのステータスボーナスを得て、術者の攻撃は10フィートの間合いを持つ（もともと10フィートの間合いを持つ場合15フィート）。術者は代わりにAC＝21＋術者のレベル、一時的ヒット・ポイント15、攻撃修正値＋28、ダメージ・ボーナス＋12、〈運動〉＋28、ブレス攻撃のダメージに＋14のステータスボーナスを得る。</p>",
       "name": "ドラゴン・フォーム",
       "time": "2"
     },
@@ -502,7 +502,7 @@
     },
     "Touch of the Moon": {
       "duration": "1分",
-      "description": "<p><b>領域</b> 月</p>\n<p>目標に接触すると、月の印が目標の額に現れて柔らかい月光を放つ。目標は半径20フィートの範囲を薄暗い光で照らす。加えて、目標は月の印の満ち欠けに応じた恩恵を受ける。満ち欠けは新月から始まり、目標のターンの終了時のたびに次の満ち欠けへと変化する。</p>\n<li><b>新月</b> 目標はなんの利益も受けない。</li>\n<li><b>上弦</b> 目標は攻撃ロールに＋1の状態ボーナスと、ダメージ・ロールに＋4の状態ボーナスを得る。</li>\n<li><b>満月</b> 目標は攻撃ロール、AC、セーヴィング・スローに＋1の状態ボーナスと、ダメージ・ロールに＋4の状態ボーナスを得る。</li>\n<li><b>下弦</b> 目標はACとセーヴィング・スローに＋1の状態ボーナスを得る。この満ち欠けの後、新月へと戻る。</li>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.3hDKcbhn0j6DsRgm]</p>",
+      "description": "<p><b>領域</b> 月</p>\n<p>目標に接触すると、月の印が目標の額に現れて柔らかい月光を放つ。目標は半径20フィートの範囲を薄暗い光で照らす。加えて、目標は月の印の満ち欠けに応じた恩恵を受ける。満ち欠けは新月から始まり、目標のターンの終了時のたびに次の満ち欠けへと変化する。</p>\n<li><b>新月</b> 目標はなんの利益も受けない。</li>\n<li><b>上弦</b> 目標は攻撃ロールに＋1のステータスボーナスと、ダメージ・ロールに＋4のステータスボーナスを得る。</li>\n<li><b>満月</b> 目標は攻撃ロール、AC、セーヴィング・スローに＋1のステータスボーナスと、ダメージ・ロールに＋4のステータスボーナスを得る。</li>\n<li><b>下弦</b> 目標はACとセーヴィング・スローに＋1のステータスボーナスを得る。この満ち欠けの後、新月へと戻る。</li>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.3hDKcbhn0j6DsRgm]</p>",
       "range": "接触",
       "target": "クリーチャー1体",
       "name": "タッチ・オヴ・ザ・ムーン",
@@ -526,7 +526,7 @@
     },
     "Pass Without Trace": {
       "name": "パス・ウィズアウト・トレイス",
-      "description": "<p>術者は自分の残した痕跡を曖昧なものにして、他人が自分を見つけにくくする。術者を“追跡”するための判定のDCは＋4の状態ボーナスを得た値か、術者の呪文DCと同じ値のいずれか高い方になる。術者は一度に1つだけパス・ウィズアウト・トレイスの利益を得ることができる。</p><hr><p><b>高レベル化（2レベル）</b> 持続時間は8時間に増加する。</p><p><b>高レベル化（4レベル）</b> 持続時間は8時間に増加する。この呪文は距離20フィートとなり、20フィートの放射の範囲に効果を及ぼす。この呪文は範囲内にいる、術者が選択したクリーチャー10体までに作用する。</p>\n",
+      "description": "<p>術者は自分の残した痕跡を曖昧なものにして、他人が自分を見つけにくくする。術者を“追跡”するための判定のDCは＋4のステータスボーナスを得た値か、術者の呪文DCと同じ値のいずれか高い方になる。術者は一度に1つだけパス・ウィズアウト・トレイスの利益を得ることができる。</p><hr><p><b>高レベル化（2レベル）</b> 持続時間は8時間に増加する。</p><p><b>高レベル化（4レベル）</b> 持続時間は8時間に増加する。この呪文は距離20フィートとなり、20フィートの放射の範囲に効果を及ぼす。この呪文は範囲内にいる、術者が選択したクリーチャー10体までに作用する。</p>\n",
       "duration": "1時間",
       "time": "2"
     },
@@ -597,7 +597,7 @@
     },
     "Battlefield Persistence": {
       "name": "バトルフィールド・パーシステンス",
-      "description": "<p><b>神秘</b> 闘魂</p>\n<p>術者を戦いから追いやるのは難しい。術者はトリガーとなったセーヴに＋2の状態ボーナスを得る。トリガーとなったセーヴが無力化効果に対するものであった場合、術者は2レベル高いものとして扱われる。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.F1APSdrw5uv672hf]</p>",
+      "description": "<p><b>神秘</b> 闘魂</p>\n<p>術者を戦いから追いやるのは難しい。術者はトリガーとなったセーヴに＋2のステータスボーナスを得る。トリガーとなったセーヴが無力化効果に対するものであった場合、術者は2レベル高いものとして扱われる。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.F1APSdrw5uv672hf]</p>",
       "time": "reaction"
     },
     "Haste": {
@@ -609,7 +609,7 @@
       "time": "2"
     },
     "Elemental Motion": {
-      "description": "\n<p>術者は自身の元素に自分に推進力を与えるように呼びかけ、元素に応じた移動速度を向上させる。この呪文は術者が持つ元素の特性を持つ。</p>\n<li>風：術者は移動速度に等しい飛行移動速度を得る。</li>\n<li>地：術者は10フィートの穴掘り移動速度を得る。</li>\n<li>火：術者は移動速度に等しい飛行移動速度を得る。</li>\n<li>水：術者は移動速度に等しい水泳移動速度を得、水中で呼吸ができるようになる。</li>\n<hr><p><b>高レベル化（6レベル）</b> 術者は自身の移動速度に＋10フィートの状態ボーナスを得る。</p><p><b>高レベル化（9レベル）</b> この状態ボーナスは＋20フィートに増加する。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.iqtjMVl6rGQhX2k8]</p><p>@UUID[Compendium.pf2e.spell-effects.Item.qbOpis7pIkXJbM2B]</p><p>@UUID[Compendium.pf2e.spell-effects.Item.q4EEYltjqpRGiLsP]</p><p>@UUID[Compendium.pf2e.spell-effects.Item.D0Qj5tC1hGUjzQc4]</p>",
+      "description": "\n<p>術者は自身の元素に自分に推進力を与えるように呼びかけ、元素に応じた移動速度を向上させる。この呪文は術者が持つ元素の特性を持つ。</p>\n<li>風：術者は移動速度に等しい飛行移動速度を得る。</li>\n<li>地：術者は10フィートの穴掘り移動速度を得る。</li>\n<li>火：術者は移動速度に等しい飛行移動速度を得る。</li>\n<li>水：術者は移動速度に等しい水泳移動速度を得、水中で呼吸ができるようになる。</li>\n<hr><p><b>高レベル化（6レベル）</b> 術者は自身の移動速度に＋10フィートのステータスボーナスを得る。</p><p><b>高レベル化（9レベル）</b> このステータスボーナスは＋20フィートに増加する。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.iqtjMVl6rGQhX2k8]</p><p>@UUID[Compendium.pf2e.spell-effects.Item.qbOpis7pIkXJbM2B]</p><p>@UUID[Compendium.pf2e.spell-effects.Item.q4EEYltjqpRGiLsP]</p><p>@UUID[Compendium.pf2e.spell-effects.Item.D0Qj5tC1hGUjzQc4]</p>",
       "duration": "1分",
       "name": "エレメンタル・モーション",
       "time": "2"
@@ -618,7 +618,7 @@
       "name": "ヴェイル",
       "range": "30 ﾌｨｰﾄ",
       "target": "クリーチャー10体まで",
-      "description": "<p>術者は他のクリーチャーを身長と体重がほぼ同じ（身長が6インチ以内、体重が50ポンド以内）で、同じ体型のクリーチャーに変装させる。変装は目標の身分を隠したり、別の家系に見せかけたりすることができるが、特定の人物になりすますほどの精度はない。この呪文は声や香り、物腰を変えることはできない。術者は目標毎に異なる変装を選択できる。例えば、1人をドワーフに、もう1人をエルフに見せかけることができる。</p>\n<p>ヴェイルの発動は、“なりすまし”アクションにおける変装を行うものとして扱う。また、変装を見破られないようにするための〈ペテン〉判定に＋4の状態ボーナスを与え、さらに未修得でも自身のレベルを加算できる。術者はこれらの変装のいずれか、またはすべてを“解除”できる。</p><hr><p><b>高レベル化（5レベル）</b> 呪文は同時に目標の声と臭いをも変える。これによりこの呪文は聴覚特性を得る。</p><p><b>高レベル化（7レベル）</b> 目標は同じサイズのクリーチャーの姿であれば、特定の個人の姿でさえも取ることができる。特定の個人の姿を取らせるには、術者はその個人を見たことがある必要がある。また、呪文は同時に目標の声と臭いをも変える。これによりこの呪文は聴覚特性を得る。</p>\n",
+      "description": "<p>術者は他のクリーチャーを身長と体重がほぼ同じ（身長が6インチ以内、体重が50ポンド以内）で、同じ体型のクリーチャーに変装させる。変装は目標の身分を隠したり、別の家系に見せかけたりすることができるが、特定の人物になりすますほどの精度はない。この呪文は声や香り、物腰を変えることはできない。術者は目標毎に異なる変装を選択できる。例えば、1人をドワーフに、もう1人をエルフに見せかけることができる。</p>\n<p>ヴェイルの発動は、“なりすまし”アクションにおける変装を行うものとして扱う。また、変装を見破られないようにするための〈ペテン〉判定に＋4のステータスボーナスを与え、さらに未修得でも自身のレベルを加算できる。術者はこれらの変装のいずれか、またはすべてを“解除”できる。</p><hr><p><b>高レベル化（5レベル）</b> 呪文は同時に目標の声と臭いをも変える。これによりこの呪文は聴覚特性を得る。</p><p><b>高レベル化（7レベル）</b> 目標は同じサイズのクリーチャーの姿であれば、特定の個人の姿でさえも取ることができる。特定の個人の姿を取らせるには、術者はその個人を見たことがある必要がある。また、呪文は同時に目標の声と臭いをも変える。これによりこの呪文は聴覚特性を得る。</p>\n",
       "duration": "1時間",
       "time": "2"
     },
@@ -632,7 +632,7 @@
     "Freedom": {
       "range": "本文参照",
       "target": "クリーチャー1体",
-      "description": "<p>あらゆる魔法効果によって幽閉、石化状態、何らかの静止にさらされているクリーチャーを、そうした全ての効果から解放する儀式を行う。フリーダムの呪文レベルがその効果の呪文レベル以上であれば、@UUID[Compendium.pf2e.spells-srd.Item.2CNqkt2s2IYkVnv6]{インプリズンメント}のような持続時間を持たない効果であってさえ取り除く。この儀式を行う際、主要術者は目標から10フィート以内、もしくは目標が幽閉されている場所の10フィート以内にいなければならない（@UUID[Compendium.pf2e.spells-srd.Item.2CNqkt2s2IYkVnv6]{インプリズンメント}の地下牢獄のような、クリーチャーを手の届かない牢獄に閉じ込める効果の場合）。主要術者はそのクリーチャーの名前とその背景の詳細を知っていなければならない。クリーチャーが親しい関係者でない場合、副次〈社会〉判定で失敗ないし大失敗をすると、主要判定で大成功していた場合でさえ失敗になってしまう。</p><p><b>大成功</b> 目標を幽閉、石化状態、静止のすべての魔法効果から解放する。目標は同じ魔法効果に対するセーヴに1週間の間＋1の状態ボーナスを得る。</p>\n<p><b>成功</b> 目標を幽閉、石化状態、静止のすべての魔法効果から解放する。</p>\n<p><b>失敗</b> 目標の解放に失敗する。</p>\n<p><b>大失敗</b> 目標を幽閉する、石化状態にする、静止させている魔法効果は、主要術者と全ての副次術者にも適用される。</p>\n",
+      "description": "<p>あらゆる魔法効果によって幽閉、石化状態、何らかの静止にさらされているクリーチャーを、そうした全ての効果から解放する儀式を行う。フリーダムの呪文レベルがその効果の呪文レベル以上であれば、@UUID[Compendium.pf2e.spells-srd.Item.2CNqkt2s2IYkVnv6]{インプリズンメント}のような持続時間を持たない効果であってさえ取り除く。この儀式を行う際、主要術者は目標から10フィート以内、もしくは目標が幽閉されている場所の10フィート以内にいなければならない（@UUID[Compendium.pf2e.spells-srd.Item.2CNqkt2s2IYkVnv6]{インプリズンメント}の地下牢獄のような、クリーチャーを手の届かない牢獄に閉じ込める効果の場合）。主要術者はそのクリーチャーの名前とその背景の詳細を知っていなければならない。クリーチャーが親しい関係者でない場合、副次〈社会〉判定で失敗ないし大失敗をすると、主要判定で大成功していた場合でさえ失敗になってしまう。</p><p><b>大成功</b> 目標を幽閉、石化状態、静止のすべての魔法効果から解放する。目標は同じ魔法効果に対するセーヴに1週間の間＋1のステータスボーナスを得る。</p>\n<p><b>成功</b> 目標を幽閉、石化状態、静止のすべての魔法効果から解放する。</p>\n<p><b>失敗</b> 目標の解放に失敗する。</p>\n<p><b>大失敗</b> 目標を幽閉する、石化状態にする、静止させている魔法効果は、主要術者と全ての副次術者にも適用される。</p>\n",
       "name": "フリーダム",
       "time": "1日",
       "cost": "合計で100gp×呪文のレベル×目標のレベルに等しい価値を持つ、価値ある油と目標に関連した物体",
@@ -671,7 +671,7 @@
     "Geas": {
       "name": "ギアス",
       "duration": "本文参照",
-      "description": "<p>術者は同意する目標に魔法によるルール1つを強制する。これは特定の行為1つを行うか、行わないかを強いるものだ。行為1つを行わせるギアスは、通常「見知らぬ人が泊まる場所を探していたら必ずもてなす」というように、条件付きのものだ。無条件にある行為を行うギアスは、目標がその行為だけを行う必要はないが、あらゆる暇つぶしよりもその行為を優先させなければならない。ある行為を行わないギアスで最も一般的なものは、契約違反を避けるための指示である。この場合、副次術者は、通常契約書の文言が儀式の魔法と正しく同調しているかを確認する責任を負う。目標が同意しているため、ギアスは目標が同意している間、持続時間を持たせることができる。ギアスに従えない場合、目標は@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{不調状態}1になり、ギアスに従えない1日毎に状態値は1ずつ増加し、最大で@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{不調状態}4になる。この@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{不調状態}は目標がギアスに再び従えば即座に終了する。他の方法ではこの@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{不調状態}を取り除くことはできない。@UUID[Compendium.pf2e.spells-srd.Item.6dDtGIUerazSHIOu]{ウィッシュ}呪文のような強力な魔法のみが、同意している目標からギアスの効果を取り除くことができる。</p><p><b>大成功</b> ギアスは成功し、目標はギアス二直接従うための技能判定（GMが判断する）に＋1の状態ボーナスを得る。</p>\n<p><b>成功</b> ギアスは成功する。</p>\n<p><b>失敗</b> ギアスは失敗する。</p>\n<p><b>大失敗</b> ギアスは失敗し、代わりに主要術者が目標に施そうとしていたギアスの影響を受ける。主要術者は同意しない目標として扱われるため、このギアスは@UUID[Compendium.pf2e.spells-srd.Item.OyFCwQuw8XRazsNr]{リムーヴ・カース}呪文で無効化できる。</p>\n<hr><p><b>高レベル化（5レベル）</b> 主要術者は同意しないクリーチャーにギアスを使用できる。目標は効果を打ち消すために意志セーヴを試みることができる。目標がこの意志セーヴに失敗したなら、ギアスは1週間だけ持続する。@UUID[Compendium.pf2e.spells-srd.Item.6dDtGIUerazSHIOu]{ウィッシュ}のような強力な魔法に加えて、@UUID[Compendium.pf2e.spells-srd.Item.OyFCwQuw8XRazsNr]{リムーヴ・カース}呪文は同意しないクリーチャーに対するギアスを無効化できる。同意しない賢いクリーチャーは、従えないような状況を作り出してギアスに逆らうことができるが、その場合（上述の通り）@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{不調状態}になる。</p>\n<p><b>高レベル化（7レベル）</b> 5レベルと同様だが、ギアスは同意しないクリーチャーに対して1年間だけ持続する。</p>\n<p><b>高レベル化（9レベル）</b> 5レベルと同様だが、ギアスは同意しないクリーチャーに対して主要術者が指定した任意の持続時間（永続でも良い）だけ持続する。</p>\n",
+      "description": "<p>術者は同意する目標に魔法によるルール1つを強制する。これは特定の行為1つを行うか、行わないかを強いるものだ。行為1つを行わせるギアスは、通常「見知らぬ人が泊まる場所を探していたら必ずもてなす」というように、条件付きのものだ。無条件にある行為を行うギアスは、目標がその行為だけを行う必要はないが、あらゆる暇つぶしよりもその行為を優先させなければならない。ある行為を行わないギアスで最も一般的なものは、契約違反を避けるための指示である。この場合、副次術者は、通常契約書の文言が儀式の魔法と正しく同調しているかを確認する責任を負う。目標が同意しているため、ギアスは目標が同意している間、持続時間を持たせることができる。ギアスに従えない場合、目標は@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{不調状態}1になり、ギアスに従えない1日毎に状態値は1ずつ増加し、最大で@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{不調状態}4になる。この@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{不調状態}は目標がギアスに再び従えば即座に終了する。他の方法ではこの@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{不調状態}を取り除くことはできない。@UUID[Compendium.pf2e.spells-srd.Item.6dDtGIUerazSHIOu]{ウィッシュ}呪文のような強力な魔法のみが、同意している目標からギアスの効果を取り除くことができる。</p><p><b>大成功</b> ギアスは成功し、目標はギアス二直接従うための技能判定（GMが判断する）に＋1のステータスボーナスを得る。</p>\n<p><b>成功</b> ギアスは成功する。</p>\n<p><b>失敗</b> ギアスは失敗する。</p>\n<p><b>大失敗</b> ギアスは失敗し、代わりに主要術者が目標に施そうとしていたギアスの影響を受ける。主要術者は同意しない目標として扱われるため、このギアスは@UUID[Compendium.pf2e.spells-srd.Item.OyFCwQuw8XRazsNr]{リムーヴ・カース}呪文で無効化できる。</p>\n<hr><p><b>高レベル化（5レベル）</b> 主要術者は同意しないクリーチャーにギアスを使用できる。目標は効果を打ち消すために意志セーヴを試みることができる。目標がこの意志セーヴに失敗したなら、ギアスは1週間だけ持続する。@UUID[Compendium.pf2e.spells-srd.Item.6dDtGIUerazSHIOu]{ウィッシュ}のような強力な魔法に加えて、@UUID[Compendium.pf2e.spells-srd.Item.OyFCwQuw8XRazsNr]{リムーヴ・カース}呪文は同意しないクリーチャーに対するギアスを無効化できる。同意しない賢いクリーチャーは、従えないような状況を作り出してギアスに逆らうことができるが、その場合（上述の通り）@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{不調状態}になる。</p>\n<p><b>高レベル化（7レベル）</b> 5レベルと同様だが、ギアスは同意しないクリーチャーに対して1年間だけ持続する。</p>\n<p><b>高レベル化（9レベル）</b> 5レベルと同様だが、ギアスは同意しないクリーチャーに対して主要術者が指定した任意の持続時間（永続でも良い）だけ持続する。</p>\n",
       "target": "ギアス儀式のレベルの2倍以下のレベルを持つクリーチャー1体",
       "range": "10 ﾌｨｰﾄ",
       "time": "1日",
@@ -730,7 +730,7 @@
     "Agile Feet": {
       "name": "アジール・フィート",
       "duration": "現在のターンの終了まで",
-      "description": "<p><b>領域</b> 旅</p>\n<p>神の祝福により術者の足は速く、動きはよりなめらかになる。術者は移動速度に＋5フィートの状態ボーナスを得るとともに、移動困難地形の影響を受けなくなる。アジール・フィートの発動の一部として、君は“歩行”、もしくは“ステップ”を行える。適切な移動速度を有しているなら、君は代わりに“穴掘り”、“水泳”、“登攀”、“飛行”を行ってもよい。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.y9PJdDYFemhk6Z5o]</p>",
+      "description": "<p><b>領域</b> 旅</p>\n<p>神の祝福により術者の足は速く、動きはよりなめらかになる。術者は移動速度に＋5フィートのステータスボーナスを得るとともに、移動困難地形の影響を受けなくなる。アジール・フィートの発動の一部として、君は“歩行”、もしくは“ステップ”を行える。適切な移動速度を有しているなら、君は代わりに“穴掘り”、“水泳”、“登攀”、“飛行”を行ってもよい。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.y9PJdDYFemhk6Z5o]</p>",
       "time": "1"
     },
     "Disrupting Weapons": {
@@ -784,7 +784,7 @@
       "target": "同意するクリーチャー1体",
       "range": "30 ﾌｨｰﾄ",
       "duration": "1分",
-      "description": "<p>目標の精神に恩恵を与え、精神の防御力を高め、その傷を癒やす。術者が“呪文発動”をしたときに目標は1d10＋4のHPを回復し、持続時間の間、精神効果に対するセーヴに＋2の状態ボーナスを得る。</p><hr><p><b>高レベル化（＋1）</b> 回復量が1d10＋4ずつ増加する。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.nkk4O5fyzrC0057i]</p>",
+      "description": "<p>目標の精神に恩恵を与え、精神の防御力を高め、その傷を癒やす。術者が“呪文発動”をしたときに目標は1d10＋4のHPを回復し、持続時間の間、精神効果に対するセーヴに＋2のステータスボーナスを得る。</p><hr><p><b>高レベル化（＋1）</b> 回復量が1d10＋4ずつ増加する。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.nkk4O5fyzrC0057i]</p>",
       "name": "スーズ",
       "time": "2"
     },
@@ -884,7 +884,7 @@
     "Vision of Weakness": {
       "name": "ヴィジョン・オヴ・ウィークネス",
       "target": "クリーチャー1体",
-      "description": "<p><b>目標</b> クリーチャー1体</p>\n<p>術者がクリーチャーに視線を集中させると、その性質に対する神の洞察が閃く。クリーチャーに弱点がある場合、術者はそれを理解し、加えてセーヴィング・スロー修正値3つのどれが最も低いかも学び取る。加えて、術者はその敵にありがちな動きを理解する。自分のターンが終了する前に行われた、その敵に対する次の攻撃ロール（または攻撃アクションの一部として行われる技能判定）に＋2の状態ボーナスを得る。その後、目標は1日の間、ヴィジョン・オヴ・ウィークネスに対する一時的耐性を得る。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.70qdCBokXBvKIUIQ]</p>",
+      "description": "<p><b>目標</b> クリーチャー1体</p>\n<p>術者がクリーチャーに視線を集中させると、その性質に対する神の洞察が閃く。クリーチャーに弱点がある場合、術者はそれを理解し、加えてセーヴィング・スロー修正値3つのどれが最も低いかも学び取る。加えて、術者はその敵にありがちな動きを理解する。自分のターンが終了する前に行われた、その敵に対する次の攻撃ロール（または攻撃アクションの一部として行われる技能判定）に＋2のステータスボーナスを得る。その後、目標は1日の間、ヴィジョン・オヴ・ウィークネスに対する一時的耐性を得る。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.70qdCBokXBvKIUIQ]</p>",
       "time": "1"
     },
     "Remove Curse": {
@@ -909,7 +909,7 @@
       "time": "1 or 2"
     },
     "Inspire Courage": {
-      "description": "<p><b>効果範囲</b> 60フィートの放射； <b>持続時間</b> 1ラウンド</p>\n<p>術者は味方を励ましの言葉や音色で鼓舞する。</p>\n<p>術者と範囲内のすべての味方は、攻撃ロール、ダメージ・ロール、恐怖特性を持つ効果に対するセーヴに＋1の状態ボーナスを得る。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.beReeFroAx24hj83]</p>",
+      "description": "<p><b>効果範囲</b> 60フィートの放射； <b>持続時間</b> 1ラウンド</p>\n<p>術者は味方を励ましの言葉や音色で鼓舞する。</p>\n<p>術者と範囲内のすべての味方は、攻撃ロール、ダメージ・ロール、恐怖特性を持つ効果に対するセーヴに＋1のステータスボーナスを得る。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.beReeFroAx24hj83]</p>",
       "name": "インスパイアー・カレッジ",
       "duration": "1ラウンド",
       "time": "1"
@@ -923,7 +923,7 @@
     },
     "Call to Arms": {
       "name": "コール・トゥ・アームズ",
-      "description": "<p><b>神秘</b> 闘魂</p><p><b>効果範囲</b> 20フィートの放射</p><p><b>持続時間</b> 1分</p>\n<p>術者は軍隊への招集を叫び、味方を戦火へと送り込まんと鼓舞する。範囲内の味方はそれぞれイニシアチブ・ロールに＋2の状態ボーナスと、呪文のレベルに等しい一時的ヒット・ポイントを得る。この一時的ヒット・ポイントは呪文の持続時間の間持続する。</p><hr><p><b>高レベル化（6レベル）</b> ボーナスは＋3に増加する。</p><p><b>高レベル化（9レベル）</b> ボーナスは＋4に増加する。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.PNEGSVYhMKf6kQZ6]</p>",
+      "description": "<p><b>神秘</b> 闘魂</p><p><b>効果範囲</b> 20フィートの放射</p><p><b>持続時間</b> 1分</p>\n<p>術者は軍隊への招集を叫び、味方を戦火へと送り込まんと鼓舞する。範囲内の味方はそれぞれイニシアチブ・ロールに＋2のステータスボーナスと、呪文のレベルに等しい一時的ヒット・ポイントを得る。この一時的ヒット・ポイントは呪文の持続時間の間持続する。</p><hr><p><b>高レベル化（6レベル）</b> ボーナスは＋3に増加する。</p><p><b>高レベル化（9レベル）</b> ボーナスは＋4に増加する。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.PNEGSVYhMKf6kQZ6]</p>",
       "duration": "1分",
       "time": "reaction"
     },
@@ -954,7 +954,7 @@
       "time": "2"
     },
     "Blind Ambition": {
-      "description": "<p><b>領域</b> 野心</p>\n<p>術者は目標の野心を強め、味方への恨みを強め、忠誠心を揺らがしやすくする。</p>\n<p>目標は意志セーヴを試みなければならない。</p>\n<p><b>大成功</b> 目標は効果を受けない。</p>\n<p><b>成功</b> 目標は“強制”、“要請”、精神効果を使用してなにかをさせようとする試み（@UUID[Compendium.pf2e.spells-srd.Item.qwlh6aDgi86U3Q7H]{サジェスチョン}など）に対するセーヴィング・スローやその他の防御に－1の状態ペナルティを受ける。このペナルティは目標が自分の野心を高めるように促されている場合にのみ適用される。</p>\n<p><b>失敗</b> 成功と同様だが、ペナルティは－2になる。</p>\n<p><b>大失敗</b> 目標は野心に駆られ、他のなによりも自分の目標を達成するために、例え説得されなくても何でも行動しようとする。</p>\n",
+      "description": "<p><b>領域</b> 野心</p>\n<p>術者は目標の野心を強め、味方への恨みを強め、忠誠心を揺らがしやすくする。</p>\n<p>目標は意志セーヴを試みなければならない。</p>\n<p><b>大成功</b> 目標は効果を受けない。</p>\n<p><b>成功</b> 目標は“強制”、“要請”、精神効果を使用してなにかをさせようとする試み（@UUID[Compendium.pf2e.spells-srd.Item.qwlh6aDgi86U3Q7H]{サジェスチョン}など）に対するセーヴィング・スローやその他の防御に－1のステータスペナルティを受ける。このペナルティは目標が自分の野心を高めるように促されている場合にのみ適用される。</p>\n<p><b>失敗</b> 成功と同様だが、ペナルティは－2になる。</p>\n<p><b>大失敗</b> 目標は野心に駆られ、他のなによりも自分の目標を達成するために、例え説得されなくても何でも行動しようとする。</p>\n",
       "name": "ブラインド・アンビション",
       "duration": "10分",
       "range": "60 ﾌｨｰﾄ",
@@ -1123,7 +1123,7 @@
     },
     "Diabolic Edict": {
       "name": "ダイアボリック・イーディクト",
-      "description": "\n<p>目標に特定の作業を実行することを要求し、その履行に対する報酬を提供するデヴィルの勅令を発する。目標は、作業の実行に関連する攻撃ロールと技能判定に＋1の状態ボーナスを得る。目標が術者の宣言した作業の実行を拒否した場合、目標は代わりに全ての攻撃ロールと技能判定に－1の状態ペナルティを受ける。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.1kelGCsoXyGRqMd9]</p>",
+      "description": "\n<p>目標に特定の作業を実行することを要求し、その履行に対する報酬を提供するデヴィルの勅令を発する。目標は、作業の実行に関連する攻撃ロールと技能判定に＋1のステータスボーナスを得る。目標が術者の宣言した作業の実行を拒否した場合、目標は代わりに全ての攻撃ロールと技能判定に－1のステータスペナルティを受ける。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.1kelGCsoXyGRqMd9]</p>",
       "duration": "1ラウンド",
       "target": "同意する生きているクリーチャー1体",
       "range": "30 ﾌｨｰﾄ",
@@ -1184,7 +1184,7 @@
     "Circle of Protection": {
       "name": "サークル・オヴ・プロテクション",
       "duration": "1分",
-      "description": "<p>クリーチャー1体とその近くにいる者を、指定した属性1つから保護する。悪、混沌、善、秩序からいずれか1つを選び、この呪文は反対側の特性を持つ。範囲内にいるクリーチャーは、選択した属性のクリーチャーによる攻撃に対するACと、そのクリーチャーによる効果に対するセーヴに、＋1の状態ボーナスを得る。このボーナスは、目標を直接支配するクリーチャーからの効果や、選択した属性の招来クリーチャーによる攻撃に対して＋3に増加する。選択した属性の招来クリーチャーは、意志セーヴに成功しなければその範囲内に自発的に侵入できない。</p><hr><p><b>高レベル化（4レベル）</b> 持続時間は1時間に伸びる。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.RawLEPwyT5CtCZ4D]</p>",
+      "description": "<p>クリーチャー1体とその近くにいる者を、指定した属性1つから保護する。悪、混沌、善、秩序からいずれか1つを選び、この呪文は反対側の特性を持つ。範囲内にいるクリーチャーは、選択した属性のクリーチャーによる攻撃に対するACと、そのクリーチャーによる効果に対するセーヴに、＋1のステータスボーナスを得る。このボーナスは、目標を直接支配するクリーチャーからの効果や、選択した属性の招来クリーチャーによる攻撃に対して＋3に増加する。選択した属性の招来クリーチャーは、意志セーヴに成功しなければその範囲内に自発的に侵入できない。</p><hr><p><b>高レベル化（4レベル）</b> 持続時間は1時間に伸びる。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.RawLEPwyT5CtCZ4D]</p>",
       "range": "接触",
       "time": "3"
     },
@@ -1192,7 +1192,7 @@
       "name": "ワイルディング・ワード",
       "range": "30 ﾌｨｰﾄ",
       "target": "動物、菌類、植物いずれか1体",
-      "description": "<p><b>守護者の主題</b> wild</p>\n<p>わずかな文言によって、術者は野生のクリーチャーに自分が同じ魂と納得させ、術者に危害を加えることを嫌がらせる。目標廃止セーヴを試みなければならない。結果に関わらず、目標は1分間一時的耐性を得る。</p>\n<p><b>大成功</b> 目標はなんの効果も受けない。</p><p><b>成功</b> 目標が術者に害を与える攻撃ロールあるいは技能判定を試みる際、目標はそのロールに－2の状態ペナルティを受ける。</p><p><b>失敗</b> 成功と同様だが、加えて目標は術者にダメージを与えるたびに@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{不調状態}1になる。</p><p><b>大失敗</b> 成功と同様だが、加えて目標は術者にダメージを与えるたびに@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{不調状態}2になる。</p>\n",
+      "description": "<p><b>守護者の主題</b> wild</p>\n<p>わずかな文言によって、術者は野生のクリーチャーに自分が同じ魂と納得させ、術者に危害を加えることを嫌がらせる。目標廃止セーヴを試みなければならない。結果に関わらず、目標は1分間一時的耐性を得る。</p>\n<p><b>大成功</b> 目標はなんの効果も受けない。</p><p><b>成功</b> 目標が術者に害を与える攻撃ロールあるいは技能判定を試みる際、目標はそのロールに－2のステータスペナルティを受ける。</p><p><b>失敗</b> 成功と同様だが、加えて目標は術者にダメージを与えるたびに@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{不調状態}1になる。</p><p><b>大失敗</b> 成功と同様だが、加えて目標は術者にダメージを与えるたびに@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{不調状態}2になる。</p>\n",
       "duration": "1分",
       "time": "1"
     },
@@ -1232,7 +1232,7 @@
       "range": "30 ﾌｨｰﾄ",
       "target": "同意するクリーチャー5体まで",
       "duration": "1分",
-      "description": "<p>目標に野生の相を帯びさせ、頑丈で野蛮にする。目標は一時的ヒット・ポイント5、移動速度に対する＋10フィートの状態ボーナス、銀に対する弱点5を得る。加えて目標には素手攻撃として使用できる凶悪な牙と爪が映える。牙は2d8の［刺突］ダメージを与える。爪は2d6の［斬撃］ダメージを与え、機敏と巧技の特性を持つ。目標はこれらの攻撃に最も高い武器攻撃習熟もしくは素手攻撃習熟を用いる。もし目標が武器開眼もしくは上級武器開眼を有しているなら、それらのダメージも加える。素手攻撃の一つがクリティカル・ヒット下なら、クリーチャーは1d4の持続［出血］ダメージを受ける。</p>\n<p>“捜す”を除き、目標は激怒特性を持たない精神集中アクションを使用できない。クリーチャーは1アクションを使用して自分に効果を発揮するこの呪文の効果を終了しようと試みることができる。このアクションは激怒特性を持ち、術者の呪文DCに対して意志セーヴを試みる。成功すれば、その目標に対する呪文の効果は終了する。</p>\n<p>目標が満月の光の中にいる場合、目標が中型かそれより小さい場合、1サイズ段階大きくなる。これにより、中型あるいは超小型のクリーチャーの間合いは5フィート伸びる。</p><hr><p><b>高レベル化（6レベル）</b> 一時的ヒット・ポイントは10に、銀に対する弱点は10に増加し、攻撃で与えるダメージのダイス数は3つになる。</p><p><b>高レベル化（10レベル）</b> 一時的ヒット・ポイントは20に、銀に対する弱点は20に増加し、攻撃で与えるダメージのダイス数は4つになる。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.zRKw95WMezr6TgiT]</p><p>@Damage[1d4[bleed]]</p>",
+      "description": "<p>目標に野生の相を帯びさせ、頑丈で野蛮にする。目標は一時的ヒット・ポイント5、移動速度に対する＋10フィートのステータスボーナス、銀に対する弱点5を得る。加えて目標には素手攻撃として使用できる凶悪な牙と爪が映える。牙は2d8の［刺突］ダメージを与える。爪は2d6の［斬撃］ダメージを与え、機敏と巧技の特性を持つ。目標はこれらの攻撃に最も高い武器攻撃習熟もしくは素手攻撃習熟を用いる。もし目標が武器開眼もしくは上級武器開眼を有しているなら、それらのダメージも加える。素手攻撃の一つがクリティカル・ヒット下なら、クリーチャーは1d4の持続［出血］ダメージを受ける。</p>\n<p>“捜す”を除き、目標は激怒特性を持たない精神集中アクションを使用できない。クリーチャーは1アクションを使用して自分に効果を発揮するこの呪文の効果を終了しようと試みることができる。このアクションは激怒特性を持ち、術者の呪文DCに対して意志セーヴを試みる。成功すれば、その目標に対する呪文の効果は終了する。</p>\n<p>目標が満月の光の中にいる場合、目標が中型かそれより小さい場合、1サイズ段階大きくなる。これにより、中型あるいは超小型のクリーチャーの間合いは5フィート伸びる。</p><hr><p><b>高レベル化（6レベル）</b> 一時的ヒット・ポイントは10に、銀に対する弱点は10に増加し、攻撃で与えるダメージのダイス数は3つになる。</p><p><b>高レベル化（10レベル）</b> 一時的ヒット・ポイントは20に、銀に対する弱点は20に増加し、攻撃で与えるダメージのダイス数は4つになる。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.zRKw95WMezr6TgiT]</p><p>@Damage[1d4[bleed]]</p>",
       "name": "ムーン・フレンジー",
       "time": "2"
     },
@@ -1301,7 +1301,7 @@
       "time": "2"
     },
     "Simulacrum": {
-      "description": "<p><b>主要判定</b> 〈秘術〉もしくは〈伝承学〉（達人、この判定は非公開特性を持つ）；<b>副次判定</b> 〈秘術〉、〈自然〉、〈伝承学〉、〈宗教〉、〈社会〉のいずれか（複製しようとするクリーチャーに対して“知識の想起”をするのに必要なもの）；〈製作〉；〈ペテン〉</p><p><b>目標</b> 生きているクリーチャー1体</p>\n<p>主要術者は氷や雪を目標の形に彫刻して自律行動させ、目標のクリーチャーの幻の複製を作成する。シミュレイクラムは特殊な能力を持たない4レベルのクリーチャーである。ロールを試みる必要がある場合やDCを使用する必要がある場合は、後述する場合を除き、モンスターとして適切な数値を使用する。シミュレイクラムは目標が持つ特定の記憶をもつわけではないが、いずれかの術者から得たクリーチャーの情報を使って目標に“@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{なりすます}”ことができる。シミュレイクラムは目標とまったく同じ姿であり、〈ペテン〉判定をロールした副次術者が同じクリーチャーに“@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{なりすます}”際の〈ペテン〉の修正値と同じ修正値を用い、＋4の状態ボーナスを得る。</p>\n<p>シミュレイクラムは竜のブレス攻撃のようなオリジナルの特殊能力は持っていないが、シミュレイクラムを構成する幻術により、それらの能力を使用しているように見せることができる。その場合、全く効果がないように見える。たとえば、シミュレイクラムの竜のブレス攻撃に対して、範囲内のすべてのクリーチャーはセーヴィング・スローで大成功してダメージを受けないように見えるだろう。クリーチャーは〈ペテン〉判定をロールした副次術者の〈ペテン〉DCに対して知覚判定を試み、成功すれば看破できる。</p>\n<p><b>大成功</b> 主要術者はシミュレイクラムに命を吹き込む。シミュレイクラムは手下の特性を持ち、主要術者の完璧な制御下にある。主要術者はシミュラクラムとの直接的な精神的リンクを獲得し、離れた場所にいても、このリンクを介してシミュレイクラムに命令するためにアクションを費やすことができる。</p><p><b>成功</b> 大成功と同様だが、主要術者とシミュレイクラムの間には特別なリンクはない。主要術者は声やその他の方法で、命令するためにアクションを消費しなければならない。</p><p><b>失敗</b> 儀式は失敗しなんの効果もない。</p><p><b>大失敗</b> シミュレイクラムは覚醒するが、主要術者の手下ではなく、すべての術者に敵対する。シミュレイクラムは術者を破壊するためにあらゆる手を尽くすが、すぐに殺せなければシミュレイクラムは逃げようとし、術者らが壊滅するよう計画を練る。</p>\n",
+      "description": "<p><b>主要判定</b> 〈秘術〉もしくは〈伝承学〉（達人、この判定は非公開特性を持つ）；<b>副次判定</b> 〈秘術〉、〈自然〉、〈伝承学〉、〈宗教〉、〈社会〉のいずれか（複製しようとするクリーチャーに対して“知識の想起”をするのに必要なもの）；〈製作〉；〈ペテン〉</p><p><b>目標</b> 生きているクリーチャー1体</p>\n<p>主要術者は氷や雪を目標の形に彫刻して自律行動させ、目標のクリーチャーの幻の複製を作成する。シミュレイクラムは特殊な能力を持たない4レベルのクリーチャーである。ロールを試みる必要がある場合やDCを使用する必要がある場合は、後述する場合を除き、モンスターとして適切な数値を使用する。シミュレイクラムは目標が持つ特定の記憶をもつわけではないが、いずれかの術者から得たクリーチャーの情報を使って目標に“@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{なりすます}”ことができる。シミュレイクラムは目標とまったく同じ姿であり、〈ペテン〉判定をロールした副次術者が同じクリーチャーに“@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{なりすます}”際の〈ペテン〉の修正値と同じ修正値を用い、＋4のステータスボーナスを得る。</p>\n<p>シミュレイクラムは竜のブレス攻撃のようなオリジナルの特殊能力は持っていないが、シミュレイクラムを構成する幻術により、それらの能力を使用しているように見せることができる。その場合、全く効果がないように見える。たとえば、シミュレイクラムの竜のブレス攻撃に対して、範囲内のすべてのクリーチャーはセーヴィング・スローで大成功してダメージを受けないように見えるだろう。クリーチャーは〈ペテン〉判定をロールした副次術者の〈ペテン〉DCに対して知覚判定を試み、成功すれば看破できる。</p>\n<p><b>大成功</b> 主要術者はシミュレイクラムに命を吹き込む。シミュレイクラムは手下の特性を持ち、主要術者の完璧な制御下にある。主要術者はシミュラクラムとの直接的な精神的リンクを獲得し、離れた場所にいても、このリンクを介してシミュレイクラムに命令するためにアクションを費やすことができる。</p><p><b>成功</b> 大成功と同様だが、主要術者とシミュレイクラムの間には特別なリンクはない。主要術者は声やその他の方法で、命令するためにアクションを消費しなければならない。</p><p><b>失敗</b> 儀式は失敗しなんの効果もない。</p><p><b>大失敗</b> シミュレイクラムは覚醒するが、主要術者の手下ではなく、すべての術者に敵対する。シミュレイクラムは術者を破壊するためにあらゆる手を尽くすが、すぐに殺せなければシミュレイクラムは逃げようとし、術者らが壊滅するよう計画を練る。</p>\n",
       "target": "生きているクリーチャー1体",
       "name": "シミュレイクラム",
       "time": "1日",
@@ -1363,7 +1363,7 @@
     },
     "Tailwind": {
       "duration": "1時間",
-      "description": "<p>術者は限界を超えて自身の歩幅を広くする。術者は移動速度に＋10フィートの状態ボーナスを得る。</p><hr><p><b>高レベル化（2レベル）</b> 持続時間が8時間に増加する。</p>",
+      "description": "<p>術者は限界を超えて自身の歩幅を広くする。術者は移動速度に＋10フィートのステータスボーナスを得る。</p><hr><p><b>高レベル化（2レベル）</b> 持続時間が8時間に増加する。</p>",
       "name": "ロングストライダー"
     },
     "Feather Fall": {
@@ -1376,7 +1376,7 @@
     },
     "Divine Vessel": {
       "name": "ディヴァイン・ヴェッスル",
-      "description": "<p>術者はその体に異世界のエネルギーを受け入れる。術者は自分のことを把握しているが、神格の使いとしての特徴を得る。神格の属性（悪、混沌、善、秩序）から1つを選択する。神格を有していないか、神格が真なる中立の場合、術者はこの呪文を発動できない。この呪文は選択した属性の特性を得る。</p>\n<p>術者が中型かそれより小さい場合、術者は大型になり、@UUID[Compendium.pf2e.spells-srd.Item.wzctak6BxOW8xvFV]{エンラージ}の効果を得る。拡大するのに十分な空間がなければならず、そうでない場合呪文は失われる。加えて、術者は以下の利益を得る。</p>\n<li>一時的ヒット・ポイント40。</li>\n<li>術者の移動速度に等しい飛行移動速度。</li>\n<li>選択した属性に対立する属性に対する弱点10。</li>\n<li>呪文に対するセーヴに＋1の状態ボーナス。</li>\n<li>暗視。</li>\n<li>術者の素手攻撃と武器は、追加で1の選択した属性種別のダメージを与える。</li>\n<li>1つ以上の素手近接攻撃。術者が全もしくは秩序を選択したなら、それは拳による攻撃で2d8のダメージを与える。術者が混沌を選んだなら、術者は2d10の［刺突］ダメージを与える1回の噛みつき素手攻撃を得る。術者が悪を選んだなら、術者は機敏と巧技の特性を持つ2d8の［斬撃］ダメージを与える爪による1回の素手攻撃を得る。</li>\n<hr><p><b>高レベル化（9レベル）</b> 一時的ヒット・ポイントは60に、弱点は15に増え、持続時間は10分に伸びる。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.GDzn5DToE62ZOTrP]</p><p>@UUID[Compendium.pf2e.spell-effects.Item.dIftJU6Ki2QSLCOD]</p>",
+      "description": "<p>術者はその体に異世界のエネルギーを受け入れる。術者は自分のことを把握しているが、神格の使いとしての特徴を得る。神格の属性（悪、混沌、善、秩序）から1つを選択する。神格を有していないか、神格が真なる中立の場合、術者はこの呪文を発動できない。この呪文は選択した属性の特性を得る。</p>\n<p>術者が中型かそれより小さい場合、術者は大型になり、@UUID[Compendium.pf2e.spells-srd.Item.wzctak6BxOW8xvFV]{エンラージ}の効果を得る。拡大するのに十分な空間がなければならず、そうでない場合呪文は失われる。加えて、術者は以下の利益を得る。</p>\n<li>一時的ヒット・ポイント40。</li>\n<li>術者の移動速度に等しい飛行移動速度。</li>\n<li>選択した属性に対立する属性に対する弱点10。</li>\n<li>呪文に対するセーヴに＋1のステータスボーナス。</li>\n<li>暗視。</li>\n<li>術者の素手攻撃と武器は、追加で1の選択した属性種別のダメージを与える。</li>\n<li>1つ以上の素手近接攻撃。術者が全もしくは秩序を選択したなら、それは拳による攻撃で2d8のダメージを与える。術者が混沌を選んだなら、術者は2d10の［刺突］ダメージを与える1回の噛みつき素手攻撃を得る。術者が悪を選んだなら、術者は機敏と巧技の特性を持つ2d8の［斬撃］ダメージを与える爪による1回の素手攻撃を得る。</li>\n<hr><p><b>高レベル化（9レベル）</b> 一時的ヒット・ポイントは60に、弱点は15に増え、持続時間は10分に伸びる。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.GDzn5DToE62ZOTrP]</p><p>@UUID[Compendium.pf2e.spell-effects.Item.dIftJU6Ki2QSLCOD]</p>",
       "duration": "1分",
       "time": "2"
     },
@@ -1387,7 +1387,7 @@
     },
     "Discern Secrets": {
       "name": "ディサーン・シークレッツ",
-      "description": "<p><b>守護者の主題</b> 刻印</p><p><b>持続時間</b> 維持、1分まで</p>\n<p>術者は守護者の力を呼び下ろし、秘密をより良く暴こうとする。術者が“呪文発動”する際、目標は“@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{知識の想起}”、“@UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{捜す}”、“@UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw]{真意看破}”のいずれかを行うことができる。目標はこのロールに使用した技能もしくは知覚に＋1の状態ボーナスを得、このボーナスは術者が“呪文の維持”を続ける限り持続する。目標は1分間、ディサーン・シークレッツに対して一時的耐性を得る。</p><hr><p><b>高レベル化（5レベル）</b> 術者はクリーチャー1体ではなく2体を目標にすることができる。</p>\n<p>@UUID[Compendium.pf2e.actionspf2e.Item.3f5DMFu8fPiqHpRg]</p><p>@UUID[Compendium.pf2e.spell-effects.Item.hdOb5Iu6Zd3pHoGI]</p><p>@UUID[Compendium.pf2e.spell-effects.Item.m1tQTBrolf7uZBW0]</p><p>@UUID[Compendium.pf2e.spell-effects.Item.dEsaufFnfYihu5Ex]</p>",
+      "description": "<p><b>守護者の主題</b> 刻印</p><p><b>持続時間</b> 維持、1分まで</p>\n<p>術者は守護者の力を呼び下ろし、秘密をより良く暴こうとする。術者が“呪文発動”する際、目標は“@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{知識の想起}”、“@UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{捜す}”、“@UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw]{真意看破}”のいずれかを行うことができる。目標はこのロールに使用した技能もしくは知覚に＋1のステータスボーナスを得、このボーナスは術者が“呪文の維持”を続ける限り持続する。目標は1分間、ディサーン・シークレッツに対して一時的耐性を得る。</p><hr><p><b>高レベル化（5レベル）</b> 術者はクリーチャー1体ではなく2体を目標にすることができる。</p>\n<p>@UUID[Compendium.pf2e.actionspf2e.Item.3f5DMFu8fPiqHpRg]</p><p>@UUID[Compendium.pf2e.spell-effects.Item.hdOb5Iu6Zd3pHoGI]</p><p>@UUID[Compendium.pf2e.spell-effects.Item.m1tQTBrolf7uZBW0]</p><p>@UUID[Compendium.pf2e.spell-effects.Item.dEsaufFnfYihu5Ex]</p>",
       "duration": "1分",
       "target": "クリーチャー1体",
       "range": "30 ﾌｨｰﾄ",
@@ -1421,7 +1421,7 @@
     "Zealous Conviction": {
       "name": "ゼラス・コンヴィクション",
       "duration": "10分",
-      "description": "<p>術者は目標の理性的な思考を迂回して、揺るぎない信念と熱意を植え付ける。目標はそれぞれ一時的ヒット・ポイント12と精神効果に対する意志セーヴに＋2の状態ボーナスを得る。これは目標の信仰が自身の身体と精神からの信号を上書きするためである。しかし、通常なら嫌悪感を抱くようなことであっても、ターン終了時に認知的不協和のためにウィルセーブを試みることができる。成功した場合、その呪文の効果は完全に終了する。術者が何かをするように指示した場合、目標は術者の要求に従わなければならない。しかし、通常なら嫌悪感を抱くような作業であれば、認知の不協和が起きて、毎ターンの終了時に意志セーヴを試みることができる。成功した場合、その呪文の効果は完全に終了する。</p><hr><p><b>高レベル化（9レベル）</b> 一時的ヒット・ポイントは18に増加し、意志セーヴへの状態ボーナスは＋3に増加する。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.nemThuhp3praALY6]</p>",
+      "description": "<p>術者は目標の理性的な思考を迂回して、揺るぎない信念と熱意を植え付ける。目標はそれぞれ一時的ヒット・ポイント12と精神効果に対する意志セーヴに＋2のステータスボーナスを得る。これは目標の信仰が自身の身体と精神からの信号を上書きするためである。しかし、通常なら嫌悪感を抱くようなことであっても、ターン終了時に認知的不協和のためにウィルセーブを試みることができる。成功した場合、その呪文の効果は完全に終了する。術者が何かをするように指示した場合、目標は術者の要求に従わなければならない。しかし、通常なら嫌悪感を抱くような作業であれば、認知の不協和が起きて、毎ターンの終了時に意志セーヴを試みることができる。成功した場合、その呪文の効果は完全に終了する。</p><hr><p><b>高レベル化（9レベル）</b> 一時的ヒット・ポイントは18に増加し、意志セーヴへのステータスボーナスは＋3に増加する。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.nemThuhp3praALY6]</p>",
       "target": "同意すつクリーチャー10体まで",
       "range": "30 ﾌｨｰﾄ",
       "time": "2"
@@ -1443,14 +1443,14 @@
     "Bane": {
       "target": "効果範囲内にいる敵それぞれ",
       "duration": "1分",
-      "description": "<p>術者は敵の心を疑心暗鬼で満たす。意志セーヴに失敗した目標は、範囲内にいる限り攻撃ロールに－1の状態ペナルティを受ける。ターン毎に1回、術者がベインを発動した後のターンの開始時に、術者は精神集中の特性を持つ1アクションを消費することで、放射の半径を5フィート増加して、範囲内にいてまだ効果を受けていない敵に再度セーヴィング・スローを試みさせることができる。ベインは@UUID[Compendium.pf2e.spells-srd.Item.XSujb7EsSwKl19Uu]{ブレス}を無効化できる。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.UTLp7omqsiC36bso]</p>",
+      "description": "<p>術者は敵の心を疑心暗鬼で満たす。意志セーヴに失敗した目標は、範囲内にいる限り攻撃ロールに－1のステータスペナルティを受ける。ターン毎に1回、術者がベインを発動した後のターンの開始時に、術者は精神集中の特性を持つ1アクションを消費することで、放射の半径を5フィート増加して、範囲内にいてまだ効果を受けていない敵に再度セーヴィング・スローを試みさせることができる。ベインは@UUID[Compendium.pf2e.spells-srd.Item.XSujb7EsSwKl19Uu]{ブレス}を無効化できる。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.UTLp7omqsiC36bso]</p>",
       "name": "ベイン",
       "time": "2"
     },
     "Song of Strength": {
       "name": "ソング・オヴ・ストレンクス",
       "duration": "1ラウンド",
-      "description": "<p><b>範囲</b> 60フィートの放射</p><p><b>持続時間</b> 1ラウンド</p>\n<p>術者は心のこもった激励で味方の肉体的な強さを強化する。術者とその味方は〈運動〉判定と〈運動〉アクション（“@UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{武器落とし}”、“@UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{突き飛ばし}”、“@UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{足払い}”など）に対するDCに＋1の状態ボーナスを得る。</p>\n<p><b>特殊</b> 術者が@UUID[Compendium.pf2e.spells-srd.Item.kF0rs9mCPvJGfAZE]{インスパイアー・ヒロイックス}奏演呪文を持つなら、術者はソング・オヴ・ストレンクスで与えられるボーナスを増加するためにこの奏演を使用できる。これはちょうど、インスパイアー・カレッジやインスパイアー・ディフェンスを強化するのと同様に機能する。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.8adLKKzJy49USYJt]</p><p>@UUID[Compendium.pf2e.spell-effects.Item.Fjnm1l59KH5YJ7G9]</p><p>@UUID[Compendium.pf2e.spell-effects.Item.8XaSpienzVXLmcfp]</p>",
+      "description": "<p><b>範囲</b> 60フィートの放射</p><p><b>持続時間</b> 1ラウンド</p>\n<p>術者は心のこもった激励で味方の肉体的な強さを強化する。術者とその味方は〈運動〉判定と〈運動〉アクション（“@UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{武器落とし}”、“@UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{突き飛ばし}”、“@UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{足払い}”など）に対するDCに＋1のステータスボーナスを得る。</p>\n<p><b>特殊</b> 術者が@UUID[Compendium.pf2e.spells-srd.Item.kF0rs9mCPvJGfAZE]{インスパイアー・ヒロイックス}奏演呪文を持つなら、術者はソング・オヴ・ストレンクスで与えられるボーナスを増加するためにこの奏演を使用できる。これはちょうど、インスパイアー・カレッジやインスパイアー・ディフェンスを強化するのと同様に機能する。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.8adLKKzJy49USYJt]</p><p>@UUID[Compendium.pf2e.spell-effects.Item.Fjnm1l59KH5YJ7G9]</p><p>@UUID[Compendium.pf2e.spell-effects.Item.8XaSpienzVXLmcfp]</p>",
       "time": "1"
     },
     "Augury": {
@@ -1549,7 +1549,7 @@
       "name": "シナスシージャ",
       "range": "30 ﾌｨｰﾄ",
       "target": "クリーチャー1体",
-      "description": "<p>目標の感覚は突然予期せぬ形で配線され直し、騒音を色の爆発として、匂いを音として処理するようになる。これには3つの効果があり、目標は意志セーヴを試みなければならない。</p>\n<li>注意力が散漫になるため、目標は精神集中アクションを行うたびにDC5の平目判定に成功しなければならず、そうでなければアクションは失敗し、無駄になる。</li>\n<li>目標は視覚入力の処理をするのが難しくなり、すべてのクリーチャーと物体は目標から@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{視認困難状態}になる。</li>\n<li>クリーチャーは移動が困難になる。その結果@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{よたつき状態3}になり、その移動速度に－10フィートの状態ペナルティを受ける。</li>\n<p><b>大成功</b> 目標はなんの効果も受けない。</p>\n<p><b>成功</b> 目標は1ラウンドの間この効果を受ける。</p>\n<p><b>失敗</b> 目標は1分間この効果を受ける。</p>\n<p><b>大失敗</b> 失敗と同様だが、目標は感覚の変化を処理しようと試みてしまい、@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{朦朧状態}2になる。</p><hr><p><b>高レベル化（9レベル）</b> 術者はクリーチャー5体までを目標にできる。</p>\n<p>@Check[type:flat|dc:5]</p>",
+      "description": "<p>目標の感覚は突然予期せぬ形で配線され直し、騒音を色の爆発として、匂いを音として処理するようになる。これには3つの効果があり、目標は意志セーヴを試みなければならない。</p>\n<li>注意力が散漫になるため、目標は精神集中アクションを行うたびにDC5の平目判定に成功しなければならず、そうでなければアクションは失敗し、無駄になる。</li>\n<li>目標は視覚入力の処理をするのが難しくなり、すべてのクリーチャーと物体は目標から@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{視認困難状態}になる。</li>\n<li>クリーチャーは移動が困難になる。その結果@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{よたつき状態3}になり、その移動速度に－10フィートのステータスペナルティを受ける。</li>\n<p><b>大成功</b> 目標はなんの効果も受けない。</p>\n<p><b>成功</b> 目標は1ラウンドの間この効果を受ける。</p>\n<p><b>失敗</b> 目標は1分間この効果を受ける。</p>\n<p><b>大失敗</b> 失敗と同様だが、目標は感覚の変化を処理しようと試みてしまい、@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{朦朧状態}2になる。</p><hr><p><b>高レベル化（9レベル）</b> 術者はクリーチャー5体までを目標にできる。</p>\n<p>@Check[type:flat|dc:5]</p>",
       "duration": "1分",
       "time": "2"
     },
@@ -1562,7 +1562,7 @@
     },
     "Blanket Of Stars": {
       "name": "ブランケット・オヴ・スターズ",
-      "description": "<p>真っ暗な流れるような外套が術者を包む。この外套は遠くの星のような光の針で満たされている。この外套は宇宙の静けさを与え、術者が行う“@UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{隠れ身}”と“忍び足”における〈隠密〉判定に＋2の状態ボーナスを与える。術者が星空の下で外にいる間、動かない間@UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{不可視状態}になる。術者が星空の下を移動すると、代わりに隠れた状態になる。</p>\n<p>外套の星を見つめすぎると方向感覚が失われる。術者に隣接してターンを終了するクリーチャーは、意志セーヴを試みなければならない。これは精神かつ視覚効果である。</p>\n<p><b>成功</b> クリーチャーはなんの効果も受けない。</p><p><b>失敗</b> 次のクリーチャーのターンの終了時まで、クリーチャーは@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目が眩んだ状態}になる。</p><p><b>大失敗</b> 次のクリーチャーのターンの終了時まで、クリーチャーは@UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{混乱状態}かつ@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目が眩んだ状態}になる。</p>\n",
+      "description": "<p>真っ暗な流れるような外套が術者を包む。この外套は遠くの星のような光の針で満たされている。この外套は宇宙の静けさを与え、術者が行う“@UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{隠れ身}”と“忍び足”における〈隠密〉判定に＋2のステータスボーナスを与える。術者が星空の下で外にいる間、動かない間@UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{不可視状態}になる。術者が星空の下を移動すると、代わりに隠れた状態になる。</p>\n<p>外套の星を見つめすぎると方向感覚が失われる。術者に隣接してターンを終了するクリーチャーは、意志セーヴを試みなければならない。これは精神かつ視覚効果である。</p>\n<p><b>成功</b> クリーチャーはなんの効果も受けない。</p><p><b>失敗</b> 次のクリーチャーのターンの終了時まで、クリーチャーは@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目が眩んだ状態}になる。</p><p><b>大失敗</b> 次のクリーチャーのターンの終了時まで、クリーチャーは@UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{混乱状態}かつ@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目が眩んだ状態}になる。</p>\n",
       "duration": "10分",
       "time": "2"
     },
@@ -1634,7 +1634,7 @@
       "time": "3"
     },
     "Gravity Weapon": {
-      "description": "<p><b>持続時間</b> 1分</p>\n<p>術者は重力の力を集めて自分の攻撃に集め、刃と弓の両方で通常より強力な攻撃を行えるようになる。各ラウンドの最初の武器“打撃”において、術者は武器ダメージ・ダイス数の2倍に等しい状態ボーナスをダメージに対して得る。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.tNjimcyUwn8afeH6]</p>",
+      "description": "<p><b>持続時間</b> 1分</p>\n<p>術者は重力の力を集めて自分の攻撃に集め、刃と弓の両方で通常より強力な攻撃を行えるようになる。各ラウンドの最初の武器“打撃”において、術者は武器ダメージ・ダイス数の2倍に等しいステータスボーナスをダメージに対して得る。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.tNjimcyUwn8afeH6]</p>",
       "duration": "1分",
       "name": "グラヴィティ・ウェポン",
       "time": "1"
@@ -1746,7 +1746,7 @@
       "time": "2"
     },
     "Safe Passage": {
-      "description": "<p>術者は周囲からの危険をはねのけ、選んだ場所を短時間なら安全に通過できるようにする。この範囲を通過するものは、環境ダメージ、障害地形、範囲内の障害など、地形や環境による有害な効果に対して以下の利益を得る。この呪文はそのような効果に対するACとセーヴに＋2の状態ボーナスを与え、そのような効果によるすべてのダメージに対する抵抗5を与える。加えて、この呪文は、その種別の通常の構造物を崩壊させるような極度の負担がかかった場合を除き、ガタガタの橋や不安定な天井など、崩壊しやすい場所にあるものの崩壊を防ぐ。</p>\n<p>セーフ・パッセージは害からのみ保護され、不便さから守ることはない。移動困難地形を緩和したり、降水などによる@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{視認困難状態}を除去したり、呪文の範囲内のクリーチャーから保護したりすることはない。</p><hr><p><b>高レベル化（5レベル）</b> 与えられる抵抗は10に増加し、範囲は長さ120フィートに広がる。</p><p><b>高レベル化（8レベル）</b> 与えられる抵抗は15に増加し、範囲は長さ500フィートに広がる。</p>\n",
+      "description": "<p>術者は周囲からの危険をはねのけ、選んだ場所を短時間なら安全に通過できるようにする。この範囲を通過するものは、環境ダメージ、障害地形、範囲内の障害など、地形や環境による有害な効果に対して以下の利益を得る。この呪文はそのような効果に対するACとセーヴに＋2のステータスボーナスを与え、そのような効果によるすべてのダメージに対する抵抗5を与える。加えて、この呪文は、その種別の通常の構造物を崩壊させるような極度の負担がかかった場合を除き、ガタガタの橋や不安定な天井など、崩壊しやすい場所にあるものの崩壊を防ぐ。</p>\n<p>セーフ・パッセージは害からのみ保護され、不便さから守ることはない。移動困難地形を緩和したり、降水などによる@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{視認困難状態}を除去したり、呪文の範囲内のクリーチャーから保護したりすることはない。</p><hr><p><b>高レベル化（5レベル）</b> 与えられる抵抗は10に増加し、範囲は長さ120フィートに広がる。</p><p><b>高レベル化（8レベル）</b> 与えられる抵抗は15に増加し、範囲は長さ500フィートに広がる。</p>\n",
       "duration": "1分",
       "range": "接触",
       "name": "セーフ・パッセージ",
@@ -1817,7 +1817,7 @@
     },
     "Zone of Truth": {
       "range": "30 ﾌｨｰﾄ",
-      "description": "<p>術者は、クリーチャーが真実のみを話さなければならなくなる範囲を指定する。その範囲内にいる、あるいは範囲内に侵入したクリーチャーは嘘をつくことが難しくなる。影響を受ける可能性のあるクリーチャーは、この呪文が発動されたとき、またはそのクリーチャーが最初にその範囲内に入ったときに、それぞれ意志セーヴを試みなければならない。その範囲から出たり再び侵入したりする際には、この最初のセーヴの結果を使用する。影響を受けたクリーチャーはこの魔法に気付く。そのため、通常なら嘘を答えるような質問への回答を避けたり、また真実の範囲内のみを話すようにすることができる。</p>\n<p><b>大成功</b> 目標はなんの効果も受けない。</p>\n<p><b>成功</b> 目標は〈ペテン〉判定に－2の状態ペナルティを受ける。</p>\n<p><b>失敗</b> 目標は意識的、作為的な嘘をつくことが一切できなくなり、〈ペテン〉判定に－2の状態ペナルティを受ける。</p>\n<p><b>大失敗</b> 目標は意識的、作為的な嘘をつくことが一切できなくなり、〈ペテン〉判定に－4の状態ペナルティを受ける。</p>\n",
+      "description": "<p>術者は、クリーチャーが真実のみを話さなければならなくなる範囲を指定する。その範囲内にいる、あるいは範囲内に侵入したクリーチャーは嘘をつくことが難しくなる。影響を受ける可能性のあるクリーチャーは、この呪文が発動されたとき、またはそのクリーチャーが最初にその範囲内に入ったときに、それぞれ意志セーヴを試みなければならない。その範囲から出たり再び侵入したりする際には、この最初のセーヴの結果を使用する。影響を受けたクリーチャーはこの魔法に気付く。そのため、通常なら嘘を答えるような質問への回答を避けたり、また真実の範囲内のみを話すようにすることができる。</p>\n<p><b>大成功</b> 目標はなんの効果も受けない。</p>\n<p><b>成功</b> 目標は〈ペテン〉判定に－2のステータスペナルティを受ける。</p>\n<p><b>失敗</b> 目標は意識的、作為的な嘘をつくことが一切できなくなり、〈ペテン〉判定に－2のステータスペナルティを受ける。</p>\n<p><b>大失敗</b> 目標は意識的、作為的な嘘をつくことが一切できなくなり、〈ペテン〉判定に－4のステータスペナルティを受ける。</p>\n",
       "duration": "10分",
       "name": "ゾーン・オヴ・トゥルース",
       "time": "2"
@@ -1880,7 +1880,7 @@
       "range": "30 ﾌｨｰﾄ",
       "target": "扉1つ、錠1つ、または容器1つ",
       "duration": "1分",
-      "description": "<p>術者は目標を開けやすくする。ノックは〈運動〉あるいは〈盗賊〉判定を用いて目標の扉、錠、容器を開けようと試みるクリーチャーに＋4の状態ボーナスを与える。術者はノックの発動の一部として〈盗賊〉判定で目標を開けようと試みることができる。このとき、術者は未修得であっても自分のレベルを加える。</p>\n<p>ノックは@UUID[Compendium.pf2e.spells-srd.Item.Azoh0BSoCASrA1lr]{ロック}を無効化する。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.OSapCU8heNHst21y]</p>",
+      "description": "<p>術者は目標を開けやすくする。ノックは〈運動〉あるいは〈盗賊〉判定を用いて目標の扉、錠、容器を開けようと試みるクリーチャーに＋4のステータスボーナスを与える。術者はノックの発動の一部として〈盗賊〉判定で目標を開けようと試みることができる。このとき、術者は未修得であっても自分のレベルを加える。</p>\n<p>ノックは@UUID[Compendium.pf2e.spells-srd.Item.Azoh0BSoCASrA1lr]{ロック}を無効化する。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.OSapCU8heNHst21y]</p>",
       "time": "2"
     },
     "Fear": {
@@ -1976,7 +1976,7 @@
       "duration": "1時間"
     },
     "Veil of Dreams": {
-      "description": "<p><b>訓戒</b> 夢の訓戒</p>\n<p>術者は目標を夢心地に引き込み、白昼夢を見たり動きが鈍くなったりする。目標廃止セーヴを試みなければならない。</p>\n<p><b>大成功</b> 目標はなんの効果も受けない。</p><p><b>成功</b> 目標は知覚、攻撃ロール、意志セーヴに－1の状態ペナルティを受ける。このペナルティは睡眠効果に対する意志セーヴに対しては－2に増加する。</p><p><b>失敗</b> 成功と同様だが、目標が精神集中アクションを使用するたび、目標はDC5の平目判定に成功しなければアクションは妨害される。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.hkLhZsH3T6jc9S1y]</p><p>@Check[type:flat|dc:5]</p>",
+      "description": "<p><b>訓戒</b> 夢の訓戒</p>\n<p>術者は目標を夢心地に引き込み、白昼夢を見たり動きが鈍くなったりする。目標廃止セーヴを試みなければならない。</p>\n<p><b>大成功</b> 目標はなんの効果も受けない。</p><p><b>成功</b> 目標は知覚、攻撃ロール、意志セーヴに－1のステータスペナルティを受ける。このペナルティは睡眠効果に対する意志セーヴに対しては－2に増加する。</p><p><b>失敗</b> 成功と同様だが、目標が精神集中アクションを使用するたび、目標はDC5の平目判定に成功しなければアクションは妨害される。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.hkLhZsH3T6jc9S1y]</p><p>@Check[type:flat|dc:5]</p>",
       "duration": "1分",
       "range": "30 ﾌｨｰﾄ",
       "target": "クリーチャー1体",
@@ -2040,13 +2040,13 @@
     "Nymph's Token": {
       "name": "ニンフズ・トークン",
       "duration": "1分",
-      "description": "<p><b>血脈</b> ニンフ</p><p><b>持続時間</b> 1分</p>\n<p>術者は味方1体に高位の証を与える。術者は髪一房や花といった証を1つ作り出す。これは呪文の持続時間の間存在し続ける。“呪文発動”の一部として、術者はこの証を間合い内の味方1体に渡すために“@UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{扱う}”を行える。味方が証を所持している限り、味方は〈芸能〉判定と意志セーヴに＋1の状態ボーナスを得る。術者はフリー・アクションとしてこの呪文を“@UUID[Compendium.pf2e.actionspf2e.Item.AjLSHZSWQ90exdLo]{解除}”できる。</p><hr><p><b>高レベル化（4レベル）</b> 味方が証を所持している限り、術者は30フィートの距離をもつ呪文として接触の呪文を好み方に発動できる。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.zjFN1cJEl3AMKiVs]</p>",
+      "description": "<p><b>血脈</b> ニンフ</p><p><b>持続時間</b> 1分</p>\n<p>術者は味方1体に高位の証を与える。術者は髪一房や花といった証を1つ作り出す。これは呪文の持続時間の間存在し続ける。“呪文発動”の一部として、術者はこの証を間合い内の味方1体に渡すために“@UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{扱う}”を行える。味方が証を所持している限り、味方は〈芸能〉判定と意志セーヴに＋1のステータスボーナスを得る。術者はフリー・アクションとしてこの呪文を“@UUID[Compendium.pf2e.actionspf2e.Item.AjLSHZSWQ90exdLo]{解除}”できる。</p><hr><p><b>高レベル化（4レベル）</b> 味方が証を所持している限り、術者は30フィートの距離をもつ呪文として接触の呪文を好み方に発動できる。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.zjFN1cJEl3AMKiVs]</p>",
       "time": "2"
     },
     "Divine Aura": {
       "name": "ディヴァイン・オーラ",
       "target": "範囲内の各味方",
-      "description": "<p>信仰の力が目標を守り、範囲内にいる間ACとセーヴに＋1の状態ボーナスを得る。</p>\n<p>進行の持つ属性（悪、混沌、善、秩序）を1つ選択する。術者が神格を持たないか神格が真なる中立の場合、術者はこの呪文を発動できない。この呪文は選択した属性の特性を持つ。この呪文に対立する属性（混沌を選んだなら秩序、善を選んだなら悪）を持つクリーチャーによる攻撃とそのようなクリーチャーが生み出した効果に対して、この呪文が与えるボーナスは＋2に増加する。これらのボーナスはこのようなクリーチャーが生み出したディヴァイン・オーラの目標を@UUID[Compendium.pf2e.conditionitems.Item.9qGBRpbX9NEwtAAr]{支配状態}にしようとする効果と、ディヴァイン・オーラ除くせいに対立するものに招来されたクリーチャーによる攻撃に対しては＋4に増加する。</p>\n<p>対立属性のクリーチャーの近接攻撃が目標に命中した場合、そのクリーチャーは意志セーヴを行わねばならず、失敗すると1分の間@UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{盲目状態}になる。その後、そのクリーチャーは1分の間一時的耐性を得る。</p>\n<p>毎ラウンドこの呪文に対する“呪文の維持”を行うたび、ディヴァイン・オーラの半径は10フィート広がる。</p>\n",
+      "description": "<p>信仰の力が目標を守り、範囲内にいる間ACとセーヴに＋1のステータスボーナスを得る。</p>\n<p>進行の持つ属性（悪、混沌、善、秩序）を1つ選択する。術者が神格を持たないか神格が真なる中立の場合、術者はこの呪文を発動できない。この呪文は選択した属性の特性を持つ。この呪文に対立する属性（混沌を選んだなら秩序、善を選んだなら悪）を持つクリーチャーによる攻撃とそのようなクリーチャーが生み出した効果に対して、この呪文が与えるボーナスは＋2に増加する。これらのボーナスはこのようなクリーチャーが生み出したディヴァイン・オーラの目標を@UUID[Compendium.pf2e.conditionitems.Item.9qGBRpbX9NEwtAAr]{支配状態}にしようとする効果と、ディヴァイン・オーラ除くせいに対立するものに招来されたクリーチャーによる攻撃に対しては＋4に増加する。</p>\n<p>対立属性のクリーチャーの近接攻撃が目標に命中した場合、そのクリーチャーは意志セーヴを行わねばならず、失敗すると1分の間@UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{盲目状態}になる。その後、そのクリーチャーは1分の間一時的耐性を得る。</p>\n<p>毎ラウンドこの呪文に対する“呪文の維持”を行うたび、ディヴァイン・オーラの半径は10フィート広がる。</p>\n",
       "duration": "1分",
       "time": "2"
     },
@@ -2315,7 +2315,7 @@
       "name": "カーム・エモーションズ",
       "duration": "1分",
       "range": "120 ﾌｨｰﾄ",
-      "description": "<p>術者は周囲のクリーチャーを強制的に落ち着かせ、暴力を好まない状態にする。各クリーチャーは意志セーヴを試みなければならない。</p>\n<p><b>大成功</b> クリーチャーはなんの効果も受けない。</p>\n<p><b>成功</b> 鎮静衝動により、クリーチャーの攻撃ロールは－1の状態ペナルティを受ける。</p>\n<p><b>失敗</b> クリーチャーに効果を及ぼす感情効果は抑止され、クリーチャーは敵対的なアクションを使用できない。</p><p>目標が他のクリーチャーから敵意の目標になったなら、カーム・エモーションズの効果は失われる。</p>\n<p><b>大失敗</b> 失敗と同様だが、敵意はこの効果を終了させない。</p>",
+      "description": "<p>術者は周囲のクリーチャーを強制的に落ち着かせ、暴力を好まない状態にする。各クリーチャーは意志セーヴを試みなければならない。</p>\n<p><b>大成功</b> クリーチャーはなんの効果も受けない。</p>\n<p><b>成功</b> 鎮静衝動により、クリーチャーの攻撃ロールは－1のステータスペナルティを受ける。</p>\n<p><b>失敗</b> クリーチャーに効果を及ぼす感情効果は抑止され、クリーチャーは敵対的なアクションを使用できない。</p><p>目標が他のクリーチャーから敵意の目標になったなら、カーム・エモーションズの効果は失われる。</p>\n<p><b>大失敗</b> 失敗と同様だが、敵意はこの効果を終了させない。</p>",
       "time": "2"
     },
     "Divine Decree": {
@@ -2334,7 +2334,7 @@
     },
     "Death Knell": {
       "name": "デス・ネル",
-      "description": "<p>術者は死に至ろうとするクリーチャーから生命をかすめ取る。目標は意志セーヴを試みなければならない。この効果で目標が死亡したなら、術者は10分の間、一時的ヒット・ポイント10に加え、攻撃ロールとダメージ・ロールに＋1の状態ボーナスを得る。</p>\n<p><b>大成功</b> 目標はなんの効果も受けない。</p>\n<p><b>成功</b> 目標の@UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1]{瀕死状態}値は1だけ増加する。</p>\n<p><b>失敗</b> 目標は死亡する。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.98XT2QUk6wvXIqf7]</p>",
+      "description": "<p>術者は死に至ろうとするクリーチャーから生命をかすめ取る。目標は意志セーヴを試みなければならない。この効果で目標が死亡したなら、術者は10分の間、一時的ヒット・ポイント10に加え、攻撃ロールとダメージ・ロールに＋1のステータスボーナスを得る。</p>\n<p><b>大成功</b> 目標はなんの効果も受けない。</p>\n<p><b>成功</b> 目標の@UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1]{瀕死状態}値は1だけ増加する。</p>\n<p><b>失敗</b> 目標は死亡する。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.98XT2QUk6wvXIqf7]</p>",
       "target": "ヒット・ポイントが0の生きているクリーチャー1体",
       "range": "接触",
       "time": "2"
@@ -2348,7 +2348,7 @@
       "range": "接触",
       "target": "接触した生きているクリーチャー1体",
       "duration": "1分",
-      "description": "\n<p>術者はクリーチャーに墓場の感覚を植え付ける。持続時間の間、@UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{ハーム}と@UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{ヒール}呪文呪文はクリーチャーをアンデッドとして扱う。加えて、@UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{ハーム}呪文は目標を回復するヒット・ポイントに＋2の状態ボーナスを得る。</p>\n<p>目標がこの呪文を受けたくない場合、効果を軽減させるために意志セーヴを試みることができる。</p>\n<p><b>大成功</b> 目標は影響を受けない。</p>\n<p><b>成功</b> 目標は1ラウンドの間@UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{ヒール}による回復量が半分になり、@UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{ハーム}から半減ダメージを受ける。</p>\n<p><b>失敗</b> 説明文に記載された通りの効果を受ける。</p><hr><p><b>高レベル化（＋1）</b> ヒット・ポイントを回復する際の状態ボーナスが2ずつ増加する。</p>\n",
+      "description": "\n<p>術者はクリーチャーに墓場の感覚を植え付ける。持続時間の間、@UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{ハーム}と@UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{ヒール}呪文呪文はクリーチャーをアンデッドとして扱う。加えて、@UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{ハーム}呪文は目標を回復するヒット・ポイントに＋2のステータスボーナスを得る。</p>\n<p>目標がこの呪文を受けたくない場合、効果を軽減させるために意志セーヴを試みることができる。</p>\n<p><b>大成功</b> 目標は影響を受けない。</p>\n<p><b>成功</b> 目標は1ラウンドの間@UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{ヒール}による回復量が半分になり、@UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{ハーム}から半減ダメージを受ける。</p>\n<p><b>失敗</b> 説明文に記載された通りの効果を受ける。</p><hr><p><b>高レベル化（＋1）</b> ヒット・ポイントを回復する際のステータスボーナスが2ずつ増加する。</p>\n",
       "name": "アンデスズ・ブレッシング",
       "time": "1"
     },
@@ -2422,7 +2422,7 @@
     },
     "Bless": {
       "duration": "1分",
-      "description": "<p>彼方からの祝福が、術者の仲間の真なる打撃を助ける。</p>\n<p>範囲内(訳注：5フィートの放射内)にいる術者と術者の仲間は、攻撃ロールに＋1の状態ボーナスを得る。ターン毎に1回、術者がブレスを発動した後のターンの開始時に、術者は精神集中の特性を持つ1アクションを使用することで、放射の半径を5フィート増加させることができる。ブレスは@UUID[Compendium.pf2e.spells-srd.Item.7ZinJNzxq0XF0oMx]{ベイン}を無効化できる。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.RfCEHpMoEAZvB9IZ]</p>",
+      "description": "<p>彼方からの祝福が、術者の仲間の真なる打撃を助ける。</p>\n<p>範囲内(訳注：5フィートの放射内)にいる術者と術者の仲間は、攻撃ロールに＋1のステータスボーナスを得る。ターン毎に1回、術者がブレスを発動した後のターンの開始時に、術者は精神集中の特性を持つ1アクションを使用することで、放射の半径を5フィート増加させることができる。ブレスは@UUID[Compendium.pf2e.spells-srd.Item.7ZinJNzxq0XF0oMx]{ベイン}を無効化できる。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.RfCEHpMoEAZvB9IZ]</p>",
       "target": "術者と効果範囲内の味方",
       "name": "ブレス",
       "time": "2"
@@ -2470,7 +2470,7 @@
     },
     "Litany of Self-Interest": {
       "duration": "1ラウンド",
-      "description": "\n<p>君は他人を助けることをやめて自分を高めようという思いを満たすよう、朗々と語る。この呪文の制限を気にせず利益を受けたいと思うクリーチャーは、自発的にセーヴに失敗できる。その後1分間、君の全ての連祷に対して一時的耐性を得る。</p>\n<p><b>成功</b> 目標はなんの効果も受けない。</p><p><b>失敗</b> 目標は攻撃ロール、知覚判定、セーヴィング・スロー、技能判定に＋2の状態ボーナスを得る。目標は他のクリーチャーを“@UUID[Compendium.pf2e.actionspf2e.Item.HCl3pzVefiv9ZKQW]{援護}”したり、他のクリーチャーを味方と考えたり、他のクリーチャーに直接利益をもたらす呪文や能力（GMの判断に従う）を使用したりすることができない。呪文の目標と協力関係にある他のくリーチャーは、目標を味方として扱って影響を及ぼすことができる。</p><hr><p><b>高レベル化（8レベル）</b> 状態ボーナスは＋3に増加する。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.ceEA7nBGNmoR8Sjj]</p>",
+      "description": "\n<p>君は他人を助けることをやめて自分を高めようという思いを満たすよう、朗々と語る。この呪文の制限を気にせず利益を受けたいと思うクリーチャーは、自発的にセーヴに失敗できる。その後1分間、君の全ての連祷に対して一時的耐性を得る。</p>\n<p><b>成功</b> 目標はなんの効果も受けない。</p><p><b>失敗</b> 目標は攻撃ロール、知覚判定、セーヴィング・スロー、技能判定に＋2のステータスボーナスを得る。目標は他のクリーチャーを“@UUID[Compendium.pf2e.actionspf2e.Item.HCl3pzVefiv9ZKQW]{援護}”したり、他のクリーチャーを味方と考えたり、他のクリーチャーに直接利益をもたらす呪文や能力（GMの判断に従う）を使用したりすることができない。呪文の目標と協力関係にある他のくリーチャーは、目標を味方として扱って影響を及ぼすことができる。</p><hr><p><b>高レベル化（8レベル）</b> ステータスボーナスは＋3に増加する。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.ceEA7nBGNmoR8Sjj]</p>",
       "range": "30 ﾌｨｰﾄ",
       "target": "クリーチャー1体",
       "name": "リタニィ・オヴ・セルフインタラスト",
@@ -2630,7 +2630,7 @@
       "name": "カメレオン・コート",
       "target": "クリーチャー8体まで",
       "range": "15 ﾌｨｰﾄ",
-      "description": "<p>術者は目標が動かない時に、目標の衣服や装備品の表層の色を周囲の環境に近いものへと変える。この呪文の効果を受けたものは“@UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{隠れ身}”のために行う〈隠密〉判定に＋3の状態ボーナスを得る。この呪文で変化した色は、たとえその変化が劇的であっても、環境に合うように常に変化する。この呪文の効果を受けている装備品や衣服の一部がクリーチャーから離れると、そのクリーチャーに対するこの呪文は終了する。</p><hr><p><b>高レベル化（6レベル）</b> この呪文の効果を受けたクリーチャーが、30フィート以内にいるそのクリーチャーを見ているクリーチャーに対する“忍び足”のための〈隠密〉で大失敗をロールしたなら、呪文は緩やかな催眠術をかけて代わりにその判定は失敗になる。</p><p><b>高レベル化（8レベル）</b> 6レベルと同様だが、状態ボーナスは＋4。</p>\n",
+      "description": "<p>術者は目標が動かない時に、目標の衣服や装備品の表層の色を周囲の環境に近いものへと変える。この呪文の効果を受けたものは“@UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{隠れ身}”のために行う〈隠密〉判定に＋3のステータスボーナスを得る。この呪文で変化した色は、たとえその変化が劇的であっても、環境に合うように常に変化する。この呪文の効果を受けている装備品や衣服の一部がクリーチャーから離れると、そのクリーチャーに対するこの呪文は終了する。</p><hr><p><b>高レベル化（6レベル）</b> この呪文の効果を受けたクリーチャーが、30フィート以内にいるそのクリーチャーを見ているクリーチャーに対する“忍び足”のための〈隠密〉で大失敗をロールしたなら、呪文は緩やかな催眠術をかけて代わりにその判定は失敗になる。</p><p><b>高レベル化（8レベル）</b> 6レベルと同様だが、ステータスボーナスは＋4。</p>\n",
       "duration": "10分",
       "time": "3"
     },
@@ -2688,7 +2688,7 @@
       "target": "クリーチャー1体",
       "range": "30 ﾌｨｰﾄ",
       "duration": "さまざま",
-      "description": "<p><b>領域</b> 自信</p>\n<p>術者は目標を自信過剰にして、失敗を外部要因に求めるようにさせる。目標が攻撃ロールあるいは技能判定に失敗したとき、そのターンの終了時まで（ターン外にロールを試みた場合、目標の次のターンの終了時まで）、攻撃ロールと技能判定に－1の状態ペナルティを受ける。このペナルティを受けている間にクリーチャーがもう一度失敗したなら、ペナルティは－2に増加する。持続時間は目標の意志セーヴによって決まる。セーヴを試みた後、クリーチャーは24時間の間一時的耐性を得る。</p>\n<p><b>大成功</b> 目標は効果を受けない。</p>\n<p><b>成功</b> 1ラウンド持続する。</p>\n<p><b>失敗</b> 10分持続する。</p>\n<p><b>大失敗</b> 24時間持続する。</p>\n",
+      "description": "<p><b>領域</b> 自信</p>\n<p>術者は目標を自信過剰にして、失敗を外部要因に求めるようにさせる。目標が攻撃ロールあるいは技能判定に失敗したとき、そのターンの終了時まで（ターン外にロールを試みた場合、目標の次のターンの終了時まで）、攻撃ロールと技能判定に－1のステータスペナルティを受ける。このペナルティを受けている間にクリーチャーがもう一度失敗したなら、ペナルティは－2に増加する。持続時間は目標の意志セーヴによって決まる。セーヴを試みた後、クリーチャーは24時間の間一時的耐性を得る。</p>\n<p><b>大成功</b> 目標は効果を受けない。</p>\n<p><b>成功</b> 1ラウンド持続する。</p>\n<p><b>失敗</b> 10分持続する。</p>\n<p><b>大失敗</b> 24時間持続する。</p>\n",
       "name": "デルージョナル・プライド",
       "time": "2"
     },
@@ -2731,7 +2731,7 @@
     "Overstuff": {
       "target": "生きているクリーチャー1体",
       "range": "30 ﾌｨｰﾄ",
-      "description": "<p><b>領域</b> 飽食</p>\n<p>膨大な量の食べ物と飲み物が目標を満たす。対象は一食分の栄養を得て、頑健セーヴを試みなければならない。</p>\n<p><b>大成功</b> 目標は効果を受けない。</p>\n<p><b>成功</b> 目標は@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{不調状態}1となる。目標が状態を終了させるために1アクションを消費すると、自動的に成功する。</p>\n<p><b>失敗</b> 目標は@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{不調状態}1となる。</p>\n<p><b>大失敗</b> 目標は@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{不調状態}2となる。</p>\n<p>この呪文で@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{不調状態}になった目標は、@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{不調状態}になくなるまで速度に－10フィートに状態ペナルティを受ける。</p>\n",
+      "description": "<p><b>領域</b> 飽食</p>\n<p>膨大な量の食べ物と飲み物が目標を満たす。対象は一食分の栄養を得て、頑健セーヴを試みなければならない。</p>\n<p><b>大成功</b> 目標は効果を受けない。</p>\n<p><b>成功</b> 目標は@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{不調状態}1となる。目標が状態を終了させるために1アクションを消費すると、自動的に成功する。</p>\n<p><b>失敗</b> 目標は@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{不調状態}1となる。</p>\n<p><b>大失敗</b> 目標は@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{不調状態}2となる。</p>\n<p>この呪文で@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{不調状態}になった目標は、@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{不調状態}になくなるまで速度に－10フィートにステータスペナルティを受ける。</p>\n",
       "name": "オーヴァースタッフ",
       "time": "2"
     },
@@ -2772,7 +2772,7 @@
     },
     "Faerie Dust": {
       "duration": "1ラウンド",
-      "description": "\n<p>魔法の塵を呪文の範囲に撒き、その中にいる者を騙しやすくする。範囲内の各クリーチャーは意志セーヴを試みなければならない。“呪文発動”のアクションを1アクション増やすたびに、爆発の半径が5フィート増加する。</p>\n<p><b>成功</b> クリーチャーは影響を受けない。</p>\n<p><b>失敗</b> クリーチャーはリアクションを使用できず、知覚判定と意志セーヴに－2の状態ペナルティを受ける。</p>\n<p><b>大失敗</b> 失敗に加えて、クリーチャーは1分間、知覚判定と意志セーヴに－1の状態ペナルティを受ける。</p><hr><p><b>高レベル化（＋3）</b> 最初の半径を5フィートずつ増加させる。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.LHREWCGPkWsc4GGJ]</p><p>@UUID[Compendium.pf2e.spell-effects.Item.pcK88HqL6LjBNH2h]</p>",
+      "description": "\n<p>魔法の塵を呪文の範囲に撒き、その中にいる者を騙しやすくする。範囲内の各クリーチャーは意志セーヴを試みなければならない。“呪文発動”のアクションを1アクション増やすたびに、爆発の半径が5フィート増加する。</p>\n<p><b>成功</b> クリーチャーは影響を受けない。</p>\n<p><b>失敗</b> クリーチャーはリアクションを使用できず、知覚判定と意志セーヴに－2のステータスペナルティを受ける。</p>\n<p><b>大失敗</b> 失敗に加えて、クリーチャーは1分間、知覚判定と意志セーヴに－1のステータスペナルティを受ける。</p><hr><p><b>高レベル化（＋3）</b> 最初の半径を5フィートずつ増加させる。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.LHREWCGPkWsc4GGJ]</p><p>@UUID[Compendium.pf2e.spell-effects.Item.pcK88HqL6LjBNH2h]</p>",
       "range": "30 ﾌｨｰﾄ",
       "name": "フェアリー・ダスト",
       "time": "1 to 3"
@@ -2786,7 +2786,7 @@
     "Touch of Corruption": {
       "target": "同意する生きているクリーチャーまたはアンデッド1体",
       "range": "接触",
-      "description": "\n<p>術者は目標に負のエネルギーを吹き込む。目標が生きている場合、目標は1d6の［負のエネルギー］ダメージを受ける（基本頑健セーヴ）。セーヴに失敗すると、加えて目標は1ラウンドの間、ACに－2の状態ペナルティも受ける。</p>\n<p>目標が同意するアンデッド・クリーチャーの場合、目標は代わりにヒット・ポイントを6だけ回復する。術者自身に使用し、術者がアンデッドだった場合、術者は1ラウンドの間、ダメージ・ロールに＋2の状態ボーナスを得る。</p><hr><p><b>高レベル化（＋1）</b> 生きているクリーチャーに対して与えるダメージを1d6ずつ、アンデッドに対して回復するダメージを6ずつ増加させる。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.GhNVAYtoF5hK3AlD]</p><p>@UUID[Compendium.pf2e.spells-srd.Item.ekGHLJSHGgWMUwkY]</p>",
+      "description": "\n<p>術者は目標に負のエネルギーを吹き込む。目標が生きている場合、目標は1d6の［負のエネルギー］ダメージを受ける（基本頑健セーヴ）。セーヴに失敗すると、加えて目標は1ラウンドの間、ACに－2のステータスペナルティも受ける。</p>\n<p>目標が同意するアンデッド・クリーチャーの場合、目標は代わりにヒット・ポイントを6だけ回復する。術者自身に使用し、術者がアンデッドだった場合、術者は1ラウンドの間、ダメージ・ロールに＋2のステータスボーナスを得る。</p><hr><p><b>高レベル化（＋1）</b> 生きているクリーチャーに対して与えるダメージを1d6ずつ、アンデッドに対して回復するダメージを6ずつ増加させる。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.GhNVAYtoF5hK3AlD]</p><p>@UUID[Compendium.pf2e.spells-srd.Item.ekGHLJSHGgWMUwkY]</p>",
       "name": "タッチ・オヴ・コラプション",
       "time": "1"
     },
@@ -2815,7 +2815,7 @@
       "name": "トーキング・コープス",
       "target": "死体1個",
       "range": "接触",
-      "description": "<p>術者は目標の死体に生命の痕跡を与え、それを使って質問3津への回答を喋らせる。この呪文は死者の魂を呼び下ろすのではなく、肉体の潜在的な記憶を呼び起こす。そのため、呪文が機能するには、肉体がほとんど無傷でなければならない。肉体が損傷を受けていればいるほど、その回答は不正確になったりつぎはぎだらけになったりする。過去一週間以内に誰かがこの呪文をしたいに発動したことがある場合、この呪文は自動的に失敗する。死体は死の直前における元のクリーチャーのデータを用いて、質問に応えることに抵抗する意志セーヴを試みることができ、以下の結果を受ける。</p>\n<p><b>大成功</b> 目標は嘘をつくか術者の質問への回答を拒むかし、目標の魂は術者に24時間の間まとわりつき、術者を悩ませてその間休息できなくする。</p>\n<p><b>成功</b> 目標は嘘の情報を提供するか、術者の質問への回答を拒む。</p>\n<p><b>失敗</b> 目標は正直に答えなければならないが、その回答は短く不可解で、繰り返し同じことをいう。また、誤解を生じさせたり、質問し切る前に呪文の持続時間が切れるように引き延ばそうとすることもできる。</p>\n<p><b>大失敗</b> 失敗と同様だが、回答はより直接的で繰り返しも少ないが、依然として謎めいたものだ。目標は術者を騙したり誤解させたりするための〈ペテン〉判定に－2の状態ペナルティを受ける。</p>",
+      "description": "<p>術者は目標の死体に生命の痕跡を与え、それを使って質問3津への回答を喋らせる。この呪文は死者の魂を呼び下ろすのではなく、肉体の潜在的な記憶を呼び起こす。そのため、呪文が機能するには、肉体がほとんど無傷でなければならない。肉体が損傷を受けていればいるほど、その回答は不正確になったりつぎはぎだらけになったりする。過去一週間以内に誰かがこの呪文をしたいに発動したことがある場合、この呪文は自動的に失敗する。死体は死の直前における元のクリーチャーのデータを用いて、質問に応えることに抵抗する意志セーヴを試みることができ、以下の結果を受ける。</p>\n<p><b>大成功</b> 目標は嘘をつくか術者の質問への回答を拒むかし、目標の魂は術者に24時間の間まとわりつき、術者を悩ませてその間休息できなくする。</p>\n<p><b>成功</b> 目標は嘘の情報を提供するか、術者の質問への回答を拒む。</p>\n<p><b>失敗</b> 目標は正直に答えなければならないが、その回答は短く不可解で、繰り返し同じことをいう。また、誤解を生じさせたり、質問し切る前に呪文の持続時間が切れるように引き延ばそうとすることもできる。</p>\n<p><b>大失敗</b> 失敗と同様だが、回答はより直接的で繰り返しも少ないが、依然として謎めいたものだ。目標は術者を騙したり誤解させたりするための〈ペテン〉判定に－2のステータスペナルティを受ける。</p>",
       "duration": "10分",
       "time": "10分"
     },
@@ -2829,7 +2829,7 @@
     },
     "Stoke the Heart": {
       "name": "ストーク・ザ・ハート",
-      "description": "<p><b>守護者の主題</b> fervor</p><p><b>持続時間</b> 維持、1分まで</p>\n<p>激しい熱が目標のクリーチャーを満たし、その一振りに力を与える。目標はダメージ・ロールに＋2の状態ボーナスを得る。この呪文が終了すると、目標は1分の間一時的耐性を得る。</p><hr><p><b>高レベル化 （＋2）</b> ダメージへの状態ボーナスは1ずつ増加する。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.TpVkVALUBrBQjULn]</p>",
+      "description": "<p><b>守護者の主題</b> fervor</p><p><b>持続時間</b> 維持、1分まで</p>\n<p>激しい熱が目標のクリーチャーを満たし、その一振りに力を与える。目標はダメージ・ロールに＋2のステータスボーナスを得る。この呪文が終了すると、目標は1分の間一時的耐性を得る。</p><hr><p><b>高レベル化 （＋2）</b> ダメージへのステータスボーナスは1ずつ増加する。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.TpVkVALUBrBQjULn]</p>",
       "duration": "1分",
       "target": "クリーチャー1体",
       "range": "30 ﾌｨｰﾄ",
@@ -2871,7 +2871,7 @@
       "time": "2"
     },
     "Athletic Rush": {
-      "description": "<p><b>領域</b> 力</p>\n<p>術者の肉体は力と技術に満たされる。術者は移動速度に＋10フィートの状態ボーナスと〈運動〉に＋2の状態ボーナスを得る。この呪文の“呪文発動”の一部として、術者は“水泳”、“跳躍”、“登攀”、“歩行”のいずれかを行える。この呪文のボーナスはそのアクションの間も適用される。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.57lnrCzGUcNUBP2O]</p>",
+      "description": "<p><b>領域</b> 力</p>\n<p>術者の肉体は力と技術に満たされる。術者は移動速度に＋10フィートのステータスボーナスと〈運動〉に＋2のステータスボーナスを得る。この呪文の“呪文発動”の一部として、術者は“水泳”、“跳躍”、“登攀”、“歩行”のいずれかを行える。この呪文のボーナスはそのアクションの間も適用される。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.57lnrCzGUcNUBP2O]</p>",
       "duration": "1ラウンド",
       "name": "アスレティック・ラッシュ",
       "time": "1"
@@ -2883,7 +2883,7 @@
     },
     "Competitive Edge": {
       "name": "コンペティティヴ・エッジ",
-      "description": "<p><b>領域</b> 野心</p>\n<p>術者の競争心は相手に自分の力を証明しようとする。術者は攻撃ロールと技能判定に＋1の状態ボーナスを得る。20フィート以内の敵が攻撃ロールあるいは技能判定に大成功したなら、この状態ボーナスは1ラウンドの間、攻撃ロールもしくはその特定の技能判定（いずれか敵が大成功したもの）に対する状態ボーナスは＋3に増加する。</p><hr><p><b>高レベル化（7レベル）</b> 基本のボーナスは＋2に、敵が大成功したときのボーナスは＋4に増加する。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.iJ7TVW5tDnZG9DG8]</p>",
+      "description": "<p><b>領域</b> 野心</p>\n<p>術者の競争心は相手に自分の力を証明しようとする。術者は攻撃ロールと技能判定に＋1のステータスボーナスを得る。20フィート以内の敵が攻撃ロールあるいは技能判定に大成功したなら、このステータスボーナスは1ラウンドの間、攻撃ロールもしくはその特定の技能判定（いずれか敵が大成功したもの）に対するステータスボーナスは＋3に増加する。</p><hr><p><b>高レベル化（7レベル）</b> 基本のボーナスは＋2に、敵が大成功したときのボーナスは＋4に増加する。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.iJ7TVW5tDnZG9DG8]</p>",
       "duration": "1分",
       "time": "1"
     },
@@ -2909,7 +2909,7 @@
     },
     "Safeguard Secret": {
       "duration": "1時間",
-      "description": "<p><b>領域</b> 秘密</p>\n<p>術者は覗き見する密偵から秘密を守る。少なくとも目標の数名が知っている情報1つを選択する。術者は“呪文発動”の発動時間1分の間、距離内にずっといたクリーチャーのみを目標にできる。この呪文は選択した情報を知っているものに、情報を隠すための技能判定（主に〈ペテン〉判定）と、この情報を明らかにしようとする呪文や無理矢理明らかにさせようとする効果に対するセーヴィング・スローに＋4の状態ボーナスを得る。</p>\n<p>この呪文を再度“呪文発動”すると、過去のセーフガード・シークレットは終了する。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.3HEiYVhqypfc4IsP]</p>",
+      "description": "<p><b>領域</b> 秘密</p>\n<p>術者は覗き見する密偵から秘密を守る。少なくとも目標の数名が知っている情報1つを選択する。術者は“呪文発動”の発動時間1分の間、距離内にずっといたクリーチャーのみを目標にできる。この呪文は選択した情報を知っているものに、情報を隠すための技能判定（主に〈ペテン〉判定）と、この情報を明らかにしようとする呪文や無理矢理明らかにさせようとする効果に対するセーヴィング・スローに＋4のステータスボーナスを得る。</p>\n<p>この呪文を再度“呪文発動”すると、過去のセーフガード・シークレットは終了する。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.3HEiYVhqypfc4IsP]</p>",
       "target": "術者と同意する味方",
       "range": "10 ﾌｨｰﾄ",
       "name": "セーフガード・シークレット",
@@ -2941,7 +2941,7 @@
     "Fleet Step": {
       "name": "フリート・ステップ",
       "duration": "1分",
-      "description": "<p>術者は自分の移動速度に30フィートの状態ボーナスを得る。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.ThFug45WHkQQXcoF]</p>",
+      "description": "<p>術者は自分の移動速度に30フィートのステータスボーナスを得る。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.ThFug45WHkQQXcoF]</p>",
       "time": "2"
     },
     "Dragon Breath": {
@@ -2978,7 +2978,7 @@
       "name": "セイヴァー・ザ・スティング",
       "range": "接触",
       "target": "クリーチャー1体",
-      "description": "<p><b>領域</b> 苦痛</p>\n<p>術者は目標に苦痛を与え、その苦しみを楽しむ。これは1d4の［精神］ダメージと1d4の持続［精神］ダメージを与える。目標は石セーヴを試みなければならない。目標がこの呪文から持続ダメージを受けている間、術者は目標に対する攻撃ロールと技能判定に＋1の状態ボーナスを得る。</p>\n<p><b>大成功</b> 目標は効果を受けない。</p>\n<p><b>成功</b> 目標は半分の初期ダメージを受け、持続ダメージを受けない。</p>\n<p><b>失敗</b> 目標は通常の初期ダメージと持続ダメージを受ける。</p>\n<p><b>大失敗</b> 目標は2倍の初期ダメージと2倍の持続ダメージを受ける。</p><hr><p><b>高レベル化（＋1）</b> 初期ダメージは1d4ずつ、持続ダメージは1d4ずつ増加する。</p>\n<p>[[/r (@item.level)d4[persistent,mental]]]</p>",
+      "description": "<p><b>領域</b> 苦痛</p>\n<p>術者は目標に苦痛を与え、その苦しみを楽しむ。これは1d4の［精神］ダメージと1d4の持続［精神］ダメージを与える。目標は石セーヴを試みなければならない。目標がこの呪文から持続ダメージを受けている間、術者は目標に対する攻撃ロールと技能判定に＋1のステータスボーナスを得る。</p>\n<p><b>大成功</b> 目標は効果を受けない。</p>\n<p><b>成功</b> 目標は半分の初期ダメージを受け、持続ダメージを受けない。</p>\n<p><b>失敗</b> 目標は通常の初期ダメージと持続ダメージを受ける。</p>\n<p><b>大失敗</b> 目標は2倍の初期ダメージと2倍の持続ダメージを受ける。</p><hr><p><b>高レベル化（＋1）</b> 初期ダメージは1d4ずつ、持続ダメージは1d4ずつ増加する。</p>\n<p>[[/r (@item.level)d4[persistent,mental]]]</p>",
       "time": "1"
     },
     "Vampiric Maiden": {
@@ -3010,11 +3010,11 @@
     "Ki Form": {
       "name": "キ・フォーム",
       "duration": "1分",
-      "description": "<p><b>持続時間</b> 1分</p>\n<p>君は深い源泉から霊的な力を引き出し、特殊な気の形態をとる。キ・フォームの間、君の髪、羽、肌、鱗などが色を変えて光り始める。この形態では、自分の地上移動速度に等しい飛行速度を得る。［力場］、［秩序］（君が秩序の場合のみ）、［正のエネルギー］、［負のエネルギー］からダメージ種別を1つ選択できます。君のすべての“打撃”は選択した種別の1d6の追加ダメージを与える。君は体内の気と同じ色に輝く陽冠に全身を包まれている。これは光効果である。君の陽冠は5フィートの放射で、放射内でターンを開始した全てのクリーチャーに2d6の選択した種別のダメージを与える。発光が闇効果と重なる場合、陽冠の発光は闇効果の無効化を試みる。結果にかかわらず、陽冠は1日の間、その影響を再度無効化しようとすることはできない。精神集中特性を持つ単一アクションとして、君は陽冠を拡散させて30フィート放射にすることができる。</p>\n<p>キ・フォームでは感情が前面に押し出され、攻撃を抑えるのが難しい。君の武器や素手攻撃は非致傷を失う。君が感情効果に対してセーヴする際－2の状態ペナルティを受けるが、他のすべての精神効果に対してセーヴする際＋2の状態ボーナスを得る。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.rQaltMIEi2bn1Z4k]</p><p>[[/r 1d6]]</p><p>[[/r 2d6]]</p>",
+      "description": "<p><b>持続時間</b> 1分</p>\n<p>君は深い源泉から霊的な力を引き出し、特殊な気の形態をとる。キ・フォームの間、君の髪、羽、肌、鱗などが色を変えて光り始める。この形態では、自分の地上移動速度に等しい飛行速度を得る。［力場］、［秩序］（君が秩序の場合のみ）、［正のエネルギー］、［負のエネルギー］からダメージ種別を1つ選択できます。君のすべての“打撃”は選択した種別の1d6の追加ダメージを与える。君は体内の気と同じ色に輝く陽冠に全身を包まれている。これは光効果である。君の陽冠は5フィートの放射で、放射内でターンを開始した全てのクリーチャーに2d6の選択した種別のダメージを与える。発光が闇効果と重なる場合、陽冠の発光は闇効果の無効化を試みる。結果にかかわらず、陽冠は1日の間、その影響を再度無効化しようとすることはできない。精神集中特性を持つ単一アクションとして、君は陽冠を拡散させて30フィート放射にすることができる。</p>\n<p>キ・フォームでは感情が前面に押し出され、攻撃を抑えるのが難しい。君の武器や素手攻撃は非致傷を失う。君が感情効果に対してセーヴする際－2のステータスペナルティを受けるが、他のすべての精神効果に対してセーヴする際＋2のステータスボーナスを得る。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.rQaltMIEi2bn1Z4k]</p><p>[[/r 1d6]]</p><p>[[/r 2d6]]</p>",
       "time": "1"
     },
     "Humanoid Form": {
-      "description": "<p>ドワーフ、エルフ、ゴブリン、ハーフリング、人間、オーク、リザードフォークなどの小型または中型の人型生物の外見に変身する。この姿になっている間、術者は自身が持つ他の特性に加えて人型生物の特性と、そのクリーチャーの種類（ゴブリンや人間など）に対応する特性を得る。この変身によってサイズが小さくなった場合、それに応じて間合いも小さくなる（シュリンク呪文と同様）。この変身によって術者のデータが変化することはなく、また、選択した人型生物の形態の特殊能力を得ることもない。着用物や装備品は（必要があれば）新しい姿に合わせたサイズに変更される。</p>\n<p>アイテムが手元から離れた場合、元のサイズに戻る。</p>\n<p>ヒューマノイド・フォームにより、術者は選択した種族の一般人の一員として振る舞う際の〈ペテン〉判定に＋4の状態ボーナスを得る。また、未修得でも自身のレベルを判定に加算する。しかし、特定の人物のように見せかけることはできない。もし、特定の人物に“なりすます”なら変装をする必要がある。GMは術者の〈ペテン〉判定のDCを決定する際に、種族の違いを考慮することはない。術者はこの呪文を“解除”できる。</p><hr><p><b>高レベル化（3レベル）</b> 選択した形態が有しているなら、術者は暗視もしくは夜目を得る。</p><p><b>高レベル化（5レベル）</b> 術者は大型の人型生物の姿を取れるようになる。サイズが大きくなる場合、術者はエンラージ呪文の効果を得る。</p>\n",
+      "description": "<p>ドワーフ、エルフ、ゴブリン、ハーフリング、人間、オーク、リザードフォークなどの小型または中型の人型生物の外見に変身する。この姿になっている間、術者は自身が持つ他の特性に加えて人型生物の特性と、そのクリーチャーの種類（ゴブリンや人間など）に対応する特性を得る。この変身によってサイズが小さくなった場合、それに応じて間合いも小さくなる（シュリンク呪文と同様）。この変身によって術者のデータが変化することはなく、また、選択した人型生物の形態の特殊能力を得ることもない。着用物や装備品は（必要があれば）新しい姿に合わせたサイズに変更される。</p>\n<p>アイテムが手元から離れた場合、元のサイズに戻る。</p>\n<p>ヒューマノイド・フォームにより、術者は選択した種族の一般人の一員として振る舞う際の〈ペテン〉判定に＋4のステータスボーナスを得る。また、未修得でも自身のレベルを判定に加算する。しかし、特定の人物のように見せかけることはできない。もし、特定の人物に“なりすます”なら変装をする必要がある。GMは術者の〈ペテン〉判定のDCを決定する際に、種族の違いを考慮することはない。術者はこの呪文を“解除”できる。</p><hr><p><b>高レベル化（3レベル）</b> 選択した形態が有しているなら、術者は暗視もしくは夜目を得る。</p><p><b>高レベル化（5レベル）</b> 術者は大型の人型生物の姿を取れるようになる。サイズが大きくなる場合、術者はエンラージ呪文の効果を得る。</p>\n",
       "duration": "10分",
       "name": "ヒューマノイド・フォーム",
       "time": "2"
@@ -3102,19 +3102,19 @@
       "time": "10分"
     },
     "Triple Time": {
-      "description": "<p><b>効果範囲</b> 60フィートの放射； <b>持続時間</b> 1ラウンド</p>\n<p>術者は軽快なテンポで踊り、味方の移動速度を早める。</p>\n<p>術者と範囲内のすべての味方は、1ラウンドの間、全ての移動速度に＋10フィートの状態ボーナスを得る。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.HtaDbgTIzdiTiKLX]</p>",
+      "description": "<p><b>効果範囲</b> 60フィートの放射； <b>持続時間</b> 1ラウンド</p>\n<p>術者は軽快なテンポで踊り、味方の移動速度を早める。</p>\n<p>術者と範囲内のすべての味方は、1ラウンドの間、全ての移動速度に＋10フィートのステータスボーナスを得る。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.HtaDbgTIzdiTiKLX]</p>",
       "duration": "1ラウンド",
       "name": "トリプル・タイム",
       "time": "1"
     },
     "Wild Shape": {
-      "description": "\n<p>術者は自分に始原の本質を吹き込み、自身を別の姿へと変える。術者は@UUID[Compendium.pf2e.spells-srd.Item.gfPjmG6Fe6D3MFjl]{ペスト・フォーム}に記載された任意の形態に完全変身できる。この効果は10分間持続する。他のワイルド・シェイプの姿は1分間持続する。君はドルイド特技を得ることでワイルド・シェイプの一覧に形態を追加できる。君の特技は与えられた完全変身特性を持つ呪文の一部の形態を与えることもあれば、その全ての形態を与えることもある。呪文によって与えられた形態をとる場合、君は選択した形態における、その呪文をワイルド・シェイプのレベルに高レベル化したものの効果をすべて得る。ワイルド・シェイプは、他の完全変身特性を持つほとんどの呪文よりもずっと容易に変身の訓練を行える。完全変身中、術者が形態本来の攻撃修正値ではなく自身の攻撃修正値を使用することにした場合、術者はその攻撃ロールに＋2の状態ボーナスを得る。</p><hr><p><b>高レベル化（2レベル）</b> 術者は@UUID[Compendium.pf2e.spells-srd.Item.wp09USMB3GIW1qbp]{アニマル・フォーム}に記載された形態をとることができる。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.a5rWrWwuevTzs9Io]</p>",
+      "description": "\n<p>術者は自分に始原の本質を吹き込み、自身を別の姿へと変える。術者は@UUID[Compendium.pf2e.spells-srd.Item.gfPjmG6Fe6D3MFjl]{ペスト・フォーム}に記載された任意の形態に完全変身できる。この効果は10分間持続する。他のワイルド・シェイプの姿は1分間持続する。君はドルイド特技を得ることでワイルド・シェイプの一覧に形態を追加できる。君の特技は与えられた完全変身特性を持つ呪文の一部の形態を与えることもあれば、その全ての形態を与えることもある。呪文によって与えられた形態をとる場合、君は選択した形態における、その呪文をワイルド・シェイプのレベルに高レベル化したものの効果をすべて得る。ワイルド・シェイプは、他の完全変身特性を持つほとんどの呪文よりもずっと容易に変身の訓練を行える。完全変身中、術者が形態本来の攻撃修正値ではなく自身の攻撃修正値を使用することにした場合、術者はその攻撃ロールに＋2のステータスボーナスを得る。</p><hr><p><b>高レベル化（2レベル）</b> 術者は@UUID[Compendium.pf2e.spells-srd.Item.wp09USMB3GIW1qbp]{アニマル・フォーム}に記載された形態をとることができる。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.a5rWrWwuevTzs9Io]</p>",
       "name": "ワイルド・シェイプ",
       "duration": "1分以上",
       "time": "2"
     },
     "Magic's Vessel": {
-      "description": "<p><b>領域</b> 魔法</p>\n<p>クリーチャーは術者の神格から与えられた純粋な魔法のエネルギーの受け皿となる。目標はセーヴィング・スローに＋1の状態ボーナスを得る。術者が自分の呪文スロットから“呪文発動”するたびに、術者はこの呪文を“呪文の維持”し、次の術者のターンの開始時まで呪文からのダメージに対する抵抗を与える。この抵抗は発動した呪文のレベルに等しい。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.zpxIwEjnLUSO1B4z]</p>",
+      "description": "<p><b>領域</b> 魔法</p>\n<p>クリーチャーは術者の神格から与えられた純粋な魔法のエネルギーの受け皿となる。目標はセーヴィング・スローに＋1のステータスボーナスを得る。術者が自分の呪文スロットから“呪文発動”するたびに、術者はこの呪文を“呪文の維持”し、次の術者のターンの開始時まで呪文からのダメージに対する抵抗を与える。この抵抗は発動した呪文のレベルに等しい。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.zpxIwEjnLUSO1B4z]</p>",
       "duration": "1分",
       "target": "クリーチャー1体",
       "range": "接触",
@@ -3174,7 +3174,7 @@
       "time": "2"
     },
     "Heroes' Feast": {
-      "description": "<p><b>主要判定</b> 〈自然〉、〈宗教〉、〈伝承学〉のいずれか（熟練）；<b>副次判定</b> 〈交渉〉もしくは〈社会〉</p>\n<p>主要術者はこの世のものならぬ存在を呼び起こし、主要術者と仲間に回復能力を持つご馳走を提供する。この神秘的な存在は、主要判定に対応したフェイ、神、その他の超自然的な存在の従者である可能性がある。儀式の最初の一時間が終わると、これらの従者らが現れ、最大で10人ように設置された極上の机を備えた大規模な祝宴を開く。与えられた食事は、子供の頃に安らぎを与えた食べ物、現代のごちそう、好みの飲み物など、ありとあらゆる料理で構成されている。呼び出された従者らは、その後3時間、主要術者と他の客に従い、追加の食べ物を取ってきたり、飲み物を注いだりする。この間、主要術者と他の客は、明らかでない主催者を怒らせないように、できるだけ礼儀正しく、親切にするよう努めなければならない。祝宴が終わると儀式は完了し、主要術者と副次術者は通常通り判定を試みる。祝宴が中断されると、使用人たちはすぐに食料とともに消え、儀式は中断される。</p>\n<p><b>大成功</b> ごちそうは滋養と活性化をもたらす。魔法の食べ物は、@UUID[Compendium.pf2e.spells-srd.Item.SUKaxVZW2TlM8lu0]{ニュートラライズ・ポイズン}、@UUID[Compendium.pf2e.spells-srd.Item.RneiyehRO6f7LP44]{リムーヴ・ディジーズ}、および@UUID[Compendium.pf2e.spells-srd.Item.EfFMLVbmkBWmzoLF]{リムーヴ・フィアー}を、それぞれの関連する苦難を受けている客に発動し、主要技能判定の修正値を無効化修正値として用いる。また、客はそれぞれはヒット・ポイントを100だけ回復し、以降12時間の間、一時的ヒット・ポイントを20得る。また、客は以降12時間の間、病気、恐怖、毒効果に対するセーヴに＋2の状態ボーナスを得る。</p><p><b>成功</b> 大成功と同様だが、ヒット・ポイントを50だけ回復し、一時的ヒット・ポイントを10だけ得て、セーヴへの状態ボーナスは得られない。</p><p><b>失敗</b> 主要術者と他の客は口の中で灰を味わい、このご馳走にはなんの栄養もなかったことに気づく。</p><p><b>大失敗</b> 異世界の従者は主要術者の振る舞いや従者を呼び出すときに見せた思い上がりによって気分を害し、祝宴に毒を持った。主要術者と客は@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{不調状態}4になり、この状態値は12時間の間減少できない。</p><hr><p><b>高レベル化（＋1）</b> 回復するヒット・ポイントは10ずつ、一時的ヒット・ポイントは2ずつ増加する（大成功においてはそれぞれの値が2倍になる）。</p>\n",
+      "description": "<p><b>主要判定</b> 〈自然〉、〈宗教〉、〈伝承学〉のいずれか（熟練）；<b>副次判定</b> 〈交渉〉もしくは〈社会〉</p>\n<p>主要術者はこの世のものならぬ存在を呼び起こし、主要術者と仲間に回復能力を持つご馳走を提供する。この神秘的な存在は、主要判定に対応したフェイ、神、その他の超自然的な存在の従者である可能性がある。儀式の最初の一時間が終わると、これらの従者らが現れ、最大で10人ように設置された極上の机を備えた大規模な祝宴を開く。与えられた食事は、子供の頃に安らぎを与えた食べ物、現代のごちそう、好みの飲み物など、ありとあらゆる料理で構成されている。呼び出された従者らは、その後3時間、主要術者と他の客に従い、追加の食べ物を取ってきたり、飲み物を注いだりする。この間、主要術者と他の客は、明らかでない主催者を怒らせないように、できるだけ礼儀正しく、親切にするよう努めなければならない。祝宴が終わると儀式は完了し、主要術者と副次術者は通常通り判定を試みる。祝宴が中断されると、使用人たちはすぐに食料とともに消え、儀式は中断される。</p>\n<p><b>大成功</b> ごちそうは滋養と活性化をもたらす。魔法の食べ物は、@UUID[Compendium.pf2e.spells-srd.Item.SUKaxVZW2TlM8lu0]{ニュートラライズ・ポイズン}、@UUID[Compendium.pf2e.spells-srd.Item.RneiyehRO6f7LP44]{リムーヴ・ディジーズ}、および@UUID[Compendium.pf2e.spells-srd.Item.EfFMLVbmkBWmzoLF]{リムーヴ・フィアー}を、それぞれの関連する苦難を受けている客に発動し、主要技能判定の修正値を無効化修正値として用いる。また、客はそれぞれはヒット・ポイントを100だけ回復し、以降12時間の間、一時的ヒット・ポイントを20得る。また、客は以降12時間の間、病気、恐怖、毒効果に対するセーヴに＋2のステータスボーナスを得る。</p><p><b>成功</b> 大成功と同様だが、ヒット・ポイントを50だけ回復し、一時的ヒット・ポイントを10だけ得て、セーヴへのステータスボーナスは得られない。</p><p><b>失敗</b> 主要術者と他の客は口の中で灰を味わい、このご馳走にはなんの栄養もなかったことに気づく。</p><p><b>大失敗</b> 異世界の従者は主要術者の振る舞いや従者を呼び出すときに見せた思い上がりによって気分を害し、祝宴に毒を持った。主要術者と客は@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{不調状態}4になり、この状態値は12時間の間減少できない。</p><hr><p><b>高レベル化（＋1）</b> 回復するヒット・ポイントは10ずつ、一時的ヒット・ポイントは2ずつ増加する（大成功においてはそれぞれの値が2倍になる）。</p>\n",
       "range": "40 ﾌｨｰﾄ",
       "name": "ヒーローズ・フィースト",
       "time": "4時間",
@@ -3202,13 +3202,13 @@
     },
     "Ki Strike": {
       "name": "キ・ストライク",
-      "description": "\n<p>術者は魔法による攻撃へと気を集中させる。素手による“打撃”または“連打”を行う（卓越特性を持つアクションはターン毎に1回しか使用できない、という制限をこの効果で変更することはない）。術者はこれらの“打撃”における攻撃ロールに＋1の状態ボーナスを得る。加えて、これらの“打撃”は1d6の追加ダメージを与える。このダメージは以下の選択した種別にすることができる。［力場］、［秩序］（君が秩序である場合のみ）、［負のエネルギー］、［正のエネルギー］。種別は術者が“打撃”をするたびに選択する。</p><hr><p><b>高レベル化（＋4）</b> 追加ダメージは1d6ずつ増加する。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.8olfnTmWh0GGPDqX]</p>",
+      "description": "\n<p>術者は魔法による攻撃へと気を集中させる。素手による“打撃”または“連打”を行う（卓越特性を持つアクションはターン毎に1回しか使用できない、という制限をこの効果で変更することはない）。術者はこれらの“打撃”における攻撃ロールに＋1のステータスボーナスを得る。加えて、これらの“打撃”は1d6の追加ダメージを与える。このダメージは以下の選択した種別にすることができる。［力場］、［秩序］（君が秩序である場合のみ）、［負のエネルギー］、［正のエネルギー］。種別は術者が“打撃”をするたびに選択する。</p><hr><p><b>高レベル化（＋4）</b> 追加ダメージは1d6ずつ増加する。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.8olfnTmWh0GGPDqX]</p>",
       "time": "1"
     },
     "Tree Shape": {
       "name": "ツリー・シェイプ",
       "duration": "10分または8時間",
-      "description": "<p>術者は大型の木に姿を変える。近く判定では術者の真の姿を明らかにすることはないが、術者の呪文DCに対する〈自然〉もしくは〈生存〉判定に成功すれば、術者がこの範囲に存在するには奇妙に見えることが明らかになる。木の姿でいる間、術者は周囲にいるものをすべて観察できるが、呪文を終了する以外の他の行為は行えない。呪文を終了する行為は1アクションで精神集中の特性を持つ。木である間、術者のACは20で、術者に効果を及ぼすのは状態ボーナス、状態ペナルティ、状況ボーナス、状況ペナルティのみである。術者がロールするすべての反応セーヴにおいて、成功と大成功は失敗となる。</p>",
+      "description": "<p>術者は大型の木に姿を変える。近く判定では術者の真の姿を明らかにすることはないが、術者の呪文DCに対する〈自然〉もしくは〈生存〉判定に成功すれば、術者がこの範囲に存在するには奇妙に見えることが明らかになる。木の姿でいる間、術者は周囲にいるものをすべて観察できるが、呪文を終了する以外の他の行為は行えない。呪文を終了する行為は1アクションで精神集中の特性を持つ。木である間、術者のACは20で、術者に効果を及ぼすのはステータスボーナス、ステータスペナルティ、状況ボーナス、状況ペナルティのみである。術者がロールするすべての反応セーヴにおいて、成功と大成功は失敗となる。</p>",
       "time": "2"
     },
     "See Invisibility": {
@@ -3367,12 +3367,12 @@
     "Longstrider": {
       "name": "ロングストライダー",
       "duration": "1時間",
-      "description": "<p>術者は限界を超えて自身の歩幅を広くする。術者は移動速度に＋10フィートの状態ボーナスを得る。</p><hr><p><b>高レベル化（2レベル）</b> 持続時間が8時間に増加する。</p>",
+      "description": "<p>術者は限界を超えて自身の歩幅を広くする。術者は移動速度に＋10フィートのステータスボーナスを得る。</p><hr><p><b>高レベル化（2レベル）</b> 持続時間が8時間に増加する。</p>",
       "time": "2"
     },
     "Unimpeded Stride": {
       "name": "アンインピディッド・ストライド",
-      "description": "<p><b>領域</b> 自由</p>\n<p>何者も術者を固定することはできない。術者を@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{動けない状態}あるいは@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{つかまれた状態}にする魔法の効果から術者は直ちに脱出する。ただし、その効果のレベルがアンインピディッド・ストライドのレベル以下である場合に限られる。</p>\n<p>その後術者は“歩行”する。この移動の間、術者は移動困難地形と、速度に対する状況ペナルティと状態ペナルティを無視する。</p>\n",
+      "description": "<p><b>領域</b> 自由</p>\n<p>何者も術者を固定することはできない。術者を@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{動けない状態}あるいは@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{つかまれた状態}にする魔法の効果から術者は直ちに脱出する。ただし、その効果のレベルがアンインピディッド・ストライドのレベル以下である場合に限られる。</p>\n<p>その後術者は“歩行”する。この移動の間、術者は移動困難地形と、速度に対する状況ペナルティとステータスペナルティを無視する。</p>\n",
       "time": "1"
     },
     "Flesh to Stone": {
@@ -3400,7 +3400,7 @@
     },
     "Inveigle": {
       "name": "インヴェイガル",
-      "description": "<p>主要術者は目標の心をつかみ、主要術者を親しい友人、信頼できる友人とみなし、そのあらゆる提案を合理的なものとして見るようになる。目標は主要術者に対して協力的状態であり、主要術者を助けるためにわざわざ外出する。他の協力的状態のクリーチャーと同様、主要術者が目標に依頼できる内容には限度がある。もし主要術者が目標に、その性質に完全に反することや、目標やその利益にとって不必要に有害なことを頼むことがあれば、それは拒否するだけでなく、効果を早期に終了させるために意志セーヴを試みることができる。発動時間と距離のため、目標が（おそらく儀式が他の効果をもたらすと確信しているなどの理由で）同意しているか拘束状態でない限り、この儀式の発動は一般に難しい。クリーチャーが儀式を受け入れるのに同意しない場合、効果を打ち消すために意志セーヴを試みることができる。</p><p><b>大成功</b> 儀式は成功し、目標はその効果を終了させるための意志セーヴに－4の状態ペナルティを受ける。</p>\n<p><b>成功</b> 儀式は成功する。</p>\n<p><b>失敗</b> 儀式は失敗する。</p>\n<p><b>大失敗</b> 儀式は失敗し、目標は代わりに主要術者を憎むようになる。これにより、持続時間の間目標は主要術者に対して敵対的状態になる。</p>\n<p>高レベル化（6レベル）</p>\n<p>髪の束や血の滴など、目標クリーチャーの体の一部を持っており、それをコストに使うオイルに混ぜることで、主要術者は発動中に1マイル以内にいるクリーチャーにインヴェイガルを使用できる。基本コストは100gpに増加する。持続時間は通常より短く、使用するクリーチャーの体の一部分の大きさによって決まる。血、髪、鱗などは1週間、手や体の大部分は1ヶ月である。</p>\n",
+      "description": "<p>主要術者は目標の心をつかみ、主要術者を親しい友人、信頼できる友人とみなし、そのあらゆる提案を合理的なものとして見るようになる。目標は主要術者に対して協力的状態であり、主要術者を助けるためにわざわざ外出する。他の協力的状態のクリーチャーと同様、主要術者が目標に依頼できる内容には限度がある。もし主要術者が目標に、その性質に完全に反することや、目標やその利益にとって不必要に有害なことを頼むことがあれば、それは拒否するだけでなく、効果を早期に終了させるために意志セーヴを試みることができる。発動時間と距離のため、目標が（おそらく儀式が他の効果をもたらすと確信しているなどの理由で）同意しているか拘束状態でない限り、この儀式の発動は一般に難しい。クリーチャーが儀式を受け入れるのに同意しない場合、効果を打ち消すために意志セーヴを試みることができる。</p><p><b>大成功</b> 儀式は成功し、目標はその効果を終了させるための意志セーヴに－4のステータスペナルティを受ける。</p>\n<p><b>成功</b> 儀式は成功する。</p>\n<p><b>失敗</b> 儀式は失敗する。</p>\n<p><b>大失敗</b> 儀式は失敗し、目標は代わりに主要術者を憎むようになる。これにより、持続時間の間目標は主要術者に対して敵対的状態になる。</p>\n<p>高レベル化（6レベル）</p>\n<p>髪の束や血の滴など、目標クリーチャーの体の一部を持っており、それをコストに使うオイルに混ぜることで、主要術者は発動中に1マイル以内にいるクリーチャーにインヴェイガルを使用できる。基本コストは100gpに増加する。持続時間は通常より短く、使用するクリーチャーの体の一部分の大きさによって決まる。血、髪、鱗などは1週間、手や体の大部分は1ヶ月である。</p>\n",
       "duration": "1年もしくは消費まで",
       "range": "10 ﾌｨｰﾄ",
       "target": "インヴェイガル儀式のレベルの2倍以下のレベルを持つクリーチャー1体",
@@ -3483,7 +3483,7 @@
       "time": "3"
     },
     "Glibness": {
-      "description": "<p>虚偽は絹のように滑らかに術者の唇を通過する。術者は“騙す”における〈ペテン〉判定と、真実を語っているかどうかを見分ける知覚判定に＋4の状態ボーナスを得、未修得であっても術者のレベルが加算される。術者の嘘の信憑性によって状況ペナルティやDCが増加する場合、そのペナルティやDC増加を半分に減らすことができる。</p>",
+      "description": "<p>虚偽は絹のように滑らかに術者の唇を通過する。術者は“騙す”における〈ペテン〉判定と、真実を語っているかどうかを見分ける知覚判定に＋4のステータスボーナスを得、未修得であっても術者のレベルが加算される。術者の嘘の信憑性によって状況ペナルティやDCが増加する場合、そのペナルティやDC増加を半分に減らすことができる。</p>",
       "duration": "10分",
       "name": "グリブネス",
       "time": "2"
@@ -3573,7 +3573,7 @@
       "time": "2"
     },
     "Protective Ward": {
-      "description": "<p><b>効果範囲</b> 術者を中心とした半径5フィートの爆発； <b>持続時間</b> 維持、ただし1分まで</p>\n<p>術者は保護魔法のきらめくオーラを放つ。術者と範囲内の味方はACに＋1の状態ボーナスを得る。“呪文の維持”をするたび、放射の半径は5フィートずつ増加し、最大で30フィートとなる。</p>\n<p>@UUID[Compendium.pf2e.actionspf2e.Item.3f5DMFu8fPiqHpRg]</p><p>@UUID[Compendium.pf2e.spell-effects.Item.5p3bKvWsJgo83FS1]</p>",
+      "description": "<p><b>効果範囲</b> 術者を中心とした半径5フィートの爆発； <b>持続時間</b> 維持、ただし1分まで</p>\n<p>術者は保護魔法のきらめくオーラを放つ。術者と範囲内の味方はACに＋1のステータスボーナスを得る。“呪文の維持”をするたび、放射の半径は5フィートずつ増加し、最大で30フィートとなる。</p>\n<p>@UUID[Compendium.pf2e.actionspf2e.Item.3f5DMFu8fPiqHpRg]</p><p>@UUID[Compendium.pf2e.spell-effects.Item.5p3bKvWsJgo83FS1]</p>",
       "name": "プロテクティヴ・ウォード",
       "duration": "1分",
       "time": "1"
@@ -3636,7 +3636,7 @@
     "Ray of Frost": {
       "target": "クリーチャー1体",
       "range": "120 ﾌｨｰﾄ",
-      "description": "<p>術者は氷の光線を爆発させる。呪文攻撃ロールを行う。この光線は1d4＋術者の呪文能力修正値に等しい［氷雪］ダメージを与える。</p>\n<p><b>大成功</b> 目標は2倍のダメージを受け、1ラウンドの間、移動速度に－10フィートの状態ペナルティを受ける。</p>\n<p><b>成功</b> 目標は通常のダメージを受ける。</p><hr><p><b>高レベル化（＋1）</b> ダメージが1d4ずつ増加する。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.I4PsUAaYSUJ8pwKC]</p>",
+      "description": "<p>術者は氷の光線を爆発させる。呪文攻撃ロールを行う。この光線は1d4＋術者の呪文能力修正値に等しい［氷雪］ダメージを与える。</p>\n<p><b>大成功</b> 目標は2倍のダメージを受け、1ラウンドの間、移動速度に－10フィートのステータスペナルティを受ける。</p>\n<p><b>成功</b> 目標は通常のダメージを受ける。</p><hr><p><b>高レベル化（＋1）</b> ダメージが1d4ずつ増加する。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.I4PsUAaYSUJ8pwKC]</p>",
       "name": "レイ・オヴ・フロスト",
       "time": "2"
     },
@@ -3749,7 +3749,7 @@
       "name": "テイク・イッツ・コース",
       "target": "クリーチャー1体",
       "range": "接触",
-      "description": "<p><b>領域</b> 飽食</p>\n<p>誰かが食べ過ぎたとき、術者はその苦難の最悪の状態を早く終わらせる、または惨状を強めることができる。</p>\n<p>この呪文は目標に効果を与えている病気の苦難、毒の苦難、持続［毒］ダメージを進行させようとする。</p>\n<p>目標がこれらの効果を2つ以上受けている場合、術者は気付いているものから1つを選択する。そうしない場合はGMが無作為に決定する。同意しない目標はテイク・イッツ・コースを無効化するために意志セーヴを試みることができる。</p>\n<p>この呪文の効果は、終わらせようとしているのが苦難か持続［毒］ダメージか、また対象の回復を助けようとするか妨げようとするかによって異なる。</p>\n<li><b>苦難</b> 目標は即座に苦難に対して次のセーヴィング・スローを試みる。術者は目標が行うこの苦難に対するセーヴィング・スローに、＋2の状態ボーナスか－2の状態ペナルティのいずれかを選択して与える。</li>\n<li><b>持続［毒］ダメージ</b> この呪文を“呪文発動”する際、術者は目標に持続［毒］ダメージを直ちに与えることができる（次のターンの終わりでも持続［毒］ダメージを受ける）。術者が直ちに持続［毒］ダメージを与えたかどうかに関わらず、目標は持続［毒］ダメージに対して追加の平目判定を1回試みる。術者はその平目判定のDCを通常のDCではなく、5あるいは20のいずれかを選択できる。</li>\n<p><b>高レベル化（7レベル）</b> 術者は目標のelidible苦難と持続［毒］ダメージの数を進行させようと試みることができる。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.nHXKK4pRXAzrLdEP]</p><p>@UUID[Compendium.pf2e.spell-effects.Item.R27azQfzeFuFc48G]</p>",
+      "description": "<p><b>領域</b> 飽食</p>\n<p>誰かが食べ過ぎたとき、術者はその苦難の最悪の状態を早く終わらせる、または惨状を強めることができる。</p>\n<p>この呪文は目標に効果を与えている病気の苦難、毒の苦難、持続［毒］ダメージを進行させようとする。</p>\n<p>目標がこれらの効果を2つ以上受けている場合、術者は気付いているものから1つを選択する。そうしない場合はGMが無作為に決定する。同意しない目標はテイク・イッツ・コースを無効化するために意志セーヴを試みることができる。</p>\n<p>この呪文の効果は、終わらせようとしているのが苦難か持続［毒］ダメージか、また対象の回復を助けようとするか妨げようとするかによって異なる。</p>\n<li><b>苦難</b> 目標は即座に苦難に対して次のセーヴィング・スローを試みる。術者は目標が行うこの苦難に対するセーヴィング・スローに、＋2のステータスボーナスか－2のステータスペナルティのいずれかを選択して与える。</li>\n<li><b>持続［毒］ダメージ</b> この呪文を“呪文発動”する際、術者は目標に持続［毒］ダメージを直ちに与えることができる（次のターンの終わりでも持続［毒］ダメージを受ける）。術者が直ちに持続［毒］ダメージを与えたかどうかに関わらず、目標は持続［毒］ダメージに対して追加の平目判定を1回試みる。術者はその平目判定のDCを通常のDCではなく、5あるいは20のいずれかを選択できる。</li>\n<p><b>高レベル化（7レベル）</b> 術者は目標のelidible苦難と持続［毒］ダメージの数を進行させようと試みることができる。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.nHXKK4pRXAzrLdEP]</p><p>@UUID[Compendium.pf2e.spell-effects.Item.R27azQfzeFuFc48G]</p>",
       "time": "2"
     },
     "Holy Cascade": {
@@ -3833,7 +3833,7 @@
     },
     "Heart's Desire": {
       "name": "ハーツ・デザイア",
-      "description": "<p><b>血脈</b> ジンニー</p>\n<p>術者は目標をその最大の欲望を満たす驚くべき幻で取り囲み、現実から目を背けさせる。目標は意志セーヴを試みなければならない。</p>\n<p><b>大成功</b> 目標は幻術を看破しなんの効果も受けない。</p><p><b>成功</b> 1ラウンドの間、目標は@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{知性低下状態}2となり、リアクションの効果を決定するために行うあらゆる判定に－2の状態ペナルティを受ける。</p><p><b>失敗</b> 1分の間、目標は@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{知性低下状態}2となり、リアクションを行えない。</p><p><b>大失敗</b> 失敗と同様だが、目標にとって全てのマスが移動困難地形になる。</p><hr><p><b>高レベル化（＋2）</b> 術者は追加でクリーチャー1体を目標にすることができる。</p>\n",
+      "description": "<p><b>血脈</b> ジンニー</p>\n<p>術者は目標をその最大の欲望を満たす驚くべき幻で取り囲み、現実から目を背けさせる。目標は意志セーヴを試みなければならない。</p>\n<p><b>大成功</b> 目標は幻術を看破しなんの効果も受けない。</p><p><b>成功</b> 1ラウンドの間、目標は@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{知性低下状態}2となり、リアクションの効果を決定するために行うあらゆる判定に－2のステータスペナルティを受ける。</p><p><b>失敗</b> 1分の間、目標は@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{知性低下状態}2となり、リアクションを行えない。</p><p><b>大失敗</b> 失敗と同様だが、目標にとって全てのマスが移動困難地形になる。</p><hr><p><b>高レベル化（＋2）</b> 術者は追加でクリーチャー1体を目標にすることができる。</p>\n",
       "duration": "さまざま",
       "target": "クリーチャー1体",
       "range": "60 ﾌｨｰﾄ",
@@ -3842,7 +3842,7 @@
     "Forbidding Ward": {
       "range": "30 ﾌｨｰﾄ",
       "target": "味方1体、および敵1体",
-      "description": "<p>術者は味方1人を、目標の敵からの攻撃や敵対的な呪文から守る。目標の味方は、目標の敵が行う攻撃や呪文、その他の効果に対して、ACとセーヴィング・スローに＋1の状態ボーナスを得る。</p><hr><p><b>高レベル化（6レベル）</b> 状態ボーナスは＋2に増加する。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.ctMxYPGEpstvhW9C]</p>",
+      "description": "<p>術者は味方1人を、目標の敵からの攻撃や敵対的な呪文から守る。目標の味方は、目標の敵が行う攻撃や呪文、その他の効果に対して、ACとセーヴィング・スローに＋1のステータスボーナスを得る。</p><hr><p><b>高レベル化（6レベル）</b> ステータスボーナスは＋2に増加する。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.ctMxYPGEpstvhW9C]</p>",
       "duration": "1分",
       "name": "フォービディング・ウォード",
       "time": "2"
@@ -3912,7 +3912,7 @@
       "time": "reaction"
     },
     "Enlarge": {
-      "description": "<p>魔法の力で強化され、目標のサイズは大型になる。</p>\n<p>装備品も目標とともに大きくなるが、体から離れると元のサイズに戻る。クリーチャーは@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{よたつき状態1}になる。目標の間合いは5フィート（元のサイズが超小型の場合は10フィート）だけ伸び、近接ダメージに＋2の状態ボーナスを得る。この呪文は大型かそれより大きなクリーチャーにはなんの効果もない。</p><hr><p><b>高レベル化（4レベル）</b> クリーチャーは大型ではなく超大型になる。近接ダメージへの状態ボーナスは＋4になり、クリーチャーの間合いは10フィート（元のサイズが超小型の場合は15フィート）だけ伸びる。超大型かそれより大きなクリーチャーにはなんの効果もない。</p><p><b>高レベル化（6レベル）</b> この呪文の2レベル版もしくは4レベル版を選択し、同意するクリーチャー10体までにその効果を適用する。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.sPCWrhUHqlbGhYSD]</p>",
+      "description": "<p>魔法の力で強化され、目標のサイズは大型になる。</p>\n<p>装備品も目標とともに大きくなるが、体から離れると元のサイズに戻る。クリーチャーは@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{よたつき状態1}になる。目標の間合いは5フィート（元のサイズが超小型の場合は10フィート）だけ伸び、近接ダメージに＋2のステータスボーナスを得る。この呪文は大型かそれより大きなクリーチャーにはなんの効果もない。</p><hr><p><b>高レベル化（4レベル）</b> クリーチャーは大型ではなく超大型になる。近接ダメージへのステータスボーナスは＋4になり、クリーチャーの間合いは10フィート（元のサイズが超小型の場合は15フィート）だけ伸びる。超大型かそれより大きなクリーチャーにはなんの効果もない。</p><p><b>高レベル化（6レベル）</b> この呪文の2レベル版もしくは4レベル版を選択し、同意するクリーチャー10体までにその効果を適用する。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.sPCWrhUHqlbGhYSD]</p>",
       "duration": "5分",
       "target": "同意するクリーチャー1体",
       "range": "30 ﾌｨｰﾄ",
@@ -3988,7 +3988,7 @@
     },
     "Protection": {
       "name": "プロテクション",
-      "description": "<p>術者指定した属性1つからクリーチャーを守る。この呪文を発動する際、悪、混沌、善、秩序から1つを選択すること。</p>\n<p>目標は指定した属性のクリーチャーや効果に対して、ACとセーヴィング・スローに＋1の状態ボーナスを得る。このボーナスはそのようなクリーチャーが目標を直接操ろうとする場合や、選択した属性の招来クリーチャーによる攻撃に対する場合には＋3に増加する。</p>\n<p>この呪文は術者が選択した属性に対立する属性の特性を得る。混沌を選択したなら秩序の特性を得（逆も同様）、悪を選択したなら善の特性を得る（逆も同様）。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.RawLEPwyT5CtCZ4D]</p>",
+      "description": "<p>術者指定した属性1つからクリーチャーを守る。この呪文を発動する際、悪、混沌、善、秩序から1つを選択すること。</p>\n<p>目標は指定した属性のクリーチャーや効果に対して、ACとセーヴィング・スローに＋1のステータスボーナスを得る。このボーナスはそのようなクリーチャーが目標を直接操ろうとする場合や、選択した属性の招来クリーチャーによる攻撃に対する場合には＋3に増加する。</p>\n<p>この呪文は術者が選択した属性に対立する属性の特性を得る。混沌を選択したなら秩序の特性を得（逆も同様）、悪を選択したなら善の特性を得る（逆も同様）。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.RawLEPwyT5CtCZ4D]</p>",
       "duration": "1分",
       "range": "接触",
       "target": "クリーチャー1体",
@@ -4053,12 +4053,12 @@
       "name": "スリーフォールド・アスペクト",
       "target": "術者",
       "duration": "次に日毎の準備を行うまで",
-      "description": "<p>この呪文は術者の異なる3つの年齢段階、乙女（青年）、婦人（成人）、老婆（高齢者）のいずれかに術者を変化させる。この呪文を“呪文発動”する際に1つを選択する。呪文が持続している間、術者は精神集中特性を持つ単一アクションにより、この3つのいずれかか本来の年齢に変わることができる。術者の姿は年齢に関わらず術者として認識される。そのため、術者を知っているクリーチャーは術者のことを認識できる、年齢が異なることもわかる。</p>\n<p>スリーフォルド・アスペクトは術者の様々な年齢の実際の術者の肉体的な年齢と個性を変える。これにより、術者は選択した年齢であると見せるための〈ペテン〉判定に＋4の状態ボーナスを得るとともに、未修得であってもこれらの判定に習熟ボーナスとしてレベルを加算できる。加えて、クリーチャーが特別に“@UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{捜す}”アクションやその他の方法で慎重に調べるかしない限り、クリーチャーは術者が本来の年齢ではないと気づく機会を得られない。この呪文は“@UUID[Compendium.pf2e.actionspf2e.Item.AjLSHZSWQ90exdLo]{解除}”できる。</p>\n<p>@UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]</p>",
+      "description": "<p>この呪文は術者の異なる3つの年齢段階、乙女（青年）、婦人（成人）、老婆（高齢者）のいずれかに術者を変化させる。この呪文を“呪文発動”する際に1つを選択する。呪文が持続している間、術者は精神集中特性を持つ単一アクションにより、この3つのいずれかか本来の年齢に変わることができる。術者の姿は年齢に関わらず術者として認識される。そのため、術者を知っているクリーチャーは術者のことを認識できる、年齢が異なることもわかる。</p>\n<p>スリーフォルド・アスペクトは術者の様々な年齢の実際の術者の肉体的な年齢と個性を変える。これにより、術者は選択した年齢であると見せるための〈ペテン〉判定に＋4のステータスボーナスを得るとともに、未修得であってもこれらの判定に習熟ボーナスとしてレベルを加算できる。加えて、クリーチャーが特別に“@UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{捜す}”アクションやその他の方法で慎重に調べるかしない限り、クリーチャーは術者が本来の年齢ではないと気づく機会を得られない。この呪文は“@UUID[Compendium.pf2e.actionspf2e.Item.AjLSHZSWQ90exdLo]{解除}”できる。</p>\n<p>@UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]</p>",
       "time": "1分"
     },
     "Flaming Fusillade": {
       "duration": "1分",
-      "description": "<p><b>神秘</b> 炎</p><p><b>持続時間</b> 1分</p>\n<p>術者は終わることのない炎の連射を求め、手に敵に投げつけるための小さな火球を作り出す。術者はフレイミング・フューシレイドの発動の一部として@UUID[Compendium.pf2e.spells-srd.Item.O9w7r4BKgPogYDDe]{プロデュース・フレイム}を発動する。フレイミング・フューシレイドの持続時間の間、@UUID[Compendium.pf2e.spells-srd.Item.O9w7r4BKgPogYDDe]{プロデュース・フレイム}の発動時間は2アクションから1アクションに短縮される。</p><hr><p><b>高レベル化（9レベル）</b> 持続時間の間、術者は@UUID[Compendium.pf2e.spells-srd.Item.O9w7r4BKgPogYDDe]{プロデュース・フレイム}で与えるダメージに、フレイミング・フューシレイドの呪文レベルに等しい状態ボーナスを得る。</p>\n",
+      "description": "<p><b>神秘</b> 炎</p><p><b>持続時間</b> 1分</p>\n<p>術者は終わることのない炎の連射を求め、手に敵に投げつけるための小さな火球を作り出す。術者はフレイミング・フューシレイドの発動の一部として@UUID[Compendium.pf2e.spells-srd.Item.O9w7r4BKgPogYDDe]{プロデュース・フレイム}を発動する。フレイミング・フューシレイドの持続時間の間、@UUID[Compendium.pf2e.spells-srd.Item.O9w7r4BKgPogYDDe]{プロデュース・フレイム}の発動時間は2アクションから1アクションに短縮される。</p><hr><p><b>高レベル化（9レベル）</b> 持続時間の間、術者は@UUID[Compendium.pf2e.spells-srd.Item.O9w7r4BKgPogYDDe]{プロデュース・フレイム}で与えるダメージに、フレイミング・フューシレイドの呪文レベルに等しいステータスボーナスを得る。</p>\n",
       "name": "フレイミング・フューシレイド",
       "time": "2"
     },
@@ -4085,7 +4085,7 @@
       "ritual_secondary": "〈伝承学〉もしくは〈宗教〉（主要判定で使用されたもの）"
     },
     "Aerial Form": {
-      "description": "<p>術者は会得した始原の力を利用して、自分の体を中型の飛行動物の戦闘形態へと変化させる。この呪文を発動するとき、バット、バード、テラソー、ワスプからいずれか1つを選ぶ。動物の種類は自由に決定できるが（バードならフクロウやワシなど）、サイズやデータには影響しない。この形態でいる間、術者は動物の特性を得る。この魔法は“解除”できる。</p>\n<p>術者は選んだ形態に関わらず、以下の能力値とデータを得る。</p>\n<li>AC＝18＋術者のレベル、鎧の判定ペナルティと移動速度低下を無視する。 </li>\n<li>一時的ヒット・ポイント5。</li>\n<li>夜目。</li>\n<li>形態によって決まる一つ以上の肉体攻撃、術者はこれらのみを“打撃”に使用できる。術者はこの攻撃を修得済みである。術者の攻撃ボーナスは＋16、ダメージ・ボーナスは＋5。虚弱状態などにおいて、これらの攻撃は【敏捷力】基準である。術者自身の【敏捷力】基準の素手攻撃ボーナスの方が高い場合、そちらを使用する。</li>\n<li>術者自身の修正値の方が高くない限り、〈軽業〉修正値は＋16。</li>\n<br><p>術者は選択した動物種の形態によって以下の能力を得る。</p>\n<p><b>@UUID[Compendium.pf2e.spell-effects.Item.jvwKRHtOiPAm4uAP]{バット}</b></p><ul><li>移動速度20フィート、飛行移動速度30フィート</li><li>明瞭な反響定位40フィート</li><li><b>近接</b> <span class=\"action-glyph\">1</span> 牙、<b>ダメージ</b> 2d8［刺突］</li><li><b>近接</b> <span class=\"action-glyph\">1</span> 翼（機敏）、<b>ダメージ</b> 2d6［殴打］。</li></ul><p><b>@UUID[Compendium.pf2e.spell-effects.Item.0QVufU5o3xIxiHmP]{バード}</b></p><ul><li>移動速度10フィート、飛行移動速度50フィート</li><li><b>近接</b> <span class=\"action-glyph\">1</span> 嘴、<b>ダメージ</b> 2d8［刺突］</li><li><b>近接</b> <span class=\"action-glyph\">1</span> 鉤爪（機敏）、<b>ダメージ</b> 1d10［斬撃］</li></ul><p><b>@UUID[Compendium.pf2e.spell-effects.Item.UjoNm3lrhlg4ctAQ]{テラソー}</b></p><ul><li>移動速度10フィート、飛行移動速度40フィート</li><li>不明瞭な鋭敏嗅覚30フィート</li><li><b>近接</b> <span class=\"action-glyph\">1</span> 嘴、<b>ダメージ</b> 3d6［刺突］</li></ul><p><b>@UUID[Compendium.pf2e.spell-effects.Item.xgZxYqjDPNtsQ3Qp]{ワスプ}</b></p><ul><li>移動速度20フィート、飛行移動速度40フィート</li><li><b>近接</b> <span class=\"action-glyph\">1</span> 針、<b>ダメージ</b> 1d8［刺突］に加えて1d6持続［毒］。</li></ul><hr><p><b>高レベル化（5レベル）</b> 戦闘形態は大型になり、飛行移動速度に＋10フィートの状態ボーナスを得る。拡大するのに十分な空間がなければならず、さもなければ呪文は失敗する。術者は元のデータの代わりに一時的ヒット・ポイント10、攻撃修正値＋18、ダメージ・ボーナス＋8、〈軽業〉＋20を得る。</p><p><b>高レベル化（6レベル）</b> 戦闘形態は超大型になり、飛行移動速度に＋15フィートの状態ボーナスを得る。拡大するのに十分な空間がなければならず、さもなければ呪文は失敗する。術者は元のデータの代わりにAC＝21＋術者のレベル、一時的ヒット・ポイント15、攻撃修正値＋21、ダメージ・ボーナス＋4に加えてダメージ・ダイス数2倍（持続ダメージも含む）、〈軽業〉＋23を得る。</p>",
+      "description": "<p>術者は会得した始原の力を利用して、自分の体を中型の飛行動物の戦闘形態へと変化させる。この呪文を発動するとき、バット、バード、テラソー、ワスプからいずれか1つを選ぶ。動物の種類は自由に決定できるが（バードならフクロウやワシなど）、サイズやデータには影響しない。この形態でいる間、術者は動物の特性を得る。この魔法は“解除”できる。</p>\n<p>術者は選んだ形態に関わらず、以下の能力値とデータを得る。</p>\n<li>AC＝18＋術者のレベル、鎧の判定ペナルティと移動速度低下を無視する。 </li>\n<li>一時的ヒット・ポイント5。</li>\n<li>夜目。</li>\n<li>形態によって決まる一つ以上の肉体攻撃、術者はこれらのみを“打撃”に使用できる。術者はこの攻撃を修得済みである。術者の攻撃ボーナスは＋16、ダメージ・ボーナスは＋5。虚弱状態などにおいて、これらの攻撃は【敏捷力】基準である。術者自身の【敏捷力】基準の素手攻撃ボーナスの方が高い場合、そちらを使用する。</li>\n<li>術者自身の修正値の方が高くない限り、〈軽業〉修正値は＋16。</li>\n<br><p>術者は選択した動物種の形態によって以下の能力を得る。</p>\n<p><b>@UUID[Compendium.pf2e.spell-effects.Item.jvwKRHtOiPAm4uAP]{バット}</b></p><ul><li>移動速度20フィート、飛行移動速度30フィート</li><li>明瞭な反響定位40フィート</li><li><b>近接</b> <span class=\"action-glyph\">1</span> 牙、<b>ダメージ</b> 2d8［刺突］</li><li><b>近接</b> <span class=\"action-glyph\">1</span> 翼（機敏）、<b>ダメージ</b> 2d6［殴打］。</li></ul><p><b>@UUID[Compendium.pf2e.spell-effects.Item.0QVufU5o3xIxiHmP]{バード}</b></p><ul><li>移動速度10フィート、飛行移動速度50フィート</li><li><b>近接</b> <span class=\"action-glyph\">1</span> 嘴、<b>ダメージ</b> 2d8［刺突］</li><li><b>近接</b> <span class=\"action-glyph\">1</span> 鉤爪（機敏）、<b>ダメージ</b> 1d10［斬撃］</li></ul><p><b>@UUID[Compendium.pf2e.spell-effects.Item.UjoNm3lrhlg4ctAQ]{テラソー}</b></p><ul><li>移動速度10フィート、飛行移動速度40フィート</li><li>不明瞭な鋭敏嗅覚30フィート</li><li><b>近接</b> <span class=\"action-glyph\">1</span> 嘴、<b>ダメージ</b> 3d6［刺突］</li></ul><p><b>@UUID[Compendium.pf2e.spell-effects.Item.xgZxYqjDPNtsQ3Qp]{ワスプ}</b></p><ul><li>移動速度20フィート、飛行移動速度40フィート</li><li><b>近接</b> <span class=\"action-glyph\">1</span> 針、<b>ダメージ</b> 1d8［刺突］に加えて1d6持続［毒］。</li></ul><hr><p><b>高レベル化（5レベル）</b> 戦闘形態は大型になり、飛行移動速度に＋10フィートのステータスボーナスを得る。拡大するのに十分な空間がなければならず、さもなければ呪文は失敗する。術者は元のデータの代わりに一時的ヒット・ポイント10、攻撃修正値＋18、ダメージ・ボーナス＋8、〈軽業〉＋20を得る。</p><p><b>高レベル化（6レベル）</b> 戦闘形態は超大型になり、飛行移動速度に＋15フィートのステータスボーナスを得る。拡大するのに十分な空間がなければならず、さもなければ呪文は失敗する。術者は元のデータの代わりにAC＝21＋術者のレベル、一時的ヒット・ポイント15、攻撃修正値＋21、ダメージ・ボーナス＋4に加えてダメージ・ダイス数2倍（持続ダメージも含む）、〈軽業〉＋23を得る。</p>",
       "duration": "1分",
       "name": "エアリアル・フォーム",
       "time": "2"
@@ -4194,13 +4194,13 @@
       "time": "1分"
     },
     "Inspire Defense": {
-      "description": "<p><b>効果範囲</b> 60フィートの放射； <b>持続時間</b> 1ラウンド</p>\n<p>術者は味方を鼓舞し、より効率的に自身を守れるようにする。</p>\n<p>術者と範囲内の味方はACとセーヴィング・スローに＋1の状態ボーナスを得るとともに、呪文のレベルの半分に等しい、物理ダメージに対する抵抗を得る。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.DLwTvjjnqs2sNGuG]</p>",
+      "description": "<p><b>効果範囲</b> 60フィートの放射； <b>持続時間</b> 1ラウンド</p>\n<p>術者は味方を鼓舞し、より効率的に自身を守れるようにする。</p>\n<p>術者と範囲内の味方はACとセーヴィング・スローに＋1のステータスボーナスを得るとともに、呪文のレベルの半分に等しい、物理ダメージに対する抵抗を得る。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.DLwTvjjnqs2sNGuG]</p>",
       "name": "インスパイアー・ディフェンス",
       "duration": "1ラウンド",
       "time": "1"
     },
     "Lock": {
-      "description": "<p>目に見えない魔法の拘束力によって、目標の掛け金がカチッと音を立てて閉じる。目標を魔法で施錠した場合、自分の呪文のDCか基礎となる鍵のDCに＋4の状態ボーナスを加えたものの、いずれか高い方を〈軽業〉と〈盗賊〉のDCとして設定する。</p>\n<p>かつて開けた鍵や組み合わせ錠であっても、この呪文の影響を受けた錠をこの呪文の効果時間中に開けることはできない。しかし、対応する鍵や組み合わせ錠を用いると、この扉を開けるための判定に＋4の状況ボーナスを得る。</p>\n<p>目標が開かれた場合、この呪文は終了する。目標が何らかの方法で施錠されていなければ、術者は目標に触れて“扱う”アクションを使用することで、鍵を外して目標を開くことができる。この場合、呪文は終了しない。この呪文は、いつでもどの距離からでも解除できる。</p><hr><p><b>高レベル化（2レベル）</b> 持続時間は無制限になるが、追加費用として6gp相当の金粉を消費する必要がある。</p>\n",
+      "description": "<p>目に見えない魔法の拘束力によって、目標の掛け金がカチッと音を立てて閉じる。目標を魔法で施錠した場合、自分の呪文のDCか基礎となる鍵のDCに＋4のステータスボーナスを加えたものの、いずれか高い方を〈軽業〉と〈盗賊〉のDCとして設定する。</p>\n<p>かつて開けた鍵や組み合わせ錠であっても、この呪文の影響を受けた錠をこの呪文の効果時間中に開けることはできない。しかし、対応する鍵や組み合わせ錠を用いると、この扉を開けるための判定に＋4の状況ボーナスを得る。</p>\n<p>目標が開かれた場合、この呪文は終了する。目標が何らかの方法で施錠されていなければ、術者は目標に触れて“扱う”アクションを使用することで、鍵を外して目標を開くことができる。この場合、呪文は終了しない。この呪文は、いつでもどの距離からでも解除できる。</p><hr><p><b>高レベル化（2レベル）</b> 持続時間は無制限になるが、追加費用として6gp相当の金粉を消費する必要がある。</p>\n",
       "duration": "次に日毎の準備を行うまで",
       "target": "錠1つ、または掛け金のある扉か容器",
       "range": "接触",
@@ -4214,7 +4214,7 @@
       "time": "2"
     },
     "Magic Hide": {
-      "description": "<p><b>持続時間</b> 1分</p>\n<p>術者の動物の相棒は分厚い革、密度の高い毛皮、硬い殻を成長させ、ACに＋1の状態ボーナスを得る。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.qhNUfwpkD8BRw4zj]</p>",
+      "description": "<p><b>持続時間</b> 1分</p>\n<p>術者の動物の相棒は分厚い革、密度の高い毛皮、硬い殻を成長させ、ACに＋1のステータスボーナスを得る。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.qhNUfwpkD8BRw4zj]</p>",
       "duration": "1分",
       "target": "術者の動物の相棒",
       "range": "30 ﾌｨｰﾄ",
@@ -4243,13 +4243,13 @@
       "time": "2"
     },
     "Inspire Heroics": {
-      "description": "\n<p>術者は詩神を呼び下ろし、術者が与える@UUID[Compendium.pf2e.spells-srd.Item.IAjvwqgiDr3qGYxY]{インスパイアー・カレッジ}あるいは@UUID[Compendium.pf2e.spells-srd.Item.bH0kPuf7UKxRvi2P]{インスパイアー・ディフェンス}の奏演の利益を増幅させる。次のアクションが@UUID[Compendium.pf2e.spells-srd.Item.IAjvwqgiDr3qGYxY]{インスパイアー・カレッジ}あるいは@UUID[Compendium.pf2e.spells-srd.Item.bH0kPuf7UKxRvi2P]{インスパイアー・ディフェンス}の発動に使用されるなら、〈芸能〉判定を試みる。</p>\n<p>DCは通常、奏演の目標の中で最高のレベルにおけるとても困難なDCに等しい。しかしGMは状況に応じた別のDCを設定してもよい。@UUID[Compendium.pf2e.spells-srd.Item.IAjvwqgiDr3qGYxY]{インスパイアー・カレッジ}あるいは@UUID[Compendium.pf2e.spells-srd.Item.bH0kPuf7UKxRvi2P]{インスパイアー・ディフェンス}の奏演の効果は、判定の結果によって変化する。</p>\n<p><b>大成功</b> @UUID[Compendium.pf2e.spells-srd.Item.IAjvwqgiDr3qGYxY]{インスパイアー・カレッジ}あるいは@UUID[Compendium.pf2e.spells-srd.Item.bH0kPuf7UKxRvi2P]{インスパイアー・ディフェンス}による状態ボーナスは＋3に増加する。</p>\n<p><b>成功</b> @UUID[Compendium.pf2e.spells-srd.Item.IAjvwqgiDr3qGYxY]{インスパイアー・カレッジ}あるいは@UUID[Compendium.pf2e.spells-srd.Item.bH0kPuf7UKxRvi2P]{インスパイアー・ディフェンス}による状態ボーナスは＋2に増加する。</p>\n<p><b>失敗</b> @UUID[Compendium.pf2e.spells-srd.Item.IAjvwqgiDr3qGYxY]{インスパイアー・カレッジ}あるいは@UUID[Compendium.pf2e.spells-srd.Item.bH0kPuf7UKxRvi2P]{インスパイアー・ディフェンス}による状態ボーナスは通常の＋1のままだが、術者はこの呪文を発動する際に焦点化ポイントを消費しない。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.VFereWC1agrwgzPL]</p><p>@UUID[Compendium.pf2e.spell-effects.Item.BKam63zT98iWMJH7]</p><p>@UUID[Compendium.pf2e.spell-effects.Item.kZ39XWJA3RBDTnqG]</p><p>@UUID[Compendium.pf2e.spell-effects.Item.Chol7ExtoN2T36mP]</p>",
+      "description": "\n<p>術者は詩神を呼び下ろし、術者が与える@UUID[Compendium.pf2e.spells-srd.Item.IAjvwqgiDr3qGYxY]{インスパイアー・カレッジ}あるいは@UUID[Compendium.pf2e.spells-srd.Item.bH0kPuf7UKxRvi2P]{インスパイアー・ディフェンス}の奏演の利益を増幅させる。次のアクションが@UUID[Compendium.pf2e.spells-srd.Item.IAjvwqgiDr3qGYxY]{インスパイアー・カレッジ}あるいは@UUID[Compendium.pf2e.spells-srd.Item.bH0kPuf7UKxRvi2P]{インスパイアー・ディフェンス}の発動に使用されるなら、〈芸能〉判定を試みる。</p>\n<p>DCは通常、奏演の目標の中で最高のレベルにおけるとても困難なDCに等しい。しかしGMは状況に応じた別のDCを設定してもよい。@UUID[Compendium.pf2e.spells-srd.Item.IAjvwqgiDr3qGYxY]{インスパイアー・カレッジ}あるいは@UUID[Compendium.pf2e.spells-srd.Item.bH0kPuf7UKxRvi2P]{インスパイアー・ディフェンス}の奏演の効果は、判定の結果によって変化する。</p>\n<p><b>大成功</b> @UUID[Compendium.pf2e.spells-srd.Item.IAjvwqgiDr3qGYxY]{インスパイアー・カレッジ}あるいは@UUID[Compendium.pf2e.spells-srd.Item.bH0kPuf7UKxRvi2P]{インスパイアー・ディフェンス}によるステータスボーナスは＋3に増加する。</p>\n<p><b>成功</b> @UUID[Compendium.pf2e.spells-srd.Item.IAjvwqgiDr3qGYxY]{インスパイアー・カレッジ}あるいは@UUID[Compendium.pf2e.spells-srd.Item.bH0kPuf7UKxRvi2P]{インスパイアー・ディフェンス}によるステータスボーナスは＋2に増加する。</p>\n<p><b>失敗</b> @UUID[Compendium.pf2e.spells-srd.Item.IAjvwqgiDr3qGYxY]{インスパイアー・カレッジ}あるいは@UUID[Compendium.pf2e.spells-srd.Item.bH0kPuf7UKxRvi2P]{インスパイアー・ディフェンス}によるステータスボーナスは通常の＋1のままだが、術者はこの呪文を発動する際に焦点化ポイントを消費しない。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.VFereWC1agrwgzPL]</p><p>@UUID[Compendium.pf2e.spell-effects.Item.BKam63zT98iWMJH7]</p><p>@UUID[Compendium.pf2e.spell-effects.Item.kZ39XWJA3RBDTnqG]</p><p>@UUID[Compendium.pf2e.spell-effects.Item.Chol7ExtoN2T36mP]</p>",
       "name": "インスパイアー・ヒロイックス",
       "time": "自由"
     },
     "Consecrate": {
       "duration": "1年",
-      "description": "<p>主要術者は自身の奉じる神格のために場所を聖別し、賛美を唱えて神聖な空間を作り出す。範囲内にいる間、その神格の信者は攻撃ロール、技能判定、セーヴィング・スロー、知覚判定に＋1の清浄ボーナスを得、その神格にが忌み嫌う敵（ファラズマやサーレンレイにおけるアンデッドなど）はそれらの判定に－1の状態ペナルティを受ける。その範囲内にいるその神格の信者による攻撃は、神格の属性種別1つ（主要術者が選択する）に対応する1の属性ダメージを与える。神格が真なる中立の場合、この利益は得られない。</p><p><b>大成功</b> 聖別は成功し、1年ではなく10年の間持続するか、本来より半径が2倍の範囲を覆うかのいずれかとなる。ときには、神格の好意により、永久に聖別された領域や大聖堂全体を覆う効果など、さらなる驚くべき効果を生むこともある。</p>\n<p><b>成功</b> 聖別は成功する。</p>\n<p><b>失敗</b> 聖別は失敗する。</p>\n<p><b>大失敗</b> 聖別は劇的に失敗して神格は起こり、不快であるという印を送る。少なくとも1年の間、その場所を聖別しようとする試みは失敗する。</p>\n<p><b>高レベル化（7レベル）</b> 聖別された範囲は@UUID[Compendium.pf2e.spells-srd.Item.XZE4BawIlTf88Yl9]{ディメンジョナル・ロック}呪文の効果も得る。この効果は対応する神格の信者による瞬間移動を無効化しない。コストは200gp×呪文レベルに増加する。</p>\n<p>@UUID[Compendium.pf2e.deities.Item.QZD0u1jxwz0kj8uI]</p><p>@UUID[Compendium.pf2e.deities.Item.BNycwu3I21dTh4D9]</p>",
+      "description": "<p>主要術者は自身の奉じる神格のために場所を聖別し、賛美を唱えて神聖な空間を作り出す。範囲内にいる間、その神格の信者は攻撃ロール、技能判定、セーヴィング・スロー、知覚判定に＋1の清浄ボーナスを得、その神格にが忌み嫌う敵（ファラズマやサーレンレイにおけるアンデッドなど）はそれらの判定に－1のステータスペナルティを受ける。その範囲内にいるその神格の信者による攻撃は、神格の属性種別1つ（主要術者が選択する）に対応する1の属性ダメージを与える。神格が真なる中立の場合、この利益は得られない。</p><p><b>大成功</b> 聖別は成功し、1年ではなく10年の間持続するか、本来より半径が2倍の範囲を覆うかのいずれかとなる。ときには、神格の好意により、永久に聖別された領域や大聖堂全体を覆う効果など、さらなる驚くべき効果を生むこともある。</p>\n<p><b>成功</b> 聖別は成功する。</p>\n<p><b>失敗</b> 聖別は失敗する。</p>\n<p><b>大失敗</b> 聖別は劇的に失敗して神格は起こり、不快であるという印を送る。少なくとも1年の間、その場所を聖別しようとする試みは失敗する。</p>\n<p><b>高レベル化（7レベル）</b> 聖別された範囲は@UUID[Compendium.pf2e.spells-srd.Item.XZE4BawIlTf88Yl9]{ディメンジョナル・ロック}呪文の効果も得る。この効果は対応する神格の信者による瞬間移動を無効化しない。コストは200gp×呪文レベルに増加する。</p>\n<p>@UUID[Compendium.pf2e.deities.Item.QZD0u1jxwz0kj8uI]</p><p>@UUID[Compendium.pf2e.deities.Item.BNycwu3I21dTh4D9]</p>",
       "range": "40 ﾌｨｰﾄ",
       "name": "コンセクレイト",
       "time": "3日",
@@ -4283,7 +4283,7 @@
     },
     "Sanctified Ground": {
       "name": "サンクティファイド・グラウンド",
-      "description": "<p>術者は聖水を振りかけ敵から結界を張ることで、その場所を聖別する。異形、セレスチャル、竜、フィーンド、監視者、アンデッドのいずれかを選択する。範囲内にいるすべてのクリーチャーは、選択したクリーチャーに対するAC、攻撃ロール、ダメージ・ロール、セーヴィング・スローに＋1の状態ボーナスを得る。</p>",
+      "description": "<p>術者は聖水を振りかけ敵から結界を張ることで、その場所を聖別する。異形、セレスチャル、竜、フィーンド、監視者、アンデッドのいずれかを選択する。範囲内にいるすべてのクリーチャーは、選択したクリーチャーに対するAC、攻撃ロール、ダメージ・ロール、セーヴィング・スローに＋1のステータスボーナスを得る。</p>",
       "duration": "次に日毎の準備を行うまで",
       "time": "1分",
       "cost": "聖水1瓶"
@@ -4334,13 +4334,13 @@
       "time": "1分"
     },
     "Chilling Spray": {
-      "description": "<p>氷のかけらが術者の手から円錐形に放たれ、目標を霜の層で覆う。術者は範囲内のクリーチャーに2d4の［氷雪］ダメージを与える。効果を受けたものはそれぞれ反応セーヴを試みなければならない。</p>\n<p><b>大成功</b> クリーチャーはなんの効果も受けない。</p><p><b>成功</b> クリーチャーは半減ダメージを受ける。</p><p><b>失敗</b> クリーチャーはすべてのダメージを受け、2ラウンドの間移動速度に－5フィートの状態ペナルティを受ける。</p><p><b>大失敗</b> クリーチャーは2倍ダメージを受け、2ラウンドの間移動速度に－10フィートの状態ペナルティを受ける。</p><hr><p><b>高レベル化（＋1）</b> ダメージは2d4ずつ増加する。</p>\n",
+      "description": "<p>氷のかけらが術者の手から円錐形に放たれ、目標を霜の層で覆う。術者は範囲内のクリーチャーに2d4の［氷雪］ダメージを与える。効果を受けたものはそれぞれ反応セーヴを試みなければならない。</p>\n<p><b>大成功</b> クリーチャーはなんの効果も受けない。</p><p><b>成功</b> クリーチャーは半減ダメージを受ける。</p><p><b>失敗</b> クリーチャーはすべてのダメージを受け、2ラウンドの間移動速度に－5フィートのステータスペナルティを受ける。</p><p><b>大失敗</b> クリーチャーは2倍ダメージを受け、2ラウンドの間移動速度に－10フィートのステータスペナルティを受ける。</p><hr><p><b>高レベル化（＋1）</b> ダメージは2d4ずつ増加する。</p>\n",
       "name": "チリング・スプレー",
       "time": "2"
     },
     "Abyssal Plague": {
       "name": "アビサル・プレイグ",
-      "description": "<p>術者の接触は目標をアビスの疫病に罹患させる。この病気は魂の断片を吸い取ってアビスに力を与える。</p>\n<p>効果は目標の頑健セーヴに基づく。</p>\n<p><b>大成功</b> 目標はなんの効果も受けない。</p>\n<p><b>成功</b> 目標は呪文レベルごとに2の［悪］ダメージを受け、アビス疫に対するセーヴに－2の状態ペナルティを受ける。このペナルティは1日が経過するか、目標が病気に罹患するかのいずれかが生じるまで持続する。</p>\n<p><b>失敗</b> 目標はアビス疫の第1段階に罹患する。</p>\n<p><b>大失敗</b> 目標はアビス疫の第2段階に罹患する。</p>\n<p><b>アビス疫</b>（病気）；<b>レベル</b> 9。目標は病気から回復するまで、アビス疫の吸精状態から回復できない。<b>第1段階</b> @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{吸精状態1}（1日）；<b>第2段階</b> 吸精状態は2に増加する（1日）。</p>\n",
+      "description": "<p>術者の接触は目標をアビスの疫病に罹患させる。この病気は魂の断片を吸い取ってアビスに力を与える。</p>\n<p>効果は目標の頑健セーヴに基づく。</p>\n<p><b>大成功</b> 目標はなんの効果も受けない。</p>\n<p><b>成功</b> 目標は呪文レベルごとに2の［悪］ダメージを受け、アビス疫に対するセーヴに－2のステータスペナルティを受ける。このペナルティは1日が経過するか、目標が病気に罹患するかのいずれかが生じるまで持続する。</p>\n<p><b>失敗</b> 目標はアビス疫の第1段階に罹患する。</p>\n<p><b>大失敗</b> 目標はアビス疫の第2段階に罹患する。</p>\n<p><b>アビス疫</b>（病気）；<b>レベル</b> 9。目標は病気から回復するまで、アビス疫の吸精状態から回復できない。<b>第1段階</b> @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{吸精状態1}（1日）；<b>第2段階</b> 吸精状態は2に増加する（1日）。</p>\n",
       "target": "クリーチャー1体",
       "range": "接触",
       "time": "2"
@@ -4385,7 +4385,7 @@
     },
     "Death Ward": {
       "duration": "10分",
-      "description": "<p>術者は負のエネルギーによる損害からクリーチャーを守る。</p>\n<p>この呪文は即死及び負のエネルギー効果に対するセーヴに＋4の状態ボーナスと［負のエネルギー］に対する抵抗10を得るとともに、@UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{凶兆状態}の効果を抑止する。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.s6CwkSsMDGfUmotn]</p>",
+      "description": "<p>術者は負のエネルギーによる損害からクリーチャーを守る。</p>\n<p>この呪文は即死及び負のエネルギー効果に対するセーヴに＋4のステータスボーナスと［負のエネルギー］に対する抵抗10を得るとともに、@UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{凶兆状態}の効果を抑止する。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.s6CwkSsMDGfUmotn]</p>",
       "target": "接触した生きているクリーチャー1体",
       "range": "接触",
       "name": "デス・ウォード",
@@ -4434,7 +4434,7 @@
     "Volcanic Eruption": {
       "name": "ヴォルカニック・イラプション",
       "range": "120 ﾌｨｰﾄ",
-      "description": "<p>地面が開き、溶岩の柱を垂直の円筒形に空高く噴射し、範囲内のクリーチャーに14d6の［火炎］ダメージを与える。溶岩は急速に冷却され、そのエリアのクリーチャーを包み込む。岩に包み込まれたクリーチャーは@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{よたつき状態1}になり、移動速度に－10フィートの状態ペナルティを受ける。飛行クリーチャーにとって全ての通常の地形は全て移動困難地形となり、そのようなクリーチャーは包み込まれた瞬間に直ちに20フィート落下するが、この落下によるダメージは受けない。岩に包み込まれたクリーチャーは、術者の呪文DCに対して“脱出”を試みて成功すればその効果を終了させることができる。そうでない場合、そのクリーチャーは合計50ダメージを受けるまで包み込まれたままとなり、その後岩から解放される。</p>\n<p>さらに、その範囲にいるクリーチャーと溶岩の柱から5フィート以内にいるクリーチャーは、セーヴィング・スローの結果にかかわらず、自動的にその猛烈な熱気のために3d6の［火炎］ダメージを受ける。</p>\n<p><b>大成功</b> クリーチャーはなんの効果も受けない。</p>\n<p><b>成功</b> クリーチャーは半分のダメージを受ける。</p>\n<p><b>失敗</b> クリーチャーは全てのダメージを受け、包み込まれる。</p>\n<p><b>大失敗</b> クリーチャーは2倍のダメージを受け、包み込まれる。</p><hr><p><b>高レベル化（＋1）</b> 範囲内におけるダメージは2d6ずつ、猛烈な熱気によるダメージは1d6ずつ増加する。</p>\n",
+      "description": "<p>地面が開き、溶岩の柱を垂直の円筒形に空高く噴射し、範囲内のクリーチャーに14d6の［火炎］ダメージを与える。溶岩は急速に冷却され、そのエリアのクリーチャーを包み込む。岩に包み込まれたクリーチャーは@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{よたつき状態1}になり、移動速度に－10フィートのステータスペナルティを受ける。飛行クリーチャーにとって全ての通常の地形は全て移動困難地形となり、そのようなクリーチャーは包み込まれた瞬間に直ちに20フィート落下するが、この落下によるダメージは受けない。岩に包み込まれたクリーチャーは、術者の呪文DCに対して“脱出”を試みて成功すればその効果を終了させることができる。そうでない場合、そのクリーチャーは合計50ダメージを受けるまで包み込まれたままとなり、その後岩から解放される。</p>\n<p>さらに、その範囲にいるクリーチャーと溶岩の柱から5フィート以内にいるクリーチャーは、セーヴィング・スローの結果にかかわらず、自動的にその猛烈な熱気のために3d6の［火炎］ダメージを受ける。</p>\n<p><b>大成功</b> クリーチャーはなんの効果も受けない。</p>\n<p><b>成功</b> クリーチャーは半分のダメージを受ける。</p>\n<p><b>失敗</b> クリーチャーは全てのダメージを受け、包み込まれる。</p>\n<p><b>大失敗</b> クリーチャーは2倍のダメージを受け、包み込まれる。</p><hr><p><b>高レベル化（＋1）</b> 範囲内におけるダメージは2d6ずつ、猛烈な熱気によるダメージは1d6ずつ増加する。</p>\n",
       "time": "2"
     },
     "Unfettered Pack": {
@@ -4450,12 +4450,12 @@
       "target": "同意するクリーチャー1体",
       "range": "30 ﾌｨｰﾄ",
       "duration": "10分",
-      "description": "<p><b>領域</b> 夢</p>\n<p>心地よい歌や物語で、術者は目標を魅惑的な夢へと誘う。呪文を発動すると、既に@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{気絶状態}でない限り目標は@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{気絶状態}になる。@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{気絶状態}の間、目標は術者が選択した夢を体験する。最低でも1分間眠ったなら、目標は呪文の持続時間の残りの間、夢の利益を得る。</p>\n<li><b>洞察の夢</b> 【知力】基準の技能判定に＋1の状態ボーナス。</li>\n<li><b>魅惑の夢</b> 【魅力】基準の判定に＋1の状態ボーナス。</li>\n<li><b>航海の夢</b> 速度に＋5フィートの状態ボーナス。</li><p>術者がこの呪文を再び“呪文発動”したなら、術者が以前に発動していたスウィート・ドリームの効果は終了する。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.v051JKN0Dj3ve5cF]</p><p>@UUID[Compendium.pf2e.spell-effects.Item.MJSoRFfEdM4j5mNG]</p><p>@UUID[Compendium.pf2e.spell-effects.Item.sE2txm68yZSFMV3v]</p>",
+      "description": "<p><b>領域</b> 夢</p>\n<p>心地よい歌や物語で、術者は目標を魅惑的な夢へと誘う。呪文を発動すると、既に@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{気絶状態}でない限り目標は@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{気絶状態}になる。@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{気絶状態}の間、目標は術者が選択した夢を体験する。最低でも1分間眠ったなら、目標は呪文の持続時間の残りの間、夢の利益を得る。</p>\n<li><b>洞察の夢</b> 【知力】基準の技能判定に＋1のステータスボーナス。</li>\n<li><b>魅惑の夢</b> 【魅力】基準の判定に＋1のステータスボーナス。</li>\n<li><b>航海の夢</b> 速度に＋5フィートのステータスボーナス。</li><p>術者がこの呪文を再び“呪文発動”したなら、術者が以前に発動していたスウィート・ドリームの効果は終了する。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.v051JKN0Dj3ve5cF]</p><p>@UUID[Compendium.pf2e.spell-effects.Item.MJSoRFfEdM4j5mNG]</p><p>@UUID[Compendium.pf2e.spell-effects.Item.sE2txm68yZSFMV3v]</p>",
       "time": "3"
     },
     "Heroism": {
       "duration": "10分",
-      "description": "<p>術者は目標の内なる勇猛さを活用し、10分の間、攻撃ロール、知覚判定、セーヴィング・スロー、技能判定に＋1の状態ボーナスを与える。</p><hr><p><b>高レベル化（6レベル）</b> 状態ボーナスは＋2に増加する。</p><p><b>高レベル化（9レベル）</b> 状態ボーナスは＋3に増加する。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.l9HRQggofFGIxEse]</p>",
+      "description": "<p>術者は目標の内なる勇猛さを活用し、10分の間、攻撃ロール、知覚判定、セーヴィング・スロー、技能判定に＋1のステータスボーナスを与える。</p><hr><p><b>高レベル化（6レベル）</b> ステータスボーナスは＋2に増加する。</p><p><b>高レベル化（9レベル）</b> ステータスボーナスは＋3に増加する。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.l9HRQggofFGIxEse]</p>",
       "target": "クリーチャー1体",
       "range": "接触",
       "name": "ヒロイズム",
@@ -4485,7 +4485,7 @@
     },
     "Angelic Halo": {
       "duration": "1分",
-      "description": "<p><b>効果範囲</b> 15フィートの放射； <b>持続時間</b> 1分</p>\n<p>味方が@UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{ヒール}呪文からの治癒を増加させるオーラを放つ、エンジェルの後光を得る。オーラ内の味方を治癒するヒット・ポイントに対して、@UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{ヒール}呪文は@UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{ヒール}呪文のレベルの2倍に等しい状態ボーナスを得る。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.jPZXZjetdauqYuEH]</p>",
+      "description": "<p><b>効果範囲</b> 15フィートの放射； <b>持続時間</b> 1分</p>\n<p>味方が@UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{ヒール}呪文からの治癒を増加させるオーラを放つ、エンジェルの後光を得る。オーラ内の味方を治癒するヒット・ポイントに対して、@UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{ヒール}呪文は@UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{ヒール}呪文のレベルの2倍に等しいステータスボーナスを得る。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.jPZXZjetdauqYuEH]</p>",
       "name": "エンジェリック・ヘイロー",
       "time": "1"
     },
@@ -4534,7 +4534,7 @@
       "time": "2"
     },
     "Face in the Crowd": {
-      "description": "<p><b>領域</b> 都市</p>\n<p>大まかに似通ったクリーチャーの群れの中にいると、術者の姿は当たり障りのないものになる。群衆の中で未察知状態になるために行う〈ペテン〉と〈隠密〉の判定に＋2の状態ボーナスを得る。加えて、術者は群衆による移動困難地形の影響を受けない。</p><hr><p><b>高レベル化（3レベル）</b> この呪文は距離10フィートを得て、クリーチャー10体までを目標にできる。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.4iakL7fDcZ8RT6Tu]</p>",
+      "description": "<p><b>領域</b> 都市</p>\n<p>大まかに似通ったクリーチャーの群れの中にいると、術者の姿は当たり障りのないものになる。群衆の中で未察知状態になるために行う〈ペテン〉と〈隠密〉の判定に＋2のステータスボーナスを得る。加えて、術者は群衆による移動困難地形の影響を受けない。</p><hr><p><b>高レベル化（3レベル）</b> この呪文は距離10フィートを得て、クリーチャー10体までを目標にできる。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.4iakL7fDcZ8RT6Tu]</p>",
       "duration": "1分",
       "name": "フェイス・イン・ザ・クラウド",
       "time": "1"
@@ -4553,7 +4553,7 @@
       "time": "2"
     },
     "Augment Summoning": {
-      "description": "\n<p>術者は招来されたクリーチャーの能力を増強する。目標は招来の持続時間の間（最大で1分間）、全ての判定に＋1の状態ボーナスを得る。このボーナスはACを含むクリーチャーのDCにも適用される。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.UtIOWubq7akdHMOh]</p>",
+      "description": "\n<p>術者は招来されたクリーチャーの能力を増強する。目標は招来の持続時間の間（最大で1分間）、全ての判定に＋1のステータスボーナスを得る。このボーナスはACを含むクリーチャーのDCにも適用される。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.UtIOWubq7akdHMOh]</p>",
       "target": "術者が招来したクリーチャー1体",
       "range": "30 ﾌｨｰﾄ",
       "name": "オーグメント・サモニング",
@@ -4561,7 +4561,7 @@
     },
     "Weapon Surge": {
       "name": "ウェポン・サージ",
-      "description": "<p><b>領域</b> 闘魂</p>\n<p>保持している武器を高く抱え、神のエネルギーで満たす。術者の次のターンの開始時までにその武器を使用した次の“打撃”において、術者は攻撃ロールに＋1の状態ボーナスを得るとともに、武器はダメージ・ダイス1つ分追加で与える。武器がストライキング・ルーンを持つ場合、代わりにストライキング・ルーンによるダイス数を1増加させる（最大で追加の武器ダイス3つまで）。</p>\n<p>目標の武器を術者から離れると、ウェポン・サージは直ちに終了する。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.qlz0sJIvqc0FdUdr]</p><p>@UUID[Compendium.pf2e.spell-effects.Item.W0PjCMyGOpKAuyKX]</p>",
+      "description": "<p><b>領域</b> 闘魂</p>\n<p>保持している武器を高く抱え、神のエネルギーで満たす。術者の次のターンの開始時までにその武器を使用した次の“打撃”において、術者は攻撃ロールに＋1のステータスボーナスを得るとともに、武器はダメージ・ダイス1つ分追加で与える。武器がストライキング・ルーンを持つ場合、代わりにストライキング・ルーンによるダイス数を1増加させる（最大で追加の武器ダイス3つまで）。</p>\n<p>目標の武器を術者から離れると、ウェポン・サージは直ちに終了する。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.qlz0sJIvqc0FdUdr]</p><p>@UUID[Compendium.pf2e.spell-effects.Item.W0PjCMyGOpKAuyKX]</p>",
       "target": "術者が装備している武器1つ",
       "range": "接触",
       "time": "1"
@@ -4579,7 +4579,7 @@
       "name": "マグニフィシャント・マンション"
     },
     "One with Plants": {
-      "description": "<p>術者は大型の木に姿を変える。近く判定では術者の真の姿を明らかにすることはないが、術者の呪文DCに対する〈自然〉もしくは〈生存〉判定に成功すれば、術者がこの範囲に存在するには奇妙に見えることが明らかになる。木の姿でいる間、術者は周囲にいるものをすべて観察できるが、呪文を終了する以外の他の行為は行えない。呪文を終了する行為は1アクションで精神集中の特性を持つ。木である間、術者のACは20で、術者に効果を及ぼすのは状態ボーナス、状態ペナルティ、状況ボーナス、状況ペナルティのみである。術者がロールするすべての反応セーヴにおいて、成功と大成功は失敗となる。</p>",
+      "description": "<p>術者は大型の木に姿を変える。近く判定では術者の真の姿を明らかにすることはないが、術者の呪文DCに対する〈自然〉もしくは〈生存〉判定に成功すれば、術者がこの範囲に存在するには奇妙に見えることが明らかになる。木の姿でいる間、術者は周囲にいるものをすべて観察できるが、呪文を終了する以外の他の行為は行えない。呪文を終了する行為は1アクションで精神集中の特性を持つ。木である間、術者のACは20で、術者に効果を及ぼすのはステータスボーナス、ステータスペナルティ、状況ボーナス、状況ペナルティのみである。術者がロールするすべての反応セーヴにおいて、成功と大成功は失敗となる。</p>",
       "duration": "10分または8時間",
       "name": "ツリー・シェイプ"
     },
@@ -4633,7 +4633,7 @@
     },
     "Guidance": {
       "duration": "術者の次のターン開始まで",
-      "description": "<p>術者は神の導きを求め、持続時間が終了するまでに目標が試みる攻撃ロール、知覚判定、セーヴィング・スロー、技能判定いずれか1回に＋1の状態ボーナスを与える。目標はロールする前に、どのロールにボーナスを使用するかを選択する。</p>\n<p>目標がボーナスを使用した場合、呪文は終了する。いずれにせよ、目標はその後1時間、一時的耐性を得る。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.3qHKBDF7lrHw8jFK]</p><p>@UUID[Compendium.pf2e.spell-effects.Item.3LyOkV25p7wA181H]</p>",
+      "description": "<p>術者は神の導きを求め、持続時間が終了するまでに目標が試みる攻撃ロール、知覚判定、セーヴィング・スロー、技能判定いずれか1回に＋1のステータスボーナスを与える。目標はロールする前に、どのロールにボーナスを使用するかを選択する。</p>\n<p>目標がボーナスを使用した場合、呪文は終了する。いずれにせよ、目標はその後1時間、一時的耐性を得る。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.3qHKBDF7lrHw8jFK]</p><p>@UUID[Compendium.pf2e.spell-effects.Item.3LyOkV25p7wA181H]</p>",
       "range": "30 ﾌｨｰﾄ",
       "target": "クリーチャー1体",
       "name": "ガイダンス",
@@ -4799,7 +4799,7 @@
       "time": "3"
     },
     "Discern Lies": {
-      "description": "<p>術者の耳には、嘘が不協和音として聞こえる。術者は誰かが“騙す”をしているのを見抜くための知覚判定に＋4の状態ボーナスを得る。</p>",
+      "description": "<p>術者の耳には、嘘が不協和音として聞こえる。術者は誰かが“騙す”をしているのを見抜くための知覚判定に＋4のステータスボーナスを得る。</p>",
       "duration": "10分",
       "name": "ディサーン・ライズ",
       "time": "2"
@@ -4832,7 +4832,7 @@
     },
     "Sepulchral Mask": {
       "duration": "1分",
-      "description": "<p><b>血脈</b> サイコポンプ</p><p><b>効果範囲</b> 5フィートの放射；<b>目標</b> 効果範囲内の敵</p>\n<p>術者は超自然的な葬礼用の仮面を顕現させ、1分の間、感情効果に対する意志セーヴィング・スローに＋1の状態ボーナスを得る。仮面の陰鬱な評定により、敵は後悔と罪に立ち向かうことを強制される。術者がこの呪文を“呪文発動”したときに範囲内にいたか、範囲内でそのターンを開始した各敵は、1d4の［精神］ダメージを受け、意志セーヴを試みなければならない。</p>\n<p><b>大成功</b> クリーチャーはなんの効果も受けない。</p><p><b>成功</b> クリーチャーは半減ダメージを受ける。</p><p><b>失敗</b> クリーチャーはすべてのダメージを受け、1ラウンドの間感情効果に対する意志セーヴに－1の状態ペナルティを受ける。</p><p><b>大失敗</b> クリーチャーは2倍ダメージを受け、1分の間感情効果に対する意志セーヴに－1の状態ペナルティを受ける。</p><hr><p><b>高レベル化（＋2）</b> ［精神］ダメージが2d4ずつ、放射の半径が5フィートずつ増加する。</p>\n<p>@UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]</p><p>@Damage[1d4[mental]]</p><p>@Damage[2d4[mental]]</p>",
+      "description": "<p><b>血脈</b> サイコポンプ</p><p><b>効果範囲</b> 5フィートの放射；<b>目標</b> 効果範囲内の敵</p>\n<p>術者は超自然的な葬礼用の仮面を顕現させ、1分の間、感情効果に対する意志セーヴィング・スローに＋1のステータスボーナスを得る。仮面の陰鬱な評定により、敵は後悔と罪に立ち向かうことを強制される。術者がこの呪文を“呪文発動”したときに範囲内にいたか、範囲内でそのターンを開始した各敵は、1d4の［精神］ダメージを受け、意志セーヴを試みなければならない。</p>\n<p><b>大成功</b> クリーチャーはなんの効果も受けない。</p><p><b>成功</b> クリーチャーは半減ダメージを受ける。</p><p><b>失敗</b> クリーチャーはすべてのダメージを受け、1ラウンドの間感情効果に対する意志セーヴに－1のステータスペナルティを受ける。</p><p><b>大失敗</b> クリーチャーは2倍ダメージを受け、1分の間感情効果に対する意志セーヴに－1のステータスペナルティを受ける。</p><hr><p><b>高レベル化（＋2）</b> ［精神］ダメージが2d4ずつ、放射の半径が5フィートずつ増加する。</p>\n<p>@UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]</p><p>@Damage[1d4[mental]]</p><p>@Damage[2d4[mental]]</p>",
       "target": "効果範囲内にいる敵それぞれ",
       "name": "セパルクラル・マスク",
       "time": "2"
@@ -4892,7 +4892,7 @@
       "time": "3"
     },
     "Clinging Ice": {
-      "description": "<p><b>守護者の主題</b> 冬</p>\n<p>凍ったみぞれと大雪が目標の足に集まり、反応セーヴに応じて1d4の［氷雪］ダメージと他の効果を与える。この呪文が終了すると、目標は1分間一時的耐性を得る。</p>\n<p><b>大成功</b> 目標はなんの効果も受けない。</p><p><b>成功</b> 目標は半減ダメージを受ける。</p><p><b>失敗</b> 目標は通常のダメージを受け、呪文が終了するまで移動速度に－5フィートの状態ペナルティを受ける。</p><p><b>大失敗</b> 目標は2倍ダメージを受け、呪文が終了するまで移動速度に－10フィートの状態ペナルティを受ける。</p><hr><p><b>高レベル化（＋1）</b> ダメージは1d4ずつ増加する。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.2sMXAGZfdqiy10kk]</p><p>@Damage[1d4[cold]]</p>",
+      "description": "<p><b>守護者の主題</b> 冬</p>\n<p>凍ったみぞれと大雪が目標の足に集まり、反応セーヴに応じて1d4の［氷雪］ダメージと他の効果を与える。この呪文が終了すると、目標は1分間一時的耐性を得る。</p>\n<p><b>大成功</b> 目標はなんの効果も受けない。</p><p><b>成功</b> 目標は半減ダメージを受ける。</p><p><b>失敗</b> 目標は通常のダメージを受け、呪文が終了するまで移動速度に－5フィートのステータスペナルティを受ける。</p><p><b>大失敗</b> 目標は2倍ダメージを受け、呪文が終了するまで移動速度に－10フィートのステータスペナルティを受ける。</p><hr><p><b>高レベル化（＋1）</b> ダメージは1d4ずつ増加する。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.2sMXAGZfdqiy10kk]</p><p>@Damage[1d4[cold]]</p>",
       "duration": "1分",
       "target": "クリーチャー1体",
       "range": "30 ﾌｨｰﾄ",
@@ -4918,7 +4918,7 @@
       "time": "1"
     },
     "Spirit Sense": {
-      "description": "<p>術者は精神を形而上的に開き、近くの霊を知覚できるようにする。術者は“捜索”  していなかった場合でさえ、範囲内の霊障や霊魂を発見するための判定を行う。術者は霊障および霊魂に対する以下の判定に＋1の状態ボーナスを得る：“@UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{捜す}”のための知覚判定、“@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{知識の想起}”の試み、その存在の証拠を決定づける技能判定、霊障を解除するための技能判定。加えて、術者は霊障および霊魂に対するACとセーヴィング・スローに＋1の状態ボーナスを得る。</p><hr><p><b>高レベル化（6レベル）</b> 呪文の持続時間は次に術者が日毎の準備を行うまで続くようになる。</p>\n<p>@UUID[Compendium.pf2e.actionspf2e.Item.TiNDYUGlMmxzxBYU]</p>",
+      "description": "<p>術者は精神を形而上的に開き、近くの霊を知覚できるようにする。術者は“捜索”  していなかった場合でさえ、範囲内の霊障や霊魂を発見するための判定を行う。術者は霊障および霊魂に対する以下の判定に＋1のステータスボーナスを得る：“@UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{捜す}”のための知覚判定、“@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{知識の想起}”の試み、その存在の証拠を決定づける技能判定、霊障を解除するための技能判定。加えて、術者は霊障および霊魂に対するACとセーヴィング・スローに＋1のステータスボーナスを得る。</p><hr><p><b>高レベル化（6レベル）</b> 呪文の持続時間は次に術者が日毎の準備を行うまで続くようになる。</p>\n<p>@UUID[Compendium.pf2e.actionspf2e.Item.TiNDYUGlMmxzxBYU]</p>",
       "duration": "10分",
       "name": "スピリット・センス",
       "time": "2"
@@ -4927,7 +4927,7 @@
       "name": "スージング・ワーズ",
       "target": "味方",
       "range": "30 ﾌｨｰﾄ",
-      "description": "<p><b>領域</b> 家族</p>\n<p>術者は穏やかで落ち着いた口調でなだめる言葉を発し、目標を落ち着かせようとする。目標は意志セーヴィング・スローに＋1の状態ボーナスを得る。このボーナスは感情特性の効果に対して＋2に増加する。</p>\n<p>加えて、術者がこの呪文を“呪文発動”する際、目標が受けている感情特性の効果1つを無力化しようと試みることができる。</p><hr><p><b>高レベル化（5レベル）</b> セーヴへのボーナスは＋2に増加し、感情特性の効果に対しては＋3になる。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.an4yZ6dyIDOFa1wa]</p>",
+      "description": "<p><b>領域</b> 家族</p>\n<p>術者は穏やかで落ち着いた口調でなだめる言葉を発し、目標を落ち着かせようとする。目標は意志セーヴィング・スローに＋1のステータスボーナスを得る。このボーナスは感情特性の効果に対して＋2に増加する。</p>\n<p>加えて、術者がこの呪文を“呪文発動”する際、目標が受けている感情特性の効果1つを無力化しようと試みることができる。</p><hr><p><b>高レベル化（5レベル）</b> セーヴへのボーナスは＋2に増加し、感情特性の効果に対しては＋3になる。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.an4yZ6dyIDOFa1wa]</p>",
       "duration": "1ラウンド",
       "time": "1"
     },
@@ -4940,7 +4940,7 @@
     },
     "Celestial Brand": {
       "name": "セレスチャル・ブランド",
-      "description": "\n<p>目標に焼け付くような印が現れ、神聖な正義を示す。術者と術者の味方は、目標に対する攻撃ロールと技能判定に＋1の状態ボーナスを得る。善のクリーチャーが目標にダメージを与えるたび、善のクリーチャーは追加で1d4の［善］ダメージを与える。その後目標は1分間の間、一時的耐性を得る。</p><hr><p><b>高レベル化（＋2）</b> ［善］ダメージが1ずつ増加する。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.A61eVVVyUuaUl3tz]</p><p>@Damage[1d4[good]]</p>",
+      "description": "\n<p>目標に焼け付くような印が現れ、神聖な正義を示す。術者と術者の味方は、目標に対する攻撃ロールと技能判定に＋1のステータスボーナスを得る。善のクリーチャーが目標にダメージを与えるたび、善のクリーチャーは追加で1d4の［善］ダメージを与える。その後目標は1分間の間、一時的耐性を得る。</p><hr><p><b>高レベル化（＋2）</b> ［善］ダメージが1ずつ増加する。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.A61eVVVyUuaUl3tz]</p><p>@Damage[1d4[good]]</p>",
       "duration": "1ラウンド",
       "range": "30 ﾌｨｰﾄ",
       "target": "悪属性のクリーチャー1体",
@@ -4983,7 +4983,7 @@
     },
     "Arcane Countermeasure": {
       "name": "アーケイン・カウンターメジャー",
-      "description": "<p><b>トリガー</b> 範囲内にいて、術者が見ることのできるクリーチャーが“呪文発動”する。</p>\n<p>術者は目標の呪文を弱体化させ、防御しやすくする。その呪文のレベルを1減少させる。その呪文の目標は、その呪文に対するセーヴィング・スロー、技能判定、AC、DCに＋2の状態ボーナスを得る。</p>\n<p>呪文のレベルを最小レベル未満に下げることはできない。たとえは5レベルのコーン・オヴ・コールドは5レベルのままであるが、5レベルのファイアー・ボールは4レベルになる。呪文のレベルを下げなかったとしても、目標は依然として他のすべての利益を得る。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.14m4s0FeRSqRlHwL]</p>",
+      "description": "<p><b>トリガー</b> 範囲内にいて、術者が見ることのできるクリーチャーが“呪文発動”する。</p>\n<p>術者は目標の呪文を弱体化させ、防御しやすくする。その呪文のレベルを1減少させる。その呪文の目標は、その呪文に対するセーヴィング・スロー、技能判定、AC、DCに＋2のステータスボーナスを得る。</p>\n<p>呪文のレベルを最小レベル未満に下げることはできない。たとえは5レベルのコーン・オヴ・コールドは5レベルのままであるが、5レベルのファイアー・ボールは4レベルになる。呪文のレベルを下げなかったとしても、目標は依然として他のすべての利益を得る。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.14m4s0FeRSqRlHwL]</p>",
       "target": "この呪文のトリガーとなったクリーチャー",
       "range": "120 ﾌｨｰﾄ",
       "time": "reaction"
@@ -5012,7 +5012,7 @@
     "Calm": {
       "range": "120 ﾌｨｰﾄ",
       "duration": "1分",
-      "description": "<p>術者は周囲のクリーチャーを強制的に落ち着かせ、暴力を好まない状態にする。各クリーチャーは意志セーヴを試みなければならない。</p>\n<p><b>大成功</b> クリーチャーはなんの効果も受けない。</p>\n<p><b>成功</b> 鎮静衝動により、クリーチャーの攻撃ロールは－1の状態ペナルティを受ける。</p>\n<p><b>失敗</b> クリーチャーに効果を及ぼす感情効果は抑止され、クリーチャーは敵対的なアクションを使用できない。</p><p>目標が他のクリーチャーから敵意の目標になったなら、カーム・エモーションズの効果は失われる。</p>\n<p><b>大失敗</b> 失敗と同様だが、敵意はこの効果を終了させない。</p>",
+      "description": "<p>術者は周囲のクリーチャーを強制的に落ち着かせ、暴力を好まない状態にする。各クリーチャーは意志セーヴを試みなければならない。</p>\n<p><b>大成功</b> クリーチャーはなんの効果も受けない。</p>\n<p><b>成功</b> 鎮静衝動により、クリーチャーの攻撃ロールは－1のステータスペナルティを受ける。</p>\n<p><b>失敗</b> クリーチャーに効果を及ぼす感情効果は抑止され、クリーチャーは敵対的なアクションを使用できない。</p><p>目標が他のクリーチャーから敵意の目標になったなら、カーム・エモーションズの効果は失われる。</p>\n<p><b>大失敗</b> 失敗と同様だが、敵意はこの効果を終了させない。</p>",
       "name": "カーム・エモーションズ"
     },
     "Final Sacrifice": {
@@ -5149,7 +5149,7 @@
     },
     "Illusory Disguise": {
       "name": "イリューソリイ・ディスガイズ",
-      "description": "<p>身長と体重がほぼ同じで、術者と同じ体型（身長は6インチ以内、体重は50ポンド以内）の別のクリーチャーに見える幻を生み出す。</p>\n<p>この変装は通常、術者の身分を隠すには十分だが、特定の人物に@UUID[Compendium.pf2e.action-macros.Macro.k5nW4jGyXD0Oq9LR]{なりすます}ことはできない。この呪文は術者の声や匂い、仕草を変えることはできない。鎧をドレスのように見せるなど、衣服や身につけているアイテムの外見を変えることはできる。持っているアイテムは影響を受けず、身に着けているアイテムを手放すと元の姿に戻る。</p>\n<p>イリューソリィ・ディスガイズは〈ペテン〉を使用した“なりすまし”による変装の準備として扱われる。また、この呪文によって、他人に変装を見破られないようにするための〈ペテン〉判定に＋4の状態ボーナスが与えられ、術者は未修得であってもこの判定に自分のレベルを加えることができる。この魔法は解除できる。</p><hr><p><b>高レベル化（2レベル）</b> この呪文は声と匂いも変えるようになり、聴覚の特性を得る。</p><p><b>高レベル化（3レベル）</b> 術者は同じサイズのクリーチャーであれば、特定の個体の姿を取ることさえできるようになる。特定の個体の姿になるには、その個体を見たことがなければならない。また、この呪文は声と匂いも変え、聴覚の特性を得る。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.3Ktyd5F9lOPo4myk]</p>",
+      "description": "<p>身長と体重がほぼ同じで、術者と同じ体型（身長は6インチ以内、体重は50ポンド以内）の別のクリーチャーに見える幻を生み出す。</p>\n<p>この変装は通常、術者の身分を隠すには十分だが、特定の人物に@UUID[Compendium.pf2e.action-macros.Macro.k5nW4jGyXD0Oq9LR]{なりすます}ことはできない。この呪文は術者の声や匂い、仕草を変えることはできない。鎧をドレスのように見せるなど、衣服や身につけているアイテムの外見を変えることはできる。持っているアイテムは影響を受けず、身に着けているアイテムを手放すと元の姿に戻る。</p>\n<p>イリューソリィ・ディスガイズは〈ペテン〉を使用した“なりすまし”による変装の準備として扱われる。また、この呪文によって、他人に変装を見破られないようにするための〈ペテン〉判定に＋4のステータスボーナスが与えられ、術者は未修得であってもこの判定に自分のレベルを加えることができる。この魔法は解除できる。</p><hr><p><b>高レベル化（2レベル）</b> この呪文は声と匂いも変えるようになり、聴覚の特性を得る。</p><p><b>高レベル化（3レベル）</b> 術者は同じサイズのクリーチャーであれば、特定の個体の姿を取ることさえできるようになる。特定の個体の姿になるには、その個体を見たことがなければならない。また、この呪文は声と匂いも変え、聴覚の特性を得る。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.3Ktyd5F9lOPo4myk]</p>",
       "duration": "1時間",
       "target": "同意するクリーチャー1体",
       "range": "30 ﾌｨｰﾄ",
@@ -5225,7 +5225,7 @@
     "Lay on Hands": {
       "target": "同意する生きているクリーチャーまたはアンデッド1体",
       "range": "接触",
-      "description": "\n<p>術者の手には正のエネルギーが注入され、接触により生きているクリーチャーを癒やすかアンデッド・クリーチャーにダメージを与えるかする。</p>\n<p>術者がレイ・オン・ハンズを同意する生きている目標に使用する場合、術者はヒット・ポイントを6だけ回復する。加えて、目標が君の仲間なら、目標は1ラウンドの間ACに＋2の状態ボーナスを得る。目標がアンデッドの場合、術者は1d6ダメージを与え、目標は基本頑健セーヴを試みなければならない。失敗すると目標はダメージに加えて1ラウンドの間、ACに－2の状況ペナルティを受ける。</p><hr><p><b>高レベル化（＋1）</b> 回復量が6ずつ増加し、アンデッドを目標にしたダメージが1d6ずつ増加する。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.lyLMiauxIVUM3oF1]</p><p>@UUID[Compendium.pf2e.spell-effects.Item.JhihziXQuoteftdd]</p>",
+      "description": "\n<p>術者の手には正のエネルギーが注入され、接触により生きているクリーチャーを癒やすかアンデッド・クリーチャーにダメージを与えるかする。</p>\n<p>術者がレイ・オン・ハンズを同意する生きている目標に使用する場合、術者はヒット・ポイントを6だけ回復する。加えて、目標が君の仲間なら、目標は1ラウンドの間ACに＋2のステータスボーナスを得る。目標がアンデッドの場合、術者は1d6ダメージを与え、目標は基本頑健セーヴを試みなければならない。失敗すると目標はダメージに加えて1ラウンドの間、ACに－2の状況ペナルティを受ける。</p><hr><p><b>高レベル化（＋1）</b> 回復量が6ずつ増加し、アンデッドを目標にしたダメージが1d6ずつ増加する。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.lyLMiauxIVUM3oF1]</p><p>@UUID[Compendium.pf2e.spell-effects.Item.JhihziXQuoteftdd]</p>",
       "name": "レイ・オン・ハンズ",
       "time": "1"
     },
@@ -5283,7 +5283,7 @@
       "time": "10分"
     },
     "Inscrutable Mask": {
-      "description": "<p>術者は自分の姿と特徴を影の入り込めない仮面で覆う。この仮面は術者に“騙す”あるいは“@UUID[Compendium.pf2e.actionspf2e.Item.QNAVeNKtHA0EUw4X]{フェイント}”のための〈ペテン〉判定、“@UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{士気をくじく}”ための〈威圧〉、薄暗い光や暗闇の中で行う“@UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{隠れ身}”のための〈隠密〉判定に＋1の状態ボーナスを与える。</p><hr><p><b>高レベル化（6レベル）</b> 状態ボーナスは＋2に増加する。</p><p><b>高レベル化（9レベル）</b> 状態ボーナスは＋3に増加する。</p><p>@UUID[Compendium.pf2e.spell-effects.Item.IcQMLYWYDMZbq3XE]</p>",
+      "description": "<p>術者は自分の姿と特徴を影の入り込めない仮面で覆う。この仮面は術者に“騙す”あるいは“@UUID[Compendium.pf2e.actionspf2e.Item.QNAVeNKtHA0EUw4X]{フェイント}”のための〈ペテン〉判定、“@UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{士気をくじく}”ための〈威圧〉、薄暗い光や暗闇の中で行う“@UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{隠れ身}”のための〈隠密〉判定に＋1のステータスボーナスを与える。</p><hr><p><b>高レベル化（6レベル）</b> ステータスボーナスは＋2に増加する。</p><p><b>高レベル化（9レベル）</b> ステータスボーナスは＋3に増加する。</p><p>@UUID[Compendium.pf2e.spell-effects.Item.IcQMLYWYDMZbq3XE]</p>",
       "name": "インスクルタブル・マスク",
       "duration": "10分",
       "time": "2"
@@ -5379,7 +5379,7 @@
     },
     "Anticipate Peril": {
       "name": "アンティシペイト・ペリル",
-      "description": "<p>君は対象に短時間の予知能力を与える。対象は次のイニシアチブ・ロールに＋1の状態ボーナスを得るが、その後呪文は終了する。</p><hr><p><b>高レベル化 （＋2）</b> 状態ボーナスは1ずつ増加する。(7レベルで最大+4となる)</p><p>(私家訳)</p><p>@UUID[Compendium.pf2e.spell-effects.Item.4ag0OHKfjROmR4Pm]</p>",
+      "description": "<p>君は対象に短時間の予知能力を与える。対象は次のイニシアチブ・ロールに＋1のステータスボーナスを得るが、その後呪文は終了する。</p><hr><p><b>高レベル化 （＋2）</b> ステータスボーナスは1ずつ増加する。(7レベルで最大+4となる)</p><p>(私家訳)</p><p>@UUID[Compendium.pf2e.spell-effects.Item.4ag0OHKfjROmR4Pm]</p>",
       "duration": "10分",
       "target": "クリーチャー1体",
       "range": "30 ﾌｨｰﾄ",
@@ -5496,12 +5496,12 @@
     "Infectious Enthusiasm": {
       "name": "インフェクティオス・インスージアズム",
       "duration": "1ラウンド",
-      "description": "<p>　魔法による快活さで、術者は自分を励まし、仲間とやる気を共有する。攻撃ロール、意志セーヴ、【魅力】基準の技能判定からいずれか1つを選択し、術者はその判定に＋1の状態ボーナスを得る。この呪文の持続時間の間に、術者がこの呪文を発動している姿を見た、発動時に30フィート以内にいた味方は、次のその味方のターンの開始時まで、術者が選択したものとと同じボーナスを得るために、集中特性を持つ単一アクションを行える。</p><p>　社会的な状況で誰かに影響を与えるためにこの呪文を使用する場合、一般的には詐術と見なされ、判定の目標が術者の呪文発動を見た場合、【魅力】基準の技能への利益を無効化する。</p>",
+      "description": "<p>　魔法による快活さで、術者は自分を励まし、仲間とやる気を共有する。攻撃ロール、意志セーヴ、【魅力】基準の技能判定からいずれか1つを選択し、術者はその判定に＋1のステータスボーナスを得る。この呪文の持続時間の間に、術者がこの呪文を発動している姿を見た、発動時に30フィート以内にいた味方は、次のその味方のターンの開始時まで、術者が選択したものとと同じボーナスを得るために、集中特性を持つ単一アクションを行える。</p><p>　社会的な状況で誰かに影響を与えるためにこの呪文を使用する場合、一般的には詐術と見なされ、判定の目標が術者の呪文発動を見た場合、【魅力】基準の技能への利益を無効化する。</p>",
       "time": "2"
     },
     "Infectious Melody": {
       "name": "インフェクティオス・メロディ",
-      "description": "<p>　術者はそれを聞いた敵が一緒に歌わずにはいられないほど耳に残る曲の和音を喚び出し、敵の意思疎通を難しくする。目標はそれぞれ意志セーヴを試なければならない。</p><p>　<b>大成功</b> クリーチャーはなんの効果も受けない。</p><p>　<b>成功</b> 1ラウンドの間、クリーチャーは曲に合わせて歌うだけで意思疎通を行える。これは自分のターンでのみ会話でき、そのときに“上演”アクションを行わねばならない。〈芸能〉判定の結果に基づいてどの程度うまく歌えたかが決まるが、その結果に関係なく情報は伝達されるため、アクションを実行するのにかかった時間以上のデータ的な影響はない。1回の“上演”判定を行えば、クリーチャーのターン中にどれだけ会話しても良い。この効果は呪文の音声要素や、正確な音声に依存する他の言語能力を妨げる可能性がある。このような能力をうまく使うためには、クリーチャーはDC 5の平目判定に成功しなければならない。</p><p>　加えて、歌うことで脅威が和らぐため、クリーチャーは言語の〈威圧〉判定に－2の状態ペナルティを受ける。クリーチャーは常にハミングしているため、未探知状態で居続けることはほぼ不可能だ。</p><p>　<b>失敗</b> 成功と同様だが、持続時間は3ラウンド。</p><p>　<b>大失敗</b> 成功と同様だが、持続時間は1時間。 </p>",
+      "description": "<p>　術者はそれを聞いた敵が一緒に歌わずにはいられないほど耳に残る曲の和音を喚び出し、敵の意思疎通を難しくする。目標はそれぞれ意志セーヴを試なければならない。</p><p>　<b>大成功</b> クリーチャーはなんの効果も受けない。</p><p>　<b>成功</b> 1ラウンドの間、クリーチャーは曲に合わせて歌うだけで意思疎通を行える。これは自分のターンでのみ会話でき、そのときに“上演”アクションを行わねばならない。〈芸能〉判定の結果に基づいてどの程度うまく歌えたかが決まるが、その結果に関係なく情報は伝達されるため、アクションを実行するのにかかった時間以上のデータ的な影響はない。1回の“上演”判定を行えば、クリーチャーのターン中にどれだけ会話しても良い。この効果は呪文の音声要素や、正確な音声に依存する他の言語能力を妨げる可能性がある。このような能力をうまく使うためには、クリーチャーはDC 5の平目判定に成功しなければならない。</p><p>　加えて、歌うことで脅威が和らぐため、クリーチャーは言語の〈威圧〉判定に－2のステータスペナルティを受ける。クリーチャーは常にハミングしているため、未探知状態で居続けることはほぼ不可能だ。</p><p>　<b>失敗</b> 成功と同様だが、持続時間は3ラウンド。</p><p>　<b>大失敗</b> 成功と同様だが、持続時間は1時間。 </p>",
       "duration": "さまざま",
       "target": "効果範囲内にいる敵それぞれ",
       "time": "2"
@@ -5516,7 +5516,7 @@
     },
     "Variable Gravity": {
       "name": "ヴァリアブル・グラヴィティ",
-      "description": "<p>　術者は重力の強さを調整し、低重力、標準重力、高重力を簡単に切り替えることができる。この呪文を発動するとき、重力の種別を1つ選択する。この呪文が持続している間、術者は精神集中特性を持つ1アクションにより、重力の種別を変更できる。呪文は術者の外見を変更しないため、術者がどの重力にさらされているかは、さっと見ただけでは分からない。</p><p><li> <b>高重力</b> 術者は荷重状態になる。術者は強制移動と術者を伏せ状態にしようとする試みに対するセーヴィング・スローとDCに＋2の状態ボーナスを得る。強制移動で術者を移動させる距離は半分あるいは10フィートのいずれか長い方だけ減少する。術者は半分の高さまでしか跳躍できない。落下ダメージの算出の際、術者は通常の算出方法ではなく、落下距離に等しい［殴打］ダメージを受ける。落下ダメージの総量を調整する能力は依然として適用される。</li></p><p><li> <b>低重力</b> 術者は“幅跳び”あるいは“跳躍”で通常の2倍の距離（依然として最大で術者の移動距離まで）を跳躍できる。術者が“高跳び”する際、術者は距離を2倍にするのではなく、“幅跳び”の計算方法を使用する。落下ダメージの算出の際、術者は通常の算出方法ではなく、落下距離の1／4に等しい［殴打］ダメージを受ける。落下ダメージの総量を調整する能力は依然として適用される。</li></p><p>　<b>高レベル化（6レベル）</b> 持続時間は1時間に増加する。</p>",
+      "description": "<p>　術者は重力の強さを調整し、低重力、標準重力、高重力を簡単に切り替えることができる。この呪文を発動するとき、重力の種別を1つ選択する。この呪文が持続している間、術者は精神集中特性を持つ1アクションにより、重力の種別を変更できる。呪文は術者の外見を変更しないため、術者がどの重力にさらされているかは、さっと見ただけでは分からない。</p><p><li> <b>高重力</b> 術者は荷重状態になる。術者は強制移動と術者を伏せ状態にしようとする試みに対するセーヴィング・スローとDCに＋2のステータスボーナスを得る。強制移動で術者を移動させる距離は半分あるいは10フィートのいずれか長い方だけ減少する。術者は半分の高さまでしか跳躍できない。落下ダメージの算出の際、術者は通常の算出方法ではなく、落下距離に等しい［殴打］ダメージを受ける。落下ダメージの総量を調整する能力は依然として適用される。</li></p><p><li> <b>低重力</b> 術者は“幅跳び”あるいは“跳躍”で通常の2倍の距離（依然として最大で術者の移動距離まで）を跳躍できる。術者が“高跳び”する際、術者は距離を2倍にするのではなく、“幅跳び”の計算方法を使用する。落下ダメージの算出の際、術者は通常の算出方法ではなく、落下距離の1／4に等しい［殴打］ダメージを受ける。落下ダメージの総量を調整する能力は依然として適用される。</li></p><p>　<b>高レベル化（6レベル）</b> 持続時間は1時間に増加する。</p>",
       "duration": "5分",
       "time": "2"
     },
@@ -5544,7 +5544,7 @@
     },
     "Warding Aggression": {
       "name": "ウォーディング・アグレッション",
-      "description": "<p>　術者は自分の攻撃を通して魔法の護りを放ち、それを敵に植え付けようと試みる。この護りは、術者が維持のためにその敵を攻撃し続ける限り、その敵に対する術者の防御力を増加させる。敵に対して武器または素手攻撃を用いて1回の近接“打撃”を行う。通常の“打撃”効果に加え、以下の効果を持つ。ウォーディング・アグレッションは、攻撃した敵が死亡した場合、あるいはその敵に対する近接“打撃”が命中しなかったターンの終了時に終了する。</p><p>　<b>大成功</b> 術者は1ラウンドの間その敵に対するACに＋3の状態ボーナスを得て、残りの持続時間の間、その敵に対するACに＋2の状態ボーナスを得る。</p><p>　<b>成功</b> 術者はその敵に対するACに＋2の状態ボーナスを得る。</p><p>　<b>失敗</b> 術者はその敵に対するACに＋1の状態ボーナスを得る。</p><p>　<b>大失敗</b> 術者は一切の追加の効果を得られない。</p>",
+      "description": "<p>　術者は自分の攻撃を通して魔法の護りを放ち、それを敵に植え付けようと試みる。この護りは、術者が維持のためにその敵を攻撃し続ける限り、その敵に対する術者の防御力を増加させる。敵に対して武器または素手攻撃を用いて1回の近接“打撃”を行う。通常の“打撃”効果に加え、以下の効果を持つ。ウォーディング・アグレッションは、攻撃した敵が死亡した場合、あるいはその敵に対する近接“打撃”が命中しなかったターンの終了時に終了する。</p><p>　<b>大成功</b> 術者は1ラウンドの間その敵に対するACに＋3のステータスボーナスを得て、残りの持続時間の間、その敵に対するACに＋2のステータスボーナスを得る。</p><p>　<b>成功</b> 術者はその敵に対するACに＋2のステータスボーナスを得る。</p><p>　<b>失敗</b> 術者はその敵に対するACに＋1のステータスボーナスを得る。</p><p>　<b>大失敗</b> 術者は一切の追加の効果を得られない。</p>",
       "duration": "1分まで",
       "time": "2"
     },
@@ -5593,7 +5593,7 @@
     },
     "Elemental Gift": {
       "name": "エレメンタル・ギフト",
-      "description": "<p>　元素の力が目標を満たし、選択した元素に応じて、空気の速度、土の頑丈さ、火の棘、水の柔軟性を目標に与える。この呪文を“呪文発動”するときに元素を1つ選択する。目標はいかに示す元素の利益を受け、この呪文は指定した元素の特性を得る。</p><p><li> <b>風</b> 目標は地上速度に＋30フィートの状態ボーナスを得て、この状態ボーナスを得る前の地上速度に等しい飛行速度を得る。</li></p><p><li> <b>地</b> 地上にいる間、目標は自分を“突き飛ばし”あるいは“足払い”しようとする効果と、目標を伏せ状態にしようとする効果に対する頑健セーヴと反応セーヴに＋2の状態ボーナスを得る。加えて、目標に隣接する地面は移動困難地形になる。この移動困難地形をは目標とともに移動し、目標は自分の移動においてこの移動困難地形の影響を受けない。</li></p><p><li> <b>火炎</b> 目標の近接素手攻撃による“打撃”と近接武器による“打撃”は命中すると1d6の持続［火炎］ダメージを与える。</li></p><p><li> <b>水</b> 目標は水のような光沢を持ち、［火炎］に対する抵抗5と地上速度に等しい水泳速度を得る。</li></p><p>Rage of Elements Rage of Elements</p><p><li> <b>金属</b> 目標が金属武器あるいは素手攻撃を用いて行う“打撃”は命中すると追加で1d4の［雷撃］ダメージを与え、目標が金属でできているか金属製の鎧を着用している場合、攻撃ロールに＋1の状態ボーナスを得る。</li></p><p><li> <b>木</b> 目標は呪文のランク（呪文レベルの誤記）に等しい一時的ヒット・ポイントを得る。その後、目標は自分のターンの開始時のたびにその半分に等しい一時的ヒット・ポイントを得る。</li></p><p>　<b>高レベル化（8レベル）</b> 術者は同意するクリーチャー5体までを目標にすることができる。</p>",
+      "description": "<p>　元素の力が目標を満たし、選択した元素に応じて、空気の速度、土の頑丈さ、火の棘、水の柔軟性を目標に与える。この呪文を“呪文発動”するときに元素を1つ選択する。目標はいかに示す元素の利益を受け、この呪文は指定した元素の特性を得る。</p><p><li> <b>風</b> 目標は地上速度に＋30フィートのステータスボーナスを得て、このステータスボーナスを得る前の地上速度に等しい飛行速度を得る。</li></p><p><li> <b>地</b> 地上にいる間、目標は自分を“突き飛ばし”あるいは“足払い”しようとする効果と、目標を伏せ状態にしようとする効果に対する頑健セーヴと反応セーヴに＋2のステータスボーナスを得る。加えて、目標に隣接する地面は移動困難地形になる。この移動困難地形をは目標とともに移動し、目標は自分の移動においてこの移動困難地形の影響を受けない。</li></p><p><li> <b>火炎</b> 目標の近接素手攻撃による“打撃”と近接武器による“打撃”は命中すると1d6の持続［火炎］ダメージを与える。</li></p><p><li> <b>水</b> 目標は水のような光沢を持ち、［火炎］に対する抵抗5と地上速度に等しい水泳速度を得る。</li></p><p>Rage of Elements Rage of Elements</p><p><li> <b>金属</b> 目標が金属武器あるいは素手攻撃を用いて行う“打撃”は命中すると追加で1d4の［雷撃］ダメージを与え、目標が金属でできているか金属製の鎧を着用している場合、攻撃ロールに＋1のステータスボーナスを得る。</li></p><p><li> <b>木</b> 目標は呪文のランク（呪文レベルの誤記）に等しい一時的ヒット・ポイントを得る。その後、目標は自分のターンの開始時のたびにその半分に等しい一時的ヒット・ポイントを得る。</li></p><p>　<b>高レベル化（8レベル）</b> 術者は同意するクリーチャー5体までを目標にすることができる。</p>",
       "duration": "1分",
       "range": "30 ﾌｨｰﾄ",
       "target": "同意するクリーチャー1体",
@@ -5608,14 +5608,14 @@
     },
     "Elemental Zone": {
       "name": "エレメンタル・ゾーン",
-      "description": "<p>　元素特性（地、水、火炎、風）から1つを選択する。エレメンタル・ゾーンは選択した特性を得る。範囲内にその元素のありのままのエネルギーを注入し、その種別の魔法を放出し増強する区画を形成する。キュウに気温が上下したり、防風運が発生したりする可能性もある。選択した元素特性を持つ呪文が区画内のクリーチャーに対して発動されると、その呪文が選択した特性に基づいて与えるダメージ種別1つ（地なら［殴打］、水なら［殴打］あるいは［氷雪］、火炎なら［火炎］、風なら［殴打］あるいは［雷撃］）に＋2の状態ボーナスを得る。呪文が複数の元素特性を保つ場合、術者はボーナスを追加する種別を1つ選択する。呪文スロットを消費しない呪文の場合（キャントリップ、焦点化呪文、生得呪文など）、このボーナスは半分になる。</p><p>　呪文が適切な種別のダメージを一切与えない場合、この区画は呪文になんの効果も及ぼさない。</p><p>元素呪文の変更 Elemental Spell Changes</p><p>　<b>高レベル化（＋2）</b> 状態ボーナスは1ずつ増加する。</p>",
+      "description": "<p>　元素特性（地、水、火炎、風）から1つを選択する。エレメンタル・ゾーンは選択した特性を得る。範囲内にその元素のありのままのエネルギーを注入し、その種別の魔法を放出し増強する区画を形成する。キュウに気温が上下したり、防風運が発生したりする可能性もある。選択した元素特性を持つ呪文が区画内のクリーチャーに対して発動されると、その呪文が選択した特性に基づいて与えるダメージ種別1つ（地なら［殴打］、水なら［殴打］あるいは［氷雪］、火炎なら［火炎］、風なら［殴打］あるいは［雷撃］）に＋2のステータスボーナスを得る。呪文が複数の元素特性を保つ場合、術者はボーナスを追加する種別を1つ選択する。呪文スロットを消費しない呪文の場合（キャントリップ、焦点化呪文、生得呪文など）、このボーナスは半分になる。</p><p>　呪文が適切な種別のダメージを一切与えない場合、この区画は呪文になんの効果も及ぼさない。</p><p>元素呪文の変更 Elemental Spell Changes</p><p>　<b>高レベル化（＋2）</b> ステータスボーナスは1ずつ増加する。</p>",
       "duration": "1分",
       "range": "120 ﾌｨｰﾄ",
       "time": "2"
     },
     "Element Embodied": {
       "name": "エレメント・エンボディド",
-      "description": "<p>　元素会の最深部にある魔力の井戸から力を引き出し、術者は華麗なるエレメンタルへと変身する。術者はエア・エレメンタル、アース・エレメンタル、ファイアー・エレメンタル、ウォーター・エレメンタルから1つを選択する。術者の戦闘形態は巨大である。拡大に十分な空間がなければ呪文は失われる。この形態の間、術者はエレメンタルと選択した元素の特性を得る。術者はこの呪文を“解除”できる。</p><p>　選択した戦闘形態に関わらず、術者は以下のデータと能力を得る。</p><p><li> AC＝25＋術者のレベル。術者は鎧の判定ペナルティと移動速度の減少の影響を受けない。</li></p><p><li> 一時的ヒット・ポイント30。</li></p><p><li> 暗視。</li></p><p><li> 選択した戦闘形態に固有の素手近接攻撃1つ以上。術者はこれらのみを攻撃に使用できる。術者はこれらの修得である。術者の攻撃修正値は＋34であり、記載されたダメージを与える。これらの攻撃はエア・エレメンタルあるいはファイアー・エレメンタルの場合は【敏捷力】基準、アース・エレメンタルあるいはウォーター・エレメンタルの場合は【筋力】基準である（この差異はデータに影響を及ぼさないが、虚弱状態などに影響する）。術者の素手攻撃修正値がより高いなら、代わりにそちらを使用してもよい。</li></p><p><li> エア・エレメンタルあるいはファイアー・エレメンタルの場合は〈軽業〉の修正値は＋36、アース・エレメンタルあるいはウォーター・エレメンタルの場合は〈運動〉の修正値は＋36。いずれにせよ、術者の修正値が高い場合はそちらを用いる。</li></p><p>　加えて、術者は選択したエレメンタルの種別に応じた能力を得る。</p><p><b>Secrets of Magic</b></p><p><li> <b>エア・エレメンタル</b> 移動速度 飛行80フィート；<b>豪風／High Winds</b>（風、オーラ）30フィート。放射内の空気は飛行していて風特性を持たないクリーチャーにとって移動困難地形である；<b>迅速／Swiftness</b> 術者の移動はリアクションのトリガーにならない；<b>近接</b> <span class=\"action-glyph\">1</span> 突風（間合い：25フィート）、<b>ダメージ</b> 3d12＋11［殴打］および押しやり10フィート；<b>遠隔</b> <span class=\"action-glyph\">1</span> 雷鞭（射程単位80フィート）、<b>ダメージ</b> 3d12＋4［雷撃］。</li></p><p><li> <b>アース・エレメンタル</b> 移動速度 30フィート、穴掘り 20フィート；［物理］に対する抵抗5；<b>石の棘／Spike Stones</b>（オーラ、地）30フィート。範囲内は移動困難地形かつ障害地形になる。地の特性を持たないクリーチャーがこの範囲内の地面を移動すると、通過した1マスにつき5の［刺突］ダメージを受ける；<b>岩なる強靭／Rocky Toughness</b> 術者はこの形態を選択したとき、一時的ヒット・ポイントを30ではなく40だけ得る；<b>近接</b> <span class=\"action-glyph\">1</span> 拳（間合い：25フィート）、<b>ダメージ</b> 3d12＋15［殴打］；<b>遠隔</b> <span class=\"action-glyph\">1</span> 岩（射程単位40フィート）、<b>ダメージ</b> 4d8＋6［殴打］。</li></p><p><li> <b>ファイアー・エレメンタル</b> 移動速度 50フィート；火炎に対する完全耐性；［氷雪］に対する弱点10；<b>猛火／Intense Heat</b>（オーラ、火炎）30フィート。このオーラ内に侵入するか自身のターンをオーラ内で開始したクリーチャーは術者の呪文DCに対する基本反応セーヴを伴う5d6の［火炎］ダメージを受ける。クリーチャーはこのオーラから1ラウンドに1回だけダメージを受ける；<b>近接</b> <span class=\"action-glyph\">1</span> ひげ（間合い：25フィート）、<b>ダメージ</b> 3d10＋12［火炎］および2d6持続［火炎］；<b>遠隔</b> <span class=\"action-glyph\">1</span> 炎塵（射程単位60フィート）、<b>ダメージ</b> 4d8＋6［殴打］。</li></p><p><li> <b>ウォーター・エレメンタル</b> 移動速度 40フィート、水泳80フィート；［火炎］に対する抵抗10；<b>渦潮／Vortex</b>（オーラ、水）30フィート。オーラ内にあり術者の体の一部が入っている水は、水の特性を持たない水泳中のクリーチャーにとって移動困難地形である；<b>近接</b> <span class=\"action-glyph\">1</span> 波（間合い：25フィート）、<b>ダメージ</b> 3d12＋18［殴打］および押しやりあるいは引き寄せ10フィート；<b>遠隔</b> <span class=\"action-glyph\">1</span> 水の噴出（射程単位60フィート）、<b>ダメージ</b> 4d8＋6［殴打］。</li></p><p><b>Rage of Elements</b></p><p><li> <b>メタル・エレメンタル</b> 移動速度 40フィート、飛行40フィート；［雷撃］に対する抵抗10；<b>雷孤／Arcing Electricity</b>（オーラ、雷撃、金属）30フィート。このオーラ内に侵入するか自身のターンをオーラ内で開始したクリーチャーは術者の呪文DCに対する基本反応セーヴを伴う2d12の［雷撃］ダメージを受ける。クリーチャーが金属製か、金属の特性を持つか、金属製の鎧を着用しているなら、このセーヴに－1の状況ペナルティを受ける。クリーチャーはこのオーラから1ラウンドに1回だけダメージを受ける。；<b>近接</b> <span class=\"action-glyph\">1</span> 刃 (間合い：25フィート、多用途：［斬撃］）、<b>ダメージ</b> 3d12＋15［刺突］；<b>遠隔</b> <span class=\"action-glyph\">1</span> 金属片 (射程単位40フィート、多用途：［斬撃］）、<b>ダメージ</b> 4d8＋6［刺突］。メタル・エレメンタルの“打撃”は【敏捷力】に基づく。</li></p><p><li> <b>ウッド・エレメンタル</b> 移動速度 30フィート、登攀35フィート；［物理］に対する抵抗5；斧に対する弱点10；<b>Lush Growth</b>（オーラ、木）30フィート。範囲内の地面は移動困難地形となり、範囲内にいるクリーチャーは治癒かつ生命力効果によりHPを回復するたびに、オーラはその治癒に＋5の状態ボーナスを与える；<b>木なる強靭／Woody Toughness</b> 術者はこの形態を選択したとき、一時的ヒット・ポイントを30ではなく40だけ得る；<b>近接</b> <span class=\"action-glyph\">1</span> 枝（間合い：25フィート）、<b>ダメージ</b> 3d10＋18［殴打］；<b>遠隔</b> <span class=\"action-glyph\">1</span> 種（射程単位40フィート）、<b>ダメージ</b> 4d8＋6［殴打］。ウッド・エレメンタルの“打撃”は【筋力】に基づく。</li></p>",
+      "description": "<p>　元素会の最深部にある魔力の井戸から力を引き出し、術者は華麗なるエレメンタルへと変身する。術者はエア・エレメンタル、アース・エレメンタル、ファイアー・エレメンタル、ウォーター・エレメンタルから1つを選択する。術者の戦闘形態は巨大である。拡大に十分な空間がなければ呪文は失われる。この形態の間、術者はエレメンタルと選択した元素の特性を得る。術者はこの呪文を“解除”できる。</p><p>　選択した戦闘形態に関わらず、術者は以下のデータと能力を得る。</p><p><li> AC＝25＋術者のレベル。術者は鎧の判定ペナルティと移動速度の減少の影響を受けない。</li></p><p><li> 一時的ヒット・ポイント30。</li></p><p><li> 暗視。</li></p><p><li> 選択した戦闘形態に固有の素手近接攻撃1つ以上。術者はこれらのみを攻撃に使用できる。術者はこれらの修得である。術者の攻撃修正値は＋34であり、記載されたダメージを与える。これらの攻撃はエア・エレメンタルあるいはファイアー・エレメンタルの場合は【敏捷力】基準、アース・エレメンタルあるいはウォーター・エレメンタルの場合は【筋力】基準である（この差異はデータに影響を及ぼさないが、虚弱状態などに影響する）。術者の素手攻撃修正値がより高いなら、代わりにそちらを使用してもよい。</li></p><p><li> エア・エレメンタルあるいはファイアー・エレメンタルの場合は〈軽業〉の修正値は＋36、アース・エレメンタルあるいはウォーター・エレメンタルの場合は〈運動〉の修正値は＋36。いずれにせよ、術者の修正値が高い場合はそちらを用いる。</li></p><p>　加えて、術者は選択したエレメンタルの種別に応じた能力を得る。</p><p><b>Secrets of Magic</b></p><p><li> <b>エア・エレメンタル</b> 移動速度 飛行80フィート；<b>豪風／High Winds</b>（風、オーラ）30フィート。放射内の空気は飛行していて風特性を持たないクリーチャーにとって移動困難地形である；<b>迅速／Swiftness</b> 術者の移動はリアクションのトリガーにならない；<b>近接</b> <span class=\"action-glyph\">1</span> 突風（間合い：25フィート）、<b>ダメージ</b> 3d12＋11［殴打］および押しやり10フィート；<b>遠隔</b> <span class=\"action-glyph\">1</span> 雷鞭（射程単位80フィート）、<b>ダメージ</b> 3d12＋4［雷撃］。</li></p><p><li> <b>アース・エレメンタル</b> 移動速度 30フィート、穴掘り 20フィート；［物理］に対する抵抗5；<b>石の棘／Spike Stones</b>（オーラ、地）30フィート。範囲内は移動困難地形かつ障害地形になる。地の特性を持たないクリーチャーがこの範囲内の地面を移動すると、通過した1マスにつき5の［刺突］ダメージを受ける；<b>岩なる強靭／Rocky Toughness</b> 術者はこの形態を選択したとき、一時的ヒット・ポイントを30ではなく40だけ得る；<b>近接</b> <span class=\"action-glyph\">1</span> 拳（間合い：25フィート）、<b>ダメージ</b> 3d12＋15［殴打］；<b>遠隔</b> <span class=\"action-glyph\">1</span> 岩（射程単位40フィート）、<b>ダメージ</b> 4d8＋6［殴打］。</li></p><p><li> <b>ファイアー・エレメンタル</b> 移動速度 50フィート；火炎に対する完全耐性；［氷雪］に対する弱点10；<b>猛火／Intense Heat</b>（オーラ、火炎）30フィート。このオーラ内に侵入するか自身のターンをオーラ内で開始したクリーチャーは術者の呪文DCに対する基本反応セーヴを伴う5d6の［火炎］ダメージを受ける。クリーチャーはこのオーラから1ラウンドに1回だけダメージを受ける；<b>近接</b> <span class=\"action-glyph\">1</span> ひげ（間合い：25フィート）、<b>ダメージ</b> 3d10＋12［火炎］および2d6持続［火炎］；<b>遠隔</b> <span class=\"action-glyph\">1</span> 炎塵（射程単位60フィート）、<b>ダメージ</b> 4d8＋6［殴打］。</li></p><p><li> <b>ウォーター・エレメンタル</b> 移動速度 40フィート、水泳80フィート；［火炎］に対する抵抗10；<b>渦潮／Vortex</b>（オーラ、水）30フィート。オーラ内にあり術者の体の一部が入っている水は、水の特性を持たない水泳中のクリーチャーにとって移動困難地形である；<b>近接</b> <span class=\"action-glyph\">1</span> 波（間合い：25フィート）、<b>ダメージ</b> 3d12＋18［殴打］および押しやりあるいは引き寄せ10フィート；<b>遠隔</b> <span class=\"action-glyph\">1</span> 水の噴出（射程単位60フィート）、<b>ダメージ</b> 4d8＋6［殴打］。</li></p><p><b>Rage of Elements</b></p><p><li> <b>メタル・エレメンタル</b> 移動速度 40フィート、飛行40フィート；［雷撃］に対する抵抗10；<b>雷孤／Arcing Electricity</b>（オーラ、雷撃、金属）30フィート。このオーラ内に侵入するか自身のターンをオーラ内で開始したクリーチャーは術者の呪文DCに対する基本反応セーヴを伴う2d12の［雷撃］ダメージを受ける。クリーチャーが金属製か、金属の特性を持つか、金属製の鎧を着用しているなら、このセーヴに－1の状況ペナルティを受ける。クリーチャーはこのオーラから1ラウンドに1回だけダメージを受ける。；<b>近接</b> <span class=\"action-glyph\">1</span> 刃 (間合い：25フィート、多用途：［斬撃］）、<b>ダメージ</b> 3d12＋15［刺突］；<b>遠隔</b> <span class=\"action-glyph\">1</span> 金属片 (射程単位40フィート、多用途：［斬撃］）、<b>ダメージ</b> 4d8＋6［刺突］。メタル・エレメンタルの“打撃”は【敏捷力】に基づく。</li></p><p><li> <b>ウッド・エレメンタル</b> 移動速度 30フィート、登攀35フィート；［物理］に対する抵抗5；斧に対する弱点10；<b>Lush Growth</b>（オーラ、木）30フィート。範囲内の地面は移動困難地形となり、範囲内にいるクリーチャーは治癒かつ生命力効果によりHPを回復するたびに、オーラはその治癒に＋5のステータスボーナスを与える；<b>木なる強靭／Woody Toughness</b> 術者はこの形態を選択したとき、一時的ヒット・ポイントを30ではなく40だけ得る；<b>近接</b> <span class=\"action-glyph\">1</span> 枝（間合い：25フィート）、<b>ダメージ</b> 3d10＋18［殴打］；<b>遠隔</b> <span class=\"action-glyph\">1</span> 種（射程単位40フィート）、<b>ダメージ</b> 4d8＋6［殴打］。ウッド・エレメンタルの“打撃”は【筋力】に基づく。</li></p>",
       "duration": "1分",
       "time": "2"
     },
@@ -5629,7 +5629,7 @@
     },
     "Angel Form": {
       "name": "エンジェル・フォーム",
-      "description": "<p>　セレスチャルの領域の力を開放し、術者は中型のエンジェルの戦闘形態に変身する。この呪文を発動する際、バリセ、コーラル、モナディック・デーヴァ、モヴァニック・デーヴァからいずれか1つを選択する。コーラルを選択した場合、戦闘形態は小型である。この形態にある間、術者はエンジェルとセレスチャルの特性を得る。この戦闘形態には両手があり、操作アクションを行える。術者はこの呪文を“解除”できる。</p><p>　選択した戦闘形態に関わらず、術者は以下のデータと能力を得る。</p><p><li> AC＝22＋術者のレベル。術者は鎧の判定ペナルティと移動速度の減少の影響を受けない。</li></p><p><li> 一時的ヒット・ポイント40。［悪］ダメージに対する弱点10。</li></p><p><li> 暗視。</li></p><p><li> 選択した戦闘形態に固有の巣で近接攻撃1つ以上。術者はこれらのみを攻撃に使用できる。術者はこれらの修得である。術者の攻撃修正値は＋25であり、記載されたダメージを与える。これらの攻撃は【筋力】基準である（これは虚弱状態などに影響する）。術者の素手攻撃修正値がより高いなら、代わりにそちらを使用してもよい。</li></p><p><li> 〈運動〉の修正値は＋25。術者の修正値が高い場合はそちらを用いる。</li></p><p>　加えて、術者は選択したエンジェルの種別に応じた能力を得る。</p><p><li> <b>バリセ</b> 移動速度 30フィート、飛行40フィート；嘘や幻術を見破る際知覚修正値＋26、術者自身の修正値が高い場合を除く；<b>近接</b> <span class=\"action-glyph\">1</span> シミター（加圧、薙ぎ）、<b>ダメージ</b> 2d6＋12［斬撃］および1d6［火炎］かつ1d6［善］。</li></p><p><li> <b>コーラル</b> 移動速度 30フィート、飛行40フィート；音波かつ聴覚に対するACとセーヴに対して＋1の状態ボーナス；<b>近接</b> <span class=\"action-glyph\">1</span> 拳（機敏）、<b>ダメージ</b> 2d6＋12［殴打］および1d6［善］；<b>遠隔</b> <span class=\"action-glyph\">1</span> 貫く賛美歌（射程90フィート）、<b>ダメージ</b> 1d6＋12［音波］および1d6［善］、クリティカル・ヒットすると1ラウンドの間聴覚喪失状態。</li></p><p><li> <b>モナディック・デーヴァ</b> 移動速度 30フィート、飛行40フィート；即死効果及び魂を操作する効果に対するセーヴに＋2の状態ボーナス；<b>近接</b> <span class=\"action-glyph\">1</span> ホーリィ・メイス（突き飛ばし）、<b>ダメージ</b> 2d6＋12［殴打］および1d6［力場］かつ1d6［善］。</li></p><p><li> <b>モヴァニック・デーヴァ</b> 移動速度 30フィート、飛行40フィート；負のエネルギーに対する抵抗10；<b>近接</b> <span class=\"action-glyph\">1</span> バスタード・ソード（両手兼用：d12）、<b>ダメージ</b> 1d8＋12［斬撃］および1d6［火炎］かつ1d6［善］。</li></p><p>　<b>高レベル化（9レベル）</b> 術者の戦闘形態は大型になる。拡大するには十分な空間が必要で、さもなければ魔法は失われる。術者は代わりに一時的ヒット・ポイント60、［悪］ダメージに対する弱点15を得る。攻撃修正値＋30、ダメージ・ボーナス＋20、〈運動〉＋33を得る。</p>",
+      "description": "<p>　セレスチャルの領域の力を開放し、術者は中型のエンジェルの戦闘形態に変身する。この呪文を発動する際、バリセ、コーラル、モナディック・デーヴァ、モヴァニック・デーヴァからいずれか1つを選択する。コーラルを選択した場合、戦闘形態は小型である。この形態にある間、術者はエンジェルとセレスチャルの特性を得る。この戦闘形態には両手があり、操作アクションを行える。術者はこの呪文を“解除”できる。</p><p>　選択した戦闘形態に関わらず、術者は以下のデータと能力を得る。</p><p><li> AC＝22＋術者のレベル。術者は鎧の判定ペナルティと移動速度の減少の影響を受けない。</li></p><p><li> 一時的ヒット・ポイント40。［悪］ダメージに対する弱点10。</li></p><p><li> 暗視。</li></p><p><li> 選択した戦闘形態に固有の巣で近接攻撃1つ以上。術者はこれらのみを攻撃に使用できる。術者はこれらの修得である。術者の攻撃修正値は＋25であり、記載されたダメージを与える。これらの攻撃は【筋力】基準である（これは虚弱状態などに影響する）。術者の素手攻撃修正値がより高いなら、代わりにそちらを使用してもよい。</li></p><p><li> 〈運動〉の修正値は＋25。術者の修正値が高い場合はそちらを用いる。</li></p><p>　加えて、術者は選択したエンジェルの種別に応じた能力を得る。</p><p><li> <b>バリセ</b> 移動速度 30フィート、飛行40フィート；嘘や幻術を見破る際知覚修正値＋26、術者自身の修正値が高い場合を除く；<b>近接</b> <span class=\"action-glyph\">1</span> シミター（加圧、薙ぎ）、<b>ダメージ</b> 2d6＋12［斬撃］および1d6［火炎］かつ1d6［善］。</li></p><p><li> <b>コーラル</b> 移動速度 30フィート、飛行40フィート；音波かつ聴覚に対するACとセーヴに対して＋1のステータスボーナス；<b>近接</b> <span class=\"action-glyph\">1</span> 拳（機敏）、<b>ダメージ</b> 2d6＋12［殴打］および1d6［善］；<b>遠隔</b> <span class=\"action-glyph\">1</span> 貫く賛美歌（射程90フィート）、<b>ダメージ</b> 1d6＋12［音波］および1d6［善］、クリティカル・ヒットすると1ラウンドの間聴覚喪失状態。</li></p><p><li> <b>モナディック・デーヴァ</b> 移動速度 30フィート、飛行40フィート；即死効果及び魂を操作する効果に対するセーヴに＋2のステータスボーナス；<b>近接</b> <span class=\"action-glyph\">1</span> ホーリィ・メイス（突き飛ばし）、<b>ダメージ</b> 2d6＋12［殴打］および1d6［力場］かつ1d6［善］。</li></p><p><li> <b>モヴァニック・デーヴァ</b> 移動速度 30フィート、飛行40フィート；負のエネルギーに対する抵抗10；<b>近接</b> <span class=\"action-glyph\">1</span> バスタード・ソード（両手兼用：d12）、<b>ダメージ</b> 1d8＋12［斬撃］および1d6［火炎］かつ1d6［善］。</li></p><p>　<b>高レベル化（9レベル）</b> 術者の戦闘形態は大型になる。拡大するには十分な空間が必要で、さもなければ魔法は失われる。術者は代わりに一時的ヒット・ポイント60、［悪］ダメージに対する弱点15を得る。攻撃修正値＋30、ダメージ・ボーナス＋20、〈運動〉＋33を得る。</p>",
       "duration": "1分",
       "time": "2"
     },
@@ -5669,7 +5669,7 @@
     },
     "Canticle of Everlasting Grief": {
       "name": "キャンティクル・オヴ・エヴァーラスティング・グリフ",
-      "description": "<p>　術者は純粋な悲しみから抽出された旋律を創り出し、目標が大切にしていたものすべてを失う必然性を伝える。目標は意志セーヴを試みなければならない。</p><p>　<b>大成功</b> 目標はなんの効果も受けない。</p><p>　<b>成功</b> 目標は5d6の［精神］ダメージを受け、恐れ状態1となり、1ラウンドの間状況ボーナスと状態ボーナスから利益を得られない。</p><p>　<b>失敗</b> 目標は10d6の［精神］ダメージを受け、恐れ状態3となり、1週間の間状況ボーナスと状態ボーナスから利益を得られない。</p><p>　<b>大失敗</b> 目標は20d6の［精神］ダメージを受け、恐れ状態4となり、この呪いが除去されるまで状況ボーナスと状態ボーナスから利益を得られない。この呪いが残っている限り、目標の味方は目標から15フィート以内にいる限り状況ボーナスと状態ボーナスから利益を得られない。</p>",
+      "description": "<p>　術者は純粋な悲しみから抽出された旋律を創り出し、目標が大切にしていたものすべてを失う必然性を伝える。目標は意志セーヴを試みなければならない。</p><p>　<b>大成功</b> 目標はなんの効果も受けない。</p><p>　<b>成功</b> 目標は5d6の［精神］ダメージを受け、恐れ状態1となり、1ラウンドの間状況ボーナスとステータスボーナスから利益を得られない。</p><p>　<b>失敗</b> 目標は10d6の［精神］ダメージを受け、恐れ状態3となり、1週間の間状況ボーナスとステータスボーナスから利益を得られない。</p><p>　<b>大失敗</b> 目標は20d6の［精神］ダメージを受け、恐れ状態4となり、この呪いが除去されるまで状況ボーナスとステータスボーナスから利益を得られない。この呪いが残っている限り、目標の味方は目標から15フィート以内にいる限り状況ボーナスとステータスボーナスから利益を得られない。</p>",
       "duration": "さまざま",
       "range": "120 ﾌｨｰﾄ",
       "target": "クリーチャー1体",
@@ -5794,7 +5794,7 @@
     },
     "Summoner&#039;s Visage": {
       "name": "サモナーズ・ヴィジッディ",
-      "description": "<p>　術者は自分の幻獣を自分の一卵性双生児へと変身させる。術者が人形生物と仮定すると、幻獣はこの形態にいる間、他の特性に加えて人形生物の特性と、術者の形態に関連する他の特性（エルフやノームなど）を得る。術者の幻獣は術者への“なりすまし”のために行う〈ペテン〉判定に＋4の状態ボーナスを得て、未修得であってもレベルをその判定に加える。</p><p>　術者の幻獣は術者に似ているが、新しい能力を得ることはなく、そのデータは一切変化しない。変身は純粋に外見的なものだ。この変化によって幻獣のサイズが小さくなると、幻獣はサイズが大きくなったことによるその他の効果 （間合いの増加など）を失う。幻獣が使用できる装備品は、幻獣特性を持っているもののみだ。そのような幻獣が身につけていたアイテムは、必要に応じてサイズや形を変更し、その効果は発揮し続ける。</p><p>　術者はこの呪文を“解除”できる。</p><p>　<b>高レベル化（4レベル）</b> 持続時間は1時間に増加する。</p>"
+      "description": "<p>　術者は自分の幻獣を自分の一卵性双生児へと変身させる。術者が人形生物と仮定すると、幻獣はこの形態にいる間、他の特性に加えて人形生物の特性と、術者の形態に関連する他の特性（エルフやノームなど）を得る。術者の幻獣は術者への“なりすまし”のために行う〈ペテン〉判定に＋4のステータスボーナスを得て、未修得であってもレベルをその判定に加える。</p><p>　術者の幻獣は術者に似ているが、新しい能力を得ることはなく、そのデータは一切変化しない。変身は純粋に外見的なものだ。この変化によって幻獣のサイズが小さくなると、幻獣はサイズが大きくなったことによるその他の効果 （間合いの増加など）を失う。幻獣が使用できる装備品は、幻獣特性を持っているもののみだ。そのような幻獣が身につけていたアイテムは、必要に応じてサイズや形を変更し、その効果は発揮し続ける。</p><p>　術者はこの呪文を“解除”できる。</p><p>　<b>高レベル化（4レベル）</b> 持続時間は1時間に増加する。</p>"
     },
     "Summoner&#039;s Precaution": {
       "name": "サモナーズ・プリコーション",
@@ -5857,7 +5857,7 @@
     },
     "Thundering Dominance": {
       "name": "サンダリング・ドミナンス",
-      "description": "<p>　術者は目標を強力な捕食者のオーラで覆い、その声を増幅させる。目標は〈威圧〉判定に＋1の状態ボーナスを得る。この呪文の持続時間中に一度、目標は“轟きの咆哮”アクションを行える。</p><p>　<b>轟きの咆哮／Thundering Roar</b> <span class=\"action-glyph\">1</span>（聴覚、精神集中、感情、心術、恐怖、卓越、音波）目標は強力な声を放つ。10フィート放出内の敵はそれぞれ、呪文DCに対する基本意志セーヴを伴う4d8の［音波］ダメージを受ける。意志セーヴに失敗したクリーチャーは、加えて恐れ状態1になる。</p><p>　<b>高レベル化（＋2）</b> 〈威圧〉判定への状態ボーナスは1ずつ増加する（最大で8レベル呪文における＋4の状態ボーナス）。加えて、“轟きの咆哮”によるダメージは2d8ずつ増加する。</p>",
+      "description": "<p>　術者は目標を強力な捕食者のオーラで覆い、その声を増幅させる。目標は〈威圧〉判定に＋1のステータスボーナスを得る。この呪文の持続時間中に一度、目標は“轟きの咆哮”アクションを行える。</p><p>　<b>轟きの咆哮／Thundering Roar</b> <span class=\"action-glyph\">1</span>（聴覚、精神集中、感情、心術、恐怖、卓越、音波）目標は強力な声を放つ。10フィート放出内の敵はそれぞれ、呪文DCに対する基本意志セーヴを伴う4d8の［音波］ダメージを受ける。意志セーヴに失敗したクリーチャーは、加えて恐れ状態1になる。</p><p>　<b>高レベル化（＋2）</b> 〈威圧〉判定へのステータスボーナスは1ずつ増加する（最大で8レベル呪文における＋4のステータスボーナス）。加えて、“轟きの咆哮”によるダメージは2d8ずつ増加する。</p>",
       "duration": "1分",
       "range": "30 ﾌｨｰﾄ",
       "target": "術者の相棒1体もしくは幻獣1体",
@@ -5873,7 +5873,7 @@
     },
     "Thicket of Knives": {
       "name": "シケット・オヴ・ナイヴズ",
-      "description": "<p>　術者は武器を持つ腕の幻の複製を多数作成し、本当の動きを隠して攻撃を予測不能にする。術者は〈ペテン〉判定に＋2の状態ボーナスを得る。術者が〈ペテン〉を未修得の場合、術者は制限なく“フェイント”アクションを使用できる。その場合、未修得であるにも関わらず、習熟度ボーナスとして術者のレベルを加える。</p>",
+      "description": "<p>　術者は武器を持つ腕の幻の複製を多数作成し、本当の動きを隠して攻撃を予測不能にする。術者は〈ペテン〉判定に＋2のステータスボーナスを得る。術者が〈ペテン〉を未修得の場合、術者は制限なく“フェイント”アクションを使用できる。その場合、未修得であるにも関わらず、習熟度ボーナスとして術者のレベルを加える。</p>",
       "duration": "1分",
       "time": "2"
     },
@@ -5886,7 +5886,7 @@
     },
     "Schadenfreude": {
       "name": "シャーデンフロイデ",
-      "description": "<p>　術者は壊滅的な失敗をしたときに独りよがりに喜んで敵の気をそらす。敵は意志セーヴを試みなければならない。</p><p>　<b>大成功</b> クリーチャーはなんの効果も受けない。</p><p>　<b>成功</b> クリーチャーはその面白さに気を取られ、1ラウンドの間、知覚判定と意志セーヴに－1の状態ペナルティを受ける。</p><p>　<b>失敗</b> クリーチャーはその面白さに圧倒され、1ラウンドの間知性低下状態1になる。</p><p>　<b>大失敗</b> クリーチャーはその面白さに夢中になり、1ラウンドの間知性低下状態2になり、かつ朦朧状態1になる。</p>",
+      "description": "<p>　術者は壊滅的な失敗をしたときに独りよがりに喜んで敵の気をそらす。敵は意志セーヴを試みなければならない。</p><p>　<b>大成功</b> クリーチャーはなんの効果も受けない。</p><p>　<b>成功</b> クリーチャーはその面白さに気を取られ、1ラウンドの間、知覚判定と意志セーヴに－1のステータスペナルティを受ける。</p><p>　<b>失敗</b> クリーチャーはその面白さに圧倒され、1ラウンドの間知性低下状態1になる。</p><p>　<b>大失敗</b> クリーチャーはその面白さに夢中になり、1ラウンドの間知性低下状態2になり、かつ朦朧状態1になる。</p>",
       "range": "30 ﾌｨｰﾄ",
       "target": "トリガーとなった敵",
       "time": "reaction"
@@ -5985,7 +5985,7 @@
     },
     "Daemon Form": {
       "name": "ダイモン・フォーム",
-      "description": "<p>　術者はアバドンの腐敗した死と純粋な悪意を自分に注入し、大型のデーモンの戦闘形態に変身する。拡大するには十分な空間が必要で、さもなければ魔法は失われる。この魔法を発動する際、クゥストダイモン、ルーコダイモン、メラダイモン、ピスコダイモンからいずれか1つを選択する。クゥストダイモンを選択した場合、戦闘形態は中型になる。この形態にいる間、術者はダイモンとフィーンドの特性を得る。この戦闘形態には手があり、術者は操作アクションを使用できる。術者はこの呪文を“解除”できる。</p><p>　選択した戦闘形態に関わらず、術者は以下のデータと能力を得る。</p><p><li> AC＝21＋術者のレベル。鎧の判定ペナルティと移動速度低下を無視する。 </li></p><p><li> 一時的ヒット・ポイント15と［善］に対する弱点5。</li></p><p><li> 即死効果に対する全てのセーヴィング・スローに＋2の状態ボーナス。</li></p><p><li> ［毒］に対する抵抗10。</li></p><p><li> 暗視。</li></p><p><li> 形態によって決まる一つ以上の肉体攻撃。術者はこの攻撃の修得である。術者の攻撃ボーナスは＋21、記載されたダメージを使用する。虚弱状態などにおいて、これらの攻撃は【筋力】基準である。術者自身の対応する素手攻撃ボーナスの方が高い場合、そちらを使用する。</li></p><p><li> 術者自身の修正値が高くない限り、〈運動〉の修正値＋23。</li></p><p>　加えて、術者が選択したダイモンの種別に基づき、以下の能力を得る。</p><p><li> <b>クゥストダイモン</b> 移動速度 25フィート；<b>近接</b> <span class=\"action-glyph\">1</span> 顎（間合い：10フィート）、<b>ダメージ</b> 2d10＋10［刺突］および1d6［悪］；<b>近接</b> <span class=\"action-glyph\">1</span> 爪（機敏、間合い：10フィート、<b>ダメージ</b> 2d6 ［斬撃］および1d6［悪］；顎あるいは爪による“打撃”は追加で1d6ダメージを与え、術者は同じ値のダメージを受ける。</li></p><p><li> <b>ルーコダイモン</b> 移動速度 25フィート、飛行40フィート；病気に対するセーヴに＋2の状態ボーナス；<b>近接</b> <span class=\"action-glyph\">1</span> 顎（間合い：10フィート、<b>ダメージ</b> 2d10＋10［刺突］および1d6［悪］；<b>近接</b> <span class=\"action-glyph\">1</span> 爪（機敏、間合い：10フィート、<b>ダメージ</b> 2d6 ［斬撃］および1d6［悪］；<b>遠隔</b> <span class=\"action-glyph\">1</span> コンポジット・ロングボウ（致命的：d10、射程単位100フィート、遠射用、<b>ダメージ</b> 2d8［刺突］および1d6［悪］。</li></p><p><li> <b>メラダイモン</b> 移動速度 25フィート、飛行40フィート；<b>近接</b> <span class=\"action-glyph\">1</span> 顎（間合い：10フィート、<b>ダメージ</b> 2d10＋10［刺突］および1d6［悪］；<b>近接</b> <span class=\"action-glyph\">1</span> 爪（機敏、間合い：10フィート、<b>ダメージ</b> 1d8 ［斬撃］および1d6［悪］かつ1d6［負のエネルギー］、術者は命中時に1アクション消費することで、目標につかみを使用できる。</li></p><p><li> <b>ピスコダイモン</b> 移動速度 25フィート、水泳40フィート；<b>近接</b> <span class=\"action-glyph\">1</span> 爪、<b>ダメージ</b> 2d10＋10［刺突］および1d6［悪］かつ1d6持続［出血］、術者は命中時に1アクション消費することで、目標につかみを使用できる；<b>近接</b> <span class=\"action-glyph\">1</span> tentacle（機敏、<b>ダメージ</b> 2d6［殴打］および1d6［悪］かつ1d6［毒］。</li></p>",
+      "description": "<p>　術者はアバドンの腐敗した死と純粋な悪意を自分に注入し、大型のデーモンの戦闘形態に変身する。拡大するには十分な空間が必要で、さもなければ魔法は失われる。この魔法を発動する際、クゥストダイモン、ルーコダイモン、メラダイモン、ピスコダイモンからいずれか1つを選択する。クゥストダイモンを選択した場合、戦闘形態は中型になる。この形態にいる間、術者はダイモンとフィーンドの特性を得る。この戦闘形態には手があり、術者は操作アクションを使用できる。術者はこの呪文を“解除”できる。</p><p>　選択した戦闘形態に関わらず、術者は以下のデータと能力を得る。</p><p><li> AC＝21＋術者のレベル。鎧の判定ペナルティと移動速度低下を無視する。 </li></p><p><li> 一時的ヒット・ポイント15と［善］に対する弱点5。</li></p><p><li> 即死効果に対する全てのセーヴィング・スローに＋2のステータスボーナス。</li></p><p><li> ［毒］に対する抵抗10。</li></p><p><li> 暗視。</li></p><p><li> 形態によって決まる一つ以上の肉体攻撃。術者はこの攻撃の修得である。術者の攻撃ボーナスは＋21、記載されたダメージを使用する。虚弱状態などにおいて、これらの攻撃は【筋力】基準である。術者自身の対応する素手攻撃ボーナスの方が高い場合、そちらを使用する。</li></p><p><li> 術者自身の修正値が高くない限り、〈運動〉の修正値＋23。</li></p><p>　加えて、術者が選択したダイモンの種別に基づき、以下の能力を得る。</p><p><li> <b>クゥストダイモン</b> 移動速度 25フィート；<b>近接</b> <span class=\"action-glyph\">1</span> 顎（間合い：10フィート）、<b>ダメージ</b> 2d10＋10［刺突］および1d6［悪］；<b>近接</b> <span class=\"action-glyph\">1</span> 爪（機敏、間合い：10フィート、<b>ダメージ</b> 2d6 ［斬撃］および1d6［悪］；顎あるいは爪による“打撃”は追加で1d6ダメージを与え、術者は同じ値のダメージを受ける。</li></p><p><li> <b>ルーコダイモン</b> 移動速度 25フィート、飛行40フィート；病気に対するセーヴに＋2のステータスボーナス；<b>近接</b> <span class=\"action-glyph\">1</span> 顎（間合い：10フィート、<b>ダメージ</b> 2d10＋10［刺突］および1d6［悪］；<b>近接</b> <span class=\"action-glyph\">1</span> 爪（機敏、間合い：10フィート、<b>ダメージ</b> 2d6 ［斬撃］および1d6［悪］；<b>遠隔</b> <span class=\"action-glyph\">1</span> コンポジット・ロングボウ（致命的：d10、射程単位100フィート、遠射用、<b>ダメージ</b> 2d8［刺突］および1d6［悪］。</li></p><p><li> <b>メラダイモン</b> 移動速度 25フィート、飛行40フィート；<b>近接</b> <span class=\"action-glyph\">1</span> 顎（間合い：10フィート、<b>ダメージ</b> 2d10＋10［刺突］および1d6［悪］；<b>近接</b> <span class=\"action-glyph\">1</span> 爪（機敏、間合い：10フィート、<b>ダメージ</b> 1d8 ［斬撃］および1d6［悪］かつ1d6［負のエネルギー］、術者は命中時に1アクション消費することで、目標につかみを使用できる。</li></p><p><li> <b>ピスコダイモン</b> 移動速度 25フィート、水泳40フィート；<b>近接</b> <span class=\"action-glyph\">1</span> 爪、<b>ダメージ</b> 2d10＋10［刺突］および1d6［悪］かつ1d6持続［出血］、術者は命中時に1アクション消費することで、目標につかみを使用できる；<b>近接</b> <span class=\"action-glyph\">1</span> tentacle（機敏、<b>ダメージ</b> 2d6［殴打］および1d6［悪］かつ1d6［毒］。</li></p>",
       "duration": "1分",
       "time": "2"
     },
@@ -6005,7 +6005,7 @@
     },
     "Distracting Chatter": {
       "name": "ディストラクティング・チャター",
-      "description": "<p>　術者は目標に気が散るような幻聴を浴びせる。目標の周囲では音が重なったり、囁いたり、叫んだり、呟いたりといった騒々しい不協和音が響く。目標は立ちすくみ状態となり、純粋に聴覚で行う知覚判定に－2の状態ペナルティを受ける。加えて、目標は聴覚能力あるいは音声呪文要素を用いる際、DC5の平目判定に成功しなければならない。同様に、目標に聴覚効果を及ぼそうとするクリーチャーは、DC5の平目判定を行わねばならず、失敗するとその試みに失敗する。持続時間は目標の意志セーヴに従って決まる。</p><p>　<b>大成功</b> クリーチャーはなんの効果も受けない。</p><p>　<b>成功</b> 持続時間は1ラウンド。</p><p>　<b>失敗</b> 持続時間は3ラウンド。</p><p>　<b>大失敗</b> 持続時間は1分。</p><p>　<b>高レベル化（7レベル）</b> 術者はクリーチャー5体までを目標にすることができる。</p>",
+      "description": "<p>　術者は目標に気が散るような幻聴を浴びせる。目標の周囲では音が重なったり、囁いたり、叫んだり、呟いたりといった騒々しい不協和音が響く。目標は立ちすくみ状態となり、純粋に聴覚で行う知覚判定に－2のステータスペナルティを受ける。加えて、目標は聴覚能力あるいは音声呪文要素を用いる際、DC5の平目判定に成功しなければならない。同様に、目標に聴覚効果を及ぼそうとするクリーチャーは、DC5の平目判定を行わねばならず、失敗するとその試みに失敗する。持続時間は目標の意志セーヴに従って決まる。</p><p>　<b>大成功</b> クリーチャーはなんの効果も受けない。</p><p>　<b>成功</b> 持続時間は1ラウンド。</p><p>　<b>失敗</b> 持続時間は3ラウンド。</p><p>　<b>大失敗</b> 持続時間は1分。</p><p>　<b>高レベル化（7レベル）</b> 術者はクリーチャー5体までを目標にすることができる。</p>",
       "duration": "さまざま",
       "range": "30 ﾌｨｰﾄ",
       "target": "クリーチャー1体",
@@ -6054,7 +6054,7 @@
     },
     "Draw Ire": {
       "name": "ドロー・アイア",
-      "description": "<p>　術者はクリーチャー1体に精神的な苦痛を与え、術者に反撃するように仕向ける。術者はクリーチャーに1d10の［精神］ダメージを与え、術者以外のクリーチャーに対する攻撃ロールに－1の状態ペナルティを与える。クリーチャーは意志セーヴィング・スローを試みなければならない。</p><p>　<b>大成功</b> 目標はなんの効果も受けない。</p><p>　<b>成功</b> 目標は半分のダメージを受け、ペナルティをそのまま受ける。呪文は目標の次のターンの終了時に終了する。</p><p>　<b>失敗</b> 目標は全てのダメージとペナルティを受ける。</p><p>　<b>大失敗</b> 目標は2倍のダメージを受け、状態ペナルティは－2。</p><p>　<b>高レベル化（＋1）</b> ダメージは1d10ずつ増加する。</p>",
+      "description": "<p>　術者はクリーチャー1体に精神的な苦痛を与え、術者に反撃するように仕向ける。術者はクリーチャーに1d10の［精神］ダメージを与え、術者以外のクリーチャーに対する攻撃ロールに－1のステータスペナルティを与える。クリーチャーは意志セーヴィング・スローを試みなければならない。</p><p>　<b>大成功</b> 目標はなんの効果も受けない。</p><p>　<b>成功</b> 目標は半分のダメージを受け、ペナルティをそのまま受ける。呪文は目標の次のターンの終了時に終了する。</p><p>　<b>失敗</b> 目標は全てのダメージとペナルティを受ける。</p><p>　<b>大失敗</b> 目標は2倍のダメージを受け、ステータスペナルティは－2。</p><p>　<b>高レベル化（＋1）</b> ダメージは1d10ずつ増加する。</p>",
       "duration": "1分",
       "range": "120 ﾌｨｰﾄ",
       "target": "クリーチャー1体",
@@ -6070,7 +6070,7 @@
     },
     "Nudge the Odds": {
       "name": "ナッジ・ジ・オッズ",
-      "description": "<p>　術者はトランプ、ダイス、その他の運だよりのゲームで超自然的な幸運を自分に与える。術者は賭博に関する〈知識：遊戯〉判定に＋1の状態ボーナスを得、この判定で大失敗をロールすると代わりに失敗を得る。しかし、この呪文の持続時間はさほど長くないため、賭博で“収益を得る”際には使用できない。</p><p>　術者がナッジ・ジ・オッズの効果を受けている間、、髪や目の虹彩などの1つの顔の特徴は、特徴的な金色に変化する。GMは術者が呪文を発動したときにその特徴を決定する。この変化は、それを隠そうとするあらゆる魔法効果を阻むが、平凡な手段で隠したり隠したりすることはできる。この特徴に気づいたクリーチャーは“知識の想起”を使ってこの呪文を識別できる。大負けを防ぐことができるので、賭博師はナッジ・ジ・オッズを不正行為の好ましくない形だと考えている。この呪文を使ったことが判明した場合、騙した賭博師の性質によっては、深刻な結果を招く可能性がある。</p><p>　<b>高レベル化（5レベル）</b> 状態ボーナスは＋2に増加し、持続時間は次の日毎の準備を行うまでに伸びる。持続時間を引き伸ばすために呪文スロットを消費し続けるなら、術者は“収益を得る”ための余暇判定にこの効果を適用できる。</p>",
+      "description": "<p>　術者はトランプ、ダイス、その他の運だよりのゲームで超自然的な幸運を自分に与える。術者は賭博に関する〈知識：遊戯〉判定に＋1のステータスボーナスを得、この判定で大失敗をロールすると代わりに失敗を得る。しかし、この呪文の持続時間はさほど長くないため、賭博で“収益を得る”際には使用できない。</p><p>　術者がナッジ・ジ・オッズの効果を受けている間、、髪や目の虹彩などの1つの顔の特徴は、特徴的な金色に変化する。GMは術者が呪文を発動したときにその特徴を決定する。この変化は、それを隠そうとするあらゆる魔法効果を阻むが、平凡な手段で隠したり隠したりすることはできる。この特徴に気づいたクリーチャーは“知識の想起”を使ってこの呪文を識別できる。大負けを防ぐことができるので、賭博師はナッジ・ジ・オッズを不正行為の好ましくない形だと考えている。この呪文を使ったことが判明した場合、騙した賭博師の性質によっては、深刻な結果を招く可能性がある。</p><p>　<b>高レベル化（5レベル）</b> ステータスボーナスは＋2に増加し、持続時間は次の日毎の準備を行うまでに伸びる。持続時間を引き伸ばすために呪文スロットを消費し続けるなら、術者は“収益を得る”ための余暇判定にこの効果を適用できる。</p>",
       "duration": "1時間",
       "time": "2"
     },
@@ -6087,14 +6087,14 @@
     },
     "Necrotize": {
       "name": "ネクロタイズ",
-      "description": "<p>　術者はクリーチャーの身体の一部を壊死させ、その身体が腐敗するにつれてそのクリーチャーを傷つけ、衰弱させる。目標は12d6の［負のエネルギー］ダメージと以下の衰弱のいずれか1つを受ける。効果は頑健セーヴに従って決まる。</p><p><li> <b>骨</b> 目標の骨は目標の骨が壊死し、スポンジ状になって弱くなり、［殴打］ダメージに対する弱点3を得る。</li></p><p><li> <b>関節</b> 目標の関節が壊死し、動きが不格好で不器用になる。目標はよたつき状態1を得る。</li></p><p><li> <b>脚</b> 目標の脚だけでなく移動に関連する他の付属肢も壊死する。目標は移動速度に－10フィートの状態ペナルティを受ける。</li></p><p><li> <b>筋肉</b> 目標の筋肉が壊死し、腐り落ちる。目標は虚弱状態1になる。</li></p><p>　<b>大成功</b> 目標はなんの効果も受けない。</p><p>　<b>成功</b> 目標は半分のダメージを受け、衰弱は次の術者のターンの終了時まで持続する。</p><p>　<b>失敗</b> 目標は全てのダメージを受け、衰弱は1分持続する。</p><p>　<b>大失敗</b> 目標は2倍のダメージを受け、目標は無作為にロールした1つに加え、2つ目の衰弱を選択して目標に適用する。衰弱はいずれも1分間持続する。</p><p>　<b>高レベル化（＋1）</b> ダメージは2d6ずつ増加する。</p>",
+      "description": "<p>　術者はクリーチャーの身体の一部を壊死させ、その身体が腐敗するにつれてそのクリーチャーを傷つけ、衰弱させる。目標は12d6の［負のエネルギー］ダメージと以下の衰弱のいずれか1つを受ける。効果は頑健セーヴに従って決まる。</p><p><li> <b>骨</b> 目標の骨は目標の骨が壊死し、スポンジ状になって弱くなり、［殴打］ダメージに対する弱点3を得る。</li></p><p><li> <b>関節</b> 目標の関節が壊死し、動きが不格好で不器用になる。目標はよたつき状態1を得る。</li></p><p><li> <b>脚</b> 目標の脚だけでなく移動に関連する他の付属肢も壊死する。目標は移動速度に－10フィートのステータスペナルティを受ける。</li></p><p><li> <b>筋肉</b> 目標の筋肉が壊死し、腐り落ちる。目標は虚弱状態1になる。</li></p><p>　<b>大成功</b> 目標はなんの効果も受けない。</p><p>　<b>成功</b> 目標は半分のダメージを受け、衰弱は次の術者のターンの終了時まで持続する。</p><p>　<b>失敗</b> 目標は全てのダメージを受け、衰弱は1分持続する。</p><p>　<b>大失敗</b> 目標は2倍のダメージを受け、目標は無作為にロールした1つに加え、2つ目の衰弱を選択して目標に適用する。衰弱はいずれも1分間持続する。</p><p>　<b>高レベル化（＋1）</b> ダメージは2d6ずつ増加する。</p>",
       "range": "60 ﾌｨｰﾄ",
       "target": "生きているクリーチャー1体",
       "time": "2"
     },
     "Necromancer's Generosity": {
       "name": "ネクロマンサーズ・ジェナラシティ",
-      "description": "<p>　術者はアンデッドの手下を強化するために、このクリーチャーに術者の魔法の接続を通じて負のエネルギーを放つ。術者がこの呪文を“呪文発動”すると目標はヒット・ポイントを1d8＋4だけ回復し、目標は持続時間の間、正のエネルギー効果に対するセーヴに＋2の状態ボーナスを得る。</p><p>　<b>高レベル化（＋1）</b> 回復量は1d8＋4ずつ増加する。</p>",
+      "description": "<p>　術者はアンデッドの手下を強化するために、このクリーチャーに術者の魔法の接続を通じて負のエネルギーを放つ。術者がこの呪文を“呪文発動”すると目標はヒット・ポイントを1d8＋4だけ回復し、目標は持続時間の間、正のエネルギー効果に対するセーヴに＋2のステータスボーナスを得る。</p><p>　<b>高レベル化（＋1）</b> 回復量は1d8＋4ずつ増加する。</p>",
       "duration": "1分",
       "range": "30 ﾌｨｰﾄ",
       "target": "術者の制御下にあるアンデッドの手下1体",
@@ -6194,7 +6194,7 @@
     },
     "Feral Shades": {
       "name": "フェラル・シェイズ",
-      "description": "<p>　術者の伸ばした手から、負のエネルギーでできた灰色の霧の波が流れ出て、一瞬の間、敵に悪意を持って襲いかかる捕食動物の群れの形になる。範囲内のクリーチャーは2d4の［斬撃］ダメージと2d4の［負のエネルギー］ダメージを受ける。影は弱い者たちにより激しく襲いかかる。伏せ状態のクリーチャーや持続［出血］ダメージを受けているクリーチャーは、このセーヴに－2の状態ペナルティを受ける。</p><p>　<b>高レベル化（＋1）</b> ［斬撃］ダメージと［負のエネルギー］ダメージはそれぞれ1d4ずつ増加する。</p>",
+      "description": "<p>　術者の伸ばした手から、負のエネルギーでできた灰色の霧の波が流れ出て、一瞬の間、敵に悪意を持って襲いかかる捕食動物の群れの形になる。範囲内のクリーチャーは2d4の［斬撃］ダメージと2d4の［負のエネルギー］ダメージを受ける。影は弱い者たちにより激しく襲いかかる。伏せ状態のクリーチャーや持続［出血］ダメージを受けているクリーチャーは、このセーヴに－2のステータスペナルティを受ける。</p><p>　<b>高レベル化（＋1）</b> ［斬撃］ダメージと［負のエネルギー］ダメージはそれぞれ1d4ずつ増加する。</p>",
       "time": "2"
     },
     "Forceful Hand": {
@@ -6229,7 +6229,7 @@
     },
     "Bullhorn": {
       "name": "ブルホーン",
-      "description": "<p>　術者は自分の声を増幅し、遠くからでも容易に聞き取れるようにする。持続時間の間、周囲の騒音に遮られていたとしても、術者の声は500フィート以内にいるすべての聞き手にとって大きく明瞭に聴くことができる。声量が大きいにも関わらず、声がギクシャクしたものになったり気をそらさせることはない。これによって他の聴覚あるいは言語効果の距離や範囲が増加することはないし、壁や扉などの物理的な障壁によって通常通り声は遮られたり聞こえなくなったりする。</p><p>　術者の大きな声は他人を用意に“強制”でき、その声量は大きな会場での“上演”の助けになる。術者は“強制”のための判定と、大きな会場での“上演”のために行う聴覚の〈芸能〉判定に＋1の状態ボーナスを得る。</p><p>　術者はこの呪文を“解除”できる。</p><p>　<b>高レベル化（5レベル）</b> 術者の声は1,200フィート離れていてもはっきりと聞こえる。</p><p>　<b>高レベル化（7レベル）</b> 術者の声は1マイル離れていてもはっきりと聞こえる。</p>",
+      "description": "<p>　術者は自分の声を増幅し、遠くからでも容易に聞き取れるようにする。持続時間の間、周囲の騒音に遮られていたとしても、術者の声は500フィート以内にいるすべての聞き手にとって大きく明瞭に聴くことができる。声量が大きいにも関わらず、声がギクシャクしたものになったり気をそらさせることはない。これによって他の聴覚あるいは言語効果の距離や範囲が増加することはないし、壁や扉などの物理的な障壁によって通常通り声は遮られたり聞こえなくなったりする。</p><p>　術者の大きな声は他人を用意に“強制”でき、その声量は大きな会場での“上演”の助けになる。術者は“強制”のための判定と、大きな会場での“上演”のために行う聴覚の〈芸能〉判定に＋1のステータスボーナスを得る。</p><p>　術者はこの呪文を“解除”できる。</p><p>　<b>高レベル化（5レベル）</b> 術者の声は1,200フィート離れていてもはっきりと聞こえる。</p><p>　<b>高レベル化（7レベル）</b> 術者の声は1マイル離れていてもはっきりと聞こえる。</p>",
       "duration": "10分",
       "range": "500 ﾌｨｰﾄ",
       "time": "2"
@@ -6265,7 +6265,7 @@
     },
     "Blessing of Defiance": {
       "name": "ブレッシング・オヴ・デファイアンス",
-      "description": "<p>　逆境に直面しても耐え抜く力を授け、対象に危険を回避し、悲惨な危害を避ける手段を与える。頑健、反応、意志からセーヴィング・スローを1つ選択する。目標は1ラウンドの間、そのセーヴィング・スローに＋4の状態ボーナスを得る。この祝福の効果と目標数は、この呪文を“呪文発動”する際に消費するアクション数にしたがって決まる</p><p>　<b><span class=\"action-glyph\">1</span>（動作）</b> この呪文は術者もしくは距離内にいる同意する味方1体を目標とする。</p><p>　<b><span class=\"action-glyph\">2</span>（音声）</b> この呪文は術者もしくは距離内にいる同意する味方1体を目標とする。術者が頑健を選択した場合、目標は［毒］に対する抵抗15を得る。術者が反応を選択した場合、目標は自身の移動速度に＋15フィートの状態ボーナスを得る。術者が意志を選択した場合、目標は［精神］ダメージに対する抵抗15を得る。</p><p>　<b> <span class=\"action-glyph\">3</span>（音声）</b> この呪文は術者と30フィート以内にいる同意する味方全てを目標とする。</p>",
+      "description": "<p>　逆境に直面しても耐え抜く力を授け、対象に危険を回避し、悲惨な危害を避ける手段を与える。頑健、反応、意志からセーヴィング・スローを1つ選択する。目標は1ラウンドの間、そのセーヴィング・スローに＋4のステータスボーナスを得る。この祝福の効果と目標数は、この呪文を“呪文発動”する際に消費するアクション数にしたがって決まる</p><p>　<b><span class=\"action-glyph\">1</span>（動作）</b> この呪文は術者もしくは距離内にいる同意する味方1体を目標とする。</p><p>　<b><span class=\"action-glyph\">2</span>（音声）</b> この呪文は術者もしくは距離内にいる同意する味方1体を目標とする。術者が頑健を選択した場合、目標は［毒］に対する抵抗15を得る。術者が反応を選択した場合、目標は自身の移動速度に＋15フィートのステータスボーナスを得る。術者が意志を選択した場合、目標は［精神］ダメージに対する抵抗15を得る。</p><p>　<b> <span class=\"action-glyph\">3</span>（音声）</b> この呪文は術者と30フィート以内にいる同意する味方全てを目標とする。</p>",
       "duration": "1ラウンド",
       "range": "30 ﾌｨｰﾄ",
       "target": "さまざま",
@@ -6341,7 +6341,7 @@
     },
     "Pocket Library": {
       "name": "ポケット・ライブラリ",
-      "description": "<p>　術者は特定の主題に関する情報を世界中の図書館から収集し、それを超次元の図書館に保存する。この呪文を“呪文発動”する際、術者の習熟度ランクが修得以上の技能のうち、“知識の想起”アクションを行えるものを1つ選択する。</p><p>　この呪文の持続時間の間、選択した技能を用いて“知識の想起”を試みる際、術者は異次元の図書館から書物を1つ呼び出せる。これは“知識の想起”アクションの一部として扱う。そうするには、術者の片手が空いていなければならない。術者の手に書物が現れ、ページが開く。これにより、術者はその“知識の想起”判定に＋1の状態ボーナスを得る。この判定で大失敗をロールすると、かわりに失敗になる。ロールが成功し、目標がクリーチャーの場合、クリーチャーに関する追加の情報あるいは内容を得る。ポケット・ライブラリから書物を参照すると、この呪文は終了する。</p><p>　<b>高レベル化（3レベル）</b> 状態ボーナスは＋2に増加し、この呪文が終了するまでに術者はポケット・ライブラリから2回参照できる。</p>",
+      "description": "<p>　術者は特定の主題に関する情報を世界中の図書館から収集し、それを超次元の図書館に保存する。この呪文を“呪文発動”する際、術者の習熟度ランクが修得以上の技能のうち、“知識の想起”アクションを行えるものを1つ選択する。</p><p>　この呪文の持続時間の間、選択した技能を用いて“知識の想起”を試みる際、術者は異次元の図書館から書物を1つ呼び出せる。これは“知識の想起”アクションの一部として扱う。そうするには、術者の片手が空いていなければならない。術者の手に書物が現れ、ページが開く。これにより、術者はその“知識の想起”判定に＋1のステータスボーナスを得る。この判定で大失敗をロールすると、かわりに失敗になる。ロールが成功し、目標がクリーチャーの場合、クリーチャーに関する追加の情報あるいは内容を得る。ポケット・ライブラリから書物を参照すると、この呪文は終了する。</p><p>　<b>高レベル化（3レベル）</b> ステータスボーナスは＋2に増加し、この呪文が終了するまでに術者はポケット・ライブラリから2回参照できる。</p>",
       "duration": "24時間",
       "time": "3"
     },
@@ -6378,7 +6378,7 @@
     },
     "Mind of Menace": {
       "name": "マインド・オヴ・メナス",
-      "description": "<p>　この呪文は、術者の心を破壊しようとする者に対抗し、精神的な魔法を返す。呪文が完了すると、術者は“恐怖を伴う戦い”リアクションを得る。術者がこのリアクションを使用すると、呪文は終了する。</p><p>　<b>“恐怖を伴う戦い”／Fight with Fear</b> <span class=\"action-glyph\">R</span>（精神集中、感情、心術、恐怖、感情）<b>トリガー</b> 術者が見ることのできるクリーチャーが術者に対して感情効果を使用する；<b>効果</b> トリガーとなったクリーチャーは意志セーヴを試み、それに応じて以下の結果を受ける。</p><p>　<b>成功</b> クリーチャーはなんの効果も受けない。</p><p>　<b>失敗</b> クリーチャーは恐れ状態2となり、術者はトリガーとなった精神効果に対するセーヴィング・スローあるいは他の防御に＋2の状態ボーナスを得る。</p><p>　<b>大失敗</b> クリーチャーは恐れ状態2となり、術者はトリガーとなった精神効果を一切受けない。</p>",
+      "description": "<p>　この呪文は、術者の心を破壊しようとする者に対抗し、精神的な魔法を返す。呪文が完了すると、術者は“恐怖を伴う戦い”リアクションを得る。術者がこのリアクションを使用すると、呪文は終了する。</p><p>　<b>“恐怖を伴う戦い”／Fight with Fear</b> <span class=\"action-glyph\">R</span>（精神集中、感情、心術、恐怖、感情）<b>トリガー</b> 術者が見ることのできるクリーチャーが術者に対して感情効果を使用する；<b>効果</b> トリガーとなったクリーチャーは意志セーヴを試み、それに応じて以下の結果を受ける。</p><p>　<b>成功</b> クリーチャーはなんの効果も受けない。</p><p>　<b>失敗</b> クリーチャーは恐れ状態2となり、術者はトリガーとなった精神効果に対するセーヴィング・スローあるいは他の防御に＋2のステータスボーナスを得る。</p><p>　<b>大失敗</b> クリーチャーは恐れ状態2となり、術者はトリガーとなった精神効果を一切受けない。</p>",
       "duration": "24時間",
       "time": "10分"
     },
@@ -6398,7 +6398,7 @@
     },
     "Magnetic Repulsion": {
       "name": "マグネティック・リパルション",
-      "description": "<p>　術者は磁性を調整し、金属製の物体が飛び跳ね、震えて術者から離れていく。術者に対する金属製の物体による攻撃は－1の状態ペナルティを受け、術者に隣接するマスは金属製の鎧を着用しているクリーチャーにとって移動困難地形となる。すべてが金属でできているクリーチャーの場合、攻撃ロールのペナルティは－2となり、術者に隣接するマスは上級移動困難地形となる。</p><p>　この呪文が効果を発揮している間、金属製の物体を使用する前に（金属製の武器での“打撃”を含む）追加で1回の“扱う”アクションが必要になり、金属製の鎧を着用している場合は減速状態1になる。</p><p>　<b>高レベル化（＋3）</b> 攻撃ロールへの状態ペナルティは1ずつ増加する。</p>",
+      "description": "<p>　術者は磁性を調整し、金属製の物体が飛び跳ね、震えて術者から離れていく。術者に対する金属製の物体による攻撃は－1のステータスペナルティを受け、術者に隣接するマスは金属製の鎧を着用しているクリーチャーにとって移動困難地形となる。すべてが金属でできているクリーチャーの場合、攻撃ロールのペナルティは－2となり、術者に隣接するマスは上級移動困難地形となる。</p><p>　この呪文が効果を発揮している間、金属製の物体を使用する前に（金属製の武器での“打撃”を含む）追加で1回の“扱う”アクションが必要になり、金属製の鎧を着用している場合は減速状態1になる。</p><p>　<b>高レベル化（＋3）</b> 攻撃ロールへのステータスペナルティは1ずつ増加する。</p>",
       "duration": "1分",
       "time": "2"
     },
@@ -6419,19 +6419,19 @@
     },
     "Mantle of the Frozen Heart": {
       "name": "マントル・オヴ・ザ・フローズン・ハート",
-      "description": "<p>　術者は極寒の氷でできた魔法の外套に身を包み、肌と鎧は冷たく青い氷に変身する。凍りつかせる空気が術者の体から出て、近づきすぎた者の背筋が凍えその目の前に細かい霜が降る。この呪文を“呪文発動”する際、以下の選択肢から2つ選択すること。術者は精神集中特性を持つ単一アクションとして、選択した能力の1つを一覧にある別の選択肢1つに変更できる。</p><p><li> <b>凍える氷／Chilling Ice</b> 術者の体の周囲の氷は厚みを増し、熱から術者の体を守るために溶けて寒さから体を癒やす。術者は［氷雪］に対する抵抗10を得る。</li></p><p><li> <b>氷の心臓／Heart of Ice</b> 術者の体温は極端に冷たく低下する。術者に触れた、あるいは近接素手攻撃あるいは間合いのない近接武器攻撃を術者に命中させたクリーチャーは、2d6の［氷雪］ダメージを受ける。</li></p><p><li> <b>氷滑り／Ice Glide</b> 術者が移動すると術者の足から氷が一瞬流れ、術者は氷に沿って素早く滑ることができる。術者は氷の上で“平衡感覚”をする必要がなくなり、氷や雪による移動困難地形の影響を受けない。滑らかな表面に沿って移動する間、術者は自分の地上速度に＋20フィートの状態ボーナスを得る。</li></p><p><li> <b>氷爪／Icy Claws</b> 術者の手は攻撃や登攀に役立つ、残忍で鋭い氷の爪に変形する。両手が空いている間、術者は自分の地上速度と等しい登攀速度を得る。術者は剛腕武器種に属し、機敏と巧技の特性を持つ、爪による素手攻撃を得る。術者の爪攻撃は、基本ダメージとして1d6の［刺突］ダメージを与え、追加で2d6の［氷雪］ダメージを与える。</li></p>",
+      "description": "<p>　術者は極寒の氷でできた魔法の外套に身を包み、肌と鎧は冷たく青い氷に変身する。凍りつかせる空気が術者の体から出て、近づきすぎた者の背筋が凍えその目の前に細かい霜が降る。この呪文を“呪文発動”する際、以下の選択肢から2つ選択すること。術者は精神集中特性を持つ単一アクションとして、選択した能力の1つを一覧にある別の選択肢1つに変更できる。</p><p><li> <b>凍える氷／Chilling Ice</b> 術者の体の周囲の氷は厚みを増し、熱から術者の体を守るために溶けて寒さから体を癒やす。術者は［氷雪］に対する抵抗10を得る。</li></p><p><li> <b>氷の心臓／Heart of Ice</b> 術者の体温は極端に冷たく低下する。術者に触れた、あるいは近接素手攻撃あるいは間合いのない近接武器攻撃を術者に命中させたクリーチャーは、2d6の［氷雪］ダメージを受ける。</li></p><p><li> <b>氷滑り／Ice Glide</b> 術者が移動すると術者の足から氷が一瞬流れ、術者は氷に沿って素早く滑ることができる。術者は氷の上で“平衡感覚”をする必要がなくなり、氷や雪による移動困難地形の影響を受けない。滑らかな表面に沿って移動する間、術者は自分の地上速度に＋20フィートのステータスボーナスを得る。</li></p><p><li> <b>氷爪／Icy Claws</b> 術者の手は攻撃や登攀に役立つ、残忍で鋭い氷の爪に変形する。両手が空いている間、術者は自分の地上速度と等しい登攀速度を得る。術者は剛腕武器種に属し、機敏と巧技の特性を持つ、爪による素手攻撃を得る。術者の爪攻撃は、基本ダメージとして1d6の［刺突］ダメージを与え、追加で2d6の［氷雪］ダメージを与える。</li></p>",
       "duration": "1分",
       "time": "2"
     },
     "Mantle of the Magma Heart": {
       "name": "マントル・オヴ・ザ・マグマ・ハート",
-      "description": "<p>　術者は燃え盛る炎でできた魔法の外套に身を包み、肌と着用しているものは全て燃えるように熱い溶岩に変身する。術者の周りの空気は熱でうだるほどで、術者が通り過ぎると術者の後ろで小さな炎の火花が踊る。この呪文を“呪文発動”する際、以下の選択肢から2つ選択すること。術者は精神集中特性を持つ単一アクションとして、選択した能力の1つを一覧にある別の選択肢1つに変更できる。</p><p><li> <b>拡大の噴火／Enlarging Eruption</b> 術者が溶岩を噴火させると、溶岩が体にまとわりついて固まり、膨張して破裂すると術者は大型になる。術者はよたつき状態1になる。術者の間合いは5フィート（元々超小型だった場合は10フィート）増加し、近接攻撃によるダメージに＋2の状態ボーナスを得る。既に大型かそれより大きい場合、術者はこの選択肢を選択できない。</li></p><p><li> <b>灼熱の握り／Fiery Grasp</b> 術者の手は溶岩で膨らみ、大きくなる。術者は剛腕武器種に属する溶岩の拳による素手攻撃を得る。術者の溶岩の拳は、基本ダメージとして1d8の［殴打］ダメージを与え、追加ダメージとして2d6の［火炎］ダメージと1d6の持続［火炎］ダメージを与える。</li></p><p><li> <b>火炎の心臓／Heart of Fire</b> 術者の体温は極端に熱くなり、術者に触れた、あるいは近接素手攻撃あるいは間合いのない近接武器攻撃を術者に命中させたクリーチャーは2d6の［火炎］ダメージを受ける。</li></p><p><li> <b>温かい炎／Warming Flames</b> 炎が術者の周りで揺らめき、寒さを和らげ、暑さから術者を守る。術者は［氷雪］と［火炎］に対する抵抗5を得る。</li></p>",
+      "description": "<p>　術者は燃え盛る炎でできた魔法の外套に身を包み、肌と着用しているものは全て燃えるように熱い溶岩に変身する。術者の周りの空気は熱でうだるほどで、術者が通り過ぎると術者の後ろで小さな炎の火花が踊る。この呪文を“呪文発動”する際、以下の選択肢から2つ選択すること。術者は精神集中特性を持つ単一アクションとして、選択した能力の1つを一覧にある別の選択肢1つに変更できる。</p><p><li> <b>拡大の噴火／Enlarging Eruption</b> 術者が溶岩を噴火させると、溶岩が体にまとわりついて固まり、膨張して破裂すると術者は大型になる。術者はよたつき状態1になる。術者の間合いは5フィート（元々超小型だった場合は10フィート）増加し、近接攻撃によるダメージに＋2のステータスボーナスを得る。既に大型かそれより大きい場合、術者はこの選択肢を選択できない。</li></p><p><li> <b>灼熱の握り／Fiery Grasp</b> 術者の手は溶岩で膨らみ、大きくなる。術者は剛腕武器種に属する溶岩の拳による素手攻撃を得る。術者の溶岩の拳は、基本ダメージとして1d8の［殴打］ダメージを与え、追加ダメージとして2d6の［火炎］ダメージと1d6の持続［火炎］ダメージを与える。</li></p><p><li> <b>火炎の心臓／Heart of Fire</b> 術者の体温は極端に熱くなり、術者に触れた、あるいは近接素手攻撃あるいは間合いのない近接武器攻撃を術者に命中させたクリーチャーは2d6の［火炎］ダメージを受ける。</li></p><p><li> <b>温かい炎／Warming Flames</b> 炎が術者の周りで揺らめき、寒さを和らげ、暑さから術者を守る。術者は［氷雪］と［火炎］に対する抵抗5を得る。</li></p>",
       "duration": "1分",
       "time": "2"
     },
     "Mimic Undead": {
       "name": "ミミック・アンデッド",
-      "description": "<p>　術者は死を受け入れて外套のように身にまとうと、その色が落ち肌が冷たくなっていく。術者の心臓の鼓動や呼吸などの生命機能は非常に不明瞭になる。生命感知のような感覚は、クリーチャーが呪文のDCに対する知覚判定に成功しない限り、術者をアンデッドとして検出する。判定に失敗した場合、生きているクリーチャーだけを感知するならば術者を全く検出しない。生きているクリーチャーを特別に感知する探知呪文は、術者を検出するためにミミック・アンデッドに対する対抗判定に成功しなければならない。術者は死んでいないが肉体的には無傷の自分に“なりすます”ための判定に＋4の状態ボーナスを得、未修得でも習熟ボーナスとしてレベルを追加できる。他の種類のアンデッドへの“なりすます”ではこの利益は得られない。精神なしのアンデッドは、何らかの方法でやりとりしない限り、通常は術者の“なりすます”に気づくための知覚判定を試みることさえない。</p>",
+      "description": "<p>　術者は死を受け入れて外套のように身にまとうと、その色が落ち肌が冷たくなっていく。術者の心臓の鼓動や呼吸などの生命機能は非常に不明瞭になる。生命感知のような感覚は、クリーチャーが呪文のDCに対する知覚判定に成功しない限り、術者をアンデッドとして検出する。判定に失敗した場合、生きているクリーチャーだけを感知するならば術者を全く検出しない。生きているクリーチャーを特別に感知する探知呪文は、術者を検出するためにミミック・アンデッドに対する対抗判定に成功しなければならない。術者は死んでいないが肉体的には無傷の自分に“なりすます”ための判定に＋4のステータスボーナスを得、未修得でも習熟ボーナスとしてレベルを追加できる。他の種類のアンデッドへの“なりすます”ではこの利益は得られない。精神なしのアンデッドは、何らかの方法でやりとりしない限り、通常は術者の“なりすます”に気づくための知覚判定を試みることさえない。</p>",
       "duration": "10分",
       "time": "2"
     },
@@ -6478,7 +6478,7 @@
     },
     "Rapid Adaptation": {
       "name": "ラピッド・アダプテーション",
-      "description": "<p>　術者が周囲の地形からのエネルギーを目標に注ぎ込み、数百年はかかる進化を一瞬に圧縮させる。目標は周囲の地形に応じた以下の自然適応を1つ得る。</p><p><li> <b>水界</b> 目標は地上移動速度に等しい水泳速度を得る。すでに水泳速度を持つ場合、水泳速度に＋10フィートの状態ボーナスを得る。</li></p><p><li> <b>極地</b> 目標は酷寒と極寒の影響を受けなくなり、氷や雪の上で“平衡感覚”のために行う〈軽業〉判定で成功をロールすると代わりに大成功を得る。</li></p><p><li> <b>砂漠</b> 目標は酷暑と極暑の影響を受けなくなり、砂の上で“平衡感覚”のために行う〈軽業〉判定で成功をロールすると代わりに大成功を得る。</li></p><p><li> <b>森林</b> 目標は不明瞭な感覚として距離30フィートの鋭敏嗅覚を得る。</li></p><p><li> <b>山岳</b> 目標は“登攀”中に立ちすくみ状態にならず、砕石の上で“平衡感覚”のために行う〈軽業〉判定で成功をロールすると代わりに大成功を得る。</li></p><p><li> <b>平野</b> 目標は地上移動速度に＋10フィートの状態ボーナスを得る。</li></p><p><li> <b>地下</b> 目標は暗視を得る。</li></p>",
+      "description": "<p>　術者が周囲の地形からのエネルギーを目標に注ぎ込み、数百年はかかる進化を一瞬に圧縮させる。目標は周囲の地形に応じた以下の自然適応を1つ得る。</p><p><li> <b>水界</b> 目標は地上移動速度に等しい水泳速度を得る。すでに水泳速度を持つ場合、水泳速度に＋10フィートのステータスボーナスを得る。</li></p><p><li> <b>極地</b> 目標は酷寒と極寒の影響を受けなくなり、氷や雪の上で“平衡感覚”のために行う〈軽業〉判定で成功をロールすると代わりに大成功を得る。</li></p><p><li> <b>砂漠</b> 目標は酷暑と極暑の影響を受けなくなり、砂の上で“平衡感覚”のために行う〈軽業〉判定で成功をロールすると代わりに大成功を得る。</li></p><p><li> <b>森林</b> 目標は不明瞭な感覚として距離30フィートの鋭敏嗅覚を得る。</li></p><p><li> <b>山岳</b> 目標は“登攀”中に立ちすくみ状態にならず、砕石の上で“平衡感覚”のために行う〈軽業〉判定で成功をロールすると代わりに大成功を得る。</li></p><p><li> <b>平野</b> 目標は地上移動速度に＋10フィートのステータスボーナスを得る。</li></p><p><li> <b>地下</b> 目標は暗視を得る。</li></p>",
       "duration": "1時間",
       "range": "接触",
       "target": "術者の相棒1体もしくは幻獣1体",
@@ -6486,7 +6486,7 @@
     },
     "Read the Air": {
       "name": "リード・ジ・エア",
-      "description": "<p>　術者は深呼吸をしながら社会状況を調査し、直感が社会的背景や暗黙の行動の前提についてのヒントをすばやく見つけるように、術者の周りのすべての人に礼儀を示す。術者の振る舞いは無意識のうちに変化し、この情報を利用して、周囲のクリーチャーと術者自身の対話に使用する。</p><p>　この呪文の“呪文発動”の一部として、〈社会〉を用いて“知識の想起”を行い、直近の社会状況に関する情報を得る。加えて、この呪文を発動した時に存在していたクリーチャーに対して、次に術者が“懐柔する”ために行う〈交渉〉判定に＋1の状態ボーナスを得る。ただし、このボーナスはこの判定が呪文の持続時間中に行われた場合に飲み得られる。リード・ジ・エアことができるのは、特定の社会状況で1回だけである。もう一度この呪文を発動してもなんの効果もない。</p>",
+      "description": "<p>　術者は深呼吸をしながら社会状況を調査し、直感が社会的背景や暗黙の行動の前提についてのヒントをすばやく見つけるように、術者の周りのすべての人に礼儀を示す。術者の振る舞いは無意識のうちに変化し、この情報を利用して、周囲のクリーチャーと術者自身の対話に使用する。</p><p>　この呪文の“呪文発動”の一部として、〈社会〉を用いて“知識の想起”を行い、直近の社会状況に関する情報を得る。加えて、この呪文を発動した時に存在していたクリーチャーに対して、次に術者が“懐柔する”ために行う〈交渉〉判定に＋1のステータスボーナスを得る。ただし、このボーナスはこの判定が呪文の持続時間中に行われた場合に飲み得られる。リード・ジ・エアことができるのは、特定の社会状況で1回だけである。もう一度この呪文を発動してもなんの効果もない。</p>",
       "duration": "1分",
       "time": "2"
     },

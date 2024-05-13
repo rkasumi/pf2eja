@@ -2,7 +2,7 @@
 	"label": "Bestiary Ability Glossary",
 	"entries": {
 		"+1 Status to All Saves vs. Magic": {
-			"name": "魔法に対する全てのセーヴに＋1の状態ボーナス"
+			"name": "魔法に対する全てのセーヴに＋1のステータスボーナス"
 		},
 		"All-Around Vision": {
 			"name": "全周囲視覚"

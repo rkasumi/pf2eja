@@ -23,11 +23,11 @@ target_list = [
       "legacyName": "actions-legacy",
       "compendiumName": "pf2e.actionspf2e.json",
   },
-  { # 装備品
-      "path": "/home/yaginumad/userdata_pf/Data/systems/pf2e/packs/",
-      "legacyName": "equipment",
-      "compendiumName": "pf2e.equipment-srd.json",
-  },
+  #{ # 装備品
+  #    "path": "/home/yaginumad/userdata_pf/Data/systems/pf2e/packs/",
+  #    "legacyName": "equipment",
+  #    "compendiumName": "pf2e.equipment-srd.json",
+  #},
 ]
 
 trans_list = [
@@ -65,8 +65,32 @@ def merge_link(t, translate):
       if key in json_l:
           desc = json_l[key]['system']['description']['value']
           uniq = {}
+
           for m in re.finditer(r'(@UUID\[Compendium\.pf2e\..*?\]){(.*?)}', desc, re.MULTILINE):
               uniq[m.groups()[0]] = m.groups()[1]
+          for m in re.finditer(r'@Compendium\[(pf2e\..*?)\]{(.*?)}', desc, re.MULTILINE):
+              uniq['@UUID[Compendium.'+m.groups()[0]+']'] = m.groups()[1]
+
+          for m in re.finditer(r'@UUID\[Compendium\.pf2e-legacy-content\.conditions-legacy\.Item\.(.*?)\]{(.*?)}', desc, re.MULTILINE):
+              uuid = '@UUID[Compendium.pf2e.conditionitems.'+m.groups()[0]+']'
+              uniq[uuid] = m.groups()[1]
+          for m in re.finditer(r'@UUID\[Compendium\.pf2e-legacy-content\.actions-legacy\.Item\.(.*?)\]{(.*?)}', desc, re.MULTILINE):
+              uuid = '@UUID[Compendium.pf2e.actionspf2e.Item.'+m.groups()[0]+']'
+              uniq[uuid] = m.groups()[1]
+          for m in re.finditer(r'@UUID\[Compendium\.pf2e-legacy-content\.spell-effects-legacy\.Item\.(.*?)\]{(.*?)}', desc, re.MULTILINE):
+              uuid = '@UUID[Compendium.pf2e.spell-effects.Item.'+m.groups()[0]+']'
+              uniq[uuid] = m.groups()[1]
+          for m in re.finditer(r'@UUID\[Compendium\.pf2e-legacy-content\.equipment-legacy\.Item\.(.*?)\]{(.*?)}', desc, re.MULTILINE):
+              uuid = '@UUID[Compendium.pf2e.equipment-srd.Item.'+m.groups()[0]+']'
+              uniq[uuid] = m.groups()[1]
+          for m in re.finditer(r'@Compendium\[pf2e-legacy-content\.spell-effects-legacy\.(.*?)\]{(.*?)}', desc, re.MULTILINE):
+              uuid = '@UUID[Compendium.pf2e.spell-effects.Item.'+m.groups()[0]+']'
+              uniq[uuid] = m.groups()[1]
+          for m in re.finditer(r'@Compendium\[pf2e-legacy-content\.spells-legacy\.(.*?)\]{(.*?)}', desc, re.MULTILINE):
+              uuid = '@UUID[Compendium.pf2e.spells-srd.Item.'+m.groups()[0]+']'
+              uniq[uuid] = m.groups()[1]
+
+
           for u in uniq.keys():
               if 'description' not in json_c['entries'][key]:
                   continue
@@ -74,7 +98,7 @@ def merge_link(t, translate):
               if u not in json_c['entries'][key]['description']:
                   if uniq[u] in translate:
                       json_c['entries'][key]['description'] = \
-                        json_c['entries'][key]['description'].replace(translate[uniq[u]], u+"{"+translate[uniq[u]]+"}")
+                        json_c['entries'][key]['description'].replace(translate[uniq[u]], u+"{"+translate[uniq[u]]+"}", 1)
                   else:
                     json_c['entries'][key]['description'] += '<p>'+u+'</p>'
 

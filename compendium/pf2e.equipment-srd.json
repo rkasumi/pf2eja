@@ -87,7 +87,7 @@
     },
     "Frost Vial (Major)": {
       "name": "氷液（特級）",
-      "description": "<p><span class=\"action-glyph\">1</span> 打撃</p><hr><p>使用者は攻撃ロールに＋3のアイテム・ボーナスを得る。この錬金術爆弾は4d6の［氷雪］ダメージと4の［氷雪］飛散ダメージを与え、目標の次のターンの終了時まで、目標の移動速度に－15フィートの状態ペナルティを与える。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.4G9qnI0oRyL6eKFQ]</p>"
+      "description": "<p><span class=\"action-glyph\">1</span> 打撃</p><hr><p>使用者は攻撃ロールに＋3のアイテム・ボーナスを得る。この錬金術爆弾は4d6の［氷雪］ダメージと4の［氷雪］飛散ダメージを与え、目標の次のターンの終了時まで、目標の移動速度に－15フィートのステータスペナルティを与える。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.4G9qnI0oRyL6eKFQ]</p>"
     },
     "Sai": {
       "description": "<p>この刺突用のダガーには金属の棘の両側に一対の突起があって、敵の武器を捉えるために使用される。</p>\n",
@@ -176,7 +176,7 @@
       "description": "<p>大太鼓、チャイム一式、鍵盤楽器などの大型楽器は携帯性に劣り、一般に演奏中は静止している必要がある。GMは特に大きな手持ち式の楽器はより高いバルクを持つと判断してもよい。名器とされる楽器は、その楽器を使用した〈芸能〉判定に＋1のアイテム・ボーナスを与える。</p>\n"
     },
     "Frost Vial (Moderate)": {
-      "description": "<p><span class=\"action-glyph\">1</span> 打撃</p><hr><p>使用者は攻撃ロールに＋1のアイテム・ボーナスを得る。この錬金術爆弾は2d6の［氷雪］ダメージと2の［氷雪］飛散ダメージを与え、目標の次のターンの終了時まで、目標の移動速度に－10フィートの状態ペナルティを与える。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.dv0IKm5syOdP759w]</p>",
+      "description": "<p><span class=\"action-glyph\">1</span> 打撃</p><hr><p>使用者は攻撃ロールに＋1のアイテム・ボーナスを得る。この錬金術爆弾は2d6の［氷雪］ダメージと2の［氷雪］飛散ダメージを与え、目標の次のターンの終了時まで、目標の移動速度に－10フィートのステータスペナルティを与える。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.dv0IKm5syOdP759w]</p>",
       "name": "氷液（中級）"
     },
     "Bottled Lightning (Major)": {
@@ -536,7 +536,7 @@
       "name": "ウォーハンマー"
     },
     "Chalk": {
-      "name": "チョーク（10本）"
+      "name": "チョーク"
     },
     "Scholarly Journal": {
       "name": "学術書",
@@ -612,7 +612,7 @@
     },
     "Frost Vial (Greater)": {
       "name": "氷液（上級）",
-      "description": "<p><span class=\"action-glyph\">1</span> 打撃</p><hr><p>使用者は攻撃ロールに＋2のアイテム・ボーナスを得る。この錬金術爆弾は3d6の［氷雪］ダメージと3の［氷雪］飛散ダメージを与え、目標の次のターンの終了時まで、目標の移動速度に－10フィートの状態ペナルティを与える。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.nJRoiSyd67eQ1dYj]</p>"
+      "description": "<p><span class=\"action-glyph\">1</span> 打撃</p><hr><p>使用者は攻撃ロールに＋2のアイテム・ボーナスを得る。この錬金術爆弾は3d6の［氷雪］ダメージと3の［氷雪］飛散ダメージを与え、目標の次のターンの終了時まで、目標の移動速度に－10フィートのステータスペナルティを与える。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.nJRoiSyd67eQ1dYj]</p>"
     },
     "Alchemist's Fire (Greater)": {
       "description": "<p><span class=\"action-glyph\">1</span> 打撃</p><hr><p>使用者は攻撃ロールに＋2のアイテム・ボーナスを得る。この錬金術爆弾は3d8の［火炎］ダメージ、3の持続［火炎］ダメージ、1の［火炎］飛散ダメージを与える。</p>\n",
@@ -663,7 +663,7 @@
     },
     "Frost Vial (Lesser)": {
       "name": "氷液（下級）",
-      "description": "<p><span class=\"action-glyph\">1</span> 打撃</p><hr><p>この錬金術爆弾は1d6の［氷雪］ダメージと1の［氷雪］飛散ダメージを与え、目標の次のターンの終了時まで、目標の移動速度に－5フィートの状態ペナルティを与える。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.RLsdvhmTh64Mmty9]</p>"
+      "description": "<p><span class=\"action-glyph\">1</span> 打撃</p><hr><p>この錬金術爆弾は1d6の［氷雪］ダメージと1の［氷雪］飛散ダメージを与え、目標の次のターンの終了時まで、目標の移動速度に－5フィートのステータスペナルティを与える。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.RLsdvhmTh64Mmty9]</p>"
     },
     "Tack": {
       "description": "<p>馬具一式は騎乗用の動物に必要な装備一揃いであり、鞍、はみ、くつわや手綱、必要ならばあぶみといったものが含まれている。特に大きな動物や代わった形をした動物には、特別な鞍が必要になることがある。GMの判断により、これらはより高価であったり見つけるのが難しかったりする。記載されたバルクはクリーチャーが着用した馬具一式のものだ。運搬時、バルクは2増加する。</p>\n",
@@ -1011,35 +1011,35 @@
     },
     "Tanglefoot Bag (Lesser)": {
       "name": "足留め袋（下級）",
-      "description": "<p><span class=\"action-glyph\">1</span> 打撃</p><hr><p>この錬金術爆弾は1分の間目標の移動速度に－10フィートの状態ペナルティを与え、クリティカル・ヒットしたなら目標が“脱出”するまで動けない状態にする。(脱出難易度17)</p>\n"
+      "description": "<p><span class=\"action-glyph\">1</span> 打撃</p><hr><p>この錬金術爆弾は1分の間目標の移動速度に－10フィートのステータスペナルティを与え、クリティカル・ヒットしたなら目標が“脱出”するまで動けない状態にする。(脱出難易度17)</p>\n"
     },
     "Tanglefoot Bag (Moderate)": {
       "name": "足留め袋（中級）",
-      "description": "<p><span class=\"action-glyph\">1</span> 打撃</p><hr><p>使用者は攻撃ロールに+1のアイテム・ボーナスを受ける。この錬金術爆弾は1分の間目標の移動速度に－15フィートの状態ペナルティを与え、クリティカル・ヒットしたなら目標が“脱出”するまで動けない状態にする。(脱出難易度19)</p>\n"
+      "description": "<p><span class=\"action-glyph\">1</span> 打撃</p><hr><p>使用者は攻撃ロールに+1のアイテム・ボーナスを受ける。この錬金術爆弾は1分の間目標の移動速度に－15フィートのステータスペナルティを与え、クリティカル・ヒットしたなら目標が“脱出”するまで動けない状態にする。(脱出難易度19)</p>\n"
     },
     "Tanglefoot Bag (Greater)": {
       "name": "足留め袋（上級）",
-      "description": "<p><span class=\"action-glyph\">1</span> 打撃</p><hr><p><span class=\"action-glyph\">1</span> 打撃う</p><p>使用者は攻撃ロールに+2のアイテム・ボーナスを受ける。この錬金術爆弾は1分の間目標の移動速度に－15フィートの状態ペナルティを与え、クリティカル・ヒットしたなら目標が“脱出”するまで動けない状態にする。(脱出難易度28)</p>\n"
+      "description": "<p><span class=\"action-glyph\">1</span> 打撃</p><hr><p><span class=\"action-glyph\">1</span> 打撃う</p><p>使用者は攻撃ロールに+2のアイテム・ボーナスを受ける。この錬金術爆弾は1分の間目標の移動速度に－15フィートのステータスペナルティを与え、クリティカル・ヒットしたなら目標が“脱出”するまで動けない状態にする。(脱出難易度28)</p>\n"
     },
     "Tanglefoot Bag (Major)": {
       "name": "足留め袋（特級）",
-      "description": "<p><span class=\"action-glyph\">1</span> 打撃</p><hr><p>使用者は攻撃ロールに+3のアイテム・ボーナスを受ける。この錬金術爆弾は1分の間目標の移動速度に－20フィートの状態ペナルティを与え、クリティカル・ヒットしたなら目標が“脱出”するまで動けない状態にする。(脱出難易度37)</p>\n"
+      "description": "<p><span class=\"action-glyph\">1</span> 打撃</p><hr><p>使用者は攻撃ロールに+3のアイテム・ボーナスを受ける。この錬金術爆弾は1分の間目標の移動速度に－20フィートのステータスペナルティを与え、クリティカル・ヒットしたなら目標が“脱出”するまで動けない状態にする。(脱出難易度37)</p>\n"
     },
     "Glue Bomb (Lesser)": {
       "name": "足留め袋（下級）",
-      "description": "<p><span class=\"action-glyph\">1</span> 打撃</p><hr><p>この錬金術爆弾は1分の間目標の移動速度に－10フィートの状態ペナルティを与え、クリティカル・ヒットしたなら目標が“@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{脱出}”するまで@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{動けない状態}にする。(@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{脱出}難易度17)</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.fYZIanbYu0Vc4JEL]</p>"
+      "description": "<p><span class=\"action-glyph\">1</span> 打撃</p><hr><p>この錬金術爆弾は1分の間目標の移動速度に－10フィートのステータスペナルティを与え、クリティカル・ヒットしたなら目標が“@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{脱出}”するまで@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{動けない状態}にする。(@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{脱出}難易度17)</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.fYZIanbYu0Vc4JEL]</p>"
     },
     "Glue Bomb (Moderate)": {
       "name": "足留め袋（中級）",
-      "description": "<p><span class=\"action-glyph\">1</span> 打撃</p><hr><p>使用者は攻撃ロールに+1のアイテム・ボーナスを受ける。この錬金術爆弾は1分の間目標の移動速度に－15フィートの状態ペナルティを与え、クリティカル・ヒットしたなら目標が“@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{脱出}”するまで@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{動けない状態}にする。(@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{脱出}難易度19)</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.MEreOgnjoRiXPEuq]</p>"
+      "description": "<p><span class=\"action-glyph\">1</span> 打撃</p><hr><p>使用者は攻撃ロールに+1のアイテム・ボーナスを受ける。この錬金術爆弾は1分の間目標の移動速度に－15フィートのステータスペナルティを与え、クリティカル・ヒットしたなら目標が“@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{脱出}”するまで@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{動けない状態}にする。(@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{脱出}難易度19)</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.MEreOgnjoRiXPEuq]</p>"
     },
     "Glue Bomb (Greater)": {
       "name": "足留め袋（上級）",
-      "description": "<p><span class=\"action-glyph\">1</span> 打撃</p><hr><p><span class=\"action-glyph\">1</span> 打撃う</p><p>使用者は攻撃ロールに+2のアイテム・ボーナスを受ける。この錬金術爆弾は1分の間目標の移動速度に－15フィートの状態ペナルティを与え、クリティカル・ヒットしたなら目標が“@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{脱出}”するまで@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{動けない状態}にする。(@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{脱出}難易度28)</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.csA4UAD2tQq7RjT8]</p>"
+      "description": "<p><span class=\"action-glyph\">1</span> 打撃</p><hr><p><span class=\"action-glyph\">1</span> 打撃う</p><p>使用者は攻撃ロールに+2のアイテム・ボーナスを受ける。この錬金術爆弾は1分の間目標の移動速度に－15フィートのステータスペナルティを与え、クリティカル・ヒットしたなら目標が“@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{脱出}”するまで@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{動けない状態}にする。(@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{脱出}難易度28)</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.csA4UAD2tQq7RjT8]</p>"
     },
     "Glue Bomb (Major)": {
       "name": "足留め袋（特級）",
-      "description": "<p><span class=\"action-glyph\">1</span> 打撃</p><hr><p>使用者は攻撃ロールに+3のアイテム・ボーナスを受ける。この錬金術爆弾は1分の間目標の移動速度に－20フィートの状態ペナルティを与え、クリティカル・ヒットしたなら目標が“@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{脱出}”するまで@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{動けない状態}にする。(@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{脱出}難易度37)</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.ITAFsW3dQPupJ3DW]</p>"
+      "description": "<p><span class=\"action-glyph\">1</span> 打撃</p><hr><p>使用者は攻撃ロールに+3のアイテム・ボーナスを受ける。この錬金術爆弾は1分の間目標の移動速度に－20フィートのステータスペナルティを与え、クリティカル・ヒットしたなら目標が“@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{脱出}”するまで@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{動けない状態}にする。(@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{脱出}難易度37)</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.ITAFsW3dQPupJ3DW]</p>"
     },
     "Material Component Pouch": {
       "description": "<p>このポーチには呪文に必要な物質要素が入っている。時間が経過すると使い切ってしまうが、消費した構成要素は日毎の準備で補充できる。</p>\n",
@@ -1293,30 +1293,30 @@
     },
     "Quicksilver Mutagen (Lesser)": {
       "name": "水銀の変異薬 (下級)",
-      "description": "<p><span class=\"action-glyph\">1</span> 扱う</p><hr>使用者の姿はやせ細る。その反面、体はもろくなる。</p><p><b>利益</b> 使用者は〈運動〉判定、〈隠密〉判定、〈盗賊〉判定、反応セーヴ、【敏捷力】に基づく攻撃ロールにアイテム・ボーナスを得るとともに、移動速度に記載された状態ボーナスを得る。</p><p><b>不利益</b> 使用者は自身のレベルの2倍に等しいダメージを受ける。使用者はこの変異薬の効果が持続している間、いかなる方法でもこの形で失われたHPを回復できない。使用者は頑健セーヴに－2のペナルティを受ける。</p><p>ロールへのボーナスは＋1、移動速度へのボーナスは＋5フィート、持続時間は1分。</p><p>@UUID[Compendium.pf2e.equipment-effects.Item.6PNLBIdlqqWNCFMy]</p>"
+      "description": "<p><span class=\"action-glyph\">1</span> 扱う</p><hr>使用者の姿はやせ細る。その反面、体はもろくなる。</p><p><b>利益</b> 使用者は〈運動〉判定、〈隠密〉判定、〈盗賊〉判定、反応セーヴ、【敏捷力】に基づく攻撃ロールにアイテム・ボーナスを得るとともに、移動速度に記載されたステータスボーナスを得る。</p><p><b>不利益</b> 使用者は自身のレベルの2倍に等しいダメージを受ける。使用者はこの変異薬の効果が持続している間、いかなる方法でもこの形で失われたHPを回復できない。使用者は頑健セーヴに－2のペナルティを受ける。</p><p>ロールへのボーナスは＋1、移動速度へのボーナスは＋5フィート、持続時間は1分。</p><p>@UUID[Compendium.pf2e.equipment-effects.Item.6PNLBIdlqqWNCFMy]</p>"
     },
     "Quicksilver Mutagen (Moderate)": {
       "name": "水銀の変異薬 (中級)",
-      "description": "<p><span class=\"action-glyph\">1</span> 扱う</p><hr>使用者の姿はやせ細る。その反面、体はもろくなる。</p><p><b>利益</b> 使用者は〈運動〉判定、〈隠密〉判定、〈盗賊〉判定、反応セーヴ、【敏捷力】に基づく攻撃ロールにアイテム・ボーナスを得るとともに、移動速度に記載された状態ボーナスを得る。</p><p><b>不利益</b> 使用者は自身のレベルの2倍に等しいダメージを受ける。使用者はこの変異薬の効果が持続している間、いかなる方法でもこの形で失われたHPを回復できない。使用者は頑健セーヴに－2のペナルティを受ける。</p><p>ロールへのボーナスは＋2、移動速度へのボーナスは＋10フィート、持続時間は10分。</p><p>@UUID[Compendium.pf2e.equipment-effects.Item.VPtsrpbP0AE642al]</p>"
+      "description": "<p><span class=\"action-glyph\">1</span> 扱う</p><hr>使用者の姿はやせ細る。その反面、体はもろくなる。</p><p><b>利益</b> 使用者は〈運動〉判定、〈隠密〉判定、〈盗賊〉判定、反応セーヴ、【敏捷力】に基づく攻撃ロールにアイテム・ボーナスを得るとともに、移動速度に記載されたステータスボーナスを得る。</p><p><b>不利益</b> 使用者は自身のレベルの2倍に等しいダメージを受ける。使用者はこの変異薬の効果が持続している間、いかなる方法でもこの形で失われたHPを回復できない。使用者は頑健セーヴに－2のペナルティを受ける。</p><p>ロールへのボーナスは＋2、移動速度へのボーナスは＋10フィート、持続時間は10分。</p><p>@UUID[Compendium.pf2e.equipment-effects.Item.VPtsrpbP0AE642al]</p>"
     },
     "Quicksilver Mutagen (Greater)": {
       "name": "水銀の変異薬 (上級)",
-      "description": "<p><span class=\"action-glyph\">1</span> 扱う</p><hr>使用者の姿はやせ細る。その反面、体はもろくなる。</p><p><b>利益</b> 使用者は〈運動〉判定、〈隠密〉判定、〈盗賊〉判定、反応セーヴ、【敏捷力】に基づく攻撃ロールにアイテム・ボーナスを得るとともに、移動速度に記載された状態ボーナスを得る。</p><p><b>不利益</b> 使用者は自身のレベルの2倍に等しいダメージを受ける。使用者はこの変異薬の効果が持続している間、いかなる方法でもこの形で失われたHPを回復できない。使用者は頑健セーヴに－2のペナルティを受ける。</p><p>ロールへのボーナスは＋3、移動速度へのボーナスは＋15フィート、持続時間は1時間。</p><p>@UUID[Compendium.pf2e.equipment-effects.Item.2Bds6d4UGQZqYSZM]</p>"
+      "description": "<p><span class=\"action-glyph\">1</span> 扱う</p><hr>使用者の姿はやせ細る。その反面、体はもろくなる。</p><p><b>利益</b> 使用者は〈運動〉判定、〈隠密〉判定、〈盗賊〉判定、反応セーヴ、【敏捷力】に基づく攻撃ロールにアイテム・ボーナスを得るとともに、移動速度に記載されたステータスボーナスを得る。</p><p><b>不利益</b> 使用者は自身のレベルの2倍に等しいダメージを受ける。使用者はこの変異薬の効果が持続している間、いかなる方法でもこの形で失われたHPを回復できない。使用者は頑健セーヴに－2のペナルティを受ける。</p><p>ロールへのボーナスは＋3、移動速度へのボーナスは＋15フィート、持続時間は1時間。</p><p>@UUID[Compendium.pf2e.equipment-effects.Item.2Bds6d4UGQZqYSZM]</p>"
     },
     "Quicksilver Mutagen (Major)": {
       "name": "水銀の変異薬 (特級)",
-      "description": "<p><span class=\"action-glyph\">1</span> 扱う</p><hr>使用者の姿はやせ細る。その反面、体はもろくなる。</p><p><b>利益</b> 使用者は〈運動〉判定、〈隠密〉判定、〈盗賊〉判定、反応セーヴ、【敏捷力】に基づく攻撃ロールにアイテム・ボーナスを得るとともに、移動速度に記載された状態ボーナスを得る。</p><p><b>不利益</b> 使用者は自身のレベルの2倍に等しいダメージを受ける。使用者はこの変異薬の効果が持続している間、いかなる方法でもこの形で失われたHPを回復できない。使用者は頑健セーヴに－2のペナルティを受ける。</p><p>ロールへのボーナスは＋4、移動速度へのボーナスは＋20フィート、持続時間は1時間。</p><p>@UUID[Compendium.pf2e.equipment-effects.Item.988f6NpOo4YzFzIr]</p>"
+      "description": "<p><span class=\"action-glyph\">1</span> 扱う</p><hr>使用者の姿はやせ細る。その反面、体はもろくなる。</p><p><b>利益</b> 使用者は〈運動〉判定、〈隠密〉判定、〈盗賊〉判定、反応セーヴ、【敏捷力】に基づく攻撃ロールにアイテム・ボーナスを得るとともに、移動速度に記載されたステータスボーナスを得る。</p><p><b>不利益</b> 使用者は自身のレベルの2倍に等しいダメージを受ける。使用者はこの変異薬の効果が持続している間、いかなる方法でもこの形で失われたHPを回復できない。使用者は頑健セーヴに－2のペナルティを受ける。</p><p>ロールへのボーナスは＋4、移動速度へのボーナスは＋20フィート、持続時間は1時間。</p><p>@UUID[Compendium.pf2e.equipment-effects.Item.988f6NpOo4YzFzIr]</p>"
     },
     "Serene Mutagen (Lesser)": {
-      "name": "水銀の変異薬 (下級)",
+      "name": "静穏の変異薬 (下級)",
       "description": "<p><span class=\"action-glyph\">1</span> 扱う</p><hr>使用者は内なる平穏を手に入れ、細部にまで集中し、精神的な攻撃から身を守ることができる。しかし暴力を不快に感じることがある。</p><p><b>利益</b> 使用者は意志セーヴ、知覚、〈医術〉、〈自然〉、〈宗教〉、〈生存〉判定にアイテム・ボーナスを得る。このボーナスは精神効果に対する意志セーヴを試みる際に増加する。</p><p><b>不利益</b> 使用者は攻撃ロールと攻撃的な呪文のセーヴDCに－1のペナルティと、すべての武器、素手攻撃、呪文のダメージに、ダメージ・ダイス毎に－1のペナルティを受ける。</p><p>ボーナスは＋1、精神に対するボーナスは＋2、持続時間は1分。</p><p>@UUID[Compendium.pf2e.equipment-effects.Item.5xgapIXn5DwbXHKh]</p>"
     },
     "Serene Mutagen (Moderate)": {
-      "name": "水銀の変異薬 (中級)",
+      "name": "静穏の変異薬 (中級)",
       "description": "<p><span class=\"action-glyph\">1</span> 扱う</p><hr>使用者は内なる平穏を手に入れ、細部にまで集中し、精神的な攻撃から身を守ることができる。しかし暴力を不快に感じることがある。</p><p><b>利益</b> 使用者は意志セーヴ、知覚、〈医術〉、〈自然〉、〈宗教〉、〈生存〉判定にアイテム・ボーナスを得る。このボーナスは精神効果に対する意志セーヴを試みる際に増加する。</p><p><b>不利益</b> 使用者は攻撃ロールと攻撃的な呪文のセーヴDCに－1のペナルティと、すべての武器、素手攻撃、呪文のダメージに、ダメージ・ダイス毎に－1のペナルティを受ける。</p><p>ボーナスは＋2、精神に対するボーナスは＋3、持続時間は10分。</p><p>@UUID[Compendium.pf2e.equipment-effects.Item.yrbz0rZzp8aZEqbv]</p>"
     },
     "Serene Mutagen (Greater)": {
-      "name": "水銀の変異薬 (上級)",
+      "name": "静穏の変異薬 (上級)",
       "description": "<p><span class=\"action-glyph\">1</span> 扱う</p><hr>使用者は内なる平穏を手に入れ、細部にまで集中し、精神的な攻撃から身を守ることができる。しかし暴力を不快に感じることがある。</p><p><b>利益</b> 使用者は意志セーヴ、知覚、〈医術〉、〈自然〉、〈宗教〉、〈生存〉判定にアイテム・ボーナスを得る。このボーナスは精神効果に対する意志セーヴを試みる際に増加する。</p><p><b>不利益</b> 使用者は攻撃ロールと攻撃的な呪文のセーヴDCに－1のペナルティと、すべての武器、素手攻撃、呪文のダメージに、ダメージ・ダイス毎に－1のペナルティを受ける。</p><p>ボーナスは＋3、精神に対するボーナスは＋4、持続時間は1時間。精神効果に対する意志セーヴに成功をロールしたなら、代わりに大成功となる。</p><p>@UUID[Compendium.pf2e.equipment-effects.Item.jw6Tr9FbErjLAFLQ]</p>"
     },
     "Serene Mutagen (Major)": {
@@ -1381,15 +1381,15 @@
     },
     "Cheetah's Elixir (Lesser)": {
       "name": "チーターの霊薬 (下級)",
-      "description": "<p><b>起動</b> <span class=\"action-glyph\">1</span> “扱う”</p><p>　この霊薬に含まれる酵素は脚の筋肉を強化し、興奮させる。記載されている持続時間の間、使用者は移動速度に状態ボーナスを得る。</p><p>　ボーナスは＋5フィートで、持続時間は1分。</p><p>@UUID[Compendium.pf2e.equipment-effects.Item.lNWACCNe9RYgaFxb]</p>"
+      "description": "<p><b>起動</b> <span class=\"action-glyph\">1</span> “扱う”</p><p>　この霊薬に含まれる酵素は脚の筋肉を強化し、興奮させる。記載されている持続時間の間、使用者は移動速度にステータスボーナスを得る。</p><p>　ボーナスは＋5フィートで、持続時間は1分。</p><p>@UUID[Compendium.pf2e.equipment-effects.Item.lNWACCNe9RYgaFxb]</p>"
     },
     "Cheetah's Elixir (Moderate)": {
       "name": "チーターの霊薬 (中級)",
-      "description": "<p><b>起動</b> <span class=\"action-glyph\">1</span> “扱う”</p><p>　この霊薬に含まれる酵素は脚の筋肉を強化し、興奮させる。記載されている持続時間の間、使用者は移動速度に状態ボーナスを得る。</p><p>　ボーナスは＋10フィートで、持続時間は10分。</p><p>@UUID[Compendium.pf2e.equipment-effects.Item.j9zVZwRBVAcnpEkE]</p>"
+      "description": "<p><b>起動</b> <span class=\"action-glyph\">1</span> “扱う”</p><p>　この霊薬に含まれる酵素は脚の筋肉を強化し、興奮させる。記載されている持続時間の間、使用者は移動速度にステータスボーナスを得る。</p><p>　ボーナスは＋10フィートで、持続時間は10分。</p><p>@UUID[Compendium.pf2e.equipment-effects.Item.j9zVZwRBVAcnpEkE]</p>"
     },
     "Cheetah's Elixir (Greater)": {
       "name": "チーターの霊薬 (上級)",
-      "description": "<p><b>起動</b> <span class=\"action-glyph\">1</span> “扱う”</p><p>　この霊薬に含まれる酵素は脚の筋肉を強化し、興奮させる。記載されている持続時間の間、使用者は移動速度に状態ボーナスを得る。</p><p>　ボーナスは＋10フィートで、持続時間は1時間。</p><p>@UUID[Compendium.pf2e.equipment-effects.Item.PeuUz7JaabCgl6Yh]</p>"
+      "description": "<p><b>起動</b> <span class=\"action-glyph\">1</span> “扱う”</p><p>　この霊薬に含まれる酵素は脚の筋肉を強化し、興奮させる。記載されている持続時間の間、使用者は移動速度にステータスボーナスを得る。</p><p>　ボーナスは＋10フィートで、持続時間は1時間。</p><p>@UUID[Compendium.pf2e.equipment-effects.Item.PeuUz7JaabCgl6Yh]</p>"
     },
     "Leaper's Elixir (Lesser)": {
       "name": "跳躍の霊薬 (下級)",
@@ -1613,7 +1613,7 @@
     },
     "Malyass Root Paste": {
       "name": "マリスの根のペースト",
-      "description": "<p><b>起動</b> <span class=\"action-glyph\">3</span> “扱う”</p><p>　マリスの根のペーストは、密偵活動や追跡のほか、運動競技の相手の足止めに使われることもある。</p><p><b>セーヴィング・スロー</b> DC 26 頑健；<b>潜伏期間</b> 1分；<b>最大持続時間</b> 6分；<b>第1段階</b> よたつき状態1に加えて全ての移動速度に対して－10フィートの状態ペナルティ（1分）；<b>第2段階</b> よたつき状態2に加えて全ての移動速度に対して－20フィートの状態ペナルティ（1分）；<b>第3段階</b> @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{よたつき状態3}、@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{立ちすくみ状態}、全ての移動速度に対して－30フィートの状態ペナルティ。</p>"
+      "description": "<p><b>起動</b> <span class=\"action-glyph\">3</span> “扱う”</p><p>　マリスの根のペーストは、密偵活動や追跡のほか、運動競技の相手の足止めに使われることもある。</p><p><b>セーヴィング・スロー</b> DC 26 頑健；<b>潜伏期間</b> 1分；<b>最大持続時間</b> 6分；<b>第1段階</b> よたつき状態1に加えて全ての移動速度に対して－10フィートのステータスペナルティ（1分）；<b>第2段階</b> よたつき状態2に加えて全ての移動速度に対して－20フィートのステータスペナルティ（1分）；<b>第3段階</b> @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{よたつき状態3}、@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{立ちすくみ状態}、全ての移動速度に対して－30フィートのステータスペナルティ。</p>"
     },
     "Lich Dust": {
       "name": "リッチ・ダスト",
@@ -1789,7 +1789,7 @@
     },
     "Leadenleg": {
       "name": "鉛脚",
-      "description": "<p><b>起動</b> <span class=\"action-glyph\">2</span> “扱う”</p><p>　注射されると、この合成毒素は四肢に沈み込み、麻痺に近い感覚で体を鈍くする。</p><p>　<b>セーヴィング・スロー</b> DC 20頑健；<b>最大持続時間</b> 6ラウンド；<b>第1段階</b> 1d10［毒］ダメージおよび全ての移動速度に－5フィートの状態ペナルティ（1ラウンド）；<b>第2段階</b> 2d6［毒］ダメージおよび全ての移動速度に－10フィートの状態ペナルティ（1ラウンド）；<b>第3段階</b> 2d6［毒］ダメージおよび全ての移動速度に－20フィートの状態ペナルティ（1ラウンド） </p><p>@Damage[1d10[poison]]</p><p>@Damage[2d6[poison]]</p>"
+      "description": "<p><b>起動</b> <span class=\"action-glyph\">2</span> “扱う”</p><p>　注射されると、この合成毒素は四肢に沈み込み、麻痺に近い感覚で体を鈍くする。</p><p>　<b>セーヴィング・スロー</b> DC 20頑健；<b>最大持続時間</b> 6ラウンド；<b>第1段階</b> 1d10［毒］ダメージおよび全ての移動速度に－5フィートのステータスペナルティ（1ラウンド）；<b>第2段階</b> 2d6［毒］ダメージおよび全ての移動速度に－10フィートのステータスペナルティ（1ラウンド）；<b>第3段階</b> 2d6［毒］ダメージおよび全ての移動速度に－20フィートのステータスペナルティ（1ラウンド） </p><p>@Damage[1d10[poison]]</p><p>@Damage[2d6[poison]]</p>"
     },
     "Cerulean Scourge": {
       "name": "濃青の天災",
@@ -1881,11 +1881,11 @@
     },
     "Breastplate of Command": {
       "name": "ブレストプレート・オヴ・コマンド",
-      "description": "<p>　この＋1リジリアント・ブレストプレートは輝く青銅に、獅子の頭をかたどった金色の補強板を重ねたものだ。このブレストプレートを着用すると、着用者に威厳のあるオーラを与える。着用者は〈交渉〉判定に＋2のアイテム・ボーナスを得るが、“@UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{隠れ身}”と“@UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{忍び歩き}”における〈隠密〉判定と、“@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{なりすます}”における〈ペテン〉判定に－2のアイテム・ペナルティを受ける。</p><p><b>起動</b> <span class=\"action-glyph\">1</span> 合言葉；<b>頻度</b> 1日1回；<b>効果</b> 着用者は100フィート以内にいる味方全てに、1分の間、恐怖効果に対するセーヴに＋2の状態ボーナスを与える。この能力を起動すると、効果を受けた味方が恐れ状態であったなら、恐れ状態値を1だけ減少させる。</p><p>@UUID[Compendium.pf2e.equipment-effects.Item.G0lG7IIZnCZtYi6v]</p>"
+      "description": "<p>　この＋1リジリアント・ブレストプレートは輝く青銅に、獅子の頭をかたどった金色の補強板を重ねたものだ。このブレストプレートを着用すると、着用者に威厳のあるオーラを与える。着用者は〈交渉〉判定に＋2のアイテム・ボーナスを得るが、“@UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{隠れ身}”と“@UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{忍び歩き}”における〈隠密〉判定と、“@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{なりすます}”における〈ペテン〉判定に－2のアイテム・ペナルティを受ける。</p><p><b>起動</b> <span class=\"action-glyph\">1</span> 合言葉；<b>頻度</b> 1日1回；<b>効果</b> 着用者は100フィート以内にいる味方全てに、1分の間、恐怖効果に対するセーヴに＋2のステータスボーナスを与える。この能力を起動すると、効果を受けた味方が恐れ状態であったなら、恐れ状態値を1だけ減少させる。</p><p>@UUID[Compendium.pf2e.equipment-effects.Item.G0lG7IIZnCZtYi6v]</p>"
     },
     "Breastplate of Command (Greater)": {
       "name": "ブレストプレート・オヴ・コマンド (上級)",
-      "description": "<p>　この＋2リジリアント・ブレストプレートは輝く青銅に、獅子の頭をかたどった金色の補強板を重ねたものだ。このブレストプレートを着用すると、着用者に威厳のあるオーラを与える。着用者は〈交渉〉判定に＋3のアイテム・ボーナスを得るが、“@UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{隠れ身}”と“@UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{忍び歩き}”における〈隠密〉判定と、“@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{なりすます}”における〈ペテン〉判定に－3のアイテム・ペナルティを受ける。</p><p><b>起動</b> <span class=\"action-glyph\">1</span> 合言葉；<b>頻度</b> 1日1回；<b>効果</b> 着用者は100フィート以内にいる味方全てに、1分の間、恐怖効果に対するセーヴに＋2の状態ボーナスを与える。この能力を起動すると、効果を受けた味方が恐れ状態であったなら、恐れ状態値を1だけ減少させる。</p><p>@UUID[Compendium.pf2e.equipment-effects.Item.G0lG7IIZnCZtYi6v]</p>"
+      "description": "<p>　この＋2リジリアント・ブレストプレートは輝く青銅に、獅子の頭をかたどった金色の補強板を重ねたものだ。このブレストプレートを着用すると、着用者に威厳のあるオーラを与える。着用者は〈交渉〉判定に＋3のアイテム・ボーナスを得るが、“@UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{隠れ身}”と“@UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{忍び歩き}”における〈隠密〉判定と、“@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{なりすます}”における〈ペテン〉判定に－3のアイテム・ペナルティを受ける。</p><p><b>起動</b> <span class=\"action-glyph\">1</span> 合言葉；<b>頻度</b> 1日1回；<b>効果</b> 着用者は100フィート以内にいる味方全てに、1分の間、恐怖効果に対するセーヴに＋2のステータスボーナスを与える。この能力を起動すると、効果を受けた味方が恐れ状態であったなら、恐れ状態値を1だけ減少させる。</p><p>@UUID[Compendium.pf2e.equipment-effects.Item.G0lG7IIZnCZtYi6v]</p>"
     },
     "Moonlit Chain": {
       "name": "ムーンリット・チェイン",
@@ -2385,7 +2385,7 @@
     },
     "Iron Medallion": {
       "name": "アイアン・メダリオン",
-      "description": "<p><b>起動</b> <span class=\"action-glyph\">F</span> 想起；<b>トリガー</b> 恐怖効果に対する意志セーヴを試みるが、まだロールしていない；<b>使用条件</b> 意志セーヴに達人の習熟を有しているか、武勇クラス特徴を有していること。</p><p>　この小さなメダルは盾のような形をしている。</p><p>　起動すると1分の間、使用者は恐怖に対するセーヴに＋2の状態ボーナスを得る。トリガーとなったセーヴにおいて、ロールの結果が失敗した場合は成功に、大失敗の場合は失敗になる。</p><p>@UUID[Compendium.pf2e.equipment-effects.Item.xV9rME2l1f10mnF9]</p>"
+      "description": "<p><b>起動</b> <span class=\"action-glyph\">F</span> 想起；<b>トリガー</b> 恐怖効果に対する意志セーヴを試みるが、まだロールしていない；<b>使用条件</b> 意志セーヴに達人の習熟を有しているか、武勇クラス特徴を有していること。</p><p>　この小さなメダルは盾のような形をしている。</p><p>　起動すると1分の間、使用者は恐怖に対するセーヴに＋2のステータスボーナスを得る。トリガーとなったセーヴにおいて、ロールの結果が失敗した場合は成功に、大失敗の場合は失敗になる。</p><p>@UUID[Compendium.pf2e.equipment-effects.Item.xV9rME2l1f10mnF9]</p>"
     },
     "Eye of Apprehension": {
       "name": "アイ・オヴ・アプリヘンション",
@@ -2521,7 +2521,7 @@
     },
     "Bronze Bull Pendant": {
       "name": "ブロンズ・ブル・ペンダント",
-      "description": "<p><b>起動</b> <span class=\"action-glyph\">F</span> 想起；<b>トリガー</b> 使用者が“@UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{突き飛ばし}”のために〈運動〉を試みるが、まだロールしていない；<b>使用条件</b> 〈運動〉の修得であること。</p><p>　粒状の鋼鉄から鍛造されたこのペンダントには、鼻息荒い牛の顔が描かれている。胸部か肩当てに装着する必要がある。このペンダントを起動すると、“@UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{突き飛ばし}”の〈運動〉判定に＋2の状態ボーナスが得られ、判定で大失敗をした場合、代わりに失敗を得る。</p><p>@UUID[Compendium.pf2e.equipment-effects.Item.Cxa7MdgMCUoMqbKm]</p>"
+      "description": "<p><b>起動</b> <span class=\"action-glyph\">F</span> 想起；<b>トリガー</b> 使用者が“@UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{突き飛ばし}”のために〈運動〉を試みるが、まだロールしていない；<b>使用条件</b> 〈運動〉の修得であること。</p><p>　粒状の鋼鉄から鍛造されたこのペンダントには、鼻息荒い牛の顔が描かれている。胸部か肩当てに装着する必要がある。このペンダントを起動すると、“@UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{突き飛ばし}”の〈運動〉判定に＋2のステータスボーナスが得られ、判定で大失敗をした場合、代わりに失敗を得る。</p><p>@UUID[Compendium.pf2e.equipment-effects.Item.Cxa7MdgMCUoMqbKm]</p>"
     },
     "Potency Crystal": {
       "name": "ポテンシィ・クリスタル",
@@ -2561,7 +2561,7 @@
     },
     "Candle of Truth": {
       "name": "キャンドル・オヴ・トゥルース",
-      "description": "<p><b>起動</b> <span class=\"action-glyph\">1</span> “扱う”</p><p>　この先の細いろうそくは、黄金の芯を持ち、白い炎で燃える。</p><p>　このろうそくを点灯させると、ろうそくから10フィート以内にいるクリーチャーは嘘をつくのが難しくなる。</p><p>　その範囲にいるクリーチャーは“騙す”に対して－4の状態ペナルティを受ける。</p><p>　さらに、最初にそのエリアに入ったとき、各クリーチャー（使用者を含む）はDC26の意志セーヴを行わねばならず、失敗するとこの火のついたろうそくから10フィート以内にいる間、意図的に嘘をつくことができなくなる。この効果はろうそくに火がついている限り続く。一度火をつけると、ろうそくは10分間燃え続け、消すことはできない。</p><p>@Check[type:will|dc:26]</p>"
+      "description": "<p><b>起動</b> <span class=\"action-glyph\">1</span> “扱う”</p><p>　この先の細いろうそくは、黄金の芯を持ち、白い炎で燃える。</p><p>　このろうそくを点灯させると、ろうそくから10フィート以内にいるクリーチャーは嘘をつくのが難しくなる。</p><p>　その範囲にいるクリーチャーは“騙す”に対して－4のステータスペナルティを受ける。</p><p>　さらに、最初にそのエリアに入ったとき、各クリーチャー（使用者を含む）はDC26の意志セーヴを行わねばならず、失敗するとこの火のついたろうそくから10フィート以内にいる間、意図的に嘘をつくことができなくなる。この効果はろうそくに火がついている限り続く。一度火をつけると、ろうそくは10分間燃え続け、消すことはできない。</p><p>@Check[type:will|dc:26]</p>"
     },
     "Javelin of Lightning": {
       "name": "ジャヴェリン・オヴ・ライトニング",
@@ -2616,15 +2616,15 @@
       "description": "<p><b>起動</b> <span class=\"action-glyph\">1</span> “ 扱う” </p><p>フェザー・トークンはそれぞれ、どこか異国風の鳥の羽のように見える。羽の軸は金色に輝いており、難解なルーンが1つ描かれている。フェザー・トークンを起動すると別のものに変身し、そのものを通常通り使用することができるようになる。各羽根は一度だけ起動することができ、ほとんどの羽は永久にその説明にあるアイテムになる。</p><hr><p>この羽根を起動すると、すぐに生きたヒイラギの茂みに変身し、1マスを埋め尽くす。この茂みは標準の遮蔽を提供する。さらに、この茂みには真っ赤な実が2d4個なっている。</p><p>ヒイラギの実には通常毒があるが、この実には有益な魔法が込められている。“扱う”アクションで実を摘んで食べることができ、そうするならHPを1回復する。茂みから摘み取ると、数秒後に非魔法的なものになるので、“扱う”アクションの間に食べなければHPは回復しない。</p><p>土の上で発動すると、植物は成長し続ける（ただし、回復する実はもうならない）。他の場所で発動した場合、1d4日以内に枯れて死んでしまう。</p><hr><p><p><b>起動</b> <span class=\"action-glyph\">1</span> アイテムレベルを2上げて価格を2倍にし、通常の発動条件を遠隔武器の打撃に置き換えて、その武器の射程範囲内のスペースに出現させることができる。</p><p>[[/r 1d4 #days]]</p>"
     },
     "Feather Token (Ladder)": {
-      "name": "フェザー・トークン (筏)",
+      "name": "フェザー・トークン (はしご)",
       "description": "<p><b>起動</b> <span class=\"action-glyph\">1</span> “ 扱う” </p><p>フェザー・トークンはそれぞれ、どこか異国風の鳥の羽のように見える。羽の軸は金色に輝いており、難解なルーンが1つ描かれている。フェザー・トークンを起動すると別のものに変身し、そのものを通常通り使用することができるようになる。各羽根は一度だけ起動することができ、ほとんどの羽は永久にその説明にあるアイテムになる。</p><hr><p>起動すると、この羽根は永続的に20フィートの木製のはしごに変化する。</p>"
     },
     "Marvelous Miniature (Ladder)": {
-      "name": "フェザー・トークン (筏)",
+      "name": "フェザー・トークン (はしご)",
       "description": "<p><b>起動</b> <span class=\"action-glyph\">1</span> “ 扱う” </p><p>フェザー・トークンはそれぞれ、どこか異国風の鳥の羽のように見える。羽の軸は金色に輝いており、難解なルーンが1つ描かれている。フェザー・トークンを起動すると別のものに変身し、そのものを通常通り使用することができるようになる。各羽根は一度だけ起動することができ、ほとんどの羽は永久にその説明にあるアイテムになる。</p><hr><p>起動すると、この羽根は永続的に20フィートの木製のはしごに変化する。</p>"
     },
     "Feather Token (Ladder) (Ammunition)": {
-      "name": "フェザー・トークン (筏) (矢弾)",
+      "name": "フェザー・トークン (はしご) (矢弾)",
       "description": "<p><b>起動</b> <span class=\"action-glyph\">1</span> “ 扱う” </p><p>フェザー・トークンはそれぞれ、どこか異国風の鳥の羽のように見える。羽の軸は金色に輝いており、難解なルーンが1つ描かれている。フェザー・トークンを起動すると別のものに変身し、そのものを通常通り使用することができるようになる。各羽根は一度だけ起動することができ、ほとんどの羽は永久にその説明にあるアイテムになる。</p><hr><p>起動すると、この羽根は永続的に20フィートの木製のはしごに変化する。</p><hr><p><p><b>起動</b> <span class=\"action-glyph\">1</span> アイテムレベルを2上げて価格を2倍にし、通常の発動条件を遠隔武器の打撃に置き換えて、その武器の射程範囲内のスペースに出現させることができる。</p>"
     },
     "Feather Token (Swan Boat)": {
@@ -2685,11 +2685,11 @@
     },
     "Potion of Expeditious Retreat": {
       "name": "ポーション・オヴ・エクスペディシャス・リトリート",
-      "description": "<p><b>起動</b> <span class=\"action-glyph\">1</span> “扱う”</p><p>　ポーション・オヴ・エクスペディシャス・リトリートの封は、ひどい状況でも簡単に開くように作られている。このポーションを飲むと1分間@UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{逃亡状態}になり、使用者が@UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{逃亡状態}の間、すべての移動速度に対して＋40フィートの状態ボーナスを得る。使用者は即座に“歩行”を1回行う。</p><p>@UUID[Compendium.pf2e.equipment-effects.Item.EZsHuGGSLER67CiM]</p>"
+      "description": "<p><b>起動</b> <span class=\"action-glyph\">1</span> “扱う”</p><p>　ポーション・オヴ・エクスペディシャス・リトリートの封は、ひどい状況でも簡単に開くように作られている。このポーションを飲むと1分間@UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{逃亡状態}になり、使用者が@UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{逃亡状態}の間、すべての移動速度に対して＋40フィートのステータスボーナスを得る。使用者は即座に“歩行”を1回行う。</p><p>@UUID[Compendium.pf2e.equipment-effects.Item.EZsHuGGSLER67CiM]</p>"
     },
     "Potion of Emergency Escape": {
       "name": "ポーション・オヴ・エクスペディシャス・リトリート",
-      "description": "<p><b>起動</b> <span class=\"action-glyph\">1</span> “扱う”</p><p>　ポーション・オヴ・エクスペディシャス・リトリートの封は、ひどい状況でも簡単に開くように作られている。このポーションを飲むと1分間@UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{逃亡状態}になり、使用者が@UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{逃亡状態}の間、すべての移動速度に対して＋40フィートの状態ボーナスを得る。使用者は即座に“歩行”を1回行う。</p><p>@UUID[Compendium.pf2e.equipment-effects.Item.EZsHuGGSLER67CiM]</p>"
+      "description": "<p><b>起動</b> <span class=\"action-glyph\">1</span> “扱う”</p><p>　ポーション・オヴ・エクスペディシャス・リトリートの封は、ひどい状況でも簡単に開くように作られている。このポーションを飲むと1分間@UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{逃亡状態}になり、使用者が@UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{逃亡状態}の間、すべての移動速度に対して＋40フィートのステータスボーナスを得る。使用者は即座に“歩行”を1回行う。</p><p>@UUID[Compendium.pf2e.equipment-effects.Item.EZsHuGGSLER67CiM]</p>"
     },
     "Potion of Shared Memories": {
       "name": "ポーション・オヴ・シェアード・メモリーズ",
@@ -2745,15 +2745,15 @@
     },
     "Potion of Disguise (Lesser)": {
       "name": "ポーション・オヴ・ディスガイズ (下級)",
-      "description": "<p><b>起動</b> <span class=\"action-glyph\">1</span> “扱う”</p><p>このポーションを飲むと、使用者は特定の種類のクリーチャーの外観を2d12時間再現する。クリーチャーの種類は、ポーションを作成するときに決定される。たとえば、ポーション・オヴ・エルフ・ディスガイズやポーション・オヴ・フロッグ・ディスガイズなどが存在する。このポーションを飲んでも効果の持続時間についてはわからない。GMは秘密裏に持続時間をロールする。</p><p>変装しても特性やデータは変わらず、変装しているクリーチャーの特殊能力も得られない。しかし返送した姿は、どのアイテムを保持・着用できるかに影響する可能性がある。例えば、使用者の新しい姿には、他の指と向きの異なる親指がないかもしれない。このポーションは、最小で小型サイズまで縮小でき、使用者のサイズと同じサイズを維持することもできる。たとえば、中型のクリーチャーがポーション・オヴ・ファイアー・ジャイアント・ディスガイズを飲むと、ファイアー・ジャイアントの外見になるが、サイズは中型のままだ。返送先のクリーチャーは「猫科」ではなく「レパード」や「ライオン」、「巨人」ではなく「ファイアー・ジャイアント」や「オーガ」など、特定の種類のものでなければならないが、このポーションで特定のクリーチャーの個体を模倣することはできない。</p><p>このポーションの効果は、〈ペテン〉の“@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{なりすます}”連続行動と同じルールを使用する。見るものは、積極的に“捜す”していない限り、常に使用者が選ばれた種別のクリーチャーだと思い込む。このような知覚判定に対して、使用者は〈ペテン〉DCに＋4の状態ボーナスを得るとともに、未習得でもレベルを加える。</p><p><b>作成要件</b> 最初の原材料にポーションの使用者が模倣できるクリーチャーの少量の血、髪の毛、肉のいずれかが含まれていなければならない。</p><p>[[/br 2d12 #hours]]</p>"
+      "description": "<p><b>起動</b> <span class=\"action-glyph\">1</span> “扱う”</p><p>このポーションを飲むと、使用者は特定の種類のクリーチャーの外観を2d12時間再現する。クリーチャーの種類は、ポーションを作成するときに決定される。たとえば、ポーション・オヴ・エルフ・ディスガイズやポーション・オヴ・フロッグ・ディスガイズなどが存在する。このポーションを飲んでも効果の持続時間についてはわからない。GMは秘密裏に持続時間をロールする。</p><p>変装しても特性やデータは変わらず、変装しているクリーチャーの特殊能力も得られない。しかし返送した姿は、どのアイテムを保持・着用できるかに影響する可能性がある。例えば、使用者の新しい姿には、他の指と向きの異なる親指がないかもしれない。このポーションは、最小で小型サイズまで縮小でき、使用者のサイズと同じサイズを維持することもできる。たとえば、中型のクリーチャーがポーション・オヴ・ファイアー・ジャイアント・ディスガイズを飲むと、ファイアー・ジャイアントの外見になるが、サイズは中型のままだ。返送先のクリーチャーは「猫科」ではなく「レパード」や「ライオン」、「巨人」ではなく「ファイアー・ジャイアント」や「オーガ」など、特定の種類のものでなければならないが、このポーションで特定のクリーチャーの個体を模倣することはできない。</p><p>このポーションの効果は、〈ペテン〉の“@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{なりすます}”連続行動と同じルールを使用する。見るものは、積極的に“捜す”していない限り、常に使用者が選ばれた種別のクリーチャーだと思い込む。このような知覚判定に対して、使用者は〈ペテン〉DCに＋4のステータスボーナスを得るとともに、未習得でもレベルを加える。</p><p><b>作成要件</b> 最初の原材料にポーションの使用者が模倣できるクリーチャーの少量の血、髪の毛、肉のいずれかが含まれていなければならない。</p><p>[[/br 2d12 #hours]]</p>"
     },
     "Potion of Disguise (Moderate)": {
       "name": "ポーション・オヴ・ディスガイズ (中級)",
-      "description": "<p><b>起動</b> <span class=\"action-glyph\">1</span> “扱う”</p><p>このポーションを飲むと、使用者は特定の種類のクリーチャーの外観を2d12時間再現する。クリーチャーの種類は、ポーションを作成するときに決定される。たとえば、ポーション・オヴ・エルフ・ディスガイズやポーション・オヴ・フロッグ・ディスガイズなどが存在する。このポーションを飲んでも効果の持続時間についてはわからない。GMは秘密裏に持続時間をロールする。</p><p>変装しても特性やデータは変わらず、変装しているクリーチャーの特殊能力も得られない。しかし返送した姿は、どのアイテムを保持・着用できるかに影響する可能性がある。例えば、使用者の新しい姿には、他の指と向きの異なる親指がないかもしれない。このポーションは、最小で小型サイズまで縮小でき、使用者のサイズと同じサイズを維持することもできる。たとえば、中型のクリーチャーがポーション・オヴ・ファイアー・ジャイアント・ディスガイズを飲むと、ファイアー・ジャイアントの外見になるが、サイズは中型のままだ。返送先のクリーチャーは「猫科」ではなく「レパード」や「ライオン」、「巨人」ではなく「ファイアー・ジャイアント」や「オーガ」など、特定の種類のものでなければならないが、このポーションで特定のクリーチャーの個体を模倣することはできない。</p><p>このポーションの効果は、〈ペテン〉の“@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{なりすます}”連続行動と同じルールを使用する。見るものは、積極的に“捜す”していない限り、常に使用者が選ばれた種別のクリーチャーだと思い込む。このような知覚判定に対して、使用者は〈ペテン〉DCに＋4の状態ボーナスを得るとともに、未習得でもレベルを加える。</p><p>このポーションは、クリーチャーが使用者より大きい場合にはサイズを大きくすることができ、最大サイズは大型、最小サイズは超小型である。これにより、超小型クリーチャーの場合に間合いが0フィートに減少することを除いて、データは変更しない。</p><p><b>作成要件</b> 最初の原材料にポーションの使用者が模倣できるクリーチャーの少量の血、髪の毛、肉のいずれかが含まれていなければならない。</p><p>[[/br 2d12 #hours]]</p>"
+      "description": "<p><b>起動</b> <span class=\"action-glyph\">1</span> “扱う”</p><p>このポーションを飲むと、使用者は特定の種類のクリーチャーの外観を2d12時間再現する。クリーチャーの種類は、ポーションを作成するときに決定される。たとえば、ポーション・オヴ・エルフ・ディスガイズやポーション・オヴ・フロッグ・ディスガイズなどが存在する。このポーションを飲んでも効果の持続時間についてはわからない。GMは秘密裏に持続時間をロールする。</p><p>変装しても特性やデータは変わらず、変装しているクリーチャーの特殊能力も得られない。しかし返送した姿は、どのアイテムを保持・着用できるかに影響する可能性がある。例えば、使用者の新しい姿には、他の指と向きの異なる親指がないかもしれない。このポーションは、最小で小型サイズまで縮小でき、使用者のサイズと同じサイズを維持することもできる。たとえば、中型のクリーチャーがポーション・オヴ・ファイアー・ジャイアント・ディスガイズを飲むと、ファイアー・ジャイアントの外見になるが、サイズは中型のままだ。返送先のクリーチャーは「猫科」ではなく「レパード」や「ライオン」、「巨人」ではなく「ファイアー・ジャイアント」や「オーガ」など、特定の種類のものでなければならないが、このポーションで特定のクリーチャーの個体を模倣することはできない。</p><p>このポーションの効果は、〈ペテン〉の“@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{なりすます}”連続行動と同じルールを使用する。見るものは、積極的に“捜す”していない限り、常に使用者が選ばれた種別のクリーチャーだと思い込む。このような知覚判定に対して、使用者は〈ペテン〉DCに＋4のステータスボーナスを得るとともに、未習得でもレベルを加える。</p><p>このポーションは、クリーチャーが使用者より大きい場合にはサイズを大きくすることができ、最大サイズは大型、最小サイズは超小型である。これにより、超小型クリーチャーの場合に間合いが0フィートに減少することを除いて、データは変更しない。</p><p><b>作成要件</b> 最初の原材料にポーションの使用者が模倣できるクリーチャーの少量の血、髪の毛、肉のいずれかが含まれていなければならない。</p><p>[[/br 2d12 #hours]]</p>"
     },
     "Potion of Disguise (Greater)": {
       "name": "ポーション・オヴ・ディスガイズ (上級)",
-      "description": "<p><b>起動</b> <span class=\"action-glyph\">1</span> “扱う”</p><p>このポーションを飲むと、使用者は特定の種類のクリーチャーの外観を2d12時間再現する。クリーチャーの種類は、ポーションを作成するときに決定される。たとえば、ポーション・オヴ・エルフ・ディスガイズやポーション・オヴ・フロッグ・ディスガイズなどが存在する。このポーションを飲んでも効果の持続時間についてはわからない。GMは秘密裏に持続時間をロールする。</p><p>変装しても特性やデータは変わらず、変装しているクリーチャーの特殊能力も得られない。しかし返送した姿は、どのアイテムを保持・着用できるかに影響する可能性がある。例えば、使用者の新しい姿には、他の指と向きの異なる親指がないかもしれない。このポーションは、最小で小型サイズまで縮小でき、使用者のサイズと同じサイズを維持することもできる。たとえば、中型のクリーチャーがポーション・オヴ・ファイアー・ジャイアント・ディスガイズを飲むと、ファイアー・ジャイアントの外見になるが、サイズは中型のままだ。返送先のクリーチャーは「猫科」ではなく「レパード」や「ライオン」、「巨人」ではなく「ファイアー・ジャイアント」や「オーガ」など、特定の種類のものでなければならないが、このポーションで特定のクリーチャーの個体を模倣することはできない。</p><p>このポーションの効果は、〈ペテン〉の“@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{なりすます}”連続行動と同じルールを使用する。見るものは、積極的に“捜す”していない限り、常に使用者が選ばれた種別のクリーチャーだと思い込む。このような知覚判定に対して、使用者は〈ペテン〉DCに＋4の状態ボーナスを得るとともに、未習得でもレベルを加える。</p><p>グレーター・ポーション・オヴ・ディスガイズを飲む際に、変身したい特定の姿を思い浮かべると、使用者はその姿に変身する。特定の個人に“@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{なりすます}”ことを試みることもできるが、依然として〈ペテン〉をロールする必要がある。</p><p><b>作成要件</b> 最初の原材料にポーションの使用者が模倣できるクリーチャーの少量の血、髪の毛、肉のいずれかが含まれていなければならない。</p><p>[[/br 2d12 #hours]]</p>"
+      "description": "<p><b>起動</b> <span class=\"action-glyph\">1</span> “扱う”</p><p>このポーションを飲むと、使用者は特定の種類のクリーチャーの外観を2d12時間再現する。クリーチャーの種類は、ポーションを作成するときに決定される。たとえば、ポーション・オヴ・エルフ・ディスガイズやポーション・オヴ・フロッグ・ディスガイズなどが存在する。このポーションを飲んでも効果の持続時間についてはわからない。GMは秘密裏に持続時間をロールする。</p><p>変装しても特性やデータは変わらず、変装しているクリーチャーの特殊能力も得られない。しかし返送した姿は、どのアイテムを保持・着用できるかに影響する可能性がある。例えば、使用者の新しい姿には、他の指と向きの異なる親指がないかもしれない。このポーションは、最小で小型サイズまで縮小でき、使用者のサイズと同じサイズを維持することもできる。たとえば、中型のクリーチャーがポーション・オヴ・ファイアー・ジャイアント・ディスガイズを飲むと、ファイアー・ジャイアントの外見になるが、サイズは中型のままだ。返送先のクリーチャーは「猫科」ではなく「レパード」や「ライオン」、「巨人」ではなく「ファイアー・ジャイアント」や「オーガ」など、特定の種類のものでなければならないが、このポーションで特定のクリーチャーの個体を模倣することはできない。</p><p>このポーションの効果は、〈ペテン〉の“@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{なりすます}”連続行動と同じルールを使用する。見るものは、積極的に“捜す”していない限り、常に使用者が選ばれた種別のクリーチャーだと思い込む。このような知覚判定に対して、使用者は〈ペテン〉DCに＋4のステータスボーナスを得るとともに、未習得でもレベルを加える。</p><p>グレーター・ポーション・オヴ・ディスガイズを飲む際に、変身したい特定の姿を思い浮かべると、使用者はその姿に変身する。特定の個人に“@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{なりすます}”ことを試みることもできるが、依然として〈ペテン〉をロールする必要がある。</p><p><b>作成要件</b> 最初の原材料にポーションの使用者が模倣できるクリーチャーの少量の血、髪の毛、肉のいずれかが含まれていなければならない。</p><p>[[/br 2d12 #hours]]</p>"
     },
     "Potion of Acid Retaliation (Minor)": {
       "name": "ポーション・オヴ・アシッド・リテイリエーション (最下級)",
@@ -3173,11 +3173,11 @@
     },
     "Biting Snare": {
       "name": "脚噛みの輪縄",
-      "description": "<p>　この輪縄には顎があり、それを踏んだクリーチャーの脚の上で閉じる。この輪縄はマスに最初に入ったクリーチャーに5d6の［刺突］ダメージを与える。クリーチャーはDC18の反応セーヴを行う。</p><p>　<b>大成功</b> クリーチャーは何の効果も受けない。</p><p>　<b>成功</b> クリーチャーは半減ダメージを受ける。</p><p>　<b>失敗</b> クリーチャーは全てのダメージを受ける。</p><p>　<b>失敗</b> クリーチャーは2倍のダメージを受け、ヒット・ポイントを1以上回復するまでの間、移動速度に－10フィートの状態ペナルティを受ける。</p><p>@Check[type:reflex|dc:18]</p>"
+      "description": "<p>　この輪縄には顎があり、それを踏んだクリーチャーの脚の上で閉じる。この輪縄はマスに最初に入ったクリーチャーに5d6の［刺突］ダメージを与える。クリーチャーはDC18の反応セーヴを行う。</p><p>　<b>大成功</b> クリーチャーは何の効果も受けない。</p><p>　<b>成功</b> クリーチャーは半減ダメージを受ける。</p><p>　<b>失敗</b> クリーチャーは全てのダメージを受ける。</p><p>　<b>失敗</b> クリーチャーは2倍のダメージを受け、ヒット・ポイントを1以上回復するまでの間、移動速度に－10フィートのステータスペナルティを受ける。</p><p>@Check[type:reflex|dc:18]</p>"
     },
     "Hobbling Snare": {
       "name": "足絡めの輪縄",
-      "description": "<p>　この輪縄はトリガーしたクリーチャーをつるや縄、鉄線できつく巻き付ける。最初にマスに入ったクリーチャーはDC20の反応セーヴを行う。</p><p>　<b>大成功</b> クリーチャーは何の効果も受けない。</p><p>　<b>成功</b> 1分が経過するか“脱出”（DC18）するまでの間、クリーチャーは移動速度に－5フィートの状態ペナルティを受ける。</p><p>　<b>失敗</b> 成功と同様だが、ペナルティは－10フィート。</p><p>　<b>大失敗</b> 成功と同様だが、ペナルティは－20フィート。</p><p><p>@Check[type:reflex|dc:20]</p>"
+      "description": "<p>　この輪縄はトリガーしたクリーチャーをつるや縄、鉄線できつく巻き付ける。最初にマスに入ったクリーチャーはDC20の反応セーヴを行う。</p><p>　<b>大成功</b> クリーチャーは何の効果も受けない。</p><p>　<b>成功</b> 1分が経過するか“脱出”（DC18）するまでの間、クリーチャーは移動速度に－5フィートのステータスペナルティを受ける。</p><p>　<b>失敗</b> 成功と同様だが、ペナルティは－10フィート。</p><p>　<b>大失敗</b> 成功と同様だが、ペナルティは－20フィート。</p><p><p>@Check[type:reflex|dc:20]</p>"
     },
     "Trip Snare": {
       "name": "足払いの罠",
@@ -3237,7 +3237,7 @@
     },
     "Grasping Snare": {
       "name": "捕縛の輪縄",
-      "description": "<p>　つるや罠でクリーチャーをその場に固定する。最初にそのマスに入ったクリーチャーはDC26の反応セーヴを行い、以下の効果を受ける。</p><p>　<b>大成功</b> クリーチャーは何の効果も受けない。</p><p>　<b>成功</b> クリーチャーは1分が経過するか“脱出”（DC26）するまで移動速度に－5フィートの状態ペナルティを受ける。</p><p>　<b>失敗</b> クリーチャーは1ラウンドの間動けない状態になる。その後1分が経過するまでの間、移動速度に－5フィートの状態ペナルティを受ける。いずれの効果も“脱出”（DC26）に成功すればその時点で終了する。</p><p>　<b>大失敗</b> クリーチャーは1分が経過するか“脱出”（DC26）に成功するまでの間、動けない状態になる。</p><p>@Check[type:reflex|dc:26]</p>"
+      "description": "<p>　つるや罠でクリーチャーをその場に固定する。最初にそのマスに入ったクリーチャーはDC26の反応セーヴを行い、以下の効果を受ける。</p><p>　<b>大成功</b> クリーチャーは何の効果も受けない。</p><p>　<b>成功</b> クリーチャーは1分が経過するか“脱出”（DC26）するまで移動速度に－5フィートのステータスペナルティを受ける。</p><p>　<b>失敗</b> クリーチャーは1ラウンドの間動けない状態になる。その後1分が経過するまでの間、移動速度に－5フィートのステータスペナルティを受ける。いずれの効果も“脱出”（DC26）に成功すればその時点で終了する。</p><p>　<b>大失敗</b> クリーチャーは1分が経過するか“脱出”（DC26）に成功するまでの間、動けない状態になる。</p><p>@Check[type:reflex|dc:26]</p>"
     },
     "Caltrop Snare": {
       "name": "まきびしの輪縄",
@@ -3593,7 +3593,7 @@
     },
     "Anklets of Alacrity": {
       "name": "アンクレッツ・オヴ・アラキュリティ",
-      "description": "<p>　この宝石をちりばめた黄金の足飾りは、〈軽業〉判定に＋3のアイテム・ボーナスを与える。この足飾りに“アイテムの充填”をすると、【敏捷力】の値が2上がるか、18まで上がるか、どちらか高い方になる。</p><p><b>起動</b> <span class=\"action-glyph\">1</span> “扱う”；<b>頻度</b> 1日1回；<b>効果</b> 使用者は足飾りをトントンと叩くことで、以降10分の間、自分の移動速度に＋20フィートの状態ボーナスと@UUID[Compendium.pf2e.spells-srd.Item.Seaah9amXg70RKw2]{ウォーター・ウォーク}の効果を得る。</p><p>@UUID[Compendium.pf2e.equipment-effects.Item.iK6JeCsZwm5Vakks]</p>"
+      "description": "<p>　この宝石をちりばめた黄金の足飾りは、〈軽業〉判定に＋3のアイテム・ボーナスを与える。この足飾りに“アイテムの充填”をすると、【敏捷力】の値が2上がるか、18まで上がるか、どちらか高い方になる。</p><p><b>起動</b> <span class=\"action-glyph\">1</span> “扱う”；<b>頻度</b> 1日1回；<b>効果</b> 使用者は足飾りをトントンと叩くことで、以降10分の間、自分の移動速度に＋20フィートのステータスボーナスと@UUID[Compendium.pf2e.spells-srd.Item.Seaah9amXg70RKw2]{ウォーター・ウォーク}の効果を得る。</p><p>@UUID[Compendium.pf2e.equipment-effects.Item.iK6JeCsZwm5Vakks]</p>"
     },
     "Circlet of Persuasion": {
       "name": "サークレット・オヴ・パースウェイジョン",
@@ -3697,7 +3697,7 @@
     },
     "Aeon Stone (Black Pearl)": {
       "name": "アイウーン・ストーン (黒真珠)",
-      "description": "<p>このブラック・パールは光によって輝く。</p><p>このアイウーン・ストーンを起動するたび、@Check[type:flat|dc:5]を試みる。失敗するとストーンは粉々になり、その魔法の特性を永久に失う。</p><p>共鳴している力により1日1回@UUID[Compendium.pf2e.spells-srd.Item.R9xqCBblkS5KE4y7]を発動できる。</p><hr><p><b>起動</b> <span class=\"action-glyph\">R</span> 想起</p><p><b>トリガー</b> 使用者が精神効果の目標となる。</p><p><b>効果</b> トリガーとなった効果に対するセーヴィング・スローに＋4の状態ボーナスを得る。セーヴの成否に関わらず、アイウーン・ストーンは効果の発信者に効果の複製をすぐに反映するための無効化判定を[[/r {1d20+30} #Counteract]]{1d20+30}で試み、クリーチャー自身の関連するデータを使用して目標とするが、発動したかのように効果を制御する。</p><p>@UUID[Compendium.pf2e.equipment-effects.Item.p2aGtovaY1feytws]{Effect: Aeon Stone (Black Pearl)}</p>"
+      "description": "<p>このブラック・パールは光によって輝く。</p><p>このアイウーン・ストーンを起動するたび、@Check[type:flat|dc:5]を試みる。失敗するとストーンは粉々になり、その魔法の特性を永久に失う。</p><p>共鳴している力により1日1回@UUID[Compendium.pf2e.spells-srd.Item.R9xqCBblkS5KE4y7]を発動できる。</p><hr><p><b>起動</b> <span class=\"action-glyph\">R</span> 想起</p><p><b>トリガー</b> 使用者が精神効果の目標となる。</p><p><b>効果</b> トリガーとなった効果に対するセーヴィング・スローに＋4のステータスボーナスを得る。セーヴの成否に関わらず、アイウーン・ストーンは効果の発信者に効果の複製をすぐに反映するための無効化判定を[[/r {1d20+30} #Counteract]]{1d20+30}で試み、クリーチャー自身の関連するデータを使用して目標とするが、発動したかのように効果を制御する。</p><p>@UUID[Compendium.pf2e.equipment-effects.Item.p2aGtovaY1feytws]{Effect: Aeon Stone (Black Pearl)}</p>"
     },
     "Armbands of Athleticism": {
       "name": "アームバンズ・オヴ・アスレティキシズム",
@@ -4025,11 +4025,11 @@
     },
     "Boots of Elvenkind": {
       "name": "ブーツ・オヴ・エルヴンカインド",
-      "description": "<p>　この背の高い先の尖ったブーツは、柔らかくしなやかな黒または緑の革でできており、金の縁取りとバックルで装飾されている。このブーツを履くと、通常より軽快に動くことができ、使用者は〈軽業〉判定に＋1のアイテム・ボーナスを得る。</p><p><b>起動</b> <span class=\"action-glyph\">F</span> 想起；<b>頻度</b> 1時間毎に1回；<b>効果</b> 使用者のターンの終了時まで、使用者は地上を移動する際、移動困難地形を無視する。使用者が@UUID[Compendium.pf2e.equipment-srd.Item.MNBnZn0b80Q7yHJM]{クローク・オヴ・エルヴンカインド}を着用しているなら、使用者は追加で、自分のターンの終了時まで地上移動速度に＋5フィートの状態ボーナスを得る。</p><p>@UUID[Compendium.pf2e.equipment-effects.Item.88kqcDmsoAEddzUt]</p>"
+      "description": "<p>　この背の高い先の尖ったブーツは、柔らかくしなやかな黒または緑の革でできており、金の縁取りとバックルで装飾されている。このブーツを履くと、通常より軽快に動くことができ、使用者は〈軽業〉判定に＋1のアイテム・ボーナスを得る。</p><p><b>起動</b> <span class=\"action-glyph\">F</span> 想起；<b>頻度</b> 1時間毎に1回；<b>効果</b> 使用者のターンの終了時まで、使用者は地上を移動する際、移動困難地形を無視する。使用者が@UUID[Compendium.pf2e.equipment-srd.Item.MNBnZn0b80Q7yHJM]{クローク・オヴ・エルヴンカインド}を着用しているなら、使用者は追加で、自分のターンの終了時まで地上移動速度に＋5フィートのステータスボーナスを得る。</p><p>@UUID[Compendium.pf2e.equipment-effects.Item.88kqcDmsoAEddzUt]</p>"
     },
     "Boots of Elvenkind (Greater)": {
       "name": "ブーツ・オヴ・エルヴンカインド (上級)",
-      "description": "<p>　この背の高い先の尖ったブーツは、柔らかくしなやかな黒または緑の革でできており、金の縁取りとバックルで装飾されている。このブーツを履くと、通常より軽快に動くことができ、使用者は〈軽業〉判定に＋2のアイテム・ボーナスを得る。</p><p><b>起動</b> <span class=\"action-glyph\">F</span> 想起；<b>頻度</b> 1時間毎に1回；<b>効果</b> 使用者のターンの終了時まで、使用者は地上を移動する際、移動困難地形を無視する。使用者が@UUID[Compendium.pf2e.equipment-srd.Item.MNBnZn0b80Q7yHJM]{クローク・オヴ・エルヴンカインド}を着用しているなら、使用者は追加で、自分のターンの終了時まで地上移動速度に＋5フィートの状態ボーナスを得る。</p><p>また、使用者が@UUID[Compendium.pf2e.equipment-srd.Item.MNBnZn0b80Q7yHJM]{クローク・オヴ・エルヴンカインド}を着用しているなら、グレーター・ブーツ・オヴ・エルヴンカインドは森林環境で常にパス・ウィズアウト・トレイス（DC30）の効果を与える。</p><p>@UUID[Compendium.pf2e.spells-srd.Item.zlnXpME1T2uvn8Lr]</p><p>@UUID[Compendium.pf2e.equipment-effects.Item.88kqcDmsoAEddzUt]</p>"
+      "description": "<p>　この背の高い先の尖ったブーツは、柔らかくしなやかな黒または緑の革でできており、金の縁取りとバックルで装飾されている。このブーツを履くと、通常より軽快に動くことができ、使用者は〈軽業〉判定に＋2のアイテム・ボーナスを得る。</p><p><b>起動</b> <span class=\"action-glyph\">F</span> 想起；<b>頻度</b> 1時間毎に1回；<b>効果</b> 使用者のターンの終了時まで、使用者は地上を移動する際、移動困難地形を無視する。使用者が@UUID[Compendium.pf2e.equipment-srd.Item.MNBnZn0b80Q7yHJM]{クローク・オヴ・エルヴンカインド}を着用しているなら、使用者は追加で、自分のターンの終了時まで地上移動速度に＋5フィートのステータスボーナスを得る。</p><p>また、使用者が@UUID[Compendium.pf2e.equipment-srd.Item.MNBnZn0b80Q7yHJM]{クローク・オヴ・エルヴンカインド}を着用しているなら、グレーター・ブーツ・オヴ・エルヴンカインドは森林環境で常にパス・ウィズアウト・トレイス（DC30）の効果を与える。</p><p>@UUID[Compendium.pf2e.spells-srd.Item.zlnXpME1T2uvn8Lr]</p><p>@UUID[Compendium.pf2e.equipment-effects.Item.88kqcDmsoAEddzUt]</p>"
     },
     "Boots of Speed": {
       "name": "ブーツ・オヴ・スピード",
@@ -4453,7 +4453,7 @@
     },
     "Lover's Gloves": {
       "name": "ラヴァーズ・グラブズ",
-      "description": "<p>　この白い絹でできた手袋には使用者が特に強い感情を持つものに隣接するとわずかに輝く、赤い心臓が描かれている。この手袋は使用者の魂を支え、〈交渉〉判定に＋1のアイテム・ボーナスを与える。</p><p>　<b>起動</b> <span class=\"action-glyph\">1</span> “扱う”；<b>頻度</b> 1日1回；<b>効果</b> 使用者は同意する、使用者が良い感情を強く持つクリーチャー1体の手を握る（感情の種類は問わない）。このクリーチャーは10分間、セーヴィング・スローに＋1の状態ボーナスと一時的ヒット・ポイント10を得る。クリーチャーが使用者の感情を同じくするなら、使用者は同じ利益を得る。加えて同じ持続時間の間、使用者とこのクリーチャーの両方が悪い感情を引き起こす感情効果に対するセーヴィング・スローに成功したなら、代わりに両方が大成功を得る。</p><p>@UUID[Compendium.pf2e.equipment-effects.Item.3O5lvuX4VHqtpCkU]</p>"
+      "description": "<p>　この白い絹でできた手袋には使用者が特に強い感情を持つものに隣接するとわずかに輝く、赤い心臓が描かれている。この手袋は使用者の魂を支え、〈交渉〉判定に＋1のアイテム・ボーナスを与える。</p><p>　<b>起動</b> <span class=\"action-glyph\">1</span> “扱う”；<b>頻度</b> 1日1回；<b>効果</b> 使用者は同意する、使用者が良い感情を強く持つクリーチャー1体の手を握る（感情の種類は問わない）。このクリーチャーは10分間、セーヴィング・スローに＋1のステータスボーナスと一時的ヒット・ポイント10を得る。クリーチャーが使用者の感情を同じくするなら、使用者は同じ利益を得る。加えて同じ持続時間の間、使用者とこのクリーチャーの両方が悪い感情を引き起こす感情効果に対するセーヴィング・スローに成功したなら、代わりに両方が大成功を得る。</p><p>@UUID[Compendium.pf2e.equipment-effects.Item.3O5lvuX4VHqtpCkU]</p>"
     },
     "Winged (Greater)": {
       "name": "ウィングド (上級)",
@@ -4481,7 +4481,7 @@
     },
     "Antimagic": {
       "name": "アンティマジック",
-      "description": "<p>　この複雑なルーンは呪文エネルギーを置換し、魔法効果に対するセーヴィング・スローに＋1の状態ボーナスを与える。</p><p><b>起動</b> <span class=\"action-glyph\">R</span> 合言葉；<b>頻度</b> 1日1回；<b>トリガー</b> 呪文が使用者を目標としたか、その範囲に使用者を含めた；<b>効果</b> 鎧はトリガーとなった呪文を無効化しようと試みる。これは7レベルの@UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{ディスペル・マジック}呪文の効果を持ち、無効化修正は＋26。</p><p><b>作成要件</b> @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{ディスペル・マジック}の発動を1回提供すること。</p><p>[[/r 1d20+26 #Counteract]]</p>"
+      "description": "<p>　この複雑なルーンは呪文エネルギーを置換し、魔法効果に対するセーヴィング・スローに＋1のステータスボーナスを与える。</p><p><b>起動</b> <span class=\"action-glyph\">R</span> 合言葉；<b>頻度</b> 1日1回；<b>トリガー</b> 呪文が使用者を目標としたか、その範囲に使用者を含めた；<b>効果</b> 鎧はトリガーとなった呪文を無効化しようと試みる。これは7レベルの@UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{ディスペル・マジック}呪文の効果を持ち、無効化修正は＋26。</p><p><b>作成要件</b> @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{ディスペル・マジック}の発動を1回提供すること。</p><p>[[/r 1d20+26 #Counteract]]</p>"
     },
     "Ethereal": {
       "name": "イセリアル",
@@ -4569,7 +4569,7 @@
     },
     "Grievous": {
       "name": "グリーヴァス",
-      "description": "<p>　この武器による攻撃ロールがクリティカル・ヒットしてクリティカル開眼効果を得たとき、使用者は武器種に応じた追加の利益を得る。</p><p>　<b>斧</b> 使用者は3体目のクリーチャーにダメージを与えられる。同様の制限に従うこと。</p><p>　<b>剣</b> 目標は使用者の次のターンの終了時まで@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{立ちすくみ状態}になる。</p><p>　<b>豪腕</b> 目標はこのセーヴに－4の状況ペナルティを受ける。</p><p>　<b>棍棒</b> 使用者は目標を15フィートまで吹き飛ばして倒れて伏せ状態にすることができる。</p><p>　<b>盾</b> 使用者は目標を10フィートまで吹き飛ばすことができる。</p><p>　<b>短剣</b> 目標はこの持続［出血］ダメージを受けている限り、移動速度に－5フィートの状態ペナルティを受ける。</p><p>　<b>槌</b> 使用者はさらに、目標を使用者から5フィート話すことができる。</p><p>　<b>つるはし</b> クリティカル開眼効果による追加ダメージは、武器のダメージ・ダイス数毎に4だけ増加する。</p><p>　<b>投石具</b> 目標がセーヴに失敗したなら、目標はもとの効果に加えて、1ラウンドの間、移動速度に－10フィートの状態ペナルティを受ける。</p><p>　<b>長柄</b> 使用者は目標を10フィートまで移動させることができる。</p><p>　<b>投げ矢</b> 基本持続［出血］ダメージは2d6に増加する。</p><p>　<b>フレイル</b> 使用者は目標を5フィート移動させる。使用者から離すように移動させることはできないが、選択した別の向きに移動させることはできる。</p><p>　<b>槍</b> よたつき状態は2ラウンド持続する。</p><p>　<b>弓</b> 矢弾を抜くための〈運動〉判定のDCは20になる。</p><p>@UUID[Compendium.pf2e.conditionitems.Item.lDVqvLKA6eF3Df60]</p>"
+      "description": "<p>　この武器による攻撃ロールがクリティカル・ヒットしてクリティカル開眼効果を得たとき、使用者は武器種に応じた追加の利益を得る。</p><p>　<b>斧</b> 使用者は3体目のクリーチャーにダメージを与えられる。同様の制限に従うこと。</p><p>　<b>剣</b> 目標は使用者の次のターンの終了時まで@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{立ちすくみ状態}になる。</p><p>　<b>豪腕</b> 目標はこのセーヴに－4の状況ペナルティを受ける。</p><p>　<b>棍棒</b> 使用者は目標を15フィートまで吹き飛ばして倒れて伏せ状態にすることができる。</p><p>　<b>盾</b> 使用者は目標を10フィートまで吹き飛ばすことができる。</p><p>　<b>短剣</b> 目標はこの持続［出血］ダメージを受けている限り、移動速度に－5フィートのステータスペナルティを受ける。</p><p>　<b>槌</b> 使用者はさらに、目標を使用者から5フィート話すことができる。</p><p>　<b>つるはし</b> クリティカル開眼効果による追加ダメージは、武器のダメージ・ダイス数毎に4だけ増加する。</p><p>　<b>投石具</b> 目標がセーヴに失敗したなら、目標はもとの効果に加えて、1ラウンドの間、移動速度に－10フィートのステータスペナルティを受ける。</p><p>　<b>長柄</b> 使用者は目標を10フィートまで移動させることができる。</p><p>　<b>投げ矢</b> 基本持続［出血］ダメージは2d6に増加する。</p><p>　<b>フレイル</b> 使用者は目標を5フィート移動させる。使用者から離すように移動させることはできないが、選択した別の向きに移動させることはできる。</p><p>　<b>槍</b> よたつき状態は2ラウンド持続する。</p><p>　<b>弓</b> 矢弾を抜くための〈運動〉判定のDCは20になる。</p><p>@UUID[Compendium.pf2e.conditionitems.Item.lDVqvLKA6eF3Df60]</p>"
     },
     "Ghost Touch": {
       "name": "ゴースト・タッチ",

@@ -343,7 +343,7 @@
     },
     "Debilitating Strike": {
       "name": "衰弱化打撃",
-      "description": "<p><strong>トリガー</strong> 君の“打撃”が立ちすくみ状態のクリーチャーに命中し、ダメージを与えた。</p>\n<hr />\n<p>以下の衰弱からいずれか1つを適用する。これは君の次のターン終了時まで持続する。</p>\n<ul>\n<li><strong>衰弱</strong> 目標は移動速度に－10フィートの状態ペナルティを受ける。</li>\n<li><strong>衰弱</strong> 目標は @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{虚弱状態1}となる。</li>\n</ul>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.yBTASi3FvnReAwHy]{Effect: Debilitating Strike}</p>"
+      "description": "<p><strong>トリガー</strong> 君の“打撃”が立ちすくみ状態のクリーチャーに命中し、ダメージを与えた。</p>\n<hr />\n<p>以下の衰弱からいずれか1つを適用する。これは君の次のターン終了時まで持続する。</p>\n<ul>\n<li><strong>衰弱</strong> 目標は移動速度に－10フィートのステータスペナルティを受ける。</li>\n<li><strong>衰弱</strong> 目標は @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{虚弱状態1}となる。</li>\n</ul>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.yBTASi3FvnReAwHy]{Effect: Debilitating Strike}</p>"
     },
     "Deceptive Sidestep": {
       "name": "Deceptive Sidestep",
@@ -1235,7 +1235,7 @@
     },
     "Upstage": {
       "name": "人気をさらう",
-      "description": "<p><strong>トリガー</strong> 敵が技能判定を試みたが大成功ではなかった</p>\n<hr />\n<p>敵が最善を尽くした後に、君はみんなに本当のやり方を示す。このリアクションのトリガーと同じ技能を用いて判定を試みる。</p>\n<hr />\n<p><strong>大成功</strong> 次の自分のターンの終了時まで、君は攻撃ロール、知覚判定、セーヴィング・スロー、技能判定に＋1の状態ボーナスを得る。</p>\n<p><strong>成功</strong> 大成功と同様だが、君はトリガーとなったクリーチャーが技能判定に失敗した場合にのみ利益を得る。</p>"
+      "description": "<p><strong>トリガー</strong> 敵が技能判定を試みたが大成功ではなかった</p>\n<hr />\n<p>敵が最善を尽くした後に、君はみんなに本当のやり方を示す。このリアクションのトリガーと同じ技能を用いて判定を試みる。</p>\n<hr />\n<p><strong>大成功</strong> 次の自分のターンの終了時まで、君は攻撃ロール、知覚判定、セーヴィング・スロー、技能判定に＋1のステータスボーナスを得る。</p>\n<p><strong>成功</strong> 大成功と同様だが、君はトリガーとなったクリーチャーが技能判定に失敗した場合にのみ利益を得る。</p>"
     },
     "Venom Draw": {
       "name": "Venom Draw",
@@ -1291,7 +1291,7 @@
     },
     "Treat Wounds": {
       "name": "傷の手当て",
-      "description": "<p><strong>必要条件</strong> @UUID[Compendium.pf2e.equipment-srd.Item.s1vB3HdXjMigYAnY]{治療道具}を手に持っていること。または@UUID[Compendium.pf2e.equipment-srd.Item.s1vB3HdXjMigYAnY]{治療道具}を着用していて片手が空いていること。</p>\n<p>10分を費やして傷ついた生きているクリーチャー1体（望むなら自分を目標にすることもできる）を治療する。目標は以降1時間の間“@UUID[Compendium.pf2e.pf2e-macros.Macro.6duZj0Ygiqv712rq]{傷の手当て}”に対して一時的耐性を得る。この期間は、“@UUID[Compendium.pf2e.pf2e-macros.Macro.6duZj0Ygiqv712rq]{傷の手当て}”に費やした時間と重複する（そのため、患者1人の治療は70分に1回ではなく、1時間に1回行える）。</p>\n<p>〈医術〉判定のDCは15となるが、GMは状況に応じてDCを調整してもよい。状況には例えば、嵐の野外にいる患者を治療するとか、魔法によって呪われた傷を治療するなどが挙げられる。君が〈医術〉に熟練しているなら、代わりにDC20の判定を試みて、回復するHPを10増やすことができる。君が〈医術〉の達人なら、代わりにDC30の判定を試みて、回復するHPを30増やすことができる。君が〈医術〉の伝説なら、代わりにDC40の判定を試みて、回復するHPを50増やすことができる。大失敗で与えるダメージは変化しない。</p>\n<p>判定に成功したなら、追加で治癒し続けるために目標の治療を続けることができる。合計で1時間治療を続けるなら、“@UUID[Compendium.pf2e.pf2e-macros.Macro.6duZj0Ygiqv712rq]{傷の手当て}”で回復するHPを2倍にすること。</p>\n<p>〈医術〉判定の結果に従って、目標が回復するHPの量が決まる。</p>\n<p><strong>大成功</strong> 目標はHPを4d8回復し、@UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]{重傷状態}を取り除く。</p>\n<p><strong>成功</strong> 目標はHPを2d8回復し、@UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]{重傷状態}を取り除く。</p>\n<p><strong>大失敗</strong> 目標は1d8のダメージを受ける。</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.Lb4q2bBAgxamtix5]</p><p>[[/r 4d8]]</p><p>[[/r 2d8]]</p><p>[[/r 1d8]]</p>"
+      "description": "<p><strong>必要条件</strong> @UUID[Compendium.pf2e.equipment-srd.Item.s1vB3HdXjMigYAnY]{治療道具}を手に持っていること。または治療道具を着用していて片手が空いていること。</p>\n<p>10分を費やして傷ついた生きているクリーチャー1体（望むなら自分を目標にすることもできる）を治療する。目標は以降1時間の間“@UUID[Compendium.pf2e.pf2e-macros.Macro.6duZj0Ygiqv712rq]{傷の手当て}”に対して一時的耐性を得る。この期間は、“傷の手当て”に費やした時間と重複する（そのため、患者1人の治療は70分に1回ではなく、1時間に1回行える）。</p>\n<p>〈医術〉判定のDCは15となるが、GMは状況に応じてDCを調整してもよい。状況には例えば、嵐の野外にいる患者を治療するとか、魔法によって呪われた傷を治療するなどが挙げられる。君が〈医術〉に熟練しているなら、代わりにDC20の判定を試みて、回復するHPを10増やすことができる。君が〈医術〉の達人なら、代わりにDC30の判定を試みて、回復するHPを30増やすことができる。君が〈医術〉の伝説なら、代わりにDC40の判定を試みて、回復するHPを50増やすことができる。大失敗で与えるダメージは変化しない。</p>\n<p>判定に成功したなら、追加で治癒し続けるために目標の治療を続けることができる。合計で1時間治療を続けるなら、“傷の手当て”で回復するHPを2倍にすること。</p>\n<p>〈医術〉判定の結果に従って、目標が回復するHPの量が決まる。</p>\n<p><strong>大成功</strong> 目標はHPを[[/r 4d8]]回復し、@UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]{重傷状態}を取り除く。</p>\n<p><strong>成功</strong> 目標はHPを[[/r 2d8]]回復し、@UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]{重傷状態}を取り除く。</p>\n<p><strong>大失敗</strong> 目標は[[/r 1d8]]のダメージを受ける。</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.Lb4q2bBAgxamtix5]</p>"
     },
     "Treat Poison": {
       "name": "毒の手当て",

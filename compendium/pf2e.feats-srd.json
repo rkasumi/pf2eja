@@ -43,7 +43,7 @@
     },
     "Accelerating Touch": {
       "name": "加速の接触",
-      "description": "<p>君の癒やしのエネルギーは跳ねまわるエネルギーと共に吹き込まれる。君の@UUID[Compendium.pf2e.spells-srd.Item.zNN9212H2FGfM7VS]{レイ・オン・ハンズ}でヒット・ポイントを回復したクリーチャーは、そのクリーチャーの次のターンの終了時まで、移動速度に＋10フィートの状態ボーナスを得る。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.alyNtkHLNnt98Ewz]</p>",
+      "description": "<p>君の癒やしのエネルギーは跳ねまわるエネルギーと共に吹き込まれる。君の@UUID[Compendium.pf2e.spells-srd.Item.zNN9212H2FGfM7VS]{レイ・オン・ハンズ}でヒット・ポイントを回復したクリーチャーは、そのクリーチャーの次のターンの終了時まで、移動速度に＋10フィートのステータスボーナスを得る。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.alyNtkHLNnt98Ewz]</p>",
       "prerequisites": [
         {
           "value": "祈祷呪文：レイ・オン・ハンズ"
@@ -83,7 +83,7 @@
     },
     "Accursed Magic": {
       "name": "Accursed Magic",
-      "description": "<p>When the curse within you spills out, you can lay curses on others and claim them for yourself with ease. You can cast <em>@UUID[Compendium.pf2e.spells-srd.Item.Claim Curse]</em>. At 10th level, you can also cast <em>@UUID[Compendium.pf2e.spells-srd.Item.Seal Fate]</em>, and at 12th level, you can also cast <em>@UUID[Compendium.pf2e.spells-srd.Item.Inevitable Disaster]</em>. You can cast these spells once per day as occult innate spells, but only while within your curse maelstrom state. If you couldn't already cast occult spells, these spells use Wisdom as your spellcasting ability, and you become trained in spell attack rolls and spell DCs for occult spells.</p><p>@UUID[Compendium.pf2e.spells-srd.Item.5OcZ3HBkrRFhSWCz]</p><p>@UUID[Compendium.pf2e.spells-srd.Item.8THDHP0UC7SgOYYF]</p>"
+      "description": "<p>When the curse within you spills out, you can lay curses on others and claim them for yourself with ease. You can cast <em>@UUID[Compendium.pf2e.spells-srd.Item.Claim Curse]</em>. At 10th level, you can also cast <em>@UUID[Compendium.pf2e.spells-srd.Item.Seal Fate]</em>, and at 12th level, you can also cast <em>@UUID[Compendium.pf2e.spells-srd.Item.Inevitable Disaster]</em>. You can cast these spells once per day as occult innate spells, but only while within your curse maelstrom state. If you couldn't already cast occult spells, these spells use Wisdom as your spellcasting ability, and you become trained in spell attack rolls and spell DCs for occult spells.</p>"
     },
     "Accursed Touch": {
       "name": "Accursed Touch",
@@ -163,7 +163,7 @@
     },
     "Adrenaline Rush": {
       "name": "奮猛",
-      "description": "<p>戦闘の熱気の中、君は驚異的な力技を繰り出すことができる。君が激怒している間、君の荷重状態になるバルクと最大バルクは2ずつ増加する。加えて、君は重いものを運ぶ、“@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{脱出}”、“@UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx]{こじ開け}”のために行う〈運動〉判定に＋1の状態ボーナスを得る。</p>\n<p>@UUID[Compendium.pf2e.actionspf2e.Item.Ah5g9pDwWF9b9VW9]</p>",
+      "description": "<p>戦闘の熱気の中、君は驚異的な力技を繰り出すことができる。君が激怒している間、君の荷重状態になるバルクと最大バルクは2ずつ増加する。加えて、君は重いものを運ぶ、“@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{脱出}”、“@UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx]{こじ開け}”のために行う〈運動〉判定に＋1のステータスボーナスを得る。</p>\n<p>@UUID[Compendium.pf2e.actionspf2e.Item.Ah5g9pDwWF9b9VW9]</p>",
       "prerequisites": []
     },
     "Adroit Manipulation": {
@@ -451,7 +451,7 @@
     },
     "Alacritous Action": {
       "name": "素早い動き",
-      "description": "<p>君の幻獣はより素早く移動する。幻獣は移動速度に＋10フィートの状態ボーナスを得る。</p>\n",
+      "description": "<p>君の幻獣はより素早く移動する。幻獣は移動速度に＋10フィートのステータスボーナスを得る。</p>\n",
       "prerequisites": []
     },
     "Alchemical Discoveries": {
@@ -609,7 +609,7 @@
     },
     "Amplifying Touch": {
       "name": "増幅の接触",
-      "description": "<p>君の癒やしのエネルギーは攻撃に力を与える。君の@UUID[Compendium.pf2e.spells-srd.Item.zNN9212H2FGfM7VS]{レイ・オン・ハンズ}でヒット・ポイントを回復した味方は、次のその味方のターンの終了時まで、攻撃ロールに＋1の状態ボーナスを得るとともに、全ての“打撃”に追加で1の［善］ダメージを与える。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.MjtPtndJx31q2N9R]</p>",
+      "description": "<p>君の癒やしのエネルギーは攻撃に力を与える。君の@UUID[Compendium.pf2e.spells-srd.Item.zNN9212H2FGfM7VS]{レイ・オン・ハンズ}でヒット・ポイントを回復した味方は、次のその味方のターンの終了時まで、攻撃ロールに＋1のステータスボーナスを得るとともに、全ての“打撃”に追加で1の［善］ダメージを与える。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.MjtPtndJx31q2N9R]</p>",
       "prerequisites": [
         {
           "value": "祈祷呪文：レイ・オン・ハンズ"
@@ -843,7 +843,7 @@
     },
     "Animal Skin": {
       "name": "獣皮",
-      "description": "<p>君の鎧なし防御の習熟は熟練へと向上する。</p>\n<p>君が激怒中で鎧を身に着けていないなら、君の皮膚は動物の皮膚に似た分厚い革に変化する。君はACに－1のペナルティではなく、＋1の状態ボーナスを得る。君が上級不撓不屈クラス特徴を有するなら、この状態ボーナスは＋2に増加する。君の皮膚の分厚さのために、君のACへの【敏捷力】修正上限は＋3となる。</p>\n",
+      "description": "<p>君の鎧なし防御の習熟は熟練へと向上する。</p>\n<p>君が激怒中で鎧を身に着けていないなら、君の皮膚は動物の皮膚に似た分厚い革に変化する。君はACに－1のペナルティではなく、＋1のステータスボーナスを得る。君が上級不撓不屈クラス特徴を有するなら、このステータスボーナスは＋2に増加する。君の皮膚の分厚さのために、君のACへの【敏捷力】修正上限は＋3となる。</p>\n",
       "prerequisites": [
         {
           "value": "動物の天性"
@@ -1369,7 +1369,7 @@
     },
     "Aura of Life": {
       "name": "生命のオーラ",
-      "description": "<p><strong>必要条件</strong> 《光輝の誓い》</p>\n<p>君のオーラは死霊術の効果から守る。君と15フィート以内にいるすべての味方は［負のエネルギー］に対する抵抗5と、死霊術効果に対するセーヴに＋1の状態ボーナスを得る。</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.FPuICuxBLiDaEbDX]</p>",
+      "description": "<p><strong>必要条件</strong> 《光輝の誓い》</p>\n<p>君のオーラは死霊術の効果から守る。君と15フィート以内にいるすべての味方は［負のエネルギー］に対する抵抗5と、死霊術効果に対するセーヴに＋1のステータスボーナスを得る。</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.FPuICuxBLiDaEbDX]</p>",
       "prerequisites": [
         {
           "value": "光輝の誓い"
@@ -1378,7 +1378,7 @@
     },
     "Aura Of Preservation": {
       "name": "保全のオーラ",
-      "description": "<p>君のオーラは異形の存在を捻じ曲げる力から守ってくれる。君と15フィート以内にいるすべての味方は、&spanlcass(trait){異形}による効果に対する頑健セーヴと意志セーヴに＋1の状態ボーナスを得る。加えて、君は部分変身もしくは完全変身効果に対する頑健セーヴと、精神効果に対する意志セーヴに＋1の状態ボーナスを得る。このボーナスは異形による部分変身、完全変身、精神効果に対しては＋2に増加する。</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.18FHJoazfEmgNkfk]</p>",
+      "description": "<p>君のオーラは異形の存在を捻じ曲げる力から守ってくれる。君と15フィート以内にいるすべての味方は、&spanlcass(trait){異形}による効果に対する頑健セーヴと意志セーヴに＋1のステータスボーナスを得る。加えて、君は部分変身もしくは完全変身効果に対する頑健セーヴと、精神効果に対する意志セーヴに＋1のステータスボーナスを得る。このボーナスは異形による部分変身、完全変身、精神効果に対しては＋2に増加する。</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.18FHJoazfEmgNkfk]</p>",
       "prerequisites": [
         {
           "value": "深遠なる誓い"
@@ -2440,7 +2440,7 @@
     },
     "Bloodline Resistance": {
       "name": "血脈の抵抗",
-      "description": "<p>君の魔法の血は魔法に対する抵抗を高めてくれる。君は呪文や魔法の効果に対するセーヴィング・スローに＋1の状態ボーナスを得る。</p>\n",
+      "description": "<p>君の魔法の血は魔法に対する抵抗を高めてくれる。君は呪文や魔法の効果に対するセーヴィング・スローに＋1のステータスボーナスを得る。</p>\n",
       "prerequisites": []
     },
     "Bloodline Wellspring": {
@@ -2491,7 +2491,7 @@
     },
     "Bon Mot": {
       "name": "名文句",
-      "description": "<p>君は敵の気を逸らすために洞察に富んだ皮肉を浴びせる。30フィート以内にいる敵1体を選び、目標の意志DCに対して〈交渉〉判定をロールする。</p>\n<p><strong>大成功</strong> 目標は注意をそらし、1分の間、知覚と意志セーヴに－3の状態ペナルティを受ける。目標は君の《名文句》に言い返すことでこの効果を通常より早く終了させることができる。これは精神集中特性を持つ単一アクションか、その反論を表す適切な技能アクションである。GMがどの技能アクションが適切かを判断するが、最低でも1アクションを要するものでなければならない。一般に、反論には言語の【魅力】基準の技能アクションを使用する必要がある。</p><p><strong>成功</strong> 大成功と同様だが、ペナルティは－2。</p><p><strong>大失敗</strong> 君の皮肉は酷いものだ。君は成功したら敵に与えていたものと同じペナルティを受ける。これは1分が経過するか、君がもう一度《名文句》を行って成功するかするまで続く。</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.CtrZFI3RV0yPNzTv]</p><p>@UUID[Compendium.pf2e.feat-effects.Item.GoSls6SKCFmSoDxT]</p>",
+      "description": "<p>君は敵の気を逸らすために洞察に富んだ皮肉を浴びせる。30フィート以内にいる敵1体を選び、目標の意志DCに対して〈交渉〉判定をロールする。</p>\n<p><strong>大成功</strong> 目標は注意をそらし、1分の間、知覚と意志セーヴに－3のステータスペナルティを受ける。目標は君の《名文句》に言い返すことでこの効果を通常より早く終了させることができる。これは精神集中特性を持つ単一アクションか、その反論を表す適切な技能アクションである。GMがどの技能アクションが適切かを判断するが、最低でも1アクションを要するものでなければならない。一般に、反論には言語の【魅力】基準の技能アクションを使用する必要がある。</p><p><strong>成功</strong> 大成功と同様だが、ペナルティは－2。</p><p><strong>大失敗</strong> 君の皮肉は酷いものだ。君は成功したら敵に与えていたものと同じペナルティを受ける。これは1分が経過するか、君がもう一度《名文句》を行って成功するかするまで続く。</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.CtrZFI3RV0yPNzTv]</p><p>@UUID[Compendium.pf2e.feat-effects.Item.GoSls6SKCFmSoDxT]</p>",
       "prerequisites": [
         {
           "value": "〈交渉〉の修得"
@@ -2773,7 +2773,7 @@
     },
     "Burn It!": {
       "name": "燃やせ！",
-      "description": "<p>炎は君を魅了する。［火炎］ダメージを与える君の呪文と錬金術アイテムは、呪文レベルの半分またはアイテム・レベルの1／4に等しい状態ボーナスを得る（最小1）。また、君が与える永続的な［火炎］ダメージに対して＋1の状態ボーナスを得る。</p>\n<p>@UUID[Compendium.pf2e.conditionitems.Item.lDVqvLKA6eF3Df60]</p>",
+      "description": "<p>炎は君を魅了する。［火炎］ダメージを与える君の呪文と錬金術アイテムは、呪文レベルの半分またはアイテム・レベルの1／4に等しいステータスボーナスを得る（最小1）。また、君が与える永続的な［火炎］ダメージに対して＋1のステータスボーナスを得る。</p>\n<p>@UUID[Compendium.pf2e.conditionitems.Item.lDVqvLKA6eF3Df60]</p>",
       "prerequisites": []
     },
     "Burning Jet": {
@@ -3003,7 +3003,7 @@
     },
     "Capture Magic": {
       "name": "魔法捕獲",
-      "description": "<p><strong>トリガー</strong> 君が敵の危害を与える呪文に対するセーヴに成功した、もしくは敵が危害を与える呪文で生じた呪文攻撃ロールに失敗した。</p>\n<p>君が呪文に抵抗する際、君はその魔法のいくらかを君が扱えるように捕獲する。君は秘術連鎖の構えに入る。秘術連鎖の追加ダメージを決定する際、トリガーとなった呪文を用いる。すでに君が秘術連鎖の構えに入っているなら、その代わりに君はその効果を一時的に増幅する。次の君のターンの終了時まで、君は秘術連鎖によるダメージに＋2の状態ボーナスを得る。</p>\n",
+      "description": "<p><strong>トリガー</strong> 君が敵の危害を与える呪文に対するセーヴに成功した、もしくは敵が危害を与える呪文で生じた呪文攻撃ロールに失敗した。</p>\n<p>君が呪文に抵抗する際、君はその魔法のいくらかを君が扱えるように捕獲する。君は秘術連鎖の構えに入る。秘術連鎖の追加ダメージを決定する際、トリガーとなった呪文を用いる。すでに君が秘術連鎖の構えに入っているなら、その代わりに君はその効果を一時的に増幅する。次の君のターンの終了時まで、君は秘術連鎖によるダメージに＋2のステータスボーナスを得る。</p>\n",
       "prerequisites": [
         {
           "value": "秘術連鎖"
@@ -3040,7 +3040,7 @@
     },
     "Cascade Countermeasure": {
       "name": "連鎖による対応",
-      "description": "<p>“秘術連鎖”の構えをとっている間、君は自分の魔法に対する抵抗力を生み出すことができる。君はカスケード・カウンターメジャー較差呪文を身につける。君の焦点化プールの焦点化ポイントを1増加する。</p>\n",
+      "description": "<p>“秘術連鎖”の構えをとっている間、君は自分の魔法に対する抵抗力を生み出すことができる。君は@UUID[Compendium.pf2e.spells-srd.Item.rtisvvvhkpZPdgXc]{カスケード・カウンターメジャー}較差呪文を身につける。君の焦点化プールの焦点化ポイントを1増加する。</p>\n",
       "prerequisites": [
         {
           "value": "秘術連鎖"
@@ -3061,7 +3061,7 @@
     },
     "Cast Down": {
       "name": "打ち倒し発動",
-      "description": "<p>君の信仰心の強さは敵を打ち倒すことができる。君が使用する次のアクションがクリーチャー1体にダメージを与えるために@UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{ハーム}または@UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{ヒール}を発動するために使用され、その呪文が目標にダメージを与えたなら、目標は倒れて伏せ状態となる。目標が呪文に対するセーヴに大失敗したなら、目標はさらに1分の間、移動速度に－10フィートの状態ペナルティを受ける。</p>\n",
+      "description": "<p>君の信仰心の強さは敵を打ち倒すことができる。君が使用する次のアクションがクリーチャー1体にダメージを与えるために@UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{ハーム}または@UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{ヒール}を発動するために使用され、その呪文が目標にダメージを与えたなら、目標は倒れて伏せ状態となる。目標が呪文に対するセーヴに大失敗したなら、目標はさらに1分の間、移動速度に－10フィートのステータスペナルティを受ける。</p>\n",
       "prerequisites": [
         {
           "value": "危害の泉もしくは治癒の泉"
@@ -4235,7 +4235,7 @@
     },
     "Courageous Advance": {
       "name": "勇敢なる前進",
-      "description": "<p>君は応援の声で味方に前進を促す。君の次のアクションが@UUID[Compendium.pf2e.spells-srd.Item.IAjvwqgiDr3qGYxY]{インスパイアー・カレッジ}奏演キャントリップの呪文発動なら、この呪文から状態ボーナスを得る味方1体は即座に“歩行”のためにリアクションを使用できる。</p>\n",
+      "description": "<p>君は応援の声で味方に前進を促す。君の次のアクションが@UUID[Compendium.pf2e.spells-srd.Item.IAjvwqgiDr3qGYxY]{インスパイアー・カレッジ}奏演キャントリップの呪文発動なら、この呪文からステータスボーナスを得る味方1体は即座に“歩行”のためにリアクションを使用できる。</p>\n",
       "prerequisites": [
         {
           "value": "戦士の詩神"
@@ -4244,7 +4244,7 @@
     },
     "Courageous Assault": {
       "name": "勇敢なる奇襲",
-      "description": "<p>強力な叫び声で君は味方を攻撃へと駆り立てる。君の次のアクションが@UUID[Compendium.pf2e.spells-srd.Item.IAjvwqgiDr3qGYxY]{インスパイアー・カレッジ}奏演キャントリップの発動のために使用されたなら、この呪文から状態ボーナスを得ている味方1体は即座に近接“打撃”を行うためにリアクションを使用できる。</p>\n",
+      "description": "<p>強力な叫び声で君は味方を攻撃へと駆り立てる。君の次のアクションが@UUID[Compendium.pf2e.spells-srd.Item.IAjvwqgiDr3qGYxY]{インスパイアー・カレッジ}奏演キャントリップの発動のために使用されたなら、この呪文からステータスボーナスを得ている味方1体は即座に近接“打撃”を行うためにリアクションを使用できる。</p>\n",
       "prerequisites": [
         {
           "value": "戦士の詩神"
@@ -4253,7 +4253,7 @@
     },
     "Courageous Onslaught": {
       "name": "勇敢なる猛攻",
-      "description": "<p>君は自分の芸で敵への猛攻撃を指揮する。君の次のアクションが@UUID[Compendium.pf2e.spells-srd.Item.IAjvwqgiDr3qGYxY]{インスパイアー・カレッジ}奏演キャントリップの発動のために使用されたなら、この呪文から状態ボーナスを得た味方の1体は即座に“歩行”してその後に近接“打撃”を1回使用するためにリアクションを使用できる。</p>\n",
+      "description": "<p>君は自分の芸で敵への猛攻撃を指揮する。君の次のアクションが@UUID[Compendium.pf2e.spells-srd.Item.IAjvwqgiDr3qGYxY]{インスパイアー・カレッジ}奏演キャントリップの発動のために使用されたなら、この呪文からステータスボーナスを得た味方の1体は即座に“歩行”してその後に近接“打撃”を1回使用するためにリアクションを使用できる。</p>\n",
       "prerequisites": [
         {
           "value": "勇敢なる前進"
@@ -4616,7 +4616,7 @@
     },
     "Dangerous Sorcery": {
       "name": "危険な魔術",
-      "description": "<p>君の遺産は君に大きな破壊力を与える。呪文スロットから“呪文発動”した際、その呪文がダメージを与え、かつ持続時間を持たないなら、その呪文のダメージにその呪文のレベルに等しい状態ボーナスを得る。</p>\n",
+      "description": "<p>君の遺産は君に大きな破壊力を与える。呪文スロットから“呪文発動”した際、その呪文がダメージを与え、かつ持続時間を持たないなら、その呪文のダメージにその呪文のレベルに等しいステータスボーナスを得る。</p>\n",
       "prerequisites": []
     },
     "Dangle (Vanara)": {
@@ -4754,7 +4754,7 @@
     },
     "Debilitating Bomb": {
       "name": "衰弱爆弾",
-      "description": "<p><strong>使用回数</strong> 1ラウンド1回</p><p><strong>トリガー</strong> 高度錬金術レベルよりも2レベル以上低い錬金術爆弾を作成するために、君が“@UUID[Compendium.pf2e.classfeatures.Item.sPtl05wwTpqFI0lL]{高速錬金術}”を使用する。</p>\n<p>君の爆弾は敵に追加の効果を与える。</p>\n<p>君は爆弾に以下の効果のいずれかをもたらす物質を混ぜる：@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目が眩んだ状態}、@UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{聴覚喪失状態}、@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{立ちすくみ状態}、移動速度に－5フィートの状態ペナルティ。この爆弾の攻撃が命中したら、目標は頑健セーヴィング・スローを行わねばならず、失敗すると次の君のターンの開始時までこの効果を受ける。たとえこの爆弾を他の人が投擲したとしても、このセーヴィング・スローには君のクラスDCを用いる。</p>\n",
+      "description": "<p><strong>使用回数</strong> 1ラウンド1回</p><p><strong>トリガー</strong> 高度錬金術レベルよりも2レベル以上低い錬金術爆弾を作成するために、君が“@UUID[Compendium.pf2e.classfeatures.Item.sPtl05wwTpqFI0lL]{高速錬金術}”を使用する。</p>\n<p>君の爆弾は敵に追加の効果を与える。</p>\n<p>君は爆弾に以下の効果のいずれかをもたらす物質を混ぜる：@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目が眩んだ状態}、@UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{聴覚喪失状態}、@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{立ちすくみ状態}、移動速度に－5フィートのステータスペナルティ。この爆弾の攻撃が命中したら、目標は頑健セーヴィング・スローを行わねばならず、失敗すると次の君のターンの開始時までこの効果を受ける。たとえこの爆弾を他の人が投擲したとしても、このセーヴィング・スローには君のクラスDCを用いる。</p>\n",
       "prerequisites": []
     },
     "Debilitating Dichotomy": {
@@ -4845,7 +4845,7 @@
     },
     "Defensive Coordination": {
       "name": "防御協調",
-      "description": "<p>圧倒的な困難に直面しても粘り強く闘う物語の英雄のように、君とその味方は戦線を保つだろう。君の次のアクションが@UUID[Compendium.pf2e.spells-srd.Item.bH0kPuf7UKxRvi2P]{インスパイアー・ディフェンス}奏演キャントリップの発動のために使用したなら、君は“@UUID[Compendium.pf2e.actionspf2e.Item.xjGwis0uaC2305pm]{盾を掲げる}”でき、この呪文から状態ボーナスを得た味方1体は“@UUID[Compendium.pf2e.actionspf2e.Item.xjGwis0uaC2305pm]{盾を掲げる}”のためにリアクションを即座に使用できる。</p>\n",
+      "description": "<p>圧倒的な困難に直面しても粘り強く闘う物語の英雄のように、君とその味方は戦線を保つだろう。君の次のアクションが@UUID[Compendium.pf2e.spells-srd.Item.bH0kPuf7UKxRvi2P]{インスパイアー・ディフェンス}奏演キャントリップの発動のために使用したなら、君は“@UUID[Compendium.pf2e.actionspf2e.Item.xjGwis0uaC2305pm]{盾を掲げる}”でき、この呪文からステータスボーナスを得た味方1体は“@UUID[Compendium.pf2e.actionspf2e.Item.xjGwis0uaC2305pm]{盾を掲げる}”のためにリアクションを即座に使用できる。</p>\n",
       "prerequisites": [
         {
           "value": "戦士の詩神"
@@ -4865,7 +4865,7 @@
     },
     "Defensive Recovery": {
       "name": "守りの回復",
-      "description": "<p>君の信仰は治癒に加えて一時的な防護を提供する。</p>\n<p>君が使用する次のアクションが目標1体に対して@UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{ハーム}もしくは@UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{ヒール}を発動するために使用され、その呪文がヒット・ポイントを回復するためのものだったなら、目標は本来の効果に加えて、1ラウンドの間、ACとセーヴィング・スローに＋2の状態ボーナスを得る。</p>\n",
+      "description": "<p>君の信仰は治癒に加えて一時的な防護を提供する。</p>\n<p>君が使用する次のアクションが目標1体に対して@UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{ハーム}もしくは@UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{ヒール}を発動するために使用され、その呪文がヒット・ポイントを回復するためのものだったなら、目標は本来の効果に加えて、1ラウンドの間、ACとセーヴィング・スローに＋2のステータスボーナスを得る。</p>\n",
       "prerequisites": [
         {
           "value": "危害の泉もしくは治癒の泉"
@@ -5140,7 +5140,7 @@
     },
     "Diamond Soul": {
       "name": "金剛心",
-      "description": "<p>君は不気味な効果に対して身体と心を強化した。</p>\n<p>君は魔法に対するセーヴィング・スローに＋1の状態ボーナスを得る。</p>\n",
+      "description": "<p>君は不気味な効果に対して身体と心を強化した。</p>\n<p>君は魔法に対するセーヴィング・スローに＋1のステータスボーナスを得る。</p>\n",
       "prerequisites": []
     },
     "Didactic Strike": {
@@ -5171,7 +5171,7 @@
     },
     "Dimensional Disappearance": {
       "name": "消失次元渡り",
-      "description": "<p>術者は自分の位置をうまく隠すために瞬間移動で優位を取る。ディメンジョナル・アソールトを発動する際、君はその瞬間移動の終了時に@UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]{インヴィジビリティ}の効果を受ける。君は通常ならディメンジョナル・アソールトの一部として行う“打撃”を行わないことを選択してもよい。君が“打撃”を行うなら、通常の@UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]{インヴィジビリティ}と同様、君の不可視状態は“打撃”の後に終了する。</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.5p9Y4ACrtRM4gTpN]</p>",
+      "description": "<p>術者は自分の位置をうまく隠すために瞬間移動で優位を取る。@UUID[Compendium.pf2e.spells-srd.Item.5p9Y4ACrtRM4gTpN]{ディメンジョナル・アソールト}を発動する際、君はその瞬間移動の終了時に@UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]{インヴィジビリティ}の効果を受ける。君は通常ならディメンジョナル・アソールトの一部として行う“打撃”を行わないことを選択してもよい。君が“打撃”を行うなら、通常の@UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]{インヴィジビリティ}と同様、君の不可視状態は“打撃”の後に終了する。</p>\n",
       "prerequisites": [
         {
           "value": "ディメンジョナル・アソールト焦点化呪文"
@@ -5490,7 +5490,7 @@
     },
     "Diverting Vortex": {
       "name": "渦への転換",
-      "description": "<p><strong>必要条件</strong> 君の直前のアクションがキャントリップでない呪文の発動のために用いられた。</p>\n<p>君は魔法のエネルギーの残滓を周囲の空気に移し、渦を作って遠隔攻撃を逸らす。次の君のターンの開始時まで、君は遠隔武器攻撃と［物理］ダメージを与える遠隔素手攻撃に対するACに＋1の状態ボーナスを得る。</p>\n",
+      "description": "<p><strong>必要条件</strong> 君の直前のアクションがキャントリップでない呪文の発動のために用いられた。</p>\n<p>君は魔法のエネルギーの残滓を周囲の空気に移し、渦を作って遠隔攻撃を逸らす。次の君のターンの開始時まで、君は遠隔武器攻撃と［物理］ダメージを与える遠隔素手攻撃に対するACに＋1のステータスボーナスを得る。</p>\n",
       "prerequisites": []
     },
     "Divine Access": {
@@ -5568,7 +5568,7 @@
     },
     "Divine Health": {
       "name": "頑健なる肉体",
-      "description": "<p>君は信仰心により病気に対する抵抗を得、病人を助けている間、君を守ってくれる。君は病気に対するセーヴに＋1の状態ボーナスを得る。加えて、君が病気に対するセーヴに成功した場合、代わりに大成功を得る。</p>\n",
+      "description": "<p>君は信仰心により病気に対する抵抗を得、病人を助けている間、君を守ってくれる。君は病気に対するセーヴに＋1のステータスボーナスを得る。加えて、君が病気に対するセーヴに成功した場合、代わりに大成功を得る。</p>\n",
       "prerequisites": [
         {
           "value": "善の信条"
@@ -5734,7 +5734,7 @@
     },
     "Draconic Arrogance": {
       "name": "竜の傲慢",
-      "description": "<p>戦闘の猛威が君を満たす間、君をその目的から振り解けるものはほとんどいない。激怒中、君は感情効果に対するセーヴィング・スローに＋2の状態ボーナスを得る。</p>\n",
+      "description": "<p>戦闘の猛威が君を満たす間、君をその目的から振り解けるものはほとんどいない。激怒中、君は感情効果に対するセーヴィング・スローに＋2のステータスボーナスを得る。</p>\n",
       "prerequisites": [
         {
           "value": "竜の天性"
@@ -5821,7 +5821,7 @@
     },
     "Dragon Transformation": {
       "name": "竜変化",
-      "description": "<p>君は獰猛な大型の竜に変化する。君は6レベルの@UUID[Compendium.pf2e.spells-srd.Item.5c692cCcTDXjSEzk]{ドラゴン・フォーム}の効果を得るが、君は自身のACと攻撃修正値を使用し、ブレス攻撃のDCにはクラスDCを用い、“激怒”による追加ダメージが適用される。</p>\n<p>この変化の“解除”アクションは激怒特性を得る。</p>\n<p>18レベルの時点で、君は移動速度に＋20フィートの状態ボーナスを得、竜の“打撃”によるダメージ・ボーナスは＋12に増加し、君のブレス攻撃によるダメージは＋14の状態ボーナスを得る。</p>\n",
+      "description": "<p>君は獰猛な大型の竜に変化する。君は6レベルの@UUID[Compendium.pf2e.spells-srd.Item.5c692cCcTDXjSEzk]{ドラゴン・フォーム}の効果を得るが、君は自身のACと攻撃修正値を使用し、ブレス攻撃のDCにはクラスDCを用い、“激怒”による追加ダメージが適用される。</p>\n<p>この変化の“解除”アクションは激怒特性を得る。</p>\n<p>18レベルの時点で、君は移動速度に＋20フィートのステータスボーナスを得、竜の“打撃”によるダメージ・ボーナスは＋12に増加し、君のブレス攻撃によるダメージは＋14のステータスボーナスを得る。</p>\n",
       "prerequisites": [
         {
           "value": "竜の天性"
@@ -5929,7 +5929,7 @@
     },
     "Dread Marshal Stance": {
       "name": "恐るべきマーシャルの構え",
-      "description": "<p><b>アーキタイプ</b> マーシャル</p><p>戦いを前に進めるために厳しい顔をして、君は味方が敵に危険な攻撃を行えるよう、恐怖で味方を鼓舞する。このアクションを使用する際、君は〈威圧〉判定を試みる。DCは通常、君のレベルの標準の難易度だが、GMは状況に応じて異なるDCを指定しても良い。効果は君の判定の結果に従って決まる。</p>\n<p><b>大成功</b> 君のマーシャルのオーラは20フィートの放射に拡大し、君とオーラ内の味方はダメージ・ロールに状態ボーナスを得る。このボーナスは君が装備している武器もしくは素手攻撃の中で、一番ダメージ・ダイス数が多いもののダメージ・ダイス数に等しい。君もしくはオーラ内の味方が敵に対する“打撃”でクリティカル・ヒットしたなら、その敵は@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{恐れ状態1}になる。</p>\n<p><b>成功</b> 大成功と同様だが、君のオーラは拡大しない。</p>\n<p><b>失敗</b> 君は構えに入るのに失敗する。</p>\n<p><b>大失敗</b> 君は構えに入れず、このアクションを1分間使用できない。</p><p>@UUID[Compendium.pf2e.feat-effects.Item.qX62wJzDYtNxDbFv]</p><p>@Check[type:intimidation|dc:@self.level|roller:self]</p><p>@Template[type:emanation|distance:20]</p>",
+      "description": "<p><b>アーキタイプ</b> マーシャル</p><p>戦いを前に進めるために厳しい顔をして、君は味方が敵に危険な攻撃を行えるよう、恐怖で味方を鼓舞する。このアクションを使用する際、君は〈威圧〉判定を試みる。DCは通常、君のレベルの標準の難易度だが、GMは状況に応じて異なるDCを指定しても良い。効果は君の判定の結果に従って決まる。</p>\n<p><b>大成功</b> 君のマーシャルのオーラは20フィートの放射に拡大し、君とオーラ内の味方はダメージ・ロールにステータスボーナスを得る。このボーナスは君が装備している武器もしくは素手攻撃の中で、一番ダメージ・ダイス数が多いもののダメージ・ダイス数に等しい。君もしくはオーラ内の味方が敵に対する“打撃”でクリティカル・ヒットしたなら、その敵は@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{恐れ状態1}になる。</p>\n<p><b>成功</b> 大成功と同様だが、君のオーラは拡大しない。</p>\n<p><b>失敗</b> 君は構えに入るのに失敗する。</p>\n<p><b>大失敗</b> 君は構えに入れず、このアクションを1分間使用できない。</p><p>@UUID[Compendium.pf2e.feat-effects.Item.qX62wJzDYtNxDbFv]</p><p>@Check[type:intimidation|dc:@self.level|roller:self]</p><p>@Template[type:emanation|distance:20]</p>",
       "prerequisites": [
         {
           "value": "マーシャルへの専念"
@@ -6690,7 +6690,7 @@
     },
     "Emblazon Armament": {
       "name": "武具刻印",
-      "description": "<p>神聖な絵を物質に注意深く刻むことで、君は戦いに備える。君は10分を費やして武器1つあるいは盾1つに神格の印を刻むことができる。印は1年経過するまで消えることはないが、君がこの特技を使用したなら、過去に刻んだ印と現在そのアイテムに刻まれている印は即座に消えてしまう。そのアイテムは君の神格の宗教印となり、印が刻まれている間は信仰焦点具として使用できる。加えて、このアイテムの種類に従って追加の利益を得ることができる。この利益は、印が象徴する神格の信者にのみ与えられる。</p><p>盾 盾は硬度に＋1の状態ボーナスを得る（これにより、“盾防御”リアクションでダメージを更に減少させられる）。</p>\n<p>武器 使用者はダメージ・ロールに＋1の状態ボーナスを得る。</p>\n",
+      "description": "<p>神聖な絵を物質に注意深く刻むことで、君は戦いに備える。君は10分を費やして武器1つあるいは盾1つに神格の印を刻むことができる。印は1年経過するまで消えることはないが、君がこの特技を使用したなら、過去に刻んだ印と現在そのアイテムに刻まれている印は即座に消えてしまう。そのアイテムは君の神格の宗教印となり、印が刻まれている間は信仰焦点具として使用できる。加えて、このアイテムの種類に従って追加の利益を得ることができる。この利益は、印が象徴する神格の信者にのみ与えられる。</p><p>盾 盾は硬度に＋1のステータスボーナスを得る（これにより、“盾防御”リアクションでダメージを更に減少させられる）。</p>\n<p>武器 使用者はダメージ・ロールに＋1のステータスボーナスを得る。</p>\n",
       "prerequisites": []
     },
     "Emblazon Divinity": {
@@ -6914,7 +6914,7 @@
     },
     "Enforce Oath": {
       "name": "宣誓執行",
-      "description": "<p><b>頻度</b> 1時間に1回</p>\n\n<p>君は戦闘で自分を鼓舞しようと宣誓を呼び下ろす。君が宣誓を執行するには、宣誓の一部として倒すことを誓ったクリーチャーを1体選択する。君は選択したクリーチャーによる攻撃や効果に対するACおよびセーヴに＋1の状態ボーナスを得る。加えて、君は選択したクリーチャーに対する攻撃ロールに＋1の状態ボーナスを得る。しかし、君が宣誓の執行に注力することで、他の敵からの注意をそらしてしまう。君が宣誓を執行している間、君は宣誓の執行を止めるまで、他のすべてのクリーチャーに対するAC、攻撃ロール、セーヴに－1の状態ペナルティを受ける。</p><p>選択したクリーチャーのヒット・ポイントが0に減少したり、そのクリーチャーが自分や味方にとって正当な降伏を申し出たなら、《宣誓執行》は停止する。君が@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{気絶状態}になったり、選択したクリーチャーが1分以上君から@UUID[Compendium.pf2e.conditionitems.Item.9evPzg9E6muFcoSk]{未察知状態}であったりすると、君の《宣誓執行》は終了する。また、君は自分のターン中、フリー・アクションとして、いつでも自分の《宣誓執行》を終了できる。</p>\n",
+      "description": "<p><b>頻度</b> 1時間に1回</p>\n\n<p>君は戦闘で自分を鼓舞しようと宣誓を呼び下ろす。君が宣誓を執行するには、宣誓の一部として倒すことを誓ったクリーチャーを1体選択する。君は選択したクリーチャーによる攻撃や効果に対するACおよびセーヴに＋1のステータスボーナスを得る。加えて、君は選択したクリーチャーに対する攻撃ロールに＋1のステータスボーナスを得る。しかし、君が宣誓の執行に注力することで、他の敵からの注意をそらしてしまう。君が宣誓を執行している間、君は宣誓の執行を止めるまで、他のすべてのクリーチャーに対するAC、攻撃ロール、セーヴに－1のステータスペナルティを受ける。</p><p>選択したクリーチャーのヒット・ポイントが0に減少したり、そのクリーチャーが自分や味方にとって正当な降伏を申し出たなら、《宣誓執行》は停止する。君が@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{気絶状態}になったり、選択したクリーチャーが1分以上君から@UUID[Compendium.pf2e.conditionitems.Item.9evPzg9E6muFcoSk]{未察知状態}であったりすると、君の《宣誓執行》は終了する。また、君は自分のターン中、フリー・アクションとして、いつでも自分の《宣誓執行》を終了できる。</p>\n",
       "prerequisites": [
         {
           "value": "君が特定の種別のクリーチャーに対する宣誓をしていること。"
@@ -6973,7 +6973,7 @@
     },
     "Enlightened Presence": {
       "name": "悟りの境地",
-      "description": "<p>君は決意のオーラを発する。君と自身の15フィート以内にいる味方すべては、精神効果に対する意志セーヴィング・スローに＋2の状態ボーナスを得る。</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.XM1AA8z5cHm8sJXM]</p>",
+      "description": "<p>君は決意のオーラを発する。君と自身の15フィート以内にいる味方すべては、精神効果に対する意志セーヴィング・スローに＋2のステータスボーナスを得る。</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.XM1AA8z5cHm8sJXM]</p>",
       "prerequisites": []
     },
     "Enshroud Soul Cage": {
@@ -7908,7 +7908,7 @@
     },
     "Fast Movement": {
       "name": "高速移動",
-      "description": "<p>君の激怒は急速な移動の狂乱だ。激怒中、君は移動速度に＋10フィートの状態ボーナスを得る。</p>\n",
+      "description": "<p>君の激怒は急速な移動の狂乱だ。激怒中、君は移動速度に＋10フィートのステータスボーナスを得る。</p>\n",
       "prerequisites": []
     },
     "Fast Recovery": {
@@ -7948,7 +7948,7 @@
     },
     "Favored Terrain": {
       "name": "得意な地形",
-      "description": "<p>君は特定の地形を研究し、その課題を克服した。得意な地形として、水界、極地、砂漠、森林、山、平原、空、沼地、地下のいずれかを選択する。その地形にいる間、君は魔法のものでない移動困難地形の効果を無視できる。</p>\n<p>@UUID[Compendium.pf2e.classfeatures.Item.RlwE99yKnhq8FUuy]{野生の歩行}のクラス特徴を持つなら、君は得意な地形にいる間、選択した地形に関連する2つ目の利益を得る。</p>\n<p>極地／Arctic 君は通常の1／10しか飲食の必要がなくなり、猛寒環境や極寒環境の影響を受けず、“平衡感覚”の必要なく氷や雪を本来の移動速度で通過できる。</p>\n<p>砂漠／Desert 君は通常の1／10しか飲食の必要がなくなり、猛暑環境や極暑環境の影響を受けず、“平衡感覚”の必要なく砂地を本来の移動速度で歩くことができる。</p>\n<p>森林、山、地下／Forest, Mountain, Underground 君は移動速度に等しい登攀移動速度を得る。既に登攀移動速度を持っている場合は、その登攀移動速度に＋10フィートの状態ボーナスを得る。</p>\n<p>水界／Aquatic 君は自分の移動速度に等しい水泳移動速度を得る。既に水泳起動速度を保つ場合は、その水泳移動速度に＋10フィートの状態ボーナスを得る。</p>\n<p>空／Sky 君が飛行移動速度を有しているなら、飛行移動速度に＋10の状態ボーナスを得る。</p>\n<p>沼地／Swamp 沼地が上級移動困難地形であったり、通常なら〈水泳〉が必要なほど深い場合でも、君は沼地を本来の移動速度で通過できる。</p>\n<p>平原／Plains 君は地上移動速度に＋10の状態ボーナスを得る。</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.sDftJWPPSUeSZD3A]</p><p>@UUID[Compendium.pf2e.feat-effects.Item.IpRfT9lL3YR6MH6w]</p><p>@UUID[Compendium.pf2e.feat-effects.Item.OhLcaJeQy4Nf5Mwo]</p><p>@UUID[Compendium.pf2e.feat-effects.Item.HKPmrxkZwHRND5Um]</p>",
+      "description": "<p>君は特定の地形を研究し、その課題を克服した。得意な地形として、水界、極地、砂漠、森林、山、平原、空、沼地、地下のいずれかを選択する。その地形にいる間、君は魔法のものでない移動困難地形の効果を無視できる。</p>\n<p>@UUID[Compendium.pf2e.classfeatures.Item.RlwE99yKnhq8FUuy]{野生の歩行}のクラス特徴を持つなら、君は得意な地形にいる間、選択した地形に関連する2つ目の利益を得る。</p>\n<p>極地／Arctic 君は通常の1／10しか飲食の必要がなくなり、猛寒環境や極寒環境の影響を受けず、“平衡感覚”の必要なく氷や雪を本来の移動速度で通過できる。</p>\n<p>砂漠／Desert 君は通常の1／10しか飲食の必要がなくなり、猛暑環境や極暑環境の影響を受けず、“平衡感覚”の必要なく砂地を本来の移動速度で歩くことができる。</p>\n<p>森林、山、地下／Forest, Mountain, Underground 君は移動速度に等しい登攀移動速度を得る。既に登攀移動速度を持っている場合は、その登攀移動速度に＋10フィートのステータスボーナスを得る。</p>\n<p>水界／Aquatic 君は自分の移動速度に等しい水泳移動速度を得る。既に水泳起動速度を保つ場合は、その水泳移動速度に＋10フィートのステータスボーナスを得る。</p>\n<p>空／Sky 君が飛行移動速度を有しているなら、飛行移動速度に＋10のステータスボーナスを得る。</p>\n<p>沼地／Swamp 沼地が上級移動困難地形であったり、通常なら〈水泳〉が必要なほど深い場合でも、君は沼地を本来の移動速度で通過できる。</p>\n<p>平原／Plains 君は地上移動速度に＋10のステータスボーナスを得る。</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.sDftJWPPSUeSZD3A]</p><p>@UUID[Compendium.pf2e.feat-effects.Item.IpRfT9lL3YR6MH6w]</p><p>@UUID[Compendium.pf2e.feat-effects.Item.OhLcaJeQy4Nf5Mwo]</p><p>@UUID[Compendium.pf2e.feat-effects.Item.HKPmrxkZwHRND5Um]</p>",
       "prerequisites": []
     },
     "Fear No Law, Fear No One": {
@@ -8035,7 +8035,7 @@
     },
     "Ferocious Shape": {
       "name": "獰猛さの化身",
-      "description": "<p>君は恐ろしい恐竜の姿を会得する。ワイルド・シェイプの一覧に@UUID[Compendium.pf2e.spells-srd.Item.KhM8MhoUgoUjBMIz]{ダイナソア・フォーム}を追加する。</p>\n<p>君がワイルド・シェイプを使用して特別な〈運動〉修正値を与える形態をとったなら、君は〈運動〉判定に＋1の状態ボーナスを得る。</p>\n",
+      "description": "<p>君は恐ろしい恐竜の姿を会得する。ワイルド・シェイプの一覧に@UUID[Compendium.pf2e.spells-srd.Item.KhM8MhoUgoUjBMIz]{ダイナソア・フォーム}を追加する。</p>\n<p>君がワイルド・シェイプを使用して特別な〈運動〉修正値を与える形態をとったなら、君は〈運動〉判定に＋1のステータスボーナスを得る。</p>\n",
       "prerequisites": [
         {
           "value": "自然の化身"
@@ -8634,7 +8634,7 @@
     },
     "Force Fang": {
       "name": "力場の牙",
-      "description": "<p>君は攻撃を過たぬ力場のかすみへと変えられるようになった。君はフォース・ファング較差呪文を身につける。君の焦点化プールの焦点化ポイントを1増加する。</p>\n",
+      "description": "<p>君は攻撃を過たぬ力場のかすみへと変えられるようになった。君は@UUID[Compendium.pf2e.spells-srd.Item.9mPEoOPN0AMuixIv]{フォース・ファング}較差呪文を身につける。君の焦点化プールの焦点化ポイントを1増加する。</p>\n",
       "prerequisites": [
         {
           "value": "焦点化プール"
@@ -8942,7 +8942,7 @@
     },
     "Future Spell Learning": {
       "name": "Future Spell Learning",
-      "description": "<p>More future memories of time magic percolate back to the present, teaching you spells you've yet to learn. Add <em>@UUID[Compendium.pf2e.spells-srd.Item.Behold the Weave]</em>, <em>@UUID[Compendium.pf2e.spells-srd.Item.Cast into Time]</em>, <em>@UUID[Compendium.pf2e.spells-srd.Item.Haste]</em>, <em>@UUID[Compendium.pf2e.spells-srd.Item.Loose Time's Arrow]</em>, <em>@UUID[Compendium.pf2e.spells-srd.Item.Quicken Time]</em>, <em>@UUID[Compendium.pf2e.spells-srd.Item.Slow]</em>, and <em>@UUID[Compendium.pf2e.spells-srd.Item.Stagnate Time]</em> to your spell list. You can thus potentially learn these spells even if they aren't normally on your tradition's spell list.</p><p>@UUID[Compendium.pf2e.spells-srd.Item.3mQkAjexj6hhAnkR]</p><p>@UUID[Compendium.pf2e.spells-srd.Item.OdqM06M0wDUqZWiR]</p><p>@UUID[Compendium.pf2e.spells-srd.Item.mLAYvbafVKfBgEhz]</p><p>@UUID[Compendium.pf2e.spells-srd.Item.lETZeqBPoj2htGVk]</p><p>@UUID[Compendium.pf2e.spells-srd.Item.3E1p58MNQMO4GAxt]</p>"
+      "description": "<p>More future memories of time magic percolate back to the present, teaching you spells you've yet to learn. Add <em>@UUID[Compendium.pf2e.spells-srd.Item.Behold the Weave]</em>, <em>@UUID[Compendium.pf2e.spells-srd.Item.Cast into Time]</em>, <em>@UUID[Compendium.pf2e.spells-srd.Item.Haste]</em>, <em>@UUID[Compendium.pf2e.spells-srd.Item.Loose Time's Arrow]</em>, <em>@UUID[Compendium.pf2e.spells-srd.Item.Quicken Time]</em>, <em>@UUID[Compendium.pf2e.spells-srd.Item.Slow]</em>, and <em>@UUID[Compendium.pf2e.spells-srd.Item.Stagnate Time]</em> to your spell list. You can thus potentially learn these spells even if they aren't normally on your tradition's spell list.</p><p>@UUID[Compendium.pf2e.spells-srd.Item.3mQkAjexj6hhAnkR]</p><p>@UUID[Compendium.pf2e.spells-srd.Item.mLAYvbafVKfBgEhz]</p><p>@UUID[Compendium.pf2e.spells-srd.Item.lETZeqBPoj2htGVk]</p><p>@UUID[Compendium.pf2e.spells-srd.Item.3E1p58MNQMO4GAxt]</p>"
     },
     "Gadget Specialist": {
       "name": "Gadget Specialist",
@@ -9033,7 +9033,7 @@
     },
     "Geomancer Dedication": {
       "name": "ジオマンサーへの専念",
-      "description": "<p><b>アーキタイプ</b> ジオマンサー</p><p>「地形同調」と呼ばれる現象により、君はどこにいても、世界との深いつながりを感じる。君が現在いる地形の種別に対応した特性（以下に示す）を持つ呪文を発動するために呪文スロットを消費する際、君はその地形の種別に応じた地形同調効果を得る。君の周辺にその地形がどれだけ蔓延しているかに従って、GMが同調が適用されるかを決定する。例えば、君が河岸やボートの上にいる場合、水界地形にいると言えるだろう。同様に、極北の山は極地であり同時に山岳であるといったように、複数の地形種別だと扱われる場所もある。このような場合、君は呪文がそれぞれの地形種別の特性を持つ場合でも、地形同調の効果から1つだけを選ぶ。</p>地形同調の中には君ではなく敵に作用するものもある。その場合、君が適用する呪文を発動した際に君に隣接しているクリーチャー全てか、呪文の効果範囲内にいるかクリーチャー全てか、呪文の目標全てかのいずれかに効果を及ぼす。これらの敵は効果を避けるため、君の呪文DCに対する記載されたセーヴィング・スローを行う。</p><ul><li>水界 (水) 君は水の流れに乗る。君は地上移動速度に等しい水泳速度を得る。君が水面にいるなら、君の移動を一時的な波が助け、君は地上移動速度として（君が持っているなら）水泳速度を使用できる。</li><li>極地 (氷雪) 極地の霧氷が敵の体を覆う。敵は頑健セーヴを試みなければならない。失敗すると敵は移動速度に−5フィート（大失敗の場合は−10フィート）の状態ペナルティを受ける。</li><li>砂漠 (火炎) 砂漠の焼けつく熱が敵の水分を奪う。敵は頑健セーヴを試みなければならない。失敗すると、敵は水や他の持ち運びできる液体を飲むまで@UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{疲労状態}になる。</li><li>森林 (植物) 枝と蔦が敵の経路を阻もうと伸びる。敵は反応セーヴを試みなければならない。失敗すると、敵は1ラウンドの間よたつき状態1になる（大失敗の場合は@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{よたつき状態2}）。</li><li>山岳 (地) 山の粗野な持久力が君を傷から守る。君は1ラウンドの間、呪文レベルに等しい［物理］ダメージ（アダマンティンを除く）に対する抵抗を得る。</li><li>平原 (植物) 成長する芝と平原の脈々とした生命力が君に活力を与える。君は1ラウンドの間、呪文レベルに等しい一時的ヒット・ポイントを得る。</li><li>空 (風) 突風が君を君を虚空へ運ぶ。君は10フィートまで“飛行”する。君がターンの終了時に空中にいて飛行速度を持たない場合、君は落下する。</li><li>沼地 (植物) 君の魔法は敵を苦しませる沼の有毒ガスを引き出す。効果を受けた敵は基本頑健セーヴを伴う、呪文のレベルの半分（最低1）に等しい持続［毒］ダメージを受ける。</li><li>地下 (地) 洞窟の深部にある終わりない闇が君の感覚の秘密を開く。1ラウンドの間、君は暗視と不明瞭な振動感知15フィートを得る。</li><ul><p><b>特殊</b> ジオマンサー・アーキタイプから他に特技を2つ得るまで、君は別の専念特技を選択できない。</p><p>@UUID[Compendium.pf2e.conditionitems.Item.lDVqvLKA6eF3Df60]</p><p>@UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.I6FbkKYncDuu7eWq]</p>",
+      "description": "<p><b>アーキタイプ</b> ジオマンサー</p><p>「地形同調」と呼ばれる現象により、君はどこにいても、世界との深いつながりを感じる。君が現在いる地形の種別に対応した特性（以下に示す）を持つ呪文を発動するために呪文スロットを消費する際、君はその地形の種別に応じた地形同調効果を得る。君の周辺にその地形がどれだけ蔓延しているかに従って、GMが同調が適用されるかを決定する。例えば、君が河岸やボートの上にいる場合、水界地形にいると言えるだろう。同様に、極北の山は極地であり同時に山岳であるといったように、複数の地形種別だと扱われる場所もある。このような場合、君は呪文がそれぞれの地形種別の特性を持つ場合でも、地形同調の効果から1つだけを選ぶ。</p>地形同調の中には君ではなく敵に作用するものもある。その場合、君が適用する呪文を発動した際に君に隣接しているクリーチャー全てか、呪文の効果範囲内にいるかクリーチャー全てか、呪文の目標全てかのいずれかに効果を及ぼす。これらの敵は効果を避けるため、君の呪文DCに対する記載されたセーヴィング・スローを行う。</p><ul><li>水界 (水) 君は水の流れに乗る。君は地上移動速度に等しい水泳速度を得る。君が水面にいるなら、君の移動を一時的な波が助け、君は地上移動速度として（君が持っているなら）水泳速度を使用できる。</li><li>極地 (氷雪) 極地の霧氷が敵の体を覆う。敵は頑健セーヴを試みなければならない。失敗すると敵は移動速度に−5フィート（大失敗の場合は−10フィート）のステータスペナルティを受ける。</li><li>砂漠 (火炎) 砂漠の焼けつく熱が敵の水分を奪う。敵は頑健セーヴを試みなければならない。失敗すると、敵は水や他の持ち運びできる液体を飲むまで@UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{疲労状態}になる。</li><li>森林 (植物) 枝と蔦が敵の経路を阻もうと伸びる。敵は反応セーヴを試みなければならない。失敗すると、敵は1ラウンドの間よたつき状態1になる（大失敗の場合は@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{よたつき状態2}）。</li><li>山岳 (地) 山の粗野な持久力が君を傷から守る。君は1ラウンドの間、呪文レベルに等しい［物理］ダメージ（アダマンティンを除く）に対する抵抗を得る。</li><li>平原 (植物) 成長する芝と平原の脈々とした生命力が君に活力を与える。君は1ラウンドの間、呪文レベルに等しい一時的ヒット・ポイントを得る。</li><li>空 (風) 突風が君を君を虚空へ運ぶ。君は10フィートまで“飛行”する。君がターンの終了時に空中にいて飛行速度を持たない場合、君は落下する。</li><li>沼地 (植物) 君の魔法は敵を苦しませる沼の有毒ガスを引き出す。効果を受けた敵は基本頑健セーヴを伴う、呪文のレベルの半分（最低1）に等しい持続［毒］ダメージを受ける。</li><li>地下 (地) 洞窟の深部にある終わりない闇が君の感覚の秘密を開く。1ラウンドの間、君は暗視と不明瞭な振動感知15フィートを得る。</li><ul><p><b>特殊</b> ジオマンサー・アーキタイプから他に特技を2つ得るまで、君は別の専念特技を選択できない。</p><p>@UUID[Compendium.pf2e.conditionitems.Item.lDVqvLKA6eF3Df60]</p><p>@UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.I6FbkKYncDuu7eWq]</p>",
       "prerequisites": [
         {
           "value": "〈自然〉の修得"
@@ -9064,7 +9064,7 @@
     },
     "Ghoran's Wrath": {
       "name": "Ghoran's Wrath",
-      "description": "<p>You have such a strong connection to the natural world that you can inspire it to attack at those who threaten you. You can cast <em>@UUID[Compendium.pf2e.spells-srd.Item.Nature's Reprisal]</em> once per hour as a primal innate spell.</p><p>@UUID[Compendium.pf2e.spells-srd.Item.YtBZq49N4Um1cwm7]</p>"
+      "description": "<p>You have such a strong connection to the natural world that you can inspire it to attack at those who threaten you. You can cast <em>@UUID[Compendium.pf2e.spells-srd.Item.Nature's Reprisal]</em> once per hour as a primal innate spell.</p>"
     },
     "Ghost Blade": {
       "name": "Ghost Blade",
@@ -9329,7 +9329,7 @@
     },
     "Goblin Song": {
       "name": "ゴブリンの歌",
-      "description": "<p>君ははた迷惑なゴブリンの歌を歌い、おろかで反復的な歌詞で敵の気をそらす。30フィート以内の1体の敵の意志DCに対して〈芸能〉判定を試みる。これは〈芸能〉判定のすべての通常の特性を持つ。</p>\n<p>〈芸能〉に熟練の習熟ランクがある場合、範囲内の最大2体の目標に影響を与えることができる。達人の場合は4体、伝説の場合は8体までの目標に影響を与えられる。</p>\n<p><strong>大成功</strong> 目標は1分間の間、知覚判定と意志セーヴに－1の状態ペナルティを受ける。</p>\n<p><strong>成功</strong> 目標は1ラウンドの間、知覚判定と意志セーヴに－1の状態ペナルティを受ける。</p>\n<p><strong>大失敗</strong> 目標は1時間の間、《ゴブリンの歌》の使用の試みに一時的耐性を得る。</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.bIRIS6mnynr72RDw]</p><p>@UUID[Compendium.pf2e.feat-effects.Item.5veOBmMYQxywTudd]</p><p>@Check[type:performance|defense:will]</p>",
+      "description": "<p>君ははた迷惑なゴブリンの歌を歌い、おろかで反復的な歌詞で敵の気をそらす。30フィート以内の1体の敵の意志DCに対して〈芸能〉判定を試みる。これは〈芸能〉判定のすべての通常の特性を持つ。</p>\n<p>〈芸能〉に熟練の習熟ランクがある場合、範囲内の最大2体の目標に影響を与えることができる。達人の場合は4体、伝説の場合は8体までの目標に影響を与えられる。</p>\n<p><strong>大成功</strong> 目標は1分間の間、知覚判定と意志セーヴに－1のステータスペナルティを受ける。</p>\n<p><strong>成功</strong> 目標は1ラウンドの間、知覚判定と意志セーヴに－1のステータスペナルティを受ける。</p>\n<p><strong>大失敗</strong> 目標は1時間の間、《ゴブリンの歌》の使用の試みに一時的耐性を得る。</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.bIRIS6mnynr72RDw]</p><p>@UUID[Compendium.pf2e.feat-effects.Item.5veOBmMYQxywTudd]</p><p>@Check[type:performance|defense:will]</p>",
       "prerequisites": []
     },
     "Goblin Weapon Expertise": {
@@ -9580,7 +9580,7 @@
     },
     "Greater Debilitating Bomb": {
       "name": "上級衰弱爆弾",
-      "description": "<p>君は爆弾の効果の幅を広げることのできる強化技術と錬金術の秘密を身に着けた。君が《@UUID[Compendium.pf2e.feats-srd.Item.sv4LeEbkOJyLen10]{衰弱爆弾}》を使用する際、選択できる効果の一覧に以下を加える：@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{よたつき状態1}、@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{虚弱状態}1、@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{知性低下状態}1、移動速度に－10フィートの状態ペナルティ。</p>\n",
+      "description": "<p>君は爆弾の効果の幅を広げることのできる強化技術と錬金術の秘密を身に着けた。君が《@UUID[Compendium.pf2e.feats-srd.Item.sv4LeEbkOJyLen10]{衰弱爆弾}》を使用する際、選択できる効果の一覧に以下を加える：@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{よたつき状態1}、@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{虚弱状態}1、@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{知性低下状態}1、移動速度に－10フィートのステータスペナルティ。</p>\n",
       "prerequisites": [
         {
           "value": "衰弱爆弾"
@@ -9716,7 +9716,7 @@
     },
     "Green Empathy": {
       "name": "緑との共感",
-      "description": "<p>君は基本的な意思疎通を植物および菌類と行うことができる。君は〈交渉〉を使用してこれらに“懐柔する”を使用し、極めて単純な“要望”を行える。君が@UUID[Compendium.pf2e.spells-srd.Item.qvwIwJ9QBihy8R0t]{スピーク・ウィズ・プランツ}のような他の呪文を使用できない限り、クリーチャーでない植物および菌類は君が依頼する要望のほとんどを満たすことはできない。君は葉の円環に所属しているため、《緑との共感》を用いた植物あるいは菌類に対する“Make a Request”（訳注：“懐柔する”もしくは“要望”の誤記？）における判定に＋2の状態ボーナスを得る。</p>\n",
+      "description": "<p>君は基本的な意思疎通を植物および菌類と行うことができる。君は〈交渉〉を使用してこれらに“懐柔する”を使用し、極めて単純な“要望”を行える。君が@UUID[Compendium.pf2e.spells-srd.Item.qvwIwJ9QBihy8R0t]{スピーク・ウィズ・プランツ}のような他の呪文を使用できない限り、クリーチャーでない植物および菌類は君が依頼する要望のほとんどを満たすことはできない。君は葉の円環に所属しているため、《緑との共感》を用いた植物あるいは菌類に対する“Make a Request”（訳注：“懐柔する”もしくは“要望”の誤記？）における判定に＋2のステータスボーナスを得る。</p>\n",
       "prerequisites": [
         {
           "value": "葉の円環"
@@ -10125,7 +10125,7 @@
     },
     "Hasted Assault": {
       "name": "加速襲撃",
-      "description": "<p>君は自分の速度を上げて、より素早く動いたり攻撃したりすることができるようにする。君はヘイステッド・アソールト較差呪文を身につける。君の焦点化プールの焦点化ポイントを1増加する。</p>\n",
+      "description": "<p>君は自分の速度を上げて、より素早く動いたり攻撃したりすることができるようにする。君は@UUID[Compendium.pf2e.spells-srd.Item.3MzuRDc7ccylpW2e]{ヘイステッド・アソールト}較差呪文を身につける。君の焦点化プールの焦点化ポイントを1増加する。</p>\n",
       "prerequisites": [
         {
           "value": "焦点化プール"
@@ -10330,7 +10330,7 @@
     },
     "Heroic Recovery": {
       "name": "蘇る英雄",
-      "description": "<p>君の治癒の回復力は対象者を活気づける。君が次に使用するアクションが生きているクリーチャー1体を目標とした@UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{ヒール}を発動するために使用され、目標がこの呪文からヒット・ポイントを回復させたなら、目標は次の目標のターンの終了まで、以下の3つのボーナスを全て得る。移動速度に＋5フィートの状態ボーナス、攻撃ロールに＋1の状態ボーナス、ダメージ・ロールに＋1の状態ボーナス。</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.7ogytOgDmh4h2g5d]</p>",
+      "description": "<p>君の治癒の回復力は対象者を活気づける。君が次に使用するアクションが生きているクリーチャー1体を目標とした@UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{ヒール}を発動するために使用され、目標がこの呪文からヒット・ポイントを回復させたなら、目標は次の目標のターンの終了まで、以下の3つのボーナスを全て得る。移動速度に＋5フィートのステータスボーナス、攻撃ロールに＋1のステータスボーナス、ダメージ・ロールに＋1のステータスボーナス。</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.7ogytOgDmh4h2g5d]</p>",
       "prerequisites": [
         {
           "value": "治癒の泉"
@@ -11356,7 +11356,7 @@
     },
     "Inspiring Marshal Stance": {
       "name": "鼓舞するマーシャルの構え",
-      "description": "<p><b>アーキタイプ</b> マーシャル</p><p>君は戦闘に専念し平静を保つ輝かしい規範となり、味方にその声に従うよう鼓舞する。このアクションを使用する際、君は〈交渉〉判定を試みる。DCは通常、君のレベルの標準の難易度だが、GMは状況に応じて異なるDCを指定しても良い。効果は君の判定の結果に従って決まる。</p>\n<p><b>大成功</b> 君のマーシャルのオーラは20フィートの放射に拡大し、君とオーラ内の味方は攻撃ロールと精神効果に対するセーヴィング・スローに＋1の状態ボーナスを得る。</p>\n<p><b>成功</b> 大成功と同様だが、君のオーラは拡大しない。</p>\n<p><b>失敗</b> 君は構えに入るのに失敗する。</p>\n<p><b>大失敗</b> 君は構えに入れず、このアクションを1分間使用できない。</p><p>@UUID[Compendium.pf2e.feat-effects.Item.er5tvDNvpbcnlbHQ]</p><p>@Check[type:diplomacy|dc:@self.level|roller:self]</p><p>@Template[type:emanation|distance:20]</p>",
+      "description": "<p><b>アーキタイプ</b> マーシャル</p><p>君は戦闘に専念し平静を保つ輝かしい規範となり、味方にその声に従うよう鼓舞する。このアクションを使用する際、君は〈交渉〉判定を試みる。DCは通常、君のレベルの標準の難易度だが、GMは状況に応じて異なるDCを指定しても良い。効果は君の判定の結果に従って決まる。</p>\n<p><b>大成功</b> 君のマーシャルのオーラは20フィートの放射に拡大し、君とオーラ内の味方は攻撃ロールと精神効果に対するセーヴィング・スローに＋1のステータスボーナスを得る。</p>\n<p><b>成功</b> 大成功と同様だが、君のオーラは拡大しない。</p>\n<p><b>失敗</b> 君は構えに入るのに失敗する。</p>\n<p><b>大失敗</b> 君は構えに入れず、このアクションを1分間使用できない。</p><p>@UUID[Compendium.pf2e.feat-effects.Item.er5tvDNvpbcnlbHQ]</p><p>@Check[type:diplomacy|dc:@self.level|roller:self]</p><p>@Template[type:emanation|distance:20]</p>",
       "prerequisites": [
         {
           "value": "マーシャルへの専念"
@@ -11957,7 +11957,7 @@
     },
     "Kneecap": {
       "name": "膝崩し",
-      "description": "<p>君は敵の膝やすねなど、自分の手の届く範囲にある傷つきやすい体に懲罰的な打撃を与える。近接武器1つもしくは近接素手攻撃で“打撃”を1回行う。この攻撃はダメージを与えない。命中すると、目標は移動速度に対して－10フィートの状態ペナルティを受ける。クリティカル・ヒットの場合、移動速度に－15フィートの状態ペナルティを受ける。このペナルティは1ラウンド持続する。このペナルティは、目標が地上移動速度を持ち、その地上移動速度を使用するために脚またはその他の狙うことのできる付属肢が必要な場合にのみ適用される。移動速度に対するあらゆるペナルティと同様、この方法でクリーチャーの移動速度を5フィート未満に下げることはできない。</p>\n",
+      "description": "<p>君は敵の膝やすねなど、自分の手の届く範囲にある傷つきやすい体に懲罰的な打撃を与える。近接武器1つもしくは近接素手攻撃で“打撃”を1回行う。この攻撃はダメージを与えない。命中すると、目標は移動速度に対して－10フィートのステータスペナルティを受ける。クリティカル・ヒットの場合、移動速度に－15フィートのステータスペナルティを受ける。このペナルティは1ラウンド持続する。このペナルティは、目標が地上移動速度を持ち、その地上移動速度を使用するために脚またはその他の狙うことのできる付属肢が必要な場合にのみ適用される。移動速度に対するあらゆるペナルティと同様、この方法でクリーチャーの移動速度を5フィート未満に下げることはできない。</p>\n",
       "prerequisites": []
     },
     "Kneel for No God": {
@@ -12355,7 +12355,7 @@
     },
     "Leshy Familiar Secrets": {
       "name": "レーシーの使い魔の秘密",
-      "description": "<p>葉の円環の秘密により、君の使い魔はレーシーの姿をよりうまく扱えるようになる。君は毎日追加で使い魔能力を1つ選択できるが、これは以下のレーシーの使い魔能力の1つから選択しなければならない。君は一度にレーシーの使い魔能力を1つしか選択できない。</p>\n<p>触手圧潰／Grasping Tendrils 君の使い魔はツタや類似の触手を伸ばし、間合いを15フィートに伸ばす。</p>\n<p>空気の浄化／Purify Air 君の使い魔は空気を循環させ、密閉された部屋や異次元空間のような空気が停留する範囲で中型クリーチャー1体に十分な酸素を提供できる。レーシーが吸引毒あるいは嗅覚に関連する効果の範囲内にいるならば、レーシーから15フィートの放射内にいるクリーチャーはその効果に対するセーヴィング・スローに＋2の状況ボーナスを得る。</p>\n<p>緑の爆発／Verdant Burst 君の使い魔が死亡すると、3アクション版の@UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{ヒール}を発動したかのように始原のエネルギーを解き放つ。この効果は君の最も高いレベルの呪文スロットよりも1レベルだけ低い値に高レベル化される。この@UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{ヒール}呪文は植物のヒット・ポイント回復量に対して呪文レベルの2倍に等しい状態ボーナスを得る。この使い魔能力を選択するには、君は呪文スロットを使用して2レベル呪文を発動できなければならない。</p>\n<p>@UUID[Compendium.pf2e.familiar-abilities.Item.LUBS9csNNgRTui4p]</p><p>@UUID[Compendium.pf2e.familiar-abilities.Item.43xB5UnexISlfRa5]</p><p>@UUID[Compendium.pf2e.familiar-abilities.Item.SKIS1xexaOvrecdV]</p><p>@Template[type:emanation|distance:15]</p>",
+      "description": "<p>葉の円環の秘密により、君の使い魔はレーシーの姿をよりうまく扱えるようになる。君は毎日追加で使い魔能力を1つ選択できるが、これは以下のレーシーの使い魔能力の1つから選択しなければならない。君は一度にレーシーの使い魔能力を1つしか選択できない。</p>\n<p>触手圧潰／Grasping Tendrils 君の使い魔はツタや類似の触手を伸ばし、間合いを15フィートに伸ばす。</p>\n<p>空気の浄化／Purify Air 君の使い魔は空気を循環させ、密閉された部屋や異次元空間のような空気が停留する範囲で中型クリーチャー1体に十分な酸素を提供できる。レーシーが吸引毒あるいは嗅覚に関連する効果の範囲内にいるならば、レーシーから15フィートの放射内にいるクリーチャーはその効果に対するセーヴィング・スローに＋2の状況ボーナスを得る。</p>\n<p>緑の爆発／Verdant Burst 君の使い魔が死亡すると、3アクション版の@UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{ヒール}を発動したかのように始原のエネルギーを解き放つ。この効果は君の最も高いレベルの呪文スロットよりも1レベルだけ低い値に高レベル化される。この@UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{ヒール}呪文は植物のヒット・ポイント回復量に対して呪文レベルの2倍に等しいステータスボーナスを得る。この使い魔能力を選択するには、君は呪文スロットを使用して2レベル呪文を発動できなければならない。</p>\n<p>@UUID[Compendium.pf2e.familiar-abilities.Item.LUBS9csNNgRTui4p]</p><p>@UUID[Compendium.pf2e.familiar-abilities.Item.43xB5UnexISlfRa5]</p><p>@UUID[Compendium.pf2e.familiar-abilities.Item.SKIS1xexaOvrecdV]</p><p>@Template[type:emanation|distance:15]</p>",
       "prerequisites": [
         {
           "value": "葉の円環"
@@ -13180,7 +13180,7 @@
     },
     "Marshal Dedication": {
       "name": "マーシャルへの専念",
-      "description": "<p><b>アーキタイプ</b> マーシャル</p>\n<p>君は社交技術と戦闘訓練を組み合わせ、才能ある戦闘の指導者になった。〈威圧〉もしくは〈交渉〉を選択する。君はその技能を修得にする。もしその技能が既に修得なら、代わりに熟練にする。</p>\n<p>加えて、君は10フィート放射のマーシャルのオーラに覆われている。君のオーラは感情、精神、視覚の特性を持ち、君とオーラ内の味方に、恐怖に対するセーヴィング・スローに＋1の状態ボーナスを与える。</p>\n<p><b>特殊</b> マーシャル・アーキタイプから他に特技を2つ得るまで、君は他の専念特技を選択できない。</p><p>@UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.1F84oh5hoG86mZIw]</p><p>@UUID[Compendium.pf2e.feat-effects.Item.Ru4BNABCZ0hUbX7S]</p><p>@Template[type:emanation|distance:10]</p>",
+      "description": "<p><b>アーキタイプ</b> マーシャル</p>\n<p>君は社交技術と戦闘訓練を組み合わせ、才能ある戦闘の指導者になった。〈威圧〉もしくは〈交渉〉を選択する。君はその技能を修得にする。もしその技能が既に修得なら、代わりに熟練にする。</p>\n<p>加えて、君は10フィート放射のマーシャルのオーラに覆われている。君のオーラは感情、精神、視覚の特性を持ち、君とオーラ内の味方に、恐怖に対するセーヴィング・スローに＋1のステータスボーナスを与える。</p>\n<p><b>特殊</b> マーシャル・アーキタイプから他に特技を2つ得るまで、君は他の専念特技を選択できない。</p><p>@UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.1F84oh5hoG86mZIw]</p><p>@UUID[Compendium.pf2e.feat-effects.Item.Ru4BNABCZ0hUbX7S]</p><p>@Template[type:emanation|distance:10]</p>",
       "prerequisites": [
         {
           "value": "軍用武器の修得；〈威圧〉もしくは〈交渉〉の修得"
@@ -13967,7 +13967,7 @@
     },
     "Monk Moves": {
       "name": "モンクの移動",
-      "description": "<p>君は鎧を身に着けていない間、移動速度に＋10フィートの状態ボーナスを得る。</p>\n",
+      "description": "<p>君は鎧を身に着けていない間、移動速度に＋10フィートのステータスボーナスを得る。</p>\n",
       "prerequisites": [
         {
           "value": "モンクへの専念"
@@ -14270,7 +14270,7 @@
     },
     "Natural Magnetism": {
       "name": "Natural Magnetism",
-      "description": "<p>Your connection with elemental iron grants you a natural field of weak magnetic attraction. You can cast <em>@UUID[Compendium.pf2e.spells-srd.Item.Magnetic Attraction]</em> and <em>@UUID[Compendium.pf2e.spells-srd.Item.Magnetic Repulsion]</em> once per day each as 2nd-rank primal innate spells.</p>\n<hr />\n<p><strong>Special</strong> If you chose the gildedsoul lineage, you can replace one of the above spells with <em>@UUID[Compendium.pf2e.spells-srd.Item.Enthrall]</em>.</p><p>@UUID[Compendium.pf2e.spells-srd.Item.7dKtMehJ6YrXwJLR]</p><p>@UUID[Compendium.pf2e.spells-srd.Item.24U1b9K4Lj94cgaj]</p>"
+      "description": "<p>Your connection with elemental iron grants you a natural field of weak magnetic attraction. You can cast <em>@UUID[Compendium.pf2e.spells-srd.Item.Magnetic Attraction]</em> and <em>@UUID[Compendium.pf2e.spells-srd.Item.Magnetic Repulsion]</em> once per day each as 2nd-rank primal innate spells.</p>\n<hr />\n<p><strong>Special</strong> If you chose the gildedsoul lineage, you can replace one of the above spells with <em>@UUID[Compendium.pf2e.spells-srd.Item.Enthrall]</em>.</p>"
     },
     "Natural Medicine": {
       "name": "自然薬品",
@@ -14476,7 +14476,7 @@
     },
     "Nocturnal Kindred": {
       "name": "Nocturnal Kindred",
-      "description": "<p>You have an innate connection with other creatures of the night and understand some of them. You can ask questions of, receive answers from, and use Diplomacy with bats, rats, and wolves. You also gain a +1 circumstance bonus to @UUID[Compendium.pf2e.actionspf2e.Item.Make an Impression] on such animals.</p>\n<p>Once per day, you can cast <em>@UUID[Compendium.pf2e.spells-srd.Item.Animal Allies]</em> as a divine innate spell, using your class DC or spell DC, whichever is higher. The creatures it summons are bats, rats, and wolves. At 5th level and every 2 levels thereafter, the spell is heightened by an additional level, to a maximum of a 9th-level animal allies when you are 19th level.</p><p>@UUID[Compendium.pf2e.spells-srd.Item.Aap7nGpC7neTWm78]</p>"
+      "description": "<p>You have an innate connection with other creatures of the night and understand some of them. You can ask questions of, receive answers from, and use Diplomacy with bats, rats, and wolves. You also gain a +1 circumstance bonus to @UUID[Compendium.pf2e.actionspf2e.Item.Make an Impression] on such animals.</p>\n<p>Once per day, you can cast <em>@UUID[Compendium.pf2e.spells-srd.Item.Animal Allies]</em> as a divine innate spell, using your class DC or spell DC, whichever is higher. The creatures it summons are bats, rats, and wolves. At 5th level and every 2 levels thereafter, the spell is heightened by an additional level, to a maximum of a 9th-level animal allies when you are 19th level.</p>"
     },
     "Nocturnal Sense": {
       "name": "夜行感覚",
@@ -15618,7 +15618,7 @@
     },
     "Poison Resistance": {
       "name": "毒に対する抵抗",
-      "description": "<p>(アルケミスト) 有毒な試薬に繰り返しさらされたことで、君の体はあらゆる種類の毒に対して強靭になった。</p>\n<p>(ドルイド) 自然界への親和性により、君はその危険のいくばくかに対する防護を得る。</p>\n<hr />\n<p>君は自分のレベルの半分に等しい毒に対する抵抗を得る。加えて、君は毒に対するセーヴィング・スローに＋1の状態ボーナスを得る。</p>",
+      "description": "<p>(アルケミスト) 有毒な試薬に繰り返しさらされたことで、君の体はあらゆる種類の毒に対して強靭になった。</p>\n<p>(ドルイド) 自然界への親和性により、君はその危険のいくばくかに対する防護を得る。</p>\n<hr />\n<p>君は自分のレベルの半分に等しい毒に対する抵抗を得る。加えて、君は毒に対するセーヴィング・スローに＋1のステータスボーナスを得る。</p>",
       "prerequisites": []
     },
     "Poison Weapon": {
@@ -15975,7 +15975,7 @@
     },
     "Prismatic Scales": {
       "name": "Prismatic Scales",
-      "description": "<p>You can cause your scales to glow with scintillating, many-hued colors, protecting you from energy while dazzling foes. Once per day, you can cast <em>@UUID[Compendium.pf2e.spells-srd.Item.Prismatic Armor]</em> as an occult innate spell, except the spell alters the coloration of your scales instead of causing you to be clad in armor. This difference is cosmetic, and the spell has all the same effects as normal.</p><p>@UUID[Compendium.pf2e.spells-srd.Item.4nEY2BcV85wavKLO]</p>"
+      "description": "<p>You can cause your scales to glow with scintillating, many-hued colors, protecting you from energy while dazzling foes. Once per day, you can cast <em>@UUID[Compendium.pf2e.spells-srd.Item.Prismatic Armor]</em> as an occult innate spell, except the spell alters the coloration of your scales instead of causing you to be clad in armor. This difference is cosmetic, and the spell has all the same effects as normal.</p>"
     },
     "Pristine Weapon": {
       "name": "清純なる武器",
@@ -17174,7 +17174,7 @@
     },
     "Resilient Touch": {
       "name": "忍耐の接触",
-      "description": "<p>君の癒やしのエネルギーは刃や矢だけでなく、味方を守る防御のオーラを生み出す。君の@UUID[Compendium.pf2e.spells-srd.Item.zNN9212H2FGfM7VS]{レイ・オン・ハンズ}でヒット・ポイントを回復した味方は、次のその味方のターンの終了時まで、セーヴィング・スローに＋1の状態ボーナスを得る。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.6embuvXCpS3YOD5u]</p>",
+      "description": "<p>君の癒やしのエネルギーは刃や矢だけでなく、味方を守る防御のオーラを生み出す。君の@UUID[Compendium.pf2e.spells-srd.Item.zNN9212H2FGfM7VS]{レイ・オン・ハンズ}でヒット・ポイントを回復した味方は、次のその味方のターンの終了時まで、セーヴィング・スローに＋1のステータスボーナスを得る。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.6embuvXCpS3YOD5u]</p>",
       "prerequisites": [
         {
           "value": "祈祷呪文：レイ・オン・ハンズ"
@@ -17201,7 +17201,7 @@
     },
     "Resounding Bravery": {
       "name": "目覚ましき武勇",
-      "description": "<p>恐怖でさえも君の闘志の燃料になる。君が敵の能力に対する意志セーヴに大成功したなら、1分の間、君はセーヴに＋1の状態ボーナスとレベルの半分に等しい一時的ヒット・ポイントを得る。君が恐怖効果に対して大成功したなら、これらの利益は2倍になる。</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.NMmsJyeMTawpgLVR]</p><p>@UUID[Compendium.pf2e.feat-effects.Item.Cumdy84uIkUHG9zF]</p>",
+      "description": "<p>恐怖でさえも君の闘志の燃料になる。君が敵の能力に対する意志セーヴに大成功したなら、1分の間、君はセーヴに＋1のステータスボーナスとレベルの半分に等しい一時的ヒット・ポイントを得る。君が恐怖効果に対して大成功したなら、これらの利益は2倍になる。</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.NMmsJyeMTawpgLVR]</p><p>@UUID[Compendium.pf2e.feat-effects.Item.Cumdy84uIkUHG9zF]</p>",
       "prerequisites": [
         {
           "value": "武勇"
@@ -17659,7 +17659,7 @@
     },
     "Runic Impression": {
       "name": "ルーン押印",
-      "description": "<p>君は自分の武器あるいは素手攻撃に性質ルーンの効果を一時的に複製できる。君はルーニック・インプレッション較差呪文を身につける。君の焦点化プールの焦点化ポイントを1増加する。</p>\n",
+      "description": "<p>君は自分の武器あるいは素手攻撃に性質ルーンの効果を一時的に複製できる。君は@UUID[Compendium.pf2e.spells-srd.Item.oOaEfsdVpgTXRhrY]{ルーニック・インプレッション}較差呪文を身につける。君の焦点化プールの焦点化ポイントを1増加する。</p>\n",
       "prerequisites": [
         {
           "value": "焦点化プール"
@@ -17702,7 +17702,7 @@
     },
     "Sacral Monarch": {
       "name": "Sacral Monarch",
-      "description": "<p>You have come into your full powers and are truly a monarch of your realm, by your own definition at least. While in your territory, you can cast <em>@UUID[Compendium.pf2e.spells-srd.Item.Banishment]</em> and <em>@UUID[Compendium.pf2e.spells-srd.Item.Inevitable Disaster]</em> as innate divine spells, each once per day.</p><p>@UUID[Compendium.pf2e.spells-srd.Item.8THDHP0UC7SgOYYF]</p>"
+      "description": "<p>You have come into your full powers and are truly a monarch of your realm, by your own definition at least. While in your territory, you can cast <em>@UUID[Compendium.pf2e.spells-srd.Item.Banishment]</em> and <em>@UUID[Compendium.pf2e.spells-srd.Item.Inevitable Disaster]</em> as innate divine spells, each once per day.</p>"
     },
     "Sacred Armaments": {
       "name": "Sacred Armaments",
@@ -17822,7 +17822,7 @@
     },
     "Scamper": {
       "name": "遁走",
-      "description": "<p>使用条件 君は1体以上の敵に隣接している。</p><p>君は本能的に危険から逃れる方法を知っている。君は移動速度に＋5の状態ボーナスを得て、移動速度まで“歩行”し、この移動をトリガーとするリアクションに対するACに＋2の状況ボーナスを得る。君はこの移動を敵に隣接していないマスで終了しなければならない。</p>\n",
+      "description": "<p>使用条件 君は1体以上の敵に隣接している。</p><p>君は本能的に危険から逃れる方法を知っている。君は移動速度に＋5のステータスボーナスを得て、移動速度まで“歩行”し、この移動をトリガーとするリアクションに対するACに＋2の状況ボーナスを得る。君はこの移動を敵に隣接していないマスで終了しなければならない。</p>\n",
       "prerequisites": []
     },
     "Scapegoat Parallel Self": {
@@ -17967,7 +17967,7 @@
     },
     "Scout's Speed": {
       "name": "斥候速度",
-      "description": "<p><b>アーキタイプ</b> スカウト</p>\n<p>君は特に長距離移動でより速く動き、味方の速度を落とすことなく前方を偵察して報告することができる。君は移動速度に＋10フィートの状態ボーナスを得る。君の旅程速度を計算する目的において、このボーナスは＋20フィートの状態ボーナスへと増加する。</p>",
+      "description": "<p><b>アーキタイプ</b> スカウト</p>\n<p>君は特に長距離移動でより速く動き、味方の速度を落とすことなく前方を偵察して報告することができる。君は移動速度に＋10フィートのステータスボーナスを得る。君の旅程速度を計算する目的において、このボーナスは＋20フィートのステータスボーナスへと増加する。</p>",
       "prerequisites": [
         {
           "value": "スカウトへの専念"
@@ -18371,7 +18371,7 @@
     },
     "Shadow Spell": {
       "name": "呪文影化",
-      "description": "<p>君は自分の影の一部を呪文に付与し、感覚を曇らせて被害を与える。次の君のアクションが影特性を持つ呪文の“呪文発動”のために使用されたなら、この呪文が効果を及ぼすクリーチャー1体を選ぶ。このクリーチャーは〈隠密〉に＋2の状態ボーナスを得るか、もしくは知覚に－2の状態ペナルティを受ける（君がいずれか1つを選択する）。この効果は1ラウンド持続する。この選択と効果の適用は、呪文の最初の効果が解決された後に適用される。選択したクリーチャーが君の敵ならば、この効果は呪文攻撃ロールが成功したかセーヴィング・スローに失敗した時にのみ適用される。</p><p>君が《呪文影化》を再度使用すると、前の《呪文影化》の効果は終了する。</p>",
+      "description": "<p>君は自分の影の一部を呪文に付与し、感覚を曇らせて被害を与える。次の君のアクションが影特性を持つ呪文の“呪文発動”のために使用されたなら、この呪文が効果を及ぼすクリーチャー1体を選ぶ。このクリーチャーは〈隠密〉に＋2のステータスボーナスを得るか、もしくは知覚に－2のステータスペナルティを受ける（君がいずれか1つを選択する）。この効果は1ラウンド持続する。この選択と効果の適用は、呪文の最初の効果が解決された後に適用される。選択したクリーチャーが君の敵ならば、この効果は呪文攻撃ロールが成功したかセーヴィング・スローに失敗した時にのみ適用される。</p><p>君が《呪文影化》を再度使用すると、前の《呪文影化》の効果は終了する。</p>",
       "prerequisites": [
         {
           "value": "シャドウキャスターへの専念"
@@ -18380,7 +18380,7 @@
     },
     "Shadow Spells": {
       "name": "影の呪文",
-      "description": "<p>隠された闇が君に囁き、君の体系を用いる他の術者を超えた影の秘密を教えてくれる。君はシャドウ・アーミィ、@UUID[Compendium.pf2e.spells-srd.Item.rxvS7EMJ7qmexAyA]{シャドウ・ウォーク}、@UUID[Compendium.pf2e.spells-srd.Item.tcwT97RWKxsJiefG]{シャドウ・サイフォン}、@UUID[Compendium.pf2e.spells-srd.Item.IqJ9URobmJ9L9UBG]{シャドウ・ブラスト}、シャドウ・プロジェクティル、シャドウ・レイド、レプリケイトを君の呪文リストに加える。この結果、通常君の体系にこれらの呪文が含まれていない場合でも、君はこれらの呪文を身につけられるようになる。</p><p>@UUID[Compendium.pf2e.spells-srd.Item.hvKtmoHwekDZ5iOH]</p><p>@UUID[Compendium.pf2e.spells-srd.Item.8cuqRFB3mWBOgy61]</p><p>@UUID[Compendium.pf2e.spells-srd.Item.VTb0yI6P1bLkzuRr]</p>",
+      "description": "<p>隠された闇が君に囁き、君の体系を用いる他の術者を超えた影の秘密を教えてくれる。君は@UUID[Compendium.pf2e.spells-srd.Item.hvKtmoHwekDZ5iOH]{シャドウ・アーミィ}、@UUID[Compendium.pf2e.spells-srd.Item.rxvS7EMJ7qmexAyA]{シャドウ・ウォーク}、@UUID[Compendium.pf2e.spells-srd.Item.tcwT97RWKxsJiefG]{シャドウ・サイフォン}、@UUID[Compendium.pf2e.spells-srd.Item.IqJ9URobmJ9L9UBG]{シャドウ・ブラスト}、@UUID[Compendium.pf2e.spells-srd.Item.8cuqRFB3mWBOgy61]{シャドウ・プロジェクティル}、@UUID[Compendium.pf2e.spells-srd.Item.VTb0yI6P1bLkzuRr]{シャドウ・レイド}、レプリケイトを君の呪文リストに加える。この結果、通常君の体系にこれらの呪文が含まれていない場合でも、君はこれらの呪文を身につけられるようになる。</p>",
       "prerequisites": [
         {
           "value": "シャドウキャスターへの専念"
@@ -18665,7 +18665,7 @@
     },
     "Shield Of Faith": {
       "name": "信仰の盾",
-      "description": "<p>領域呪文の残留エネルギーは君の防御力を高める。君が領域呪文を発動するために焦点化ポイントを消費したなら、君は次の自分のターンの開始時までACに＋1の状態ボーナスを得る。</p>\n",
+      "description": "<p>領域呪文の残留エネルギーは君の防御力を高める。君が領域呪文を発動するために焦点化ポイントを消費したなら、君は次の自分のターンの開始時までACに＋1のステータスボーナスを得る。</p>\n",
       "prerequisites": [
         {
           "value": "領域への入門"
@@ -19497,7 +19497,7 @@
     },
     "Soaring Shape": {
       "name": "天翔けの化身",
-      "description": "<p>翼は君を足元の地面という枷から解放した。ワイルド・シェイプの一覧に@UUID[Compendium.pf2e.spells-srd.Item.NzXpEzcZAjuDTZjK]{エアリアル・フォーム}のバットとバードを追加する。</p>\n<p>君が《@UUID[Compendium.pf2e.feats-srd.Item.OWedlrKGsVZVkSnT]{蟲の化身}》を有しているなら、ワイルド・シェイプの一覧にワスプ形態も追加する。君が《@UUID[Compendium.pf2e.feats-srd.Item.Le30algCdKIsxmeK]{獰猛さの化身}》を有しているなら、ワイルド・シェイプの一覧にプテラソー（翼竜）形態も追加する。君がワイルド・シェイプを使用して特別な〈軽業〉修正値を与える形態をとったなら、君は〈軽業〉判定に＋1の状態ボーナスを得る。</p>\n",
+      "description": "<p>翼は君を足元の地面という枷から解放した。ワイルド・シェイプの一覧に@UUID[Compendium.pf2e.spells-srd.Item.NzXpEzcZAjuDTZjK]{エアリアル・フォーム}のバットとバードを追加する。</p>\n<p>君が《@UUID[Compendium.pf2e.feats-srd.Item.OWedlrKGsVZVkSnT]{蟲の化身}》を有しているなら、ワイルド・シェイプの一覧にワスプ形態も追加する。君が《@UUID[Compendium.pf2e.feats-srd.Item.Le30algCdKIsxmeK]{獰猛さの化身}》を有しているなら、ワイルド・シェイプの一覧にプテラソー（翼竜）形態も追加する。君がワイルド・シェイプを使用して特別な〈軽業〉修正値を与える形態をとったなら、君は〈軽業〉判定に＋1のステータスボーナスを得る。</p>\n",
       "prerequisites": [
         {
           "value": "自然の化身"
@@ -19773,7 +19773,7 @@
     },
     "Spell Penetration": {
       "name": "抵抗破り",
-      "description": "<p>君は、竜、異世界の存在、その他特定の強力なクリーチャーが持つ、生来の魔法への抵抗を克服する方法を研究した。魔法に対するセーヴィング・スローに状態ボーナスを持つクリーチャーは、君の呪文に対してそのボーナスを1だけ減少させる。</p>\n",
+      "description": "<p>君は、竜、異世界の存在、その他特定の強力なクリーチャーが持つ、生来の魔法への抵抗を克服する方法を研究した。魔法に対するセーヴィング・スローにステータスボーナスを持つクリーチャーは、君の呪文に対してそのボーナスを1だけ減少させる。</p>\n",
       "prerequisites": []
     },
     "Spell Relay": {
@@ -19783,7 +19783,7 @@
     },
     "Spell-Repelling Form": {
       "name": "呪文排斥個体",
-      "description": "<p>君の幻獣は呪文から与えられる危険から自分を守るように進化した。幻獣は魔法に対する全てのセーヴィング・スローに＋1の状態ボーナスを得る。</p>\n",
+      "description": "<p>君の幻獣は呪文から与えられる危険から自分を守るように進化した。幻獣は魔法に対する全てのセーヴィング・スローに＋1のステータスボーナスを得る。</p>\n",
       "prerequisites": []
     },
     "Spell Runes": {
@@ -19921,7 +19921,7 @@
     },
     "Spirit's Wrath": {
       "name": "霊の怒り",
-      "description": "<p>君は祖先の霊や自然精霊といった儚い霊を呼び下ろし、人魂の形を取らせる。この霊魂は君から120フィート以内にいる敵1体に対して、霊追の近接素手攻撃を1回行う。霊魂の攻撃修正値は君の軍用武器に対する習熟ボーナス＋君の【筋力】修正値＋2のアイテム・ボーナスに等しく。君が受けている状況ボーナス、状況ペナルティ、状態ボーナス、状態ペナルティを同じ値だけ適用する。命中すると、霊魂は4d8＋君の【耐久力】修正値に等しいダメージを与える。このダメージは君が選択した［正のエネルギー］もしくは［負のエネルギー］ダメージである。“激怒”ダメージや武器開眼によるダメージは適用されないが、君が受けている状況ボーナス、状況ペナルティ、状態ボーナス、状態ペナルティは霊魂のダメージにも適用される。霊魂の“打撃”がクリティカル・ヒット舌なら、目標は@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{恐れ状態1}となる。この攻撃は君が攻撃を1回行ったかのように、君の複数回攻撃ペナルティにおいて攻撃として数えられる。</p>\n<p>[[/r (4d8+@actor.abilities.con.mod)[void]]]</p><p>[[/r (4d8+@actor.abilities.con.mod)[vitality]]]</p>",
+      "description": "<p>君は祖先の霊や自然精霊といった儚い霊を呼び下ろし、人魂の形を取らせる。この霊魂は君から120フィート以内にいる敵1体に対して、霊追の近接素手攻撃を1回行う。霊魂の攻撃修正値は君の軍用武器に対する習熟ボーナス＋君の【筋力】修正値＋2のアイテム・ボーナスに等しく。君が受けている状況ボーナス、状況ペナルティ、ステータスボーナス、ステータスペナルティを同じ値だけ適用する。命中すると、霊魂は4d8＋君の【耐久力】修正値に等しいダメージを与える。このダメージは君が選択した［正のエネルギー］もしくは［負のエネルギー］ダメージである。“激怒”ダメージや武器開眼によるダメージは適用されないが、君が受けている状況ボーナス、状況ペナルティ、ステータスボーナス、ステータスペナルティは霊魂のダメージにも適用される。霊魂の“打撃”がクリティカル・ヒット舌なら、目標は@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{恐れ状態1}となる。この攻撃は君が攻撃を1回行ったかのように、君の複数回攻撃ペナルティにおいて攻撃として数えられる。</p>\n<p>[[/r (4d8+@actor.abilities.con.mod)[void]]]</p><p>[[/r (4d8+@actor.abilities.con.mod)[vitality]]]</p>",
       "prerequisites": [
         {
           "value": "霊の天性"
@@ -20332,7 +20332,7 @@
     },
     "Stoked Flame Stance": {
       "name": "焚炎の構え",
-      "description": "<p><strong>必要条件</strong> 君は鎧を着用していない。</p>\n<hr />\n<p>君は速く激しい動きの構えに入る。君は1d8の［斬撃］ダメージを与える燐明拳／flashing sparkによる攻撃を行える。燐明拳は剛腕種に属し、加圧、非致傷、薙ぎ、素手の特性を持つ。君が燐明拳のクリティカル開眼効果を使用できるから、君は代わりに代替効果として「君のクリティカル・ヒットした“打撃”がダメージを与えたなら、目標は1d6の持続［火炎］ダメージを受ける」を得ても良い。</p>\n<p>《焚炎の構え》に入っている間、君は移動速度に＋5フィートの状態ボーナスを得る。君が驚異的な移動を有しているなら、驚異的な移動による利益は「＋15フィートの状態ボーナス（3レベルを超える4レベル毎にこの状態ボーナスは5フィートずつ増加する）」に向上する。</p>\n<p><b>特殊</b> この特技は君が選択した信仰あるいは伝承のいずれかの特性を得る。君が練気呪文を発動できるなら、それに対応したいずれかの特性を得ること。</p><p>@UUID[Compendium.pf2e.feat-effects.Item.rp1YauUSULuqW8rs]</p>",
+      "description": "<p><strong>必要条件</strong> 君は鎧を着用していない。</p>\n<hr />\n<p>君は速く激しい動きの構えに入る。君は1d8の［斬撃］ダメージを与える燐明拳／flashing sparkによる攻撃を行える。燐明拳は剛腕種に属し、加圧、非致傷、薙ぎ、素手の特性を持つ。君が燐明拳のクリティカル開眼効果を使用できるから、君は代わりに代替効果として「君のクリティカル・ヒットした“打撃”がダメージを与えたなら、目標は1d6の持続［火炎］ダメージを受ける」を得ても良い。</p>\n<p>《焚炎の構え》に入っている間、君は移動速度に＋5フィートのステータスボーナスを得る。君が驚異的な移動を有しているなら、驚異的な移動による利益は「＋15フィートのステータスボーナス（3レベルを超える4レベル毎にこのステータスボーナスは5フィートずつ増加する）」に向上する。</p>\n<p><b>特殊</b> この特技は君が選択した信仰あるいは伝承のいずれかの特性を得る。君が練気呪文を発動できるなら、それに対応したいずれかの特性を得ること。</p><p>@UUID[Compendium.pf2e.feat-effects.Item.rp1YauUSULuqW8rs]</p>",
       "prerequisites": []
     },
     "Stone Blood (Stonebound)": {
@@ -20382,7 +20382,7 @@
     },
     "Stonebound Magic": {
       "name": "Stonebound Magic",
-      "description": "<p>You've learned to manifest your connection to stone by conjuring it to your side. You gain <em>@UUID[Compendium.pf2e.spells-srd.Item.Scatter Scree]</em> as a primal innate cantrip. At 8th level, you gain <em>@UUID[Compendium.pf2e.spells-srd.Item.One with Stone]</em> as a primal innate spell once per day. At 10th level, you gain <em>@UUID[Compendium.pf2e.spells-srd.Item.Shape Stone]</em> as a primal innate spell once per day. At 12th level, you gain <em>@UUID[Compendium.pf2e.spells-srd.Item.Wall of Stone]</em> as a primal innate spell once per day.</p><p>@UUID[Compendium.pf2e.spells-srd.Item.zA0jNIBRgLsyTpbm]</p>"
+      "description": "<p>You've learned to manifest your connection to stone by conjuring it to your side. You gain <em>@UUID[Compendium.pf2e.spells-srd.Item.Scatter Scree]</em> as a primal innate cantrip. At 8th level, you gain <em>@UUID[Compendium.pf2e.spells-srd.Item.One with Stone]</em> as a primal innate spell once per day. At 10th level, you gain <em>@UUID[Compendium.pf2e.spells-srd.Item.Shape Stone]</em> as a primal innate spell once per day. At 12th level, you gain <em>@UUID[Compendium.pf2e.spells-srd.Item.Wall of Stone]</em> as a primal innate spell once per day.</p>"
     },
     "Stonecunning": {
       "name": "石工の勘",
@@ -21021,7 +21021,7 @@
     },
     "Swashbuckler's Speed": {
       "name": "スワッシュバックラーの速度",
-      "description": "<p><b>アーキタイプ</b> スワッシュバックラー</p>\n<p>君は@UUID[Compendium.pf2e.classfeatures.Item.LzYi0OuOoypNb6jd]{心意気}の有無に関わらず、より早く動く。君が@UUID[Compendium.pf2e.classfeatures.Item.LzYi0OuOoypNb6jd]{心意気}を持つなら、君の移動速度への状態ボーナスは＋10フィートの状態ボーナスに増加する。君が@UUID[Compendium.pf2e.classfeatures.Item.LzYi0OuOoypNb6jd]{心意気}を持たない場合でも、君は移動速度に＋5フィートの状態ボーナスを得る。</p>",
+      "description": "<p><b>アーキタイプ</b> スワッシュバックラー</p>\n<p>君は@UUID[Compendium.pf2e.classfeatures.Item.LzYi0OuOoypNb6jd]{心意気}の有無に関わらず、より早く動く。君が@UUID[Compendium.pf2e.classfeatures.Item.LzYi0OuOoypNb6jd]{心意気}を持つなら、君の移動速度へのステータスボーナスは＋10フィートのステータスボーナスに増加する。君が@UUID[Compendium.pf2e.classfeatures.Item.LzYi0OuOoypNb6jd]{心意気}を持たない場合でも、君は移動速度に＋5フィートのステータスボーナスを得る。</p>",
       "prerequisites": [
         {
           "value": "スワッシュバックラーへの専念"
@@ -21056,7 +21056,7 @@
     },
     "Swift River": {
       "name": "川の流れのように",
-      "description": "<p><strong>トリガー</strong> 君のターン終了時に、君が移動速度への状態ペナルティを有しているか、@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{動けない状態}または@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{減速状態}である。</p>\n<p>君は水のように流れ、全ての拘束を避けることができる。君が受けている移動速度に対する状態ペナルティを1つ終了させる。もしくは、君に影響を与えている@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{動けない状態}または@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{減速状態}の1つを終了させる。</p>\n",
+      "description": "<p><strong>トリガー</strong> 君のターン終了時に、君が移動速度へのステータスペナルティを有しているか、@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{動けない状態}または@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{減速状態}である。</p>\n<p>君は水のように流れ、全ての拘束を避けることができる。君が受けている移動速度に対するステータスペナルティを1つ終了させる。もしくは、君に影響を与えている@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{動けない状態}または@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{減速状態}の1つを終了させる。</p>\n",
       "prerequisites": []
     },
     "Swift Sneak": {
@@ -21285,7 +21285,7 @@
     },
     "Targeting Finisher": {
       "name": "部位狙いの終撃",
-      "description": "<p>君の攻撃は敵を傷つけ行動を阻害する。以下の一覧から敵の特定の部位を1つ選び“打撃”を行う。命中して目標にダメージを与えたなら、選択した部位に対応した効果を適用する。この阻害は次の君のターンの終了時まで持続する。クリティカル・ヒットの場合、通常の命中に加えて1分間より小さい効果を適用する。</p>\n<p> 腕（あるいは職種など、攻撃に使用される肢） 目標は@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{虚弱状態}2になる。クリティカル・ヒットの場合、目標は1分間@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{虚弱状態}1になる。</p>\n<p> 頭 目標は@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{知性低下状態}2になる。クリティカル・ヒットの場合、目標は1分間@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{知性低下状態}1になる。</p>\n<p> 脚 目標は移動速度に－10フィートの状態ペナルティを受ける。クリティカル・ヒットの場合、目標は1分間、移動速度に－5フィートの状態ペナルティを受ける。</p>\n",
+      "description": "<p>君の攻撃は敵を傷つけ行動を阻害する。以下の一覧から敵の特定の部位を1つ選び“打撃”を行う。命中して目標にダメージを与えたなら、選択した部位に対応した効果を適用する。この阻害は次の君のターンの終了時まで持続する。クリティカル・ヒットの場合、通常の命中に加えて1分間より小さい効果を適用する。</p>\n<p> 腕（あるいは職種など、攻撃に使用される肢） 目標は@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{虚弱状態}2になる。クリティカル・ヒットの場合、目標は1分間@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{虚弱状態}1になる。</p>\n<p> 頭 目標は@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{知性低下状態}2になる。クリティカル・ヒットの場合、目標は1分間@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{知性低下状態}1になる。</p>\n<p> 脚 目標は移動速度に－10フィートのステータスペナルティを受ける。クリティカル・ヒットの場合、目標は1分間、移動速度に－5フィートのステータスペナルティを受ける。</p>\n",
       "prerequisites": []
     },
     "Targeting Shot": {
@@ -21524,7 +21524,7 @@
     },
     "Thaumaturge's Demesne": {
       "name": "Thaumaturge's Demesne",
-      "description": "<p>You have claimed an area or location as your demesne, granting you the ability to ward and protect it. When you select this feat, choose a demesne, an area of no more than 2,000 square feet. You must legitimately own the area or, if its a public area, you must lay claim to the area without anyone contesting it.</p>\n<p>Once you've chosen your demesne, it's automatically protected by an arcane <em>@UUID[Compendium.pf2e.spells-srd.Item.Private Sanctum]</em> spell with an unlimited duration, heightened to half your level rounded up and using your thaumaturge class DC in place of a spell DC, if necessary. Additionally, the demesne is attended by three unseen custodians, as a successful <em>@UUID[Compendium.pf2e.spells-srd.Item.Unseen Custodians]</em> ritual, and one object in the area gains an elemental sentinel, as a successful <em>@UUID[Compendium.pf2e.spells-srd.Item.Elemental Sentinel]</em> ritual.</p><p>@UUID[Compendium.pf2e.spells-srd.Item.rOwOLlfVgLMg1FND]</p>"
+      "description": "<p>You have claimed an area or location as your demesne, granting you the ability to ward and protect it. When you select this feat, choose a demesne, an area of no more than 2,000 square feet. You must legitimately own the area or, if its a public area, you must lay claim to the area without anyone contesting it.</p>\n<p>Once you've chosen your demesne, it's automatically protected by an arcane <em>@UUID[Compendium.pf2e.spells-srd.Item.Private Sanctum]</em> spell with an unlimited duration, heightened to half your level rounded up and using your thaumaturge class DC in place of a spell DC, if necessary. Additionally, the demesne is attended by three unseen custodians, as a successful <em>@UUID[Compendium.pf2e.spells-srd.Item.Unseen Custodians]</em> ritual, and one object in the area gains an elemental sentinel, as a successful <em>@UUID[Compendium.pf2e.spells-srd.Item.Elemental Sentinel]</em> ritual.</p>"
     },
     "Thaumaturge's Investiture": {
       "name": "Thaumaturge's Investiture",
@@ -21672,7 +21672,7 @@
     },
     "Timber Sentinel": {
       "name": "Timber Sentinel",
-      "description": "<p>A slim, symmetrical tree travels from the Plane of Wood. You conjure a tree within 30 feet, as a <em>@UUID[Compendium.pf2e.spells-srd.Item.Protector Tree]</em> spell of a rank equal to half your level rounded up. If you use this impulse again, any previous one ends, and an ordinary tree remains.</p><p>@UUID[Compendium.pf2e.spells-srd.Item.K9gI08enGtmih5X1]</p>"
+      "description": "<p>A slim, symmetrical tree travels from the Plane of Wood. You conjure a tree within 30 feet, as a <em>@UUID[Compendium.pf2e.spells-srd.Item.Protector Tree]</em> spell of a rank equal to half your level rounded up. If you use this impulse again, any previous one ends, and an ordinary tree remains.</p>"
     },
     "Time Dilation Cascade": {
       "name": "Time Dilation Cascade",
@@ -21684,12 +21684,12 @@
     },
     "Timeless Body": {
       "name": "時知らずの肉体",
-      "description": "<p>君は加齢しなくなる。加えて、君は毒と病気に対するセーヴィング・スローに＋2の状態ボーナスと、レベルの半分に等しい［毒］ダメージへの抵抗を得る。</p>\n",
+      "description": "<p>君は加齢しなくなる。加えて、君は毒と病気に対するセーヴィング・スローに＋2のステータスボーナスと、レベルの半分に等しい［毒］ダメージへの抵抗を得る。</p>\n",
       "prerequisites": []
     },
     "Timeless Nature": {
       "name": "時知らずの生態",
-      "description": "<p>始原魔法は君を保全し、加齢を抑える。溢れ出る始原エネルギーにより、君は病気と始原魔法に対するセーヴに＋2の状態ボーナスを得る。</p>\n",
+      "description": "<p>始原魔法は君を保全し、加齢を抑える。溢れ出る始原エネルギーにより、君は病気と始原魔法に対するセーヴに＋2のステータスボーナスを得る。</p>\n",
       "prerequisites": []
     },
     "Timeline-Splitting Spell": {
@@ -21955,7 +21955,7 @@
     },
     "Tree's Ward": {
       "name": "Tree's Ward",
-      "description": "<p>You've lived among trees for so long they recognize your presence and seek to protect you from harm. You can cast <em>@UUID[Compendium.pf2e.spells-srd.Item.Protector Tree]</em> as a primal innate spell once per day.</p><p>@UUID[Compendium.pf2e.spells-srd.Item.K9gI08enGtmih5X1]</p>"
+      "description": "<p>You've lived among trees for so long they recognize your presence and seek to protect you from harm. You can cast <em>@UUID[Compendium.pf2e.spells-srd.Item.Protector Tree]</em> as a primal innate spell once per day.</p>"
     },
     "Treespeech": {
       "name": "Treespeech",
@@ -22057,7 +22057,7 @@
     },
     "True Debilitating Bomb": {
       "name": "真の衰弱爆弾",
-      "description": "<p>常に創意工夫を凝らした結果、君は爆弾で敵を妨害するために、ますます破壊的な方法を見つけ出した。君が《@UUID[Compendium.pf2e.feats-srd.Item.sv4LeEbkOJyLen10]{衰弱爆弾}》を使用する際、選択できる効果の一覧に以下を加える：@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{虚弱状態}2、@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{知性低下状態}2、移動速度に－15フィートの状態ペナルティ。君が代わりに《@UUID[Compendium.pf2e.feats-srd.Item.sv4LeEbkOJyLen10]{衰弱爆弾}》に記載された効果を適用した場合、目標はセーヴィング・スローに大成功しなければその効果を受ける。</p>\n",
+      "description": "<p>常に創意工夫を凝らした結果、君は爆弾で敵を妨害するために、ますます破壊的な方法を見つけ出した。君が《@UUID[Compendium.pf2e.feats-srd.Item.sv4LeEbkOJyLen10]{衰弱爆弾}》を使用する際、選択できる効果の一覧に以下を加える：@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{虚弱状態}2、@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{知性低下状態}2、移動速度に－15フィートのステータスペナルティ。君が代わりに《@UUID[Compendium.pf2e.feats-srd.Item.sv4LeEbkOJyLen10]{衰弱爆弾}》に記載された効果を適用した場合、目標はセーヴィング・スローに大成功しなければその効果を受ける。</p>\n",
       "prerequisites": [
         {
           "value": "上級衰弱爆弾"
@@ -23100,7 +23100,7 @@
     },
     "Violent Vines": {
       "name": "Violent Vines",
-      "description": "<p>When angered, you can imbue nearby vines with your wrath, provoking them into a murderous rampage. Once per hour, you can cast <em>@UUID[Compendium.pf2e.spells-srd.Item.Murderous Vine]</em> as a primal innate spell.</p><p>@UUID[Compendium.pf2e.spells-srd.Item.kCgkreCT6g0dipMd]</p>"
+      "description": "<p>When angered, you can imbue nearby vines with your wrath, provoking them into a murderous rampage. Once per hour, you can cast <em>@UUID[Compendium.pf2e.spells-srd.Item.Murderous Vine]</em> as a primal innate spell.</p>"
     },
     "Viper Strike": {
       "name": "Viper Strike",
@@ -23384,7 +23384,7 @@
     },
     "Watch Your Back": {
       "name": "恐怖煽り",
-      "description": "<p>君は目標を威嚇し、恐怖心を煽り、注意を引く。30フィート以内にいる目標1体を目標として、意志DCに対して〈威圧〉判定を試みる。君が成功したなら、1分の間、その目標は君に対する知覚判定に＋2の状態ボーナスを得るが、恐怖効果に対する意志セーヴに－2の状態ペナルティを受ける。</p>\n<p>@Check[type:intimidation|defense:will]</p>",
+      "description": "<p>君は目標を威嚇し、恐怖心を煽り、注意を引く。30フィート以内にいる目標1体を目標として、意志DCに対して〈威圧〉判定を試みる。君が成功したなら、1分の間、その目標は君に対する知覚判定に＋2のステータスボーナスを得るが、恐怖効果に対する意志セーヴに－2のステータスペナルティを受ける。</p>\n<p>@Check[type:intimidation|defense:will]</p>",
       "prerequisites": [
         {
           "value": "〈威圧〉の修得"
