@@ -68,6 +68,14 @@
          "path": "./packs/dragonborn.db",
          "type": "Item",
          "module": "z_pf2eja"
+       },
+       {
+         "name": "pf2eja-summary",
+         "system": "pf2e",
+         "label": "サマリー集",
+         "path": "./packs/pf2eja-summary.db",
+         "type": "JournalEntry",
+         "module": "z_pf2eja"
        }
     ],
     "relationships": {
